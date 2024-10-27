@@ -1,0 +1,3 @@
+node_modules
+blackarch/.vitepress/cache/*
+blackarch/.vitepress/dist/*

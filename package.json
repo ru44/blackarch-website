@@ -1,0 +1,14 @@
+{
+  "name": "blackarch-website",
+  "version": "2.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vitepress dev blackarch",
+    "build": "vitepress build blackarch",
+    "preview": "vitepress preview blackarch"
+  },
+  "devDependencies": {
+    "vitepress": "1.1.4",
+    "vue": "^3.5.12"
+  }
+}
