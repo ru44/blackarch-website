@@ -17,6 +17,11 @@ export default defineConfig({
   description:
     "BlackArch Linux is a penetration testing distribution for penetration testers and security researchers.",
   lastUpdated: true,
+  markdown: {
+    image: {
+      lazyLoading: true,
+    },
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     editLink: {
