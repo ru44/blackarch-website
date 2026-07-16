@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/blackarch-demo/",
+  base: "/blackarch-website/",
   title: "BlackArch Linux",
   head: [
     [
@@ -10,7 +10,7 @@ export default defineConfig({
       {
         rel: "icon",
         type: "image/x-icon",
-        href: "/blackarch-demo/favicon.ico",
+        href: "/blackarch-website/favicon.ico",
       },
     ],
   ],
@@ -20,7 +20,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     editLink: {
-      pattern: "https://github.com/ru44/blackarch-demo/edit/main/src/:path",
+      pattern: "https://github.com/ru44/blackarch-website/edit/main/src/:path",
       text: "Edit this page on GitHub",
     },
     search: {
