@@ -11,7 +11,7 @@ BlackArch is a Linux pentesting distribution based on ArchLinux. If you're not f
 
 ## Where do I start with BlackArch?
 
-You must first get an ISO on the downloads page and install it by following the instructions of the installation script. You can find a tutorial to show the process step by step at this URL BlackArch installation. If you encounter any problems and need help, the best place to ask is our Matrix channel.
+You must first get an ISO on the [downloads page](./downloads) and install it by following the instructions of the installation script. You can find a tutorial showing the process step by step on the [installation page](./install). If you encounter any problems and need help, the best place to ask is our <a href="https://matrix.to/#/#BlackArch:matrix.org">Matrix channel</a>.
 
 ## Is BlackArch up to date?
 

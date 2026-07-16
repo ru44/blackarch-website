@@ -109,7 +109,7 @@ You can install BlackArch Linux (packages AND environment) using the Full or Net
 $ sudo blackarch-install
 ```
 
-If you need to be guided step by step, please consult the <a href="https://blackarch.org/blackarch-install.html">blackarch install</a> tutorial.
+If you need to be guided step by step, please consult the [BlackArch install](./install) tutorial.
 
 ## Installing from Slim ISO
 

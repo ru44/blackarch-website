@@ -1,17 +1,39 @@
 <script setup>
-import { ref, onMounted } from "vue";
-import { watchDebounced } from "@vueuse/core";
+import { ref, computed, onMounted } from "vue";
+import { watchDebounced, useIntersectionObserver } from "@vueuse/core";
 
 const emit = defineEmits(["update:total"]);
 const modules = import.meta.glob("../data/tools/*.json");
+
+const CHUNK_SIZE = 60;
 
 const tools = ref([]);
 const filteredTools = ref([]);
 const searchInput = ref("");
 const isLoading = ref(true);
 const expandedTool = ref(null);
+const visibleCount = ref(CHUNK_SIZE);
+const scrollContainer = ref(null);
+const sentinel = ref(null);
+
+const visibleTools = computed(() =>
+  filteredTools.value.slice(0, visibleCount.value)
+);
+const hasMore = computed(
+  () => visibleCount.value < filteredTools.value.length
+);
 
 watchDebounced(searchInput, search, { debounce: 300 });
+
+useIntersectionObserver(
+  sentinel,
+  ([entry]) => {
+    if (entry?.isIntersecting && hasMore.value) {
+      visibleCount.value += CHUNK_SIZE;
+    }
+  },
+  { root: scrollContainer, rootMargin: "400px" }
+);
 
 onMounted(async () => {
   const allData = await Promise.all(
@@ -39,6 +61,8 @@ function search() {
       tool.name.toLowerCase().includes(query) ||
       tool.description?.toLowerCase().includes(query)
   );
+  visibleCount.value = CHUNK_SIZE;
+  scrollContainer.value?.scrollTo({ top: 0 });
 }
 
 function toggleExpand(toolName) {
@@ -63,7 +87,6 @@ function clearSearch() {
         </span>
         <input
           v-model="searchInput"
-          id="tools-search"
           type="search"
           placeholder="Search by name or description…"
           class="input"
@@ -89,8 +112,13 @@ function clearSearch() {
       {{ tools.length }} tools
     </p>
 
-    <div class="table-wrapper">
-      <table v-if="filteredTools.length" class="tools-table">
+    <div
+      v-if="filteredTools.length"
+      ref="scrollContainer"
+      class="table-scroll"
+      tabindex="0"
+    >
+      <table class="tools-table">
         <thead>
           <tr>
             <th>Name</th>
@@ -101,7 +129,7 @@ function clearSearch() {
         </thead>
         <tbody>
           <tr
-            v-for="tool in filteredTools"
+            v-for="tool in visibleTools"
             :key="tool.name"
             @click="toggleExpand(tool.name)"
             class="tool-row"
@@ -134,14 +162,16 @@ function clearSearch() {
           </tr>
         </tbody>
       </table>
+      <div ref="sentinel" class="sentinel" aria-hidden="true"></div>
+      <div v-if="hasMore" class="loading-more">Loading more tools…</div>
+    </div>
 
-      <div v-else-if="isLoading" class="spinner" role="status" aria-label="Loading tools"></div>
-      <div v-else class="empty-state">
-        <p>No tools match “{{ searchInput }}”.</p>
-        <button class="button empty-clear" type="button" @click="clearSearch">
-          Clear search
-        </button>
-      </div>
+    <div v-else-if="isLoading" class="spinner" role="status" aria-label="Loading tools"></div>
+    <div v-else class="empty-state">
+      <p>No tools match “{{ searchInput }}”.</p>
+      <button class="button empty-clear" type="button" @click="clearSearch">
+        Clear search
+      </button>
     </div>
   </div>
 </template>
@@ -262,6 +292,21 @@ function clearSearch() {
   color: var(--vp-c-text-1);
 }
 
+/* Scroll container keeps the sticky header inside its own scrolling context
+   instead of fighting the fixed site nav */
+.table-scroll {
+  max-height: 75vh;
+  overflow-y: auto;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 0.5rem;
+  background: var(--vp-c-bg);
+}
+
+.table-scroll:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 2px;
+}
+
 .tools-table {
   width: 100%;
   border-collapse: collapse;
@@ -278,7 +323,7 @@ function clearSearch() {
 
 .tools-table th {
   position: sticky;
-  top: var(--vp-nav-height, 0);
+  top: 0;
   background-color: var(--vp-c-bg-soft);
   z-index: 1;
   font-weight: 600;
@@ -307,6 +352,17 @@ function clearSearch() {
 
 .no-url {
   color: var(--vp-c-text-3);
+}
+
+.sentinel {
+  height: 1px;
+}
+
+.loading-more {
+  padding: 0.75rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--vp-c-text-2);
 }
 
 /* Description shown inline on desktop; expansion row is a mobile-only affordance */
@@ -351,6 +407,11 @@ function clearSearch() {
 
 /* Responsive Mobile: Stack rows as cards, no horizontal scroll */
 @media (max-width: 640px) {
+  .table-scroll {
+    border: none;
+    background: transparent;
+  }
+
   .tools-table,
   .tools-table thead,
   .tools-table tbody,

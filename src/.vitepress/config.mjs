@@ -47,6 +47,10 @@ export default defineConfig({
         link: "/guide",
       },
       {
+        text: "Installation",
+        link: "/install",
+      },
+      {
         text: "FAQ",
         link: "/faq",
       },
