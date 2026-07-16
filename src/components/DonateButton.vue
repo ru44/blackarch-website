@@ -4,13 +4,28 @@ const showWallet = ref(false);
 const bitcoinWallet = "1KiXHGytUEo4Ug6Pjnmf7bs9ss3Ay1w5Uy";
 
 const copied = ref(false);
+const copyFailed = ref(false);
 
 const copyWallet = async () => {
+  copyFailed.value = false;
   try {
-    await navigator.clipboard.writeText(bitcoinWallet);
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(bitcoinWallet);
+    } else {
+      // Fallback for non-secure contexts where the Clipboard API is unavailable
+      const textarea = document.createElement("textarea");
+      textarea.value = bitcoinWallet;
+      textarea.style.position = "fixed";
+      textarea.style.opacity = "0";
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand("copy");
+      document.body.removeChild(textarea);
+    }
     copied.value = true;
     setTimeout(() => (copied.value = false), 2000);
   } catch (err) {
+    copyFailed.value = true;
     console.error("Failed to copy wallet address", err);
   }
 };
@@ -62,11 +77,20 @@ const copyWallet = async () => {
       Donate via Bitcoin
     </button>
 
-    <div v-if="showWallet" class="wallet-modal">
-      <code>{{ bitcoinWallet }}</code>
-      <button class="copy-button" @click="copyWallet">Copy</button>
-      <span v-if="copied" class="copied-feedback">Copied!</span>
-      <button class="close-button" @click="showWallet = false">Close</button>
+    <div v-if="showWallet" class="wallet-panel">
+      <p class="wallet-label">Bitcoin wallet address</p>
+      <code class="wallet-address">{{ bitcoinWallet }}</code>
+      <div class="wallet-actions">
+        <button class="copy-button" type="button" @click="copyWallet">
+          {{ copied ? "Copied!" : "Copy address" }}
+        </button>
+        <button class="close-button" type="button" @click="showWallet = false">
+          Close
+        </button>
+        <span v-if="copyFailed" class="copy-failed" role="alert">
+          Copy failed — select the address and copy it manually.
+        </span>
+      </div>
     </div>
   </div>
 </template>
@@ -98,50 +122,80 @@ const copyWallet = async () => {
   margin-inline-end: 0.5rem;
 }
 
-.wallet-modal {
-  background: #ffffff00;
+.wallet-panel {
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
   padding: 1rem;
   border-radius: 0.5rem;
   margin-top: 1rem;
   max-width: 100%;
   word-break: break-word;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.wallet-label {
+  margin: 0 0 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--vp-c-text-2);
+}
+
+.wallet-address {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.375rem;
+  background: var(--vp-c-bg);
+  font-family: var(--vp-font-family-mono);
+  user-select: all;
+}
+
+.wallet-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
 }
 
 .close-button {
-  margin-top: 0.5rem;
-  margin-left: 1rem;
   padding: 0.4rem 1rem;
   font-size: 0.8rem;
-  border: none;
+  border: 1px solid var(--vp-c-divider);
   border-radius: 0.4rem;
-  background-color: #f7931a;
-  color: white;
+  background-color: transparent;
+  color: var(--vp-c-text-2);
   cursor: pointer;
 }
 
 .close-button:hover {
-  background-color: #e27f00;
+  color: var(--vp-c-text-1);
+  border-color: var(--vp-c-text-3);
 }
 
 .copy-button {
-  margin-left: 1rem;
   padding: 0.4rem 1rem;
-  font-size: 0.75rem;
-  background-color: #555;
+  font-size: 0.8rem;
+  background-color: #f7931a;
   color: white;
   border: none;
-  border-radius: 0.3rem;
+  border-radius: 0.4rem;
   cursor: pointer;
 }
 
 .copy-button:hover {
-  background-color: #333;
+  background-color: #e27f00;
 }
 
-.copied-feedback {
-  margin-left: 1rem;
-  color: green;
+.copy-button:focus-visible,
+.close-button:focus-visible,
+.bitcoin-button:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 2px;
+}
+
+.copy-failed {
+  color: var(--vp-c-danger-1);
   font-size: 0.75rem;
 }
 

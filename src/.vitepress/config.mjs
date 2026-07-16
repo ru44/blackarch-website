@@ -4,12 +4,21 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   base: "/blackarch-demo/",
   title: "BlackArch Linux",
-  head: [["link", { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]],
+  head: [
+    [
+      "link",
+      {
+        rel: "icon",
+        type: "image/x-icon",
+        href: "/blackarch-demo/favicon.ico",
+      },
+    ],
+  ],
   description:
-    "BlackArch Linux is penetration testing distribution for penetration testers and security researchers.",
+    "BlackArch Linux is a penetration testing distribution for penetration testers and security researchers.",
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    lastUpdated: true,
     editLink: {
       pattern: "https://github.com/ru44/blackarch-demo/edit/main/src/:path",
       text: "Edit this page on GitHub",

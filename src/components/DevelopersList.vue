@@ -14,7 +14,7 @@ onMounted(() => {
 const columns = [
   { key: "name", label: "Name" },
   { key: "nickname", label: "Nickname" },
-  { key: "email", label: "Email", type: "link" },
+  { key: "email", label: "Email", type: "email" },
   { key: "gpg_key", label: "GPG Key" },
   { key: "role", label: "Role" },
 ];

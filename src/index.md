@@ -5,7 +5,7 @@ title: BlackArch Linux
 hero:
   name: "BlackArch Linux"
   text: ""
-  tagline: BlackArch Linux is penetration testing distribution for penetration testers and security researchers.
+  tagline: An Arch Linux-based penetration testing distribution for penetration testers and security researchers.
   actions:
     - theme: brand
       text: Downloads
@@ -23,12 +23,12 @@ features:
     details: BlackArch Linux Penetration Testing Distribution
     icon: 🐧
   - title: Over 2800 tools
-    details: BlackArch contains 2845 tools.
+    details: BlackArch contains more than 2800 tools, all one pacman command away.
     icon: 🛠️
   - title: Modular package groups
-    details: You can install tools individually or in groups
+    details: You can install tools individually or in groups.
     icon: 📦
-  - title: compatibility
+  - title: Compatibility
     details: BlackArch Linux is compatible with existing Arch Linux installations.
     icon: ✅
 ---

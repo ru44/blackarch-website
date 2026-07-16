@@ -22,10 +22,10 @@ BlackArch is constantly being updated and offers the latest packages available o
 By simply running pacman
 
 ```bash
--Syu --needed --overwrite='*' blackarch
+sudo pacman -Syu --needed --overwrite='*' blackarch
 ```
 
- This command requires root privileges.
+This command requires root privileges.
 
 ## Why do I get invalid keyring signature?
 
@@ -52,9 +52,9 @@ sudo pacman-key --update --keyserver keyserver.ubuntu.com
 You could try to change to pgp.mit.edu's IP address using the following command:
 
 ```bash
-sudo curl -O https://blackarch.org/strap.sh
-sudo chmod +x strap.sh
-sudo sha1sum strap.sh: it should match with the information on downloads
+curl -O https://blackarch.org/strap.sh
+chmod +x strap.sh
+sha1sum strap.sh # it should match the SHA1 sum on the downloads page
 sudo sh strap.sh
 ```
 
@@ -65,7 +65,7 @@ You could try to temporarily switch to another mirror:
 sudoedit /etc/pacman.d/blackarch-mirrorlist
 ```
 
-It's very important to follow the suggestions above as well as checking the Archlinux Wiki pages to assist you as needed. If you still encounter any problems, pay us a visit at #BlackArch.
+It's very important to follow the suggestions above as well as checking the Archlinux Wiki pages to assist you as needed. If you still encounter any problems, pay us a visit at <a href="https://matrix.to/#/#BlackArch:matrix.org">#BlackArch:matrix.org</a>.
 
 ## Where can I get help for a problem that I'm facing?
 

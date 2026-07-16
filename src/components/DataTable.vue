@@ -3,7 +3,7 @@ defineProps<{
   title?: string;
   isLoading?: boolean;
   data: Array<any>;
-  columns: Array<{ key: string; label: string; type?: "link" }>;
+  columns: Array<{ key: string; label: string; type?: "link" | "email" }>;
 }>();
 </script>
 
@@ -21,9 +21,16 @@ defineProps<{
         <tr v-for="(row, index) in data" :key="row.name || index">
           <td v-for="col in columns" :key="col.key">
             <a
-              v-if="col.type === 'link' && row[col.key]"
+              v-if="col.type === 'email' && row[col.key]"
+              :href="`mailto:${row[col.key]}`"
+            >
+              {{ row[col.key] }}
+            </a>
+            <a
+              v-else-if="col.type === 'link' && row[col.key]"
               :href="row[col.key]"
               target="_blank"
+              rel="noopener noreferrer"
             >
               {{ row[col.key] }}
             </a>
