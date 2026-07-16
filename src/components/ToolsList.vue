@@ -307,10 +307,23 @@ function clearSearch() {
   outline-offset: 2px;
 }
 
+/* VitePress turns .vp-doc tables into display:block horizontal scrollers,
+   which breaks both the column layout and the sticky header — restore real
+   table layout and size columns to always fit the container */
 .tools-table {
+  display: table;
   width: 100%;
-  border-collapse: collapse;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: visible;
   margin: 0;
+}
+
+.tools-table tr,
+.tools-table tr:nth-child(2n) {
+  background-color: transparent;
+  border: none;
 }
 
 .tools-table th,
@@ -318,7 +331,21 @@ function clearSearch() {
   padding: 0.5rem 0.75rem;
   vertical-align: top;
   text-align: left;
+  border: none;
   border-bottom: 1px solid var(--vp-c-divider);
+  background-color: transparent;
+}
+
+.tools-table th:nth-child(1) {
+  width: 17%;
+}
+
+.tools-table th:nth-child(2) {
+  width: 12%;
+}
+
+.tools-table th:nth-child(4) {
+  width: 5.5rem;
 }
 
 .tools-table th {
@@ -328,6 +355,13 @@ function clearSearch() {
   z-index: 1;
   font-weight: 600;
   color: var(--vp-c-text-1);
+  border-bottom: none;
+  box-shadow: inset 0 -1px 0 var(--vp-c-divider);
+  white-space: nowrap;
+}
+
+.tools-table tbody tr:last-child td {
+  border-bottom: none;
 }
 
 .tool-row:hover td {
@@ -338,14 +372,13 @@ function clearSearch() {
   font-family: var(--vp-font-family-mono);
   font-size: 0.875em;
   color: var(--vp-c-brand-1);
-  white-space: nowrap;
+  overflow-wrap: break-word;
 }
 
 .tool-version {
   font-size: 0.875em;
   color: var(--vp-c-text-2);
   white-space: nowrap;
-  max-width: 10rem;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -429,7 +462,8 @@ function clearSearch() {
     left: -9999px;
   }
 
-  .tools-table tr {
+  .tools-table tr,
+  .tools-table tr:nth-child(2n) {
     margin-bottom: 1rem;
     border: 1px solid var(--vp-c-divider);
     border-radius: 0.5rem;
