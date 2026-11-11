@@ -14,16 +14,11 @@ export default {
       { t: "Berjalan di Arch Anda", d: "Tambahkan repositori ke sistem yang sudah ada dengan strap.sh. Tidak perlu instal ulang." },
     ],
   },
-  shots: { title: "Tampilannya", full: "ISO Lengkap", slim: "ISO Slim", aria: "Tangkapan layar BlackArch" },
+  shots: { title: "Tampilannya", aria: "Tangkapan layar BlackArch" },
   iso: {
     version: "Versi", size: "Ukuran", download: "Unduh", torrent: "Torrent", copy: "salin", copied: "tersalin",
-    tags: ["Disarankan", "Minimal", "Offline", "Mesin virtual"],
-    desc: [
-      "Desktop XFCE, kumpulan alat populer, dan pemasang grafis.",
-      "ISO boot berukuran kecil. Pilih hanya yang Anda perlukan; butuh internet.",
-      "Semua alat saat build dibuat. Pembaruan dapat menimbulkan konflik; untuk instalasi offline.",
-      "Image siap pakai untuk VirtualBox, VMware, dan QEMU.",
-    ],
+    tags: ["Disarankan", "Minimal"],
+    desc: ["Desktop XFCE, kumpulan alat populer, dan pemasang grafis.", "ISO boot berukuran kecil. Pilih hanya yang Anda perlukan; butuh internet."],
   },
   people: { copy: "salin", copied: "tersalin", label: "Pengembang BlackArch" },
   mirrors: {

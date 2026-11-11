@@ -14,16 +14,11 @@ export default {
       { t: "Funcționează pe Arch-ul dvs.", d: "Adăugați depozitul la un sistem existent cu strap.sh. Nu este nevoie de reinstalare." },
     ],
   },
-  shots: { title: "Cum arată", full: "ISO complet", slim: "ISO Slim", aria: "Capturi de ecran BlackArch" },
+  shots: { title: "Cum arată", aria: "Capturi de ecran BlackArch" },
   iso: {
     version: "Versiune", size: "Dimensiune", download: "Descarcă", torrent: "Torrent", copy: "copiază", copied: "copiat",
-    tags: ["Recomandat", "Minimal", "Offline", "Mașină virtuală"],
-    desc: [
-      "Desktop XFCE, o selecție de unelte populare și un instalator grafic.",
-      "ISO bootabil mic. Alegeți doar ce aveți nevoie; necesită internet.",
-      "Toate uneltele de la momentul construirii. La actualizare pot apărea conflicte; pentru instalare offline.",
-      "Imagine gata făcută pentru VirtualBox, VMware și QEMU.",
-    ],
+    tags: ["Recomandat", "Minimal"],
+    desc: ["Desktop XFCE, o selecție de unelte populare și un instalator grafic.", "ISO bootabil mic. Alegeți doar ce aveți nevoie; necesită internet."],
   },
   people: { copy: "copiază", copied: "copiat", label: "Dezvoltatorii BlackArch" },
   mirrors: {

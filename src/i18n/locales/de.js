@@ -14,16 +14,11 @@ export default {
       { t: "Läuft auf dem eigenen Arch", d: "Das Repository mit strap.sh zum bestehenden System hinzufügen. Keine Neuinstallation nötig." },
     ],
   },
-  shots: { title: "So sieht es aus", full: "Vollständige ISO", slim: "Slim-ISO", aria: "BlackArch-Screenshots" },
+  shots: { title: "So sieht es aus", aria: "BlackArch-Screenshots" },
   iso: {
     version: "Version", size: "Größe", download: "Herunterladen", torrent: "Torrent", copy: "kopieren", copied: "kopiert",
-    tags: ["Empfohlen", "Minimal", "Offline", "Virtuelle Maschine"],
-    desc: [
-      "XFCE-Desktop, eine Auswahl beliebter Tools und ein grafischer Installer.",
-      "Kleines Boot-Image. Nur das Nötige auswählen; Internetverbindung erforderlich.",
-      "Alle Tools zum Zeitpunkt des Builds. Bei Updates sind Konflikte möglich; für Offline-Installationen.",
-      "Fertiges Image für VirtualBox, VMware und QEMU.",
-    ],
+    tags: ["Empfohlen", "Minimal"],
+    desc: ["XFCE-Desktop, eine Auswahl beliebter Tools und ein grafischer Installer.", "Kleines Boot-Image. Nur das Nötige auswählen; Internetverbindung erforderlich."],
   },
   people: { copy: "kopieren", copied: "kopiert", label: "BlackArch-Entwickler" },
   mirrors: {

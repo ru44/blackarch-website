@@ -14,16 +14,11 @@ export default {
       { t: "可在现有 Arch 上使用", d: "通过 strap.sh 将仓库添加到现有系统，无需重新安装。" },
     ],
   },
-  shots: { title: "效果展示", full: "完整 ISO", slim: "精简 ISO", aria: "BlackArch 截图" },
+  shots: { title: "效果展示", aria: "BlackArch 截图" },
   iso: {
     version: "版本", size: "大小", download: "下载", torrent: "种子", copy: "复制", copied: "已复制",
-    tags: ["推荐", "最小化", "离线", "虚拟机"],
-    desc: [
-      "XFCE 桌面、常用工具集和图形化安装程序。",
-      "小型启动镜像。按需选择所需内容；需要联网。",
-      "包含构建时的全部工具。更新时可能出现冲突；适合离线安装。",
-      "适用于 VirtualBox、VMware 和 QEMU 的预构建镜像。",
-    ],
+    tags: ["推荐", "最小化"],
+    desc: ["XFCE 桌面、常用工具集和图形化安装程序。", "小型启动镜像。按需选择所需内容；需要联网。"],
   },
   people: { copy: "复制", copied: "已复制", label: "BlackArch 开发者" },
   mirrors: {

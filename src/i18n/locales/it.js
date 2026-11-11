@@ -14,16 +14,11 @@ export default {
       { t: "Funziona sul tuo Arch", d: "Aggiungi il repository a un'installazione esistente con strap.sh, senza reinstallare nulla." },
     ],
   },
-  shots: { title: "BlackArch in azione", full: "ISO Full", slim: "ISO Slim", aria: "Screenshot di BlackArch" },
+  shots: { title: "BlackArch in azione", aria: "Screenshot di BlackArch" },
   iso: {
     version: "Versione", size: "Dimensione", download: "Scarica", torrent: "Torrent", copy: "copia", copied: "copiato",
-    tags: ["Consigliata", "Minimale", "Offline", "Macchina virtuale"],
-    desc: [
-      "Desktop XFCE con una selezione di strumenti comuni e installer grafico.",
-      "Immagine di avvio leggera. Scegli solo ciò che serve; richiede internet.",
-      "Tutti gli strumenti al momento della build. Possibili conflitti negli aggiornamenti; pensata per l'installazione offline.",
-      "Appliance pronta per VirtualBox, VMware e QEMU.",
-    ],
+    tags: ["Consigliata", "Minimale"],
+    desc: ["Desktop XFCE con una selezione di strumenti comuni e installer grafico.", "Immagine di avvio leggera. Scegli solo ciò che serve; richiede internet."],
   },
   people: { copy: "copia", copied: "copiato", label: "Sviluppatori di BlackArch" },
   mirrors: {

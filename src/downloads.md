@@ -15,15 +15,11 @@ Here you will find official BlackArch Linux downloads and installation instructi
 
 ## ISOs
 
-The following list contains official BlackArch full, slim and netinstall ISO images. You can burn these images to DVDs and flashdrives.
+The following list contains official BlackArch slim and netinstall ISO images. You can burn these images to DVDs and flashdrives.
 
-The full ISO contains a complete, functional BlackArch Linux system with <a href="https://github.com/BlackArch/blackarch-iso/blob/master/full-iso/packages.x86_64">all the available tools in the repo at build time</a>. The slim ISO contains a functional BlackArch Linux system with <a href="https://github.com/BlackArch/blackarch-iso/blob/master/slim-iso/packages.x86_64">a selected set of common/well-known tools and system utilities</a> for pentesting. The netinstall ISO is a lightweight image for bootstrapping machines with <a href="https://github.com/BlackArch/blackarch-iso/blob/master/netinstall-iso/packages.x86_64">a minimal set of packages</a>.
+The slim ISO contains a functional BlackArch Linux system with <a href="https://github.com/BlackArch/blackarch-iso/blob/master/slim-iso/packages.x86_64">a selected set of common/well-known tools and system utilities</a> for pentesting. The netinstall ISO is a lightweight image for bootstrapping machines with <a href="https://github.com/BlackArch/blackarch-iso/blob/master/netinstall-iso/packages.x86_64">a minimal set of packages</a>.
 
 If possible, please try to use a mirror near you to download the ISOs. You can find a <a href="#official-blackarch-linux-mirror-sites">list of mirrors</a> below.
-
-::: warning
-Installing the full ISO is highly discouraged, you will probably encounter many errors and conflicts while trying to update or even installing it. This ISO primarily targets offline installation, proceed with it only if you have a good reason, know what you are doing and are willing to spend time troubleshooting. For most people, we recommend installing either the netinstall ISO to install only what you need or the slim ISO to start with a minimal set of common tools.
-:::
 
 <IsoCards />
 
@@ -39,12 +35,8 @@ $ sudo dd bs=512M status=progress if=file.iso of=/dev/sdX
 ```
 
 ::: tip Default Login
-The default login for all ISOs and OVA is: `root:blackarch`
+The default login for all ISOs is: `root:blackarch`
 :::
-
-## OVA Images
-
-The OVA appliance (see the cards above) runs in VirtualBox, VMware and QEMU. Use a mirror near you if possible; the list is [below](#official-blackarch-linux-mirror-sites).
 
 ## Installing on top of ArchLinux
 
@@ -92,9 +84,9 @@ $ sudo pacman -Syyu --needed --overwrite='*' <wanted-package>
 
 The complete tool list of the BlackArch Linux repository can be found [here](./tools).
 
-## Installing from Full ISO
+## Installing from the NetInstall ISO
 
-You can install BlackArch Linux (packages AND environment) using the Full or Netinstall medium.
+You can install BlackArch Linux (packages AND environment) using the NetInstall medium.
 
 ```bash
 # Run and follow the instructions
@@ -104,7 +96,7 @@ $ sudo blackarch-install
 
 If you need to be guided step by step, please consult the [BlackArch install](./install) tutorial.
 
-## Installing from Slim ISO
+## Installing from the Slim ISO
 
 You can install BlackArch Linux using the Slim medium which features GUI installer. Just double click on the Install BlackArch icon on the desktop. Follow the instructions on the GUI installer.
 

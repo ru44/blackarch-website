@@ -1,48 +1,48 @@
 <script setup>
-import { ref } from "vue";
+import { useClipboard } from "../composables/useClipboard.js";
 import { useT } from "../i18n/index.js";
+import images from "../data/images.json";
+
+const MIRROR_URL = "https://ftp.halifax.rwth-aachen.de/blackarch/";
+const TORRENT_URL = "https://blackarch.org/blackarch/torrent/";
+
+// Descriptions and tags are listed in the same order as data/images.json.
 const T = useT("iso", {
-  version: "Version", size: "Size", download: "Download", torrent: "Torrent", copy: "copy", copied: "copied",
-  tags: ["Recommended", "Minimal", "Offline", "Virtual machine"],
+  version: "Version",
+  size: "Size",
+  download: "Download",
+  torrent: "Torrent",
+  copy: "copy",
+  copied: "copied",
+  tags: ["Recommended", "Minimal"],
   desc: [
     "XFCE desktop with a curated set of common tools and a GUI installer.",
     "Small boot image. Pick only what you need; requires internet.",
-    "Every tool at build time. Expect conflicts when updating; meant for offline installs.",
-    "Ready-made appliance for VirtualBox, VMware and QEMU.",
   ],
 });
-const mirror = "https://ftp.halifax.rwth-aachen.de/blackarch/";
-const tor = "https://blackarch.org/blackarch/torrent/";
-const images = [
-  { name: "Slim", tag: "Recommended", d: "XFCE desktop with a curated set of common tools and a GUI installer.", v: "2023.05.01", size: "5.5 GB", file: "iso/blackarch-linux-slim-2023.05.01-x86_64.iso", sha: "00949f2908e66314906dce6afc6eaad562349250", feat: true },
-  { name: "NetInstall", tag: "Minimal", d: "Small boot image. Pick only what you need; requires internet.", v: "2023.04.01", size: "815 MB", file: "iso/blackarch-linux-netinst-2023.04.01-x86_64.iso", sha: "df2dfcfafa1a8f9bab8afd9aa6b788de00e03e09" },
-  { name: "Full", tag: "Offline", d: "Every tool at build time. Expect conflicts when updating; meant for offline installs.", v: "2023.04.01", size: "22 GB", file: "iso/blackarch-linux-full-2023.04.01-x86_64.iso", sha: "ae64930aeddc491a4644bb3fa92a715145713c65" },
-  { name: "OVA", tag: "Virtual machine", d: "Ready-made appliance for VirtualBox, VMware and QEMU.", v: "2023.04.01", size: "29 GB", file: "ova/blackarch-linux-2023.04.01.ova", sha: "6c2ac1739b4f971bd7eef12d752ccf868a8065bd" },
-];
-const copied = ref("");
-async function copy(sha) {
-  try { await navigator.clipboard.writeText(sha); copied.value = sha; setTimeout(() => (copied.value = ""), 1500); } catch {}
-}
+
+const { copy, isCopied } = useClipboard();
+const torrentFor = (file) => `${TORRENT_URL}${file.split("/")[1]}.torrent`;
 </script>
 
 <template>
   <div class="cards">
-    <article v-for="(i, n) in images" :key="i.name" :class="{ feat: i.feat }">
+    <article v-for="(i, n) in images" :key="i.name" :class="{ feat: i.featured }">
       <header>
         <h3>{{ i.name }}</h3>
         <span class="tag">{{ T.tags[n] }}</span>
       </header>
       <p>{{ T.desc[n] }}</p>
       <dl>
-        <div><dt>{{ T.version }}</dt><dd>{{ i.v }}</dd></div>
+        <div><dt>{{ T.version }}</dt><dd>{{ i.version }}</dd></div>
         <div><dt>{{ T.size }}</dt><dd>{{ i.size }}</dd></div>
       </dl>
-      <button type="button" class="sha" @click="copy(i.sha)" :title="'Copy SHA1 ' + i.sha">
-        <span>SHA1</span><code>{{ i.sha.slice(0, 12) }}…{{ i.sha.slice(-6) }}</code><em>{{ copied === i.sha ? T.copied : T.copy }}</em>
+      <button type="button" class="sha" @click="copy(i.sha1)" :title="'Copy SHA1 ' + i.sha">
+        <span>SHA1</span><code>{{ i.sha1.slice(0, 12) }}…{{ i.sha1.slice(-6) }}</code><em>{{ copied === i.sha ? T.copied : T.copy }}</em>
       </button>
       <footer>
-        <a class="dl" :href="mirror + i.file">{{ T.download }}</a>
-        <a class="tr" :href="tor + i.file.split('/')[1] + '.torrent'">{{ T.torrent }}</a>
+        <a class="dl" :href="MIRROR_URL + i.file">{{ T.download }}</a>
+        <a class="tr" :href="torrentFor(i.file)">{{ T.torrent }}</a>
       </footer>
     </article>
   </div>

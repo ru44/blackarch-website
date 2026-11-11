@@ -1,0 +1,20 @@
+[
+  {
+    "id": "menu_slim",
+    "label": "XFCE menu",
+    "image": "menu_slim.png",
+    "thumb": "menu_slim.jpg"
+  },
+  {
+    "id": "menu_slim_two",
+    "label": "Tool categories",
+    "image": "menu_slim_two.png",
+    "thumb": "menu_slim_two.jpg"
+  },
+  {
+    "id": "terminal_slim",
+    "label": "Terminal",
+    "image": "terminal_slim.png",
+    "thumb": "terminal_slim.jpg"
+  }
+]

@@ -14,16 +14,11 @@ export default {
       { t: "Mevcut Arch'ınızda çalışır", d: "strap.sh ile depoyu mevcut sisteminize ekleyin. Yeniden kurulum gerekmez." },
     ],
   },
-  shots: { title: "Nasıl görünüyor", full: "Tam ISO", slim: "Slim ISO", aria: "BlackArch ekran görüntüleri" },
+  shots: { title: "Nasıl görünüyor", aria: "BlackArch ekran görüntüleri" },
   iso: {
     version: "Sürüm", size: "Boyut", download: "İndir", torrent: "Torrent", copy: "kopyala", copied: "kopyalandı",
-    tags: ["Önerilen", "Minimal", "Çevrimdışı", "Sanal makine"],
-    desc: [
-      "XFCE masaüstü, popüler araçlardan bir seçki ve grafik kurulum programı.",
-      "Küçük bir önyükleme imajı. Yalnızca ihtiyacınız olanı seçin; internet bağlantısı gerekir.",
-      "Derleme anındaki tüm araçlar. Güncellerken çakışmalar olabilir; çevrimdışı kurulum içindir.",
-      "VirtualBox, VMware ve QEMU için hazır imaj.",
-    ],
+    tags: ["Önerilen", "Minimal"],
+    desc: ["XFCE masaüstü, popüler araçlardan bir seçki ve grafik kurulum programı.", "Küçük bir önyükleme imajı. Yalnızca ihtiyacınız olanı seçin; internet bağlantısı gerekir."],
   },
   people: { copy: "kopyala", copied: "kopyalandı", label: "BlackArch geliştiricileri" },
   mirrors: {

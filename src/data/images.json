@@ -1,0 +1,19 @@
+[
+  {
+    "id": "slim",
+    "name": "Slim",
+    "featured": true,
+    "version": "2023.05.01",
+    "size": "5.5 GB",
+    "file": "iso/blackarch-linux-slim-2023.05.01-x86_64.iso",
+    "sha1": "00949f2908e66314906dce6afc6eaad562349250"
+  },
+  {
+    "id": "netinstall",
+    "name": "NetInstall",
+    "version": "2023.04.01",
+    "size": "815 MB",
+    "file": "iso/blackarch-linux-netinst-2023.04.01-x86_64.iso",
+    "sha1": "df2dfcfafa1a8f9bab8afd9aa6b788de00e03e09"
+  }
+]
