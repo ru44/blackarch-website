@@ -56,7 +56,7 @@ BlackArch Linux is compatible with existing/normal Arch installations. It acts a
 $ curl -O https://blackarch.org/strap.sh
 # Verify the SHA1 sum
 
-$ echo 26849980b35a42e6e192c6d9ed8c46f0d6d06047 strap.sh | sha1sum -c
+$ echo d338a4bb95d9e09f97508da68ac9e17d963b85f6 strap.sh | sha1sum -c
 # Set execute bit
 
 $ chmod +x strap.sh
