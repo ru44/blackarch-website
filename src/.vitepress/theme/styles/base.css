@@ -1,0 +1,202 @@
+/**
+ * Global look and feel: page chrome, hero, feature cards and doc content.
+ * Component-specific styling lives in the component's own <style scoped>.
+ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: var(--ba-red);
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 2px;
+}
+
+/* Subtle terminal grid behind the home page */
+.VPHome {
+  background-image: linear-gradient(var(--ba-grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--ba-grid) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-position: -1px -1px;
+}
+
+/* Navigation */
+.VPNavBar:not(.home.top) .content-body,
+.VPNavBar.has-sidebar .content-body {
+  backdrop-filter: blur(12px);
+}
+
+.VPNav .VPNavBar {
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.VPNavBarTitle .title {
+  font-family: var(--vp-font-family-mono);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.VPNavBarMenuLink.active,
+.VPNavBarMenuLink:hover {
+  color: var(--vp-c-brand-1) !important;
+}
+
+/* Keep the search shortcut badge from touching the label */
+.VPNavBarSearch .DocSearch-Button-Placeholder {
+  padding-inline: 10px 12px;
+}
+
+.VPNavBarSearch .DocSearch-Button-Keys {
+  gap: 2px;
+}
+
+.DocSearch {
+  --docsearch-primary-color: var(--vp-c-brand-1) !important;
+}
+
+/* Hero */
+.VPHero .name {
+  font-family: var(--vp-font-family-mono);
+  letter-spacing: -0.04em;
+}
+
+/* Blinking terminal cursor after the hero name */
+.VPHero .name::after {
+  content: "_";
+  -webkit-text-fill-color: var(--vp-c-brand-1);
+  animation: ba-cursor-blink 1.2s steps(2, start) infinite;
+}
+
+@keyframes ba-cursor-blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+.VPHero .tagline {
+  max-width: 34rem;
+  line-height: 1.6;
+}
+
+.VPHero .VPButton {
+  border-radius: var(--ba-radius-sm);
+  font-weight: 600;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.VPHero .VPButton.brand:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px -8px rgba(230, 0, 0, 0.6);
+}
+
+/* The animated logo (HeroLogo.vue) replaces the hero image */
+.VPHero .image-container .logo {
+  margin: 0 auto;
+}
+
+@media (min-width: 960px) {
+  .VPHero .image-container {
+    transform: none;
+  }
+}
+
+/* Feature cards (frontmatter `features`) */
+.VPFeature {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--vp-c-divider) !important;
+  border-radius: var(--ba-radius) !important;
+  background: var(--vp-c-bg-soft) !important;
+  box-shadow: var(--ba-shadow);
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.VPFeature::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--ba-red), transparent);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.VPFeature:hover {
+  transform: translateY(-4px);
+  border-color: var(--vp-c-brand-1) !important;
+}
+
+.VPFeature:hover::before {
+  opacity: 1;
+}
+
+.VPFeature .icon {
+  border-radius: var(--ba-radius-sm) !important;
+  background: var(--ba-red-soft) !important;
+}
+
+/* Doc content */
+.vp-doc h1 {
+  letter-spacing: -0.03em;
+}
+
+.vp-doc h2 {
+  border-top: none;
+  padding-top: 0;
+  letter-spacing: -0.02em;
+}
+
+.vp-doc h2::before {
+  content: "# ";
+  color: var(--vp-c-brand-1);
+  font-family: var(--vp-font-family-mono);
+}
+
+.vp-doc a {
+  text-underline-offset: 3px;
+}
+
+.vp-doc img {
+  border-radius: var(--ba-radius-sm);
+  border: 1px solid var(--vp-c-divider);
+}
+
+.vp-doc div[class*="language-"] {
+  border-radius: var(--ba-radius);
+  border: 1px solid var(--vp-c-divider);
+  box-shadow: var(--ba-shadow);
+}
+
+.vp-doc table {
+  border-radius: var(--ba-radius-sm);
+  overflow: hidden;
+}
+
+.VPSidebarItem.is-active > .item .text {
+  color: var(--vp-c-brand-1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .VPHero .name::after {
+    animation: none;
+  }
+
+  .VPFeature,
+  .VPHero .VPButton {
+    transition: none;
+  }
+}

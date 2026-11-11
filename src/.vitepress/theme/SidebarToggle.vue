@@ -1,35 +1,34 @@
 <script setup>
-import { ref, computed, onMounted } from "vue";
-import { useSidebar } from "vitepress/theme";
+import { computed } from "vue";
 import { useData } from "vitepress";
+import { useSidebar } from "vitepress/theme";
 import meta from "../../i18n/meta.json";
+
+/**
+ * Sidebar collapse controls.
+ *
+ *   variant "collapse": a row at the top of the sidebar that hides it.
+ *   variant "expand":   an edge tab, visible only while the sidebar is hidden.
+ *
+ * Both toggle the `sidebar-collapsed` class on <html> (styled in
+ * styles/layout.css). The state lives only in that class and is deliberately
+ * not persisted, so a reload always brings the sidebar back.
+ */
+defineProps({ variant: { type: String, default: "collapse" } });
 
 const { hasSidebar } = useSidebar();
 const { lang } = useData();
-const byLang = Object.fromEntries(Object.values(meta).map((d) => [d.lang, d.sidebar]));
-const L = computed(() => byLang[lang.value] || { hide: "Hide sidebar", show: "Show sidebar" });
 
-// variant "collapse": row at the top of the sidebar. variant "expand": tab on the
-// screen edge, only visible while the sidebar is collapsed. The state is shared at
-// module level and is deliberately NOT persisted: a reload always shows the
-// sidebar again, so it can never get stuck hidden.
-defineProps({ variant: { type: String, default: "collapse" } });
+const labelsByLang = Object.fromEntries(
+  Object.values(meta).map((locale) => [locale.lang, locale.sidebar]),
+);
+const labels = computed(
+  () => labelsByLang[lang.value] ?? { hide: "Hide sidebar", show: "Show sidebar" },
+);
 
-const collapsed = shared();
-function shared() {
-  return (globalThis.__baSidebar ??= ref(false));
+function setCollapsed(value) {
+  document.documentElement.classList.toggle("sidebar-collapsed", value);
 }
-function apply() {
-  document.documentElement.classList.toggle("sidebar-collapsed", collapsed.value);
-}
-function set(v) {
-  collapsed.value = v;
-  apply();
-}
-onMounted(() => {
-  try { localStorage.removeItem("ba-sidebar-collapsed"); } catch {}
-  apply();
-});
 </script>
 
 <template>
@@ -37,66 +36,112 @@ onMounted(() => {
     v-if="variant === 'collapse'"
     type="button"
     class="sb-collapse"
-    :aria-label="L.hide"
-    @click="set(true)"
+    :aria-label="labels.hide"
+    @click="setCollapsed(true)"
   >
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-      <rect x="3" y="4" width="18" height="16" rx="2" /><path d="M9 4v16M16 10l-2 2 2 2" />
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="1.8"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      aria-hidden="true"
+    >
+      <rect x="3" y="4" width="18" height="16" rx="2" />
+      <path d="M9 4v16M16 10l-2 2 2 2" />
     </svg>
-    <span>{{ L.hide }}</span>
+    <span>{{ labels.hide }}</span>
   </button>
+
   <button
     v-else-if="hasSidebar"
     type="button"
     class="sb-expand"
-    :aria-label="L.show"
-    :title="L.show"
-    @click="set(false)"
+    :aria-label="labels.show"
+    :title="labels.show"
+    @click="setCollapsed(false)"
   >
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-      <rect x="3" y="4" width="18" height="16" rx="2" /><path d="M9 4v16M14 10l2 2-2 2" />
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="1.8"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      aria-hidden="true"
+    >
+      <rect x="3" y="4" width="18" height="16" rx="2" />
+      <path d="M9 4v16M14 10l2 2-2 2" />
     </svg>
   </button>
 </template>
 
 <style scoped>
-.sb-collapse {
+.sb-collapse,
+.sb-expand {
   display: none;
   align-items: center;
+  cursor: pointer;
+  color: var(--vp-c-text-2);
+}
+
+.sb-collapse svg,
+.sb-expand svg {
+  width: 18px;
+  height: 18px;
+  flex: none;
+}
+
+.sb-collapse {
   gap: 8px;
   width: 100%;
   margin: 16px 0 12px;
   padding: 8px 10px;
   border: 1px solid var(--vp-c-divider);
-  border-radius: 8px;
+  border-radius: var(--ba-radius-sm);
   background: var(--vp-c-bg-soft);
-  color: var(--vp-c-text-2);
   font-size: 13px;
-  cursor: pointer;
 }
-.sb-collapse:hover { color: var(--vp-c-brand-1); border-color: var(--vp-c-brand-1); }
-.sb-collapse svg, .sb-expand svg { width: 18px; height: 18px; flex: none; }
+
+.sb-collapse:hover {
+  color: var(--vp-c-brand-1);
+  border-color: var(--vp-c-brand-1);
+}
+
 .sb-expand {
-  display: none;
   position: fixed;
   top: calc(var(--vp-nav-height) + 14px);
-  left: 0;
+  inset-inline-start: 0;
   z-index: 60;
+  justify-content: center;
   width: 36px;
   height: 40px;
-  align-items: center;
-  justify-content: center;
   border: 1px solid var(--vp-c-divider);
-  border-left: 0;
-  border-radius: 0 10px 10px 0;
+  border-inline-start: 0;
+  border-start-end-radius: 10px;
+  border-end-end-radius: 10px;
   background: var(--vp-c-bg-elv);
-  color: var(--vp-c-text-2);
-  cursor: pointer;
   box-shadow: var(--ba-shadow);
 }
-.sb-expand:hover { color: var(--vp-c-brand-1); }
-@media (min-width: 960px) {
-  .sb-collapse { display: flex; }
+
+.sb-expand:hover {
+  color: var(--vp-c-brand-1);
 }
-@media (prefers-reduced-motion: reduce) { .sb-collapse, .sb-expand { transition: none; } }
+
+/* The sidebar is only a fixed column from 960px; below that VitePress uses its own menu. */
+@media (min-width: 960px) {
+  .sb-collapse {
+    display: flex;
+  }
+}
+</style>
+
+<!-- Global: the expand tab shows only while <html> is marked collapsed. -->
+<style>
+@media (min-width: 960px) {
+  html.sidebar-collapsed .sb-expand {
+    display: inline-flex;
+  }
+}
 </style>

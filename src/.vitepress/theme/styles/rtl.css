@@ -1,0 +1,84 @@
+/**
+ * Right-to-left support (Arabic).
+ *
+ * Components use CSS logical properties, so this file only covers VitePress's
+ * own left/right layout plus the rule that keeps code and untranslated
+ * English content left-to-right.
+ */
+
+/* Code, commands and URLs never flip */
+code,
+pre,
+kbd,
+samp,
+.VPHero .name {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+[dir="rtl"] .VPHero .name {
+  text-align: right;
+}
+
+[dir="rtl"] .VPHero .name::after {
+  content: "";
+}
+
+[dir="rtl"] .vp-doc h2::before {
+  unicode-bidi: isolate;
+}
+
+/*
+ * Untranslated pages include the English source. Its prose stays
+ * left-to-right; the "not translated" banner and translated components keep
+ * the page direction.
+ */
+html[dir="rtl"]
+  .vp-doc
+  > div
+  > :is(p, h1, h2, h3, h4, ul, ol, blockquote, table, .custom-block, div[class*="language-"]) {
+  direction: ltr;
+  text-align: left;
+}
+
+html[dir="rtl"] .vp-doc .ba-banner .custom-block {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Sidebar, nav and content offsets are mirrored */
+@media (min-width: 960px) {
+  [dir="rtl"] .VPSidebar {
+    left: auto !important;
+    right: 0;
+  }
+
+  [dir="rtl"] .VPContent.has-sidebar {
+    padding-left: 0 !important;
+    padding-right: var(--vp-sidebar-width) !important;
+  }
+
+  [dir="rtl"] .VPNavBar.has-sidebar .title {
+    left: auto !important;
+    right: 0;
+    border-bottom: 1px solid var(--vp-c-divider);
+  }
+
+  [dir="rtl"] .VPNavBar.has-sidebar .content {
+    padding-left: 0 !important;
+    padding-right: var(--vp-sidebar-width) !important;
+  }
+
+  [dir="rtl"] .VPNavBar.has-sidebar .divider {
+    padding-left: 0 !important;
+    padding-right: var(--vp-sidebar-width) !important;
+  }
+
+  html[dir="rtl"].sidebar-collapsed .VPSidebar {
+    transform: translateX(110%);
+  }
+
+  html[dir="rtl"].sidebar-collapsed .VPContent.has-sidebar {
+    padding-right: 0 !important;
+  }
+}

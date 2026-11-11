@@ -1,0 +1,75 @@
+/**
+ * Page layout: wide pages, the slimmer sidebar and its collapsed state.
+ * The collapse buttons live in SidebarToggle.vue and toggle the
+ * `sidebar-collapsed` class on <html>.
+ */
+
+/* Pages with `pageClass: wide` use the screen instead of the 688px column */
+.wide .VPDoc.has-sidebar .container,
+.wide .VPDoc:not(.has-sidebar) .container {
+  max-width: 1360px !important;
+  margin: 0 auto;
+}
+
+.wide .VPDoc .content,
+.wide .VPDoc .content-container {
+  max-width: none !important;
+}
+
+.wide .VPDoc:not(.has-sidebar) .content {
+  padding: 0 !important;
+}
+
+.wide .VPDoc .aside {
+  display: none;
+}
+
+@media (min-width: 960px) {
+  .wide .VPDoc .content {
+    padding: 0 32px;
+  }
+
+  /* Sidebar: narrower, with matching padding on the nav title and cover strip */
+  .VPSidebar {
+    width: var(--vp-sidebar-width) !important;
+    padding-left: 20px !important;
+    padding-right: 12px !important;
+  }
+
+  .VPSidebar .curtain {
+    margin-left: -20px !important;
+    margin-right: -12px !important;
+  }
+
+  .VPNavBar.has-sidebar .title {
+    width: var(--vp-sidebar-width) !important;
+    padding-left: 20px !important;
+  }
+
+  .VPSidebar,
+  .VPContent.has-sidebar {
+    transition:
+      transform 0.2s ease,
+      padding 0.2s ease;
+  }
+
+  /* Collapsed sidebar */
+  html.sidebar-collapsed .VPSidebar {
+    transform: translateX(-110%);
+  }
+
+  html.sidebar-collapsed .VPContent.has-sidebar {
+    padding-left: 0 !important;
+  }
+
+  html.sidebar-collapsed .VPDoc.has-sidebar .container {
+    margin: 0 auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .VPSidebar,
+  .VPContent.has-sidebar {
+    transition: none !important;
+  }
+}
