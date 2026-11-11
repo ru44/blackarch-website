@@ -31,7 +31,7 @@ export default {
   },
   shots: { title: "Πώς φαίνεται", aria: "Στιγμιότυπα του BlackArch" },
   iso: {
-    version: "Έκδοση",
+    released: "Κυκλοφορία",
     size: "Μέγεθος",
     download: "Λήψη",
     torrent: "Torrent",

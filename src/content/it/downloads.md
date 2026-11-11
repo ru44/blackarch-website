@@ -24,6 +24,15 @@ Se possibile, scarica le ISO da un mirror vicino a te. Più sotto trovi l'<a hre
 
 <IsoCards />
 
+::: tip Verifica il download
+Confronta il checksum del file scaricato con quello riportato nella sua scheda, per esempio:
+
+```bash
+$ sha256sum blackarch-linux-slim-2023.05.01-x86_64.iso
+```
+
+:::
+
 ::: danger Non usare UNetbootin
 Non usare UNetbootin per scrivere i file ISO sulle chiavette USB. UNetbootin modifica la configurazione del bootloader, il che è un problema.
 :::
@@ -47,9 +56,9 @@ BlackArch Linux è compatibile con le normali installazioni di Arch esistenti e 
 # Run https://blackarch.org/strap.sh as root and follow the instructions.
 
 $ curl -O https://blackarch.org/strap.sh
-# Verify the SHA1 sum
+# Verify the SHA-256 sum
 
-$ echo d338a4bb95d9e09f97508da68ac9e17d963b85f6 strap.sh | sha1sum -c
+$ echo dc0737cc75d64d03e9ec2212f989f17cdcf0162c2db5980e256093e293abfb8b strap.sh | sha256sum -c
 # Set execute bit
 
 $ chmod +x strap.sh

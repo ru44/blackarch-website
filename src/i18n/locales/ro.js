@@ -31,7 +31,7 @@ export default {
   },
   shots: { title: "Cum arată", aria: "Capturi de ecran BlackArch" },
   iso: {
-    version: "Versiune",
+    released: "Lansare",
     size: "Dimensiune",
     download: "Descarcă",
     torrent: "Torrent",

@@ -3,17 +3,25 @@
     "id": "slim",
     "name": "Slim",
     "featured": true,
-    "version": "2023.05.01",
+    "released": "2023-05-01",
     "size": "5.5 GB",
     "file": "iso/blackarch-linux-slim-2023.05.01-x86_64.iso",
-    "sha1": "00949f2908e66314906dce6afc6eaad562349250"
+    "checksums": {
+      "SHA-256": "ee5c714f8b4dbb6037b45413f4911f0275b56fc67dcfff75b138ef0e8a6ec2d7",
+      "SHA3-256": "936429448a4ebaea12a4e3cdaaa075c88ef260cbe6489e280d3e2faf25a76473",
+      "SHA1": "00949f2908e66314906dce6afc6eaad562349250"
+    }
   },
   {
     "id": "netinstall",
     "name": "NetInstall",
-    "version": "2023.04.01",
+    "released": "2023-04-01",
     "size": "815 MB",
     "file": "iso/blackarch-linux-netinst-2023.04.01-x86_64.iso",
-    "sha1": "df2dfcfafa1a8f9bab8afd9aa6b788de00e03e09"
+    "checksums": {
+      "SHA-256": "b797c88dca61eb695be7eb41f96ce3502bf806cf574e68cdfb58e9ceb099a0b5",
+      "SHA3-256": "13e7021d0ce0f6e925fc031cc086bf27a20b6918ef2667d273b0ed4373d3f0ca",
+      "SHA1": "df2dfcfafa1a8f9bab8afd9aa6b788de00e03e09"
+    }
   }
 ]

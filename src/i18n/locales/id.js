@@ -31,7 +31,7 @@ export default {
   },
   shots: { title: "Tampilannya", aria: "Tangkapan layar BlackArch" },
   iso: {
-    version: "Versi",
+    released: "Rilis",
     size: "Ukuran",
     download: "Unduh",
     torrent: "Torrent",

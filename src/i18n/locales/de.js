@@ -31,7 +31,7 @@ export default {
   },
   shots: { title: "So sieht es aus", aria: "BlackArch-Screenshots" },
   iso: {
-    version: "Version",
+    released: "Veröffentlicht",
     size: "Größe",
     download: "Herunterladen",
     torrent: "Torrent",

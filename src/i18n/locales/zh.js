@@ -22,7 +22,7 @@ export default {
   },
   shots: { title: "效果展示", aria: "BlackArch 截图" },
   iso: {
-    version: "版本",
+    released: "发布日期",
     size: "大小",
     download: "下载",
     torrent: "种子",

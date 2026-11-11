@@ -31,7 +31,7 @@ export default {
   },
   shots: { title: "Nasıl görünüyor", aria: "BlackArch ekran görüntüleri" },
   iso: {
-    version: "Sürüm",
+    released: "Yayın tarihi",
     size: "Boyut",
     download: "İndir",
     torrent: "Torrent",

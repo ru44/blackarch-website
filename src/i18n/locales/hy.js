@@ -31,7 +31,7 @@ export default {
   },
   shots: { title: "Տեսեք աշխատանքի ընթացքում", aria: "BlackArch-ի սքրինշոթեր" },
   iso: {
-    version: "Տարբերակ",
+    released: "Թողարկում",
     size: "Չափ",
     download: "Ներբեռնել",
     torrent: "Տորրենթ",

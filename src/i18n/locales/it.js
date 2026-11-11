@@ -31,7 +31,7 @@ export default {
   },
   shots: { title: "BlackArch in azione", aria: "Screenshot di BlackArch" },
   iso: {
-    version: "Versione",
+    released: "Rilascio",
     size: "Dimensione",
     download: "Scarica",
     torrent: "Torrent",

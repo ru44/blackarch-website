@@ -28,7 +28,7 @@ export default {
   },
   shots: { title: "شاهده يعمل", aria: "لقطات شاشة BlackArch" },
   iso: {
-    version: "الإصدار",
+    released: "تاريخ الإصدار",
     size: "الحجم",
     download: "تنزيل",
     torrent: "تورنت",

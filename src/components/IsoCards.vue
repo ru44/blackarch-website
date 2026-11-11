@@ -8,7 +8,7 @@ const TORRENT_URL = "https://blackarch.org/blackarch/torrent/";
 
 // Descriptions and tags are listed in the same order as data/images.json.
 const T = useT("iso", {
-  version: "Version",
+  released: "Released",
   size: "Size",
   download: "Download",
   torrent: "Torrent",
@@ -35,18 +35,25 @@ const torrentFor = (file) => `${TORRENT_URL}${file.split("/")[1]}.torrent`;
       <p>{{ T.desc[n] }}</p>
       <dl>
         <div>
-          <dt>{{ T.version }}</dt>
-          <dd>{{ i.version }}</dd>
+          <dt>{{ T.released }}</dt>
+          <dd>
+            <time :datetime="i.released">{{ i.released }}</time>
+          </dd>
         </div>
         <div>
           <dt>{{ T.size }}</dt>
           <dd>{{ i.size }}</dd>
         </div>
       </dl>
-      <button type="button" class="sha" @click="copy(i.sha1)" :title="'Copy SHA1 ' + i.sha1">
-        <span>SHA1</span><code>{{ i.sha1.slice(0, 12) }}…{{ i.sha1.slice(-6) }}</code
-        ><em>{{ isCopied(i.sha1) ? T.copied : T.copy }}</em>
-      </button>
+      <ul class="sums">
+        <li v-for="(sum, algorithm) in i.checksums" :key="algorithm">
+          <button type="button" class="sha" :title="`Copy ${algorithm} ${sum}`" @click="copy(sum)">
+            <span>{{ algorithm }}</span>
+            <code>{{ sum.slice(0, 12) }}…{{ sum.slice(-6) }}</code>
+            <em>{{ isCopied(sum) ? T.copied : T.copy }}</em>
+          </button>
+        </li>
+      </ul>
       <footer>
         <a class="dl" :href="MIRROR_URL + i.file">{{ T.download }}</a>
         <a class="tr" :href="torrentFor(i.file)">{{ T.torrent }}</a>
@@ -129,6 +136,24 @@ dd {
   margin: 0;
   font: 600 14px var(--vp-font-family-mono);
 }
+.sums {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sums li {
+  margin: 0;
+}
+
+.sha span {
+  flex: none;
+  min-width: 62px;
+  text-align: start;
+}
+
 .sha {
   display: flex;
   align-items: center;

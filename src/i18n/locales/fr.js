@@ -31,7 +31,7 @@ export default {
   },
   shots: { title: "À quoi ça ressemble", aria: "Captures d'écran de BlackArch" },
   iso: {
-    version: "Version",
+    released: "Publication",
     size: "Taille",
     download: "Télécharger",
     torrent: "Torrent",
