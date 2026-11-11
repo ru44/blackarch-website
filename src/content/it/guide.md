@@ -1,4 +1,5 @@
 ---
+description: "La guida di BlackArch Linux in PDF in 13 lingue, più un tutorial di installazione passo passo."
 title: Guida
 outline: false
 pageClass: wide

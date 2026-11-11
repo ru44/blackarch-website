@@ -1,6 +1,7 @@
 import { readFileSync } from "node:fs";
 import { defineConfig } from "vitepress";
 import { matrixIcon } from "./icons.mjs";
+import { createSeo } from "./seo.mjs";
 
 const REPO_URL = "https://github.com/ru44/blackarch-website";
 const SITE_URL = "https://ru44.github.io/blackarch-website/";
@@ -63,6 +64,13 @@ function localeSearchTranslations(locale) {
   };
 }
 
+const seo = createSeo({
+  siteUrl: SITE_URL,
+  title: SITE_TITLE,
+  description: SITE_DESCRIPTION,
+  locales: LOCALES,
+});
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/blackarch-website/",
@@ -75,6 +83,7 @@ export default defineConfig({
   description: SITE_DESCRIPTION,
   head: [
     ["link", { rel: "icon", type: "image/x-icon", href: "/blackarch-website/favicon.ico" }],
+    ["meta", { name: "theme-color", content: "#0a0a0b" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:site_name", content: SITE_TITLE }],
     ["meta", { property: "og:image", content: `${SITE_URL}og.jpg` }],
@@ -87,28 +96,9 @@ export default defineConfig({
   lastUpdated: true,
   markdown: { image: { lazyLoading: true } },
 
-  sitemap: {
-    hostname: SITE_URL,
-    // /news only redirects to the community page.
-    transformItems: (items) => items.filter((item) => !/(^|\/)news(\.html)?$/.test(item.url)),
-  },
-
-  // Link previews: each page gets its own address, title and description.
-  transformPageData(pageData) {
-    const path = pageData.relativePath.replace(/(^|\/)index\.md$/, "$1").replace(/\.md$/, "");
-    const url = SITE_URL + path;
-    const pageTitle =
-      pageData.title && pageData.title !== SITE_TITLE
-        ? `${pageData.title} | ${SITE_TITLE}`
-        : SITE_TITLE;
-    pageData.frontmatter.head ??= [];
-    pageData.frontmatter.head.push(
-      ["link", { rel: "canonical", href: url }],
-      ["meta", { property: "og:url", content: url }],
-      ["meta", { property: "og:title", content: pageTitle }],
-      ["meta", { property: "og:description", content: pageData.description || SITE_DESCRIPTION }],
-    );
-  },
+  // Sitemap, canonical addresses, hreflang and link previews: see seo.mjs.
+  sitemap: seo.sitemap,
+  transformPageData: seo.transformPageData,
 
   vite: {
     // `@/components/...` resolves from any page, including per-language ones.

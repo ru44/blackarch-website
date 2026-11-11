@@ -1,4 +1,5 @@
 ---
+description: "Sostieni BlackArch Linux con una donazione tramite PayPal o Bitcoin, oppure aiuta in altri modi."
 pageClass: wide
 outline: deep
 title: Dona

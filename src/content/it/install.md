@@ -1,4 +1,5 @@
 ---
+description: "Tutorial passo passo per installare BlackArch Linux dalla ISO con blackarch-installer, con screenshot."
 outline: deep
 title: Installazione
 translated: true

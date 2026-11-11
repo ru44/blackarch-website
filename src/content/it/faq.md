@@ -1,4 +1,5 @@
 ---
+description: "Risposte alle domande più comuni su come scegliere, installare, aggiornare e risolvere i problemi di BlackArch Linux."
 title: FAQ
 pageClass: wide
 outline: false

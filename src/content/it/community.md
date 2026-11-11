@@ -1,4 +1,5 @@
 ---
+description: "Dove trovare la community e il team di BlackArch Linux: Matrix, GitHub, X, YouTube, RSS ed email."
 pageClass: wide
 outline: false
 title: Community e novità
