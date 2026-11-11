@@ -52,6 +52,10 @@ All notable changes to this project are documented here. The format follows
 
 ### Fixed
 
+- Tool links: 587 updated (current upstream URLs from the BlackArch package database, Google Code
+  projects resolved through the Google Code archive, permanent redirects followed). Tools whose
+  website is gone show a "Dead link" tag and a search link instead.
+
 - FAQ no longer recommends installing every tool at once; the update command is `pacman -Syu`
   (BlackArch/blackarch-site#191).
 - ISO cards and the `strap.sh` check now give SHA-256 (and SHA3-256 for the ISOs) next to the

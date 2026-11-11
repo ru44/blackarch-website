@@ -19,20 +19,21 @@ pnpm install
 pnpm dev        # dev server with hot reload
 ```
 
-| Command             | What it does                                                             |
-| ------------------- | ------------------------------------------------------------------------ |
-| `pnpm dev`          | Start the dev server                                                     |
-| `pnpm build`        | Production build into `src/.vitepress/dist`                              |
-| `pnpm preview`      | Serve the production build locally                                       |
-| `pnpm check`        | Everything CI runs: formatting, lint and build                           |
-| `pnpm format`       | Format the code with Prettier                                            |
-| `pnpm format:check` | Check formatting without changing files (what CI should run)             |
-| `pnpm lint`         | Lint with [oxlint](https://oxc.rs/docs/guide/usage/linter.html)          |
-| `pnpm gen:locales`  | Regenerate the per-language page stubs (see [Translating](#translating)) |
-| `pnpm sync:mirrors` | Refresh the mirror list from blackarch.org                               |
-| `pnpm sync:wiki`    | Refresh tool package groups from the BlackArch wiki repository           |
-| `pnpm sync:updates` | Refresh tool build dates from the BlackArch package database             |
-| `pnpm sync:stars`   | Refresh the GitHub stars used for the "Most popular" ordering            |
+| Command             | What it does                                                                    |
+| ------------------- | ------------------------------------------------------------------------------- |
+| `pnpm dev`          | Start the dev server                                                            |
+| `pnpm build`        | Production build into `src/.vitepress/dist`                                     |
+| `pnpm preview`      | Serve the production build locally                                              |
+| `pnpm check`        | Everything CI runs: formatting, lint and build                                  |
+| `pnpm format`       | Format the code with Prettier                                                   |
+| `pnpm format:check` | Check formatting without changing files (what CI should run)                    |
+| `pnpm lint`         | Lint with [oxlint](https://oxc.rs/docs/guide/usage/linter.html)                 |
+| `pnpm gen:locales`  | Regenerate the per-language page stubs (see [Translating](#translating))        |
+| `pnpm sync:mirrors` | Refresh the mirror list from blackarch.org                                      |
+| `pnpm sync:wiki`    | Refresh tool package groups from the BlackArch wiki repository                  |
+| `pnpm sync:updates` | Refresh tool build dates from the BlackArch package database                    |
+| `pnpm sync:stars`   | Refresh the GitHub stars used for the "Most popular" ordering                   |
+| `pnpm sync:links`   | Update tool links, follow moved sites and list dead links (takes a few minutes) |
 
 The site is deployed to GitHub Pages by `.github/workflows`: `main-ci` builds every push and pull
 request, and `deploy-ci` publishes after a successful build on `main`.
@@ -114,6 +115,7 @@ by the generator. `src/content/it/` is a complete example.
 | `strap.sh` checksum | `src/content/en/downloads.md`, `src/content/it/downloads.md` | Update the `sha256sum -c` line. Check the script against the SHA1 on the official downloads page first, then run `sha256sum strap.sh`                                                                                                                |
 | Tool update dates   | `src/data/tool-updates.json`                                 | `pnpm sync:updates` (build dates from the official package database)                                                                                                                                                                                 |
 | Tool popularity     | `src/data/tool-stars.json`                                   | `pnpm sync:stars` (GitHub stars; needs `GITHUB_TOKEN` or the `gh` CLI)                                                                                                                                                                               |
+| Tool links          | `src/data/tools/*.json`, `tool-dead-links.json`              | `pnpm sync:links` (current URLs from the package database, Google Code archive and redirects; dead links are tagged on the Tools page)                                                                                                               |
 | Tool list           | `src/data/tools/*.json`                                      | One file per category. `scripts/convert_files_to_json.sh` converts the pipe-separated package lists (`name\|version\|description\|url`)                                                                                                              |
 | Team                | `src/data/developers.json`                                   | Add `github` and `avatar` (a file in `src/content/public/team/`) when known                                                                                                                                                                          |
 | Supporters          | `src/data/donors.json`                                       | Add new donations at the top                                                                                                                                                                                                                         |
