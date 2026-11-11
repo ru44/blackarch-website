@@ -393,3 +393,7 @@ html[dir="rtl"] .vp-doc > div > h2 { unicode-bidi: isolate; }
   html[dir="rtl"] .VPNavBar.has-sidebar .divider { padding-left: 0 !important; padding-right: var(--vp-sidebar-width) !important; }
   html[dir="rtl"] .VPNavBar.has-sidebar .title { border-bottom: 1px solid var(--vp-c-divider); }
 }
+
+/* Animated hero logo replaces the static image; the red glow stays behind it */
+.VPHero .image-container .logo { margin: 0 auto; }
+@media (min-width: 960px) { .VPHero .image-container { transform: none; } }
