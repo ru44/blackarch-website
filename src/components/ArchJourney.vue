@@ -104,7 +104,7 @@ const cmds = [
   inset-inline-end: 8.3%;
   top: 27px;
   height: 2px;
-  background: repeating-linear-gradient(90deg, var(--ba-red) 0 8px, transparent 8px 14px);
+  background: repeating-linear-gradient(90deg, var(--ba-accent) 0 8px, transparent 8px 14px);
   opacity: 0.7;
 }
 .track li {
@@ -124,7 +124,7 @@ const cmds = [
   display: grid;
   place-items: center;
   background: var(--vp-c-bg);
-  border: 2px solid var(--ba-red);
+  border: 2px solid var(--ba-accent);
   color: var(--vp-c-brand-1);
   z-index: 1;
   animation: pulse 3s ease-in-out infinite;
@@ -193,7 +193,7 @@ const cmds = [
 }
 .mine code::before {
   content: "$ ";
-  color: var(--ba-red);
+  color: var(--ba-accent);
 }
 .mine button {
   flex: none;
@@ -211,10 +211,10 @@ const cmds = [
 @keyframes pulse {
   0%,
   100% {
-    box-shadow: 0 0 0 0 rgba(230, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(var(--ba-accent-rgb), 0);
   }
   50% {
-    box-shadow: 0 0 0 8px rgba(230, 0, 0, 0.18);
+    box-shadow: 0 0 0 8px rgba(var(--ba-accent-rgb), 0.18);
   }
 }
 @media (max-width: 720px) {
@@ -229,7 +229,7 @@ const cmds = [
     bottom: 20px;
     width: 2px;
     height: auto;
-    background: repeating-linear-gradient(180deg, var(--ba-red) 0 8px, transparent 8px 14px);
+    background: repeating-linear-gradient(180deg, var(--ba-accent) 0 8px, transparent 8px 14px);
   }
   .track li {
     flex-direction: row;

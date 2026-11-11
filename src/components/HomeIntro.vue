@@ -113,7 +113,7 @@ const icons = [
   background: #3a3a40;
 }
 .bar i:first-child {
-  background: #e60000;
+  background: var(--ba-accent);
 }
 .bar span {
   margin-inline-start: 8px;
@@ -134,7 +134,7 @@ const icons = [
   overflow-wrap: anywhere;
 }
 .body b {
-  color: #e60000;
+  color: var(--ba-accent);
   margin-inline-end: 6px;
 }
 .body button {
@@ -148,7 +148,7 @@ const icons = [
   cursor: pointer;
 }
 .body button:hover {
-  border-color: #e60000;
+  border-color: var(--ba-accent);
   color: #fff;
 }
 .stats {

@@ -510,7 +510,7 @@ function copy(name, event) {
 }
 
 .sort button.on {
-  background: var(--ba-red);
+  background: var(--ba-accent);
   color: #fff;
 }
 
@@ -550,8 +550,8 @@ function copy(name, event) {
   border-color: var(--vp-c-brand-1);
 }
 .chips button.on {
-  background: var(--ba-red);
-  border-color: var(--ba-red);
+  background: var(--ba-accent);
+  border-color: var(--ba-accent);
   color: #fff;
 }
 .chips button.on small {
@@ -647,8 +647,8 @@ function copy(name, event) {
 }
 .expand:hover,
 .row.open .expand {
-  background: var(--ba-red-soft);
-  box-shadow: inset 2px 0 0 var(--ba-red);
+  background: var(--ba-accent-soft);
+  box-shadow: inset 2px 0 0 var(--ba-accent);
 }
 .expand:focus-visible {
   outline: 2px solid var(--vp-c-brand-1);
@@ -712,8 +712,8 @@ function copy(name, event) {
   color: var(--vp-c-brand-1);
 }
 .copy-icon.done {
-  border-color: var(--ba-red);
-  color: var(--ba-red);
+  border-color: var(--ba-accent);
+  color: var(--ba-accent);
 }
 
 .panel {
@@ -790,7 +790,7 @@ dd a {
   color: var(--vp-c-text-1);
 }
 .cmd b {
-  color: var(--ba-red);
+  color: var(--ba-accent);
   margin-inline-end: 6px;
 }
 .cmd button {

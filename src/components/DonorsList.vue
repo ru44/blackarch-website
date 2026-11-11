@@ -158,7 +158,7 @@ const rankOf = (d) => sorted.value.findIndex((x) => x.i === d.i) + 1;
   font-weight: 600;
 }
 .seg button.on {
-  background: var(--ba-red);
+  background: var(--ba-accent);
   color: #fff;
 }
 input {
@@ -200,7 +200,7 @@ input:focus {
 }
 .step[data-rank="1"] {
   border-color: var(--vp-c-brand-1);
-  background: linear-gradient(180deg, var(--ba-red-soft), var(--vp-c-bg-soft));
+  background: linear-gradient(180deg, var(--ba-accent-soft), var(--vp-c-bg-soft));
 }
 .step strong {
   max-width: 100%;
@@ -228,15 +228,15 @@ input:focus {
   background: var(--vp-c-bg);
 }
 .step[data-rank="1"] .medal {
-  background: var(--ba-red);
-  border-color: var(--ba-red);
+  background: var(--ba-accent);
+  border-color: var(--ba-accent);
   color: #fff;
 }
 .pillar {
   align-self: stretch;
   height: var(--h);
   margin: 12px -8px 0;
-  background: repeating-linear-gradient(135deg, transparent 0 6px, var(--ba-red-soft) 6px 12px);
+  background: repeating-linear-gradient(135deg, transparent 0 6px, var(--ba-accent-soft) 6px 12px);
   border-top: 1px solid var(--vp-c-divider);
 }
 
@@ -268,7 +268,7 @@ input:focus {
   border-top: 1px solid var(--vp-c-divider);
 }
 .rows li:hover {
-  background: var(--ba-red-soft);
+  background: var(--ba-accent-soft);
 }
 .rank {
   font: 600 13px var(--vp-font-family-mono);
@@ -303,7 +303,7 @@ input:focus {
   display: block;
   height: 100%;
   border-radius: inherit;
-  background: linear-gradient(90deg, var(--ba-red), #ff6b6b);
+  background: linear-gradient(90deg, var(--ba-accent), var(--ba-accent-light));
 }
 .amt {
   font: 600 13px var(--vp-font-family-mono);

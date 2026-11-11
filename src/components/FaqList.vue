@@ -333,8 +333,8 @@ onMounted(() => {
   border-color: var(--vp-c-brand-1);
 }
 .chips button.on {
-  background: var(--ba-red);
-  border-color: var(--ba-red);
+  background: var(--ba-accent);
+  border-color: var(--ba-accent);
   color: #fff;
 }
 .chips button.on small {

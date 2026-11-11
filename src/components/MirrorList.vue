@@ -138,7 +138,7 @@ li {
   padding: 5px 14px;
 }
 li:hover {
-  background: var(--ba-red-soft);
+  background: var(--ba-accent-soft);
 }
 .proto {
   flex: none;

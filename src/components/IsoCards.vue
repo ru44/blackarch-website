@@ -87,7 +87,7 @@ article:hover {
 }
 article.feat {
   border-color: var(--vp-c-brand-1);
-  background: linear-gradient(180deg, var(--ba-red-soft), var(--vp-c-bg-soft) 60%);
+  background: linear-gradient(180deg, var(--ba-accent-soft), var(--vp-c-bg-soft) 60%);
 }
 header {
   display: flex;
@@ -110,8 +110,8 @@ h3 {
   color: var(--vp-c-text-2);
 }
 .feat .tag {
-  background: var(--ba-red);
-  border-color: var(--ba-red);
+  background: var(--ba-accent);
+  border-color: var(--ba-accent);
   color: #fff;
 }
 p {
@@ -199,7 +199,7 @@ footer a {
   text-decoration: none;
 }
 .dl {
-  background: var(--ba-red);
+  background: var(--ba-accent);
   color: #fff;
 }
 .dl:hover {

@@ -67,7 +67,7 @@ h2 {
   overflow: hidden;
   background: #000;
   box-shadow:
-    0 24px 60px -24px rgba(230, 0, 0, 0.35),
+    0 24px 60px -24px rgba(var(--ba-accent-rgb), 0.35),
     var(--ba-shadow);
 }
 .bar {
@@ -85,7 +85,7 @@ h2 {
   background: #3a3a40;
 }
 .bar i:first-child {
-  background: #e60000;
+  background: var(--ba-accent);
 }
 .bar span {
   margin-inline-start: 10px;

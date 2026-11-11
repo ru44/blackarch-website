@@ -255,7 +255,7 @@ function onKey(e) {
 }
 .tabs button.on {
   border-color: var(--vp-c-brand-1);
-  background: var(--ba-red-soft);
+  background: var(--ba-accent-soft);
 }
 .stage {
   display: grid;
@@ -314,7 +314,7 @@ function onKey(e) {
 }
 .flow li.on {
   border-color: var(--vp-c-brand-1);
-  background: var(--ba-red-soft);
+  background: var(--ba-accent-soft);
   transform: translateX(4px);
 }
 .num {
@@ -330,8 +330,8 @@ function onKey(e) {
 }
 .flow li.on .num,
 .flow li.done .num {
-  background: var(--ba-red);
-  border-color: var(--ba-red);
+  background: var(--ba-accent);
+  border-color: var(--ba-accent);
   color: #fff;
 }
 .name {
@@ -428,12 +428,12 @@ function onKey(e) {
   top: 0;
   bottom: 0;
   width: 3px;
-  background: var(--ba-red);
+  background: var(--ba-accent);
   opacity: calc(1 - var(--i) * 0.22);
 }
 .flow.stack li.on {
   transform: none;
-  background: var(--ba-red-soft);
+  background: var(--ba-accent-soft);
   border-color: var(--vp-c-brand-1);
   border-bottom-width: 1px;
   z-index: 1;

@@ -85,7 +85,7 @@ const guides = [
   padding: 18px 20px;
   border: 1px solid var(--vp-c-brand-1);
   border-radius: 12px;
-  background: linear-gradient(90deg, var(--ba-red-soft), var(--vp-c-bg-soft));
+  background: linear-gradient(90deg, var(--ba-accent-soft), var(--vp-c-bg-soft));
   text-decoration: none;
   color: inherit;
   transition: transform 0.2s;
@@ -141,7 +141,7 @@ const guides = [
   font: 700 13px var(--vp-font-family-mono);
   letter-spacing: 0.02em;
   color: var(--vp-c-brand-1);
-  background: var(--ba-red-soft);
+  background: var(--ba-accent-soft);
   border: 1px solid var(--vp-c-divider);
 }
 .names {

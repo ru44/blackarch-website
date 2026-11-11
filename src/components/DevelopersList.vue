@@ -113,10 +113,10 @@ article:hover {
   place-items: center;
   font: 700 15px var(--vp-font-family-mono);
   color: #fff;
-  background: radial-gradient(circle at 30% 30%, #ff4d4d, #8a0000);
+  background: radial-gradient(circle at 30% 30%, var(--ba-accent-light), var(--ba-accent-dark));
   box-shadow:
     0 0 0 2px var(--vp-c-bg-soft),
-    0 0 0 3px var(--ba-red);
+    0 0 0 3px var(--ba-accent);
 }
 h3 {
   margin: 0;
@@ -154,7 +154,7 @@ h3 {
   letter-spacing: 0.06em;
   padding: 2px 8px;
   border-radius: 99px;
-  background: var(--ba-red-soft);
+  background: var(--ba-accent-soft);
   color: var(--vp-c-brand-1);
 }
 .mail {

@@ -1,16 +1,21 @@
 /**
  * Design tokens.
  *
- * BlackArch's identity is red on black: the logo, the ISOs and the official
- * site all use it. The brand scale maps to VitePress's red palette, which is
- * already contrast-tuned for both light and dark mode.
- * Component styles should use these variables instead of literal colours.
+ * BlackArch's identity is blue on black: the neon logo, the ISO wallpapers and
+ * the desktop themes all use it. To change the colour of the whole site, edit
+ * the --ba-accent values below.
+ * Component styles must use these variables instead of literal colours.
  */
 
 /* Site tokens */
 :root {
-  --ba-red: #e60000;
-  --ba-red-soft: rgba(230, 0, 0, 0.1);
+  /* Accent: solid fills carry white text, so keep it dark enough for contrast. */
+  --ba-accent: #1f6feb;
+  --ba-accent-rgb: 31, 111, 235;
+  --ba-accent-light: #6aa5ff;
+  --ba-accent-dark: #0b3d91;
+  --ba-accent-dark-rgb: 11, 61, 145;
+  --ba-accent-soft: rgba(var(--ba-accent-rgb), 0.12);
   --ba-radius: 12px;
   --ba-radius-sm: 8px;
   --ba-shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 8px 24px -12px rgba(0, 0, 0, 0.18);
@@ -39,16 +44,11 @@
   --vp-c-default-3: var(--vp-c-gray-3);
   --vp-c-default-soft: var(--vp-c-gray-soft);
 
-  --vp-c-brand-1: var(--vp-c-red-1);
-  --vp-c-brand-2: var(--vp-c-red-2);
-  --vp-c-brand-3: var(--vp-c-red-3);
-  --vp-c-brand-soft: var(--vp-c-red-soft);
-
-  /* Tips stay informative rather than alarming now that the brand is red. */
-  --vp-c-tip-1: var(--vp-c-indigo-1);
-  --vp-c-tip-2: var(--vp-c-indigo-2);
-  --vp-c-tip-3: var(--vp-c-indigo-3);
-  --vp-c-tip-soft: var(--vp-c-indigo-soft);
+  /* brand-1 is used for text and links, brand-3 for solid buttons. */
+  --vp-c-brand-1: #1a5fd0;
+  --vp-c-brand-2: #2f7bf0;
+  --vp-c-brand-3: var(--ba-accent);
+  --vp-c-brand-soft: rgba(var(--ba-accent-rgb), 0.14);
 
   --vp-c-warning-1: var(--vp-c-yellow-1);
   --vp-c-warning-2: var(--vp-c-yellow-2);
@@ -59,6 +59,14 @@
   --vp-c-danger-2: var(--vp-c-red-2);
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);
+}
+
+/* Lighter blues read better as text on the dark background. Declared after
+   the :root scale above so that it wins in dark mode. */
+.dark {
+  --vp-c-brand-1: #79b0ff;
+  --vp-c-brand-2: #4c8dff;
+  --vp-c-brand-soft: rgba(76, 141, 255, 0.16);
 }
 
 /* Buttons */
@@ -77,11 +85,15 @@
 /* Home hero */
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, var(--ba-red) 30%, #ff5c5c);
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    var(--ba-accent) 30%,
+    var(--ba-accent-light)
+  );
   --vp-home-hero-image-background-image: radial-gradient(
     circle at 50% 50%,
-    rgba(230, 0, 0, 0.55) 0%,
-    rgba(122, 15, 19, 0.35) 50%,
+    rgba(var(--ba-accent-rgb), 0.55) 0%,
+    rgba(var(--ba-accent-dark-rgb), 0.35) 50%,
     transparent 70%
   );
   --vp-home-hero-image-filter: blur(40px);

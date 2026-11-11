@@ -167,7 +167,7 @@ const wayLinks = [
   flex-direction: column;
   margin: 0;
   padding: 10px 14px;
-  border-inline-start: 2px solid var(--ba-red);
+  border-inline-start: 2px solid var(--ba-accent);
   background: var(--vp-c-bg-soft);
   border-start-end-radius: 8px;
   border-end-end-radius: 8px;
@@ -181,9 +181,9 @@ const wayLinks = [
   top: calc(var(--vp-nav-height) + 16px);
   border: 1px solid var(--vp-c-brand-1);
   border-radius: 14px;
-  background: linear-gradient(180deg, var(--ba-red-soft), var(--vp-c-bg-soft) 50%);
+  background: linear-gradient(180deg, var(--ba-accent-soft), var(--vp-c-bg-soft) 50%);
   padding: 18px;
-  box-shadow: 0 24px 60px -28px rgba(230, 0, 0, 0.5);
+  box-shadow: 0 24px 60px -28px rgba(var(--ba-accent-rgb), 0.5);
 }
 .seg {
   display: grid;
@@ -202,7 +202,7 @@ const wayLinks = [
   font-weight: 600;
 }
 .seg button.on {
-  background: var(--ba-red);
+  background: var(--ba-accent);
   color: #fff;
 }
 .pane {
@@ -221,7 +221,7 @@ const wayLinks = [
   text-align: center;
   padding: 12px 16px;
   border-radius: 10px;
-  background: var(--ba-red);
+  background: var(--ba-accent);
   color: #fff !important;
   font-weight: 700;
   text-decoration: none !important;

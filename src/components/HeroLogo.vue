@@ -142,11 +142,11 @@ const sword = withBase("/logo/sword.png");
   0%,
   100% {
     filter: drop-shadow(0 0 4px rgba(120, 170, 255, 0.55))
-      drop-shadow(0 0 12px rgba(230, 0, 0, 0.25));
+      drop-shadow(0 0 12px rgba(var(--ba-accent-rgb), 0.25));
   }
   50% {
     filter: drop-shadow(0 0 10px rgba(150, 195, 255, 0.95))
-      drop-shadow(0 0 26px rgba(230, 0, 0, 0.5));
+      drop-shadow(0 0 26px rgba(var(--ba-accent-rgb), 0.5));
   }
 }
 @keyframes flicker {

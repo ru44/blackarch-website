@@ -186,7 +186,7 @@ const T = useT("community", {
   height: 12px;
   border-radius: 50%;
   background: var(--vp-c-bg);
-  border: 2px solid var(--ba-red);
+  border: 2px solid var(--ba-accent);
 }
 .timeline a {
   display: flex;

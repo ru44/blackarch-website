@@ -8,7 +8,7 @@ html {
 }
 
 ::selection {
-  background: var(--ba-red);
+  background: var(--ba-accent);
   color: #fff;
 }
 
@@ -93,7 +93,7 @@ html {
 
 .VPHero .VPButton.brand:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px -8px rgba(230, 0, 0, 0.6);
+  box-shadow: 0 8px 24px -8px rgba(var(--ba-accent-rgb), 0.6);
 }
 
 /* The animated logo (HeroLogo.vue) replaces the hero image */
@@ -126,7 +126,7 @@ html {
   position: absolute;
   inset: 0 0 auto 0;
   height: 2px;
-  background: linear-gradient(90deg, var(--ba-red), transparent);
+  background: linear-gradient(90deg, var(--ba-accent), transparent);
   opacity: 0;
   transition: opacity 0.2s ease;
 }
@@ -142,7 +142,7 @@ html {
 
 .VPFeature .icon {
   border-radius: var(--ba-radius-sm) !important;
-  background: var(--ba-red-soft) !important;
+  background: var(--ba-accent-soft) !important;
 }
 
 /* Doc content */
