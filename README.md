@@ -145,3 +145,11 @@ Fixes and translations are welcome. Open an issue first for larger changes. Ever
 BlackArch Linux itself, its packages and its tools are maintained in the
 [BlackArch organization](https://github.com/BlackArch). Problems with the distribution belong there,
 not here.
+## License
+
+The code of this website is released under the [MIT License](LICENSE).
+
+The BlackArch name and logo, the screenshots and the texts taken from
+[blackarch.org](https://blackarch.org) belong to the BlackArch Linux project. The tool
+descriptions come from the BlackArch package database and their upstream projects.
+
