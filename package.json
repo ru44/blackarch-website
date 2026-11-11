@@ -23,6 +23,7 @@
     "sync:stars": "node scripts/sync-tool-stars.mjs",
     "sync:links": "node scripts/sync-tool-links.mjs",
     "sync:versions": "node scripts/sync-tool-versions.mjs",
+    "seo:indexnow": "node scripts/submit-indexnow.mjs",
     "prepare": "husky"
   },
   "dependencies": {
