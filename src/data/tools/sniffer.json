@@ -1,7 +1,7 @@
 [
   {
     "name": "above",
-    "version": "v2.8.r0.gae634e4",
+    "version": "v2.8.1.r0.g313f550",
     "description": "Network Protocols Sniffer.",
     "url": "https://github.com/caster0x00/Above"
   },
@@ -133,13 +133,13 @@
   },
   {
     "name": "nsntrace",
-    "version": "81.4d02e74",
+    "version": "86.1d5adce",
     "description": "Perform network trace of a single process by using network namespaces.",
     "url": "https://github.com/nsntrace/nsntrace"
   },
   {
     "name": "ofp-sniffer",
-    "version": "230.4b79b6c",
+    "version": "1.0.0.r89.g0d907da",
     "description": "An OpenFlow sniffer to help network troubleshooting in production networks.",
     "url": "https://github.com/amlight/ofp_sniffer"
   },
@@ -169,7 +169,7 @@
   },
   {
     "name": "pyrdp",
-    "version": "2089.1daf83e",
+    "version": "2107.b610809",
     "description": "Python 3 RDP MITM and library.",
     "url": "https://github.com/GoSecure/pyrdp"
   },

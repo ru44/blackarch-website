@@ -73,7 +73,7 @@
   },
   {
     "name": "zsteg",
-    "version": "v0.2.13.r5.g8fc7798",
+    "version": "v0.2.14.r0.gb75b578",
     "description": "Detect stegano-hidden data in PNG and BMP.",
     "url": "https://github.com/zed-0xff/zsteg"
   }

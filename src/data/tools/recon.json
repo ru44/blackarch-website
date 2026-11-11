@@ -7,31 +7,31 @@
   },
   {
     "name": "ad-ldap-enum",
-    "version": "88.60bc5bb",
+    "version": "90.caee43d",
     "description": "An LDAP based Active Directory user and group enumeration tool.",
     "url": "https://github.com/CroweCybersecurity/ad-ldap-enum"
   },
   {
     "name": "ad-miner",
-    "version": "v1.8.1.r0.g6467f51",
+    "version": "v1.9.0.r0.gac3d473",
     "description": "Active Directory audit tool that extract data from Bloodhound to uncover security weaknesses and generate an HTML report",
     "url": "https://github.com/AD-Security/AD_Miner"
   },
   {
     "name": "adexplorersnapshot",
-    "version": "108.f505ff2",
+    "version": "148.4772430",
     "description": "AD Explorer snapshot parser.",
     "url": "https://github.com/c3c/ADExplorerSnapshot"
   },
   {
     "name": "adidnsdump",
-    "version": "29.95adaf8",
+    "version": "v1.6.0.r0.gc6bff9a",
     "description": "Active Directory Integrated DNS dumping by any authenticated user.",
     "url": "https://github.com/dirkjanm/adidnsdump"
   },
   {
     "name": "aiodnsbrute",
-    "version": "38.e773a4c",
+    "version": "v0.3.2.r0.ge773a4c",
     "description": "Python 3 DNS asynchronous brute force utility.",
     "url": "https://github.com/blark/aiodnsbrute"
   },
@@ -43,7 +43,7 @@
   },
   {
     "name": "aquatone",
-    "version": "153.30fbf6e",
+    "version": "v1.9.1.shelld3v.r14.g30fbf6e",
     "description": "A Tool for Domain Flyovers.",
     "url": "https://github.com/shelld3v/aquatone"
   },
@@ -55,7 +55,7 @@
   },
   {
     "name": "attacksurfacemapper",
-    "version": "47.8a402ed",
+    "version": "v1.1.r25.g8a402ed",
     "description": "Tool that aims to automate the reconnaissance process.",
     "url": "https://github.com/superhedgy/AttackSurfaceMapper"
   },
@@ -91,7 +91,7 @@
   },
   {
     "name": "bfac",
-    "version": "53.18fb0b5",
+    "version": "v1.0.r12.g18fb0b5",
     "description": "An automated tool that checks for backup artifacts that may disclose the web-application's source code.",
     "url": "https://github.com/mazen160/bfac"
   },
@@ -109,19 +109,19 @@
   },
   {
     "name": "bloodhound",
-    "version": "v4.3.1.r42.gbdcb167",
+    "version": "v4.3.1.r61.ge8eda86",
     "description": "Six Degrees of Domain Admin",
     "url": "https://github.com/SpecterOps/BloodHound-Legacy"
   },
   {
     "name": "bloodhound-ce-python",
-    "version": "v1.0.1.r182.g3def775",
+    "version": "v1.0.1.r220.gf7c0144",
     "description": "Python data collector for Bloodhound community edition (v5)",
     "url": "https://github.com/dirkjanm/BloodHound.py"
   },
   {
     "name": "bloodhound-python",
-    "version": "v1.0.1.r169.gb2e8f92",
+    "version": "v1.0.1.r188.gb317087",
     "description": "Python data collector for Bloodhound legcacy (v4)",
     "url": "https://github.com/dirkjanm/BloodHound.py"
   },
@@ -139,19 +139,19 @@
   },
   {
     "name": "ccrawldns",
-    "version": "6.92525b6",
+    "version": "v1.0.r2.gdfd5062",
     "description": "Retrieves from the CommonCrawl data set unique subdomains for a given domain name.",
     "url": "https://github.com/lgandx/CCrawlDNS"
   },
   {
     "name": "certgraph",
-    "version": "172.465bddc",
+    "version": "200.7c8dd0d",
     "description": "Crawl the graph of certificate Alternate Names.",
     "url": "https://github.com/lanrat/certgraph"
   },
   {
     "name": "chaos-client",
-    "version": "283.17a19d7",
+    "version": "286.b0522e0",
     "description": "Go client to communicate with Chaos dataset API.",
     "url": "https://github.com/projectdiscovery/chaos-client"
   },
@@ -175,19 +175,19 @@
   },
   {
     "name": "cloud_enum",
-    "version": "0.7.r10.gd3c292c",
+    "version": "0.9.r0.g21af4f9",
     "description": "Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud.",
     "url": "https://github.com/initstring/cloud_enum"
   },
   {
     "name": "cloudfail",
-    "version": "79.7982c7d",
+    "version": "86.c84219f",
     "description": "Utilize misconfigured DNS and old database records to find hidden IP's behind the CloudFlare network.",
     "url": "https://github.com/m0rtem/CloudFail"
   },
   {
     "name": "cloudlist",
-    "version": "803.76dbfc4",
+    "version": "1017.b4c3216",
     "description": "A tool for listing Assets from multiple Cloud Providers.",
     "url": "https://github.com/projectdiscovery/cloudlist"
   },
@@ -205,19 +205,19 @@
   },
   {
     "name": "cr3dov3r",
-    "version": "47.4e1f784",
+    "version": "48.49bbdbe",
     "description": "Search for public leaks for email addresses + check creds against 16 websites.",
     "url": "https://github.com/D4Vinci/Cr3dOv3r"
   },
   {
     "name": "cutycapt",
-    "version": "10",
+    "version": "11.0",
     "description": "A Qt and WebKit based command-line utility that captures WebKit's rendering of a web page.",
     "url": "https://cutycapt.sourceforge.net/"
   },
   {
     "name": "datasploit",
-    "version": "367.a270d50",
+    "version": "369.28d9caf",
     "description": "Performs automated OSINT and more.",
     "url": "https://github.com/DataSploit/datasploit"
   },
@@ -265,7 +265,7 @@
   },
   {
     "name": "dnsrecon",
-    "version": "1.3.1",
+    "version": "1.6.3",
     "description": "Python script for enumeration of hosts, subdomains and emails from a given domain using google.",
     "url": "https://github.com/darkoperator/dnsrecon"
   },
@@ -277,7 +277,7 @@
   },
   {
     "name": "dnsspider",
-    "version": "1.4",
+    "version": "1.5",
     "description": "A fast multithreaded bruteforcer of subdomains that leverages a wordlist and/or character permutation.",
     "url": "https://nullsecurity.net/tools/scanner.html"
   },
@@ -295,7 +295,7 @@
   },
   {
     "name": "dnsx",
-    "version": "1128.d400307",
+    "version": "v1.2.1.r493.gc72b42d",
     "description": "Fast and multi-purpose DNS toolkit allow to run multiple DNS queries of your choice with a list of user-supplied resolvers.",
     "url": "https://github.com/projectdiscovery/dnsx"
   },
@@ -325,7 +325,7 @@
   },
   {
     "name": "dradis-ce",
-    "version": "5575.ed72071c",
+    "version": "v5.0.0.r892.g26c057b",
     "description": "An open source framework to enable effective information sharing.",
     "url": "https://dradis.com/ce/"
   },
@@ -343,7 +343,7 @@
   },
   {
     "name": "enum4linux-ng",
-    "version": "423.3f64fd1",
+    "version": "454.288826f",
     "description": "A next generation version of enum4linux.",
     "url": "https://github.com/cddmp/enum4linux-ng"
   },
@@ -355,7 +355,7 @@
   },
   {
     "name": "enumerid",
-    "version": "36.d3e7265",
+    "version": "37.ba5540f",
     "description": "Enumerate RIDs using pure Python.",
     "url": "https://github.com/Gilks/enumerid"
   },
@@ -397,7 +397,7 @@
   },
   {
     "name": "finalrecon",
-    "version": "194.f1abf5a",
+    "version": "v1.1.8.r6.g98a0bac",
     "description": "OSINT Tool for All-In-One Web Reconnaissance.",
     "url": "https://github.com/thewhiteh4t/FinalRecon"
   },
@@ -409,7 +409,7 @@
   },
   {
     "name": "forager",
-    "version": "115.7439b0a",
+    "version": "v2.0.3.r3.g7439b0a",
     "description": "Multithreaded threat Intelligence gathering utilizing.",
     "url": "https://github.com/opensourcesec/Forager"
   },
@@ -439,13 +439,13 @@
   },
   {
     "name": "ghunt",
-    "version": "v2.2.0.r12.g71f0144",
+    "version": "v2.2.0.r30.g5ee8939",
     "description": "An offensive OSINT Google framework.",
     "url": "https://github.com/mxrch/GHunt"
   },
   {
     "name": "git-hound",
-    "version": "174.1d20536",
+    "version": "258.15701b7",
     "description": "Pinpoints exposed API keys on GitHub. A batch-catching, pattern-matching, patch-attacking secret snatcher.",
     "url": "https://github.com/tillson/git-hound"
   },
@@ -481,19 +481,19 @@
   },
   {
     "name": "github-dorks",
-    "version": "86.af9295e",
+    "version": "106.16dc173",
     "description": "Collection of github dorks and helper tool to automate the process of checking dorks.",
     "url": "https://github.com/techgaun/github-dorks"
   },
   {
     "name": "gitmails",
-    "version": "71.8aa8411",
+    "version": "0.1.1.r6.g8aa8411",
     "description": "An information gathering tool to collect git commit emails in version control host services.",
     "url": "https://github.com/giovanifss/gitmails"
   },
   {
     "name": "gitminer",
-    "version": "54.16ada58",
+    "version": "8.071385f",
     "description": "Tool for advanced mining for content on Github.",
     "url": "https://github.com/UnkL4b/Gitminer3"
   },
@@ -583,13 +583,13 @@
   },
   {
     "name": "hakrevdns",
-    "version": "47.3001d16",
+    "version": "49.2a847d3",
     "description": "Small, fast tool for performing reverse DNS lookups en masse.",
     "url": "https://github.com/hakluke/hakrevdns"
   },
   {
     "name": "halcyon",
-    "version": "0.1",
+    "version": "1.0",
     "description": "A repository crawler that runs checksums for static files found within a given git repository.",
     "url": "https://www.blackhatlibrary.net/Halcyon"
   },
@@ -607,7 +607,7 @@
   },
   {
     "name": "hoper",
-    "version": "15.8d5dbd9",
+    "version": "v0.1.1.r0.g8d5dbd9",
     "description": "Trace URL's jumps across the rel links to obtain the last URL.",
     "url": "https://github.com/gabamnml/hoper"
   },
@@ -655,7 +655,7 @@
   },
   {
     "name": "intrace",
-    "version": "1.5",
+    "version": "1.6",
     "description": "Traceroute-like application piggybacking on existing TCP connections",
     "url": "http://intrace.googlecode.com"
   },
@@ -697,19 +697,19 @@
   },
   {
     "name": "ivre",
-    "version": "0.9.21.dev54",
+    "version": "0.9.21.dev163",
     "description": "Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,...",
     "url": "https://ivre.rocks/"
   },
   {
     "name": "ivre-docs",
-    "version": "0.9.21.dev54",
+    "version": "0.9.21.dev163",
     "description": "Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,... (documentation)",
     "url": "https://ivre.rocks/"
   },
   {
     "name": "ivre-web",
-    "version": "0.9.21.dev54",
+    "version": "0.9.21.dev163",
     "description": "Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,... (web application)",
     "url": "https://ivre.rocks/"
   },
@@ -733,7 +733,7 @@
   },
   {
     "name": "kamerka",
-    "version": "47.23a9bd6",
+    "version": "48.1f301e8",
     "description": "Build interactive map of cameras from Shodan.",
     "url": "https://github.com/s7x/kamerka"
   },
@@ -763,13 +763,13 @@
   },
   {
     "name": "ldeep",
-    "version": "1.0.84.r0.gfbf4fbf",
+    "version": "2.0.3.r15.gb57f12e",
     "description": "In-depth ldap enumeration utility.",
     "url": "https://github.com/franc-pentest/ldeep"
   },
   {
     "name": "legion",
-    "version": "61.ca99853",
+    "version": "64.703f2ad",
     "description": "Automatic Enumeration Tool based in Open Source tools.",
     "url": "https://github.com/carlospolop/legion"
   },
@@ -793,7 +793,7 @@
   },
   {
     "name": "linux-exploit-suggester.sh",
-    "version": "171.2063aeb",
+    "version": "189.bde0967",
     "description": "Linux privilege escalation auditing tool.",
     "url": "https://github.com/The-Z-Labs/linux-exploit-suggester"
   },
@@ -817,7 +817,7 @@
   },
   {
     "name": "machinae",
-    "version": "197.9ef3e6c",
+    "version": "200.d5deae8",
     "description": "A tool for collecting intelligence from public sites/feeds about various security-related pieces of data.",
     "url": "https://github.com/HurricaneLabs/machinae"
   },
@@ -841,7 +841,7 @@
   },
   {
     "name": "metabigor",
-    "version": "78.607b2c9",
+    "version": "79.c0a3ecf",
     "description": "Intelligence Tool but without API key.",
     "url": "https://github.com/j3ssie/metabigor"
   },
@@ -853,7 +853,7 @@
   },
   {
     "name": "metagoofil",
-    "version": "87.b232cb4",
+    "version": "97.88e9a3c",
     "description": "An information gathering tool designed for extracting metadata of public documents.",
     "url": "http://www.edge-security.com/metagoofil.php"
   },
@@ -895,7 +895,7 @@
   },
   {
     "name": "netdiscover",
-    "version": "229.77421e6",
+    "version": "257.42648f9",
     "description": "An active/passive address reconnaissance tool, mainly developed for those wireless networks without dhcp server, when you are wardriving. It can be also used on hub/switched networks.",
     "url": "http://nixgeneration.com/~jaime/netdiscover/"
   },
@@ -967,7 +967,7 @@
   },
   {
     "name": "osint-spy",
-    "version": "25.03dcf48",
+    "version": "v2.0.r11.g03dcf48",
     "description": "Performs OSINT scan on email/domain/ip_address/organization.",
     "url": "https://github.com/SharadKumar97/OSINT-SPY"
   },
@@ -979,7 +979,7 @@
   },
   {
     "name": "osintgram",
-    "version": "1.3.r9.g3c61e53",
+    "version": "2.0.r11.ga560498",
     "description": "OSINT tool offering an interactive shell to perform analysis on Instagram account of any users by its nickname.",
     "url": "https://github.com/Datalux/Osintgram"
   },
@@ -1015,13 +1015,13 @@
   },
   {
     "name": "postenum",
-    "version": "125.3188f0a",
+    "version": "126.f91ba1c",
     "description": "Clean, nice and easy tool for basic/advanced privilege escalation techniques.",
     "url": "https://github.com/mostaphabahadou/postenum"
   },
   {
     "name": "protosint",
-    "version": "26.1ee6ee4",
+    "version": "35.34e570a",
     "description": "Python script that helps you investigate Protonmail accounts and ProtonVPN IP addresses.",
     "url": "https://github.com/pixelbubble/ProtOSINT"
   },
@@ -1033,13 +1033,13 @@
   },
   {
     "name": "puredns",
-    "version": "v2.1.1.r2.gd823415",
+    "version": "v2.1.1.r4.g46bd4c9",
     "description": "Fast domain resolver and subdomain bruteforcing with accurate wildcard filtering.",
     "url": "https://github.com/d3mondev/puredns"
   },
   {
     "name": "pwned",
-    "version": "2702.f461235",
+    "version": "3063.b6554f1",
     "description": "A command-line tool for querying the 'Have I been pwned?' service.",
     "url": "https://github.com/wKovacs64/pwned"
   },
@@ -1051,31 +1051,31 @@
   },
   {
     "name": "pwnedornot",
-    "version": "150.d25d3fa",
+    "version": "152.c388d26",
     "description": "Tool to find passwords for compromised email addresses.",
     "url": "https://github.com/thewhiteh4t/pwnedOrNot"
   },
   {
     "name": "pymeta",
-    "version": "13.fa74e64",
+    "version": "1.0.4.r25.gdb8a80b",
     "description": "Auto Scanning to SSL Vulnerability.",
     "url": "https://github.com/m8sec/pymeta"
   },
   {
     "name": "python-api-dnsdumpster",
-    "version": "79.0f8ba2b",
+    "version": "v0.11.r0.g7c60722",
     "description": "Unofficial Python API for http://dnsdumpster.com/.",
     "url": "https://github.com/PaulSec/API-dnsdumpster.com"
   },
   {
     "name": "python-ivre",
-    "version": "0.9.21.dev54",
+    "version": "0.9.21.dev163",
     "description": "Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,... (library)",
     "url": "https://ivre.rocks/"
   },
   {
     "name": "python2-api-dnsdumpster",
-    "version": "79.0f8ba2b",
+    "version": "v0.10.r0.g0f8ba2b",
     "description": "Unofficial Python API for http://dnsdumpster.com/.",
     "url": "https://github.com/PaulSec/API-dnsdumpster.com"
   },
@@ -1099,7 +1099,7 @@
   },
   {
     "name": "raccoon",
-    "version": "187.9cf6c11",
+    "version": "190.44024ab",
     "description": "A high performance offensive security tool for reconnaissance and vulnerability scanning.",
     "url": "https://github.com/evyatarmeged/Raccoon"
   },
@@ -1111,13 +1111,13 @@
   },
   {
     "name": "recon-ng",
-    "version": "1028.c08acee",
+    "version": "v5.1.2.r8.g32b08fe",
     "description": "A full-featured Web Reconnaissance framework written in Python.",
     "url": "https://github.com/lanmaster53/recon-ng"
   },
   {
     "name": "reconnoitre",
-    "version": "441.f62afba",
+    "version": "1.r338.gf62afba",
     "description": "A security tool for multithreaded information gathering and service enumeration.",
     "url": "https://github.com/codingo/Reconnoitre"
   },
@@ -1159,31 +1159,31 @@
   },
   {
     "name": "ripdc",
-    "version": "0.3",
+    "version": "0.4",
     "description": "A script which maps domains related to an given ip address or domainname.",
     "url": "https://nullsecurity.net/tools/scanner"
   },
   {
     "name": "rita",
-    "version": "v5.0.8.r0.g93b2dc5",
+    "version": "v5.1.2.r5.g1317d70",
     "description": "Real Intelligence Threat Analytics.",
     "url": "https://github.com/activecm/rita"
   },
   {
     "name": "rusthound",
-    "version": "55.6d7b945",
+    "version": "1.1.69.r4.g241751c",
     "description": "Active Directory data collector for BloodHound.",
     "url": "https://github.com/NH-RED-TEAM/RustHound"
   },
   {
     "name": "s3enum",
-    "version": "v1.0.0.r15.gd7f6b7d",
+    "version": "v1.1.0.r6.ge9b9bb8",
     "description": "Amazon S3 bucket enumeration.",
     "url": "https://github.com/koenrh/s3enum"
   },
   {
     "name": "scavenger",
-    "version": "103.75907e8",
+    "version": "118.8f5d432",
     "description": "Crawler (Bot) searching for credential leaks on different paste sites.",
     "url": "https://github.com/rndinfosecguy/Scavenger"
   },
@@ -1231,7 +1231,7 @@
   },
   {
     "name": "shosubgo",
-    "version": "v3.1.r3.gf605bdd",
+    "version": "V5.0.r0.gccb6dc7",
     "description": "Small tool to Grab subdomains using Shodan API.",
     "url": "https://github.com/incogbyte/shosubgo"
   },
@@ -1315,7 +1315,7 @@
   },
   {
     "name": "subfinder",
-    "version": "v2.6.7.r87.g0838856",
+    "version": "v2.14.0.r104.g5e3e2c9b",
     "description": "Modular subdomain discovery tool that can discover massive amounts of valid subdomains for any target.",
     "url": "https://github.com/projectdiscovery/subfinder"
   },
@@ -1369,7 +1369,7 @@
   },
   {
     "name": "theharvester",
-    "version": "3841.f1f7e721",
+    "version": "4.11.1.r76.g760b386",
     "description": "Python tool for gathering e-mail accounts and subdomain names from different public sources (search engines, pgp key servers).",
     "url": "https://github.com/laramies/theHarvester"
   },
@@ -1465,7 +1465,7 @@
   },
   {
     "name": "waymore",
-    "version": "v6.1.r0.gbf14b4b",
+    "version": "v8.9.r0.g4e02de5",
     "description": "Find way more from the Wayback Machine, Common Crawl, Alien Vault OTX, URLScan & VirusTotal.",
     "url": "https://github.com/xnl-h4ck3r/waymore"
   },
@@ -1483,7 +1483,7 @@
   },
   {
     "name": "whatweb",
-    "version": "4910.efee4d80",
+    "version": "v0.6.4.r0.gd279d93",
     "description": "Next generation web scanner that identifies what websites are running.",
     "url": "https://www.morningstarsecurity.com/research/whatweb"
   },

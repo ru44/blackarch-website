@@ -22,6 +22,7 @@
     "sync:updates": "node scripts/sync-tool-updates.mjs",
     "sync:stars": "node scripts/sync-tool-stars.mjs",
     "sync:links": "node scripts/sync-tool-links.mjs",
+    "sync:versions": "node scripts/sync-tool-versions.mjs",
     "prepare": "husky"
   },
   "dependencies": {

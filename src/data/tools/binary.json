@@ -1,7 +1,7 @@
 [
   {
     "name": "amber",
-    "version": "256.f6eb2dc",
+    "version": "v3.1.r2.gf6eb2dc",
     "description": "Reflective PE packer.",
     "url": "https://github.com/EgeBalci/Amber"
   },
@@ -19,13 +19,13 @@
   },
   {
     "name": "angr",
-    "version": "9.1.11752",
+    "version": "9.2.194",
     "description": "The next-generation binary analysis platform from UC Santa Barbaras Seclab.",
     "url": "https://pypi.org/project/angr/#files"
   },
   {
     "name": "angr-management",
-    "version": "9.1.11752",
+    "version": "9.2.179",
     "description": "This is the GUI for angr.",
     "url": "https://github.com/angr/angr-management"
   },
@@ -37,7 +37,7 @@
   },
   {
     "name": "avet",
-    "version": "559.d561ee3",
+    "version": "560.6da43bf",
     "description": "AntiVirus Evasion Tool.",
     "url": "https://github.com/govolution/avet"
   },
@@ -229,7 +229,7 @@
   },
   {
     "name": "manticore",
-    "version": "0.3.7.r73.g88610053",
+    "version": "0.3.7.r88.gcdf6c4b",
     "description": "Symbolic execution tool.",
     "url": "https://github.com/trailofbits/manticore"
   },
@@ -247,7 +247,7 @@
   },
   {
     "name": "oledump",
-    "version": "0.0.77",
+    "version": "0.0.81",
     "description": "Analyze OLE files (Compound File Binary Format). These files contain streams of data. This tool allows you to analyze these streams.",
     "url": "https://blog.didierstevens.com/programs/oledump-py/"
   },
@@ -277,7 +277,7 @@
   },
   {
     "name": "procdump",
-    "version": "63.5f23548",
+    "version": "3.5.1.r0.g5c01514",
     "description": "Generate coredumps based off performance triggers.",
     "url": "https://github.com/microsoft/ProcDump-Linux"
   },
@@ -295,7 +295,7 @@
   },
   {
     "name": "python-peid",
-    "version": "2.2.1",
+    "version": "2.4.0",
     "description": "Python implementation of the Packed Executable iDentifier (PEiD).",
     "url": ""
   },
@@ -307,13 +307,13 @@
   },
   {
     "name": "qbdi",
-    "version": "v0.11.0.r54.g34bf7e4",
+    "version": "v0.12.1.r12.g3318580",
     "description": "A Dynamic Binary Instrumentation framework based on LLVM.",
     "url": "https://github.com/QBDI/QBDI"
   },
   {
     "name": "quickscope",
-    "version": "527.196389b",
+    "version": "555.180d44f",
     "description": "Statically analyze windows, linux, osx, executables and also APK files.",
     "url": "https://github.com/CYB3RMX/Qu1cksc0pe"
   },
@@ -337,7 +337,7 @@
   },
   {
     "name": "sgn",
-    "version": "36.f54fa65",
+    "version": "42.8e2c4e1",
     "description": "Shikata ga nai encoder ported into go with several improvements.",
     "url": "https://github.com/EgeBalci/sgn"
   },
@@ -355,25 +355,25 @@
   },
   {
     "name": "triton",
-    "version": "4291.e312eafc",
+    "version": "4440.0ff03150",
     "description": "A Dynamic Binary Analysis (DBA) framework.",
     "url": "https://github.com/JonathanSalwan/Triton"
   },
   {
     "name": "veles",
-    "version": "637.e65de5a",
+    "version": "2018.05",
     "description": "New open source tool for binary data analysis.",
     "url": "https://codisec.com/veles/"
   },
   {
     "name": "wcc",
-    "version": "99.08f67cd",
+    "version": "v0.0.11.r34.gdced7e9",
     "description": "The Witchcraft Compiler Collection.",
     "url": "https://github.com/endrazine/wcc"
   },
   {
     "name": "wxhexeditor",
-    "version": "733.f439d8f",
+    "version": "v0.24.r109.gf439d8f",
     "description": "A free hex editor / disk editor for Linux, Windows and MacOSX.",
     "url": "http://wxhexeditor.sourceforge.net/"
   },

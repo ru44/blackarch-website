@@ -13,7 +13,7 @@
   },
   {
     "name": "adfind",
-    "version": "v1.0.3.r0.g3a6a055",
+    "version": "v1.0.3.r3.g46acf19",
     "description": "Simple admin panel finder for php,js,cgi,asp and aspx admin panels.",
     "url": "https://github.com/sahakkhotsanyan/adfind"
   },
@@ -25,19 +25,19 @@
   },
   {
     "name": "albatar",
-    "version": "36.d500657",
+    "version": "0.1.r11.gd500657",
     "description": "A SQLi exploitation framework in Python.",
     "url": "https://github.com/lanjelot/albatar"
   },
   {
     "name": "anti-xss",
-    "version": "166.2725dc9",
+    "version": "v0.1.alpha.r69.g2725dc9",
     "description": "A XSS vulnerability scanner.",
     "url": "https://github.com/lewangbtcc/anti-XSS"
   },
   {
     "name": "arachni",
-    "version": "1.6.1.3.1.g8e5c5d0a9",
+    "version": "1.6.1.3.5.g9cd73f254",
     "description": "A feature-full, modular, high-performance Ruby framework aimed towards helping penetration testers and administrators evaluate the security of web applications.",
     "url": "https://www.arachni-scanner.com"
   },
@@ -61,7 +61,7 @@
   },
   {
     "name": "badsecrets",
-    "version": "v0.9.30.r3.ga8f7ab7",
+    "version": "1.3.0.r4.g66e88a0",
     "description": "A library for detecting known secrets across many web frameworks.",
     "url": "https://github.com/blacklanternsecurity/badsecrets"
   },
@@ -115,7 +115,7 @@
   },
   {
     "name": "burpsuite",
-    "version": "2025.3",
+    "version": "2026.10.1",
     "description": "An integrated platform for attacking web applications (community edition) + SHELLING plugin.",
     "url": "https://portswigger.net/burp/releases"
   },
@@ -133,13 +133,13 @@
   },
   {
     "name": "cariddi",
-    "version": "v1.3.6.r0.g3ecfc22",
+    "version": "v1.4.6.r16.g39aebc1",
     "description": "Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, token.",
     "url": "https://github.com/edoardottt/cariddi"
   },
   {
     "name": "cent",
-    "version": "v1.3.4.r4.g601e4da",
+    "version": "v2.2.0.r0.gfcf1c1c",
     "description": "Community edition nuclei templates.",
     "url": "https://github.com/xm1k3/cent"
   },
@@ -175,7 +175,7 @@
   },
   {
     "name": "cmseek",
-    "version": "382.20f9780",
+    "version": "387.03a6e7f",
     "description": "CMS (Content Management Systems) Detection and Exploitation suite.",
     "url": "https://github.com/Tuhinshubhra/CMSeeK"
   },
@@ -193,13 +193,13 @@
   },
   {
     "name": "cmsscanner",
-    "version": "0.13.8.92.ge2fd720",
+    "version": "0.15.0.r1.g65de34e",
     "description": "CMS Scanner Framework.",
     "url": "https://github.com/wpscanteam/CMSScanner"
   },
   {
     "name": "comission",
-    "version": "203.67b890e",
+    "version": "v1.2.0.r14.g67b890e",
     "description": "WhiteBox CMS analysis.",
     "url": "https://github.com/Intrinsec/comission"
   },
@@ -211,13 +211,13 @@
   },
   {
     "name": "commix",
-    "version": "2225.947878c7",
+    "version": "2470.6aedd1f4",
     "description": "Automated All-in-One OS Command Injection and Exploitation Tool.",
     "url": "https://github.com/commixproject/commix"
   },
   {
     "name": "corscanner",
-    "version": "99.593043f",
+    "version": "1.0.1.r2.g593043f",
     "description": "Fast CORS misconfiguration vulnerabilities scanner.",
     "url": "https://github.com/chenjj/CORScanner"
   },
@@ -265,13 +265,13 @@
   },
   {
     "name": "dalfox",
-    "version": "1811.be850b6",
+    "version": "v3.2.4.r76.g4d0c075",
     "description": "Parameter Analysis and XSS Scanning tool.",
     "url": "https://github.com/hahwul/dalfox"
   },
   {
     "name": "darkdump",
-    "version": "54.b71776b",
+    "version": "Darkdump.4.r5.g59912f6",
     "description": "Search The Deep Web Straight From Your Terminal.",
     "url": "https://github.com/josh0xA/darkdump"
   },
@@ -331,7 +331,7 @@
   },
   {
     "name": "dirsearch",
-    "version": "2496.46f57e5",
+    "version": "3033.b45e01bb",
     "description": "HTTP(S) directory/file brute forcer.",
     "url": "https://github.com/maurosoria/dirsearch"
   },
@@ -349,7 +349,7 @@
   },
   {
     "name": "dontgo403",
-    "version": "1.0.1.r20.g34770db",
+    "version": "v2.0.1.r3.g57e0a39",
     "description": "Tool to bypass 40X response codes..",
     "url": "https://github.com/devploit/nomore403"
   },
@@ -385,7 +385,7 @@
   },
   {
     "name": "drupwn",
-    "version": "59.8186732",
+    "version": "1.0.4.r2.g8186732",
     "description": "Drupal enumeration & exploitation tool.",
     "url": "https://github.com/immunIT/drupwn"
   },
@@ -397,13 +397,13 @@
   },
   {
     "name": "dsjs",
-    "version": "32.26287d0",
+    "version": "33.e8af886",
     "description": "A fully functional JavaScript library vulnerability scanner written in under 100 lines of code.",
     "url": "https://github.com/stamparm/DSJS"
   },
   {
     "name": "dsss",
-    "version": "124.f354215",
+    "version": "128.13002c3",
     "description": "A fully functional SQL injection vulnerability scanner (supporting GET and POST parameters) written in under 100 lines of code.",
     "url": "https://github.com/stamparm/DSSS"
   },
@@ -415,7 +415,7 @@
   },
   {
     "name": "dsxs",
-    "version": "130.3e628b6",
+    "version": "136.f5eb0be",
     "description": "A fully functional Cross-site scripting vulnerability scanner (supporting GET and POST parameters) written in under 100 lines of code.",
     "url": "https://github.com/stamparm/DSXS"
   },
@@ -433,7 +433,7 @@
   },
   {
     "name": "evine",
-    "version": "42.46051de",
+    "version": "44.cfd8fa0",
     "description": "Interactive CLI Web Crawler.",
     "url": "https://github.com/saeeddhqan/evine"
   },
@@ -445,7 +445,7 @@
   },
   {
     "name": "eyewitness",
-    "version": "1159.8a21526",
+    "version": "v20230525.1.r207.gc3286fb",
     "description": "Designed to take screenshots of websites, provide some server header info, and identify default credentials if possible.",
     "url": "https://github.com/ChrisTruncer/EyeWitness"
   },
@@ -463,13 +463,13 @@
   },
   {
     "name": "feroxbuster",
-    "version": "v2.11.0.r5.ge321a4e",
+    "version": "v2.13.1.r27.gdba16dd",
     "description": "A fast, simple, recursive content discovery tool written in Rust.",
     "url": "https://github.com/epi052/feroxbuster"
   },
   {
     "name": "ffuf",
-    "version": "v2.1.0.r4.gce3cf6b",
+    "version": "v2.3.0.r7.g8d65e03",
     "description": "Fast web fuzzer written in Go.",
     "url": "https://github.com/ffuf/ffuf"
   },
@@ -493,7 +493,7 @@
   },
   {
     "name": "fingerprinter",
-    "version": "480.105ab04",
+    "version": "486.e0078b4",
     "description": "CMS/LMS/Library etc Versions Fingerprinter.",
     "url": "https://github.com/erwanlr/Fingerprinter"
   },
@@ -517,19 +517,19 @@
   },
   {
     "name": "fuxploider",
-    "version": "140.ec8742b",
+    "version": "v1.0.r50.g75a81ff",
     "description": "Tool that automates the process of detecting and exploiting file upload forms flaws.",
     "url": "https://github.com/almandin/fuxploider"
   },
   {
     "name": "gau",
-    "version": "169.bfc58a0",
+    "version": "180.4eabace",
     "description": "Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl.",
     "url": "https://github.com/lc/gau/"
   },
   {
     "name": "ghauri",
-    "version": "1.4.2.r2.gd6bb1e5",
+    "version": "1.4.3.r0.g18e3677",
     "description": "An advanced cross-platform tool that automates the process of detecting and exploiting SQL injection security flaws.",
     "url": "https://github.com/r0oth3x49/ghauri"
   },
@@ -541,13 +541,13 @@
   },
   {
     "name": "gitdump",
-    "version": "1.682fa37",
+    "version": "1.a8b6188",
     "description": "A pentesting tool that dumps the source code from .git even when the directory traversal is disabled.",
     "url": "https://github.com/Ebryx/GitDump"
   },
   {
     "name": "gittools",
-    "version": "70.7cac63a",
+    "version": "78.8fa09eb",
     "description": "A repository with 3 tools for pwn'ing websites with .git repositories available'.",
     "url": "https://github.com/internetwache/GitTools"
   },
@@ -565,7 +565,7 @@
   },
   {
     "name": "goop-dump",
-    "version": "71.3c15d60",
+    "version": "74.5865759",
     "description": "Tool to dump a git repository from a website, focused on as-complete-as-possible dumps and handling weird edge-cases.",
     "url": "https://github.com/nyancrimew/goop"
   },
@@ -583,7 +583,7 @@
   },
   {
     "name": "gowitness",
-    "version": "457.683202d",
+    "version": "3.2.2.r0.g601c843",
     "description": "A golang, web screenshot utility using Chrome Headless.",
     "url": "https://github.com/sensepost/gowitness"
   },
@@ -607,7 +607,7 @@
   },
   {
     "name": "graphw00f",
-    "version": "1.1.19.r0.g52e25d3",
+    "version": "1.2.1.r4.g4901f82",
     "description": "GraphQL endpoint detection and engine fingerprinting.",
     "url": "https://github.com/dolevf/graphw00f"
   },
@@ -625,7 +625,7 @@
   },
   {
     "name": "hakrawler",
-    "version": "235.7615255",
+    "version": "237.52a16fe",
     "description": "Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application.",
     "url": "https://github.com/hakluke/hakrawler"
   },
@@ -661,7 +661,7 @@
   },
   {
     "name": "httpgrep",
-    "version": "2.4",
+    "version": "4.8",
     "description": "A python tool which scans for HTTP servers and finds given strings in HTTP body and HTTP response headers.",
     "url": "https://nullsecurity.net/tools/scanner.html"
   },
@@ -673,13 +673,13 @@
   },
   {
     "name": "httpx",
-    "version": "2399.81ce4b1",
+    "version": "v1.11.0.r59.gbab476e",
     "description": "A fast and multi-purpose HTTP toolkit allow to run multiple probers using retryablehttp library.",
     "url": "https://github.com/projectdiscovery/httpx"
   },
   {
     "name": "identywaf",
-    "version": "207.ae7e44a",
+    "version": "208.3e535b7",
     "description": "Blind WAF identification tool.",
     "url": "https://github.com/stamparm/identYwaf"
   },
@@ -691,19 +691,19 @@
   },
   {
     "name": "interactsh-client",
-    "version": "v1.2.4.r1.g63ea161",
+    "version": "v1.4.1.r7.gb31a05d",
     "description": "Open-Source Solution for Out of band Data Extraction.",
     "url": "https://github.com/projectdiscovery/interactsh"
   },
   {
     "name": "ipsourcebypass",
-    "version": "1.2.r16.gdc9f70c",
+    "version": "1.2.r17.gd89edb1",
     "description": "This Python script can be used to bypass IP source restrictions using HTTP headers.",
     "url": "https://github.com/p0dalirius/ipsourcebypass"
   },
   {
     "name": "jaeles",
-    "version": "233.243e0b6",
+    "version": "234.d40305f",
     "description": "The Swiss Army knife for automated Web Application Testing.",
     "url": "https://github.com/jaeles-project/jaeles"
   },
@@ -793,7 +793,7 @@
   },
   {
     "name": "jsql-injection",
-    "version": "0.111",
+    "version": "0.115",
     "description": "A Java application for automatic SQL database injection.",
     "url": "https://github.com/ron190/jsql-injection"
   },
@@ -805,13 +805,13 @@
   },
   {
     "name": "juumla",
-    "version": "106.130565e",
+    "version": "114.4c6f746",
     "description": "Python tool created to identify Joomla version, scan for vulnerabilities and search for config files.",
     "url": "https://github.com/dsssssssm/juumla"
   },
   {
     "name": "jwt-hack",
-    "version": "v1.2.0.r2.gde22655",
+    "version": "v2.6.0.r153.g084ed01",
     "description": "A tool for hacking / security testing to JWT.",
     "url": "https://github.com/hahwul/jwt-hack"
   },
@@ -823,7 +823,7 @@
   },
   {
     "name": "katana-pd",
-    "version": "v1.1.2.r2.gb155052",
+    "version": "v1.8.0.r100.ge1a9ba74",
     "description": "Crawling and spidering framework.",
     "url": "https://github.com/projectdiscovery/katana"
   },
@@ -877,7 +877,7 @@
   },
   {
     "name": "lfifreak",
-    "version": "21.0c6adef",
+    "version": "22.86b97dd",
     "description": "A unique automated LFi Exploiter with Bind/Reverse Shells.",
     "url": "https://github.com/OsandaMalith/LFiFreak/"
   },
@@ -889,7 +889,7 @@
   },
   {
     "name": "liffy",
-    "version": "33.89dd4f8",
+    "version": "46.b990d6a",
     "description": "A Local File Inclusion Exploitation tool.",
     "url": "https://github.com/mzfr/liffy/"
   },
@@ -931,7 +931,7 @@
   },
   {
     "name": "lulzbuster",
-    "version": "1.3.2",
+    "version": "2.0.1",
     "description": "A very fast and smart web directory and file enumeration tool written in C.",
     "url": "https://nullsecurity.net/tools/scanner.html"
   },
@@ -943,7 +943,7 @@
   },
   {
     "name": "malicious-pdf",
-    "version": "53.c681e18",
+    "version": "v1.0.1.r5.g3409ac7",
     "description": "Generate a bunch of malicious pdf files with phone-home functionality.",
     "url": "https://github.com/jonaslejon/malicious-pdf"
   },
@@ -997,7 +997,7 @@
   },
   {
     "name": "nosqlmap",
-    "version": "298.efe6f7a",
+    "version": "304.5a6dc7a",
     "description": "Automated Mongo database and NoSQL web application exploitation tool",
     "url": "https://github.com/codingo/NoSQLMap"
   },
@@ -1021,7 +1021,7 @@
   },
   {
     "name": "opendoor",
-    "version": "422.d1ed311",
+    "version": "5.13.2",
     "description": "OWASP WEB Directory Scanner.",
     "url": "https://github.com/stanislav-web/OpenDoor"
   },
@@ -1033,7 +1033,7 @@
   },
   {
     "name": "owtf",
-    "version": "2187.af993ecb",
+    "version": "v2.7.0.r0.g2c1c29d",
     "description": "The Offensive (Web) Testing Framework.",
     "url": "https://www.owasp.org/index.php/OWASP_OWTF"
   },
@@ -1075,7 +1075,7 @@
   },
   {
     "name": "photon",
-    "version": "329.91c90ea",
+    "version": "v1.2.2.r50.gc8d2566",
     "description": "Incredibly fast crawler which extracts urls, emails, files, website accounts and much more.",
     "url": "https://github.com/s0md3v/Photon"
   },
@@ -1093,7 +1093,7 @@
   },
   {
     "name": "phpggc",
-    "version": "700.313b67f",
+    "version": "725.f8aebde",
     "description": "A library of PHP unserialize() payloads along with a tool to generate them, from command line or programmatically.",
     "url": "https://github.com/ambionics/phpggc"
   },
@@ -1105,7 +1105,7 @@
   },
   {
     "name": "pinkerton",
-    "version": "1.6.r19.g3195a4a",
+    "version": "1.7.r13.g6deb355",
     "description": "JavaScript file crawler and secret finder.",
     "url": "https://github.com/dsssssssm/Pinkerton"
   },
@@ -1165,7 +1165,7 @@
   },
   {
     "name": "pyfiscan",
-    "version": "3002.bea806a",
+    "version": "3009.358d56a",
     "description": "Free web-application vulnerability and version scanner.",
     "url": "https://github.com/fgeek/pyfiscan"
   },
@@ -1183,7 +1183,7 @@
   },
   {
     "name": "rabid",
-    "version": "v0.2.0.r0.g3705b9c",
+    "version": "v0.3.0.r35.gb242107",
     "description": "A CLI tool and library allowing to simply decode all kind of BigIP cookies.",
     "url": "https://noraj.github.io/rabid/"
   },
@@ -1243,13 +1243,13 @@
   },
   {
     "name": "scrying",
-    "version": "234.caa233c",
+    "version": "v0.9.2.r0.g9d50ade",
     "description": "Collect RDP, web, and VNC screenshots smartly.",
     "url": "https://github.com/nccgroup/scrying"
   },
   {
     "name": "second-order",
-    "version": "v3.2.r0.g242569b",
+    "version": "v3.2.r12.g400a81d",
     "description": "Second-order subdomain takeover scanner.",
     "url": "https://github.com/mhmdiaa/second-order"
   },
@@ -1267,7 +1267,7 @@
   },
   {
     "name": "see-surf",
-    "version": "v2.0.r47.g12a1664",
+    "version": "v3.0.r27.g2d15238",
     "description": "A Python based scanner to find potential SSRF parameters in a web application.",
     "url": "https://github.com/In3tinct/See-SURF"
   },
@@ -1285,13 +1285,13 @@
   },
   {
     "name": "shuffledns",
-    "version": "362.1e45a1b",
+    "version": "851.bc31821",
     "description": "A wrapper around massdns written in GO.",
     "url": "https://github.com/projectdiscovery/shuffledns"
   },
   {
     "name": "sitadel",
-    "version": "123.e4d9ed4",
+    "version": "199.077c4e4",
     "description": "Web Application Security Scanner.",
     "url": "https://github.com/shenril/Sitadel"
   },
@@ -1321,13 +1321,13 @@
   },
   {
     "name": "smuggler-py",
-    "version": "1.0",
+    "version": "v2.0.0.r2.ge4b0dfa",
     "description": "Python tool used to test for HTTP Desync/Request Smuggling attacks.",
     "url": "https://github.com/gwen001/pentest-tools/blob/master/smuggler.py"
   },
   {
     "name": "snallygaster",
-    "version": "v0.0.13.r3.ge9cd973",
+    "version": "v0.0.15.r5.g1819e27",
     "description": "Tool to scan for secret files on HTTP servers.",
     "url": "https://github.com/hannob/snallygaster"
   },
@@ -1339,7 +1339,7 @@
   },
   {
     "name": "sourcemapper",
-    "version": "37.467916e",
+    "version": "40.f739bd5",
     "description": "Extract JavaScript source trees from Sourcemap files.",
     "url": "https://github.com/denandz/sourcemapper"
   },
@@ -1357,7 +1357,7 @@
   },
   {
     "name": "spiga",
-    "version": "674.984a5f6",
+    "version": "690.f1831cd",
     "description": "Configurable web resource scanner.",
     "url": "https://github.com/phxbandit/scripts-and-tools/blob/master/spiga.py"
   },
@@ -1393,7 +1393,7 @@
   },
   {
     "name": "ssrfmap",
-    "version": "118.99fac91",
+    "version": "127.290e07d",
     "description": "Automatic SSRF fuzzer and exploitation tool.",
     "url": "https://github.com/swisskyrepo/SSRFmap"
   },
@@ -1411,7 +1411,7 @@
   },
   {
     "name": "subjs",
-    "version": "45.76ce9ec",
+    "version": "48.3eb4dc9",
     "description": "Fetches javascript file from a list of URLS or subdomains.",
     "url": "https://github.com/lc/subjs"
   },
@@ -1429,13 +1429,13 @@
   },
   {
     "name": "tinja",
-    "version": "1.1.4.r1.g6d31fd4",
+    "version": "1.2.0.r5.g507d903",
     "description": "CLI tool for testing web pages for template injection vulnerabilities.",
     "url": "https://github.com/Hackmanit/TInjA"
   },
   {
     "name": "torcrawl",
-    "version": "135.7cf7a19",
+    "version": "v1.35.r4.g2fb5d78",
     "description": "Crawl and extract (regular or onion) webpages through TOR network.",
     "url": "https://github.com/MikeMeliz/TorCrawl.py"
   },
@@ -1465,7 +1465,7 @@
   },
   {
     "name": "urlcrazy",
-    "version": "v0.7.3.r0.g93e910c",
+    "version": "v0.8.2.r0.g78bf6e8",
     "description": "Generate and test domain typos and variations to detect and perform typo squatting, URL hijacking, phishing, and corporate espionage.",
     "url": "https://www.morningstarsecurity.com/research/urlcrazy"
   },
@@ -1483,7 +1483,7 @@
   },
   {
     "name": "urx",
-    "version": "0.3.0.r38.gf7376aa",
+    "version": "0.11.0.r132.g3caebea",
     "description": "Extracts URLs from OSINT Archives for Security Insights.",
     "url": "https://github.com/hahwul/urx"
   },
@@ -1525,7 +1525,7 @@
   },
   {
     "name": "vulnx",
-    "version": "321.bcf451d",
+    "version": "v1.9.r47.gbcf451d",
     "description": "Cms and vulnerabilites detector & An intelligent bot auto shell injector.",
     "url": "https://github.com/anouarbensaad/vulnx"
   },
@@ -1537,7 +1537,7 @@
   },
   {
     "name": "wafninja",
-    "version": "25.379cd98",
+    "version": "26.ce6ea60",
     "description": "A tool which contains two functions to attack Web Application Firewalls.",
     "url": "https://github.com/khalilbijjou/WAFNinja"
   },
@@ -1555,7 +1555,7 @@
   },
   {
     "name": "wapiti",
-    "version": "3.2.4.r1.g671ecc2b",
+    "version": "3.3.2.r10.g1e81698",
     "description": "A vulnerability scanner for web applications.",
     "url": "https://github.com/wapiti-scanner/wapiti"
   },
@@ -1567,13 +1567,13 @@
   },
   {
     "name": "waybackpack",
-    "version": "113.3616aee",
+    "version": "v0.6.4.r1.gc5507a0",
     "description": "Download the entire Wayback Machine archive for a given URL.",
     "url": "https://github.com/jsvine/waybackpack"
   },
   {
     "name": "wcvs",
-    "version": "1.3.3.r3.g81f1924",
+    "version": "2.0.0.r2.g75159ea",
     "description": "Web Cache Vulnerability Scanner is a Go-based CLI tool for testing for web cache poisoning.",
     "url": "https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner"
   },
@@ -1585,7 +1585,7 @@
   },
   {
     "name": "webanalyze",
-    "version": "121.707f3a4",
+    "version": "131.1c20ce2",
     "description": "Port of Wappalyzer (uncovers technologies used on websites) in go to automate scanning.",
     "url": "https://github.com/rverton/webanalyze"
   },
@@ -1669,7 +1669,7 @@
   },
   {
     "name": "wordpress-exploit-framework",
-    "version": "907.e55ded4",
+    "version": "v2.0.1.r7.ge55ded4",
     "description": "A Ruby framework for developing and using modules which aid in the penetration testing of WordPress powered websites and systems.",
     "url": "https://github.com/rastating/wordpress-exploit-framework"
   },
@@ -1699,37 +1699,37 @@
   },
   {
     "name": "wssip",
-    "version": "75.56d0d2c",
+    "version": "1.1.0.r14.g56d0d2c",
     "description": "Application for capturing, modifying and sending custom WebSocket data from client to server and vice versa.",
     "url": "https://github.com/nccgroup/wssip"
   },
   {
     "name": "wuzz",
-    "version": "229.66176b6",
+    "version": "v0.5.0.r24.g82195c6",
     "description": "Interactive cli tool for HTTP inspection.",
     "url": "https://github.com/asciimoo/wuzz"
   },
   {
     "name": "x8",
-    "version": "v4.1.0.r2.g6ee4532",
+    "version": "v4.3.0.r10.gc78f246",
     "description": "Hidden parameters discovery suite.",
     "url": "https://github.com/Sh1Yo/x8"
   },
   {
     "name": "xmlrpc-bruteforcer",
-    "version": "35.6023237",
+    "version": "36.6a46371",
     "description": "An XMLRPC brute forcer targeting Wordpress written in Python 3.",
     "url": "https://github.com/kavishgr/xmlrpc-bruteforcer"
   },
   {
     "name": "xspear",
-    "version": "144.57bb7b4",
+    "version": "1.4.1.r10.gf7bab38",
     "description": "Powerful XSS Scanning and Parameter analysis tool&gem.",
     "url": "https://github.com/hahwul/XSpear"
   },
   {
     "name": "xsrfprobe",
-    "version": "575.b051d78",
+    "version": "590.0dbc5c2",
     "description": "The Prime Cross Site Request Forgery Audit and Exploitation Toolkit.",
     "url": "https://github.com/0xInfection/XSRFProbe"
   },
@@ -1753,7 +1753,7 @@
   },
   {
     "name": "xsser",
-    "version": "1.8",
+    "version": "1.9",
     "description": "A penetration testing tool for detecting and exploiting XSS vulnerabilites.",
     "url": "https://xsser.03c8.net/"
   },
@@ -1789,7 +1789,7 @@
   },
   {
     "name": "xsstrike",
-    "version": "474.65dd68a",
+    "version": "475.ab27955",
     "description": "An advanced XSS detection and exploitation suite.",
     "url": "https://github.com/s0md3v/XSStrike"
   },
@@ -1831,7 +1831,7 @@
   },
   {
     "name": "yawast",
-    "version": "0.11.0",
+    "version": "0.12.1",
     "description": "The YAWAST Antecedent Web Application Security Toolkit.",
     "url": "https://pypi.org/project/yawast-ng/#files"
   },

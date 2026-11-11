@@ -1,7 +1,7 @@
 [
   {
     "name": "arpon",
-    "version": "2.7",
+    "version": "3.1",
     "description": "A portable handler daemon that make ARP protocol secure in order to avoid the Man In The Middle (MITM) attack through ARP Spoofing, ARP Cache Poisoning or ARP Poison Routing (APR) attacks.",
     "url": "https://arpon.sourceforge.net/"
   },
@@ -13,7 +13,7 @@
   },
   {
     "name": "artillery",
-    "version": "357.805a5d8",
+    "version": "1.5.1.r218.g805a5d8",
     "description": "A combination of a honeypot, file-system monitoring, system hardening, and overall health of a server to create a comprehensive way to secure a system.",
     "url": "https://www.trustedsec.com/"
   },
@@ -37,7 +37,7 @@
   },
   {
     "name": "chkrootkit",
-    "version": "0.58b",
+    "version": "0.59",
     "description": "Checks for rootkits on a system.",
     "url": "https://www.chkrootkit.org/"
   },
@@ -49,7 +49,7 @@
   },
   {
     "name": "fastnetmon",
-    "version": "v1.1.4.r62.g780aff3",
+    "version": "v1.2.9.r70.g1f285649",
     "description": "High performance DoS/DDoS load analyzer built on top of multiple packet capture engines.",
     "url": "https://github.com/pavel-odintsov/fastnetmon"
   },
@@ -103,7 +103,7 @@
   },
   {
     "name": "maltrail",
-    "version": "118974.f58d8c2d37",
+    "version": "3.5.r112.g6e4023d",
     "description": "Malicious traffic detection system.",
     "url": "https://github.com/stamparm/maltrail"
   },
@@ -115,7 +115,7 @@
   },
   {
     "name": "munin-hashchecker",
-    "version": "242.95ac249",
+    "version": "260.cf6cbe9",
     "description": "Online hash checker for Virustotal and other services",
     "url": "https://github.com/Neo23x0/munin"
   },
@@ -151,7 +151,7 @@
   },
   {
     "name": "prowler",
-    "version": "5904.67bc16b46",
+    "version": "9353.67aa941012",
     "description": "Tool for AWS security assessment, auditing and hardening.",
     "url": "https://github.com/prowler-cloud/prowler"
   },
@@ -205,7 +205,7 @@
   },
   {
     "name": "tfsec",
-    "version": "v0.63.1.r403.g1ade1215f",
+    "version": "v0.63.1.r408.gb692c20b6",
     "description": "Security scanner for your Terraform code.",
     "url": "https://github.com/aquasecurity/tfsec"
   },
@@ -223,7 +223,7 @@
   },
   {
     "name": "tor-browser",
-    "version": "14.0.9",
+    "version": "16.0",
     "description": "Tor Browser Bundle: anonymous browsing using Firefox and Tor.",
     "url": "https://download.torproject.org/tor-browser-for-desktop/"
   },
@@ -247,7 +247,7 @@
   },
   {
     "name": "yeti",
-    "version": "3416.0cc1f3cd",
+    "version": "3571.40fe769b",
     "description": "A platform meant to organize observables, indicators of compromise, TTPs, and knowledge on threats in a single, unified repository.",
     "url": "https://github.com/yeti-platform/yeti"
   },

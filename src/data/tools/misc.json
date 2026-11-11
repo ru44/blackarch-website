@@ -13,7 +13,7 @@
   },
   {
     "name": "aspisec",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "Removes the traces left by offensive security tools.",
     "url": "https://noraj.github.io/aspisec/"
   },
@@ -25,7 +25,7 @@
   },
   {
     "name": "avml",
-    "version": "v0.15.0.r5.g558554d",
+    "version": "v0.17.0.r3.g12c2a71",
     "description": "A portable volatile memory acquisition tool for Linux.",
     "url": "https://github.com/microsoft/avml"
   },
@@ -37,13 +37,13 @@
   },
   {
     "name": "bettercap-ui",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "description": "Official Bettercap's Web UI.",
     "url": "https://github.com/bettercap/ui"
   },
   {
     "name": "bloodhound-cli",
-    "version": "v0.1.5.r0.g9c9f274",
+    "version": "v0.2.1.r2.gef78c50",
     "description": "Command-line interface for BloodHound v5.",
     "url": "https://github.com/SpecterOps/bloodhound-cli"
   },
@@ -97,7 +97,7 @@
   },
   {
     "name": "ctf-party",
-    "version": "v4.0.0.r6.gfdfb4f1",
+    "version": "5.0.0.r58.g8dfd12a",
     "description": "A CLI tool & library to enhance and speed up script/exploit writing for CTF players.",
     "url": "https://noraj.github.io/ctf-party/"
   },
@@ -127,7 +127,7 @@
   },
   {
     "name": "der-ascii",
-    "version": "99.679a302",
+    "version": "109.5d9afa7",
     "description": "A reversible DER and BER pretty-printer.",
     "url": "https://github.com/google/der-ascii"
   },
@@ -151,7 +151,7 @@
   },
   {
     "name": "dsd",
-    "version": "91.7ee04e5",
+    "version": "v1.6.0.r96.g59423fa",
     "description": "Digital Speech Decoder",
     "url": "https://github.com/szechyjs/dsd"
   },
@@ -199,7 +199,7 @@
   },
   {
     "name": "exrex",
-    "version": "149.b91c075",
+    "version": "153.f180f21",
     "description": "Irregular methods on regular expressions.",
     "url": "https://github.com/asciimoo/exrex"
   },
@@ -235,7 +235,7 @@
   },
   {
     "name": "firefox-security-toolkit",
-    "version": "16.31dacf0",
+    "version": "17.d356ab8",
     "description": "A tool that transforms Firefox browsers into a penetration testing suite.",
     "url": "https://github.com/mazen160/Firefox-Security-Toolkit"
   },
@@ -271,7 +271,7 @@
   },
   {
     "name": "githubcloner",
-    "version": "35.2bcb9c2",
+    "version": "36.20203e7",
     "description": "A script that clones Github repositories of users and organizations automatically.",
     "url": "https://github.com/mazen160/GithubCloner"
   },
@@ -283,7 +283,7 @@
   },
   {
     "name": "goshs",
-    "version": "0.3.8",
+    "version": "2.1.0",
     "description": "A SimpleHTTPServer written in Go, enhanced with features and with a nice design.",
     "url": "https://github.com/goshs-labs/goshs"
   },
@@ -349,13 +349,13 @@
   },
   {
     "name": "imhex",
-    "version": "1.37.0.r64.g379d826f1",
+    "version": "nightly.r0.g34483cb",
     "description": "A Hex Editor for Reverse Engineers, Programmers and people that value their eye sight when working at 3 AM.",
     "url": "https://github.com/WerWolv/ImHex"
   },
   {
     "name": "intelmq",
-    "version": "3.4.0.r8.gaadc8870d",
+    "version": "3.5.0.r36.gbbe452a20",
     "description": "A tool for collecting and processing security feeds using a message queuing protocol.",
     "url": "https://github.com/certtools/intelmq"
   },
@@ -373,7 +373,7 @@
   },
   {
     "name": "ipcountry",
-    "version": "1.2",
+    "version": "2.3",
     "description": "Fetches IPv4 ranges of given country in host and cidr format.",
     "url": "https://nullsecurity.net/tools/misc.html"
   },
@@ -397,7 +397,7 @@
   },
   {
     "name": "leo",
-    "version": "36140.ad7735a19",
+    "version": "40030.ada28bd871",
     "description": "Literate programmer's editor, outliner, and project manager.",
     "url": "https://github.com/leo-editor/leo-editor/"
   },
@@ -409,7 +409,7 @@
   },
   {
     "name": "mapcidr",
-    "version": "v1.1.34.r397.ge45e12c",
+    "version": "v1.1.97.r247.g7d653d1",
     "description": "Utility program to perform multiple operations for a given subnet/CIDR ranges.",
     "url": "https://github.com/projectdiscovery/mapcidr"
   },
@@ -469,7 +469,7 @@
   },
   {
     "name": "one-lin3r",
-    "version": "65.168bb6d",
+    "version": "66.711a040",
     "description": "Gives you one-liners that aids in penetration testing and more.",
     "url": "https://github.com/D4Vinci/One-Lin3r"
   },
@@ -481,25 +481,25 @@
   },
   {
     "name": "osert",
-    "version": "94.5ce557e",
+    "version": "100.4eef9b9",
     "description": "Markdown Templates for Offensive Security exam reports.",
     "url": "https://github.com/noraj/OSCP-Exam-Report-Template-Markdown"
   },
   {
     "name": "pass-station",
-    "version": "v2.0.0.r4.gbe184e9",
+    "version": "v3.0.0.r35.g3b196ae",
     "description": "CLI & library to search for default credentials among thousands of Products / Vendors.",
     "url": "https://noraj.github.io/pass-station/"
   },
   {
     "name": "passdetective",
-    "version": "1.0.6.r3.ge3aebf2",
+    "version": "1.0.6.r4.g458f12e",
     "description": "Scans shell command history to detect mistakenly written passwords, API keys, and secrets.",
     "url": "https://github.com/aydinnyunus/PassDetective"
   },
   {
     "name": "payloadsallthethings",
-    "version": "2073.8379e65",
+    "version": "4.2.r117.g08ea40e",
     "description": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF.",
     "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/"
   },
@@ -559,7 +559,7 @@
   },
   {
     "name": "pwnedpasswords",
-    "version": "2.0.0.r1.ga914387",
+    "version": "3.0.0.r7.ge33d4bb",
     "description": "Generate and verify pwnedpasswords check digits.",
     "url": "https://github.com/lionheart/pwnedpasswords"
   },
@@ -571,13 +571,13 @@
   },
   {
     "name": "pyinstaller",
-    "version": "6.12.0",
+    "version": "6.22.3",
     "description": "Bundles a Python application and all its dependencies into a single package.",
     "url": "https://pyinstaller.org"
   },
   {
     "name": "pyinstaller-hooks-contrib",
-    "version": "2024.11",
+    "version": "2026.9",
     "description": "PyInstaller community hooks.",
     "url": "https://github.com/pyinstaller/pyinstaller-hooks-contrib"
   },
@@ -595,7 +595,7 @@
   },
   {
     "name": "python2-exrex",
-    "version": "149.b91c075",
+    "version": "153.f180f21",
     "description": "Irregular methods on regular expressions.",
     "url": "https://github.com/asciimoo/exrex"
   },
@@ -631,7 +631,7 @@
   },
   {
     "name": "rbkb",
-    "version": "v0.7.2.r0.ga6d35c0",
+    "version": "v0.7.3.r3.g4645025",
     "description": "A miscellaneous collection of command-line tools related to pen-testing and reversing.",
     "url": "https://github.com/emonti/rbkb"
   },
@@ -673,7 +673,7 @@
   },
   {
     "name": "sasm",
-    "version": "3.2.0",
+    "version": "3.16.0",
     "description": "A simple crossplatform IDE for NASM, MASM, GAS and FASM assembly languages.",
     "url": "https://github.com/Dman95/SASM"
   },
@@ -691,7 +691,7 @@
   },
   {
     "name": "shadowfinder",
-    "version": "0.5.0.r0.g578d5ac",
+    "version": "0.7.1.r0.g215485a",
     "description": "Find possible locations of shadows around the world.",
     "url": "https://github.com/bellingcat/ShadowFinder"
   },
@@ -721,7 +721,7 @@
   },
   {
     "name": "suricata-verify",
-    "version": "1535.efed1efe",
+    "version": "suricata.8.0.8.r0.g5ee5412",
     "description": "Suricata Verification Tests - Testing Suricata Output.",
     "url": "https://github.com/OISF/suricata-verify"
   },
@@ -775,13 +775,13 @@
   },
   {
     "name": "unisec",
-    "version": "0.0.6",
+    "version": "0.0.10",
     "description": "Unicode Security Toolkit.",
     "url": "https://noraj.github.io/unisec/"
   },
   {
     "name": "urlview",
-    "version": "0.9",
+    "version": "1e",
     "description": "A curses URL parser for text files.",
     "url": "http://packages.qa.debian.org/u/urlview.html"
   },
@@ -817,7 +817,7 @@
   },
   {
     "name": "whapa",
-    "version": "383.986061c",
+    "version": "394.c17ca34",
     "description": "WhatsApp Parser Tool.",
     "url": "https://github.com/B16f00t/whapa"
   },
@@ -859,7 +859,7 @@
   },
   {
     "name": "yay",
-    "version": "12.4.2",
+    "version": "13.1.0",
     "description": "Yet another yogurt. Pacman wrapper and AUR helper written in go.",
     "url": "https://github.com/Jguer/yay"
   }

@@ -7,7 +7,7 @@
   },
   {
     "name": "airgeddon",
-    "version": "v11.41.r0.g6fca85e",
+    "version": "v12.02.r0.g700ad7d",
     "description": "Multi-use bash script for Linux systems to audit wireless networks.",
     "url": "https://github.com/v1s1t0r1sh3r3/airgeddon"
   },
@@ -61,7 +61,7 @@
   },
   {
     "name": "batman-alfred",
-    "version": "2024.3",
+    "version": "2026.3",
     "description": "Almighty Lightweight Fact Remote Exchange Daemon.",
     "url": "https://www.open-mesh.org/"
   },
@@ -97,7 +97,7 @@
   },
   {
     "name": "fern-wifi-cracker",
-    "version": "301.eff2eb7",
+    "version": "303.58ed54e",
     "description": "WEP, WPA wifi cracker for wireless penetration testing.",
     "url": "https://github.com/savio-code/fern-wifi-cracker"
   },
@@ -127,7 +127,7 @@
   },
   {
     "name": "giskismet",
-    "version": "20110805",
+    "version": "2.9ebe9d0",
     "description": "A program to visually represent the Kismet data in a flexible manner.",
     "url": "https://www.giskismet.org"
   },
@@ -151,7 +151,7 @@
   },
   {
     "name": "hotspotter",
-    "version": "0.4",
+    "version": "0.5",
     "description": "Hotspotter passively monitors the network for probe request frames to identify the preferred networks of Windows XP clients, and will compare it to a supplied list of common hotspot network names.",
     "url": "http://www.remote-exploit.org/?page_id=418"
   },
@@ -169,7 +169,7 @@
   },
   {
     "name": "kismet2earth",
-    "version": "1.0",
+    "version": "2.0",
     "description": "A set of utilities that convert from Kismet logs to Google Earth .kml format",
     "url": "https://code.google.com/archive/p/kismet2earth"
   },
@@ -211,7 +211,7 @@
   },
   {
     "name": "mtscan",
-    "version": "167.099482e",
+    "version": "176.dd44f0e",
     "description": "Mikrotik RouterOS wireless scanner.",
     "url": "https://github.com/kkonradpl/mtscan"
   },
@@ -241,37 +241,37 @@
   },
   {
     "name": "rfidiot",
-    "version": "107.88f2ef9",
+    "version": "331.57c030b",
     "description": "An open source python library for exploring RFID devices.",
     "url": "http://rfidiot.org/"
   },
   {
     "name": "rfidtool",
-    "version": "0.01",
+    "version": "0.2",
     "description": "A opensource tool to read / write rfid tags",
     "url": "http://www.bindshell.net/tools/rfidtool.html"
   },
   {
     "name": "roguehostapd",
-    "version": "78.381b373",
+    "version": "1.0.r45.g381b373",
     "description": "Hostapd fork including Wi-Fi attacks and providing Python bindings with ctypes.",
     "url": "https://github.com/wifiphisher/roguehostapd"
   },
   {
     "name": "rtl8814au-dkms-git",
-    "version": "5.8.5.1.r187.g6aa1fd9",
+    "version": "5.8.5.1.r207.g1840d7b",
     "description": "RTL8814AU and RTL8813AU chipset driver with firmware v5.8.5.1.",
     "url": "https://github.com/morrownr/8814au"
   },
   {
     "name": "sniff-probe-req",
-    "version": "417.586ca41",
+    "version": "v0.8.0.r29.g0dacf88",
     "description": "Wi-Fi Probe Requests Sniffer.",
     "url": "https://github.com/SkypLabs/probequest"
   },
   {
     "name": "spectools",
-    "version": "2010_04_R1",
+    "version": "3.0",
     "description": "Spectrum-Tools is a set of utilities for using the Wi-Spy USB spectrum analyzer hardware. Stable version.",
     "url": "https://www.kismetwireless.net/spectools/"
   },
@@ -331,7 +331,7 @@
   },
   {
     "name": "wifiphisher",
-    "version": "799.b11da35",
+    "version": "800.4ae3365",
     "description": "Fast automated phishing attacks against WPA networks.",
     "url": "https://github.com/wifiphisher/wifiphisher"
   },

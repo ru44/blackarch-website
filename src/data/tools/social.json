@@ -43,7 +43,7 @@
   },
   {
     "name": "crosslinked",
-    "version": "49.2ae8d7b",
+    "version": "v0.3.0.r23.g2ae8d7b",
     "description": "LinkedIn enumeration tool to extract valid employee names from an organization through search engine scraping.",
     "url": "https://github.com/m8sec/CrossLinked"
   },
@@ -61,7 +61,7 @@
   },
   {
     "name": "facebookosint",
-    "version": "21.656a04a",
+    "version": "22.3fb03f5",
     "description": "OSINT tool to replace facebook graph search.",
     "url": "https://github.com/tomoneill19/facebookOSINT"
   },
@@ -79,7 +79,7 @@
   },
   {
     "name": "fluxion",
-    "version": "v4.10.r240.g4f461a4",
+    "version": "v6.32.r8.gf064d24",
     "description": "A security auditing and social-engineering research tool.",
     "url": "https://github.com/FluxionNetwork/fluxion"
   },
@@ -139,7 +139,7 @@
   },
   {
     "name": "linkedin2username",
-    "version": "144.8889f30",
+    "version": "0.29.r4.g8889f30",
     "description": "OSINT Tool: Generate username lists for companies on LinkedIn.",
     "url": "https://github.com/initstring/linkedin2username"
   },
@@ -151,7 +151,7 @@
   },
   {
     "name": "maigret",
-    "version": "main.r46.gb90cdb1",
+    "version": "0.6.5",
     "description": "OSINT username checker. Collect a dossier on a person by username from a huge number of sites.",
     "url": "https://github.com/soxoj/maigret"
   },
@@ -193,7 +193,7 @@
   },
   {
     "name": "phoneinfoga",
-    "version": "v2.11.0.r0.g5f6156f",
+    "version": "v2.11.0.r6.g55807b0",
     "description": "Information gathering & OSINT framework for phone numbers.",
     "url": "https://github.com/sundowndev/PhoneInfoga"
   },
@@ -205,7 +205,7 @@
   },
   {
     "name": "qrljacker",
-    "version": "218.1b0a4e2",
+    "version": "222.defd5e3",
     "description": "QRLJacker is a highly customizable exploitation framework to demonstrate \"QRLJacking Attack Vector\".",
     "url": "https://github.com/OWASP/QRLJacking/tree/master/QRLJacker"
   },
@@ -223,7 +223,7 @@
   },
   {
     "name": "seeker",
-    "version": "376.692e531",
+    "version": "383.47298d9",
     "description": "Accurately Locate People using Social Engineering.",
     "url": "https://github.com/thewhiteh4t/seeker"
   },
@@ -241,7 +241,7 @@
   },
   {
     "name": "sherlock",
-    "version": "0.15.0",
+    "version": "0.16.0",
     "description": "Find usernames across social networks.",
     "url": "https://github.com/sherlock-project/sherlock"
   },
@@ -259,7 +259,7 @@
   },
   {
     "name": "slackpirate",
-    "version": "148.99e470f",
+    "version": "0.20.r6.g99e470f",
     "description": "Slack Enumeration and Extraction Tool - extract sensitive information from a Slack Workspace.",
     "url": "https://github.com/emtunc/SlackPirate"
   },
@@ -283,7 +283,7 @@
   },
   {
     "name": "socialfish",
-    "version": "250.a22b58d",
+    "version": "266.3589ef3",
     "description": "Ultimate phishing tool with Ngrok integrated.",
     "url": "https://github.com/UndeadSec/SocialFish"
   },
@@ -349,7 +349,7 @@
   },
   {
     "name": "whatsmyname",
-    "version": "2651.d563aa9",
+    "version": "2934.0021b59",
     "description": "Tool to perform user and username enumeration on various websites.",
     "url": "https://github.com/WebBreacher/WhatsMyName"
   }

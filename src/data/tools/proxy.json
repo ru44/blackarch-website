@@ -1,7 +1,7 @@
 [
   {
     "name": "3proxy",
-    "version": "0.9.4",
+    "version": "0.9.6",
     "description": "Tiny free proxy server.",
     "url": "https://github.com/3proxy/3proxy"
   },
@@ -31,7 +31,7 @@
   },
   {
     "name": "dns-reverse-proxy",
-    "version": "41.bca130d",
+    "version": "45.e3d33b9",
     "description": "A reverse DNS proxy written in Go.",
     "url": "https://github.com/StalkR/dns-reverse-proxy"
   },
@@ -73,13 +73,13 @@
   },
   {
     "name": "mitm-relay",
-    "version": "40.1b74741",
+    "version": "41.2d168b2",
     "description": "Hackish way to intercept and modify non-HTTP protocols through Burp & others.",
     "url": "https://github.com/jrmdev/mitm_relay"
   },
   {
     "name": "modlishka",
-    "version": "v.1.1.0.r60.g3ebc29e",
+    "version": "v.1.1.1.r11.g214dd6c",
     "description": "A powerful and flexible HTTP reverse proxy.",
     "url": "https://github.com/drk1wi/Modlishka"
   },
@@ -103,13 +103,13 @@
   },
   {
     "name": "proxify",
-    "version": "712.b9c62cc",
+    "version": "905.01804da",
     "description": "Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipulation, and replay on the go.",
     "url": "https://github.com/projectdiscovery/proxify"
   },
   {
     "name": "proxybroker2",
-    "version": "413.65b998d",
+    "version": "663.bbf753d",
     "description": "Proxy [Finder ",
     "url": "https://github.com/bluet/proxybroker2"
   },
@@ -163,7 +163,7 @@
   },
   {
     "name": "stowaway",
-    "version": "v2.2.r42.gc22010f",
+    "version": "v2.2.r43.g7f715be",
     "description": "A Multi-hop proxy tool for security researchers and pentesters.",
     "url": "https://github.com/ph4ntonn/Stowaway"
   },

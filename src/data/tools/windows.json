@@ -1,7 +1,7 @@
 [
   {
     "name": "3proxy-win32",
-    "version": "0.8.13",
+    "version": "0.9.6.1",
     "description": "Tiny free proxy server.",
     "url": "https://3proxy.ru/"
   },
@@ -13,7 +13,7 @@
   },
   {
     "name": "adpeas",
-    "version": "1.3.0.r14.gbda3e0c",
+    "version": "1.3.0.r15.g0bfcedc",
     "description": "winPEAS, but for Active Directory.",
     "url": "https://github.com/ajm4n/adpeas"
   },
@@ -85,7 +85,7 @@
   },
   {
     "name": "certipy",
-    "version": "4.8.2.r0.g2780d53",
+    "version": "5.1.0.r12.g3ae3442",
     "description": "Active Directory Certificate Services enumeration and abuse.",
     "url": "https://github.com/ly4k/Certipy"
   },
@@ -145,7 +145,7 @@
   },
   {
     "name": "donpapi",
-    "version": "V1.2.0.r40.g61db37a",
+    "version": "V1.2.0.r41.g4f01e2b",
     "description": "Dumping revelant information on compromised targets without AV detection with DPAPI.",
     "url": "https://github.com/login-securite/DonPAPI"
   },
@@ -229,7 +229,7 @@
   },
   {
     "name": "gpowned",
-    "version": "19.a85bcf6",
+    "version": "25.5de0c77",
     "description": "GPOs manipulation tool.",
     "url": "https://github.com/X-C3LL/gpowned"
   },
@@ -265,7 +265,7 @@
   },
   {
     "name": "hollows-hunter",
-    "version": "0.4.1",
+    "version": "0.4.1.1",
     "description": "Scans all running processes. Recognizes and dumps a variety of potentially malicious implants (replaced/injected PEs, shellcodes, hooks, in-memory patches).",
     "url": "https://github.com/hasherezade/hollows_hunter"
   },
@@ -349,7 +349,7 @@
   },
   {
     "name": "ldapmonitor",
-    "version": "1.4.r12.g498e048",
+    "version": "1.4.r13.g6f9dfcb",
     "description": "Monitor creation, deletion and changes to LDAP objects live during your pentest or system administration!",
     "url": "https://github.com/p0dalirius/ldapmonitor"
   },
@@ -409,7 +409,7 @@
   },
   {
     "name": "mssqlrelay",
-    "version": "11.bd764b9",
+    "version": "12.1e03c96",
     "description": "Microsoft SQL Relay is an offensive tool for auditing and abusing Microsoft SQL (MSSQL) services.",
     "url": "https://github.com/CompassSecurity/mssqlrelay"
   },
@@ -457,7 +457,7 @@
   },
   {
     "name": "nirsoft",
-    "version": "1.23.30",
+    "version": "1.30.23",
     "description": "Unique collection of small and useful freeware utilities.",
     "url": "https://www.nirsoft.net"
   },
@@ -481,7 +481,7 @@
   },
   {
     "name": "osslsigncode",
-    "version": "659.4568c89",
+    "version": "750.868d6e9",
     "description": "A small tool that implements part of the functionality of the Microsoft tool signtool.exe.",
     "url": "https://github.com/mtrojnar/osslsigncode"
   },
@@ -493,13 +493,13 @@
   },
   {
     "name": "pe-bear",
-    "version": "0.7.0",
+    "version": "0.7.2",
     "description": "A freeware reversing tool for PE files.",
     "url": "https://github.com/hasherezade/pe-bear"
   },
   {
     "name": "pe-sieve",
-    "version": "0.4.1",
+    "version": "0.4.1.1",
     "description": "Scans a given process. Recognizes and dumps a variety of potentially malicious implants (replaced/injected PEs, shellcodes, hooks, in-memory patches).",
     "url": "https://github.com/hasherezade/pe-sieve"
   },
@@ -529,7 +529,7 @@
   },
   {
     "name": "pingcastle",
-    "version": "3.2.0.1",
+    "version": "3.4.1.38",
     "description": "Active Directory scanning tool.",
     "url": "https://www.pingcastle.com"
   },
@@ -553,7 +553,7 @@
   },
   {
     "name": "powerlessshell",
-    "version": "115.2a87166",
+    "version": "117.b168ccb",
     "description": "Run PowerShell command without invoking powershell.exe.",
     "url": "https://github.com/Mr-Un1k0d3r/PowerLessShell"
   },
@@ -577,7 +577,7 @@
   },
   {
     "name": "pre2k",
-    "version": "22.be66190",
+    "version": "24.ff51b3b",
     "description": "Query for existence of pre-windows 2000 computer objects which can be leveraged to gain a foothold in a target domain.",
     "url": "https://github.com/garrettfoster13/pre2k-TS"
   },
@@ -601,7 +601,7 @@
   },
   {
     "name": "pygpoabuse",
-    "version": "20.63db4a4",
+    "version": "51.c18e1de",
     "description": "RCE via GPO scheduled tasks.",
     "url": "https://github.com/Hackndo/pyGPOAbuse"
   },
@@ -649,25 +649,25 @@
   },
   {
     "name": "roadlib",
-    "version": "397.a1daae9",
+    "version": "511.f7b0c47",
     "description": "Azure AD and O365 exploration framework.",
     "url": "https://github.com/dirkjanm/ROADtools"
   },
   {
     "name": "roadoidc",
-    "version": "397.a1daae9",
+    "version": "511.f7b0c47",
     "description": "Azure AD and O365 exploration framework.",
     "url": "https://github.com/dirkjanm/ROADtools"
   },
   {
     "name": "roadrecon",
-    "version": "397.a1daae9",
+    "version": "511.f7b0c47",
     "description": "Azure AD and O365 exploration framework.",
     "url": "https://github.com/dirkjanm/ROADtools"
   },
   {
     "name": "roadtx",
-    "version": "397.a1daae9",
+    "version": "511.f7b0c47",
     "description": "Azure AD and O365 exploration framework.",
     "url": "https://github.com/dirkjanm/ROADtools"
   },
@@ -691,7 +691,7 @@
   },
   {
     "name": "sccmhunter",
-    "version": "v1.0.9.r0.g9e43f64",
+    "version": "v2.0.0.r79.ge32fe74",
     "description": "Identifying, profiling, and attacking SCCM related assets in an Active Directory domain.",
     "url": "https://github.com/garrettfoster13/sccmhunter"
   },
@@ -811,7 +811,7 @@
   },
   {
     "name": "uacme",
-    "version": "287.e632af7",
+    "version": "319.3f1885c",
     "description": "Defeating Windows User Account Control.",
     "url": "https://github.com/hfiref0x/UACME"
   },
@@ -877,7 +877,7 @@
   },
   {
     "name": "winpwn",
-    "version": "409.a69199b",
+    "version": "411.cba1769",
     "description": "Automation for internal Windows Penetrationtest / AD-Security.",
     "url": "https://github.com/S3cur3Th1sSh1t/WinPwn"
   },
@@ -907,7 +907,7 @@
   },
   {
     "name": "x64dbg",
-    "version": "2025.03.15",
+    "version": "2025.07.04",
     "description": "An open-source x64/x32 debugger for windows.",
     "url": "https://github.com/x64dbg/x64dbg/releases"
   }

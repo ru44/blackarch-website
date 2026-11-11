@@ -37,7 +37,7 @@
   },
   {
     "name": "asleap",
-    "version": "2.2",
+    "version": "2.5",
     "description": "Actively recover LEAP/PPTP passwords.",
     "url": "https://github.com/OscarAkaElvis/asleap"
   },
@@ -61,7 +61,7 @@
   },
   {
     "name": "bkcrack",
-    "version": "v1.7.1.r11.g52c95ab",
+    "version": "v1.8.1.r53.g980b9ad",
     "description": "Crack legacy zip encryption with Biham and Kocher known plaintext attack.",
     "url": "https://github.com/kimci86/bkcrack"
   },
@@ -79,7 +79,7 @@
   },
   {
     "name": "bob-the-butcher",
-    "version": "0.7.1",
+    "version": "0.8.1",
     "description": "A distributed password cracker package.",
     "url": "https://btb.banquise.net/"
   },
@@ -229,7 +229,7 @@
   },
   {
     "name": "cupp",
-    "version": "77.56547fd",
+    "version": "87.b77f1ae",
     "description": "Common User Password Profiler",
     "url": "http://www.remote-exploit.org/?page_id=418"
   },
@@ -319,7 +319,7 @@
   },
   {
     "name": "gomapenum",
-    "version": "v1.1.0.r110.g8b344df",
+    "version": "v1.1.0.r114.g5aee194",
     "description": "User enumeration and password bruteforce on Azure, ADFS, OWA, O365, Teams and gather emails on Linkedin.",
     "url": "https://github.com/nodauf/GoMapEnum"
   },
@@ -433,7 +433,7 @@
   },
   {
     "name": "jwt-tool",
-    "version": "73.e4f380f",
+    "version": "v2.3.0.r0.g3bc7407",
     "description": "Toolkit for validating, forging and cracking JWTs (JSON Web Tokens).",
     "url": "https://github.com/ticarpi/jwt_tool"
   },
@@ -607,7 +607,7 @@
   },
   {
     "name": "patator",
-    "version": "235.5be299a",
+    "version": "1.1.0.r4.g964e87c",
     "description": "A multi-purpose bruteforcer.",
     "url": "https://github.com/lanjelot/patator"
   },
@@ -667,7 +667,7 @@
   },
   {
     "name": "pkcrack",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "description": "A PkZip encryption cracker.",
     "url": "https://www.unix-ag.uni-kl.de/~conrad/krypto/pkcrack/download1.html"
   },
@@ -805,13 +805,13 @@
   },
   {
     "name": "spray365",
-    "version": "42.58fd193",
+    "version": "0.2.2.beta.r1.g22b39af",
     "description": "Makes spraying Microsoft accounts (Office 365 / Azure AD) easy through its customizable two-step password spraying approach.",
     "url": "https://github.com/MarkoH17/Spray365"
   },
   {
     "name": "spraycharles",
-    "version": "227.a93a388",
+    "version": "v2.0.2.r3.g131f8c6",
     "description": "Low and slow password spraying tool, designed to spray on an interval over a long period of time.",
     "url": "https://github.com/Tw1sm/spraycharles"
   },
@@ -835,7 +835,7 @@
   },
   {
     "name": "sshprank",
-    "version": "1.4.2",
+    "version": "1.7.0",
     "description": "A fast SSH mass-scanner, login cracker and banner grabber tool using the python-masscan and shodan module.",
     "url": "https://nullsecurity.net/tools/cracker.html"
   },

@@ -1,7 +1,7 @@
 [
   {
     "name": "ace",
-    "version": "1.10",
+    "version": "1.11",
     "description": "Automated Corporate Enumerator. A simple yet powerful VoIP Corporate Directory enumeration tool that mimics the behavior of an IP Phone in order to download the name and extension entries that a given phone can display on its screen interface",
     "url": "https://ucsniff.sourceforge.net/ace.html"
   },
@@ -79,13 +79,13 @@
   },
   {
     "name": "sipp",
-    "version": "1507.dde43e1",
+    "version": "1574.5c4e8dc",
     "description": "A free Open Source test tool / traffic generator for the SIP protocol.",
     "url": "https://sipp.sourceforge.net/"
   },
   {
     "name": "sippts",
-    "version": "v4.1.2.r0.g5df52b1",
+    "version": "v4.2.1.r0.g44568c8",
     "description": "Set of tools to audit SIP based VoIP Systems.",
     "url": "https://github.com/Pepelux/sippts"
   },

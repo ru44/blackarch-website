@@ -7,19 +7,19 @@
   },
   {
     "name": "apkstudio",
-    "version": "100.9e114ca",
+    "version": "6.3.0.r2.g8fdd381",
     "description": "An IDE for decompiling/editing & then recompiling of android application binaries.",
     "url": "https://vaibhavpandey.com/apkstudio/"
   },
   {
     "name": "binaryninja",
-    "version": "4.2.6455",
+    "version": "6.0.10601",
     "description": "A new kind of reversing platform (demo version).",
     "url": "https://binary.ninja/free/"
   },
   {
     "name": "ctypes-sh",
-    "version": "158.b79e401",
+    "version": "165.ca66ae5",
     "description": "Allows you to call routines in shared libraries from within bash.",
     "url": "https://github.com/taviso/ctypes.sh"
   },
@@ -49,7 +49,7 @@
   },
   {
     "name": "hopper",
-    "version": "5.18.0",
+    "version": "5.19.7",
     "description": "Reverse engineering tool that lets you disassemble, decompile and debug your applications.",
     "url": "https://www.hopperapp.com/download.html?"
   },
@@ -145,13 +145,13 @@
   },
   {
     "name": "pyinstxtractor",
-    "version": "2025.02.r0.gbb936f9",
+    "version": "2026.07.r0.g815d31c",
     "description": "PyInstaller Extractor.",
     "url": "https://github.com/extremecoders-re/pyinstxtractor"
   },
   {
     "name": "python-frida",
-    "version": "15.2.2",
+    "version": "17.7.3",
     "description": "Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.",
     "url": "https://pypi.org/project/frida/#files"
   },
@@ -163,7 +163,7 @@
   },
   {
     "name": "radare2-keystone",
-    "version": "902.6c9df38",
+    "version": "960.68e9f6d",
     "description": "Keystone assembler plugins for radare2.",
     "url": "https://github.com/radareorg/radare2-extras/tree/master/unicorn"
   },

@@ -115,7 +115,7 @@
   },
   {
     "name": "jynx2",
-    "version": "2.0",
+    "version": "1.2bcbebf",
     "description": "An expansion of the original Jynx LD_PRELOAD rootkit",
     "url": "https://github.com/chokepoint/Jynx2"
   },
@@ -217,7 +217,7 @@
   },
   {
     "name": "shootback",
-    "version": "83.cab462c",
+    "version": "85.2c6e6a8",
     "description": "A reverse TCP tunnel let you access target behind NAT or firewall.",
     "url": "https://github.com/aploium/shootback"
   },
@@ -259,13 +259,13 @@
   },
   {
     "name": "unicorn-powershell",
-    "version": "212.5421d46",
+    "version": "221.c1d914d",
     "description": "A simple tool for using a PowerShell downgrade attack and inject shellcode straight into memory.",
     "url": "https://github.com/trustedsec/unicorn"
   },
   {
     "name": "villain",
-    "version": "V2.2.1.r2.gb3a3946",
+    "version": "V2.2.1.r3.g87e5dd1",
     "description": "C2 framework that can handle multiple TCP socket & HoaxShell-based reverse shells, enhance their functionality with additional features and share them among connected sibling servers.",
     "url": "https://github.com/t3l3machus/Villain"
   },

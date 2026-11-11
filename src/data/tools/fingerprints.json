@@ -7,7 +7,7 @@
   },
   {
     "name": "blindelephant",
-    "version": "7",
+    "version": "8",
     "description": "A web application fingerprinter. Attempts to discover the version of a (known) web application by comparing static files at known locations",
     "url": "https://blindelephant.sourceforge.net/"
   },
@@ -37,7 +37,7 @@
   },
   {
     "name": "dnsmap",
-    "version": "19.6d34014",
+    "version": "51.d727cfb",
     "description": "Passive DNS network mapper.",
     "url": "https://github.com/pagvac/dnsmap"
   },
@@ -169,7 +169,7 @@
   },
   {
     "name": "zgrab2",
-    "version": "790.a6e9a8a",
+    "version": "v1.0.0.r93.g835aa53",
     "description": "Fast Application Layer Scanner.",
     "url": "https://github.com/zmap/zgrab2"
   }

@@ -1,7 +1,7 @@
 [
   {
     "name": "adassault",
-    "version": "0.0.3.r31.gaf1b7a3",
+    "version": "0.0.4.r29.g7a85b8e",
     "description": "An Active Directory environments pentest tool complementary to existing ones like NetExec.",
     "url": "https://noraj.github.io/ADAssault/"
   },
@@ -25,7 +25,7 @@
   },
   {
     "name": "argus-clients",
-    "version": "3.0.8.2",
+    "version": "3.0.8.3",
     "description": "Network monitoring client for Argus.",
     "url": "http://qosient.com/argus/"
   },
@@ -55,7 +55,7 @@
   },
   {
     "name": "asnmap",
-    "version": "v1.1.1.r0.g9eed841",
+    "version": "v1.2.0.r0.gab84a74",
     "description": "Map organization network ranges using ASN information.",
     "url": "https://github.com/projectdiscovery/asnmap"
   },
@@ -109,7 +109,7 @@
   },
   {
     "name": "cyberscan",
-    "version": "75.ca85794",
+    "version": "87.24c69b9",
     "description": "A Network Pentesting Tool.",
     "url": "https://github.com/medbenali/CyberScan"
   },
@@ -145,7 +145,7 @@
   },
   {
     "name": "dnsdiag",
-    "version": "343.39a1b1e",
+    "version": "v2.10.0.r2.g7bc7ac7",
     "description": "DNS Diagnostics and Performance Measurement Tools.",
     "url": "https://dnsdiag.org/"
   },
@@ -169,7 +169,7 @@
   },
   {
     "name": "dnsvalidator",
-    "version": "82.146c9b0",
+    "version": "90.46f0f32",
     "description": "Maintains a list of IPv4 DNS servers by verifying them against baseline servers, and ensuring accurate responses.",
     "url": "https://github.com/vortexau/dnsvalidator"
   },
@@ -187,7 +187,7 @@
   },
   {
     "name": "dublin-traceroute",
-    "version": "347.d81c77e",
+    "version": "0.4.2.r176.gd8a9e5b",
     "description": "NAT-aware multipath tracerouting tool.",
     "url": "https://github.com/insomniacslk/dublin-traceroute"
   },
@@ -205,7 +205,7 @@
   },
   {
     "name": "exabgp",
-    "version": "4.2.6.r763.g16d7a98",
+    "version": "nightly.r0.gd6adb5d",
     "description": "The BGP swiss army knife of networking.",
     "url": "https://github.com/Exa-Networks/exabgp"
   },
@@ -283,13 +283,13 @@
   },
   {
     "name": "infection-monkey",
-    "version": "v2.2.0.r3599.ga55fc8dfe",
+    "version": "v2.2.0.r3599.ga55fc8d",
     "description": "Automated security testing tool for networks.",
     "url": "https://github.com/guardicore/monkey"
   },
   {
     "name": "interlace",
-    "version": "354.79b8949",
+    "version": "356.b9eb99f",
     "description": "Easily turn single threaded command line applications into a fast, multi-threaded application with CIDR and glob support.",
     "url": "https://github.com/codingo/Interlace/releases"
   },
@@ -307,7 +307,7 @@
   },
   {
     "name": "ipv4bypass",
-    "version": "24.f54072b",
+    "version": "26.844d2d8",
     "description": "Using IPv6 to Bypass Security.",
     "url": "https://github.com/milo2012/ipv4Bypass"
   },
@@ -343,7 +343,7 @@
   },
   {
     "name": "libtins",
-    "version": "1305.fe22186",
+    "version": "1308.3111a90",
     "description": "High-level, multiplatform C++ network packet sniffing and crafting library.",
     "url": "https://github.com/mfontanini/libtins"
   },
@@ -373,7 +373,7 @@
   },
   {
     "name": "massdns",
-    "version": "309.cb49ad2",
+    "version": "316.6bfa471",
     "description": "A high-performance DNS stub resolver in C.",
     "url": "https://github.com/blechschmidt/massdns"
   },
@@ -517,19 +517,19 @@
   },
   {
     "name": "packetq",
-    "version": "306.201eb88",
+    "version": "311.9ebf537",
     "description": "A tool that provides a basic SQL-frontend to PCAP-files.",
     "url": "https://github.com/DNS-OARC/PacketQ"
   },
   {
     "name": "packetsender",
-    "version": "1134.5a9452e",
+    "version": "1326.9714b2e",
     "description": "An open source utility to allow sending and receiving TCP and UDP packets.",
     "url": "https://github.com/dannagle/PacketSender"
   },
   {
     "name": "packit",
-    "version": "1.0",
+    "version": "2.0",
     "description": "A network auditing tool. Its value is derived from its ability to customize, inject, monitor, and manipulate IP traffic.",
     "url": "http://packetfactory.openwall.net/projects/packit/"
   },
@@ -547,7 +547,7 @@
   },
   {
     "name": "phantap",
-    "version": "64.815c312",
+    "version": "65.e8d10ea",
     "description": "An 'invisible' network tap aimed at red teams.",
     "url": "https://github.com/nccgroup/phantap"
   },
@@ -649,13 +649,13 @@
   },
   {
     "name": "seth",
-    "version": "103.8b6e36c",
+    "version": "106.6e869cd",
     "description": "Perform a MitM attack and extract clear text credentials from RDP connections.",
     "url": "https://github.com/SySS-Research/Seth"
   },
   {
     "name": "silk",
-    "version": "3.19.2",
+    "version": "3.24.2",
     "description": "A collection of traffic analysis tools developed by the CERT NetSA to facilitate security analysis of large networks.",
     "url": "https://tools.netsa.cert.org/silk/download.html"
   },
@@ -667,7 +667,7 @@
   },
   {
     "name": "smbclient-ng",
-    "version": "2.1.7.r60.g55503d2",
+    "version": "3.1.0.r4.g755200b",
     "description": "Interact with SMB shares.",
     "url": "https://github.com/p0dalirius/smbclient-ng"
   },
@@ -715,13 +715,13 @@
   },
   {
     "name": "stunner",
-    "version": "v0.5.8.r70.g3fc8426",
+    "version": "v0.5.8.r191.g3842eab",
     "description": "Test and exploit STUN, TURN and TURN over TCP servers.",
     "url": "https://github.com/firefart/stunner"
   },
   {
     "name": "tcpcopy",
-    "version": "1283.21a3698",
+    "version": "1285.929511d",
     "description": "A TCP stream replay tool to support real testing of Internet server applications.",
     "url": "https://github.com/session-replay-tools/tcpcopy"
   },
@@ -805,7 +805,7 @@
   },
   {
     "name": "websockify",
-    "version": "946.e818947",
+    "version": "998.1e284ea",
     "description": "WebSocket to TCP proxy/bridge.",
     "url": "https://github.com/novnc/websockify"
   },
@@ -847,19 +847,19 @@
   },
   {
     "name": "zdns",
-    "version": "694.d3109db",
+    "version": "v2.1.1.r8.g81eff11",
     "description": "Fast CLI DNS Lookup Tool.",
     "url": "https://github.com/zmap/zdns"
   },
   {
     "name": "zeek",
-    "version": "v7.2.0.dev.r479.g14d91efb7",
+    "version": "v9.1.0.dev.r465.g1638b40",
     "description": "A powerful network analysis framework that is much different from the typical IDS you may know.",
     "url": "https://github.com/zeek/zeek"
   },
   {
     "name": "zeek-aux",
-    "version": "700.5e67276",
+    "version": "794.f1f4bc5",
     "description": "Handy auxiliary programs related to the use of the Zeek Network Security Monitor.",
     "url": "https://github.com/zeek/zeek-aux"
   }

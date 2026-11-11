@@ -1,7 +1,7 @@
 [
   {
     "name": "ajpfuzzer",
-    "version": "0.6",
+    "version": "0.7",
     "description": "A command-line fuzzer for the Apache JServ Protocol (ajp13).",
     "url": "https://github.com/doyensec/ajpfuzzer"
   },
@@ -19,7 +19,7 @@
   },
   {
     "name": "boofuzz",
-    "version": "v0.4.2.r27.g10a1501",
+    "version": "v0.4.2.r44.g41a808e",
     "description": "",
     "url": "https://github.com/jtpereyda/boofuzz"
   },
@@ -127,7 +127,7 @@
   },
   {
     "name": "fuddly",
-    "version": "569.fd2c4d0",
+    "version": "0.30.dev.r420.g84b0846",
     "description": "Fuzzing and Data Manipulation Framework (for GNU/Linux).",
     "url": "https://github.com/k0retux/fuddly"
   },
@@ -151,7 +151,7 @@
   },
   {
     "name": "fuzzdiff",
-    "version": "1.0",
+    "version": "1.1",
     "description": "A simple tool designed to help out with crash analysis during fuzz testing. It selectively 'un-fuzzes' portions of a fuzzed file that is known to cause a crash, re-launches the targeted application, and sees if it still crashes.",
     "url": "http://vsecurity.com/resources/tool/"
   },
@@ -163,13 +163,13 @@
   },
   {
     "name": "goofuzz",
-    "version": "1.2.5.r2.g6ba4cc5",
+    "version": "2.0.r1.gc32df39",
     "description": "A Bash script that uses advanced Google search techniques to obtain sensitive information in files or directories without making requests to the web server.",
     "url": "https://github.com/m3n0sd0n4ld/GooFuzz"
   },
   {
     "name": "grammarinator",
-    "version": "397.68b0350",
+    "version": "523.46322fd",
     "description": "A random test generator / fuzzer that creates test cases according to an input ANTLR v4 grammar.",
     "url": "https://github.com/renatahodovan/grammarinator"
   },
@@ -181,7 +181,7 @@
   },
   {
     "name": "hexorbase",
-    "version": "6",
+    "version": "7",
     "description": "A database application designed for administering and auditing multiple database servers simultaneously from a centralized location. It is capable of performing SQL queries and bruteforce attacks against common database servers (MySQL, SQLite, Microsoft SQL Server, Oracle, PostgreSQL).",
     "url": "https://github.com/savio-code/hexorbase"
   },
@@ -193,7 +193,7 @@
   },
   {
     "name": "honggfuzz",
-    "version": "4130.4cfa62f4",
+    "version": "4182.940b958d",
     "description": "A general-purpose fuzzer with simple, command-line interface.",
     "url": "https://github.com/google/honggfuzz"
   },
@@ -313,7 +313,7 @@
   },
   {
     "name": "pyjfuzz",
-    "version": "157.f777067",
+    "version": "159.578d44c",
     "description": "Python JSON Fuzzer.",
     "url": "https://github.com/mseclab/PyJFuzz"
   },
@@ -343,13 +343,13 @@
   },
   {
     "name": "sfuzz",
-    "version": "200.e1b62bd",
+    "version": "201.9c01dab",
     "description": "A simple fuzzer.",
     "url": "http://aconole.brad-x.com/programs/sfuzz.html"
   },
   {
     "name": "sharpfuzz",
-    "version": "v2.2.0.r2.g679e726",
+    "version": "v2.2.0.r9.g7dde242",
     "description": "AFL-based fuzz testing for .NET.",
     "url": "https://github.com/Metalnem/sharpfuzz"
   },
@@ -487,7 +487,7 @@
   },
   {
     "name": "wfuzz",
-    "version": "1155.1b695ee",
+    "version": "1157.2263cd0",
     "description": "Utility to bruteforce web applications to find their not linked resources.",
     "url": "https://github.com/xmendez/wfuzz"
   },

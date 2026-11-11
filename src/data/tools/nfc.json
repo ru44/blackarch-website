@@ -1,7 +1,7 @@
 [
   {
     "name": "nfcutils",
-    "version": "0.3.2",
+    "version": "61.49aa178",
     "description": "Provides a simple 'lsnfc' command that list tags which are in your NFC device field",
     "url": "https://github.com/nfc-tools/nfcutils"
   }

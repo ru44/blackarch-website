@@ -1,7 +1,7 @@
 [
   {
     "name": "apt2",
-    "version": "183.8075cdc",
+    "version": "v1.0.20180315.r12.g8075cdc",
     "description": "Automated penetration toolkit.",
     "url": "https://github.com/MooseDojo/apt2"
   },
@@ -31,7 +31,7 @@
   },
   {
     "name": "autorecon",
-    "version": "284.ee0d0a3",
+    "version": "297.e7e98f6",
     "description": "A multi-threaded network reconnaissance tool which performs automated enumeration of services.",
     "url": "https://github.com/AutoRecon/AutoRecon"
   },
@@ -49,7 +49,7 @@
   },
   {
     "name": "blueranger",
-    "version": "1.0",
+    "version": "1.1",
     "description": "A simple Bash script which uses Link Quality to locate Bluetooth device radios.",
     "url": "https://www.hackfromacave.com/projects/blueranger.html"
   },
@@ -61,7 +61,7 @@
   },
   {
     "name": "brutespray",
-    "version": "496.4c709ab",
+    "version": "908.d4e361b",
     "description": "Brute-Forcing from Nmap output - Automatically attempts default creds on found services.",
     "url": "https://github.com/x90skysn3k/brutespray"
   },
@@ -79,7 +79,7 @@
   },
   {
     "name": "cewl",
-    "version": "189.447ccc1",
+    "version": "6.2.1.r33.gca01aea",
     "description": "A custom word list generator.",
     "url": "http://www.digininja.org/projects/cewl.php"
   },
@@ -103,7 +103,7 @@
   },
   {
     "name": "codeql",
-    "version": "2.8.1",
+    "version": "2.22.4",
     "description": "The CLI tool for GitHub CodeQL",
     "url": "https://github.com/codeql"
   },
@@ -115,7 +115,7 @@
   },
   {
     "name": "cook",
-    "version": "v2.2.1.r13.gbabf5ba",
+    "version": "v2.3.0.r0.gf72413d",
     "description": "Easily create word's permutation and combination to generate complex wordlists and passwords.",
     "url": "https://github.com/glitchedgitz/cook"
   },
@@ -163,13 +163,13 @@
   },
   {
     "name": "emp3r0r",
-    "version": "v3.2.2.r0.g9f2a8976",
+    "version": "v5.6.0.r6.g342eecdf",
     "description": "Linux post-exploitation framework made by linux user.",
     "url": "https://github.com/jm33-m0/emp3r0r"
   },
   {
     "name": "empire",
-    "version": "v6.0.1.r0.g68fc935",
+    "version": "v6.7.1.r0.gca5b774",
     "description": "A PowerShell and Python post-exploitation agent.",
     "url": "https://github.com/BC-SECURITY/Empire"
   },
@@ -193,7 +193,7 @@
   },
   {
     "name": "go-exploitdb",
-    "version": "v0.5.0.r10.g90df497",
+    "version": "v0.7.2.r1.geeb116a",
     "description": "Tool for searching Exploits from Exploit Databases, etc.",
     "url": "https://github.com/vulsio/go-exploitdb"
   },
@@ -217,13 +217,13 @@
   },
   {
     "name": "harpoon",
-    "version": "386.52c1071",
+    "version": "388.4bb8250",
     "description": "CLI tool for open source and threat intelligence.",
     "url": "https://github.com/Te-k/harpoon"
   },
   {
     "name": "hate-crack",
-    "version": "223.58c7ec8",
+    "version": "224.821ff60",
     "description": "A tool for automating cracking methodologies through Hashcat.",
     "url": "https://github.com/trustedsec/hate_crack"
   },
@@ -259,7 +259,7 @@
   },
   {
     "name": "koadic",
-    "version": "637.ac46c44",
+    "version": "3.457f9a3",
     "description": "A Windows post-exploitation rootkit similar to other penetration testing tools such as Meterpreter and Powershell Empire.",
     "url": "https://github.com/offsecginger/koadic"
   },
@@ -271,7 +271,7 @@
   },
   {
     "name": "linikatz",
-    "version": "48.d9cfdbf",
+    "version": "54.b06ec5f",
     "description": "Tool to attack AD on UNIX.",
     "url": "https://github.com/CiscoCXSecurity/linikatz"
   },
@@ -307,7 +307,7 @@
   },
   {
     "name": "mentalist",
-    "version": "6.953a07b",
+    "version": "v2.0.0.r1.g8223d8e",
     "description": "Graphical tool for custom wordlist generation.",
     "url": "https://github.com/sc0tfree/mentalist"
   },
@@ -349,13 +349,13 @@
   },
   {
     "name": "mutator",
-    "version": "51.164132d",
+    "version": "v0.2.2.r2.g164132d",
     "description": "This project aims to be a wordlist mutator with hormones, which means that some mutations will be applied to the result of the ones that have been already done, resulting in something like: corporation -> C0rp0r4t10n_2012",
     "url": "https://bitbucket.org/alone/mutator/"
   },
   {
     "name": "nettacker",
-    "version": "0.4.0.r71.ga72bdfc9",
+    "version": "0.4.1.r17.g14ef2b4",
     "description": "Automated Penetration Testing Framework.",
     "url": "https://github.com/OWASP/Nettacker"
   },
@@ -397,7 +397,7 @@
   },
   {
     "name": "panoptic",
-    "version": "185.df35a6c",
+    "version": "262.e138360",
     "description": "A tool that automates the process of search and retrieval of content for common log and config files through LFI vulnerability.",
     "url": "https://github.com/lightos/Panoptic"
   },
@@ -421,13 +421,13 @@
   },
   {
     "name": "pentestgpt",
-    "version": "v0.14.0.r3.g2a1c528",
+    "version": "v0.14.0.r21.ge8b1bb7",
     "description": "A penetration testing tool empowered by ChatGPT. It is designed to automate the penetration testing process.",
     "url": "https://github.com/GreyDGL/PentestGPT"
   },
   {
     "name": "pentmenu",
-    "version": "218.2e45233",
+    "version": "220.0cd7b58",
     "description": "A bash script for recon and DOS attacks.",
     "url": "https://github.com/GinjaChris/pentmenu"
   },
@@ -487,7 +487,7 @@
   },
   {
     "name": "scap-security-guide",
-    "version": "0.1.60",
+    "version": "0.1.80",
     "description": "Security compliance content in SCAP, Bash, Ansible, and other formats.",
     "url": "https://www.open-scap.org/security-policies/scap-security-guide/"
   },
@@ -505,7 +505,7 @@
   },
   {
     "name": "shellerator",
-    "version": "34.c325e3d",
+    "version": "72.6af7f36",
     "description": "Simple command-line tool aimed to help pentesters quickly generate one-liner reverse/bind shells in multiple languages.",
     "url": "https://github.com/ShutdownRepo/shellerator"
   },
@@ -529,7 +529,7 @@
   },
   {
     "name": "sipvicious",
-    "version": "463.20fd851",
+    "version": "481.485d16c",
     "description": "Tools for auditing SIP devices.",
     "url": "http://blog.sipvicious.org/"
   },
@@ -541,7 +541,7 @@
   },
   {
     "name": "sn1per",
-    "version": "616.4ff7c0c",
+    "version": "723.24368bd",
     "description": "Automated Pentest Recon Scanner.",
     "url": "https://github.com/1N3/Sn1per"
   },

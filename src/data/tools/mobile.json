@@ -1,7 +1,7 @@
 [
   {
     "name": "androbugs",
-    "version": "1.7fd3a2c",
+    "version": "7fd3a2c.r0.g7fd3a2c",
     "description": "An efficient Android vulnerability scanner that helps developers or hackers find potential security vulnerabilities in Android applications.",
     "url": "https://github.com/AndroBugs/AndroBugs_Framework"
   },
@@ -13,7 +13,7 @@
   },
   {
     "name": "android-ndk",
-    "version": "r27",
+    "version": "r29",
     "description": "Android C/C++ developer kit",
     "url": "https://developer.android.com/ndk/downloads"
   },
@@ -25,13 +25,13 @@
   },
   {
     "name": "android-udev-rules",
-    "version": "543.6a34a62",
+    "version": "20260922.r3.ga9c2aeb",
     "description": "Android udev rules.",
     "url": "https://github.com/bbqlinux/android-udev-rules"
   },
   {
     "name": "androidpincrack",
-    "version": "2.ddaf307",
+    "version": "5.6439bd2",
     "description": "Bruteforce the Android Passcode given the hash and salt.",
     "url": "https://github.com/jselvi/AndroidPINCrack"
   },
@@ -49,13 +49,13 @@
   },
   {
     "name": "apkid",
-    "version": "2.1.5",
+    "version": "3.0.0",
     "description": "Android Application Identifier for Packers, Protectors, Obfuscators and Oddities.",
     "url": "https://github.com/rednaga/APKiD"
   },
   {
     "name": "apkleaks",
-    "version": "v2.6.3.r1.g335ce85",
+    "version": "v2.6.3.r2.gdd5271a",
     "description": "Scanning APK file for URIs, endpoints & secrets.",
     "url": "https://github.com/dwisiswant0/apkleaks"
   },
@@ -73,7 +73,7 @@
   },
   {
     "name": "appmon",
-    "version": "177.f753c4d",
+    "version": "0.5.r36.gf753c4d",
     "description": "A runtime security testing & profiling framework for native apps on macOS, iOS & android and it is built using Frida.",
     "url": "https://github.com/dpnishant/appmon"
   },
@@ -97,7 +97,7 @@
   },
   {
     "name": "bagbak",
-    "version": "313.79ca483",
+    "version": "342.71fbd4d",
     "description": "Yet another frida based App decryptor.",
     "url": "https://github.com/ChiChou/bagbak"
   },
@@ -133,7 +133,7 @@
   },
   {
     "name": "frida-ios-dump",
-    "version": "53.56e99b2",
+    "version": "62.8395374",
     "description": "Pull decrypted ipa from jailbreak device.",
     "url": "https://github.com/AloneMonkey/frida-ios-dump"
   },
@@ -163,7 +163,7 @@
   },
   {
     "name": "mobsf",
-    "version": "v4.3.2.r0.g4b8bab5",
+    "version": "v4.6.4.r15.gb310497",
     "description": "An intelligent, all-in-one open source mobile application (Android/iOS) automated pen-testing framework capable of performing static, dynamic analysis and web API testing.",
     "url": "https://github.com/MobSF/Mobile-Security-Framework-MobSF"
   },
@@ -175,7 +175,7 @@
   },
   {
     "name": "objection",
-    "version": "1.11.0",
+    "version": "1.12.5",
     "description": "Instrumented Mobile Pentest Framework.",
     "url": "https://pypi.org/project/objection/#files"
   },
@@ -187,13 +187,13 @@
   },
   {
     "name": "pyaxmlparser",
-    "version": "v0.3.31.r0.g09d78e1",
+    "version": "v0.3.31.r13.g446bf7c",
     "description": "A simple parser to parse Android XML file.",
     "url": "https://github.com/appknox/pyaxmlparser"
   },
   {
     "name": "python-frida-tools",
-    "version": "11.0.0",
+    "version": "14.11.0",
     "description": "Frida CLI tools.",
     "url": "https://pypi.org/project/frida-tools/#files"
   },

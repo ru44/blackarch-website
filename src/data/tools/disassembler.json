@@ -31,7 +31,7 @@
   },
   {
     "name": "lief",
-    "version": "0.15.1",
+    "version": "0.17.3",
     "description": "Library to instrument executable formats.",
     "url": "https://github.com/lief-project/lief"
   },
@@ -49,7 +49,7 @@
   },
   {
     "name": "python-lief",
-    "version": "0.15.1",
+    "version": "0.17.3",
     "description": "Library to instrument executable formats.",
     "url": "https://github.com/lief-project/lief"
   },
@@ -73,7 +73,7 @@
   },
   {
     "name": "radare2-unicorn",
-    "version": "902.6c9df38",
+    "version": "922.7a6e373",
     "description": "Unicorn Emulator Plugin for radare2.",
     "url": "https://github.com/radareorg/radare2-extras/tree/master/unicorn"
   },

@@ -1,7 +1,7 @@
 [
   {
     "name": "chisel",
-    "version": "239.ab8f06a",
+    "version": "263.5ee6c74",
     "description": "A fast TCP tunnel over HTTP.",
     "url": "https://github.com/jpillora/chisel"
   },
@@ -25,7 +25,7 @@
   },
   {
     "name": "fraud-bridge",
-    "version": "10.775c563",
+    "version": "rel.0.32s.r3.g88a5baa",
     "description": "ICMP and DNS tunneling via IPv4 and IPv6.",
     "url": "https://github.com/stealth/fraud-bridge"
   },
@@ -43,7 +43,7 @@
   },
   {
     "name": "ligolo-ng",
-    "version": "v0.7.5.r1.g9c75364",
+    "version": "v0.9.2.r0.ge543732",
     "description": "An advanced, yet simple, tunneling tool that uses a TUN interface.",
     "url": "https://github.com/nicocha30/ligolo-ng/releases"
   },
@@ -67,13 +67,13 @@
   },
   {
     "name": "neo-regeorg",
-    "version": "v5.2.1.r0.g05081d1",
+    "version": "v5.3.0.r3.g5357264",
     "description": "Improved version of reGeorg, HTTP tunneling pivot tool",
     "url": "https://github.com/L-codes/Neo-reGeorg"
   },
   {
     "name": "ngrok",
-    "version": "3.2.2",
+    "version": "3.33.1",
     "description": "A tunneling, reverse proxy for developing and understanding networked, HTTP services.",
     "url": "https://ngrok.com/"
   },

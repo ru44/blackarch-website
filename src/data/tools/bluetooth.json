@@ -61,7 +61,7 @@
   },
   {
     "name": "braces",
-    "version": "0.4",
+    "version": "0.5",
     "description": "A Bluetooth Tracking Utility.",
     "url": "http://braces.shmoo.com/"
   },
@@ -85,7 +85,7 @@
   },
   {
     "name": "btlejack",
-    "version": "88.c487859",
+    "version": "v2.1.1.r1.gc487859",
     "description": "Bluetooth Low Energy Swiss-army knife.",
     "url": "https://github.com/virtualabs/btlejack"
   },
@@ -145,7 +145,7 @@
   },
   {
     "name": "ubertooth",
-    "version": "2020.12.R1",
+    "version": "2020.12.R1.r35.gc9dfdbd",
     "description": "A 2.4 GHz wireless development board suitable for Bluetooth experimentation. Open source hardware and software. Tools only.",
     "url": "https://github.com/greatscottgadgets/ubertooth"
   }

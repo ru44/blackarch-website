@@ -7,19 +7,19 @@
   },
   {
     "name": "brakeman",
-    "version": "v7.0.2.r0.g835dc2825",
+    "version": "v8.1.0.r2.g4bfdad0c3",
     "description": "A static analysis security vulnerability scanner for Ruby on Rails applications.",
     "url": "https://brakemanscanner.org/"
   },
   {
     "name": "cflow",
-    "version": "1.7",
+    "version": "1.8",
     "description": "A C program flow analyzer.",
     "url": "http://www.gnu.org/software/cflow/"
   },
   {
     "name": "checkov",
-    "version": "3.2.397.r1.g08fd7e7c8",
+    "version": "3.4.0.r1.g3bdc054cfb",
     "description": "Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages.",
     "url": "https://github.com/bridgecrewio/checkov"
   },
@@ -37,7 +37,7 @@
   },
   {
     "name": "detect-secrets",
-    "version": "v1.5.0.r49.g50119d6",
+    "version": "v1.5.0.r50.g5e141933",
     "description": "An enterprise friendly way of detecting and preventing secrets in code.",
     "url": "https://github.com/Yelp/detect-secrets"
   },
@@ -49,13 +49,13 @@
   },
   {
     "name": "githound",
-    "version": "v1.7.1.r15.g1d20536",
+    "version": "v3.2.r0.g15701b7",
     "description": "Find secret information in git repositories.",
     "url": "https://github.com/tillson/git-hound"
   },
   {
     "name": "graudit",
-    "version": "643.f7962eb",
+    "version": "738.3317cc2",
     "description": "Grep rough source code auditing tool.",
     "url": "https://github.com/wireghoul/graudit"
   },
@@ -85,7 +85,7 @@
   },
   {
     "name": "phpstan",
-    "version": "12314.adc504d1f",
+    "version": "15665.da31e27d3",
     "description": "PHP Static Analysis Tool - discover bugs in your code without running it.",
     "url": "https://github.com/phpstan/phpstan"
   },
@@ -103,13 +103,13 @@
   },
   {
     "name": "semgrep",
-    "version": "1.110.0",
+    "version": "1.183.0",
     "description": "Lightweight static analysis for many languages.",
     "url": "https://pypi.org/project/semgrep/"
   },
   {
     "name": "slither",
-    "version": "4773.7f54c8b94",
+    "version": "4851.f9710ded1",
     "description": "Solidity static analysis framework written in Python 3.",
     "url": "https://github.com/crytic/slither"
   },
@@ -127,7 +127,7 @@
   },
   {
     "name": "spotbugs",
-    "version": "17697.d20b3b39f",
+    "version": "17817.eaabea0287",
     "description": "A tool for static analysis to look for bugs in Java code.",
     "url": "https://github.com/spotbugs/spotbugs"
   },
@@ -145,7 +145,7 @@
   },
   {
     "name": "trufflehog",
-    "version": "v3.88.23.r2.g824eca7f8",
+    "version": "v3.99.7.r9.g421026a65",
     "description": "Searches through git repositories for high entropy strings, digging deep into commit history.",
     "url": "https://github.com/trufflesecurity/trufflehog"
   },
@@ -175,7 +175,7 @@
   },
   {
     "name": "zarn",
-    "version": "0.0.9.r76.ge8c757a",
+    "version": "0.0.9.r146.gcf91492",
     "description": "A lightweight static security analysis tool for modern Perl Apps.",
     "url": "https://github.com/htrgouvea/zarn"
   }

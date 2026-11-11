@@ -25,7 +25,7 @@
   },
   {
     "name": "evil-ssdp",
-    "version": "96.0d41a11",
+    "version": "08..beta.r7.g0d41a11",
     "description": "Spoof SSDP replies to phish for NetNTLM challenge/response on a network.",
     "url": "https://gitlab.com/initstring/evil-ssdp"
   },
@@ -49,7 +49,7 @@
   },
   {
     "name": "mailsend-go",
-    "version": "118.902fe39",
+    "version": "156.07ba45e",
     "description": "A multi-platform command line tool to send mail via SMTP protocol.",
     "url": "https://github.com/muquit/mailsend-go"
   },
@@ -91,7 +91,7 @@
   },
   {
     "name": "spoofy",
-    "version": "v1.0.2.r7.g0a72500",
+    "version": "v1.0.3.r10.g8e6982e",
     "description": "Check if a list of domains can be spoofed based on SPF and DMARC records.",
     "url": "https://github.com/MattKeeley/Spoofy"
   },

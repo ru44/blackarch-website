@@ -13,7 +13,7 @@
   },
   {
     "name": "gdbgui",
-    "version": "437.be95217",
+    "version": "438.773b916",
     "description": "Browser-based gdb frontend using Flask and JavaScript to visually debug C, C++, Go, or Rust.",
     "url": "https://github.com/cs01/gdbgui"
   },
@@ -43,19 +43,19 @@
   },
   {
     "name": "shellnoob",
-    "version": "35.72cf498",
+    "version": "37.6586133",
     "description": "A toolkit that eases the writing and debugging of shellcode.",
     "url": "https://github.com/reyammer/shellnoob"
   },
   {
     "name": "vivisect",
-    "version": "v1.2.1.r4.gd04e5193",
+    "version": "v1.3.2.r10.g66c93f0c",
     "description": "A Python based static analysis and reverse engineering framework.",
     "url": "https://github.com/vivisect/vivisect"
   },
   {
     "name": "voltron",
-    "version": "629.be9e54b",
+    "version": "v0.1.8.r0.gbe9e54b",
     "description": "UI for GDB, LLDB and Vivisect's VDB.",
     "url": "https://github.com/snare/voltron"
   }

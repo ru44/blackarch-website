@@ -1,7 +1,7 @@
 [
   {
     "name": "avaloniailspy",
-    "version": "v7.2.rc.r10.gbc00df4",
+    "version": "v7.2.rc.r11.g21d4939",
     "description": ".NET Decompiler (port of ILSpy)",
     "url": "https://github.com/icsharpcode/AvaloniaILSpy"
   },
@@ -19,7 +19,7 @@
   },
   {
     "name": "fernflower",
-    "version": "795.c240b173",
+    "version": "802.c03cae7a",
     "description": "An analytical decompiler for Java.",
     "url": "https://github.com/JetBrains/fernflower"
   },
@@ -73,13 +73,13 @@
   },
   {
     "name": "python-uncompyle6",
-    "version": "3.9.2",
+    "version": "3.9.3",
     "description": "A Python cross-version decompiler.",
     "url": "https://pypi.org/project/uncompyle6/#files"
   },
   {
     "name": "recaf",
-    "version": "2.21.14.2283.e5669cd90",
+    "version": "4.0.0.alpha.r594.gd5888cd",
     "description": "Modern Java bytecode editor.",
     "url": "https://github.com/Col-E/Recaf"
   },
@@ -103,7 +103,7 @@
   },
   {
     "name": "shuji",
-    "version": "v0.8.0.r66.g28d6090",
+    "version": "0.8.0.r141.ge7bce98",
     "description": "Reverse engineering JavaScript and CSS sources from sourcemaps.",
     "url": "https://github.com/paazmaya/shuji"
   }

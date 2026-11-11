@@ -7,7 +7,7 @@
   },
   {
     "name": "country-ip-blocks",
-    "version": "5199.dc80821",
+    "version": "6365.1ad7ecd",
     "description": "CIDR country-level IP data, straight from the Regional Internet Registries, updated hourly.",
     "url": "https://github.com/herrbischoff/country-ip-blocks"
   },

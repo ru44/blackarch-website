@@ -7,7 +7,7 @@
   },
   {
     "name": "blacknurse",
-    "version": "9.d2a2b23",
+    "version": "12.934b6a2",
     "description": "A low bandwidth ICMP attack that is capable of doing denial of service to well known firewalls.",
     "url": "https://github.com/jedisct1/blacknurse"
   },
@@ -25,7 +25,7 @@
   },
   {
     "name": "ddosify",
-    "version": "v1.7.2.r2.g1639885",
+    "version": "v2.6.0.r32.g5cf7df3",
     "description": "High-performance load testing tool, written in Golang.",
     "url": "https://github.com/getanteon/anteon"
   },
@@ -55,13 +55,13 @@
   },
   {
     "name": "iaxflood",
-    "version": "0.1",
+    "version": "0.2",
     "description": "IAX flooder.",
     "url": "https://www.hackingexposedvoip.com/"
   },
   {
     "name": "impulse",
-    "version": "77.6939ea2",
+    "version": "79.592a91b",
     "description": "Modern Denial-of-service ToolKit.",
     "url": "https://github.com/LimerBoy/Impulse"
   },
@@ -103,7 +103,7 @@
   },
   {
     "name": "pwnloris",
-    "version": "13.55f2681",
+    "version": "14.7ad1486",
     "description": "An improved slowloris DOS tool which keeps attacking until the server starts getting exhausted.",
     "url": "https://github.com/h0ussni/pwnloris"
   },
