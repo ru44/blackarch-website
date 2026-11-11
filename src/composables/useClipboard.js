@@ -13,19 +13,25 @@ export function useClipboard(resetAfterMs = 1600) {
   const copiedKey = ref("");
   let timer;
 
-  async function writeText(text) {
-    if (navigator.clipboard?.writeText) {
-      await navigator.clipboard.writeText(text);
-      return;
-    }
-    // Insecure contexts (plain http) have no Clipboard API.
+  // execCommand works where the Clipboard API is missing (plain http) or
+  // refuses to write (no permission, document not focused).
+  function legacyWriteText(text) {
     const field = document.createElement("textarea");
     field.value = text;
     field.style.cssText = "position:fixed;opacity:0";
     document.body.appendChild(field);
     field.select();
-    document.execCommand("copy");
+    const ok = document.execCommand("copy");
     field.remove();
+    if (!ok) throw new Error("Copy command was rejected");
+  }
+
+  async function writeText(text) {
+    try {
+      await navigator.clipboard.writeText(text);
+    } catch {
+      legacyWriteText(text);
+    }
   }
 
   async function copy(text, key = text) {
