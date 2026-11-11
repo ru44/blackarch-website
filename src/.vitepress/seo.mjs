@@ -6,8 +6,32 @@
 // (canonical) and is left out of the sitemap. Real translations get their own
 // address and are linked to each other with hreflang.
 import { existsSync, readFileSync } from "node:fs";
+import { faq } from "../data/faq.js";
 
 const CONTENT_DIR = new URL("../content/", import.meta.url);
+
+/** JSON-LD for a <script> tag: "<" is escaped so the data can never close the tag. */
+const jsonLd = (data) => JSON.stringify(data).replace(/</g, "\\u003c");
+
+/** The text of an HTML snippet, without tags. */
+function plainText(html) {
+  let text = html;
+  for (let previous; previous !== text; ) {
+    previous = text;
+    text = text.replace(/<[^>]*>/g, "");
+  }
+  return text.replace(/[<>]/g, "").replace(/&amp;/g, "&").trim();
+}
+
+/** An FAQ answer (blocks of p / ul / code) as plain text. */
+const answerText = (blocks) =>
+  blocks
+    .map((block) => {
+      if (block.p) return plainText(block.p);
+      if (block.ul) return block.ul.map(plainText).join(" ");
+      return block.code;
+    })
+    .join("\n");
 
 export function createSeo({ siteUrl, title, description, locales }) {
   const codes = Object.keys(locales);
@@ -37,11 +61,31 @@ export function createSeo({ siteUrl, title, description, locales }) {
     return translatedCache.get(key);
   }
 
+  /** FAQPage structured data, using the translated questions when a language has them. */
+  async function faqData(code) {
+    const translated = code
+      ? ((await import(`../i18n/locales/${code}.js`)).default.faqItems?.items ?? {})
+      : {};
+    return {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      inLanguage: code ? locales[code].lang : "en",
+      mainEntity: faq.map((item) => ({
+        "@type": "Question",
+        name: translated[item.id]?.q ?? item.q,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: answerText(translated[item.id]?.a ?? item.a),
+        },
+      })),
+    };
+  }
+
   const cleanPath = (relativePath) =>
     relativePath.replace(/(^|\/)index\.md$/, "$1").replace(/\.(md|html)$/, "");
   const isRedirect = (page) => page === "news";
 
-  function transformPageData(pageData) {
+  async function transformPageData(pageData) {
     const { code, page } = parse(cleanPath(pageData.relativePath));
     const translated = isTranslated(code, page);
     const canonical = translated ? urlFor(code, page) : urlFor(null, page);
@@ -87,7 +131,11 @@ export function createSeo({ siteUrl, title, description, locales }) {
         description: pageDescription,
         inLanguage: code ? locales[code].lang : "en",
       };
-      head.push(["script", { type: "application/ld+json" }, JSON.stringify(data)]);
+      head.push(["script", { type: "application/ld+json" }, jsonLd(data)]);
+    }
+
+    if (page === "faq" && translated) {
+      head.push(["script", { type: "application/ld+json" }, jsonLd(await faqData(code))]);
     }
   }
 

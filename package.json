@@ -4,6 +4,7 @@
   "version": "2.0.0",
   "license": "MIT",
   "private": true,
+  "type": "module",
   "packageManager": "pnpm@10.33.0",
   "engines": {
     "node": ">=22"
@@ -17,8 +18,8 @@
     "format:check": "prettier --check .",
     "lint": "oxlint src scripts --ignore-pattern \"src/.vitepress/dist/**\" --ignore-pattern \"src/.vitepress/cache/**\"",
     "gen:locales": "node scripts/gen-locales.mjs",
-    "sync:mirrors": "node scripts/sync-mirrors.mjs",
     "sync:tools": "node scripts/sync-tools.mjs",
+    "sync:mirrors": "node scripts/sync-mirrors.mjs",
     "sync:wiki": "node scripts/sync-wiki-docs.mjs",
     "sync:stars": "node scripts/sync-tool-stars.mjs",
     "sync:links": "node scripts/sync-tool-links.mjs",
