@@ -4,6 +4,16 @@ A redesign of the [BlackArch Linux](https://blackarch.org) website, built with
 [VitePress](https://vitepress.dev) and Vue 3. It is a static site: there is no
 backend, and every page is generated at build time.
 
+<p align="center">
+  <a href="https://ru44.github.io/blackarch-website/">
+    <img src="docs/screenshots/home.jpg" alt="Home page with the animated BlackArch logo and the install command" width="100%" />
+  </a>
+</p>
+
+| Tools | Architecture | Downloads |
+| :---: | :---: | :---: |
+| [![Tools page: search, sorting and category filters](docs/screenshots/tools.jpg)](https://ru44.github.io/blackarch-website/tools) | [![Architecture explorer](docs/screenshots/architecture.jpg)](https://ru44.github.io/blackarch-website/architecture) | [![Download cards with checksums](docs/screenshots/downloads.jpg)](https://ru44.github.io/blackarch-website/downloads) |
+
 - Live site: <https://ru44.github.io/blackarch-website/>
 - Languages: English plus Arabic, Armenian, Brazilian Portuguese, Chinese, French, German, Greek,
   Indonesian, Italian, Portuguese, Romanian, Russian, Spanish and Turkish
