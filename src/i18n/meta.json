@@ -43,7 +43,18 @@
       "Arquitectura",
       "Comunidad y noticias",
       "Donar"
-    ]
+    ],
+    "search": {
+      "button": "Buscar",
+      "aria": "Buscar",
+      "none": "No hay resultados para",
+      "reset": "Borrar la búsqueda",
+      "back": "Volver"
+    },
+    "sidebar": {
+      "hide": "Ocultar barra lateral",
+      "show": "Mostrar barra lateral"
+    }
   },
   "fr": {
     "label": "Français",
@@ -89,7 +100,18 @@
       "Architecture",
       "Communauté et actualités",
       "Faire un don"
-    ]
+    ],
+    "search": {
+      "button": "Rechercher",
+      "aria": "Rechercher",
+      "none": "Aucun résultat pour",
+      "reset": "Effacer la recherche",
+      "back": "Retour"
+    },
+    "sidebar": {
+      "hide": "Masquer la barre latérale",
+      "show": "Afficher la barre latérale"
+    }
   },
   "de": {
     "label": "Deutsch",
@@ -135,7 +157,18 @@
       "Architektur",
       "Community & News",
       "Spenden"
-    ]
+    ],
+    "search": {
+      "button": "Suchen",
+      "aria": "Suchen",
+      "none": "Keine Ergebnisse für",
+      "reset": "Suche zurücksetzen",
+      "back": "Zurück"
+    },
+    "sidebar": {
+      "hide": "Seitenleiste ausblenden",
+      "show": "Seitenleiste einblenden"
+    }
   },
   "pt": {
     "label": "Português",
@@ -181,7 +214,18 @@
       "Arquitetura",
       "Comunidade e notícias",
       "Apoiar"
-    ]
+    ],
+    "search": {
+      "button": "Pesquisar",
+      "aria": "Pesquisar",
+      "none": "Sem resultados para",
+      "reset": "Limpar a pesquisa",
+      "back": "Voltar"
+    },
+    "sidebar": {
+      "hide": "Ocultar barra lateral",
+      "show": "Mostrar barra lateral"
+    }
   },
   "ru": {
     "label": "Русский",
@@ -227,7 +271,18 @@
       "Архитектура",
       "Сообщество и новости",
       "Поддержать"
-    ]
+    ],
+    "search": {
+      "button": "Поиск",
+      "aria": "Поиск",
+      "none": "Нет результатов для",
+      "reset": "Очистить поиск",
+      "back": "Назад"
+    },
+    "sidebar": {
+      "hide": "Скрыть боковую панель",
+      "show": "Показать боковую панель"
+    }
   },
   "tr": {
     "label": "Türkçe",
@@ -273,7 +328,18 @@
       "Mimari",
       "Topluluk ve haberler",
       "Bağış"
-    ]
+    ],
+    "search": {
+      "button": "Ara",
+      "aria": "Ara",
+      "none": "Sonuç bulunamadı:",
+      "reset": "Aramayı temizle",
+      "back": "Geri"
+    },
+    "sidebar": {
+      "hide": "Kenar çubuğunu gizle",
+      "show": "Kenar çubuğunu göster"
+    }
   },
   "zh": {
     "label": "简体中文",
@@ -319,7 +385,18 @@
       "架构",
       "社区与新闻",
       "捐赠"
-    ]
+    ],
+    "search": {
+      "button": "搜索",
+      "aria": "搜索",
+      "none": "没有找到相关结果：",
+      "reset": "清除搜索",
+      "back": "返回"
+    },
+    "sidebar": {
+      "hide": "隐藏侧边栏",
+      "show": "显示侧边栏"
+    }
   },
   "br": {
     "label": "Português (Brasil)",
@@ -365,7 +442,18 @@
       "Arquitetura",
       "Comunidade e notícias",
       "Doar"
-    ]
+    ],
+    "search": {
+      "button": "Pesquisar",
+      "aria": "Pesquisar",
+      "none": "Nenhum resultado para",
+      "reset": "Limpar a pesquisa",
+      "back": "Voltar"
+    },
+    "sidebar": {
+      "hide": "Ocultar barra lateral",
+      "show": "Mostrar barra lateral"
+    }
   },
   "el": {
     "label": "Ελληνικά",
@@ -411,7 +499,18 @@
       "Αρχιτεκτονική",
       "Κοινότητα και νέα",
       "Δωρεά"
-    ]
+    ],
+    "search": {
+      "button": "Αναζήτηση",
+      "aria": "Αναζήτηση",
+      "none": "Δεν βρέθηκαν αποτελέσματα για",
+      "reset": "Εκκαθάριση αναζήτησης",
+      "back": "Πίσω"
+    },
+    "sidebar": {
+      "hide": "Απόκρυψη πλαϊνής στήλης",
+      "show": "Εμφάνιση πλαϊνής στήλης"
+    }
   },
   "id": {
     "label": "Bahasa Indonesia",
@@ -457,7 +556,18 @@
       "Arsitektur",
       "Komunitas & Berita",
       "Donasi"
-    ]
+    ],
+    "search": {
+      "button": "Cari",
+      "aria": "Cari",
+      "none": "Tidak ada hasil untuk",
+      "reset": "Hapus pencarian",
+      "back": "Kembali"
+    },
+    "sidebar": {
+      "hide": "Sembunyikan bilah samping",
+      "show": "Tampilkan bilah samping"
+    }
   },
   "it": {
     "label": "Italiano",
@@ -503,7 +613,18 @@
       "Architettura",
       "Community e novità",
       "Dona"
-    ]
+    ],
+    "search": {
+      "button": "Cerca",
+      "aria": "Cerca",
+      "none": "Nessun risultato per",
+      "reset": "Cancella la ricerca",
+      "back": "Indietro"
+    },
+    "sidebar": {
+      "hide": "Nascondi barra laterale",
+      "show": "Mostra barra laterale"
+    }
   },
   "ro": {
     "label": "Română",
@@ -549,7 +670,18 @@
       "Arhitectură",
       "Comunitate și noutăți",
       "Donează"
-    ]
+    ],
+    "search": {
+      "button": "Caută",
+      "aria": "Caută",
+      "none": "Niciun rezultat pentru",
+      "reset": "Șterge căutarea",
+      "back": "Înapoi"
+    },
+    "sidebar": {
+      "hide": "Ascunde bara laterală",
+      "show": "Arată bara laterală"
+    }
   },
   "ar": {
     "label": "العربية",
@@ -596,7 +728,18 @@
       "البنية",
       "المجتمع والأخبار",
       "تبرّع"
-    ]
+    ],
+    "search": {
+      "button": "بحث",
+      "aria": "بحث",
+      "none": "لا توجد نتائج لـ",
+      "reset": "مسح البحث",
+      "back": "رجوع"
+    },
+    "sidebar": {
+      "hide": "إخفاء الشريط الجانبي",
+      "show": "إظهار الشريط الجانبي"
+    }
   },
   "hy": {
     "label": "Հայերեն",
@@ -642,6 +785,17 @@
       "Ճարտարապետություն",
       "Համայնք և նորություններ",
       "Աջակցել"
-    ]
+    ],
+    "search": {
+      "button": "Որոնում",
+      "aria": "Որոնում",
+      "none": "Արդյունքներ չկան՝",
+      "reset": "Մաքրել որոնումը",
+      "back": "Հետ"
+    },
+    "sidebar": {
+      "hide": "Թաքցնել կողագոտին",
+      "show": "Ցույց տալ կողագոտին"
+    }
   }
 }

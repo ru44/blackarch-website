@@ -92,6 +92,23 @@ export default defineConfig({
     },
     search: {
       provider: "local",
+      options: {
+        locales: Object.fromEntries(
+          Object.entries(LOCALES).map(([k, d]) => [
+            k,
+            {
+              translations: {
+                button: { buttonText: d.search.button, buttonAriaLabel: d.search.aria },
+                modal: {
+                  noResultsText: d.search.none,
+                  resetButtonTitle: d.search.reset,
+                  backButtonTitle: d.search.back,
+                },
+              },
+            },
+          ])
+        ),
+      },
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/BlackArch" },
