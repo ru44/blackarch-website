@@ -3,15 +3,42 @@
   "author": "ru44",
   "version": "2.0.0",
   "private": true,
+  "packageManager": "pnpm@10.33.0",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "vitepress dev src",
     "build": "vitepress build src",
-    "preview": "vitepress preview src"
+    "preview": "vitepress preview src",
+    "check": "pnpm format:check && pnpm lint && pnpm build",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "oxlint src scripts --ignore-pattern \"src/.vitepress/dist/**\" --ignore-pattern \"src/.vitepress/cache/**\"",
+    "gen:locales": "node scripts/gen-locales.mjs",
+    "sync:mirrors": "node scripts/sync-mirrors.mjs",
+    "sync:wiki": "node scripts/sync-wiki-groups.mjs",
+    "prepare": "husky"
   },
   "dependencies": {
     "@vueuse/core": "^13.3.0",
     "qrcode": "^1.5.4",
     "vitepress": "^1.6.3",
     "vue": "^3.5.15"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.4",
+    "@commitlint/config-conventional": "^21.2.4",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.6.0",
+    "oxlint": "1.93.0",
+    "prettier": "3.3.3"
+  },
+  "lint-staged": {
+    "*.{js,mjs,vue}": [
+      "oxlint",
+      "prettier --write"
+    ],
+    "*.{css,json}": "prettier --write"
   }
 }
