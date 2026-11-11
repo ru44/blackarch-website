@@ -29,13 +29,8 @@
     "https://mirrors.aliyun.com/blackarch/",
     "http://mirrors.aliyun.com/blackarch/"
   ],
-  "Denmark": [
-    "http://mirrors.dotsrc.org/blackarch/",
-    "ftp://mirrors.dotsrc.org/blackarch/"
-  ],
-  "Ecuador": [
-    "http://mirror.cedia.org.ec/blackarch/"
-  ],
+  "Denmark": ["http://mirrors.dotsrc.org/blackarch/", "ftp://mirrors.dotsrc.org/blackarch/"],
+  "Ecuador": ["http://mirror.cedia.org.ec/blackarch/"],
   "France": [
     "http://blackarch.leneveu.fr/blackarch/",
     "http://mirror.cyberbits.eu/blackarch/",
@@ -110,14 +105,8 @@
     "rsync://ftp.icm.edu.pl/pub/Linux/dist/blackarch/",
     "gopher://ftp.icm.edu.pl/1/pub/Linux/dist/blackarch/"
   ],
-  "Portugal": [
-    "http://pt.mirrors.cicku.me/blackarch/",
-    "https://pt.mirrors.cicku.me/blackarch/"
-  ],
-  "Romania": [
-    "http://mirrors.hostico.ro/blackarch/",
-    "https://mirrors.hostico.ro/blackarch/"
-  ],
+  "Portugal": ["http://pt.mirrors.cicku.me/blackarch/", "https://pt.mirrors.cicku.me/blackarch/"],
+  "Romania": ["http://mirrors.hostico.ro/blackarch/", "https://mirrors.hostico.ro/blackarch/"],
   "Russia": [
     "https://repository.su/blackarch/",
     "rsync://repository.su/blackarch/",
@@ -136,9 +125,7 @@
     "https://kr.mirrors.cicku.me/blackarch/",
     "https://mirror.krfoss.org/blackarch/"
   ],
-  "Sweden": [
-    "http://mirror.zetup.net/blackarch/"
-  ],
+  "Sweden": ["http://mirror.zetup.net/blackarch/"],
   "Switzerland": [
     "http://ch.mirrors.cicku.me/blackarch/",
     "https://ch.mirrors.cicku.me/blackarch/",
