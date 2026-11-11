@@ -29,22 +29,23 @@ pnpm install
 pnpm dev        # dev server with hot reload
 ```
 
-| Command              | What it does                                                                    |
-| -------------------- | ------------------------------------------------------------------------------- |
-| `pnpm dev`           | Start the dev server                                                            |
-| `pnpm build`         | Production build into `src/.vitepress/dist`                                     |
-| `pnpm preview`       | Serve the production build locally                                              |
-| `pnpm check`         | Everything CI runs: formatting, lint and build                                  |
-| `pnpm format`        | Format the code with Prettier                                                   |
-| `pnpm format:check`  | Check formatting without changing files (what CI should run)                    |
-| `pnpm lint`          | Lint with [oxlint](https://oxc.rs/docs/guide/usage/linter.html)                 |
-| `pnpm gen:locales`   | Regenerate the per-language page stubs (see [Translating](#translating))        |
-| `pnpm sync:mirrors`  | Refresh the mirror list from blackarch.org                                      |
-| `pnpm sync:wiki`     | Refresh tool package groups from the BlackArch wiki repository                  |
-| `pnpm sync:updates`  | Refresh tool build dates from the BlackArch package database                    |
-| `pnpm sync:stars`    | Refresh the GitHub stars used for the "Most popular" ordering                   |
-| `pnpm sync:links`    | Update tool links, follow moved sites and list dead links (takes a few minutes) |
-| `pnpm sync:versions` | Refresh tool versions from the BlackArch package database                       |
+| Command              | What it does                                                                      |
+| -------------------- | --------------------------------------------------------------------------------- |
+| `pnpm dev`           | Start the dev server                                                              |
+| `pnpm build`         | Production build into `src/.vitepress/dist`                                       |
+| `pnpm preview`       | Serve the production build locally                                                |
+| `pnpm check`         | Everything CI runs: formatting, lint and build                                    |
+| `pnpm format`        | Format the code with Prettier                                                     |
+| `pnpm format:check`  | Check formatting without changing files (what CI should run)                      |
+| `pnpm lint`          | Lint with [oxlint](https://oxc.rs/docs/guide/usage/linter.html)                   |
+| `pnpm gen:locales`   | Regenerate the per-language page stubs (see [Translating](#translating))          |
+| `pnpm sync:mirrors`  | Refresh the mirror list from blackarch.org                                        |
+| `pnpm sync:wiki`     | Refresh tool package groups from the BlackArch wiki repository                    |
+| `pnpm sync:updates`  | Refresh tool build dates from the BlackArch package database                      |
+| `pnpm sync:stars`    | Refresh the GitHub stars used for the "Most popular" ordering                     |
+| `pnpm sync:links`    | Update tool links, follow moved sites and list dead links (takes a few minutes)   |
+| `pnpm sync:versions` | Refresh tool versions from the BlackArch package database                         |
+| `pnpm seo:indexnow`  | Submit the sitemap pages to Bing/DuckDuckGo through IndexNow (run after a deploy) |
 
 The site is deployed to GitHub Pages by `.github/workflows/main.yml`: every push and pull request
 is checked and built, and a push to `main` then publishes that same build.
@@ -66,6 +67,7 @@ src/
 │   └── locales/<code>.js    UI strings per language
 └── .vitepress/
     ├── config.mjs           Site, navigation, languages and search configuration
+    ├── seo.mjs              Sitemap, canonical addresses, hreflang and link previews
     └── theme/               Theme entry, sidebar toggle and styles
         └── styles/          tokens.css, base.css, layout.css, rtl.css
 scripts/                     Maintenance scripts (see below)

@@ -25,8 +25,10 @@ All notable changes to this project are documented here. The format follows
   updated (build date from the official package database); tools without that value sort last. Several categories can be selected at
   once, and the category chips wrap instead of scrolling sideways.
 - MIT license for the website code.
-- Link previews and search: a sitemap, a social preview image, a canonical address and a
-  description for every page, and clean URLs without `.html`.
+- Search and link previews: a sitemap of the real pages, a social preview image, canonical
+  addresses, `hreflang` links between language versions, structured data on the home pages,
+  a description for every page and clean URLs without `.html`. Untranslated language pages point
+  search engines at the English page.
 - A weekly `refresh-data` workflow that runs the data scripts and opens a pull request.
 - Guide page: the PDF guides as language cards.
 - Downloads page documents the official Docker images (BlackArch/blackarch-site#192).
