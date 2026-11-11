@@ -1,4 +1,49 @@
+import { readFileSync } from "node:fs";
 import { defineConfig } from "vitepress";
+
+// Build nav + sidebar for a locale prefix ("" for English, "/ar" etc.)
+const navFor = (p, t) => [
+  { text: t[0], link: `${p}/` },
+  { text: t[1], link: `${p}/downloads` },
+  { text: t[2], link: `${p}/guide` },
+  { text: t[3], link: `${p}/faq` },
+  { text: t[4], link: `${p}/tools` },
+  { text: t[5], link: `${p}/architecture` },
+  { text: t[6], link: `${p}/community` },
+  { text: t[7], link: `${p}/donate` },
+];
+const sideFor = (p, t) =>
+  ["downloads", "guide", "install", "faq", "tools", "architecture"].map(
+    (page, i) => ({ text: t[i], link: `${p}/${page}` })
+  );
+
+const EN_NAV = ["Home", "Downloads", "Guide", "FAQ", "Tools", "Architecture", "Community & News", "Donate"];
+const EN_SIDE = ["Downloads", "Guide", "Installation", "FAQ", "Tools", "Architecture"];
+
+const LOCALES = JSON.parse(
+  readFileSync(new URL("../i18n/meta.json", import.meta.url), "utf8")
+);
+
+const loc = (code, d) => ({
+  label: d.label,
+  lang: d.lang,
+  ...(d.dir ? { dir: d.dir } : {}),
+  link: `/${code}/`,
+  themeConfig: {
+    nav: navFor(`/${code}`, d.nav),
+    sidebar: sideFor(`/${code}`, d.side),
+    outline: { label: d.outline },
+    returnToTopLabel: d.ret,
+    sidebarMenuLabel: d.sbmenu,
+    darkModeSwitchLabel: d.dark,
+    langMenuLabel: d.langm,
+    docFooter: { prev: d.prev, next: d.next },
+    editLink: {
+      pattern: "https://github.com/ru44/blackarch-website/edit/main/src/:path",
+      text: d.edit,
+    },
+  },
+});
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -16,11 +61,28 @@ export default defineConfig({
   ],
   description:
     "BlackArch Linux is a penetration testing distribution for penetration testers and security researchers.",
+  appearance: "dark",
   lastUpdated: true,
+  vite: {
+    resolve: { alias: { "@": new URL("../", import.meta.url).pathname } },
+  },
   markdown: {
     image: {
       lazyLoading: true,
     },
+  },
+  locales: {
+    root: {
+      label: "English",
+      lang: "en",
+      themeConfig: {
+        nav: navFor("", EN_NAV),
+        sidebar: sideFor("", EN_SIDE),
+      },
+    },
+    ...Object.fromEntries(
+      Object.entries(LOCALES).map(([k, d]) => [k, loc(k, d)])
+    ),
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -31,40 +93,6 @@ export default defineConfig({
     search: {
       provider: "local",
     },
-    nav: [
-      { text: "Home", link: "/" },
-      { text: "Downloads", link: "/downloads" },
-      { text: "Guide", link: "/guide" },
-      { text: "FAQ", link: "/faq" },
-      { text: "Tools", link: "/tools" },
-      { text: "Community", link: "/community" },
-      { text: "News", link: "/news" },
-      { text: "Donate", link: "/donate" },
-    ],
-
-    sidebar: [
-      {
-        text: "Downloads",
-        link: "/downloads",
-      },
-      {
-        text: "Guide",
-        link: "/guide",
-      },
-      {
-        text: "Installation",
-        link: "/install",
-      },
-      {
-        text: "FAQ",
-        link: "/faq",
-      },
-      {
-        text: "Tools",
-        link: "/tools",
-      },
-    ],
-
     socialLinks: [
       { icon: "github", link: "https://github.com/BlackArch" },
       { icon: "twitter", link: "https://twitter.com/blackarchlinux" },

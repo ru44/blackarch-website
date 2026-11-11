@@ -1,0 +1,82 @@
+export default {
+  home: {
+    copy: "copiar", copied: "copiado", copyLabel: "Copiar comando", quick: "Comando de instalação rápida",
+    stats: [
+      { n: "2800+", l: "pacotes de ferramentas" },
+      { n: "x86_64", l: "+ ARM via Arch ARM" },
+      { n: "Rolling", l: "lançamentos via pacman" },
+      { n: "2013", l: "primeira versão" },
+    ],
+    features: [
+      { t: "Baseado em Arch", d: "Rolling release, pacman, compatível com o AUR. Sem forks nem versões congeladas." },
+      { t: "Qualquer ferramenta num só comando", d: "Mais de 2800 ferramentas, todas disponíveis com pacman -S. Veja a lista na página de ferramentas." },
+      { t: "Instalação por categoria", d: "Instale o grupo blackarch completo ou apenas um, como blackarch-webapp." },
+      { t: "Funciona no seu Arch", d: "Adicione o repositório a um sistema existente com o strap.sh. Sem reinstalar." },
+    ],
+  },
+  shots: { title: "Como se apresenta", full: "ISO completa", slim: "ISO Slim", aria: "Capturas de ecrã do BlackArch" },
+  iso: {
+    version: "Versão", size: "Tamanho", download: "Transferir", torrent: "Torrent", copy: "copiar", copied: "copiado",
+    tags: ["Recomendada", "Mínima", "Offline", "Máquina virtual"],
+    desc: [
+      "Ambiente de trabalho XFCE, uma seleção de ferramentas populares e instalador gráfico.",
+      "Imagem de arranque pequena. Escolha apenas o que precisa; requer ligação à internet.",
+      "Todas as ferramentas à data da compilação. Pode haver conflitos ao atualizar; para instalação offline.",
+      "Imagem pronta para VirtualBox, VMware e QEMU.",
+    ],
+  },
+  people: { copy: "copiar", copied: "copiado", label: "Programadores do BlackArch" },
+  mirrors: {
+    title: "Mirrors oficiais do BlackArch Linux",
+    summary: (c, m) => `${c} países, ${m} mirrors. Escolha o mais próximo.`,
+    placeholder: "Pesquisar por país ou endereço do mirror…", noMatch: "Nenhum mirror corresponde à pesquisa", clear: "Limpar pesquisa", copy: "copiar", ok: "ok",
+  },
+  donate: {
+    title: "Ajude a manter o BlackArch livre",
+    intro: "A equipa trabalha no BlackArch de forma voluntária, no seu tempo livre. Os donativos destinam-se apenas aos custos e ao desenvolvimento do projeto. Qualquer valor conta.",
+    method: "Método de pagamento", paypalTab: "PayPal", btcTab: "Bitcoin",
+    paypalText: "Escolha qualquer valor na página segura do PayPal. Cartão ou saldo PayPal.",
+    paypalCta: "Doar com PayPal", wallet: "Abrir na carteira",
+    copy: "copiar", copied: "copiado", qrLabel: "Código QR do endereço Bitcoin", copyAddr: "Copiar endereço Bitcoin",
+    waysTitle: "Outras formas de ajudar",
+    costs: [
+      { t: "Site e domínio", d: "Alojamento e domínio blackarch.org." },
+      { t: "Mirrors de transferência", d: "Tráfego e armazenamento para que as ISO e os pacotes sejam transferidos rapidamente em todo o mundo." },
+      { t: "Hardware de compilação e testes", d: "Máquinas para compilar, assinar e verificar pacotes antes do lançamento." },
+      { t: "Desenvolvimento futuro", d: "Novas ferramentas e próximas versões." },
+    ],
+    ways: [
+      { t: "Dê uma estrela", d: "Uma estrela no GitHub ajuda muito.", a: "Abrir GitHub" },
+      { t: "Ajude outros utilizadores", d: "Responda a perguntas no Matrix.", a: "Entrar no Matrix" },
+      { t: "Traduza", d: "Traduza o guia a partir do código-fonte LaTeX.", a: "Obter código-fonte" },
+      { t: "Patrocínio empresarial", d: "As organizações podem tornar-se patrocinadoras oficiais.", a: "Contactar a equipa" },
+    ],
+  },
+  community: {
+    channels: [
+      { d: "O melhor sítio para pedir ajuda. Chat em tempo real com utilizadores e a equipa." },
+      { d: "Todo o código, scripts de compilação e o código-fonte do site. Issues e pull requests de qualquer tamanho são bem-vindos." },
+      { d: "Novas ferramentas, mirrors e alterações importantes do projeto. Mencione-nos se encontrar um erro ou tiver uma ideia." },
+      { d: "Vídeos sobre instalação, configuração e utilização das principais ferramentas." },
+      { d: "Contacte diretamente a equipa principal de desenvolvimento." },
+    ],
+    newsTitle: "Notícias e atualizações",
+    lead: "Trabalhamos continuamente em novas funcionalidades e melhorias. Pode acompanhá-las aqui.",
+    updates: [
+      { t: "Gestor de issues", d: "Aqui são registados e tratados os relatórios de erros e os pedidos de ferramentas." },
+      { t: "Pull requests", d: "O que está a ser empacotado, atualizado e lançado neste momento." },
+      { t: "Anúncios", d: "As novidades são publicadas no Matrix, YouTube e X. Também existe um feed RSS." },
+    ],
+  },
+  faq: {
+    placeholder: "Pesquisar nas FAQ…", searchLabel: "Pesquisar perguntas", all: "Todas", noResults: "Nenhuma pergunta corresponde", clear: "Limpar pesquisa",
+    copy: "copiar", copied: "copiado", copyLabel: "Copiar comando", count: (n, t) => `${n} de ${t} perguntas`, permalink: "Ligação para esta pergunta",
+  },
+  tools: {
+    placeholder: "Pesquisar por nome ou descrição…", searchLabel: "Pesquisar ferramentas", clear: "Limpar pesquisa", all: "Todas",
+    showing: "A mostrar", of: "de", tools: "ferramentas", loading: "A carregar ferramentas…", loadingLabel: "A carregar ferramentas",
+    noMatch: "Nenhuma ferramenta corresponde", clearFilters: "Limpar filtros", name: "Nome", version: "Versão", description: "Descrição",
+    category: "Categoria", website: "Site", visit: "Visitar site", noSite: "Sem site indicado", install: "Instalação", copy: "copiar", copied: "copiado",
+    copyAria: (n) => `Copiar comando de instalação de ${n}`, expandAria: (n) => `Mostrar detalhes de ${n}`, filterLabel: "Filtrar por categoria",
+  },
+};

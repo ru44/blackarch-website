@@ -1,0 +1,647 @@
+{
+  "es": {
+    "label": "Español",
+    "lang": "es",
+    "nav": [
+      "Inicio",
+      "Descargas",
+      "Guía",
+      "FAQ",
+      "Herramientas",
+      "Arquitectura",
+      "Comunidad y noticias",
+      "Donar"
+    ],
+    "side": [
+      "Descargas",
+      "Guía",
+      "Instalación",
+      "FAQ",
+      "Herramientas",
+      "Arquitectura"
+    ],
+    "tagline": "Distribución de pruebas de penetración basada en Arch Linux, para pentesters e investigadores de seguridad.",
+    "actions": [
+      "Descargas",
+      "Guía"
+    ],
+    "banner": "Esta página aún no está traducida; se muestra la versión en inglés. [Ayuda a traducir](https://github.com/ru44/blackarch-website).",
+    "outline": "En esta página",
+    "ret": "Volver arriba",
+    "sbmenu": "Menú lateral",
+    "dark": "Cambiar apariencia",
+    "langm": "Cambiar idioma",
+    "prev": "Página anterior",
+    "next": "Página siguiente",
+    "edit": "Editar esta página en GitHub",
+    "titles": [
+      "Descargas",
+      "Guía",
+      "Instalación",
+      "FAQ",
+      "Herramientas",
+      "Arquitectura",
+      "Comunidad y noticias",
+      "Donar"
+    ]
+  },
+  "fr": {
+    "label": "Français",
+    "lang": "fr",
+    "nav": [
+      "Accueil",
+      "Téléchargements",
+      "Guide",
+      "FAQ",
+      "Outils",
+      "Architecture",
+      "Communauté et actualités",
+      "Faire un don"
+    ],
+    "side": [
+      "Téléchargements",
+      "Guide",
+      "Installation",
+      "FAQ",
+      "Outils",
+      "Architecture"
+    ],
+    "tagline": "Distribution de tests d'intrusion basée sur Arch Linux, pour les pentesters et les chercheurs en sécurité.",
+    "actions": [
+      "Téléchargements",
+      "Guide"
+    ],
+    "banner": "Cette page n'est pas encore traduite, la version anglaise est affichée. [Aidez à traduire](https://github.com/ru44/blackarch-website).",
+    "outline": "Sur cette page",
+    "ret": "Retour en haut",
+    "sbmenu": "Menu latéral",
+    "dark": "Changer l'apparence",
+    "langm": "Changer de langue",
+    "prev": "Page précédente",
+    "next": "Page suivante",
+    "edit": "Modifier cette page sur GitHub",
+    "titles": [
+      "Téléchargements",
+      "Guide",
+      "Installation",
+      "FAQ",
+      "Outils",
+      "Architecture",
+      "Communauté et actualités",
+      "Faire un don"
+    ]
+  },
+  "de": {
+    "label": "Deutsch",
+    "lang": "de",
+    "nav": [
+      "Start",
+      "Downloads",
+      "Handbuch",
+      "FAQ",
+      "Tools",
+      "Architektur",
+      "Community & News",
+      "Spenden"
+    ],
+    "side": [
+      "Downloads",
+      "Handbuch",
+      "Installation",
+      "FAQ",
+      "Tools",
+      "Architektur"
+    ],
+    "tagline": "Penetrationstest-Distribution auf Basis von Arch Linux, für Pentester und Sicherheitsforscher.",
+    "actions": [
+      "Downloads",
+      "Handbuch"
+    ],
+    "banner": "Diese Seite ist noch nicht übersetzt, die englische Version wird angezeigt. [Beim Übersetzen helfen](https://github.com/ru44/blackarch-website).",
+    "outline": "Auf dieser Seite",
+    "ret": "Nach oben",
+    "sbmenu": "Seitenmenü",
+    "dark": "Darstellung wechseln",
+    "langm": "Sprache wechseln",
+    "prev": "Vorherige Seite",
+    "next": "Nächste Seite",
+    "edit": "Diese Seite auf GitHub bearbeiten",
+    "titles": [
+      "Downloads",
+      "Handbuch",
+      "Installation",
+      "FAQ",
+      "Tools",
+      "Architektur",
+      "Community & News",
+      "Spenden"
+    ]
+  },
+  "pt": {
+    "label": "Português",
+    "lang": "pt",
+    "nav": [
+      "Início",
+      "Transferências",
+      "Guia",
+      "FAQ",
+      "Ferramentas",
+      "Arquitetura",
+      "Comunidade e notícias",
+      "Apoiar"
+    ],
+    "side": [
+      "Transferências",
+      "Guia",
+      "Instalação",
+      "FAQ",
+      "Ferramentas",
+      "Arquitetura"
+    ],
+    "tagline": "Distribuição de testes de intrusão baseada em Arch Linux, para pentesters e investigadores de segurança.",
+    "actions": [
+      "Transferências",
+      "Guia"
+    ],
+    "banner": "Esta página ainda não está traduzida, é mostrada a versão em inglês. [Ajude a traduzir](https://github.com/ru44/blackarch-website).",
+    "outline": "Nesta página",
+    "ret": "Voltar ao topo",
+    "sbmenu": "Menu lateral",
+    "dark": "Alterar aparência",
+    "langm": "Mudar de idioma",
+    "prev": "Página anterior",
+    "next": "Página seguinte",
+    "edit": "Editar esta página no GitHub",
+    "titles": [
+      "Transferências",
+      "Guia",
+      "Instalação",
+      "FAQ",
+      "Ferramentas",
+      "Arquitetura",
+      "Comunidade e notícias",
+      "Apoiar"
+    ]
+  },
+  "ru": {
+    "label": "Русский",
+    "lang": "ru",
+    "nav": [
+      "Главная",
+      "Загрузки",
+      "Руководство",
+      "FAQ",
+      "Инструменты",
+      "Архитектура",
+      "Сообщество и новости",
+      "Поддержать"
+    ],
+    "side": [
+      "Загрузки",
+      "Руководство",
+      "Установка",
+      "FAQ",
+      "Инструменты",
+      "Архитектура"
+    ],
+    "tagline": "Дистрибутив для тестирования на проникновение на основе Arch Linux — для пентестеров и исследователей безопасности.",
+    "actions": [
+      "Загрузки",
+      "Руководство"
+    ],
+    "banner": "Эта страница ещё не переведена, показана английская версия. [Помогите с переводом](https://github.com/ru44/blackarch-website).",
+    "outline": "На этой странице",
+    "ret": "Наверх",
+    "sbmenu": "Боковое меню",
+    "dark": "Сменить тему",
+    "langm": "Сменить язык",
+    "prev": "Предыдущая страница",
+    "next": "Следующая страница",
+    "edit": "Изменить эту страницу на GitHub",
+    "titles": [
+      "Загрузки",
+      "Руководство",
+      "Установка",
+      "FAQ",
+      "Инструменты",
+      "Архитектура",
+      "Сообщество и новости",
+      "Поддержать"
+    ]
+  },
+  "tr": {
+    "label": "Türkçe",
+    "lang": "tr",
+    "nav": [
+      "Ana sayfa",
+      "İndirmeler",
+      "Kılavuz",
+      "SSS",
+      "Araçlar",
+      "Mimari",
+      "Topluluk ve haberler",
+      "Bağış"
+    ],
+    "side": [
+      "İndirmeler",
+      "Kılavuz",
+      "Kurulum",
+      "SSS",
+      "Araçlar",
+      "Mimari"
+    ],
+    "tagline": "Arch Linux tabanlı, pentester'lar ve güvenlik araştırmacıları için sızma testi dağıtımı.",
+    "actions": [
+      "İndirmeler",
+      "Kılavuz"
+    ],
+    "banner": "Bu sayfa henüz çevrilmedi, İngilizce sürüm gösteriliyor. [Çeviriye yardım edin](https://github.com/ru44/blackarch-website).",
+    "outline": "Bu sayfada",
+    "ret": "Başa dön",
+    "sbmenu": "Kenar çubuğu menüsü",
+    "dark": "Görünümü değiştir",
+    "langm": "Dili değiştir",
+    "prev": "Önceki sayfa",
+    "next": "Sonraki sayfa",
+    "edit": "Bu sayfayı GitHub'da düzenle",
+    "titles": [
+      "İndirmeler",
+      "Kılavuz",
+      "Kurulum",
+      "SSS",
+      "Araçlar",
+      "Mimari",
+      "Topluluk ve haberler",
+      "Bağış"
+    ]
+  },
+  "zh": {
+    "label": "简体中文",
+    "lang": "zh-CN",
+    "nav": [
+      "首页",
+      "下载",
+      "指南",
+      "FAQ",
+      "工具",
+      "架构",
+      "社区与新闻",
+      "捐赠"
+    ],
+    "side": [
+      "下载",
+      "指南",
+      "安装",
+      "FAQ",
+      "工具",
+      "架构"
+    ],
+    "tagline": "基于 Arch Linux 的渗透测试发行版，面向渗透测试人员和安全研究人员。",
+    "actions": [
+      "下载",
+      "指南"
+    ],
+    "banner": "此页面尚未翻译，当前显示英文版本。[帮助翻译](https://github.com/ru44/blackarch-website)。",
+    "outline": "本页内容",
+    "ret": "返回顶部",
+    "sbmenu": "侧边栏菜单",
+    "dark": "切换外观",
+    "langm": "切换语言",
+    "prev": "上一页",
+    "next": "下一页",
+    "edit": "在 GitHub 上编辑此页",
+    "titles": [
+      "下载",
+      "指南",
+      "安装",
+      "FAQ",
+      "工具",
+      "架构",
+      "社区与新闻",
+      "捐赠"
+    ]
+  },
+  "br": {
+    "label": "Português (Brasil)",
+    "lang": "pt-BR",
+    "nav": [
+      "Início",
+      "Downloads",
+      "Guia",
+      "FAQ",
+      "Ferramentas",
+      "Arquitetura",
+      "Comunidade e notícias",
+      "Doar"
+    ],
+    "side": [
+      "Downloads",
+      "Guia",
+      "Instalação",
+      "FAQ",
+      "Ferramentas",
+      "Arquitetura"
+    ],
+    "tagline": "Distribuição de testes de intrusão baseada no Arch Linux, para pentesters e pesquisadores de segurança.",
+    "actions": [
+      "Downloads",
+      "Guia"
+    ],
+    "banner": "Esta página ainda não foi traduzida, a versão em inglês está sendo exibida. [Ajude a traduzir](https://github.com/ru44/blackarch-website).",
+    "outline": "Nesta página",
+    "ret": "Voltar ao topo",
+    "sbmenu": "Menu lateral",
+    "dark": "Alternar aparência",
+    "langm": "Mudar idioma",
+    "prev": "Página anterior",
+    "next": "Próxima página",
+    "edit": "Editar esta página no GitHub",
+    "titles": [
+      "Downloads",
+      "Guia",
+      "Instalação",
+      "FAQ",
+      "Ferramentas",
+      "Arquitetura",
+      "Comunidade e notícias",
+      "Doar"
+    ]
+  },
+  "el": {
+    "label": "Ελληνικά",
+    "lang": "el",
+    "nav": [
+      "Αρχική",
+      "Λήψεις",
+      "Οδηγός",
+      "FAQ",
+      "Εργαλεία",
+      "Αρχιτεκτονική",
+      "Κοινότητα και νέα",
+      "Δωρεά"
+    ],
+    "side": [
+      "Λήψεις",
+      "Οδηγός",
+      "Εγκατάσταση",
+      "FAQ",
+      "Εργαλεία",
+      "Αρχιτεκτονική"
+    ],
+    "tagline": "Διανομή δοκιμών διείσδυσης βασισμένη στο Arch Linux — για pentesters και ερευνητές ασφαλείας.",
+    "actions": [
+      "Λήψεις",
+      "Οδηγός"
+    ],
+    "banner": "Αυτή η σελίδα δεν έχει μεταφραστεί ακόμη, εμφανίζεται η αγγλική έκδοση. [Βοηθήστε στη μετάφραση](https://github.com/ru44/blackarch-website).",
+    "outline": "Σε αυτή τη σελίδα",
+    "ret": "Επιστροφή στην κορυφή",
+    "sbmenu": "Πλαϊνό μενού",
+    "dark": "Αλλαγή εμφάνισης",
+    "langm": "Αλλαγή γλώσσας",
+    "prev": "Προηγούμενη σελίδα",
+    "next": "Επόμενη σελίδα",
+    "edit": "Επεξεργασία αυτής της σελίδας στο GitHub",
+    "titles": [
+      "Λήψεις",
+      "Οδηγός",
+      "Εγκατάσταση",
+      "FAQ",
+      "Εργαλεία",
+      "Αρχιτεκτονική",
+      "Κοινότητα και νέα",
+      "Δωρεά"
+    ]
+  },
+  "id": {
+    "label": "Bahasa Indonesia",
+    "lang": "id",
+    "nav": [
+      "Beranda",
+      "Unduhan",
+      "Panduan",
+      "FAQ",
+      "Alat",
+      "Arsitektur",
+      "Komunitas & Berita",
+      "Donasi"
+    ],
+    "side": [
+      "Unduhan",
+      "Panduan",
+      "Instalasi",
+      "FAQ",
+      "Alat",
+      "Arsitektur"
+    ],
+    "tagline": "Distribusi pengujian penetrasi berbasis Arch Linux — untuk penguji penetrasi dan peneliti keamanan.",
+    "actions": [
+      "Unduhan",
+      "Panduan"
+    ],
+    "banner": "Halaman ini belum diterjemahkan, versi bahasa Inggris ditampilkan. [Bantu menerjemahkan](https://github.com/ru44/blackarch-website).",
+    "outline": "Di halaman ini",
+    "ret": "Kembali ke atas",
+    "sbmenu": "Menu sidebar",
+    "dark": "Ganti tampilan",
+    "langm": "Ganti bahasa",
+    "prev": "Halaman sebelumnya",
+    "next": "Halaman berikutnya",
+    "edit": "Edit halaman ini di GitHub",
+    "titles": [
+      "Unduhan",
+      "Panduan",
+      "Instalasi",
+      "FAQ",
+      "Alat",
+      "Arsitektur",
+      "Komunitas & Berita",
+      "Donasi"
+    ]
+  },
+  "it": {
+    "label": "Italiano",
+    "lang": "it",
+    "nav": [
+      "Home",
+      "Download",
+      "Guida",
+      "FAQ",
+      "Strumenti",
+      "Architettura",
+      "Community e novità",
+      "Dona"
+    ],
+    "side": [
+      "Download",
+      "Guida",
+      "Installazione",
+      "FAQ",
+      "Strumenti",
+      "Architettura"
+    ],
+    "tagline": "Una distribuzione per penetration testing basata su Arch Linux, per pentester e ricercatori di sicurezza.",
+    "actions": [
+      "Download",
+      "Guida"
+    ],
+    "banner": "Questa pagina non è ancora tradotta: viene mostrata la versione inglese. [Aiuta a tradurre](https://github.com/ru44/blackarch-website).",
+    "outline": "In questa pagina",
+    "ret": "Torna su",
+    "sbmenu": "Menu laterale",
+    "dark": "Cambia aspetto",
+    "langm": "Cambia lingua",
+    "prev": "Pagina precedente",
+    "next": "Pagina successiva",
+    "edit": "Modifica questa pagina su GitHub",
+    "titles": [
+      "Download",
+      "Guida",
+      "Installazione",
+      "FAQ",
+      "Strumenti",
+      "Architettura",
+      "Community e novità",
+      "Dona"
+    ]
+  },
+  "ro": {
+    "label": "Română",
+    "lang": "ro",
+    "nav": [
+      "Acasă",
+      "Descărcări",
+      "Ghid",
+      "FAQ",
+      "Unelte",
+      "Arhitectură",
+      "Comunitate și noutăți",
+      "Donează"
+    ],
+    "side": [
+      "Descărcări",
+      "Ghid",
+      "Instalare",
+      "FAQ",
+      "Unelte",
+      "Arhitectură"
+    ],
+    "tagline": "Distribuție pentru teste de penetrare bazată pe Arch Linux — pentru pentesteri și cercetători în securitate.",
+    "actions": [
+      "Descărcări",
+      "Ghid"
+    ],
+    "banner": "Această pagină nu este încă tradusă, se afișează versiunea în engleză. [Ajutați la traducere](https://github.com/ru44/blackarch-website).",
+    "outline": "Pe această pagină",
+    "ret": "Înapoi sus",
+    "sbmenu": "Meniu lateral",
+    "dark": "Schimbă aspectul",
+    "langm": "Schimbă limba",
+    "prev": "Pagina anterioară",
+    "next": "Pagina următoare",
+    "edit": "Editează această pagină pe GitHub",
+    "titles": [
+      "Descărcări",
+      "Ghid",
+      "Instalare",
+      "FAQ",
+      "Unelte",
+      "Arhitectură",
+      "Comunitate și noutăți",
+      "Donează"
+    ]
+  },
+  "ar": {
+    "label": "العربية",
+    "lang": "ar",
+    "dir": "rtl",
+    "nav": [
+      "الرئيسية",
+      "التنزيلات",
+      "الدليل",
+      "الأسئلة الشائعة",
+      "الأدوات",
+      "البنية",
+      "المجتمع والأخبار",
+      "تبرّع"
+    ],
+    "side": [
+      "التنزيلات",
+      "الدليل",
+      "التثبيت",
+      "الأسئلة الشائعة",
+      "الأدوات",
+      "البنية"
+    ],
+    "tagline": "توزيعة لاختبار الاختراق مبنية على Arch Linux، لمختبري الاختراق والباحثين الأمنيين.",
+    "actions": [
+      "التنزيلات",
+      "الدليل"
+    ],
+    "banner": "هذه الصفحة غير مترجمة بعد، لذا تظهر النسخة الإنجليزية. [ساعد في الترجمة](https://github.com/ru44/blackarch-website).",
+    "outline": "في هذه الصفحة",
+    "ret": "العودة للأعلى",
+    "sbmenu": "القائمة الجانبية",
+    "dark": "تبديل المظهر",
+    "langm": "تغيير اللغة",
+    "prev": "الصفحة السابقة",
+    "next": "الصفحة التالية",
+    "edit": "عدّل هذه الصفحة على GitHub",
+    "titles": [
+      "التنزيلات",
+      "الدليل",
+      "التثبيت",
+      "الأسئلة الشائعة",
+      "الأدوات",
+      "البنية",
+      "المجتمع والأخبار",
+      "تبرّع"
+    ]
+  },
+  "hy": {
+    "label": "Հայերեն",
+    "lang": "hy",
+    "nav": [
+      "Գլխավոր",
+      "Ներբեռնումներ",
+      "Ուղեցույց",
+      "ՀՏՀ",
+      "Գործիքներ",
+      "Ճարտարապետություն",
+      "Համայնք և նորություններ",
+      "Աջակցել"
+    ],
+    "side": [
+      "Ներբեռնումներ",
+      "Ուղեցույց",
+      "Տեղադրում",
+      "ՀՏՀ",
+      "Գործիքներ",
+      "Ճարտարապետություն"
+    ],
+    "tagline": "Arch Linux-ի վրա հիմնված ներթափանցման թեստավորման դիստրիբուտիվ՝ pentester-ների և անվտանգության հետազոտողների համար։",
+    "actions": [
+      "Ներբեռնումներ",
+      "Ուղեցույց"
+    ],
+    "banner": "Այս էջը դեռ չի թարգմանվել, ցուցադրվում է անգլերեն տարբերակը։ [Օգնեք թարգմանել](https://github.com/ru44/blackarch-website)։",
+    "outline": "Այս էջում",
+    "ret": "Վերև",
+    "sbmenu": "Կողային ցանկ",
+    "dark": "Փոխել տեսքը",
+    "langm": "Փոխել լեզուն",
+    "prev": "Նախորդ էջ",
+    "next": "Հաջորդ էջ",
+    "edit": "Խմբագրել այս էջը GitHub-ում",
+    "titles": [
+      "Ներբեռնումներ",
+      "Ուղեցույց",
+      "Տեղադրում",
+      "ՀՏՀ",
+      "Գործիքներ",
+      "Ճարտարապետություն",
+      "Համայնք և նորություններ",
+      "Աջակցել"
+    ]
+  }
+}
