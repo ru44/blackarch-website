@@ -1,15 +1,21 @@
 ---
-title: Community e novità
 pageClass: wide
 outline: false
+title: Community e novità
+translated: true
 ---
 
-<div class="ba-banner">
+<script setup>
+import CommunityHub from '@/components/CommunityHub.vue'
+import DevelopersList from '@/components/DevelopersList.vue'
+</script>
 
-::: info
-Questa pagina non è ancora tradotta: viene mostrata la versione inglese. [Aiuta a tradurre](https://github.com/ru44/blackarch-website).
-:::
+# Community e novità
 
-</div>
+Trova BlackArch dove sei già. Per qualsiasi cosa che il team debba vedere in privato, scrivi a <a href="mailto:team@blackarch.org">team@blackarch.org</a>.
 
-<!--@include: ../community.md-->
+<CommunityHub />
+
+## Il team
+
+<DevelopersList />

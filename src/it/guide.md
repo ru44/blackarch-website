@@ -1,15 +1,16 @@
 ---
 title: Guida
-pageClass: wide
 outline: false
+pageClass: wide
+translated: true
 ---
 
-<div class="ba-banner">
+<script setup>
+import GuideLangs from '@/components/GuideLangs.vue'
+</script>
 
-::: info
-Questa pagina non è ancora tradotta: viene mostrata la versione inglese. [Aiuta a tradurre](https://github.com/ru44/blackarch-website).
-:::
+# Documentazione di BlackArch
 
-</div>
+Questa è la guida ufficiale di BlackArch Linux. È ancora molto recente, quindi perdona eventuali refusi ed errori. Presto conterrà tutte le informazioni su BlackArch Linux che puoi immaginare. La guida è disponibile capitolo per capitolo in formato PDF.
 
-<!--@include: ../guide.md-->
+<GuideLangs />
