@@ -1,0 +1,67 @@
+# Changelog
+
+All notable changes to this project are documented here. The format follows
+[Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
+
+## [Unreleased]
+
+### Added
+
+- New terminal-style theme (dark by default): wide pages that use the full screen, a collapsible
+  sidebar, and design tokens in `theme/styles/`.
+- Animated hero logo: the sword slides in, the neon arch ignites and breathes, and light sweeps
+  across both. It is static for visitors who prefer reduced motion.
+- Home page with a copyable install command, key facts and a screenshot viewer.
+- Architecture page with an interactive explorer (layers, build pipeline, update flow, ISO layers)
+  and a journey diagram of how a tool reaches the user.
+- Community & News page with channel cards, a news timeline and team cards. Team members show
+  their GitHub avatar and a copyable GPG key.
+- Donate page with a PayPal / Bitcoin switch, a Bitcoin QR code and a ranked supporters list.
+- Searchable FAQ with categories and copyable commands.
+- Tools page: category filters based on the real package groups from the BlackArch wiki,
+  expandable rows, a copy button for the install command, and a Docs link for tools that have a
+  wiki page.
+- Guide page: the PDF guides as language cards.
+- Language switcher with 14 languages: Arabic (right-to-left), Armenian, Brazilian Portuguese,
+  Chinese, French, German, Greek, Indonesian, Italian, Portuguese, Romanian, Russian, Spanish and
+  Turkish. The interface and search are translated; Italian has full page translations.
+- Scripts to refresh the mirror list (`pnpm sync:mirrors`) and the tool groups (`pnpm sync:wiki`),
+  and to generate language page stubs (`pnpm gen:locales`).
+- Tooling: Prettier, oxlint, an `.editorconfig`, and husky hooks that format and lint staged files
+  and check commit messages with commitlint. `pnpm check` runs everything CI runs.
+- CI now checks formatting, lint, generated language pages and commit messages, installs from the
+  frozen lockfile, and deploys exactly the commit that passed.
+- README with setup, project layout, conventions, translation workflow and data maintenance.
+
+### Changed
+
+- Downloads page lists only the Slim and NetInstall ISOs as cards with version, size, copyable
+  SHA1 and torrent links. Full ISO and OVA are no longer listed.
+- Mirror list rebuilt from the official list on blackarch.org: 128 mirrors in 27 countries, with
+  protocol labels and copy buttons.
+- Header social links: the Twitter icon is now the X logo; YouTube and RSS moved to the
+  Community & News page.
+- Security policy now asks for private vulnerability reports instead of public issues.
+- Code organisation: shared `useClipboard` composable, static data moved to `src/data`, theme
+  styles split into `tokens`, `base`, `layout` and `rtl`, and component styles use CSS logical
+  properties so right-to-left languages need no overrides.
+
+### Fixed
+
+- `strap.sh` checksum on the downloads page now matches the file published on blackarch.org.
+- Removed an unrelated OPNsense mirror that appears in the official list.
+
+### Removed
+
+- Unused `DataTable` and `LazyImage` components and the legacy `src/data/tools.json`.
+- The separate News page: `/news` redirects to the Community & News page.
+
+## Earlier history
+
+Changes before this changelog, taken from the git history:
+
+- **2026-07-16**: full installation tutorial with screenshots, lazy-loaded tools list, mirror
+  search, a tools table layout fix, and the GitHub Pages base path.
+- **2025-05 to 2025-06**: deploy workflow, countries shown as dropdowns, missing links fixed,
+  improved search.
+- **2024-10-27**: first release.
