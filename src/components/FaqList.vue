@@ -167,7 +167,7 @@ async function copy(code) {
 
     <div class="chips" role="group">
       <button type="button" :class="{ on: !cat }" :aria-pressed="!cat" @click="cat = ''">{{ UI.all }} <small>{{ items.length }}</small></button>
-      <button v-for="c in categories" :key="c" type="button" :class="{ on: cat === c }" :aria-pressed="cat === c" @click="cat = cat === c ? '' : c">{{ c }} <small>{{ countFor(c) }}</small></button>
+      <button v-for="c in categories" :key="c" type="button" dir="ltr" :class="{ on: cat === c }" :aria-pressed="cat === c" @click="cat = cat === c ? '' : c">{{ c }} <small>{{ countFor(c) }}</small></button>
     </div>
 
     <p class="count" role="status">{{ UI.count(visible.length, items.length) }}</p>
@@ -175,11 +175,11 @@ async function copy(code) {
     <div v-if="visible.length" class="list">
       <details v-for="i in visible" :id="i.id" :key="i.id" :open="open.has(i.id)" @toggle="toggle(i.id, $event)">
         <summary>
-          <span class="cat">{{ i.cat }}</span>
-          <span class="q">{{ i.q }}</span>
+          <span class="cat" dir="ltr">{{ i.cat }}</span>
+          <span class="q" dir="ltr" lang="en">{{ i.q }}</span>
           <a class="perma" :href="'#' + i.id" :aria-label="UI.permalink" @click.stop>#</a>
         </summary>
-        <div class="answer">
+        <div class="answer" dir="ltr" lang="en">
           <template v-for="(b, n) in i.a" :key="n">
             <p v-if="b.p" v-html="html(b.p)" />
             <ul v-else-if="b.ul"><li v-for="(li, k) in b.ul" :key="k" v-html="html(li)" /></ul>

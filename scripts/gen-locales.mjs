@@ -11,7 +11,7 @@ for (const [code, d] of Object.entries(meta)) {
   mkdirSync(`src/${code}`, { recursive: true });
   pages.forEach((p, i) => {
     const fm = [`title: ${d.titles[i]}`, ...(wide.has(p) ? ["pageClass: wide"] : []), "outline: false"].join("\n");
-    writeFileSync(`src/${code}/${p}.md`, `---\n${fm}\n---\n\n::: info\n${d.banner}\n:::\n\n<!--@include: ../${p}.md-->\n`);
+    writeFileSync(`src/${code}/${p}.md`, `---\n${fm}\n---\n\n<div class="ba-banner">\n\n::: info\n${d.banner}\n:::\n\n</div>\n\n<!--@include: ../${p}.md-->\n`);
   });
   writeFileSync(`src/${code}/index.md`, `---
 layout: home

@@ -154,7 +154,7 @@ async function copy(name, e) {
               <span class="chev" aria-hidden="true" />
               <span class="tool-name">{{ tool.name }}</span>
               <span class="tool-version">{{ tool.version }}</span>
-              <span class="desc">{{ tool.description }}</span>
+              <span class="desc" dir="ltr" lang="en">{{ tool.description }}</span>
             </button>
             <button type="button" class="copy-icon" :class="{ done: copied === tool.name }" :aria-label="UI.copyAria(tool.name)" :title="installCmd(tool.name)" @click="copy(tool.name, $event)">
               <svg v-if="copied !== tool.name" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2" /><path d="M5 15V6a2 2 0 0 1 2-2h9" /></svg>
@@ -162,7 +162,7 @@ async function copy(name, e) {
             </button>
           </div>
           <div v-if="expanded === tool.name" :id="'p-' + tool.name" class="panel">
-            <p class="full">{{ tool.description }}</p>
+            <p class="full" dir="ltr" lang="en">{{ tool.description }}</p>
             <dl>
               <div><dt>{{ UI.version }}</dt><dd>{{ tool.version }}</dd></div>
               <div v-if="docs.has(tool.name)"><dt>Wiki</dt><dd><a :href="`https://blackarch.wiki/tools/${tool.name}`" target="_blank" rel="noopener noreferrer">Docs on blackarch.wiki</a></dd></div>
@@ -286,4 +286,8 @@ dd a { text-transform: none; }
 .groups .lbl { font: 11px var(--vp-font-family-mono); text-transform: uppercase; letter-spacing: .08em; color: var(--vp-c-text-3); margin-right: 4px; }
 .groups button { font: 12px var(--vp-font-family-mono); padding: 2px 10px; border: 1px solid var(--vp-c-divider); border-radius: 99px; background: var(--vp-c-bg); color: var(--vp-c-text-2); cursor: pointer; }
 .groups button:hover, .groups button.on { border-color: var(--vp-c-brand-1); color: var(--vp-c-brand-1); }
+</style>
+
+<style scoped>
+.desc, .full { text-align: left; }
 </style>
