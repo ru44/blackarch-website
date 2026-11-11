@@ -195,7 +195,7 @@
     "name": "revsh",
     "version": "215.174e309",
     "description": "A reverse shell with terminal support, data tunneling, and advanced pivoting capabilities.",
-    "url": "https://github.com/emptymonkey/revsh/"
+    "url": "https://github.com/emptymonkey/revsh"
   },
   {
     "name": "rrs",

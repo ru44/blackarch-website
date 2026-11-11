@@ -123,7 +123,7 @@
     "name": "rtlamr",
     "version": "197.03369d1",
     "description": "An rtl-sdr receiver for smart meters operating in the 900MHz ISM band.",
-    "url": "https://github.com/bemasher/rtlamr/"
+    "url": "https://github.com/bemasher/rtlamr"
   },
   {
     "name": "sdrpp",

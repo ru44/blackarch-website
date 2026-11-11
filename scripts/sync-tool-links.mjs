@@ -8,14 +8,23 @@
 //   4. Writes the tools whose link is gone to src/data/tool-dead-links.json.
 //
 // A link is "dead" only on a clear answer: HTTP 404/410, an unknown host or a
-// refused connection. Timeouts, rate limits and bot blocks are left alone.
+// refused connection. When a site cannot be checked (timeout, rate limit, bot
+// block) the tool keeps the link and the dead/alive state it had before, so a
+// bad network day never loses information.
+//
+// GitHub repositories are checked through the GitHub API when a token is
+// available, because GitHub throttles plain requests from CI.
 //
 // Usage: node scripts/sync-tool-links.mjs
-import { readFileSync, readdirSync, writeFileSync } from "node:fs";
+//        (uses GITHUB_TOKEN, or the token of the `gh` CLI, when present)
+import { execFileSync } from "node:child_process";
+import { existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { readTools } from "./lib/blackarch-db.mjs";
 
 const TOOLS_DIR = new URL("../src/data/tools/", import.meta.url);
 const DEAD_OUTPUT = new URL("../src/data/tool-dead-links.json", import.meta.url);
+// Remembers where an upstream URL moved to: { "url in the database": "final url" }.
+const REDIRECTS_FILE = new URL("../src/data/tool-link-redirects.json", import.meta.url);
 const CONCURRENCY = 24;
 const TIMEOUT_MS = 20_000;
 const MAX_REDIRECTS = 6;
@@ -23,6 +32,20 @@ const HEADERS = { "User-Agent": "Mozilla/5.0 (compatible; link-checker)", Accept
 const DEAD_ERRORS = new Set(["ENOTFOUND", "ECONNREFUSED", "EAI_AGAIN"]);
 
 const host = (url) => new URL(url).host.replace(/^www\./, "").toLowerCase();
+const readJson = (url, fallback) =>
+  existsSync(url) ? JSON.parse(readFileSync(url, "utf8")) : fallback;
+
+function githubToken() {
+  if (process.env.GITHUB_TOKEN) return process.env.GITHUB_TOKEN;
+  try {
+    return execFileSync("gh", ["auth", "token"], {
+      encoding: "utf8",
+      stdio: ["ignore", "pipe", "ignore"],
+    }).trim();
+  } catch {
+    return "";
+  }
+}
 
 /** Runs `worker` over `items` with a fixed number of parallel requests. */
 async function mapPool(items, worker) {
@@ -82,6 +105,56 @@ async function check(url) {
   return { state: "unknown", final: current, permanent: false };
 }
 
+/**
+ * Checks GitHub repository URLs ("https://github.com/owner/repo") through the
+ * API: a missing repository is dead, a renamed one reports its new name.
+ * @returns {Promise<Map<string, {state: string, final: string, permanent: boolean}>>}
+ */
+async function checkGithubRepos(urls, token) {
+  const results = new Map();
+  const slug = (url) => url.match(/^https?:\/\/github\.com\/([\w.-]+)\/([\w.-]+?)(?:\.git)?\/?$/i);
+  const repos = urls.filter(slug);
+  for (let i = 0; i < repos.length; i += 100) {
+    const batch = repos.slice(i, i + 100);
+    const query = `query {${batch
+      .map((url, n) => {
+        const [, owner, name] = slug(url);
+        return `r${n}: repository(owner: ${JSON.stringify(owner)}, name: ${JSON.stringify(name)}) { nameWithOwner }`;
+      })
+      .join("\n")}}`;
+    let body;
+    try {
+      const response = await fetch("https://api.github.com/graphql", {
+        method: "POST",
+        headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
+        body: JSON.stringify({ query }),
+        signal: AbortSignal.timeout(TIMEOUT_MS * 2),
+      });
+      if (!response.ok) continue; // leave this batch to the plain HTTP check
+      body = await response.json();
+    } catch {
+      continue;
+    }
+    const notFound = new Set(
+      (body.errors ?? [])
+        .filter((error) => error.type === "NOT_FOUND")
+        .map((error) => error.path?.[0]),
+    );
+    batch.forEach((url, n) => {
+      const found = body.data?.[`r${n}`]?.nameWithOwner;
+      if (found) {
+        // The canonical address: current owner/name, https, no ".git" or trailing slash.
+        const final = `https://github.com/${found}`;
+        const moved = url.toLowerCase() !== final.toLowerCase();
+        results.set(url, { state: "ok", final: moved ? final : url, permanent: moved });
+      } else if (notFound.has(`r${n}`)) {
+        results.set(url, { state: "dead", final: url, permanent: false });
+      }
+    });
+  }
+  return results;
+}
+
 /** Where a Google Code project lives now: its new home, or its page in the archive. */
 async function resolveGoogleCode(url) {
   const project = url.match(/code\.google\.com\/p\/([\w.-]+)/i)?.[1];
@@ -115,12 +188,16 @@ const lists = new Map(
 );
 const tools = [...lists.values()].flat();
 const stats = { fromDatabase: 0, googleCode: 0, redirected: 0 };
+const previousUrl = new Map(tools.map((tool) => [tool, tool.url]));
+const previouslyDead = new Set(readJson(DEAD_OUTPUT, []));
+const redirects = readJson(REDIRECTS_FILE, {});
 
 // --- 1. Package database ------------------------------------------------
 const database = await readTools();
 for (const tool of tools) {
   const upstream = database.get(tool.name)?.url;
-  if (upstream && upstream !== tool.url) {
+  // A URL that a previous run already followed to its new address is not "changed".
+  if (upstream && upstream !== tool.url && redirects[upstream] !== tool.url) {
     tool.url = upstream;
     stats.fromDatabase++;
   }
@@ -144,20 +221,37 @@ for (const tool of tools) {
 // --- 3. Check every link ------------------------------------------------
 const urls = [...new Set(tools.map((t) => t.url).filter((u) => /^https?:\/\//.test(u ?? "")))];
 console.log(`Checking ${urls.length} links...`);
-const results = new Map((await mapPool(urls, check)).map((result, i) => [urls[i], result]));
+const token = githubToken();
+const results = token ? await checkGithubRepos(urls, token) : new Map();
+const viaHttp = urls.filter((url) => !results.has(url));
+console.log(`  ${results.size} through the GitHub API, ${viaHttp.length} over HTTP`);
+(await mapPool(viaHttp, check)).forEach((result, i) => results.set(viaHttp[i], result));
 
 // One retry for dead links, so a short outage is not reported as a dead site.
-const firstDead = urls.filter((url) => results.get(url).state === "dead");
+const firstDead = viaHttp.filter((url) => results.get(url).state === "dead");
 (await mapPool(firstDead, check)).forEach((result, i) => results.set(firstDead[i], result));
 
 const dead = [];
 for (const tool of tools) {
-  const result = results.get(tool.url);
+  const source = tool.url;
+  const result = results.get(source);
   if (!result) continue;
-  if (result.state === "dead") dead.push(tool.name);
-  else if (result.permanent && isTrustedMove(tool.url, result.final)) {
+
+  if (result.state === "unknown") {
+    // Could not be checked this time: keep the link and state we had.
+    tool.url = redirects[source] ?? previousUrl.get(tool);
+    if (previouslyDead.has(tool.name)) dead.push(tool.name);
+    continue;
+  }
+  if (result.state === "dead") {
+    dead.push(tool.name);
+    delete redirects[source];
+  } else if (result.permanent && isTrustedMove(source, result.final)) {
     tool.url = result.final;
-    stats.redirected++;
+    redirects[source] = result.final;
+    if (previousUrl.get(tool) !== result.final) stats.redirected++;
+  } else {
+    delete redirects[source];
   }
 }
 
@@ -167,6 +261,10 @@ for (const [file, list] of lists) {
 }
 const deadNames = [...new Set(dead)].sort();
 writeFileSync(DEAD_OUTPUT, JSON.stringify(deadNames, null, 2) + "\n");
+const sortedRedirects = Object.fromEntries(
+  Object.entries(redirects).sort(([a], [b]) => (a < b ? -1 : 1)),
+);
+writeFileSync(REDIRECTS_FILE, JSON.stringify(sortedRedirects, null, 2) + "\n");
 
 const states = [...results.values()].reduce(
   (n, r) => ({ ...n, [r.state]: (n[r.state] ?? 0) + 1 }),

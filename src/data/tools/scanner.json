@@ -795,7 +795,7 @@
     "name": "jaadas",
     "version": "0.1",
     "description": "Joint Advanced Defect assEsment for android applications.",
-    "url": "https://github.com/flankerhqd/JAADAS/"
+    "url": "https://github.com/flankerhqd/JAADAS"
   },
   {
     "name": "knock",
@@ -1665,7 +1665,7 @@
     "name": "udsim",
     "version": "33.b379464",
     "description": "A graphical simulator that can emulate different modules in a vehicle and respond to UDS request.",
-    "url": "https://github.com/zombieCraig/UDSim/"
+    "url": "https://github.com/zombieCraig/UDSim"
   },
   {
     "name": "umap",

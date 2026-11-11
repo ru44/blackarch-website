@@ -15,7 +15,7 @@
     "name": "binproxy",
     "version": "8.d02fce9",
     "description": "A proxy for arbitrary TCP connections.",
-    "url": "https://github.com/nccgroup/BinProxy/"
+    "url": "https://github.com/nccgroup/BinProxy"
   },
   {
     "name": "cntlm",

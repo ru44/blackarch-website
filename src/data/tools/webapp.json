@@ -525,7 +525,7 @@
     "name": "gau",
     "version": "180.4eabace",
     "description": "Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl.",
-    "url": "https://github.com/lc/gau/"
+    "url": "https://github.com/lc/gau"
   },
   {
     "name": "ghauri",
@@ -639,7 +639,7 @@
     "name": "hookshot",
     "version": "205.df30b85",
     "description": "Integrated web scraper and email account data breach comparison tool.",
-    "url": "https://github.com/andrew-vii/hookshot/"
+    "url": "https://github.com/andrew-vii/hookshot"
   },
   {
     "name": "htcap",
@@ -723,7 +723,7 @@
     "name": "jdeserialize",
     "version": "31.20635ba",
     "description": "A library that interprets Java serialized objects. It also comes with a command-line tool that can generate compilable class declarations, extract block data, and print textual representations of instance values.",
-    "url": "https://github.com/frohoff/jdeserialize/"
+    "url": "https://github.com/frohoff/jdeserialize"
   },
   {
     "name": "jexboss",
@@ -879,7 +879,7 @@
     "name": "lfifreak",
     "version": "22.86b97dd",
     "description": "A unique automated LFi Exploiter with Bind/Reverse Shells.",
-    "url": "https://github.com/OsandaMalith/LFiFreak/"
+    "url": "https://github.com/OsandaMalith/LFiFreak"
   },
   {
     "name": "lfimap",
@@ -891,7 +891,7 @@
     "name": "liffy",
     "version": "46.b990d6a",
     "description": "A Local File Inclusion Exploitation tool.",
-    "url": "https://github.com/mzfr/liffy/"
+    "url": "https://github.com/mzfr/liffy"
   },
   {
     "name": "lightbulb",
@@ -1275,7 +1275,7 @@
     "name": "serializationdumper",
     "version": "34.6d161cd",
     "description": "A tool to dump Java serialization streams in a more human readable form.",
-    "url": "https://github.com/NickstaDB/SerializationDumper/"
+    "url": "https://github.com/NickstaDB/SerializationDumper"
   },
   {
     "name": "shortfuzzy",

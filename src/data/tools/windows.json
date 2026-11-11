@@ -861,7 +861,7 @@
     "name": "windowsspyblocker",
     "version": "4.38.0",
     "description": "Block spying and tracking on Windows.",
-    "url": "https://github.com/crazy-max/WindowsSpyBlocker/"
+    "url": "https://github.com/crazy-max/WindowsSpyBlocker"
   },
   {
     "name": "winfo",

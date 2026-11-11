@@ -843,7 +843,7 @@
     "name": "zackattack",
     "version": "5.1f96c14",
     "description": "A new tool set to do NTLM Authentication relaying unlike any other tool currently out there.",
-    "url": "https://github.com/urbanesec/ZackAttack/"
+    "url": "https://github.com/urbanesec/ZackAttack"
   },
   {
     "name": "zdns",

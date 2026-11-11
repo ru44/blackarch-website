@@ -147,7 +147,7 @@
     "name": "ostinato",
     "version": "0.9",
     "description": "An open-source, cross-platform packet/traffic generator and analyzer with a friendly GUI. It aims to be \"Wireshark in Reverse\" and thus become complementary to Wireshark.",
-    "url": "https://github.com/pstavirs/ostinato/"
+    "url": "https://github.com/pstavirs/ostinato"
   },
   {
     "name": "passivedns",

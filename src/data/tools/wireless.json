@@ -141,7 +141,7 @@
     "name": "hoover",
     "version": "4.9bda860",
     "description": "Wireless Probe Requests Sniffer.",
-    "url": "https://github.com/xme/hoover/"
+    "url": "https://github.com/xme/hoover"
   },
   {
     "name": "hostapd-wpe",

@@ -399,7 +399,7 @@
     "name": "leo",
     "version": "40030.ada28bd871",
     "description": "Literate programmer's editor, outliner, and project manager.",
-    "url": "https://github.com/leo-editor/leo-editor/"
+    "url": "https://github.com/leo-editor/leo-editor"
   },
   {
     "name": "magictree",
@@ -501,7 +501,7 @@
     "name": "payloadsallthethings",
     "version": "4.2.r117.g08ea40e",
     "description": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF.",
-    "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/"
+    "url": "https://github.com/swisskyrepo/PayloadsAllTheThings"
   },
   {
     "name": "pdfwalker",

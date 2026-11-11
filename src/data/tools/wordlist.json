@@ -15,6 +15,6 @@
     "name": "seclists",
     "version": "4461.c9c7b3cb",
     "description": "A collection of multiple types of lists used during security assessments.",
-    "url": "https://github.com/danielmiessler/SecLists/"
+    "url": "https://github.com/danielmiessler/SecLists"
   }
 ]

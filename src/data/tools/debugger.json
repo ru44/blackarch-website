@@ -3,7 +3,7 @@
     "name": "edb",
     "version": "3337.eedd97a0",
     "description": "A cross platform AArch32/x86/x86 debugger.",
-    "url": "https://github.com/eteran/edb-debugger/"
+    "url": "https://github.com/eteran/edb-debugger"
   },
   {
     "name": "electric-fence",

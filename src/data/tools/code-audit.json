@@ -153,7 +153,7 @@
     "name": "whispers",
     "version": "2.4.0.r0.g24ee0f0",
     "description": "Identify hardcoded secrets in static structured text.",
-    "url": "https://github.com/adeptex/whispers/"
+    "url": "https://github.com/adeptex/whispers"
   },
   {
     "name": "wpbullet",

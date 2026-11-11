@@ -105,7 +105,7 @@
     "name": "cminer",
     "version": "25.d766f7e",
     "description": "A tool for enumerating the code caves in PE files.",
-    "url": "https://github.com/EgeBalci/Cminer/"
+    "url": "https://github.com/EgeBalci/Cminer"
   },
   {
     "name": "cpp2il",

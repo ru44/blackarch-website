@@ -21,7 +21,7 @@
     "name": "silenteye",
     "version": "21.a53a7ff",
     "description": "A cross-platform application design for an easy use of steganography.",
-    "url": "https://github.com/achorein/silenteye/"
+    "url": "https://github.com/achorein/silenteye"
   },
   {
     "name": "stegcracker",
@@ -51,7 +51,7 @@
     "name": "stegoveritas",
     "version": "1.10",
     "description": "Automatic image steganography analysis tool.",
-    "url": "https://github.com/bannsec/stegoVeritas/"
+    "url": "https://github.com/bannsec/stegoVeritas"
   },
   {
     "name": "stegseek",

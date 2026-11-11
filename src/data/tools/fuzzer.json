@@ -411,7 +411,7 @@
     "name": "sulley",
     "version": "1.0.bff0dd1",
     "description": "A pure-python fully automated and unattended fuzzing framework.",
-    "url": "https://github.com/OpenRCE/sulley/"
+    "url": "https://github.com/OpenRCE/sulley"
   },
   {
     "name": "taof",

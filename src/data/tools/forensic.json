@@ -87,7 +87,7 @@
     "name": "dcfldd",
     "version": "1.9.3",
     "description": "DCFL (DoD Computer Forensics Lab) dd replacement with hashing.",
-    "url": "https://github.com/resurrecting-open-source-projects/dcfldd/"
+    "url": "https://github.com/resurrecting-open-source-projects/dcfldd"
   },
   {
     "name": "dfir-ntfs",
@@ -909,7 +909,7 @@
     "name": "xplico",
     "version": "1.2.2",
     "description": "Internet Traffic Decoder. Network Forensic Analysis Tool (NFAT).",
-    "url": "https://github.com/xplico/xplico/"
+    "url": "https://github.com/xplico/xplico"
   },
   {
     "name": "zipdump",

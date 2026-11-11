@@ -177,7 +177,7 @@
     "name": "crackle",
     "version": "111.d83b4b6",
     "description": "Crack and decrypt BLE encryption.",
-    "url": "https://github.com/mikeryan/crackle/"
+    "url": "https://github.com/mikeryan/crackle"
   },
   {
     "name": "crackpkcs12",
@@ -357,7 +357,7 @@
     "name": "ibrute",
     "version": "12.3a6a11e",
     "description": "An AppleID password bruteforce tool. It uses Find My Iphone service API, where bruteforce protection was not implemented.",
-    "url": "https://github.com/hackappcom/ibrute/"
+    "url": "https://github.com/hackappcom/ibrute"
   },
   {
     "name": "icloudbrutter",

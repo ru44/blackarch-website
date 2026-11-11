@@ -171,7 +171,7 @@
     "name": "hashdb",
     "version": "1089.1da1b9f",
     "description": "A block hash toolkit.",
-    "url": "https://github.com/NPS-DEEP/hashdb/"
+    "url": "https://github.com/NPS-DEEP/hashdb"
   },
   {
     "name": "hashdeep",

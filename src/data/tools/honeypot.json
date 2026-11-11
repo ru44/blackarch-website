@@ -3,7 +3,7 @@
     "name": "beeswarm",
     "version": "1183.db51ea0",
     "description": "Honeypot deployment made easy.",
-    "url": "https://github.com/honeynet/beeswarm/"
+    "url": "https://github.com/honeynet/beeswarm"
   },
   {
     "name": "conpot",
@@ -33,7 +33,7 @@
     "name": "honeyd",
     "version": "337.a0f3d64",
     "description": "A small daemon that creates virtual hosts on a network.",
-    "url": "https://github.com/DataSoft/Honeyd/"
+    "url": "https://github.com/DataSoft/Honeyd"
   },
   {
     "name": "honeypy",
