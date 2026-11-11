@@ -1,0 +1,78 @@
+name: refresh-data
+
+# Every week, refreshes the data the site is built from (mirrors, tool
+# versions, build dates, stars, links) and opens a pull request with the result.
+on:
+  schedule:
+    - cron: "0 3 * * 1" # Mondays, 03:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+env:
+  HUSKY: 0
+  BRANCH: data/weekly-refresh
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22.x
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Refresh the data
+        env:
+          GITHUB_TOKEN: ${{ github.token }} # read-only use: star counts
+        run: |
+          pnpm sync:mirrors
+          pnpm sync:wiki
+          pnpm sync:versions
+          pnpm sync:updates
+          pnpm sync:stars
+          pnpm sync:links
+          pnpm format
+
+      # The pull request is only opened if the site still passes every check.
+      - name: Check and build
+        run: pnpm check
+
+      - name: Open or update the pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet; then
+            echo "The data is already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch --force-create "$BRANCH"
+          git commit --all --message "chore(data): weekly refresh of mirrors, tool versions and links"
+          git push --force origin "$BRANCH"
+
+          if gh pr view "$BRANCH" --json state --jq .state 2>/dev/null | grep -q OPEN; then
+            echo "Updated the open pull request."
+          elif gh pr create --base main --head "$BRANCH" \
+            --title "chore(data): weekly data refresh" \
+            --body "Automatic weekly refresh of the mirror list, tool versions, build dates, stars and links. Formatting, lint and build passed before this was opened."; then
+            echo "Opened a pull request."
+          else
+            echo "::warning::Could not open the pull request. Allow GitHub Actions to create pull requests (Settings > Actions > General), or open it by hand: ${{ github.server_url }}/${{ github.repository }}/compare/main...$BRANCH"
+          fi
