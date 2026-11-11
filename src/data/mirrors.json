@@ -6,15 +6,21 @@
     "rsync://mirror.digitalpacific.com.au/blackarch/"
   ],
   "Austria": [
+    "http://at.mirrors.cicku.me/blackarch/",
+    "https://at.mirrors.cicku.me/blackarch/",
     "http://mirror.easyname.at/blackarch/",
     "ftp://mirror.easyname.at/blackarch/",
     "rsync://mirror.easyname.at/blackarch/"
   ],
   "Canada": [
     "http://ca.mirrors.cicku.me/blackarch/",
-    "https://ca.mirrors.cicku.me/blackarch/"
+    "https://ca.mirrors.cicku.me/blackarch/",
+    "http://mirror.0xem.ma/blackarch/",
+    "https://mirror.0xem.ma/blackarch/"
   ],
   "China": [
+    "http://mirrors.xjtu.edu.cn/blackarch/",
+    "https://mirrors.xjtu.edu.cn/blackarch/",
     "https://mirrors.hust.edu.cn/blackarch/",
     "https://mirrors.nju.edu.cn/blackarch/",
     "https://mirror.sjtu.edu.cn/blackarch/",
@@ -38,25 +44,28 @@
   ],
   "Germany": [
     "https://www.blackarch.org/blackarch/blackarch/",
-    "rsync://blackarch.org/blackarch/",
     "http://de.mirrors.cicku.me/blackarch/",
     "https://de.mirrors.cicku.me/blackarch/",
+    "rsync://blackarch.org/blackarch/",
     "http://ftp.halifax.rwth-aachen.de/blackarch/",
     "https://ftp.halifax.rwth-aachen.de/blackarch/",
     "ftp://ftp.halifax.rwth-aachen.de/blackarch/",
     "rsync://ftp.halifax.rwth-aachen.de/blackarch/",
     "http://blackarch.unixpeople.org/",
     "https://blackarch.unixpeople.org/",
-    "rsync://blackarch.unixpeople.org/blackarch/"
+    "rsync://blackarch.unixpeople.org/blackarch/",
+    "http://mirror.diyarciftci.xyz/blackarch/",
+    "https://mirror.diyarciftci.xyz/blackarch/",
+    "https://mirror.rabisu.com/mirrors/blackarch/"
   ],
   "Greece": [
     "http://ftp.cc.uoc.gr/mirrors/linux/blackarch/",
     "ftp://ftp.cc.uoc.gr/mirrors/linux/blackarch/",
-    "rsync://blackarch@cc.uoc.gr/blackarch"
+    "rsync://blackarch@ftp.cc.uoc.gr/blackarch/"
   ],
   "Great Britain": [
-    "http://mirrors.cicku.me/blackarch/",
-    "https://mirrors.cicku.me/blackarch/",
+    "http://gb.mirrors.cicku.me/blackarch/",
+    "https://gb.mirrors.cicku.me/blackarch/",
     "http://www.mirrorservice.org/sites/blackarch.org/blackarch/",
     "rsync://rsync.mirrorservice.org/blackarch.org/blackarch/",
     "http://mirrors.gethosted.online/blackarch/blackarch/",
@@ -79,6 +88,8 @@
   "Japan": [
     "http://jp.mirrors.cicku.me/blackarch/",
     "https://jp.mirrors.cicku.me/blackarch/",
+    "http://www.miraa.jp/blackarch/",
+    "https://www.miraa.jp/blackarch/",
     "http://www.ftp.ne.jp/Linux/packages/blackarch/",
     "http://ftp.kddilabs.jp/Linux/packages/blackarch/",
     "https://ftp.kddilabs.jp/Linux/packages/blackarch/"
@@ -91,8 +102,7 @@
   "Netherlands": [
     "http://mirror.serverion.com/blackarch/",
     "https://mirror.serverion.com/blackarch/",
-    "ftp://mirror.serverion.com/blackarch/",
-    "rsync://mirror.serverion.com/opnsense"
+    "ftp://mirror.serverion.com/blackarch/"
   ],
   "Poland": [
     "http://ftp.icm.edu.pl/pub/Linux/dist/blackarch/",
@@ -101,8 +111,8 @@
     "gopher://ftp.icm.edu.pl/1/pub/Linux/dist/blackarch/"
   ],
   "Portugal": [
-    "http://eu.mirrors.cicku.me/blackarch/",
-    "https://eu.mirrors.cicku.me/blackarch/"
+    "http://pt.mirrors.cicku.me/blackarch/",
+    "https://pt.mirrors.cicku.me/blackarch/"
   ],
   "Romania": [
     "http://mirrors.hostico.ro/blackarch/",
@@ -111,7 +121,7 @@
   "Russia": [
     "https://repository.su/blackarch/",
     "rsync://repository.su/blackarch/",
-    "http://mirror.yandex.ru/mirrors/blackarch/",
+    "https://mirror.yandex.ru/mirrors/blackarch/",
     "ftp://mirror.yandex.ru/mirrors/blackarch/",
     "rsync://mirror.yandex.ru/mirrors/blackarch/"
   ],
@@ -123,27 +133,34 @@
   ],
   "South Korea": [
     "http://kr.mirrors.cicku.me/blackarch/",
-    "https://kr.mirrors.cicku.me/blackarch/"
+    "https://kr.mirrors.cicku.me/blackarch/",
+    "https://mirror.krfoss.org/blackarch/"
   ],
   "Sweden": [
     "http://mirror.zetup.net/blackarch/"
   ],
   "Switzerland": [
+    "http://ch.mirrors.cicku.me/blackarch/",
+    "https://ch.mirrors.cicku.me/blackarch/",
     "http://mirror.easyname.ch/blackarch/",
     "ftp://mirror.easyname.ch/blackarch/",
     "rsync://mirror.easyname.ch/blackarch/",
-    "https://mirror.tillo.ch/ftp/blackarch/",
-    "http://mirror.tillo.ch/ftp/blackarch/",
-    "ftpes://mirror.tillo.ch/blackarch/",
-    "ftp://mirror.tillo.ch/blackarch/",
-    "rsync://mirror.tillo.ch/blackarch/"
+    "https://mirror.mdapi.ch/ftp/blackarch/",
+    "http://mirror.mdapi.ch/ftp/blackarch/",
+    "ftpes://mirror.mdapi.ch/blackarch/",
+    "ftp://mirror.mdapi.ch/blackarch/",
+    "rsync://mirror.mdapi.ch/blackarch/"
   ],
   "Turkey": [
+    "http://tr.mirrors.cicku.me/blackarch/",
+    "https://tr.mirrors.cicku.me/blackarch/",
     "http://ftp.linux.org.tr/blackarch/",
     "ftp://ftp.linux.org.tr/blackarch/",
     "rsync://rsync.linux.org.tr/blackarch/"
   ],
   "Taiwan": [
+    "http://tw.mirrors.cicku.me/blackarch/",
+    "https://tw.mirrors.cicku.me/blackarch/",
     "http://mirror.archlinux.tw/BlackArch/",
     "https://mirror.archlinux.tw/BlackArch/",
     "http://blackarch.cs.nycu.edu.tw/",
@@ -151,16 +168,17 @@
     "rsync://blackarch.cs.nycu.edu.tw/blackarch/"
   ],
   "United States": [
+    "http://us.mirrors.cicku.me/blackarch/",
+    "https://us.mirrors.cicku.me/blackarch/",
     "https://us.mirrors.fossho.st/blackarch/",
-    "http://mirror.math.princeton.edu/pub/blackarch/",
-    "https://mirror.math.princeton.edu/pub/blackarch/",
-    "rsync://mirror.math.princeton.edu/pub/blackarch/",
     "http://distro.ibiblio.org/blackarch/",
     "ftp://distro.ibiblio.org/blackarch/",
     "https://mirror.team-cymru.com/blackarch/",
     "ftp://mirror.team-cymru.com/blackarch/",
     "rsync://mirror.team-cymru.com/blackarch/",
     "https://ftp2.osuosl.org/pub/blackarch/",
-    "https://ftp2.osuosl.org/pub/blackarch/"
+    "http://ftp2.osuosl.org/pub/blackarch/",
+    "http://mirror.meowsmp.net/blackarch/",
+    "https://mirror.meowsmp.net/blackarch/"
   ]
 }
