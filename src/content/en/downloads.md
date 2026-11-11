@@ -109,6 +109,27 @@ If you need to be guided step by step, please consult the [BlackArch install](./
 
 You can install BlackArch Linux using the Slim medium which features GUI installer. Just double click on the Install BlackArch icon on the desktop. Follow the instructions on the GUI installer.
 
+## Docker
+
+Official BlackArch images are published on Docker Hub as <a href="https://hub.docker.com/r/blackarchlinux/blackarch">blackarchlinux/blackarch</a>. They are rebuilt weekly from the <a href="https://github.com/BlackArch/blackarch-docker">blackarch-docker</a> repository.
+
+```bash
+# Pull the image and start a shell
+
+$ docker pull blackarchlinux/blackarch
+$ docker run -it blackarchlinux/blackarch
+
+# BlackArch is a rolling release: update before installing tools
+
+$ pacman -Syu
+```
+
+Available tags: `latest`, `base`, `base-devel` and `novnc`.
+
+::: warning novnc image
+The `novnc` image must be started with `--security-opt seccomp=unconfined`, otherwise it fails.
+:::
+
 ## ARM
 
 BlackArch is compatible with Arch Linux ARM. It effectively supports all of the Aarch64 platforms listed <a href="http://archlinuxarm.org/platforms">here</a>.
