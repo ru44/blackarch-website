@@ -24,6 +24,10 @@ All notable changes to this project are documented here. The format follows
 - Tools page sorting: A–Z, Most popular (GitHub stars of the upstream repository) and Recently
   updated (build date from the official package database); tools without that value sort last. Several categories can be selected at
   once, and the category chips wrap instead of scrolling sideways.
+- MIT license for the website code.
+- Link previews and search: a sitemap, a social preview image, a canonical address and a
+  description for every page, and clean URLs without `.html`.
+- A weekly `refresh-data` workflow that runs the data scripts and opens a pull request.
 - Guide page: the PDF guides as language cards.
 - Downloads page documents the official Docker images (BlackArch/blackarch-site#192).
 - Language switcher with 14 languages: Arabic (right-to-left), Armenian, Brazilian Portuguese,
@@ -51,6 +55,8 @@ All notable changes to this project are documented here. The format follows
   properties so right-to-left languages need no overrides.
 
 ### Fixed
+
+- Tool versions now come from the BlackArch package database: 610 were out of date.
 
 - Security updates for dependencies flagged by Dependabot: Vue and VitePress updated, and patched
   versions of Vite, Rollup, Preact and mdast-util-to-hast pinned through pnpm overrides.

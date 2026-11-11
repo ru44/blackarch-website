@@ -29,21 +29,22 @@ pnpm install
 pnpm dev        # dev server with hot reload
 ```
 
-| Command             | What it does                                                                    |
-| ------------------- | ------------------------------------------------------------------------------- |
-| `pnpm dev`          | Start the dev server                                                            |
-| `pnpm build`        | Production build into `src/.vitepress/dist`                                     |
-| `pnpm preview`      | Serve the production build locally                                              |
-| `pnpm check`        | Everything CI runs: formatting, lint and build                                  |
-| `pnpm format`       | Format the code with Prettier                                                   |
-| `pnpm format:check` | Check formatting without changing files (what CI should run)                    |
-| `pnpm lint`         | Lint with [oxlint](https://oxc.rs/docs/guide/usage/linter.html)                 |
-| `pnpm gen:locales`  | Regenerate the per-language page stubs (see [Translating](#translating))        |
-| `pnpm sync:mirrors` | Refresh the mirror list from blackarch.org                                      |
-| `pnpm sync:wiki`    | Refresh tool package groups from the BlackArch wiki repository                  |
-| `pnpm sync:updates` | Refresh tool build dates from the BlackArch package database                    |
-| `pnpm sync:stars`   | Refresh the GitHub stars used for the "Most popular" ordering                   |
-| `pnpm sync:links`   | Update tool links, follow moved sites and list dead links (takes a few minutes) |
+| Command              | What it does                                                                    |
+| -------------------- | ------------------------------------------------------------------------------- |
+| `pnpm dev`           | Start the dev server                                                            |
+| `pnpm build`         | Production build into `src/.vitepress/dist`                                     |
+| `pnpm preview`       | Serve the production build locally                                              |
+| `pnpm check`         | Everything CI runs: formatting, lint and build                                  |
+| `pnpm format`        | Format the code with Prettier                                                   |
+| `pnpm format:check`  | Check formatting without changing files (what CI should run)                    |
+| `pnpm lint`          | Lint with [oxlint](https://oxc.rs/docs/guide/usage/linter.html)                 |
+| `pnpm gen:locales`   | Regenerate the per-language page stubs (see [Translating](#translating))        |
+| `pnpm sync:mirrors`  | Refresh the mirror list from blackarch.org                                      |
+| `pnpm sync:wiki`     | Refresh tool package groups from the BlackArch wiki repository                  |
+| `pnpm sync:updates`  | Refresh tool build dates from the BlackArch package database                    |
+| `pnpm sync:stars`    | Refresh the GitHub stars used for the "Most popular" ordering                   |
+| `pnpm sync:links`    | Update tool links, follow moved sites and list dead links (takes a few minutes) |
+| `pnpm sync:versions` | Refresh tool versions from the BlackArch package database                       |
 
 The site is deployed to GitHub Pages by `.github/workflows/main.yml`: every push and pull request
 is checked and built, and a push to `main` then publishes that same build.
@@ -125,6 +126,7 @@ by the generator. `src/content/it/` is a complete example.
 | `strap.sh` checksum | `src/content/en/downloads.md`, `src/content/it/downloads.md` | Update the `sha256sum -c` line. Check the script against the SHA1 on the official downloads page first, then run `sha256sum strap.sh`                                                                                                                |
 | Tool update dates   | `src/data/tool-updates.json`                                 | `pnpm sync:updates` (build dates from the official package database)                                                                                                                                                                                 |
 | Tool popularity     | `src/data/tool-stars.json`                                   | `pnpm sync:stars` (GitHub stars; needs `GITHUB_TOKEN` or the `gh` CLI)                                                                                                                                                                               |
+| Tool versions       | `src/data/tools/*.json`                                      | `pnpm sync:versions` (current versions from the package database)                                                                                                                                                                                    |
 | Tool links          | `src/data/tools/*.json`, `tool-dead-links.json`              | `pnpm sync:links` (current URLs from the package database, Google Code archive and redirects; dead links are tagged on the Tools page)                                                                                                               |
 | Tool list           | `src/data/tools/*.json`                                      | One file per category. `scripts/convert_files_to_json.sh` converts the pipe-separated package lists (`name\|version\|description\|url`)                                                                                                              |
 | Team                | `src/data/developers.json`                                   | Add `github` and `avatar` (a file in `src/content/public/team/`) when known                                                                                                                                                                          |
@@ -132,6 +134,9 @@ by the generator. `src/content/it/` is a complete example.
 | Screenshots         | `src/data/screenshots.json`                                  | Files are loaded from blackarch.org/images/screenshots                                                                                                                                                                                               |
 
 After changing data, run `pnpm build` and check the affected page.
+
+The `refresh-data` workflow runs all of the `sync:*` scripts every Monday and opens a pull
+request with the result, after checking that the site still builds.
 
 ## Contributing
 
@@ -142,9 +147,6 @@ Fixes and translations are welcome. Open an issue first for larger changes. Ever
 2. Make your change, then run `pnpm check`.
 3. Open a pull request and describe what changed and why.
 
-BlackArch Linux itself, its packages and its tools are maintained in the
-[BlackArch organization](https://github.com/BlackArch). Problems with the distribution belong there,
-not here.
 ## License
 
 The code of this website is released under the [MIT License](LICENSE).
@@ -153,3 +155,6 @@ The BlackArch name and logo, the screenshots and the texts taken from
 [blackarch.org](https://blackarch.org) belong to the BlackArch Linux project. The tool
 descriptions come from the BlackArch package database and their upstream projects.
 
+BlackArch Linux itself, its packages and its tools are maintained in the
+[BlackArch organization](https://github.com/BlackArch). Problems with the distribution belong there,
+not here.
