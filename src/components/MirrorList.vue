@@ -1,29 +1,40 @@
 <script setup>
-import { ref, computed } from "vue";
+import { computed, ref } from "vue";
+import { useClipboard } from "../composables/useClipboard.js";
 import { useT } from "../i18n/index.js";
-const T = useT("mirrors", { title: "Official BlackArch Linux Mirror Sites", summary: (c, m) => `${c} countries, ${m} mirrors. Pick one near you.`, placeholder: "Search by country or mirror URL…", noMatch: "No mirrors match", clear: "Clear search", copy: "copy", ok: "ok" });
 import mirrors from "../data/mirrors.json";
 
+const T = useT("mirrors", {
+  title: "Official BlackArch Linux Mirror Sites",
+  summary: (countries, total) => `${countries} countries, ${total} mirrors. Pick one near you.`,
+  placeholder: "Search by country or mirror URL…",
+  noMatch: "No mirrors match",
+  clear: "Clear search",
+  copy: "copy",
+  ok: "ok",
+});
+
+const { copy, isCopied } = useClipboard();
 const searchQuery = ref("");
-const copied = ref("");
-const total = Object.values(mirrors).reduce((n, u) => n + u.length, 0);
+const total = Object.values(mirrors).reduce((sum, urls) => sum + urls.length, 0);
 
 const filtered = computed(() => {
   const q = searchQuery.value.trim().toLowerCase();
   if (!q) return mirrors;
-  const out = {};
+  const result = {};
   for (const [country, urls] of Object.entries(mirrors)) {
-    if (country.toLowerCase().includes(q)) { out[country] = urls; continue; }
-    const m = urls.filter((u) => u.toLowerCase().includes(q));
-    if (m.length) out[country] = m;
+    if (country.toLowerCase().includes(q)) {
+      result[country] = urls;
+      continue;
+    }
+    const matching = urls.filter((url) => url.toLowerCase().includes(q));
+    if (matching.length) result[country] = matching;
   }
-  return out;
+  return result;
 });
-const proto = (u) => u.split(":")[0];
-const host = (u) => u.replace(/^[a-z]+:\/\//, "");
-async function copy(u) {
-  try { await navigator.clipboard.writeText(u); copied.value = u; setTimeout(() => (copied.value = ""), 1400); } catch {}
-}
+
+const protocol = (url) => url.split(":")[0];
+const host = (url) => url.replace(/^[a-z]+:\/\//, "");
 </script>
 
 <template>
@@ -40,9 +51,9 @@ async function copy(u) {
         <header><h3>{{ country }}</h3><span>{{ urls.length }}</span></header>
         <ul>
           <li v-for="u in urls" :key="u">
-            <span class="proto" :data-p="proto(u)">{{ proto(u) }}</span>
+            <span class="proto" :data-p="protocol(u)">{{ protocol(u) }}</span>
             <a :href="u" target="_blank" rel="noopener noreferrer" :title="u">{{ host(u) }}</a>
-            <button type="button" :aria-label="`Copy ${u}`" @click="copy(u)">{{ copied === u ? T.ok : T.copy }}</button>
+            <button type="button" :aria-label="`Copy ${u}`" @click="copy(u)">{{ isCopied(u) ? T.ok : T.copy }}</button>
           </li>
         </ul>
       </section>

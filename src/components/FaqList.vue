@@ -1,4 +1,5 @@
 <script setup>
+import { useClipboard } from "../composables/useClipboard.js";
 import { useT } from "../i18n/index.js";
 import { ref, computed, onMounted } from "vue";
 import { withBase, useData } from "vitepress";
@@ -125,7 +126,7 @@ const catTr = (c) => !!L.cats[c];
 const query = ref("");
 const cat = ref("");
 const open = ref(new Set());
-const copied = ref("");
+const { copy, isCopied } = useClipboard();
 
 const text = (i) =>
   [i.q, ...i.a.flatMap((b) => (b.p ? [b.p] : b.ul ? b.ul : [b.code]))]
@@ -165,13 +166,6 @@ onMounted(() => {
   window.addEventListener("hashchange", openFromHash);
 });
 
-async function copy(code) {
-  try {
-    await navigator.clipboard.writeText(code);
-    copied.value = code;
-    setTimeout(() => (copied.value = ""), 1600);
-  } catch {}
-}
 </script>
 
 <template>
@@ -201,7 +195,7 @@ async function copy(code) {
             <ul v-else-if="b.ul"><li v-for="(li, k) in b.ul" :key="k" v-html="html(li)" /></ul>
             <div v-else class="cmd">
               <pre><code>{{ b.code }}</code></pre>
-              <button type="button" :aria-label="UI.copyLabel" @click="copy(b.code)">{{ copied === b.code ? UI.copied : UI.copy }}</button>
+              <button type="button" :aria-label="UI.copyLabel" @click="copy(b.code)">{{ isCopied(b.code) ? UI.copied : UI.copy }}</button>
             </div>
           </template>
         </div>

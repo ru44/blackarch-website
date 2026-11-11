@@ -1,4 +1,5 @@
 <script setup>
+import { useClipboard } from "../composables/useClipboard.js";
 import { ref } from "vue";
 import { useT } from "../i18n/index.js";
 
@@ -18,10 +19,7 @@ const T = useT("journey", {
   steps: ["1. Add the repo", "2. Sync", "3. Install a tool"],
 });
 
-const copied = ref("");
-async function copy(c) {
-  try { await navigator.clipboard.writeText(c); copied.value = c; setTimeout(() => (copied.value = ""), 1400); } catch {}
-}
+const { copy, isCopied } = useClipboard(1400);
 const icons = [
   "M8 6l-5 6 5 6M16 6l5 6-5 6",
   "M4 8l8-4 8 4v8l-8 4-8-4zM4 8l8 4 8-4M12 12v8",
@@ -53,7 +51,7 @@ const cmds = [
     <ol class="mine">
       <li v-for="(l, i) in T.steps" :key="i">
         <span>{{ l }}</span>
-        <div><code>{{ cmds[i] }}</code><button type="button" @click="copy(cmds[i])">{{ copied === cmds[i] ? T.copied : T.copy }}</button></div>
+        <div><code>{{ cmds[i] }}</code><button type="button" @click="copy(cmds[i])">{{ isCopied(cmds[i]) ? T.copied : T.copy }}</button></div>
       </li>
     </ol>
   </div>

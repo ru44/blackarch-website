@@ -1,4 +1,5 @@
 <script setup>
+import { useClipboard } from "../composables/useClipboard.js";
 import { useT } from "../i18n/index.js";
 import { ref, computed, watch, onMounted } from "vue";
 import { watchDebounced, useIntersectionObserver } from "@vueuse/core";
@@ -39,7 +40,7 @@ const query = ref("");
 const category = ref("");
 const isLoading = ref(true);
 const expanded = ref(null);
-const copied = ref("");
+const { copy: writeClipboard, isCopied } = useClipboard();
 const visibleCount = ref(CHUNK_SIZE);
 const scrollContainer = ref(null);
 const sentinel = ref(null);
@@ -118,13 +119,9 @@ function clearAll() {
   query.value = "";
   category.value = "";
 }
-async function copy(name, e) {
-  e?.stopPropagation();
-  try {
-    await navigator.clipboard.writeText(installCmd(name));
-    copied.value = name;
-    setTimeout(() => (copied.value = ""), 1600);
-  } catch {}
+function copy(name, event) {
+  event?.stopPropagation();
+  writeClipboard(installCmd(name), name);
 }
 </script>
 
@@ -156,8 +153,8 @@ async function copy(name, e) {
               <span class="tool-version">{{ tool.version }}</span>
               <span class="desc" dir="ltr" lang="en">{{ tool.description }}</span>
             </button>
-            <button type="button" class="copy-icon" :class="{ done: copied === tool.name }" :aria-label="UI.copyAria(tool.name)" :title="installCmd(tool.name)" @click="copy(tool.name, $event)">
-              <svg v-if="copied !== tool.name" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2" /><path d="M5 15V6a2 2 0 0 1 2-2h9" /></svg>
+            <button type="button" class="copy-icon" :class="{ done: isCopied(tool.name) }" :aria-label="UI.copyAria(tool.name)" :title="installCmd(tool.name)" @click="copy(tool.name, $event)">
+              <svg v-if="!isCopied(tool.name)" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2" /><path d="M5 15V6a2 2 0 0 1 2-2h9" /></svg>
               <svg v-else viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7" /></svg>
             </button>
           </div>
@@ -178,7 +175,7 @@ async function copy(name, e) {
             <div class="cmd">
               <span class="lbl">{{ UI.install }}</span>
               <code><b>$</b> {{ installCmd(tool.name) }}</code>
-              <button type="button" @click="copy(tool.name)">{{ copied === tool.name ? UI.copied : UI.copy }}</button>
+              <button type="button" @click="copy(tool.name)">{{ isCopied(tool.name) ? UI.copied : UI.copy }}</button>
             </div>
           </div>
         </li>

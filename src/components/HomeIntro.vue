@@ -1,15 +1,8 @@
 <script setup>
-import { ref } from "vue";
+import { useClipboard } from "../composables/useClipboard.js";
 import { useT } from "../i18n/index.js";
-const copied = ref(false);
 const cmd = "curl -O https://blackarch.org/strap.sh && sudo ./strap.sh";
-async function copy() {
-  try {
-    await navigator.clipboard.writeText(cmd);
-    copied.value = true;
-    setTimeout(() => (copied.value = false), 1600);
-  } catch {}
-}
+const { copy, isCopied } = useClipboard();
 const T = useT("home", {
   copy: "copy", copied: "copied", copyLabel: "Copy command", quick: "Quick install command",
   stats: [
@@ -34,8 +27,8 @@ const icons = ["M12 3 4 20h4l4-9 4 9h4z", "M4 6h16M4 12h16M4 18h10", "M4 8l8-4 8
       <div class="bar"><i /><i /><i /><span>root@blackarch: ~</span></div>
       <div class="body">
         <code><b>$</b> {{ cmd }}</code>
-        <button type="button" @click="copy" :aria-label="T.copyLabel">
-          {{ copied ? T.copied : T.copy }}
+        <button type="button" @click="copy(cmd)" :aria-label="T.copyLabel">
+          {{ isCopied(cmd) ? T.copied : T.copy }}
         </button>
       </div>
     </div>

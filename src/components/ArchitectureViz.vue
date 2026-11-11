@@ -1,4 +1,5 @@
 <script setup>
+import { useClipboard } from "../composables/useClipboard.js";
 import { ref, computed } from "vue";
 import { useT } from "../i18n/index.js";
 
@@ -72,14 +73,7 @@ function pick(tab) {
   selected.value = 0;
 }
 const current = computed(() => steps.value[selected.value]);
-const copied = ref(false);
-async function copy() {
-  try {
-    await navigator.clipboard.writeText(current.value.c);
-    copied.value = true;
-    setTimeout(() => (copied.value = false), 1400);
-  } catch {}
-}
+const { copy, isCopied } = useClipboard(1400);
 function onKey(e) {
   const n = steps.value.length;
   if (e.key === "ArrowDown" || e.key === "ArrowRight") selected.value = (selected.value + 1) % n;
@@ -127,7 +121,7 @@ function onKey(e) {
         <p>{{ current.b }}</p>
         <div class="cmd">
           <code>{{ current.c }}</code>
-          <button type="button" @click="copy" :aria-label="T.copyAria(current.c)">{{ copied ? T.copied : T.copy }}</button>
+          <button type="button" @click="copy(current.c)" :aria-label="T.copyAria(current.c)">{{ isCopied(current.c) ? T.copied : T.copy }}</button>
         </div>
       </article>
     </div>

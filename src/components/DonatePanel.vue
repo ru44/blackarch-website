@@ -1,27 +1,29 @@
 <script setup>
-import { ref, onMounted } from "vue";
+import { onMounted, ref } from "vue";
 import QRCode from "qrcode";
+import { useClipboard } from "../composables/useClipboard.js";
 import { useT } from "../i18n/index.js";
 
-const btc = "1KiXHGytUEo4Ug6Pjnmf7bs9ss3Ay1w5Uy";
-const paypal = "https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UPSCCPXHY8EBQ";
-const method = ref("paypal");
-const copied = ref(false);
-const qr = ref("");
+const BTC_ADDRESS = "1KiXHGytUEo4Ug6Pjnmf7bs9ss3Ay1w5Uy";
+const PAYPAL_URL =
+  "https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UPSCCPXHY8EBQ";
 
+const method = ref("paypal");
+const qr = ref("");
+const { copy, isCopied } = useClipboard(1800);
+
+// The QR code is rendered in the browser only, so it never blocks the static build.
 onMounted(async () => {
   try {
-    qr.value = await QRCode.toString(`bitcoin:${btc}`, { type: "svg", margin: 1, color: { dark: "#0a0a0b", light: "#ffffff" } });
-  } catch {}
+    qr.value = await QRCode.toString(`bitcoin:${BTC_ADDRESS}`, {
+      type: "svg",
+      margin: 1,
+      color: { dark: "#0a0a0b", light: "#ffffff" },
+    });
+  } catch {
+    // Without a QR code the address and wallet link still work.
+  }
 });
-
-async function copy() {
-  try {
-    await navigator.clipboard.writeText(btc);
-    copied.value = true;
-    setTimeout(() => (copied.value = false), 1800);
-  } catch {}
-}
 
 const T = useT("donate", {
   title: "Keep BlackArch free",
@@ -46,6 +48,7 @@ const T = useT("donate", {
     { t: "Sponsor as a company", d: "Organizations can become official sponsors.", a: "Email the team" },
   ],
 });
+// Link targets for T.ways, in the same order.
 const wayLinks = [
   "https://github.com/BlackArch/blackarch",
   "https://matrix.to/#/#BlackArch:matrix.org",
@@ -73,15 +76,15 @@ const wayLinks = [
 
         <div v-if="method === 'paypal'" class="pane">
           <p>{{ T.paypalText }}</p>
-          <a class="cta" :href="paypal" target="_blank" rel="noopener noreferrer">{{ T.paypalCta }}</a>
+          <a class="cta" :href="PAYPAL_URL" target="_blank" rel="noopener noreferrer">{{ T.paypalCta }}</a>
         </div>
 
         <div v-else class="pane">
           <div v-if="qr" class="qr" v-html="qr" role="img" :aria-label="T.qrLabel"></div>
-          <button type="button" class="addr" @click="copy" :aria-label="`${T.copyAddr} ${btc}`">
-            <code>{{ btc }}</code><em>{{ copied ? T.copied : T.copy }}</em>
+          <button type="button" class="addr" @click="copy" :aria-label="`${T.copyAddr} ${BTC_ADDRESS}`">
+            <code>{{ BTC_ADDRESS }}</code><em>{{ copied ? T.copied : T.copy }}</em>
           </button>
-          <a class="cta" :href="`bitcoin:${btc}`">{{ T.wallet }}</a>
+          <a class="cta" :href="`bitcoin:${BTC_ADDRESS}`">{{ T.wallet }}</a>
         </div>
       </div>
     </div>

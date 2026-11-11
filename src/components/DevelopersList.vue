@@ -1,21 +1,26 @@
 <script setup>
 import { ref } from "vue";
 import { withBase } from "vitepress";
+import { useClipboard } from "../composables/useClipboard.js";
 import { useT } from "../i18n/index.js";
-const T = useT("people", { copy: "copy", copied: "copied", label: "BlackArch developers" });
 import developers from "../data/developers.json";
 
-const copied = ref("");
+const T = useT("people", {
+  copy: "copy",
+  copied: "copied",
+  label: "BlackArch developers",
+});
+
+const { copy, isCopied } = useClipboard();
+// Avatars that fail to load fall back to the initials badge.
 const broken = ref({});
-async function copy(key) {
-  try {
-    await navigator.clipboard.writeText(key);
-    copied.value = key;
-    setTimeout(() => (copied.value = ""), 1500);
-  } catch {}
-}
-const initials = (n) =>
-  n.split(/\s+/).map((p) => p[0]).slice(0, 2).join("").toUpperCase();
+const initials = (name) =>
+  name
+    .split(/\s+/)
+    .map((part) => part[0])
+    .slice(0, 2)
+    .join("")
+    .toUpperCase();
 </script>
 
 <template>
@@ -36,7 +41,7 @@ const initials = (n) =>
       <span class="role">{{ d.role }}</span>
       <a class="mail" :href="`mailto:${d.email}`">{{ d.email }}</a>
       <button type="button" class="key" @click="copy(d.gpg_key)" :title="`Copy GPG key ${d.gpg_key}`">
-        <span>GPG</span><code>{{ d.gpg_key }}</code><em>{{ copied === d.gpg_key ? T.copied : T.copy }}</em>
+        <span>GPG</span><code>{{ d.gpg_key }}</code><em>{{ isCopied(d.gpg_key) ? T.copied : T.copy }}</em>
       </button>
     </article>
   </section>
