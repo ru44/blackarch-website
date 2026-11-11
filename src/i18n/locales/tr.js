@@ -21,7 +21,7 @@ export default {
       },
       {
         t: "Kategoriye göre kurulum",
-        d: "blackarch grubunun tamamını ya da blackarch-webapp gibi tek bir grubu kurun.",
+        d: "blackarch-webapp gibi bir kategorinin tamamını ya da yalnızca ihtiyacınız olan araçları kurun.",
       },
       {
         t: "Mevcut Arch'ınızda çalışır",

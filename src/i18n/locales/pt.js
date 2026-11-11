@@ -21,7 +21,7 @@ export default {
       },
       {
         t: "Instalação por categoria",
-        d: "Instale o grupo blackarch completo ou apenas um, como blackarch-webapp.",
+        d: "Instale uma categoria inteira, como blackarch-webapp, ou apenas as ferramentas de que precisa.",
       },
       {
         t: "Funciona no seu Arch",

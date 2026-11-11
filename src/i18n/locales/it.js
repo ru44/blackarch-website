@@ -21,7 +21,7 @@ export default {
       },
       {
         t: "Installazione per categoria",
-        d: "Installa l'intero gruppo blackarch oppure solo una categoria, come blackarch-webapp.",
+        d: "Installa un'intera categoria, come blackarch-webapp, oppure solo gli strumenti che ti servono.",
       },
       {
         t: "Funziona sul tuo Arch",
@@ -200,7 +200,7 @@ export default {
         q: "Come posso scaricare e installare l'ultimo aggiornamento disponibile?",
         a: [
           { p: "Basta eseguire pacman:" },
-          { code: "sudo pacman -Syu --needed --overwrite='*' blackarch" },
+          { code: "sudo pacman -Syu" },
           { p: "Questo comando richiede privilegi di root." },
         ],
       },

@@ -21,7 +21,7 @@ export default {
       },
       {
         t: "Instal per kategori",
-        d: "Instal seluruh grup blackarch atau satu grup saja, misalnya blackarch-webapp.",
+        d: "Instal satu kategori penuh, misalnya blackarch-webapp, atau hanya alat yang Anda perlukan.",
       },
       {
         t: "Berjalan di Arch Anda",

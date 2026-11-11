@@ -16,7 +16,7 @@ export default {
         t: "一条命令安装任意工具",
         d: "超过 2800 个工具，均可通过 pacman -S 安装。完整列表见工具页面。",
       },
-      { t: "按类别安装", d: "安装整个 blackarch 组，或单独的组，例如 blackarch-webapp。" },
+      { t: "按类别安装", d: "安装整个类别（例如 blackarch-webapp），或只安装需要的工具。" },
       { t: "可在现有 Arch 上使用", d: "通过 strap.sh 将仓库添加到现有系统，无需重新安装。" },
     ],
   },

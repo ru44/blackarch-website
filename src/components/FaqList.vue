@@ -63,7 +63,7 @@ const EN = [
     q: "How can I fetch/install the latest update available?",
     a: [
       { p: "By simply running pacman" },
-      { code: "sudo pacman -Syu --needed --overwrite='*' blackarch" },
+      { code: "sudo pacman -Syu" },
       { p: "This command requires root privileges." },
     ],
   },

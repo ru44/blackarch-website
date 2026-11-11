@@ -25,7 +25,7 @@ const T = useT("home", {
     },
     {
       t: "Install by category",
-      d: "Pull the whole blackarch group or a slice like blackarch-webapp.",
+      d: "Install a whole category such as blackarch-webapp, or only the tools you need.",
     },
     {
       t: "Works on your Arch",

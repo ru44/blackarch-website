@@ -21,7 +21,7 @@ export default {
       },
       {
         t: "Instalare pe categorii",
-        d: "Instalați întregul grup blackarch sau doar unul, de exemplu blackarch-webapp.",
+        d: "Instalați o categorie întreagă, de exemplu blackarch-webapp, sau doar uneltele de care aveți nevoie.",
       },
       {
         t: "Funcționează pe Arch-ul dvs.",
