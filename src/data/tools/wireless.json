@@ -3,396 +3,720 @@
     "name": "airflood",
     "version": "0.1",
     "description": "A modification of aireplay that allows for a DoS of the AP. This program fills the table of clients of the AP with random MACs doing impossible new connections. [Tool in Spanish]",
-    "url": "http://packetstormsecurity.com/files/51127/airflood-0.1.tar.gz.html"
+    "url": "http://packetstormsecurity.com/files/51127/airflood-0.1.tar.gz.html",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2019-01-25"
   },
   {
     "name": "airgeddon",
     "version": "v12.02.r0.g700ad7d",
     "description": "Multi-use bash script for Linux systems to audit wireless networks.",
-    "url": "https://github.com/v1s1t0r1sh3r3/airgeddon"
+    "url": "https://github.com/v1s1t0r1sh3r3/airgeddon",
+    "groups": [
+      "wireless",
+      "automation"
+    ],
+    "updated": "2026-09-26"
   },
   {
     "name": "airopy",
     "version": "5.b83f11d",
     "description": "Get (wireless) clients and access points.",
-    "url": "https://github.com/Josue87/Airopy"
+    "url": "https://github.com/Josue87/Airopy",
+    "groups": [
+      "wireless",
+      "sniffer"
+    ],
+    "updated": "2026-02-02"
   },
   {
     "name": "airoscript",
     "version": "45.0a122ee",
     "description": "A script to simplify the use of aircrack-ng tools.",
-    "url": "http://midnightresearch.com/projects/wicrawl/"
+    "url": "http://midnightresearch.com/projects/wicrawl/",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2026-02-03"
   },
   {
     "name": "airpwn",
     "version": "1.4",
     "description": "A tool for generic packet injection on an 802.11 network.",
-    "url": "https://airpwn.sourceforge.net/"
+    "url": "https://airpwn.sourceforge.net/",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2015-01-29"
   },
   {
     "name": "aphopper",
     "version": "0.3",
     "description": "A program that automatically hops between access points of different wireless networks.",
-    "url": "http://aphopper.sourceforge.net/"
+    "url": "http://aphopper.sourceforge.net/",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2017-06-02"
   },
   {
     "name": "apnbf",
     "version": "0.1",
     "description": "A small python script designed for enumerating valid APNs (Access Point Name) on a GTP-C speaking device.",
-    "url": "https://c0decafe.de/"
+    "url": "https://c0decafe.de/",
+    "groups": [
+      "wireless",
+      "scanner"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "atear",
     "version": "139.245ec8d",
     "description": "Wireless Hacking, WiFi Security, Vulnerability Analyzer, Pentestration.",
-    "url": "https://github.com/NORMA-Inc/AtEar"
+    "url": "https://github.com/NORMA-Inc/AtEar",
+    "groups": [
+      "wireless",
+      "recon",
+      "scanner"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "auto-eap",
     "version": "18.ee36d37",
     "description": "Automated Brute-Force Login Attacks Against EAP Networks.",
-    "url": "https://github.com/Tylous/Auto_EAP"
+    "url": "https://github.com/Tylous/Auto_EAP",
+    "groups": [
+      "wireless",
+      "cracker"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "batman-adv",
     "version": "2019.2",
     "description": "Batman kernel module, (included upstream since .38)",
-    "url": "https://www.open-mesh.net/"
+    "url": "https://www.open-mesh.net/",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2019-05-26"
   },
   {
     "name": "batman-alfred",
     "version": "2026.3",
     "description": "Almighty Lightweight Fact Remote Exchange Daemon.",
-    "url": "https://www.open-mesh.org/"
+    "url": "https://www.open-mesh.org/",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "beholder",
     "version": "0.8.10",
     "description": "A wireless intrusion detection tool that looks for anomalies in a wifi environment.",
-    "url": "https://www.beholderwireless.org/"
+    "url": "https://www.beholderwireless.org/",
+    "groups": [
+      "wireless",
+      "defensive"
+    ],
+    "updated": "2015-01-17"
+  },
+  {
+    "name": "berate_ap",
+    "version": "v0.4.6.r100.ged4ba9b",
+    "description": "Script for orchestrating mana rogue WiFi Access Points.",
+    "url": "https://github.com/sensepost/berate_ap",
+    "groups": [
+      "wireless",
+      "networking",
+      "spoof"
+    ],
+    "updated": "2026-09-06"
   },
   {
     "name": "boopsuite",
     "version": "170.16c902f",
     "description": "A Suite of Tools written in Python for wireless auditing and security testing.",
-    "url": "https://github.com/M1ND-B3ND3R/BoopSuite"
+    "url": "https://github.com/M1ND-B3ND3R/BoopSuite",
+    "groups": [
+      "wireless",
+      "sniffer"
+    ],
+    "updated": "2019-01-27"
   },
   {
     "name": "create_ap",
     "version": "265.462c09f",
     "description": "A shell script to create a NATed/Bridged Software Access Point.",
-    "url": "https://github.com/oblique/create_ap"
+    "url": "https://github.com/oblique/create_ap",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2021-01-23"
   },
   {
     "name": "eapeak",
     "version": "130.9550d1c",
     "description": "Analysis Suite For EAP Enabled Wireless Networks.",
-    "url": "https://github.com/rsmusllp/eapeak"
+    "url": "https://github.com/rsmusllp/eapeak",
+    "groups": [
+      "wireless",
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "eaphammer",
     "version": "v1.14.1.r0.g91e8956",
     "description": "Targeted evil twin attacks against WPA2-Enterprise networks. Indirect wireless pivots using hostile portal attacks.",
-    "url": "https://github.com/s0lst1c3/eaphammer"
+    "url": "https://github.com/s0lst1c3/eaphammer",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "fern-wifi-cracker",
     "version": "303.58ed54e",
     "description": "WEP, WPA wifi cracker for wireless penetration testing.",
-    "url": "https://github.com/savio-code/fern-wifi-cracker"
+    "url": "http://code.google.com/p/fern-wifi-cracker/",
+    "groups": [
+      "wireless",
+      "cracker"
+    ],
+    "updated": "2026-04-05"
   },
   {
     "name": "freewifi",
     "version": "30.1cb752b",
     "description": "How to get free wifi.",
-    "url": "https://github.com/kylemcdonald/FreeWifi"
+    "url": "https://github.com/kylemcdonald/FreeWifi",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "fuzzap",
     "version": "17.057002b",
     "description": "A python script for obfuscating wireless networks.",
-    "url": "https://github.com/PlantDaddy/FuzzAP"
+    "url": "https://github.com/PlantDaddy/FuzzAP",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "g72x++",
     "version": "1",
     "description": "Decoder for the g72x++ codec.",
-    "url": "https://www.ps-auxw.de/"
+    "url": "https://www.ps-auxw.de/",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2025-12-14"
   },
   {
     "name": "gerix-wifi-cracker",
     "version": "1.1c3cd73",
     "description": "A graphical user interface for aircrack-ng and pyrit.",
-    "url": "https://github.com/TigerSecurity"
+    "url": "https://github.com/TigerSecurity",
+    "groups": [
+      "wireless",
+      "misc"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "giskismet",
     "version": "2.9ebe9d0",
     "description": "A program to visually represent the Kismet data in a flexible manner.",
-    "url": "https://www.giskismet.org"
+    "url": "https://www.giskismet.org",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2025-12-14"
   },
   {
     "name": "hashcatch",
     "version": "52.8145660",
     "description": "Capture handshakes of nearby WiFi networks automatically.",
-    "url": "https://github.com/staz0t/hashcatch/releases"
+    "url": "https://github.com/staz0t/hashcatch/releases",
+    "groups": [
+      "wireless",
+      "cracker"
+    ],
+    "updated": "2020-03-21"
   },
   {
     "name": "hoover",
     "version": "4.9bda860",
     "description": "Wireless Probe Requests Sniffer.",
-    "url": "https://github.com/xme/hoover"
+    "url": "https://github.com/xme/hoover",
+    "groups": [
+      "wireless",
+      "sniffer"
+    ],
+    "updated": "2025-07-18"
+  },
+  {
+    "name": "hostapd-mana",
+    "version": "2.6.5.r20.g8853d5a",
+    "description": "Modified hostapd for Wi-Fi attacks to create a rogue access point.",
+    "url": "https://github.com/sensepost/hostapd-mana",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2025-09-26"
   },
   {
     "name": "hostapd-wpe",
     "version": "2.11",
     "description": "Modified hostapd to facilitate AP impersonation attacks.",
-    "url": "https://w1.fi/hostapd/"
+    "url": "https://w1.fi/hostapd/",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2024-10-10"
   },
   {
     "name": "hotspotter",
     "version": "0.5",
-    "description": "Hotspotter passively monitors the network for probe request frames to identify the preferred networks of Windows XP clients, and will compare it to a supplied list of common hotspot network names.",
-    "url": "http://www.remote-exploit.org/?page_id=418"
+    "description": "Passively monitor the network for probe request frames to identify the preferred networks of Windows XP clients, and compare it to a supplied list of common hotspot network names.",
+    "url": "http://www.remote-exploit.org/?page_id=418",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2025-12-18"
+  },
+  {
+    "name": "hwk",
+    "version": "0.4",
+    "description": "Collection of packet crafting and wireless network flooding tools",
+    "url": "https://nullsecurity.net/",
+    "groups": [
+      "wireless",
+      "fuzzer",
+      "scanner",
+      "dos"
+    ],
+    "updated": "2025-11-30"
   },
   {
     "name": "jcrack",
     "version": "0.3.6",
     "description": "A utility to create dictionary files that will crack the default passwords of select wireless gateways",
-    "url": "http://www.thedrahos.net/jcrack/"
+    "url": "http://www.thedrahos.net/jcrack/",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2017-04-08"
   },
   {
     "name": "kismet-earth",
     "version": "0.1",
     "description": "Various scripts to convert kismet logs to kml file to be used in Google Earth.",
-    "url": "https://www.blackarch.org/"
+    "url": "https://www.blackarch.org/",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "kismet2earth",
     "version": "2.0",
-    "description": "A set of utilities that convert from Kismet logs to Google Earth .kml format",
-    "url": "https://code.google.com/archive/p/kismet2earth"
+    "description": "A set of utilities that convert from Kismet logs to Google Earth .kml format.",
+    "url": "https://code.google.com/archive/p/kismet2earth",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "kismon",
     "version": "1.0.3",
     "description": "GUI client for kismet (wireless scanner/sniffer/monitor).",
-    "url": "https://www.salecker.org/software/kismon.html"
+    "url": "https://www.salecker.org/software/kismon.html",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "mana",
     "version": "68.56bcfcd",
     "description": "A toolkit for rogue access point (evilAP) attacks first presented at Defcon 22.",
-    "url": "https://github.com/sensepost/mana"
+    "url": "https://github.com/sensepost/mana",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2015-06-15"
   },
   {
     "name": "mdk3",
     "version": "v6",
     "description": "WLAN penetration tool.",
-    "url": "https://aspj.aircrack-ng.org/"
+    "url": "https://aspj.aircrack-ng.org/",
+    "groups": [
+      "wireless",
+      "fuzzer",
+      "exploitation"
+    ],
+    "updated": "2024-12-06"
   },
   {
     "name": "mfcuk",
     "version": "0.3.8",
     "description": "MIFARE Classic Universal toolKit.",
-    "url": "https://github.com/nfc-tools/mfcuk"
+    "url": "http://code.google.com/p/mfcuk/",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2020-12-26"
   },
   {
     "name": "mitmap",
     "version": "89.b590f9a",
     "description": "A python program to create a fake AP and sniff data.",
-    "url": "https://github.com/xdavidhu/mitmAP"
+    "url": "https://github.com/xdavidhu/mitmAP",
+    "groups": [
+      "wireless",
+      "sniffer"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "mousejack",
     "version": "5.58b69c1",
     "description": "Wireless mouse/keyboard attack with replay/transmit poc.",
-    "url": "https://github.com/iamckn/mousejack_transmit"
+    "url": "https://github.com/iamckn/mousejack_transmit",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "mtscan",
     "version": "176.dd44f0e",
     "description": "Mikrotik RouterOS wireless scanner.",
-    "url": "https://github.com/kkonradpl/mtscan"
+    "url": "https://github.com/kkonradpl/mtscan",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2026-07-19"
   },
   {
     "name": "netattack",
     "version": "24.230b856",
     "description": "Python script to scan and attack wireless networks.",
-    "url": "https://github.com/chrizator/netattack2"
+    "url": "https://github.com/chrizator/netattack2",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "nzyme",
     "version": "1.2.2",
     "description": "WiFi defense system.",
-    "url": "https://www.nzyme.org/download"
+    "url": "https://www.nzyme.org/download",
+    "groups": [
+      "wireless",
+      "defensive"
+    ],
+    "updated": "2022-03-14"
   },
   {
     "name": "pidense",
     "version": "29.ef26704",
     "description": "Monitor illegal wireless network activities. (Fake Access Points)",
-    "url": "https://github.com/WiPi-Hunter/PiDense"
+    "url": "https://github.com/WiPi-Hunter/PiDense",
+    "groups": [
+      "wireless",
+      "defensive"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "python-trackerjacker",
     "version": "2.0.5",
     "description": "Finds and tracks wifi devices through raw 802.11 monitoring.",
-    "url": "https://github.com/calebmadrigal/trackerjacker"
+    "url": "https://github.com/calebmadrigal/trackerjacker",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "rfidiot",
     "version": "331.57c030b",
     "description": "An open source python library for exploring RFID devices.",
-    "url": "http://rfidiot.org/"
+    "url": "http://rfidiot.org/",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "rfidtool",
     "version": "0.2",
-    "description": "A opensource tool to read / write rfid tags",
-    "url": "http://www.bindshell.net/tools/rfidtool.html"
+    "description": "An open source tool to read / write rfid tags.",
+    "url": "http://www.bindshell.net/tools/rfidtool.html",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2025-12-21"
   },
   {
     "name": "roguehostapd",
     "version": "1.0.r45.g381b373",
     "description": "Hostapd fork including Wi-Fi attacks and providing Python bindings with ctypes.",
-    "url": "https://github.com/wifiphisher/roguehostapd"
+    "url": "https://github.com/wifiphisher/roguehostapd",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2026-02-04"
   },
   {
     "name": "rtl8814au-dkms-git",
     "version": "5.8.5.1.r207.g1840d7b",
     "description": "RTL8814AU and RTL8813AU chipset driver with firmware v5.8.5.1.",
-    "url": "https://github.com/morrownr/8814au"
+    "url": "https://github.com/morrownr/8814au",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2026-08-24"
   },
   {
     "name": "sniff-probe-req",
     "version": "v0.8.0.r29.g0dacf88",
     "description": "Wi-Fi Probe Requests Sniffer.",
-    "url": "https://github.com/SkypLabs/probequest"
+    "url": "https://github.com/SkypLabs/probequest",
+    "groups": [
+      "wireless",
+      "sniffer"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "spectools",
     "version": "3.0",
-    "description": "Spectrum-Tools is a set of utilities for using the Wi-Spy USB spectrum analyzer hardware. Stable version.",
-    "url": "https://www.kismetwireless.net/spectools/"
+    "description": "Spectrum-Tools is a set of utilities for using the Wi-Spy USB spectrum analyzer hardware.",
+    "url": "https://www.kismetwireless.net/spectools/",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2025-12-22"
   },
   {
     "name": "timegen",
     "version": "0.4",
     "description": "This program generates a *.wav file to \"send\" an own time signal to DCF77 compatible devices.",
-    "url": "https://bastianborn.de/radio-clock-hack"
+    "url": "https://bastianborn.de/radio-clock-hack",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2026-09-12"
   },
   {
     "name": "ubitack",
     "version": "0.3",
     "description": "Tool, which automates some of the tasks you might need on a (wireless) penetration test or while you are on the go.",
-    "url": "https://code.google.com/archive/p/ubitack/"
+    "url": "https://code.google.com/archive/p/ubitack/",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2026-09-12"
   },
   {
     "name": "waidps",
     "version": "16.ff8d270",
     "description": "Wireless Auditing, Intrusion Detection & Prevention System.",
-    "url": "https://github.com/SYWorks/waidps"
+    "url": "https://github.com/SYWorks/waidps",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "wepbuster",
     "version": "1.0_beta_0.7",
-    "description": "script for automating aircrack-ng",
-    "url": "https://code.google.com/archive/p/wepbuster/"
-  },
-  {
-    "name": "wi-feye",
-    "version": "1.1",
-    "description": "An automated wireless penetration testing tool written in python, its designed to simplify common attacks that can be performed on wifi networks so that they can be executed quickly and easily.",
-    "url": "http://wi-feye.za1d.com/download.php"
+    "description": "Script for automating aircrack-ng.",
+    "url": "https://code.google.com/archive/p/wepbuster/",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2026-09-12"
   },
   {
     "name": "wifi-pumpkin",
     "version": "v1.1.7.r2.g344a475",
     "description": "Framework for Rogue Wi-Fi Access Point Attack.",
-    "url": "https://github.com/P0cL4bs/wifipumpkin3"
+    "url": "https://github.com/P0cL4bs/wifipumpkin3",
+    "groups": [
+      "wireless",
+      "dos",
+      "spoof",
+      "exploitation",
+      "sniffer",
+      "social"
+    ],
+    "updated": "2026-01-14"
   },
   {
     "name": "wifibroot",
     "version": "84.d0cd2cc",
     "description": "A WiFi Pentest Cracking tool for WPA/WPA2 (Handshake, PMKID, Cracking, EAPOL, Deauthentication).",
-    "url": "https://github.com/hash3liZer/WiFiBroot"
+    "url": "https://github.com/hash3liZer/WiFiBroot",
+    "groups": [
+      "wireless",
+      "cracker"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "wificurse",
     "version": "0.3.9",
     "description": "WiFi jamming tool.",
-    "url": "https://github.com/oblique/wificurse"
+    "url": "https://github.com/oblique/wificurse",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2018-11-12"
   },
   {
     "name": "wifijammer",
     "version": "100.be05dab",
     "description": "A python script to continuously jam all wifi clients within range.",
-    "url": "https://github.com/DanMcInerney/wifijammer"
+    "url": "https://github.com/DanMcInerney/wifijammer",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "wifiphisher",
     "version": "800.4ae3365",
     "description": "Fast automated phishing attacks against WPA networks.",
-    "url": "https://github.com/wifiphisher/wifiphisher"
+    "url": "https://github.com/wifiphisher/wifiphisher",
+    "groups": [
+      "wireless",
+      "social"
+    ],
+    "updated": "2026-06-01"
   },
   {
     "name": "wifiscanmap",
     "version": "135.9adcd08",
     "description": "Another wifi mapping tool.",
-    "url": "https://github.com/mehdilauters/wifiScanMap"
+    "url": "https://github.com/mehdilauters/wifiScanMap",
+    "groups": [
+      "wireless",
+      "scanner"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "wifitap",
     "version": "2b16088",
     "description": "WiFi injection tool through tun/tap device.",
-    "url": "https://github.com/GDSSecurity/wifitap"
+    "url": "https://github.com/GDSSecurity/wifitap",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "wireless-ids",
     "version": "24.b132071",
     "description": "Ability to detect suspicious activity such as (WEP/WPA/WPS) attack by sniffing the air for wireless packets.",
-    "url": "https://github.com/SYWorks/wireless-ids"
+    "url": "https://github.com/SYWorks/wireless-ids",
+    "groups": [
+      "wireless",
+      "sniffer",
+      "defensive"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "wirouter-keyrec",
     "version": "1.1.2",
     "description": "A platform independent software to recover the default WPA passphrases of the supported router models",
-    "url": "https://www.salvatorefresta.net/#tools"
+    "url": "https://www.salvatorefresta.net/#tools",
+    "groups": [
+      "wireless",
+      "cracker"
+    ],
+    "updated": "2019-01-24"
   },
   {
     "name": "wlan2eth",
     "version": "1.3",
     "description": "Re-writes 802.11 captures into standard Ethernet frames.",
-    "url": "https://www.willhackforsushi.com/resources/wlan2eth/"
+    "url": "https://www.willhackforsushi.com/resources/wlan2eth/",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2026-09-14"
   },
   {
     "name": "wpa-bruteforcer",
     "version": "4.d5f8586",
     "description": "Attacking WPA/WPA encrypted access point without client.",
-    "url": "https://github.com/SYWorks/wpa-bruteforcer"
+    "url": "https://github.com/SYWorks/wpa-bruteforcer",
+    "groups": [
+      "wireless"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "wpa2-halfhandshake-crack",
     "version": "29.3f42124",
     "description": "A POC to show it is possible to capture enough of a handshake with a user from a fake AP to crack a WPA2 network without knowing the passphrase of the actual AP.",
-    "url": "https://github.com/dxa4481/WPA2-HalfHandshake-Crack"
+    "url": "https://github.com/dxa4481/WPA2-HalfHandshake-Crack",
+    "groups": [
+      "wireless",
+      "cracker"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "wpsik",
     "version": "8.8d3856b",
     "description": "WPS scan and pwn tool.",
-    "url": "https://github.com/0x90/wpsik"
+    "url": "https://github.com/0x90/wpsik",
+    "groups": [
+      "wireless",
+      "scanner"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "zizzania",
     "version": "124.8f2062f",
     "description": "Automated DeAuth attack.",
-    "url": "https://github.com/cyrus-and/zizzania"
+    "url": "https://github.com/cyrus-and/zizzania",
+    "groups": [
+      "wireless",
+      "dos",
+      "sniffer"
+    ],
+    "updated": "2016-12-28"
   },
   {
     "name": "zykeys",
     "version": "0.1",
     "description": "Demonstrates how default wireless settings are derived on some models of ZyXEL routers.",
-    "url": "http://packetstormsecurity.com/files/119156/Zykeys-Wireless-Tool.html"
+    "url": "http://packetstormsecurity.com/files/119156/Zykeys-Wireless-Tool.html",
+    "groups": [
+      "wireless",
+      "cracker"
+    ],
+    "updated": "2023-03-01"
   }
 ]

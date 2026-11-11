@@ -1,0 +1,112 @@
+[
+  {
+    "name": "adversarial-robustness-toolbox",
+    "version": "1.20.1.r258.ge8cfffd",
+    "description": "Python Library for Machine Learning Security.",
+    "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox",
+    "groups": [
+      "ai",
+      "defensive"
+    ],
+    "updated": "2026-10-31"
+  },
+  {
+    "name": "aimap",
+    "version": "1.1.1",
+    "description": "Security scanner and fingerprinter for AI/ML infrastructure. Identifies 23 service types including LLMs, vector databases, and model servers.",
+    "url": "https://github.com/Nicholas-Kloster/aimap",
+    "groups": [
+      "ai",
+      "scanner",
+      "recon",
+      "networking"
+    ],
+    "updated": "2026-04-21"
+  },
+  {
+    "name": "cai",
+    "version": "1.6dc7925",
+    "description": "The framework for AI Security.",
+    "url": "https://github.com/aliasrobotics/cai",
+    "groups": [
+      "ai",
+      "automation"
+    ],
+    "updated": "2026-08-24"
+  },
+  {
+    "name": "cleverhans",
+    "version": "v4.0.0.r7.g574efc1",
+    "description": "Python library to benchmark machine learning systems vulnerability to adversarial examples.",
+    "url": "https://github.com/cleverhans-lab/cleverhans",
+    "groups": [
+      "ai",
+      "defensive"
+    ],
+    "updated": "2026-01-12"
+  },
+  {
+    "name": "deepzero",
+    "version": "deepzero.v0.4.0.r4.g1bf1818",
+    "description": "Find zero-days while you sleep. An automated vulnerability research framework.",
+    "url": "https://github.com/416rehman/DeepZero",
+    "groups": [
+      "ai",
+      "automation"
+    ],
+    "updated": "2026-10-31"
+  },
+  {
+    "name": "evil-opencode",
+    "version": "1.19.0",
+    "description": "OpenCode coding-agent fork with LLM prompt guardrails removed and outbound telemetry disabled.",
+    "url": "https://github.com/winmin/evil-opencode",
+    "groups": [
+      "ai"
+    ],
+    "updated": "2026-10-12"
+  },
+  {
+    "name": "garak",
+    "version": "0.17.1.r31.g4b7761c",
+    "description": "The LLM vulnerability scanner.",
+    "url": "https://github.com/NVIDIA/garak",
+    "groups": [
+      "ai",
+      "scanner"
+    ],
+    "updated": "2026-10-31"
+  },
+  {
+    "name": "giskard",
+    "version": "3.0.1.r32.g9a30fc3",
+    "description": "Evaluation, testing and vulnerability scanning framework for AI agents.",
+    "url": "https://github.com/Giskard-AI/giskard-oss",
+    "groups": [
+      "ai"
+    ],
+    "updated": "2026-10-31"
+  },
+  {
+    "name": "medusa-ai",
+    "version": "2026.7.0",
+    "description": "AI-first security scanner for code, AI/ML, LLM agents, MCP and RAG applications.",
+    "url": "https://github.com/Pantheon-Security/medusa",
+    "groups": [
+      "ai",
+      "code-audit",
+      "scanner"
+    ],
+    "updated": "2026-10-25"
+  },
+  {
+    "name": "promptfoo",
+    "version": "0.120.20",
+    "description": "Test and evaluate LLM outputs - AI red teaming, pentesting, and vulnerability scanning.",
+    "url": "https://github.com/promptfoo/promptfoo",
+    "groups": [
+      "ai"
+    ],
+    "updated": "2026-02-12"
+  }
+]

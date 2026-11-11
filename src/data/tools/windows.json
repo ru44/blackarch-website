@@ -3,912 +3,1778 @@
     "name": "3proxy-win32",
     "version": "0.9.6.1",
     "description": "Tiny free proxy server.",
-    "url": "https://3proxy.ru/"
+    "url": "https://3proxy.ru/",
+    "groups": [
+      "windows",
+      "proxy"
+    ],
+    "updated": "2026-06-29"
   },
   {
     "name": "adape-script",
     "version": "43.4d0b9ff",
     "description": "Active Directory Assessment and Privilege Escalation Script.",
-    "url": "https://github.com/hausec/ADAPE-Script"
+    "url": "https://github.com/hausec/ADAPE-Script",
+    "groups": [
+      "windows",
+      "exploitation"
+    ],
+    "updated": "2026-02-02"
   },
   {
     "name": "adpeas",
     "version": "1.3.0.r15.g0bfcedc",
     "description": "winPEAS, but for Active Directory.",
-    "url": "https://github.com/ajm4n/adpeas"
+    "url": "https://github.com/ajm4n/adpeas",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2026-01-15"
   },
   {
     "name": "agafi",
     "version": "1.1",
     "description": "A gadget finder and a ROP-Chainer tool for x86 platforms.",
-    "url": "https://github.com/helpsystems/Agafi"
+    "url": "https://github.com/helpsystems/Agafi",
+    "groups": [
+      "windows",
+      "exploitation"
+    ],
+    "updated": "2019-01-24"
   },
   {
     "name": "analyzepesig",
     "version": "0.0.0.5",
     "description": "Analyze digital signature of PE file.",
-    "url": "https://blog.didierstevens.com/my-software/#AnalyzePESig"
+    "url": "https://blog.didierstevens.com/my-software/#AnalyzePESig",
+    "groups": [
+      "windows",
+      "binary",
+      "forensic"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "antiransom",
     "version": "5",
     "description": "A tool capable of detect and stop attacks of Ransomware using honeypots.",
-    "url": "https://www.security-projects.com/?Anti_Ransom___Download"
+    "url": "https://www.security-projects.com/?Anti_Ransom___Download",
+    "groups": [
+      "windows",
+      "defensive",
+      "honeypot"
+    ],
+    "updated": "2022-02-26"
   },
   {
     "name": "atstaketools",
     "version": "0.1",
     "description": "This is an archive of various @Stake tools that help perform vulnerability scanning and analysis, information gathering, password auditing, and forensics.",
-    "url": "http://packetstormsecurity.com/files/50718/AtStakeTools.zip.html"
+    "url": "http://packetstormsecurity.com/files/50718/AtStakeTools.zip.html",
+    "groups": [
+      "windows",
+      "scanner",
+      "forensic",
+      "cracker",
+      "sniffer",
+      "recon"
+    ],
+    "updated": "2018-11-15"
   },
   {
     "name": "backorifice",
     "version": "1.0",
     "description": "A remote administration system which allows a user to control a computer across a tcpip connection using a simple console or GUI application.",
-    "url": "https://cultdeadcow.com/tools/bo.html"
-  },
-  {
-    "name": "breads",
-    "version": "131.2d97bcc",
-    "description": "BREaking Active Directory Security; focused on enumerating and attacking Active Directory environments through LDAP and SMB protocols.",
-    "url": "https://github.com/oppsec/breads"
+    "url": "https://cultdeadcow.com/tools/bo.html",
+    "groups": [
+      "windows",
+      "backdoor"
+    ],
+    "updated": "2018-11-12"
   },
   {
     "name": "browselist",
     "version": "1.4",
     "description": "Retrieves the browse list ; the output list contains computer names, and the roles they play in the network.",
-    "url": "https://vidstromlabs.com/browselist/"
+    "url": "https://vidstromlabs.com/browselist/",
+    "groups": [
+      "windows",
+      "recon"
+    ],
+    "updated": "2024-10-03"
   },
   {
     "name": "brute12",
     "version": "1",
     "description": "A tool designed for auditing the cryptography container security in PKCS12 format.",
-    "url": "https://www.security-projects.com/?Brute12"
+    "url": "https://www.security-projects.com/?Brute12",
+    "groups": [
+      "windows",
+      "cracker",
+      "crypto"
+    ],
+    "updated": "2020-12-06"
   },
   {
     "name": "brutus",
     "version": "2",
     "description": "One of the fastest, most flexible remote password crackers you can get your hands on.",
-    "url": "http://www.hoobie.net/brutus/"
+    "url": "http://www.hoobie.net/brutus/",
+    "groups": [
+      "windows",
+      "cracker"
+    ],
+    "updated": "2018-11-12"
   },
   {
     "name": "cachedump",
     "version": "1.1",
     "description": "A tool that demonstrates how to recover cache entry information: username and hashed password (called MSCASH).",
-    "url": "https://packetstormsecurity.com/files/36781/cachedump-1.1.zip.html"
+    "url": "https://packetstormsecurity.com/files/36781/cachedump-1.1.zip.html",
+    "groups": [
+      "windows",
+      "cracker"
+    ],
+    "updated": "2018-11-15"
   },
   {
     "name": "certi",
     "version": "6.6cfa656",
     "description": "Active Directory Certificate Services (ADCS) abuser. impacket copy of Certify.",
-    "url": "https://github.com/zer1t0/certi"
+    "url": "https://github.com/zer1t0/certi",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "certipy",
     "version": "5.1.0.r12.g3ae3442",
     "description": "Active Directory Certificate Services enumeration and abuse.",
-    "url": "https://github.com/ly4k/Certipy"
+    "url": "https://github.com/ly4k/Certipy",
+    "groups": [
+      "windows",
+      "exploitation"
+    ],
+    "updated": "2026-08-02"
   },
   {
     "name": "chrome-decode",
     "version": "0.1",
     "description": "Chrome web browser decoder tool that demonstrates recovering passwords.",
-    "url": "http://packetstormsecurity.com/files/119153/Chrome-Web-Browser-Decoder.html"
+    "url": "http://packetstormsecurity.com/files/119153/Chrome-Web-Browser-Decoder.html",
+    "groups": [
+      "windows",
+      "cracker",
+      "crypto"
+    ],
+    "updated": "2018-11-15"
   },
   {
     "name": "chromensics",
     "version": "1.0",
     "description": "A Google chrome forensics tool.",
-    "url": "https://sourceforge.net/projects/chromensics/"
+    "url": "https://sourceforge.net/projects/chromensics/",
+    "groups": [
+      "windows",
+      "forensic"
+    ],
+    "updated": "2018-11-12"
   },
   {
     "name": "conpass",
     "version": "0.1.1",
     "description": "Password spraying in AD environment avoing account locking.",
-    "url": "https://github.com/login-securite/conpass"
+    "url": "https://github.com/login-securite/conpass",
+    "groups": [
+      "windows",
+      "cracker"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "crackmapexec-pingcastle",
     "version": "9.16340d2",
     "description": "NetExec & CrackMapExec module that execute PingCastle on a remote machine.",
-    "url": "https://github.com/TRIKKSS/CrackMapExec-PingCastle"
+    "url": "https://github.com/TRIKKSS/CrackMapExec-PingCastle",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2024-05-05"
   },
   {
     "name": "dark-dork-searcher",
     "version": "1.0",
     "description": "Dark-Dork Searcher.",
-    "url": "http://rafale.org/~mattoufoutu/darkc0de.com/c0de/c/"
+    "url": "http://rafale.org/~mattoufoutu/darkc0de.com/c0de/c/",
+    "groups": [
+      "windows",
+      "scanner"
+    ],
+    "updated": "2019-09-27"
   },
   {
     "name": "darkarmour",
     "version": "4.f10228a",
     "description": "Store and execute an encrypted windows binary from inside memory, without a single bit touching disk.",
-    "url": "https://github.com/bats3c/darkarmour"
+    "url": "https://github.com/bats3c/darkarmour",
+    "groups": [
+      "windows",
+      "malware"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "de4dot",
     "version": "2090.b7d5728",
     "description": ".NET deobfuscator and unpacker.",
-    "url": "https://github.com/de4dot/de4dot"
+    "url": "https://github.com/de4dot/de4dot",
+    "groups": [
+      "windows",
+      "unpacker",
+      "binary",
+      "reversing"
+    ],
+    "updated": "2024-11-13"
+  },
+  {
+    "name": "de4dotex",
+    "version": "3.4.0.r4.gc21584f",
+    "description": ".NET deobfuscator and unpacker.",
+    "url": "https://github.com/GDATAAdvancedAnalytics/de4dotEx",
+    "groups": [
+      "windows",
+      "unpacker",
+      "binary",
+      "reversing"
+    ],
+    "updated": "2026-03-28"
   },
   {
     "name": "directorytraversalscan",
     "version": "1.0.1.0",
     "description": "Detect directory traversal vulnerabilities in HTTP servers and web applications.",
-    "url": "https://sourceforge.net/projects/httpdirscan/"
+    "url": "https://sourceforge.net/projects/httpdirscan/",
+    "groups": [
+      "windows",
+      "webapp"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "dnspy",
     "version": "6.1.8",
     "description": ".NET debugger and assembly editor.",
-    "url": "https://github.com/dnSpy/dnSpy"
+    "url": "https://github.com/dnSpy/dnSpy",
+    "groups": [
+      "windows",
+      "decompiler",
+      "binary",
+      "reversing"
+    ],
+    "updated": "2024-10-10"
   },
   {
     "name": "donpapi",
     "version": "V1.2.0.r41.g4f01e2b",
     "description": "Dumping revelant information on compromised targets without AV detection with DPAPI.",
-    "url": "https://github.com/login-securite/DonPAPI"
+    "url": "https://github.com/login-securite/DonPAPI",
+    "groups": [
+      "windows",
+      "exploitation"
+    ],
+    "updated": "2026-09-13"
   },
   {
     "name": "dotpeek",
     "version": "2021.3.3",
     "description": "Free .NET Decompiler and Assembly Browser.",
-    "url": "https://www.jetbrains.com/decompiler/"
+    "url": "https://www.jetbrains.com/decompiler/",
+    "groups": [
+      "windows",
+      "decompiler",
+      "binary",
+      "reversing"
+    ],
+    "updated": "2022-02-27"
   },
   {
     "name": "dumpacl",
     "version": "0.1",
     "description": "Dumps NTs ACLs and audit settings.",
-    "url": "http://www.systemtools.com/cgi-bin/download.pl?DumpAcl"
+    "url": "http://www.systemtools.com/cgi-bin/download.pl?DumpAcl",
+    "groups": [
+      "windows",
+      "cracker"
+    ],
+    "updated": "2019-12-24"
   },
   {
     "name": "dumpusers",
     "version": "1.0",
     "description": "Dumps account names and information even though RestrictAnonymous has been set to 1.",
-    "url": "https://vidstromlabs.com/freetools/dumpusers/"
+    "url": "https://vidstromlabs.com/freetools/dumpusers/",
+    "groups": [
+      "windows",
+      "recon"
+    ],
+    "updated": "2024-10-03"
   },
   {
     "name": "eraser",
     "version": "6.2.0.2992",
     "description": "Windows tool which allows you to completely remove sensitive data from your hard drive by overwriting it several times with carefully selected patterns.",
-    "url": "https://eraser.heidi.ie/download/"
+    "url": "https://eraser.heidi.ie/download/",
+    "groups": [
+      "windows",
+      "defensive"
+    ],
+    "updated": "2021-06-20"
   },
   {
     "name": "etherchange",
     "version": "1.1",
     "description": "Can change the Ethernet address of the network adapters in Windows.",
-    "url": "https://vidstromlabs.com/freetools/etherchange/"
+    "url": "https://vidstromlabs.com/freetools/etherchange/",
+    "groups": [
+      "windows",
+      "misc"
+    ],
+    "updated": "2024-10-03"
   },
   {
     "name": "etherflood",
     "version": "1.1",
     "description": "Floods a switched network with Ethernet frames with random hardware addresses.",
-    "url": "http://ntsecurity.nu/toolbox/etherflood/"
+    "url": "http://ntsecurity.nu/toolbox/etherflood/",
+    "groups": [
+      "windows",
+      "dos",
+      "networking"
+    ],
+    "updated": "2016-07-28"
+  },
+  {
+    "name": "evil-winrm-py",
+    "version": "1.7.0",
+    "description": "WinRM shell for Windows and Active Directory pentesting.",
+    "url": "https://github.com/adityatelange/evil-winrm-py",
+    "groups": [
+      "windows",
+      "exploitation",
+      "backdoor"
+    ],
+    "updated": "2026-10-06"
+  },
+  {
+    "name": "extractbitlockerkeys",
+    "version": "1.2.r20.g54730e4",
+    "description": "Script to automatically extract the bitlocker recovery keys from a domain.",
+    "url": "https://github.com/p0dalirius/extractbitlockerkeys",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2026-01-21"
   },
   {
     "name": "filefuzz",
     "version": "1.0",
     "description": "A binary file fuzzer for Windows with several options.",
-    "url": "http://www.fuzzing.org/"
+    "url": "http://www.fuzzing.org/",
+    "groups": [
+      "windows",
+      "fuzzer"
+    ],
+    "updated": "2018-11-12"
+  },
+  {
+    "name": "finduncommonshares",
+    "version": "3.3.r1.gaef0f0d",
+    "description": "Python script allowing to quickly find uncommon shares in vast Windows Domains.",
+    "url": "https://github.com/p0dalirius/pyFindUncommonShares",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2026-10-03"
   },
   {
     "name": "fport",
     "version": "2.0",
     "description": "Identify unknown open ports and their associated applications.",
-    "url": "http://www.foundstone.com/us/resources/proddesc/fport.htm"
+    "url": "http://www.foundstone.com/us/resources/proddesc/fport.htm",
+    "groups": [
+      "windows",
+      "recon",
+      "fingerprint"
+    ],
+    "updated": "2018-11-12"
   },
   {
     "name": "fred",
     "version": "0.1.1",
     "description": "Cross-platform M$ registry hive editor.",
-    "url": "https://www.pinguin.lu/fred"
+    "url": "https://www.pinguin.lu/fred",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2019-11-16"
   },
   {
     "name": "fuzztalk",
     "version": "1.0.0.0",
     "description": "An XML driven fuzz testing framework that emphasizes easy extensibility and reusability.",
-    "url": "https://code.google.com/archive/p/fuzztalk"
+    "url": "https://code.google.com/p/fuzztalk",
+    "groups": [
+      "windows",
+      "fuzzer"
+    ],
+    "updated": "2025-12-06"
   },
   {
     "name": "gene",
     "version": "78.faf8cc0",
     "description": "Signature Engine for Windows Event Logs.",
-    "url": "https://github.com/0xrawsec/gene"
+    "url": "https://github.com/0xrawsec/gene",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2022-12-02"
   },
   {
     "name": "ghostpack",
     "version": "123.20a5f0a",
     "description": "Compiled Binaries for Ghostpack (.NET v4.8.1).",
-    "url": "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries"
+    "url": "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2024-10-27"
   },
   {
     "name": "gplist",
     "version": "1.0",
     "description": "Lists information about the applied Group Policies.",
-    "url": "https://vidstromlabs.com/freetools/gplist/"
+    "url": "https://vidstromlabs.com/freetools/gplist/",
+    "groups": [
+      "windows",
+      "recon"
+    ],
+    "updated": "2024-10-03"
   },
   {
     "name": "gpowned",
     "version": "25.5de0c77",
     "description": "GPOs manipulation tool.",
-    "url": "https://github.com/X-C3LL/gpowned"
+    "url": "https://github.com/X-C3LL/gpowned",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2026-07-19"
   },
   {
     "name": "grabitall",
     "version": "1.1",
     "description": "Performs traffic redirection by sending spoofed ARP replies.",
-    "url": "http://ntsecurity.nu/toolbox/grabitall/"
+    "url": "http://ntsecurity.nu/toolbox/grabitall/",
+    "groups": [
+      "windows",
+      "spoof",
+      "networking"
+    ],
+    "updated": "2016-07-28"
   },
   {
     "name": "gsd",
     "version": "1.1",
     "description": "Gives you the Discretionary Access Control List of any Windows NT service you specify as a command line option.",
-    "url": "https://vidstromlabs.com/freetools/gsd/"
+    "url": "https://vidstromlabs.com/freetools/gsd/",
+    "groups": [
+      "windows",
+      "recon"
+    ],
+    "updated": "2024-10-03"
   },
   {
     "name": "gtalk-decode",
     "version": "0.1",
     "description": "Google Talk decoder tool that demonstrates recovering passwords from accounts.",
-    "url": "http://packetstormsecurity.com/files/119154/Google-Talk-Decoder.html"
+    "url": "http://packetstormsecurity.com/files/119154/Google-Talk-Decoder.html",
+    "groups": [
+      "windows",
+      "crypto",
+      "cracker"
+    ],
+    "updated": "2018-11-15"
   },
   {
     "name": "handle",
     "version": "0.1",
     "description": "An small application designed to analyze your system searching for global objects related to running process and display information for every found object, like tokens, semaphores, ports, files,..",
-    "url": "http://www.tarasco.org/security/handle/index.html"
+    "url": "http://www.tarasco.org/security/handle/index.html",
+    "groups": [
+      "windows",
+      "recon"
+    ],
+    "updated": "2020-07-23"
   },
   {
     "name": "hekatomb",
     "version": "107.bdd53cf",
     "description": "Extract and decrypt all credentials from all domain computers using DPAPI.",
-    "url": "https://github.com/ProcessusT/HEKATOMB"
+    "url": "https://github.com/ProcessusT/HEKATOMB",
+    "groups": [
+      "windows",
+      "exploitation"
+    ],
+    "updated": "2026-01-12"
+  },
+  {
+    "name": "hexodus",
+    "version": "72.69a96f6",
+    "description": "Python framework project designed to enumerate and help in Active Directory attacks through Windows protocols like SMB, LDAP, WinRM and other.",
+    "url": "https://github.com/0xdsm/hexodus",
+    "groups": [
+      "windows",
+      "exploitation",
+      "recon"
+    ],
+    "updated": "2026-06-10"
   },
   {
     "name": "hollows-hunter",
     "version": "0.4.1.1",
     "description": "Scans all running processes. Recognizes and dumps a variety of potentially malicious implants (replaced/injected PEs, shellcodes, hooks, in-memory patches).",
-    "url": "https://github.com/hasherezade/hollows_hunter"
+    "url": "https://github.com/hasherezade/hollows_hunter",
+    "groups": [
+      "windows",
+      "malware",
+      "binary"
+    ],
+    "updated": "2025-09-14"
   },
   {
     "name": "hookanalyser",
     "version": "3.4",
     "description": "A hook tool which can be potentially helpful in reversing applications and analyzing malware. It can hook to an API in a process and search for a pattern in memory or dump the buffer.",
-    "url": "http://hookanalyser.blogspot.de/"
+    "url": "http://hookanalyser.blogspot.de/",
+    "groups": [
+      "windows",
+      "reversing"
+    ],
+    "updated": "2017-04-04"
   },
   {
     "name": "httpbog",
     "version": "1.0.0.0",
     "description": "A slow HTTP denial-of-service tool that works similarly to other attacks, but rather than leveraging request headers or POST data Bog consumes sockets by slowly reading responses.",
-    "url": "https://sourceforge.net/projects/httpbog/"
+    "url": "https://sourceforge.net/projects/httpbog/",
+    "groups": [
+      "windows",
+      "dos"
+    ],
+    "updated": "2018-11-12"
   },
   {
     "name": "httprecon",
     "version": "7.3",
     "description": "Tool for web server fingerprinting, also known as http fingerprinting.",
-    "url": "http://www.computec.ch/projekte/httprecon/?s=download"
+    "url": "http://www.computec.ch/projekte/httprecon/?s=download",
+    "groups": [
+      "windows",
+      "fingerprint"
+    ],
+    "updated": "2018-11-12"
   },
   {
     "name": "httprint-win32",
     "version": "301",
     "description": "A web server fingerprinting tool (Windows binaries).",
-    "url": "http://net-square.com/httprint"
+    "url": "http://net-square.com/httprint",
+    "groups": [
+      "windows",
+      "fingerprint"
+    ],
+    "updated": "2018-11-12"
   },
   {
     "name": "hyperion-crypter",
     "version": "2.3.1",
     "description": "A runtime encrypter for 32-bit and 64-bit portable executables.",
-    "url": "https://nullsecurity.net/tools/binary.html"
+    "url": "https://nullsecurity.net/tools/binary.html",
+    "groups": [
+      "windows",
+      "binary",
+      "crypto"
+    ],
+    "updated": "2020-03-23"
   },
   {
     "name": "ikeprobe",
     "version": "0.1",
     "description": "Determine vulnerabilities in the PSK implementation of the VPN server.",
-    "url": "https://ernw.de/download/ikeprobe.zip"
+    "url": "https://ernw.de/download/ikeprobe.zip",
+    "groups": [
+      "windows",
+      "scanner",
+      "cracker"
+    ],
+    "updated": "2018-11-12"
   },
   {
     "name": "intercepter-ng",
     "version": "1.0",
     "description": "A next generation sniffer including a lot of features: capturing passwords/hashes, sniffing chat messages, performing man-in-the-middle attacks, etc.",
-    "url": "http://sniff.su/download.html"
+    "url": "http://sniff.su/download.html",
+    "groups": [
+      "windows",
+      "wireless",
+      "sniffer",
+      "networking",
+      "cracker"
+    ],
+    "updated": "2018-11-12"
   },
   {
     "name": "inzider",
     "version": "1.2",
     "description": "This is a tool that lists processes in your Windows system and the ports each one listen on.",
-    "url": "https://vidstromlabs.com/freetools/inzider/"
+    "url": "https://vidstromlabs.com/freetools/inzider/",
+    "groups": [
+      "windows",
+      "recon"
+    ],
+    "updated": "2024-10-03"
   },
   {
     "name": "juicy-potato",
     "version": "53.744d321",
     "description": "A sugared version of RottenPotatoNG, with a bit of juice.",
-    "url": "https://github.com/ohpe/juicy-potato"
+    "url": "https://github.com/ohpe/juicy-potato",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2021-03-13"
   },
   {
     "name": "justdecompile",
     "version": "22018",
     "description": "The decompilation engine of JustDecompile.",
-    "url": "https://github.com/telerik/JustDecompileEngine/releases"
+    "url": "https://github.com/telerik/JustDecompileEngine/releases",
+    "groups": [
+      "windows",
+      "decompiler",
+      "binary",
+      "reversing"
+    ],
+    "updated": "2019-06-18"
   },
   {
     "name": "kekeo",
     "version": "2.2.0_20211214",
     "description": "A little toolbox to play with Microsoft Kerberos in C.",
-    "url": "https://github.com/gentilkiwi/kekeo"
+    "url": "https://github.com/gentilkiwi/kekeo",
+    "groups": [
+      "windows",
+      "cracker"
+    ],
+    "updated": "2022-03-07"
   },
   {
     "name": "kerbcrack",
     "version": "1.3d3",
     "description": "Kerberos sniffer and cracker for Windows.",
-    "url": "http://ntsecurity.nu/toolbox/kerbcrack/"
+    "url": "http://ntsecurity.nu/toolbox/kerbcrack/",
+    "groups": [
+      "windows",
+      "sniffer",
+      "cracker"
+    ],
+    "updated": "2016-07-28"
   },
   {
     "name": "klogger",
     "version": "1.0",
     "description": "A keystroke logger for the NT-series of Windows.",
-    "url": "http://ntsecurity.nu/toolbox/klogger/"
+    "url": "http://ntsecurity.nu/toolbox/klogger/",
+    "groups": [
+      "windows",
+      "keylogger"
+    ],
+    "updated": "2025-12-15"
   },
   {
     "name": "ldapmonitor",
     "version": "1.4.r13.g6f9dfcb",
     "description": "Monitor creation, deletion and changes to LDAP objects live during your pentest or system administration!",
-    "url": "https://github.com/p0dalirius/ldapmonitor"
+    "url": "https://github.com/p0dalirius/ldapmonitor",
+    "groups": [
+      "windows",
+      "misc"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "lethalhta",
     "version": "2.5602402",
     "description": "Lateral Movement technique using DCOM and HTA.",
-    "url": "https://github.com/codewhitesec/LethalHTA"
+    "url": "https://github.com/codewhitesec/LethalHTA",
+    "groups": [
+      "windows",
+      "exploitation"
+    ],
+    "updated": "2022-10-30"
   },
   {
     "name": "lolbas",
     "version": "192.d148d27",
     "description": "Living Off The Land Binaries And Scripts - (LOLBins and LOLScripts).",
-    "url": "https://github.com/api0cradle/LOLBAS"
+    "url": "https://github.com/api0cradle/LOLBAS",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2018-12-16"
   },
   {
     "name": "malwareanalyser",
     "version": "3.3",
     "description": "A freeware tool to perform static and dynamic analysis on malware.",
-    "url": "http://malwareanalyser.blogspot.de/2011/10/malware-analyser-33.html"
+    "url": "http://malwareanalyser.blogspot.de/2011/10/malware-analyser-33.html",
+    "groups": [
+      "windows",
+      "malware",
+      "defensive",
+      "reversing"
+    ],
+    "updated": "2018-11-12"
   },
   {
     "name": "mbenum",
     "version": "1.5.0",
     "description": "Queries the master browser for whatever information it has registered.",
-    "url": "http://www.cqure.net/wp/mbenum/"
+    "url": "http://www.cqure.net/wp/mbenum/",
+    "groups": [
+      "windows",
+      "recon"
+    ],
+    "updated": "2018-11-12"
   },
   {
     "name": "memimager",
     "version": "1.0",
     "description": "Performs a memory dump using NtSystemDebugControl.",
-    "url": "http://ntsecurity.nu/toolbox/memimager/"
+    "url": "http://ntsecurity.nu/toolbox/memimager/",
+    "groups": [
+      "windows",
+      "forensic"
+    ],
+    "updated": "2016-07-28"
   },
   {
     "name": "mimikatz",
     "version": "2.2.0_20220919",
     "description": "A little tool to play with Windows security.",
-    "url": "https://github.com/gentilkiwi/mimikatz"
+    "url": "https://github.com/gentilkiwi/mimikatz",
+    "groups": [
+      "windows",
+      "cracker"
+    ],
+    "updated": "2024-03-16"
   },
   {
     "name": "mingsweeper",
     "version": "1.00",
     "description": "A network reconnaissance tool designed to facilitate large address space,high speed node discovery and identification.",
-    "url": "http://www.hoobie.net/mingsweeper/"
+    "url": "http://www.hoobie.net/mingsweeper/",
+    "groups": [
+      "windows",
+      "recon",
+      "scanner"
+    ],
+    "updated": "2018-11-12"
   },
   {
     "name": "modifycerttemplate",
     "version": "7.4c35708",
     "description": "Aid operators in modifying ADCS certificate templates so that a created vulnerable state can be leveraged for privilege escalation.",
-    "url": "https://github.com/fortalice/modifyCertTemplate"
+    "url": "https://github.com/fortalice/modifyCertTemplate",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "mrkaplan",
     "version": "1.1.1",
     "description": "Help red teamers to stay hidden by clearing evidence of execution.",
-    "url": "https://github.com/Idov31/MrKaplan"
+    "url": "https://github.com/Idov31/MrKaplan",
+    "groups": [
+      "windows",
+      "exploitation"
+    ],
+    "updated": "2023-04-12"
   },
   {
     "name": "mssqlrelay",
     "version": "12.1e03c96",
     "description": "Microsoft SQL Relay is an offensive tool for auditing and abusing Microsoft SQL (MSSQL) services.",
-    "url": "https://github.com/CompassSecurity/mssqlrelay"
+    "url": "https://github.com/CompassSecurity/mssqlrelay",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2026-08-02"
   },
   {
     "name": "msvpwn",
     "version": "65.328921b",
     "description": "Bypass Windows' authentication via binary patching.",
-    "url": "https://bitbucket.org/mrabault/msvpwn"
+    "url": "https://bitbucket.org/mrabault/msvpwn",
+    "groups": [
+      "windows",
+      "binary",
+      "backdoor"
+    ],
+    "updated": "2015-01-03"
   },
   {
     "name": "nbname",
     "version": "1.0",
     "description": "Decodes and displays all NetBIOS name packets it receives on UDP port 137 and more!",
-    "url": "https://cultdeadcow.com/tools/bo.html"
+    "url": "https://cultdeadcow.com/tools/bo.html",
+    "groups": [
+      "windows",
+      "sniffer",
+      "recon",
+      "dos",
+      "scanner"
+    ],
+    "updated": "2018-11-12"
   },
   {
     "name": "nbtenum",
     "version": "3.3",
     "description": "A utility for Windows that can be used to enumerate NetBIOS information from one host or a range of hosts.",
-    "url": "http://reedarvin.thearvins.com/"
+    "url": "http://reedarvin.thearvins.com/",
+    "groups": [
+      "windows",
+      "scanner",
+      "recon"
+    ],
+    "updated": "2018-11-12"
   },
   {
     "name": "netbus",
     "version": "1.6",
     "description": "NetBus remote administration tool",
-    "url": "https://packetstormsecurity.com/files/10320/nb16_p04.zip.html"
+    "url": "https://packetstormsecurity.com/files/10320/nb16_p04.zip.html",
+    "groups": [
+      "windows",
+      "backdoor"
+    ],
+    "updated": "2020-07-23"
   },
   {
     "name": "netexec-pingcastle",
     "version": "9.16340d2",
     "description": "NetExec & CrackMapExec module that execute PingCastle on a remote machine.",
-    "url": "https://github.com/TRIKKSS/CrackMapExec-PingCastle"
+    "url": "https://github.com/TRIKKSS/CrackMapExec-PingCastle",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2024-05-05"
   },
   {
     "name": "netripper",
     "version": "84.c763bd0",
     "description": "Smart traffic sniffing for penetration testers.",
-    "url": "https://github.com/NytroRST/NetRipper"
+    "url": "https://github.com/NytroRST/NetRipper",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2022-06-26"
   },
   {
     "name": "netstumbler",
     "version": "0.4.0",
     "description": "Well-known wireless AP scanner and sniffer.",
-    "url": "https://www.netstumbler.com/downloads/"
+    "url": "https://www.netstumbler.com/downloads/",
+    "groups": [
+      "windows",
+      "wireless"
+    ],
+    "updated": "2018-11-12"
+  },
+  {
+    "name": "nimrm",
+    "version": "v1.2.0.r12.g322c670",
+    "description": "Native WinRM shell client with NTLM, Kerberos, file transfers, in-memory operations, and multi-session support.",
+    "url": "https://github.com/blue0x1/nimrm",
+    "groups": [
+      "windows",
+      "exploitation",
+      "backdoor"
+    ],
+    "updated": "2026-09-13"
   },
   {
     "name": "nirsoft",
     "version": "1.30.23",
     "description": "Unique collection of small and useful freeware utilities.",
-    "url": "https://www.nirsoft.net"
+    "url": "https://www.nirsoft.net",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2026-04-29"
   },
   {
     "name": "nishang",
     "version": "0.7.6",
     "description": "Using PowerShell for Penetration Testing.",
-    "url": "https://code.google.com/archive/p/nishang"
+    "url": "https://code.google.com/p/nishang/",
+    "groups": [
+      "windows",
+      "misc"
+    ],
+    "updated": "2018-11-12"
   },
   {
     "name": "ntds-decode",
     "version": "0.1",
     "description": "This application dumps LM and NTLM hashes from active accounts stored in an Active Directory database.",
-    "url": "http://packetstormsecurity.com/files/121543/NTDS-Hash-Decoder-01.b.html"
+    "url": "http://packetstormsecurity.com/files/121543/NTDS-Hash-Decoder-01.b.html",
+    "groups": [
+      "windows",
+      "cracker"
+    ],
+    "updated": "2018-11-15"
   },
   {
     "name": "orakelcrackert",
     "version": "1.00",
     "description": "This tool can crack passwords which are encrypted using Oracle's latest SHA1 based password protection algorithm.",
-    "url": "https://github.com/hackerschoice/THC-Archive/blob/master/Tools/thc-orakelcrackert11g.tar.gz"
+    "url": "https://github.com/hackerschoice/THC-Archive/blob/master/Tools/thc-orakelcrackert11g.tar.gz",
+    "groups": [
+      "windows",
+      "cracker"
+    ],
+    "updated": "2025-11-30"
   },
   {
     "name": "osslsigncode",
     "version": "750.868d6e9",
     "description": "A small tool that implements part of the functionality of the Microsoft tool signtool.exe.",
-    "url": "https://github.com/mtrojnar/osslsigncode"
+    "url": "https://github.com/mtrojnar/osslsigncode",
+    "groups": [
+      "windows",
+      "binary",
+      "automation"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "pafish",
     "version": "193.b497899",
     "description": "A demonstration tool that employs several techniques to detect sandboxes and analysis environments in the same way as malware families do.",
-    "url": "http://www.hoobie.net/pafish/"
+    "url": "http://www.hoobie.net/pafish/",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2021-11-20"
   },
   {
     "name": "pe-bear",
     "version": "0.7.2",
     "description": "A freeware reversing tool for PE files.",
-    "url": "https://github.com/hasherezade/pe-bear"
+    "url": "https://github.com/hasherezade/pe-bear",
+    "groups": [
+      "windows",
+      "malware",
+      "binary",
+      "reversing",
+      "disassembler"
+    ],
+    "updated": "2026-06-29"
   },
   {
     "name": "pe-sieve",
     "version": "0.4.1.1",
     "description": "Scans a given process. Recognizes and dumps a variety of potentially malicious implants (replaced/injected PEs, shellcodes, hooks, in-memory patches).",
-    "url": "https://github.com/hasherezade/pe-sieve"
+    "url": "https://github.com/hasherezade/pe-sieve",
+    "groups": [
+      "windows",
+      "malware",
+      "binary"
+    ],
+    "updated": "2025-09-14"
   },
   {
     "name": "periscope",
     "version": "3.2",
     "description": "A PE file inspection tool.",
-    "url": "https://vidstromlabs.com/freetools/periscope/"
+    "url": "https://vidstromlabs.com/freetools/periscope/",
+    "groups": [
+      "windows",
+      "forensic",
+      "binary"
+    ],
+    "updated": "2024-10-03"
   },
   {
     "name": "petools",
     "version": "1.9.762",
     "description": "Portable executable (PE) manipulation toolkit.",
-    "url": "https://github.com/petoolse/petools"
+    "url": "https://github.com/petoolse/petools",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2018-11-12"
   },
   {
     "name": "pextractor",
     "version": "0.18b",
     "description": "A forensics tool that can extract all files from an executable file created by a joiner or similar.",
-    "url": "http://packetstormsecurity.com/files/62977/PExtractor_v0.18b_binary_and_src.rar.html"
+    "url": "http://packetstormsecurity.com/files/62977/PExtractor_v0.18b_binary_and_src.rar.html",
+    "groups": [
+      "windows",
+      "forensic",
+      "binary"
+    ],
+    "updated": "2018-11-15"
   },
   {
     "name": "php-vulnerability-hunter",
     "version": "1.4.0.20",
     "description": "An whitebox fuzz testing tool capable of detected several classes of vulnerabilities in PHP web applications.",
-    "url": "https://phpvulnhunter.codeplex.com/"
+    "url": "https://phpvulnhunter.codeplex.com/",
+    "groups": [
+      "windows",
+      "webapp",
+      "code-audit"
+    ],
+    "updated": "2025-12-16"
   },
   {
     "name": "pingcastle",
     "version": "3.4.1.38",
     "description": "Active Directory scanning tool.",
-    "url": "https://www.pingcastle.com"
+    "url": "https://www.pingcastle.com",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2025-08-10"
   },
   {
     "name": "pmap",
     "version": "1.10",
     "description": "Passively discover, scan, and fingerprint link-local peers by the background noise they generate (i.e. their broadcast and multicast traffic).",
-    "url": "http://www.hellfiresecurity.com/tools.htm"
+    "url": "http://www.hellfiresecurity.com/tools.htm",
+    "groups": [
+      "windows",
+      "recon",
+      "scanner",
+      "fingerprint"
+    ],
+    "updated": "2018-11-12"
   },
   {
     "name": "pmdump",
     "version": "1.2",
     "description": "A tool that lets you dump the memory contents of a process to a file without stopping the process.",
-    "url": "https://vidstromlabs.com/freetools/pmdump/"
+    "url": "https://vidstromlabs.com/freetools/pmdump/",
+    "groups": [
+      "windows",
+      "forensic"
+    ],
+    "updated": "2024-10-03"
   },
   {
     "name": "powercloud",
     "version": "21.0928303",
     "description": "Deliver powershell payloads via DNS TXT via CloudFlare using PowerShell.",
-    "url": "https://github.com/mantvydasb/Invoke-PowerCloud"
+    "url": "https://github.com/mantvydasb/Invoke-PowerCloud",
+    "groups": [
+      "windows",
+      "exploitation"
+    ],
+    "updated": "2019-05-31"
   },
   {
     "name": "powerlessshell",
     "version": "117.b168ccb",
     "description": "Run PowerShell command without invoking powershell.exe.",
-    "url": "https://github.com/Mr-Un1k0d3r/PowerLessShell"
+    "url": "https://github.com/Mr-Un1k0d3r/PowerLessShell",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2026-04-12"
   },
   {
     "name": "powerops",
     "version": "32.13fe55b",
     "description": "PowerShell Runspace Portable Post Exploitation Tool aimed at making Penetration Testing with PowerShell \"easier\".",
-    "url": "https://github.com/fdiskyou/PowerOPS"
+    "url": "https://github.com/fdiskyou/PowerOPS",
+    "groups": [
+      "windows",
+      "automation"
+    ],
+    "updated": "2019-03-17"
   },
   {
     "name": "powershdll",
     "version": "72.62cfa17",
     "description": "Run PowerShell with rundll32. Bypass software restrictions.",
-    "url": "https://github.com/p3nt4/PowerShdll"
+    "url": "https://github.com/p3nt4/PowerShdll",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2021-03-20"
   },
   {
     "name": "ppee",
     "version": "1.12",
     "description": "A Professional PE file Explorer for reversers, malware researchers and those who want to statically inspect PE files in more details.",
-    "url": "https://www.mzrst.com/"
+    "url": "https://www.mzrst.com/",
+    "groups": [
+      "windows",
+      "malware",
+      "reversing",
+      "binary"
+    ],
+    "updated": "2019-01-26"
   },
   {
     "name": "pre2k",
     "version": "24.ff51b3b",
     "description": "Query for existence of pre-windows 2000 computer objects which can be leveraged to gain a foothold in a target domain.",
-    "url": "https://github.com/garrettfoster13/pre2k-TS"
+    "url": "https://github.com/garrettfoster13/pre2k-TS",
+    "groups": [
+      "windows",
+      "recon"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "promiscdetect",
     "version": "1.0",
     "description": "Checks if your network adapter(s) is running in promiscuous mode, which may be a sign that you have a sniffer running on your computer.",
-    "url": "https://vidstromlabs.com/freetools/promiscdetect/"
+    "url": "https://vidstromlabs.com/freetools/promiscdetect/",
+    "groups": [
+      "windows",
+      "networking",
+      "defensive"
+    ],
+    "updated": "2024-10-03"
   },
   {
     "name": "pstoreview",
     "version": "1.0",
     "description": "Lists the contents of the Protected Storage.",
-    "url": "https://vidstromlabs.com/freetools/pstoreview/"
+    "url": "https://vidstromlabs.com/freetools/pstoreview/",
+    "groups": [
+      "windows",
+      "misc"
+    ],
+    "updated": "2025-12-15"
   },
   {
     "name": "pwdump",
     "version": "7.1",
     "description": "Extracts the binary SAM and SYSTEM file from the filesystem and then the hashes.",
-    "url": "http://www.tarasco.org/security/pwdump_7/index.html"
+    "url": "http://www.tarasco.org/security/pwdump_7/index.html",
+    "groups": [
+      "windows",
+      "cracker"
+    ],
+    "updated": "2018-11-12"
+  },
+  {
+    "name": "pyadrecon",
+    "version": "0.10.2",
+    "description": "Gathers information about the Active Directory and generates a report which can provide a holistic picture of the current state of the target AD environment.",
+    "url": "https://github.com/l4rm4nd/PyADRecon",
+    "groups": [
+      "windows",
+      "networking",
+      "reocn"
+    ],
+    "updated": "2026-02-15"
   },
   {
     "name": "pygpoabuse",
     "version": "51.c18e1de",
     "description": "RCE via GPO scheduled tasks.",
-    "url": "https://github.com/Hackndo/pyGPOAbuse"
+    "url": "https://github.com/Hackndo/pyGPOAbuse",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2026-06-13"
   },
   {
     "name": "python2-minidump",
     "version": "19.749e6da",
     "description": "Python library to parse and read Microsoft minidump file format.",
-    "url": "https://github.com/skelsec/minidump"
+    "url": "https://github.com/skelsec/minidump",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2019-04-12"
   },
   {
     "name": "python2-minikerberos",
     "version": "17.e7e8d0a",
     "description": "Kerberos manipulation library in pure Python.",
-    "url": "https://github.com/skelsec/minikerberos"
+    "url": "https://github.com/skelsec/minikerberos",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2019-04-12"
   },
   {
     "name": "radiography",
     "version": "2",
     "description": "A forensic tool which grabs as much information as possible from a Windows system.",
-    "url": "https://www.security-projects.com/?RadioGraPhy"
+    "url": "https://www.security-projects.com/?RadioGraPhy",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2015-09-07"
   },
   {
     "name": "rasenum",
     "version": "1.0",
     "description": "A small program which lists the information for all of the entries in any phonebook file (.pbk).",
-    "url": "https://cultdeadcow.com/tools/rasenum.html"
+    "url": "https://cultdeadcow.com/tools/rasenum.html",
+    "groups": [
+      "windows",
+      "recon"
+    ],
+    "updated": "2018-11-12"
   },
   {
     "name": "regreport",
     "version": "1.6",
     "description": "Windows registry forensic analysis tool.",
-    "url": "https://www.gaijin.at/dlregreport.php"
+    "url": "https://www.gaijin.at/dlregreport.php",
+    "groups": [
+      "windows",
+      "forensic"
+    ],
+    "updated": "2019-12-24"
   },
   {
     "name": "regview",
     "version": "1.3",
     "description": "Open raw Windows NT 5 Registry files (Windows 2000 or higher).",
-    "url": "https://www.gaijin.at/en/dlregview.php"
+    "url": "https://www.gaijin.at/en/dlregview.php",
+    "groups": [
+      "windows",
+      "forensic"
+    ],
+    "updated": "2018-09-11"
   },
   {
     "name": "resourcehacker",
     "version": "5.1.8",
     "description": "Resource compiler and decompiler for Windows® applications.",
-    "url": "http://www.angusj.com/resourcehacker/"
+    "url": "http://www.angusj.com/resourcehacker/",
+    "groups": [
+      "windows",
+      "reversing"
+    ],
+    "updated": "2021-06-23"
   },
   {
     "name": "roadlib",
     "version": "511.f7b0c47",
     "description": "Azure AD and O365 exploration framework.",
-    "url": "https://github.com/dirkjanm/ROADtools"
+    "url": "https://github.com/dirkjanm/ROADtools",
+    "groups": [
+      "windows",
+      "scanner",
+      "recon"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "roadoidc",
     "version": "511.f7b0c47",
     "description": "Azure AD and O365 exploration framework.",
-    "url": "https://github.com/dirkjanm/ROADtools"
+    "url": "https://github.com/dirkjanm/ROADtools",
+    "groups": [
+      "windows",
+      "scanner",
+      "recon"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "roadrecon",
     "version": "511.f7b0c47",
     "description": "Azure AD and O365 exploration framework.",
-    "url": "https://github.com/dirkjanm/ROADtools"
+    "url": "https://github.com/dirkjanm/ROADtools",
+    "groups": [
+      "windows",
+      "scanner",
+      "recon"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "roadtx",
     "version": "511.f7b0c47",
     "description": "Azure AD and O365 exploration framework.",
-    "url": "https://github.com/dirkjanm/ROADtools"
+    "url": "https://github.com/dirkjanm/ROADtools",
+    "groups": [
+      "windows",
+      "scanner",
+      "recon"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "rpak",
     "version": "1.0",
     "description": "A collection of tools that can be useful for doing attacks on routing protocols.",
-    "url": "http://ntsecurity.nu/toolbox/promisdetect/"
+    "url": "http://ntsecurity.nu/toolbox/promisdetect/",
+    "groups": [
+      "windows",
+      "networking",
+      "sniffer",
+      "spoof"
+    ],
+    "updated": "2016-07-28"
   },
   {
     "name": "rpcsniffer",
     "version": "7.9fab095",
     "description": "Sniffs WINDOWS RPC messages in a given RPC server process.",
-    "url": "https://github.com/AdiKo/RPCSniffer"
+    "url": "https://github.com/AdiKo/RPCSniffer",
+    "groups": [
+      "windows",
+      "sniffer"
+    ],
+    "updated": "2018-11-12"
   },
   {
     "name": "rpctools",
     "version": "1.0",
     "description": "Contains three separate tools for obtaining information from a system that is running RPC services",
-    "url": "https://packetstormsecurity.com/files/31879/rpctools-1.0.zip.html"
+    "url": "https://packetstormsecurity.com/files/31879/rpctools-1.0.zip.html",
+    "groups": [
+      "windows",
+      "recon",
+      "scanner"
+    ],
+    "updated": "2018-11-15"
   },
   {
     "name": "sccmhunter",
     "version": "v2.0.0.r79.ge32fe74",
     "description": "Identifying, profiling, and attacking SCCM related assets in an Active Directory domain.",
-    "url": "https://github.com/garrettfoster13/sccmhunter"
+    "url": "https://github.com/garrettfoster13/sccmhunter",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "setowner",
     "version": "1.1",
     "description": "Allows you to set file ownership to any account, as long as you have the \"Restore files and directories\" user right.",
-    "url": "http://ntsecurity.nu/toolbox/setowner/"
+    "url": "http://ntsecurity.nu/toolbox/setowner/",
+    "groups": [
+      "windows",
+      "binary"
+    ],
+    "updated": "2016-07-28"
   },
   {
     "name": "shad0w",
     "version": "387.d35b9dc",
     "description": "A modular C2 framework designed to successfully operate on mature environments.",
-    "url": "https://github.com/bats3c/shad0w"
+    "url": "https://github.com/bats3c/shad0w",
+    "groups": [
+      "windows",
+      "exploitation"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "shed",
     "version": "2.0.0",
     "description": ".NET runtime inspector.",
-    "url": "https://github.com/enkomio/shed"
+    "url": "https://github.com/enkomio/shed",
+    "groups": [
+      "windows",
+      "reversing"
+    ],
+    "updated": "2019-02-09"
   },
   {
     "name": "sigspotter",
     "version": "1.0",
     "description": "A tool that search in your HD to find which publishers has been signed binaries in your PC.",
-    "url": "https://www.security-projects.com/?SigSpotter"
+    "url": "https://www.security-projects.com/?SigSpotter",
+    "groups": [
+      "windows",
+      "misc"
+    ],
+    "updated": "2020-07-23"
   },
   {
     "name": "sipscan",
     "version": "0.1",
     "description": "A sip scanner.",
-    "url": "http://www.hackingvoip.com/sec_tools.html"
+    "url": "http://www.hackingvoip.com/sec_tools.html",
+    "groups": [
+      "windows",
+      "scanner",
+      "voip"
+    ],
+    "updated": "2018-11-13"
   },
   {
     "name": "skype-dump",
     "version": "0.1",
     "description": "This is a tool that demonstrates dumping MD5 password hashes from the configuration file in Skype.",
-    "url": "http://packetstormsecurity.com/files/119155/Skype-Hash-Dumper-1.0.html"
+    "url": "http://packetstormsecurity.com/files/119155/Skype-Hash-Dumper-1.0.html",
+    "groups": [
+      "windows",
+      "cracker"
+    ],
+    "updated": "2018-11-15"
   },
   {
     "name": "smbrelay",
     "version": "3",
     "description": "SMB / HTTP to SMB replay attack toolkit.",
-    "url": "http://www.tarasco.org/security/smbrelay/"
+    "url": "http://www.tarasco.org/security/smbrelay/",
+    "groups": [
+      "windows",
+      "networking",
+      "exploitation"
+    ],
+    "updated": "2018-11-13"
   },
   {
     "name": "snitch",
     "version": "1.2",
     "description": "Turn back the asterisks in password fields to plaintext passwords.",
-    "url": "http://ntsecurity.nu/toolbox/snitch/"
+    "url": "http://ntsecurity.nu/toolbox/snitch/",
+    "groups": [
+      "windows",
+      "cracker"
+    ],
+    "updated": "2016-07-28"
   },
   {
     "name": "snowman",
     "version": "0.1.3",
     "description": "A native code to C/C++ decompiler, see the examples of generated code.",
-    "url": "http://derevenets.com/"
+    "url": "http://derevenets.com/",
+    "groups": [
+      "windows",
+      "decompiler"
+    ],
+    "updated": "2020-06-15"
   },
   {
     "name": "snscan",
     "version": "1.05",
     "description": "A Windows based SNMP detection utility that can quickly and accurately identify SNMP enabled devices on a network.",
-    "url": "https://www.mcafee.com/en-us/antivirus/downloads.html"
+    "url": "https://www.mcafee.com/en-us/antivirus/downloads.html",
+    "groups": [
+      "windows",
+      "scanner"
+    ],
+    "updated": "2018-11-13"
   },
   {
     "name": "spade",
     "version": "114",
     "description": "A general-purpose Internet utility package, with some extra features to help in tracing the source of spam and other forms of Internet harassment.",
-    "url": "http://www.hoobie.net/brutus/"
+    "url": "http://www.hoobie.net/brutus/",
+    "groups": [
+      "windows",
+      "scanner",
+      "recon"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "sqldict",
     "version": "2.1",
     "description": "A dictionary attack tool for SQL Server.",
-    "url": "http://ntsecurity.nu/toolbox/sqldict/"
+    "url": "http://ntsecurity.nu/toolbox/sqldict/",
+    "groups": [
+      "windows",
+      "webapp"
+    ],
+    "updated": "2018-11-13"
   },
   {
     "name": "sqlping",
     "version": "4",
     "description": "SQL Server scanning tool that also checks for weak passwords using wordlists.",
-    "url": "https://www.sqlsecurity.com/downloads"
+    "url": "https://www.sqlsecurity.com/downloads",
+    "groups": [
+      "windows",
+      "webapp",
+      "exploitation"
+    ],
+    "updated": "2018-11-13"
   },
   {
     "name": "sqlpowerinjector",
     "version": "1.2",
     "description": "Application created in .Net 1.1 that helps the penetration tester to find and exploit SQL injections on a web page.",
-    "url": "http://www.sqlpowerinjector.com/download.htm"
+    "url": "http://www.sqlpowerinjector.com/download.htm",
+    "groups": [
+      "windows",
+      "webapp"
+    ],
+    "updated": "2018-11-13"
   },
   {
     "name": "streamfinder",
     "version": "1.2",
     "description": "Searches for Alternate Data Streams (ADS).",
-    "url": "https://www.gaijin.at/en/dlstreamfind.php"
+    "url": "https://www.gaijin.at/en/dlstreamfind.php",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2018-06-24"
   },
   {
     "name": "sub7",
     "version": "2.2",
     "description": "A remote administration tool. No further comments ;-)",
-    "url": "https://dl.packetstormsecurity.net/trojans/Subseven.2.2.zip"
+    "url": "https://dl.packetstormsecurity.net/trojans/Subseven.2.2.zip",
+    "groups": [
+      "windows",
+      "backdoor"
+    ],
+    "updated": "2018-11-13"
   },
   {
     "name": "superscan",
     "version": "4.1",
     "description": "Powerful TCP port scanner, pinger, resolver.",
-    "url": "http://www.foundstone.com/us/resources/proddesc/superscan.htm"
+    "url": "http://www.foundstone.com/us/resources/proddesc/superscan.htm",
+    "groups": [
+      "windows",
+      "scanner",
+      "recon"
+    ],
+    "updated": "2018-11-13"
   },
   {
     "name": "sysinternals-suite",
     "version": "6.4",
     "description": "Sysinternals tools suite.",
-    "url": "http://sysinternals.com/"
+    "url": "http://sysinternals.com/",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2024-07-28"
   },
   {
     "name": "targetedkerberoast",
     "version": "27.ebed079",
     "description": "Kerberoast with ACL abuse capabilities.",
-    "url": "https://github.com/ShutdownRepo/targetedkerberoast"
+    "url": "https://github.com/ShutdownRepo/targetedkerberoast",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "uacme",
     "version": "319.3f1885c",
     "description": "Defeating Windows User Account Control.",
-    "url": "https://github.com/hfiref0x/UACME"
+    "url": "https://github.com/hfiref0x/UACME",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2026-08-02"
   },
   {
     "name": "unsecure",
     "version": "1.2",
     "description": "Bruteforces network login masks.",
-    "url": "http://www.sniperx.net/"
+    "url": "http://www.sniperx.net/",
+    "groups": [
+      "windows",
+      "cracker"
+    ],
+    "updated": "2018-11-13"
   },
   {
     "name": "upnp-pentest-toolkit",
     "version": "1.1",
     "description": "UPnP Pentest Toolkit for Windows.",
-    "url": "https://github.com/nccgroup/UPnP-Pentest-Toolkit"
+    "url": "https://github.com/nccgroup/UPnP-Pentest-Toolkit",
+    "groups": [
+      "windows",
+      "scanner",
+      "recon",
+      "fuzzer"
+    ],
+    "updated": "2018-11-13"
   },
   {
     "name": "wce",
     "version": "1.41beta",
     "description": "A security tool to list logon sessions and add, change, list and delete associated credentials (ex.: LM/NT hashes, plaintext passwords and Kerberos tickets).",
-    "url": "http://www.hoobie.net/wce/"
+    "url": "http://www.hoobie.net/wce/",
+    "groups": [
+      "windows",
+      "recon"
+    ],
+    "updated": "2024-10-11"
   },
   {
     "name": "wifichannelmonitor",
     "version": "1.70",
     "description": "A utility for Windows that captures wifi traffic on the channel you choose, using Microsoft Network Monitor capture driver.",
-    "url": "https://www.nirsoft.net/utils/wifi_channel_monitor.html"
+    "url": "https://www.nirsoft.net/utils/wifi_channel_monitor.html",
+    "groups": [
+      "windows",
+      "wireless",
+      "sniffer",
+      "networking"
+    ],
+    "updated": "2022-03-19"
   },
   {
     "name": "windivert",
     "version": "2.2.0",
     "description": "A user-mode packet capture-and-divert package for Windows.",
-    "url": "https://github.com/basil00/WinDivert"
+    "url": "https://github.com/basil00/WinDivert",
+    "groups": [
+      "windows",
+      "sniffer",
+      "networking"
+    ],
+    "updated": "2019-12-24"
   },
   {
     "name": "windows-binaries",
     "version": "20.7d272da",
     "description": "A colleciton of pentesting Windows binaries.",
-    "url": "https://github.com/BlackArch/windows-binaries"
+    "url": "https://github.com/BlackArch/windows-binaries",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2020-09-22"
   },
   {
     "name": "windows-privesc-check",
     "version": "181.9f304fd",
     "description": "Standalone Executable to Check for Simple Privilege Escalation Vectors on Windows Systems.",
-    "url": "https://github.com/pentestmonkey/windows-privesc-check"
+    "url": "https://github.com/pentestmonkey/windows-privesc-check",
+    "groups": [
+      "windows",
+      "exploitation"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "windowsspyblocker",
     "version": "4.38.0",
     "description": "Block spying and tracking on Windows.",
-    "url": "https://github.com/crazy-max/WindowsSpyBlocker"
+    "url": "https://github.com/crazy-max/WindowsSpyBlocker",
+    "groups": [
+      "windows",
+      "defensive"
+    ],
+    "updated": "2022-03-19"
   },
   {
     "name": "winfo",
     "version": "2.0",
     "description": "Uses null sessions to remotely try to retrieve lists of and information about user accounts, workstation/interdomain/server trust accounts, shares (also hidden), sessions, logged in users, and password/lockout policy, from Windows NT/2000/XP.",
-    "url": "https://vidstromlabs.com/freetools/winfo/"
+    "url": "https://vidstromlabs.com/freetools/winfo/",
+    "groups": [
+      "windows",
+      "recon",
+      "scanner"
+    ],
+    "updated": "2024-10-03"
   },
   {
     "name": "winhex",
     "version": "20.4",
     "description": "Hex Editor and Disk Editor.",
-    "url": "https://www.x-ways.net/winhex/"
+    "url": "https://www.x-ways.net/winhex/",
+    "groups": [
+      "windows"
+    ],
+    "updated": "2022-03-19"
   },
   {
     "name": "winpwn",
     "version": "411.cba1769",
     "description": "Automation for internal Windows Penetrationtest / AD-Security.",
-    "url": "https://github.com/S3cur3Th1sSh1t/WinPwn"
+    "url": "https://github.com/S3cur3Th1sSh1t/WinPwn",
+    "groups": [
+      "windows",
+      "automation"
+    ],
+    "updated": "2025-08-31"
   },
   {
     "name": "winrelay",
     "version": "2.0",
     "description": "A TCP/UDP forwarder/redirector that works with both IPv4 and IPv6.",
-    "url": "http://ntsecurity.nu/toolbox/winrelay/"
+    "url": "http://ntsecurity.nu/toolbox/winrelay/",
+    "groups": [
+      "windows",
+      "networking"
+    ],
+    "updated": "2016-07-28"
   },
   {
     "name": "wpsweep",
     "version": "1.0",
     "description": "A simple ping sweeper, that is, it pings a range of IP addresses and lists the ones that reply.",
-    "url": "https://vidstromlabs.com/freetools/wpsweep/"
+    "url": "https://vidstromlabs.com/freetools/wpsweep/",
+    "groups": [
+      "windows",
+      "recon"
+    ],
+    "updated": "2024-10-03"
   },
   {
     "name": "wups",
     "version": "1.4",
     "description": "An UDP port scanner for Windows.",
-    "url": "http://ntsecurity.nu/toolbox/wups/"
+    "url": "http://ntsecurity.nu/toolbox/wups/",
+    "groups": [
+      "windows",
+      "scanner"
+    ],
+    "updated": "2016-07-28"
   },
   {
     "name": "x-scan",
     "version": "3.3",
     "description": "A general network vulnerabilities scanner for scanning network vulnerabilities for specific IP address scope or stand-alone computer by multi-threading method, plug-ins are supportable.",
-    "url": "http://www.xfocus.org/"
+    "url": "http://www.xfocus.org/",
+    "groups": [
+      "windows",
+      "scanner"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "x64dbg",
     "version": "2025.07.04",
     "description": "An open-source x64/x32 debugger for windows.",
-    "url": "https://github.com/x64dbg/x64dbg/releases"
+    "url": "https://github.com/x64dbg/x64dbg/releases",
+    "groups": [
+      "windows",
+      "debugger"
+    ],
+    "updated": "2025-07-26"
   }
 ]

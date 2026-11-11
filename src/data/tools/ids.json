@@ -3,6 +3,11 @@
     "name": "sagan",
     "version": "2.0.2",
     "description": "A snort-like log analysis engine.",
-    "url": "https://quadrantsec.com/sagan_log_analysis_engine/"
+    "url": "https://quadrantsec.com/sagan_log_analysis_engine/",
+    "groups": [
+      "ids",
+      "defensive"
+    ],
+    "updated": "2023-03-30"
   }
 ]

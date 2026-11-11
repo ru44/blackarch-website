@@ -3,30 +3,58 @@
     "name": "chipsec",
     "version": "2.0.9.r11.g2545706",
     "description": "Platform Security Assessment Framework.",
-    "url": "https://github.com/chipsec/chipsec"
+    "url": "https://github.com/chipsec/chipsec",
+    "groups": [
+      "hardware",
+      "binary",
+      "forensic",
+      "scanner",
+      "fuzzer"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "dex2jar",
     "version": "2.1",
     "description": "A tool for converting Android's .dex format to Java's .class format",
-    "url": "https://github.com/pxb1988/dex2jar"
+    "url": "http://code.google.com/p/dex2jar",
+    "groups": [
+      "hardware",
+      "reversing"
+    ],
+    "updated": "2018-10-14"
   },
   {
     "name": "hdmi-sniff",
     "version": "5.f7fbc0e",
     "description": "HDMI DDC (I2C) inspection tool. It is designed to demonstrate just how easy it is to recover HDCP crypto keys from HDMI devices.",
-    "url": "https://github.com/AdamLaurie/hdmi-sniff"
+    "url": "https://github.com/AdamLaurie/hdmi-sniff",
+    "groups": [
+      "hardware",
+      "sniffer",
+      "cracker"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "kautilya",
     "version": "52.1c9d5b0",
     "description": "Pwnage with Human Interface Devices using Teensy++2.0 and Teensy 3.0 devices.",
-    "url": "https://github.com/samratashok/Kautilya/releases"
+    "url": "https://github.com/samratashok/Kautilya/releases",
+    "groups": [
+      "hardware"
+    ],
+    "updated": "2025-04-29"
   },
   {
     "name": "pcileech",
     "version": "4.19.5",
     "description": "Tool, which uses PCIe hardware devices to read and write from the target system memory.",
-    "url": "https://github.com/ufrisk/pcileech/releases"
+    "url": "https://github.com/ufrisk/pcileech/releases",
+    "groups": [
+      "hardware",
+      "reversing"
+    ],
+    "updated": "2026-03-01"
   }
 ]

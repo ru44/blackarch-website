@@ -3,78 +3,116 @@
     "name": "matroschka",
     "version": "58.2f026a4",
     "description": "Python steganography tool to hide images or text in images.",
-    "url": "https://github.com/fbngrm/Matroschka"
+    "url": "https://github.com/fbngrm/Matroschka",
+    "groups": [
+      "stego"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "openpuff",
     "version": "4.01",
     "description": "Yet not another steganography SW.",
-    "url": "https://www.embeddedsw.net/OpenPuff_Steganography_Home.html"
+    "url": "https://www.embeddedsw.net/OpenPuff_Steganography_Home.html",
+    "groups": [
+      "stego",
+      "windows"
+    ],
+    "updated": "2019-06-29"
   },
   {
     "name": "pngcheck",
     "version": "3.0.3",
     "description": "Verifies the integrity of PNG, JNG and MNG files by checking the CRCs and decompressing the image data.",
-    "url": "http://www.libpng.org/pub/png/apps/pngcheck.html"
+    "url": "http://www.libpng.org/pub/png/apps/pngcheck.html",
+    "groups": [
+      "stego",
+      "defensive",
+      "forensic"
+    ],
+    "updated": "2021-06-23"
   },
   {
     "name": "silenteye",
     "version": "21.a53a7ff",
     "description": "A cross-platform application design for an easy use of steganography.",
-    "url": "https://github.com/achorein/silenteye"
+    "url": "https://github.com/achorein/silenteye",
+    "groups": [
+      "stego"
+    ],
+    "updated": "2022-03-20"
   },
   {
     "name": "stegcracker",
     "version": "2.1.0",
     "description": "Steganography brute-force utility to uncover hidden data inside files.",
-    "url": "https://github.com/Paradoxis/StegCracker/tags"
+    "url": "https://github.com/Paradoxis/StegCracker/tags",
+    "groups": [
+      "stego"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "stegdetect",
     "version": "20.28a4f07",
     "description": "An automated tool for detecting steganographic content in images.",
-    "url": "https://github.com/redNixon/stegdetect"
-  },
-  {
-    "name": "steghide",
-    "version": "0.5.1",
-    "description": "Embeds a message in a file by replacing some of the least significant bits.",
-    "url": "https://steghide.sourceforge.net/"
+    "url": "https://github.com/redNixon/stegdetect",
+    "groups": [
+      "stego",
+      "defensive",
+      "forensic"
+    ],
+    "updated": "2023-10-05"
   },
   {
     "name": "stegolego",
     "version": "8.85354f6",
     "description": "Simple program for using stegonography to hide data within BMP images.",
-    "url": "https://github.com/razc411/StegoLeggo"
-  },
-  {
-    "name": "stegoveritas",
-    "version": "1.10",
-    "description": "Automatic image steganography analysis tool.",
-    "url": "https://github.com/bannsec/stegoVeritas"
+    "url": "https://github.com/razc411/StegoLeggo",
+    "groups": [
+      "stego"
+    ],
+    "updated": "2024-10-18"
   },
   {
     "name": "stegseek",
     "version": "v0.6.r10.g5896978",
     "description": "Lightning fast steghide cracker.",
-    "url": "https://github.com/RickdeJager/stegseek"
+    "url": "https://github.com/RickdeJager/stegseek",
+    "groups": [
+      "stego"
+    ],
+    "updated": "2026-07-02"
   },
   {
     "name": "stegsolve",
     "version": "1.3",
     "description": "Steganography Solver.",
-    "url": "https://github.com/zardus/ctf-tools/blob/master/stegsolve/install"
+    "url": "https://github.com/zardus/ctf-tools/blob/master/stegsolve/install",
+    "groups": [
+      "stego"
+    ],
+    "updated": "2020-01-31"
   },
   {
     "name": "stepic",
     "version": "0.4",
     "description": "A python image steganography tool.",
-    "url": "http://domnit.org/stepic/doc/"
+    "url": "http://domnit.org/stepic/doc/",
+    "groups": [
+      "stego"
+    ],
+    "updated": "2020-07-03"
   },
   {
     "name": "zsteg",
     "version": "v0.2.14.r0.gb75b578",
     "description": "Detect stegano-hidden data in PNG and BMP.",
-    "url": "https://github.com/zed-0xff/zsteg"
+    "url": "https://github.com/zed-0xff/zsteg",
+    "groups": [
+      "stego",
+      "anti-forensic"
+    ],
+    "updated": "2026-01-31"
   }
 ]

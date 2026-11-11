@@ -3,1524 +3,2704 @@
     "name": "activedirectoryenum",
     "version": "0.5.0",
     "description": "Enumerate AD through LDAP.",
-    "url": "https://github.com/CasperGN/ActiveDirectoryEnumeration"
+    "url": "https://github.com/CasperGN/ActiveDirectoryEnumeration",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "ad-ldap-enum",
     "version": "90.caee43d",
     "description": "An LDAP based Active Directory user and group enumeration tool.",
-    "url": "https://github.com/CroweCybersecurity/ad-ldap-enum"
+    "url": "https://github.com/CroweCybersecurity/ad-ldap-enum",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-05-02"
   },
   {
     "name": "ad-miner",
     "version": "v1.9.0.r0.gac3d473",
     "description": "Active Directory audit tool that extract data from Bloodhound to uncover security weaknesses and generate an HTML report",
-    "url": "https://github.com/AD-Security/AD_Miner"
+    "url": "https://github.com/AD-Security/AD_Miner",
+    "groups": [
+      "recon",
+      "windows"
+    ],
+    "updated": "2026-03-28"
   },
   {
     "name": "adexplorersnapshot",
     "version": "148.4772430",
     "description": "AD Explorer snapshot parser.",
-    "url": "https://github.com/c3c/ADExplorerSnapshot"
+    "url": "https://github.com/c3c/ADExplorerSnapshot",
+    "groups": [
+      "recon",
+      "windows"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "adidnsdump",
     "version": "v1.6.0.r0.gc6bff9a",
     "description": "Active Directory Integrated DNS dumping by any authenticated user.",
-    "url": "https://github.com/dirkjanm/adidnsdump"
+    "url": "https://github.com/dirkjanm/adidnsdump",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-10-24"
   },
   {
     "name": "aiodnsbrute",
     "version": "v0.3.2.r0.ge773a4c",
     "description": "Python 3 DNS asynchronous brute force utility.",
-    "url": "https://github.com/blark/aiodnsbrute"
+    "url": "https://github.com/blark/aiodnsbrute",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-02-02"
   },
   {
     "name": "altdns",
     "version": "78.6728272",
     "description": "Generates permutations, alterations and mutations of subdomains and then resolves them.",
-    "url": "https://github.com/infosec-au/altdns"
+    "url": "https://github.com/infosec-au/altdns",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "aquatone",
     "version": "v1.9.1.shelld3v.r14.g30fbf6e",
     "description": "A Tool for Domain Flyovers.",
-    "url": "https://github.com/shelld3v/aquatone"
+    "url": "https://github.com/shelld3v/aquatone",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-02-03"
   },
   {
     "name": "asn",
     "version": "0.78.0",
     "description": "ASN, RPKI validity, BGP stats, IPv4v6, Prefix, URL, ASPath, Organization, IP reputation, IP geolocation, IP fingerprinting, Network recon, lookup API server, Web traceroute server.",
-    "url": "https://github.com/nitefood/asn"
+    "url": "https://github.com/nitefood/asn",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-10-31"
   },
   {
     "name": "attacksurfacemapper",
     "version": "v1.1.r25.g8a402ed",
     "description": "Tool that aims to automate the reconnaissance process.",
-    "url": "https://github.com/superhedgy/AttackSurfaceMapper"
+    "url": "https://github.com/superhedgy/AttackSurfaceMapper",
+    "groups": [
+      "recon",
+      "automation"
+    ],
+    "updated": "2026-05-29"
   },
   {
     "name": "autosint",
     "version": "236.25d292c",
     "description": "Tool to automate common osint tasks.",
-    "url": "https://github.com/bharshbarger/AutOSINT"
+    "url": "https://github.com/bharshbarger/AutOSINT",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "aws-inventory",
     "version": "19.9a2fa8e",
     "description": "Discover resources created in an AWS account.",
-    "url": "https://github.com/nccgroup/aws-inventory"
+    "url": "https://github.com/nccgroup/aws-inventory",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "aztarna",
     "version": "1.2.1",
     "description": "A footprinting tool for ROS and SROS systems.",
-    "url": "https://github.com/aliasrobotics/aztarna"
+    "url": "https://github.com/aliasrobotics/aztarna",
+    "groups": [
+      "recon",
+      "fingerprint"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "badkarma",
     "version": "85.2c46334",
     "description": "Advanced network reconnaissance toolkit.",
-    "url": "https://github.com/r3vn/badKarma"
+    "url": "https://github.com/r3vn/badKarma",
+    "groups": [
+      "recon",
+      "scanner",
+      "networking"
+    ],
+    "updated": "2026-07-23"
   },
   {
     "name": "basedomainname",
     "version": "0.1",
     "description": "Tool that can extract TLD (Top Level Domain), domain extensions (Second Level Domain + TLD), domain name, and hostname from fully qualified domain names.",
-    "url": "https://www.morningstarsecurity.com/research"
+    "url": "https://www.morningstarsecurity.com/research",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2024-12-19"
+  },
+  {
+    "name": "bbot",
+    "version": "v3.0.2.r0.ga6fb827",
+    "description": "Multipurpose scanner built to automate your Recon, Bug Bounties, and ASM.",
+    "url": "https://github.com/blacklanternsecurity/bbot",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-09-06"
   },
   {
     "name": "bfac",
     "version": "v1.0.r12.g18fb0b5",
     "description": "An automated tool that checks for backup artifacts that may disclose the web-application's source code.",
-    "url": "https://github.com/mazen160/bfac"
+    "url": "https://github.com/mazen160/bfac",
+    "groups": [
+      "recon",
+      "webapp"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "billcipher",
     "version": "32.97fba59",
     "description": "Information Gathering tool for a Website or IP address.",
-    "url": "https://github.com/GitHackTools/BillCipher"
+    "url": "https://github.com/GitHackTools/BillCipher",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2020-12-03"
   },
   {
     "name": "bing-ip2hosts",
     "version": "1.0.5",
     "description": "Enumerates all hostnames which Bing has indexed for a specific IP address.",
-    "url": "https://www.morningstarsecurity.com/research/bing-ip2hosts"
+    "url": "https://www.morningstarsecurity.com/research/bing-ip2hosts",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2021-10-20"
   },
   {
     "name": "bloodhound",
     "version": "v4.3.1.r61.ge8eda86",
     "description": "Six Degrees of Domain Admin",
-    "url": "https://github.com/SpecterOps/BloodHound-Legacy"
+    "url": "https://github.com/SpecterOps/BloodHound-Legacy",
+    "groups": [
+      "recon",
+      "windows"
+    ],
+    "updated": "2026-03-07"
   },
   {
     "name": "bloodhound-ce-python",
     "version": "v1.0.1.r220.gf7c0144",
     "description": "Python data collector for Bloodhound community edition (v5)",
-    "url": "https://github.com/dirkjanm/BloodHound.py"
+    "url": "https://github.com/dirkjanm/BloodHound.py",
+    "groups": [
+      "recon",
+      "windows"
+    ],
+    "updated": "2026-10-24"
   },
   {
     "name": "bloodhound-python",
     "version": "v1.0.1.r188.gb317087",
     "description": "Python data collector for Bloodhound legcacy (v4)",
-    "url": "https://github.com/dirkjanm/BloodHound.py"
+    "url": "https://github.com/dirkjanm/BloodHound.py",
+    "groups": [
+      "recon",
+      "windows"
+    ],
+    "updated": "2026-10-24"
   },
   {
     "name": "bridgekeeper",
     "version": "57.55c390c",
     "description": "Scrape employee names from search engine LinkedIn profiles. Convert employee names to a specified username format.",
-    "url": "https://github.com/0xZDH/BridgeKeeper"
+    "url": "https://github.com/0xZDH/BridgeKeeper",
+    "groups": [
+      "recon",
+      "social"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "catnthecanary",
     "version": "7.e9184fe",
     "description": "An application to query the canary.pw data set for leaked data.",
-    "url": "https://github.com/packetassailant/catnthecanary"
+    "url": "https://github.com/packetassailant/catnthecanary",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "ccrawldns",
     "version": "v1.0.r2.gdfd5062",
     "description": "Retrieves from the CommonCrawl data set unique subdomains for a given domain name.",
-    "url": "https://github.com/lgandx/CCrawlDNS"
+    "url": "https://github.com/lgandx/CCrawlDNS",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "certgraph",
     "version": "200.7c8dd0d",
     "description": "Crawl the graph of certificate Alternate Names.",
-    "url": "https://github.com/lanrat/certgraph"
+    "url": "https://github.com/lanrat/certgraph",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "chaos-client",
     "version": "286.b0522e0",
     "description": "Go client to communicate with Chaos dataset API.",
-    "url": "https://github.com/projectdiscovery/chaos-client"
+    "url": "https://github.com/projectdiscovery/chaos-client",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "chronoleak",
     "version": "0.0.1",
     "description": "ICMP Timestamp Remote Time Leaker.",
-    "url": "https://github.com/noraj/ChronoLeak"
+    "url": "https://github.com/noraj/ChronoLeak",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2025-04-29"
   },
   {
     "name": "citadel",
     "version": "95.3b1adbc",
     "description": "A library of OSINT tools.",
-    "url": "https://github.com/jakecreps/Citadel"
+    "url": "https://github.com/jakecreps/Citadel",
+    "groups": [
+      "recon",
+      "social"
+    ],
+    "updated": "2019-11-19"
   },
   {
     "name": "cloud-buster",
     "version": "194.b55e4a1",
     "description": "A tool that checks Cloudflare enabled sites for origin IP leaks.",
-    "url": "https://github.com/SageHack/cloud-buster"
+    "url": "https://github.com/SageHack/cloud-buster",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "cloud_enum",
     "version": "0.9.r0.g21af4f9",
     "description": "Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud.",
-    "url": "https://github.com/initstring/cloud_enum"
+    "url": "https://github.com/initstring/cloud_enum",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "cloudfail",
     "version": "86.c84219f",
     "description": "Utilize misconfigured DNS and old database records to find hidden IP's behind the CloudFlare network.",
-    "url": "https://github.com/m0rtem/CloudFail"
+    "url": "https://github.com/m0rtem/CloudFail",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "cloudlist",
     "version": "1017.b4c3216",
     "description": "A tool for listing Assets from multiple Cloud Providers.",
-    "url": "https://github.com/projectdiscovery/cloudlist"
+    "url": "https://github.com/projectdiscovery/cloudlist",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "cloudmare",
     "version": "108.9c5a39f",
     "description": "A simple tool to find origin servers of websites protected by CloudFlare with a misconfiguration DNS.",
-    "url": "https://github.com/MrH0wl/Cloudmare"
+    "url": "https://github.com/MrH0wl/Cloudmare",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "cloudunflare",
     "version": "14.b91a8a7",
     "description": "Reconnaissance Real IP address for Cloudflare Bypass.",
-    "url": "https://github.com/greycatz/CloudUnflare"
+    "url": "https://github.com/greycatz/CloudUnflare",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2019-11-20"
   },
   {
     "name": "cr3dov3r",
     "version": "48.49bbdbe",
     "description": "Search for public leaks for email addresses + check creds against 16 websites.",
-    "url": "https://github.com/D4Vinci/Cr3dOv3r"
+    "url": "https://github.com/D4Vinci/Cr3dOv3r",
+    "groups": [
+      "recon",
+      "social"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "cutycapt",
     "version": "11.0",
-    "description": "A Qt and WebKit based command-line utility that captures WebKit's rendering of a web page.",
-    "url": "https://cutycapt.sourceforge.net/"
+    "description": "A Qt and WebEngine-based command-line utility that captures a web page's rendered output.",
+    "url": "https://cutycapt.sourceforge.net/",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2025-12-12"
   },
   {
     "name": "datasploit",
     "version": "369.28d9caf",
     "description": "Performs automated OSINT and more.",
-    "url": "https://github.com/DataSploit/datasploit"
+    "url": "https://github.com/DataSploit/datasploit",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2025-11-23"
   },
   {
     "name": "dga-detection",
     "version": "78.0a3186e",
     "description": "DGA Domain Detection using Bigram Frequency Analysis.",
-    "url": "https://github.com/philarkwright/DGA-Detection"
+    "url": "https://github.com/philarkwright/DGA-Detection",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "dns-parallel-prober",
     "version": "68.422db61",
     "description": "PoC for an adaptive parallelised DNS prober.",
-    "url": "https://github.com/lorenzog/dns-parallel-prober"
+    "url": "https://github.com/lorenzog/dns-parallel-prober",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "dnsbrute",
     "version": "2.b1dc84a",
     "description": "Multi-theaded DNS bruteforcing, average speed 80 lookups/second with 40 threads.",
-    "url": "https://github.com/d4rkcat/dnsbrute"
+    "url": "https://github.com/d4rkcat/dnsbrute",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "dnscobra",
     "version": "1.0",
     "description": "DNS subdomain bruteforcing tool with Tor support through torsocks.",
-    "url": "https://github.com/dmitescu/dnscobra"
+    "url": "https://github.com/dmitescu/dnscobra",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "dnsenum",
     "version": "1.2.4.2",
     "description": "Script that enumerates DNS information from a domain, attempts zone transfers, performs a brute force dictionary style attack, and then performs reverse look-ups on the results.",
-    "url": "https://github.com/fwaeytens/dnsenum"
+    "url": "https://github.com/fwaeytens/dnsenum",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "dnsgrep",
     "version": "14.3f4fa7c",
     "description": "A utility for quickly searching presorted DNS names.",
-    "url": "https://github.com/erbbysam/DNSGrep"
+    "url": "https://github.com/erbbysam/DNSGrep",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2021-04-26"
   },
   {
     "name": "dnsprobe",
     "version": "56.7120008",
     "description": "Allows you to perform multiple dns queries of your choice with a list of user supplied resolvers.",
-    "url": "https://github.com/projectdiscovery/dnsprobe"
+    "url": "https://github.com/projectdiscovery/dnsprobe",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2021-04-26"
   },
   {
     "name": "dnsrecon",
     "version": "1.6.3",
     "description": "Python script for enumeration of hosts, subdomains and emails from a given domain using google.",
-    "url": "https://github.com/darkoperator/dnsrecon"
+    "url": "https://github.com/darkoperator/dnsrecon",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-06-29"
   },
   {
     "name": "dnssearch",
     "version": "20.e4ea439",
     "description": "A subdomain enumeration tool.",
-    "url": "https://github.com/evilsocket/dnssearch"
+    "url": "https://github.com/evilsocket/dnssearch",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2021-04-26"
   },
   {
     "name": "dnsspider",
     "version": "1.5",
     "description": "A fast multithreaded bruteforcer of subdomains that leverages a wordlist and/or character permutation.",
-    "url": "https://nullsecurity.net/tools/scanner.html"
+    "url": "https://nullsecurity.net/tools/scanner.html",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2026-04-23"
   },
   {
     "name": "dnstracer",
     "version": "1.10",
     "description": "Determines where a given DNS server gets its information from, and follows the chain of DNS servers",
-    "url": "https://www.mavetju.org/unix/dnstracer.php"
+    "url": "https://www.mavetju.org/unix/dnstracer.php",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-12-06"
   },
   {
     "name": "dnswalk",
     "version": "2.0.2",
     "description": "A DNS debugger and zone-transfer utility.",
-    "url": "https://sourceforge.net/projects/dnswalk/"
+    "url": "https://sourceforge.net/projects/dnswalk/",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "dnsx",
     "version": "v1.2.1.r493.gc72b42d",
     "description": "Fast and multi-purpose DNS toolkit allow to run multiple DNS queries of your choice with a list of user-supplied resolvers.",
-    "url": "https://github.com/projectdiscovery/dnsx"
+    "url": "https://github.com/projectdiscovery/dnsx",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "domain-analyzer",
     "version": "0.8.1",
     "description": "Finds all the security information for a given domain name.",
-    "url": "https://sourceforge.net/projects/domainanalyzer/"
+    "url": "https://sourceforge.net/projects/domainanalyzer/",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "domain-stats",
     "version": "169.759c52c",
     "description": "A web API to deliver domain information from whois and alexa.",
-    "url": "https://github.com/MarkBaggett/domain_stats"
+    "url": "https://github.com/MarkBaggett/domain_stats",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "domained",
     "version": "80.d9d079c",
     "description": "Multi Tool Subdomain Enumeration.",
-    "url": "https://github.com/TypeError/domained"
+    "url": "https://github.com/TypeError/domained",
+    "groups": [
+      "recon",
+      "automation"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "domainhunter",
     "version": "51.38cb7ef",
     "description": "Checks expired domains for categorization/reputation and Archive.org history to determine good candidates for phishing and C2 domain names.",
-    "url": "https://github.com/threatexpress/domainhunter"
+    "url": "https://github.com/threatexpress/domainhunter",
+    "groups": [
+      "recon",
+      "social"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "dradis-ce",
     "version": "v5.0.0.r892.g26c057b",
     "description": "An open source framework to enable effective information sharing.",
-    "url": "https://dradis.com/ce/"
+    "url": "https://dradis.com/ce/",
+    "groups": [
+      "recon",
+      "misc"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "elevate",
     "version": "27.1272d51",
     "description": "Horizontal domain discovery tool you can use to discover other domains owned by a given company.",
-    "url": "https://github.com/Healdb/Elevate"
+    "url": "https://github.com/Healdb/Elevate",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "enum4linux",
     "version": "0.9.1",
     "description": "A tool for enumerating information from Windows and Samba systems.",
-    "url": "http://labs.portcullis.co.uk/application/enum4linux/"
+    "url": "http://labs.portcullis.co.uk/application/enum4linux/",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "enum4linux-ng",
     "version": "454.288826f",
     "description": "A next generation version of enum4linux.",
-    "url": "https://github.com/cddmp/enum4linux-ng"
+    "url": "https://github.com/cddmp/enum4linux-ng",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2026-02-21"
   },
   {
     "name": "enumerate-iam",
     "version": "14.4529114",
     "description": "Enumerate the permissions associated with an AWS credential set.",
-    "url": "https://github.com/andresriancho/enumerate-iam"
+    "url": "https://github.com/andresriancho/enumerate-iam",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "enumerid",
     "version": "37.ba5540f",
     "description": "Enumerate RIDs using pure Python.",
-    "url": "https://github.com/Gilks/enumerid"
+    "url": "https://github.com/Gilks/enumerid",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-21"
   },
   {
     "name": "exitmap",
     "version": "373.8155029",
     "description": "A fast and modular scanner for Tor exit relays.",
-    "url": "https://github.com/NullHypothesis/exitmap"
+    "url": "https://github.com/NullHypothesis/exitmap",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "facebot",
     "version": "23.57f6025",
     "description": "A facebook profile and reconnaissance system.",
-    "url": "https://github.com/pun1sh3r/facebot"
+    "url": "https://github.com/pun1sh3r/facebot",
+    "groups": [
+      "recon",
+      "webapp"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "fav-up",
     "version": "54.089aa11",
     "description": "IP lookup by favicon using Shodan.",
-    "url": "https://github.com/pielco11/fav-up"
+    "url": "https://github.com/pielco11/fav-up",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2023-05-04"
   },
   {
     "name": "favfreak",
     "version": "27.8acea5e",
     "description": "Weaponizing favicon.ico for BugBounties , OSINT and what not.",
-    "url": "https://github.com/devanshbatham/FavFreak"
+    "url": "https://github.com/devanshbatham/FavFreak",
+    "groups": [
+      "recon",
+      "fingerprint"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "fbid",
     "version": "16.1b35eb9",
     "description": "Show info about the author by facebook photo url.",
-    "url": "https://github.com/guelfoweb/fbid"
+    "url": "https://github.com/guelfoweb/fbid",
+    "groups": [
+      "recon",
+      "social"
+    ],
+    "updated": "2017-04-07"
   },
   {
     "name": "fierce",
     "version": "145.965840d",
     "description": "A DNS reconnaissance tool for locating non-contiguous IP space.",
-    "url": "https://github.com/mschwager/fierce"
+    "url": "https://github.com/mschwager/fierce",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "finalrecon",
     "version": "v1.1.8.r6.g98a0bac",
     "description": "OSINT Tool for All-In-One Web Reconnaissance.",
-    "url": "https://github.com/thewhiteh4t/FinalRecon"
+    "url": "https://github.com/thewhiteh4t/FinalRecon",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "flashlight",
     "version": "109.90d1dc5",
     "description": "Automated Information Gathering Tool for Penetration Testers.",
-    "url": "https://github.com/galkan/flashlight"
+    "url": "https://github.com/galkan/flashlight",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "forager",
     "version": "v2.0.3.r3.g7439b0a",
     "description": "Multithreaded threat Intelligence gathering utilizing.",
-    "url": "https://github.com/opensourcesec/Forager"
+    "url": "https://github.com/opensourcesec/Forager",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "gasmask",
     "version": "172.2527371",
     "description": "All in one Information gathering tool - OSINT.",
-    "url": "https://github.com/twelvesec/gasmask"
+    "url": "https://github.com/twelvesec/gasmask",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "gatecrasher",
     "version": "2.3ad5225",
     "description": "Network auditing and analysis tool developed in Python.",
-    "url": "https://github.com/michaeltelford/gatecrasher"
+    "url": "https://github.com/michaeltelford/gatecrasher",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "geoedge",
     "version": "0.2",
     "description": "This little tools is designed to get geolocalization information of a host, it get the information from two sources (maxmind and geoiptool).",
-    "url": ""
+    "url": "",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "gh-dork",
     "version": "3.799f86f",
     "description": "Github dorking tool.",
-    "url": "https://github.com/molly/gh-dork"
+    "url": "https://github.com/molly/gh-dork",
+    "groups": [
+      "recon",
+      "social"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "ghunt",
     "version": "v2.2.0.r30.g5ee8939",
     "description": "An offensive OSINT Google framework.",
-    "url": "https://github.com/mxrch/GHunt"
+    "url": "https://github.com/mxrch/GHunt",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-04-12"
   },
   {
     "name": "git-hound",
     "version": "258.15701b7",
     "description": "Pinpoints exposed API keys on GitHub. A batch-catching, pattern-matching, patch-attacking secret snatcher.",
-    "url": "https://github.com/tillson/git-hound"
+    "url": "https://github.com/tillson/git-hound",
+    "groups": [
+      "recon",
+      "social"
+    ],
+    "updated": "2025-11-23"
   },
   {
     "name": "git-wild-hunt",
     "version": "16.6495672",
     "description": "A tool to hunt for credentials in github wild AKA git*hunt.",
-    "url": "https://github.com/josehelps/git-wild-hunt"
+    "url": "https://github.com/josehelps/git-wild-hunt",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "gitdorker",
     "version": "113.8199375",
     "description": "Python program to scrape secrets from GitHub through usage of a large repository of dorks.",
-    "url": "https://github.com/obheda12/GitDorker"
+    "url": "https://github.com/obheda12/GitDorker",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "gitem",
     "version": "104.d40a1c9",
     "description": "A Github organization reconnaissance tool.",
-    "url": "https://github.com/mschwager/gitem"
+    "url": "https://github.com/mschwager/gitem",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "gitgraber",
     "version": "82.aab4839",
     "description": "Monitor GitHub to search and find sensitive data in real time for different online services.",
-    "url": "https://github.com/hisxo/gitGraber"
+    "url": "https://github.com/hisxo/gitGraber",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "githack",
     "version": "16.a3d70b1",
     "description": "A `.git` folder disclosure exploit.",
-    "url": "https://github.com/lijiejie/githack"
+    "url": "https://github.com/lijiejie/githack",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "github-dorks",
     "version": "106.16dc173",
     "description": "Collection of github dorks and helper tool to automate the process of checking dorks.",
-    "url": "https://github.com/techgaun/github-dorks"
+    "url": "https://github.com/techgaun/github-dorks",
+    "groups": [
+      "recon",
+      "social"
+    ],
+    "updated": "2026-09-28"
+  },
+  {
+    "name": "github-subdomains",
+    "version": "v1.2.2.r1.g2bfdf12",
+    "description": "Find subdomains on GitHub.",
+    "url": "https://github.com/gwen001/github-subdomains",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2025-09-21"
   },
   {
     "name": "gitmails",
     "version": "0.1.1.r6.g8aa8411",
     "description": "An information gathering tool to collect git commit emails in version control host services.",
-    "url": "https://github.com/giovanifss/gitmails"
+    "url": "https://github.com/giovanifss/gitmails",
+    "groups": [
+      "recon",
+      "social"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "gitminer",
     "version": "8.071385f",
-    "description": "Tool for advanced mining for content on Github.",
-    "url": "https://github.com/UnkL4b/Gitminer3"
+    "description": "Tool for advanced mining of sensitive content on Github.",
+    "url": "https://github.com/UnkL4b/Gitminer3",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-09-11"
   },
   {
     "name": "gitrecon",
     "version": "30.6467e78",
     "description": "OSINT tool to get information from a Github and Gitlab profile and find user's email addresses leaked on commits.",
-    "url": "https://github.com/GONZOsint/gitrecon"
+    "url": "https://github.com/GONZOsint/gitrecon",
+    "groups": [
+      "recon",
+      "social"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "go-windapsearch",
     "version": "v0.3.0.r22.ged05587",
     "description": "Utility to enumerate users, groups and computers from a Windows domain through LDAP queries.",
-    "url": "https://github.com/ropnop/go-windapsearch"
+    "url": "https://github.com/ropnop/go-windapsearch",
+    "groups": [
+      "recon",
+      "windows"
+    ],
+    "updated": "2023-06-27"
   },
   {
     "name": "goddi",
     "version": "1.2",
     "description": "Dumps Active Directory domain information.",
-    "url": "https://github.com/NetSPI/goddi"
+    "url": "https://github.com/NetSPI/goddi",
+    "groups": [
+      "recon",
+      "windows"
+    ],
+    "updated": "2019-05-04"
   },
   {
     "name": "goodork",
     "version": "2.2",
     "description": "A python script designed to allow you to leverage the power of google dorking straight from the comfort of your command line.",
-    "url": "http://goo-dork.blogspot.com/"
-  },
-  {
-    "name": "goofile",
-    "version": "1.5",
-    "description": "Command line filetype search",
-    "url": "https://code.google.com/archive/p/goofile"
+    "url": "http://goo-dork.blogspot.com/",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "goog-mail",
     "version": "1.0",
     "description": "Enumerate domain emails from google.",
-    "url": "http://www.darkc0de.com/others/goog-mail.py"
+    "url": "http://www.darkc0de.com/others/goog-mail.py",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "googlesub",
     "version": "14.a7a3cc7",
     "description": "A python script to find domains by using google dorks.",
-    "url": "https://github.com/zombiesam/googlesub"
+    "url": "https://github.com/zombiesam/googlesub",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "goohak",
     "version": "31.815a31e",
     "description": "Automatically Launch Google Hacking Queries Against A Target Domain.",
-    "url": "https://github.com/1N3/Goohak"
+    "url": "https://github.com/1N3/Goohak",
+    "groups": [
+      "recon",
+      "automation",
+      "scanner"
+    ],
+    "updated": "2021-10-03"
   },
   {
     "name": "goop",
     "version": "12.39b34eb",
     "description": "Perform google searches without being blocked by the CAPTCHA or hitting any rate limits.",
-    "url": "https://github.com/s0md3v/goop"
+    "url": "https://github.com/s0md3v/goop",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "gosint",
     "version": "196.9c86ed2",
     "description": "OSINT framework in Go.",
-    "url": "https://github.com/Nhoya/gOSINT"
+    "url": "https://github.com/Nhoya/gOSINT",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2019-11-16"
   },
   {
     "name": "grabing",
     "version": "11.9c1aa6c",
     "description": "Counts all the hostnames for an IP adress",
-    "url": "https://github.com/black-brain/graBing"
+    "url": "https://github.com/black-brain/graBing",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2017-12-24"
   },
   {
     "name": "graphinder",
     "version": "1.11.6",
     "description": "GraphQL endpoints finder using subdomain enumeration, scripts analysis and bruteforce.",
-    "url": "https://github.com/Escape-Technologies/graphinder"
+    "url": "https://github.com/Escape-Technologies/graphinder",
+    "groups": [
+      "recon",
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "gwtenum",
     "version": "7.f27a5aa",
     "description": "Enumeration of GWT-RCP method calls.",
-    "url": "http://www.gdssecurity.com/l/t/d.php?k=GwtEnum"
+    "url": "http://www.gdssecurity.com/l/t/d.php?k=GwtEnum",
+    "groups": [
+      "recon",
+      "webapp"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "h8mail",
     "version": "344.ee31c8f",
     "description": "Email OSINT and password breach hunting.",
-    "url": "https://github.com/khast3x/h8mail"
+    "url": "https://github.com/khast3x/h8mail",
+    "groups": [
+      "recon",
+      "social"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "hakrevdns",
     "version": "49.2a847d3",
     "description": "Small, fast tool for performing reverse DNS lookups en masse.",
-    "url": "https://github.com/hakluke/hakrevdns"
+    "url": "https://github.com/hakluke/hakrevdns",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-08-24"
   },
   {
     "name": "halcyon",
     "version": "1.0",
     "description": "A repository crawler that runs checksums for static files found within a given git repository.",
-    "url": "https://www.blackhatlibrary.net/Halcyon"
+    "url": "https://www.blackhatlibrary.net/Halcyon",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "hasere",
     "version": "1.0",
     "description": "Discover the vhosts using google and bing.",
-    "url": "https://github.com/galkan/hasere"
+    "url": "https://github.com/galkan/hasere",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2014-08-02"
   },
   {
     "name": "hatcloud",
     "version": "33.3012ad6",
     "description": "Bypass CloudFlare with Ruby.",
-    "url": "https://github.com/HatBashBR/HatCloud"
+    "url": "https://github.com/HatBashBR/HatCloud",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2025-04-29"
   },
   {
     "name": "hoper",
     "version": "v0.1.1.r0.g8d5dbd9",
     "description": "Trace URL's jumps across the rel links to obtain the last URL.",
-    "url": "https://github.com/gabamnml/hoper"
+    "url": "https://github.com/gabamnml/hoper",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2025-10-02"
   },
   {
     "name": "hosthunter",
     "version": "158.553f1c7",
     "description": "A recon tool for discovering hostnames using OSINT techniques.",
-    "url": "https://github.com/SpiderLabs/HostHunter"
+    "url": "https://github.com/SpiderLabs/HostHunter",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "howmanypeoplearearound",
     "version": "123.b05e06a",
     "description": "Count the number of people around you by monitoring wifi signals.",
-    "url": "https://github.com/schollz/howmanypeoplearearound"
+    "url": "https://github.com/schollz/howmanypeoplearearound",
+    "groups": [
+      "recon",
+      "wireless"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "id-entify",
     "version": "34.dd064a5",
     "description": "Search for information related to a domain: Emails - IP addresses - Domains - Information on WEB technology - Type of Firewall - NS and MX records.",
-    "url": "https://github.com/BillyV4/ID-entify"
+    "url": "https://github.com/BillyV4/ID-entify",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "idswakeup",
     "version": "1.0",
     "description": "A collection of tools that allows to test network intrusion detection systems.",
-    "url": "https://www.hsc.fr/securite-internet/"
+    "url": "https://www.hsc.fr/securite-internet/",
+    "groups": [
+      "recon",
+      "networking",
+      "scanner"
+    ],
+    "updated": "2015-01-03"
   },
   {
     "name": "infoga",
     "version": "33.79a1c03",
     "description": "Tool for gathering e-mail accounts information from different public sources (search engines, pgp key servers).",
-    "url": "https://github.com/m4ll0k/infoga"
+    "url": "https://github.com/m4ll0k/infoga",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2023-05-04"
   },
   {
     "name": "inquisitor",
     "version": "28.12a9ec1",
     "description": "OSINT Gathering Tool for Companies and Organizations.",
-    "url": "https://github.com/penafieljlm/inquisitor"
+    "url": "https://github.com/penafieljlm/inquisitor",
+    "groups": [
+      "recon",
+      "social"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "intelplot",
     "version": "12.4dd9fc0",
     "description": "OSINT Tool to Mark Points on Offline Map.",
-    "url": "https://github.com/itsmehacker/IntelPlot"
+    "url": "https://github.com/itsmehacker/IntelPlot",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2020-04-24"
   },
   {
     "name": "intrace",
     "version": "1.6",
-    "description": "Traceroute-like application piggybacking on existing TCP connections",
-    "url": "http://intrace.googlecode.com"
+    "description": "Traceroute-like application piggybacking on existing TCP connections.",
+    "url": "http://intrace.googlecode.com",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2025-11-30"
   },
   {
     "name": "ip-tracer",
     "version": "92.6b9c454",
     "description": "Track and retrieve any ip address information.",
-    "url": "https://github.com/rajkumardusad/IP-Tracer"
+    "url": "https://github.com/rajkumardusad/IP-Tracer",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-09-21"
   },
   {
     "name": "ip2clue",
     "version": "0.0.95",
     "description": "A small memory/CPU footprint daemon to lookup country (and other info) based on IP (v4 and v6).",
-    "url": "http://kernel.embedromix.ro/us/"
+    "url": "http://kernel.embedromix.ro/us/",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2019-05-10"
   },
   {
     "name": "iptodomain",
     "version": "18.f1afcd7",
     "description": "This tool extract domains from IP address based in the information saved in virustotal.",
-    "url": "https://github.com/Hackplayers/iptodomain"
+    "url": "https://github.com/Hackplayers/iptodomain",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "ipv666",
     "version": "182.ad45ae8",
     "description": "Golang IPv6 address enumeration.",
-    "url": "https://github.com/lavalamp-/ipv666"
+    "url": "https://github.com/lavalamp-/ipv666",
+    "groups": [
+      "recon",
+      "networking"
+    ],
+    "updated": "2021-04-27"
   },
   {
     "name": "ircsnapshot",
     "version": "94.cb02a85",
     "description": "Tool to gather information from IRC servers.",
-    "url": "https://github.com/bwall/ircsnapshot"
+    "url": "https://github.com/bwall/ircsnapshot",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "isr-form",
     "version": "1.0",
     "description": "Simple html parsing tool that extracts all form related information and generates reports of the data. Allows for quick analyzing of data.",
-    "url": "http://www.infobyte.com.ar/"
+    "url": "http://www.infobyte.com.ar/",
+    "groups": [
+      "recon",
+      "webapp"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "ivre",
     "version": "0.9.21.dev163",
     "description": "Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,...",
-    "url": "https://ivre.rocks/"
+    "url": "https://ivre.rocks/",
+    "groups": [
+      "recon",
+      "networking"
+    ],
+    "updated": "2026-04-12"
   },
   {
     "name": "ivre-docs",
     "version": "0.9.21.dev163",
     "description": "Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,... (documentation)",
-    "url": "https://ivre.rocks/"
+    "url": "https://ivre.rocks/",
+    "groups": [
+      "recon",
+      "networking"
+    ],
+    "updated": "2026-04-12"
   },
   {
     "name": "ivre-web",
     "version": "0.9.21.dev163",
     "description": "Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,... (web application)",
-    "url": "https://ivre.rocks/"
+    "url": "https://ivre.rocks/",
+    "groups": [
+      "recon",
+      "networking"
+    ],
+    "updated": "2026-04-12"
   },
   {
     "name": "jackdaw",
     "version": "417.19e38d1",
     "description": "Collect all information in your domain, show you graphs on how domain objects interact with each-other and how to exploit these interactions.",
-    "url": "https://github.com/skelsec/jackdaw"
+    "url": "https://github.com/skelsec/jackdaw",
+    "groups": [
+      "recon",
+      "windows"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "jsearch",
     "version": "44.87cf9c1",
     "description": "Simple script that grep infos from javascript files.",
-    "url": "https://github.com/incogbyte/jsearch"
+    "url": "https://github.com/incogbyte/jsearch",
+    "groups": [
+      "recon",
+      "webapp"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "kacak",
     "version": "1.0",
     "description": "Tools for penetration testers that can enumerate which users logged on windows system.",
-    "url": "https://github.com/galkan/kacak"
+    "url": "https://github.com/galkan/kacak",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2017-07-22"
   },
   {
     "name": "kamerka",
     "version": "48.1f301e8",
     "description": "Build interactive map of cameras from Shodan.",
-    "url": "https://github.com/s7x/kamerka"
+    "url": "https://github.com/s7x/kamerka",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-03-07"
   },
   {
     "name": "keye",
     "version": "29.d44a578",
     "description": "Recon tool detecting changes of websites based on content-length differences.",
-    "url": "https://github.com/clirimemini/Keye"
+    "url": "https://github.com/clirimemini/Keye",
+    "groups": [
+      "recon",
+      "webapp"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "lanmap2",
     "version": "127.1197999",
     "description": "Passive network mapping tool.",
-    "url": "https://github.com/rflynn/lanmap2"
+    "url": "https://github.com/rflynn/lanmap2",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2015-09-04"
   },
   {
     "name": "lbd",
     "version": "20130719",
     "description": "Load Balancing detector,",
-    "url": "http://ge.mine.nu/code/lbd"
+    "url": "http://ge.mine.nu/code/lbd",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2023-01-15"
   },
   {
     "name": "ldapenum",
     "version": "0.1",
     "description": "Enumerate domain controllers using LDAP.",
-    "url": "https://gobag.googlecode.com/svn-history/r2/trunk/ldap/ldapenum/"
+    "url": "https://gobag.googlecode.com/svn-history/r2/trunk/ldap/ldapenum/",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2019-05-10"
   },
   {
     "name": "ldeep",
     "version": "2.0.3.r15.gb57f12e",
     "description": "In-depth ldap enumeration utility.",
-    "url": "https://github.com/franc-pentest/ldeep"
+    "url": "https://github.com/franc-pentest/ldeep",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "legion",
     "version": "64.703f2ad",
     "description": "Automatic Enumeration Tool based in Open Source tools.",
-    "url": "https://github.com/carlospolop/legion"
+    "url": "https://github.com/carlospolop/legion",
+    "groups": [
+      "recon",
+      "automation"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "lft",
     "version": "3.91",
     "description": "A layer four traceroute implementing numerous other features.",
-    "url": "http://pwhois.org/lft/"
+    "url": "http://pwhois.org/lft/",
+    "groups": [
+      "recon",
+      "networking"
+    ],
+    "updated": "2020-05-04"
   },
   {
     "name": "lhf",
     "version": "40.51568ee",
     "description": "A modular recon tool for pentesting.",
-    "url": "https://github.com/blindfuzzy/LHF"
+    "url": "https://github.com/blindfuzzy/LHF",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "linux-exploit-suggester",
     "version": "32.9db2f5a",
     "description": "A Perl script that tries to suggest exploits based OS version number.",
-    "url": "https://github.com/InteliSecureLabs/Linux_Exploit_Suggester"
+    "url": "https://github.com/InteliSecureLabs/Linux_Exploit_Suggester",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "linux-exploit-suggester.sh",
     "version": "189.bde0967",
     "description": "Linux privilege escalation auditing tool.",
-    "url": "https://github.com/The-Z-Labs/linux-exploit-suggester"
+    "url": "https://github.com/The-Z-Labs/linux-exploit-suggester",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "littlebrother",
     "version": "112.338cf82",
     "description": "OSINT tool to get informations on French, Belgian and Swizerland people.",
-    "url": "https://github.com/lulz3xploit/LittleBrother"
+    "url": "https://github.com/lulz3xploit/LittleBrother",
+    "groups": [
+      "recon",
+      "social"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "loot",
     "version": "51.656fb85",
     "description": "Sensitive information extraction tool.",
-    "url": "https://github.com/GuerrillaWarfare/Loot"
-  },
-  {
-    "name": "lrod",
-    "version": "Version.r34.gbdd9b82",
-    "description": "Perform subdomain enumeration, endpoint recognition, and more.",
-    "url": "https://gitlab.com/Edu0x01/SR-71"
+    "url": "https://github.com/GuerrillaWarfare/Loot",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2015-08-17"
   },
   {
     "name": "machinae",
     "version": "200.d5deae8",
     "description": "A tool for collecting intelligence from public sites/feeds about various security-related pieces of data.",
-    "url": "https://github.com/HurricaneLabs/machinae"
+    "url": "https://github.com/HurricaneLabs/machinae",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-06-13"
   },
   {
     "name": "mail-crawl",
     "version": "0.1",
     "description": "Tool to harvest emails from website.",
-    "url": "https://raw.githubusercontent.com/galkan/tools/master/mail-crawl/"
+    "url": "https://raw.githubusercontent.com/galkan/tools/master/mail-crawl/",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "massbleed",
     "version": "20.44b7e85",
     "description": "SSL Vulnerability Scanner.",
-    "url": "https://github.com/1N3/Sn1per"
+    "url": "https://github.com/1N3/Sn1per",
+    "groups": [
+      "recon",
+      "automation",
+      "scanner"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "mdns-recon",
     "version": "11.69b864e",
     "description": "An mDNS recon tool written in Python.",
-    "url": "https://github.com/chadillac/mdns_recon"
+    "url": "https://github.com/chadillac/mdns_recon",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "metabigor",
     "version": "79.c0a3ecf",
     "description": "Intelligence Tool but without API key.",
-    "url": "https://github.com/j3ssie/metabigor"
+    "url": "https://github.com/j3ssie/metabigor",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2025-07-05"
   },
   {
     "name": "metafinder",
     "version": "v1.2.r2.g30c8475",
     "description": "Search for documents in a domain through Search Engines (Google, Bing and Baidu). The objective is to extract metadata.",
-    "url": "https://github.com/Josue87/MetaFinder"
+    "url": "https://github.com/Josue87/MetaFinder",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "metagoofil",
     "version": "97.88e9a3c",
     "description": "An information gathering tool designed for extracting metadata of public documents.",
-    "url": "http://www.edge-security.com/metagoofil.php"
+    "url": "http://www.edge-security.com/metagoofil.php",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "mildew",
     "version": "11.df49c23",
     "description": "Dotmil subdomain discovery tool that scrapes domains from official DoD website directories and certificate transparency logs.",
-    "url": "https://github.com/daehee/mildew"
+    "url": "https://github.com/daehee/mildew",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2021-04-27"
   },
   {
     "name": "missidentify",
     "version": "1.0",
     "description": "A program to find Win32 applications.",
-    "url": "https://missidentify.sourceforge.net/"
+    "url": "https://missidentify.sourceforge.net/",
+    "groups": [
+      "recon",
+      "windows"
+    ],
+    "updated": "2026-09-14"
   },
   {
     "name": "monocle",
     "version": "1.0",
     "description": "A local network host discovery tool. In passive mode, it will listen for ARP request and reply packets. In active mode, it will send ARP requests to the specific IP range. The results are a list of IP and MAC addresses present on the local network.",
-    "url": "http://packetstormsecurity.com/files/99823/Monocle-Host-Discovery-Tool-1.0.html"
+    "url": "http://packetstormsecurity.com/files/99823/Monocle-Host-Discovery-Tool-1.0.html",
+    "groups": [
+      "recon",
+      "networking"
+    ],
+    "updated": "2018-11-15"
   },
   {
     "name": "nasnum",
     "version": "5.df5df19",
     "description": "Script to enumerate network attached storages.",
-    "url": "https://github.com/tcstool/Nasnum"
+    "url": "https://github.com/tcstool/Nasnum",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "necromant",
     "version": "4.53930c2",
     "description": "Python Script that search unused Virtual Hosts in Web Servers.",
-    "url": "https://github.com/jselvi/Necromant"
+    "url": "https://github.com/jselvi/Necromant",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "neglected",
     "version": "8.68d02b3",
     "description": "Facebook CDN Photo Resolver.",
-    "url": "https://github.com/GuerrillaWarfare/neglected"
+    "url": "https://github.com/GuerrillaWarfare/neglected",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2015-08-17"
   },
   {
     "name": "netdiscover",
     "version": "257.42648f9",
     "description": "An active/passive address reconnaissance tool, mainly developed for those wireless networks without dhcp server, when you are wardriving. It can be also used on hub/switched networks.",
-    "url": "http://nixgeneration.com/~jaime/netdiscover/"
+    "url": "http://nixgeneration.com/~jaime/netdiscover/",
+    "groups": [
+      "recon",
+      "wireless"
+    ],
+    "updated": "2025-08-23"
   },
   {
     "name": "netkit-bsd-finger",
     "version": "0.17",
     "description": "BSD-finger ported to Linux.",
-    "url": "http://ftp.linux.org.uk/pub/linux/Networking/netkit"
+    "url": "http://ftp.linux.org.uk/pub/linux/Networking/netkit",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2017-04-08"
   },
   {
     "name": "netkit-rusers",
     "version": "0.17",
     "description": "Logged in users; Displays who is logged in to machines on local network.",
-    "url": "https://packages.debian.org/source/sid/net/netkit-rusers"
+    "url": "https://packages.debian.org/source/sid/net/netkit-rusers",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2021-02-07"
   },
   {
     "name": "netkit-rwho",
     "version": "0.17",
     "description": "Remote who client and server (with Debian patches).",
-    "url": "http://packages.qa.debian.org/n/netkit-rwho.html"
+    "url": "http://packages.qa.debian.org/n/netkit-rwho.html",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2021-02-07"
   },
   {
     "name": "netmask",
     "version": "2.4.4",
     "description": "Helps determine network masks",
-    "url": "http://packages.qa.debian.org/n/netmask.html"
+    "url": "http://packages.qa.debian.org/n/netmask.html",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2019-02-10"
   },
   {
     "name": "netscout",
     "version": "37.2f409df",
     "description": "OSINT tool that finds domains, subdomains, directories, endpoints and files.",
-    "url": "https://github.com/caio-ishikawa/netscout"
+    "url": "https://github.com/caio-ishikawa/netscout",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2024-12-01"
   },
   {
     "name": "nohidy",
     "version": "67.22c1283",
     "description": "The system admins best friend, multi platform auditing tool.",
-    "url": "https://github.com/flipchan/Nohidy"
+    "url": "https://github.com/flipchan/Nohidy",
+    "groups": [
+      "recon",
+      "networking",
+      "defensive"
+    ],
+    "updated": "2024-12-25"
+  },
+  {
+    "name": "nsec3map",
+    "version": "v0.8.2.r0.gd145b13",
+    "description": "A tool to enumerate the resource records of a DNS zone using its DNSSEC NSEC or NSEC3 chain.",
+    "url": "https://github.com/anonion0/nsec3map",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "nsec3walker",
     "version": "20101223",
-    "description": "Enumerates domain names using DNSSEC",
-    "url": "https://dnscurve.org/nsec3walker.html"
+    "description": "Enumerate domain names using DNSSEC.",
+    "url": "https://dnscurve.org/nsec3walker.html",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2025-12-19"
   },
   {
     "name": "ntp-ip-enum",
     "version": "0.1",
     "description": "Script to pull addresses from a NTP server using the monlist command. Can also output Maltego resultset.",
-    "url": "https://securepla.net/"
+    "url": "https://securepla.net/",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "nullinux",
     "version": "124.9f8727a",
     "description": "Tool that can be used to enumerate OS information, domain information, shares, directories, and users through SMB null sessions.",
-    "url": "https://github.com/m8sec/nullinux"
+    "url": "https://github.com/m8sec/nullinux",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "omnibus",
     "version": "129.88dbf5d",
     "description": "OSINT tool for intelligence collection, research and artifact management.",
-    "url": "https://github.com/InQuest/omnibus"
+    "url": "https://github.com/InQuest/omnibus",
+    "groups": [
+      "recon",
+      "social"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "onioff",
     "version": "84.34dc309",
     "description": "An onion url inspector for inspecting deep web links.",
-    "url": "https://github.com/k4m4/onioff"
+    "url": "https://github.com/k4m4/onioff",
+    "groups": [
+      "recon",
+      "recon"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "osint-spy",
     "version": "v2.0.r11.g03dcf48",
     "description": "Performs OSINT scan on email/domain/ip_address/organization.",
-    "url": "https://github.com/SharadKumar97/OSINT-SPY"
+    "url": "https://github.com/SharadKumar97/OSINT-SPY",
+    "groups": [
+      "recon",
+      "social"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "osinterator",
     "version": "3.8447f58",
     "description": "Open Source Toolkit for Open Source Intelligence Gathering.",
-    "url": "https://github.com/guitarmanj/OSINTerator"
+    "url": "https://github.com/guitarmanj/OSINTerator",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2015-11-03"
   },
   {
     "name": "osintgram",
     "version": "2.0.r11.ga560498",
     "description": "OSINT tool offering an interactive shell to perform analysis on Instagram account of any users by its nickname.",
-    "url": "https://github.com/Datalux/Osintgram"
-  },
-  {
-    "name": "osrframework",
-    "version": "840.e02a6e9",
-    "description": "A project focused on providing API and tools to perform more accurate online researches.",
-    "url": "https://github.com/i3visio/osrframework"
+    "url": "https://github.com/Datalux/Osintgram",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "parsero",
     "version": "81.e5b585a",
     "description": "A robots.txt audit tool.",
-    "url": "https://github.com/behindthefirewalls/Parsero"
+    "url": "https://github.com/behindthefirewalls/Parsero",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "pastemonitor",
     "version": "12.bc5d326",
     "description": "Scrape Pastebin API to collect daily pastes, setup a wordlist and be alerted by email when you have a match..",
-    "url": "https://github.com/pixelbubble/PasteMonitor"
+    "url": "https://github.com/pixelbubble/PasteMonitor",
+    "groups": [
+      "recon",
+      "automation",
+      "misc"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "pdfgrab",
     "version": "15.1327508",
     "description": "Tool for searching pdfs withthin google and extracting pdf metadata.",
-    "url": "https://github.com/c0decave/pdfgrab"
+    "url": "https://github.com/c0decave/pdfgrab",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-13"
+  },
+  {
+    "name": "pius-pi",
+    "version": "1.3.18.r0.gff1dbcb",
+    "description": "Organizational asset discovery tool with 20+ plugins covering certificate transparency, passive DNS, and all 5 Regional Internet Registries.",
+    "url": "https://github.com/praetorian-inc/pius",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "pmapper",
     "version": "82.91d2e60",
     "description": "A tool for quickly evaluating IAM permissions in AWS.",
-    "url": "https://github.com/nccgroup/PMapper"
+    "url": "https://github.com/nccgroup/PMapper",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "postenum",
     "version": "126.f91ba1c",
     "description": "Clean, nice and easy tool for basic/advanced privilege escalation techniques.",
-    "url": "https://github.com/mostaphabahadou/postenum"
+    "url": "https://github.com/mostaphabahadou/postenum",
+    "groups": [
+      "recon",
+      "scanner",
+      "exploitation"
+    ],
+    "updated": "2026-01-21"
   },
   {
     "name": "protosint",
     "version": "35.34e570a",
     "description": "Python script that helps you investigate Protonmail accounts and ProtonVPN IP addresses.",
-    "url": "https://github.com/pixelbubble/ProtOSINT"
+    "url": "https://github.com/pixelbubble/ProtOSINT",
+    "groups": [
+      "recon",
+      "social"
+    ],
+    "updated": "2026-08-02"
   },
   {
     "name": "punter",
     "version": "45.97b7bed",
     "description": "Hunt domain names using DNSDumpster, WHOIS, Reverse WHOIS, Shodan, Crimeflare.",
-    "url": "https://github.com/nethunteros/punter"
+    "url": "https://github.com/nethunteros/punter",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "puredns",
     "version": "v2.1.1.r4.g46bd4c9",
     "description": "Fast domain resolver and subdomain bruteforcing with accurate wildcard filtering.",
-    "url": "https://github.com/d3mondev/puredns"
+    "url": "https://github.com/d3mondev/puredns",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2026-03-01"
   },
   {
     "name": "pwned",
     "version": "3063.b6554f1",
     "description": "A command-line tool for querying the 'Have I been pwned?' service.",
-    "url": "https://github.com/wKovacs64/pwned"
+    "url": "https://github.com/wKovacs64/pwned",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-07-05"
   },
   {
     "name": "pwned-search",
     "version": "40.04c1439",
     "description": "Pwned Password API lookup.",
-    "url": "https://github.com/mikepound/pwned-search"
+    "url": "https://github.com/mikepound/pwned-search",
+    "groups": [
+      "recon",
+      "social"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "pwnedornot",
     "version": "152.c388d26",
     "description": "Tool to find passwords for compromised email addresses.",
-    "url": "https://github.com/thewhiteh4t/pwnedOrNot"
+    "url": "https://github.com/thewhiteh4t/pwnedOrNot",
+    "groups": [
+      "recon",
+      "social"
+    ],
+    "updated": "2026-03-28"
   },
   {
     "name": "pymeta",
     "version": "1.0.4.r25.gdb8a80b",
     "description": "Auto Scanning to SSL Vulnerability.",
-    "url": "https://github.com/m8sec/pymeta"
+    "url": "https://github.com/m8sec/pymeta",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "python-api-dnsdumpster",
     "version": "v0.11.r0.g7c60722",
     "description": "Unofficial Python API for http://dnsdumpster.com/.",
-    "url": "https://github.com/PaulSec/API-dnsdumpster.com"
+    "url": "https://github.com/PaulSec/API-dnsdumpster.com",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2026-02-21"
   },
   {
     "name": "python-ivre",
     "version": "0.9.21.dev163",
     "description": "Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,... (library)",
-    "url": "https://ivre.rocks/"
+    "url": "https://ivre.rocks/",
+    "groups": [
+      "recon",
+      "networking"
+    ],
+    "updated": "2026-04-12"
   },
   {
     "name": "python2-api-dnsdumpster",
     "version": "v0.10.r0.g0f8ba2b",
     "description": "Unofficial Python API for http://dnsdumpster.com/.",
-    "url": "https://github.com/PaulSec/API-dnsdumpster.com"
+    "url": "https://github.com/PaulSec/API-dnsdumpster.com",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2026-02-03"
   },
   {
     "name": "python2-ivre",
     "version": "0.9.16.dev26",
     "description": "Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,... (library)",
-    "url": "https://ivre.rocks/"
+    "url": "https://ivre.rocks/",
+    "groups": [
+      "recon",
+      "networking"
+    ],
+    "updated": "2020-12-24"
   },
   {
     "name": "python2-shodan",
     "version": "1.28.0",
     "description": "Python library and command-line utility for Shodan (https://developer.shodan.io).",
-    "url": "https://pypi.org/project/shodan/#files"
+    "url": "https://pypi.org/project/shodan/#files",
+    "groups": [
+      "recon",
+      "scanner",
+      "automation"
+    ],
+    "updated": "2022-07-17"
   },
   {
     "name": "quickrecon",
     "version": "0.3.2",
     "description": "A python script for simple information gathering. It attempts to find subdomain names, perform zone transfers and gathers emails from Google and Bing.",
-    "url": "http://packetstormsecurity.com/files/104314/QuickRecon-0.3.2.html"
+    "url": "http://packetstormsecurity.com/files/104314/QuickRecon-0.3.2.html",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "raccoon",
     "version": "190.44024ab",
     "description": "A high performance offensive security tool for reconnaissance and vulnerability scanning.",
-    "url": "https://github.com/evyatarmeged/Raccoon"
+    "url": "https://github.com/evyatarmeged/Raccoon",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2026-01-13"
   },
   {
-    "name": "rdwarecon",
-    "version": "1.2.r0.g9675200",
+    "name": "rdwatool",
+    "version": "1.2.r15.g75e6267",
     "description": "A python script to extract information from a Microsoft Remote Desktop Web Access (RDWA) application.",
-    "url": "https://github.com/p0dalirius/RDWAtool"
+    "url": "https://github.com/p0dalirius/RDWAtool",
+    "groups": [
+      "recon",
+      "windows"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "recon-ng",
     "version": "v5.1.2.r8.g32b08fe",
     "description": "A full-featured Web Reconnaissance framework written in Python.",
-    "url": "https://github.com/lanmaster53/recon-ng"
+    "url": "https://github.com/lanmaster53/recon-ng",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "reconnoitre",
     "version": "1.r338.gf62afba",
     "description": "A security tool for multithreaded information gathering and service enumeration.",
-    "url": "https://github.com/codingo/Reconnoitre"
+    "url": "https://github.com/codingo/Reconnoitre",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "reconscan",
     "version": "61.afbcfc0",
     "description": "Network reconnaissance and vulnerability assessment tools.",
-    "url": "https://github.com/RoliSoft/ReconScan"
+    "url": "https://github.com/RoliSoft/ReconScan",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "recsech",
     "version": "123.1fc298a",
     "description": "Tool for doing Footprinting and Reconnaissance on the target web.",
-    "url": "https://github.com/radenvodka/Recsech"
+    "url": "https://github.com/radenvodka/Recsech",
+    "groups": [
+      "recon",
+      "scanner",
+      "webapp",
+      "fingerprint"
+    ],
+    "updated": "2020-03-14"
   },
   {
     "name": "red-hawk",
     "version": "36.fa54e23",
     "description": "All in one tool for Information Gathering, Vulnerability Scanning and Crawling.",
-    "url": "https://github.com/Tuhinshubhra/RED_HAWK"
+    "url": "https://github.com/Tuhinshubhra/RED_HAWK",
+    "groups": [
+      "recon",
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2020-09-18"
   },
   {
     "name": "reverseip",
     "version": "13.42cc9c3",
     "description": "Ruby based reverse IP-lookup tool.",
-    "url": "https://github.com/lolwaleet/ReverseIP"
+    "url": "https://github.com/lolwaleet/ReverseIP",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2025-04-29"
   },
   {
     "name": "revipd",
     "version": "5.2aaacfb",
     "description": "A simple reverse IP domain scanner.",
-    "url": "https://github.com/PypeRanger/revipd"
+    "url": "https://github.com/PypeRanger/revipd",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "ridrelay",
     "version": "34.f2fa99c",
     "description": "Enumerate usernames on a domain where you have no creds by using SMB Relay with low priv.",
-    "url": "https://github.com/skorov/ridrelay"
+    "url": "https://github.com/skorov/ridrelay",
+    "groups": [
+      "recon",
+      "spoof",
+      "networking"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "ripdc",
     "version": "0.4",
     "description": "A script which maps domains related to an given ip address or domainname.",
-    "url": "https://nullsecurity.net/tools/scanner"
+    "url": "https://nullsecurity.net/tools/scanner",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2026-04-23"
   },
   {
     "name": "rita",
     "version": "v5.1.2.r5.g1317d70",
     "description": "Real Intelligence Threat Analytics.",
-    "url": "https://github.com/activecm/rita"
+    "url": "https://github.com/activecm/rita",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-06-29"
   },
   {
     "name": "rusthound",
     "version": "1.1.69.r4.g241751c",
-    "description": "Active Directory data collector for BloodHound.",
-    "url": "https://github.com/NH-RED-TEAM/RustHound"
+    "description": "Active Directory data collector for BloodHound written in Rust.",
+    "url": "https://github.com/NH-RED-TEAM/RustHound",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-09-15"
+  },
+  {
+    "name": "rusthound-ce",
+    "version": "v2.5.30.r0.gbaa7285",
+    "description": "Active Directory data collector for BloodHound community edition (v5).",
+    "url": "https://github.com/g0h4n/RustHound-CE",
+    "groups": [
+      "recon",
+      "windows"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "s3enum",
     "version": "v1.1.0.r6.ge9b9bb8",
     "description": "Amazon S3 bucket enumeration.",
-    "url": "https://github.com/koenrh/s3enum"
+    "url": "https://github.com/koenrh/s3enum",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2026-07-05"
   },
   {
     "name": "scavenger",
     "version": "118.8f5d432",
     "description": "Crawler (Bot) searching for credential leaks on different paste sites.",
-    "url": "https://github.com/rndinfosecguy/Scavenger"
+    "url": "https://github.com/rndinfosecguy/Scavenger",
+    "groups": [
+      "recon",
+      "social"
+    ],
+    "updated": "2026-10-31"
+  },
+  {
+    "name": "screamer",
+    "version": "0.2.0",
+    "description": "Fast Subnet Discovery.",
+    "url": "https://github.com/ifritnoises/screamer",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-06-10"
   },
   {
     "name": "sctpscan",
     "version": "34.4d44706",
     "description": "A network scanner for discovery and security.",
-    "url": "https://www.p1sec.com/"
-  },
-  {
-    "name": "scylla",
-    "version": "99.621b7b8",
-    "description": "Find Advanced Information on a Username, Website, Phone Number, etc.",
-    "url": "https://github.com/josh0xA/rrgen"
+    "url": "https://www.p1sec.com/",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2015-10-13"
   },
   {
     "name": "seekr",
     "version": "0.4.0",
     "description": "A multi-purpose OSINT toolkit with a neat web-interface.",
-    "url": "https://github.com/seekr-osint/seekr"
+    "url": "https://github.com/seekr-osint/seekr",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-10-31"
   },
   {
     "name": "server-status-pwn",
     "version": "12.841d55d",
     "description": "A script that monitors and extracts requested URLs and clients connected to the service by exploiting publicly accessible Apache server-status instances.",
-    "url": "https://github.com/mazen160/server-status_PWN"
+    "url": "https://github.com/mazen160/server-status_PWN",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "shard",
     "version": "1.5",
     "description": "A command line tool to detect shared passwords.",
-    "url": "https://github.com/philwantsfish/shard"
+    "url": "https://github.com/philwantsfish/shard",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "shhgit",
     "version": "67.bac0c7d",
     "description": "Find committed secrets and sensitive files across GitHub, Gists, GitLab and BitBucket or your local repositories in real time.",
-    "url": "https://github.com/eth0izzle/shhgit"
+    "url": "https://github.com/eth0izzle/shhgit",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2025-03-01"
   },
   {
     "name": "shodanhat",
     "version": "13.e5e7e68",
     "description": "Search for hosts info with shodan.",
-    "url": "https://github.com/HatBashBR/ShodanHat"
+    "url": "https://github.com/HatBashBR/ShodanHat",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "shosubgo",
     "version": "V5.0.r0.gccb6dc7",
     "description": "Small tool to Grab subdomains using Shodan API.",
-    "url": "https://github.com/incogbyte/shosubgo"
+    "url": "https://github.com/incogbyte/shosubgo",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2025-09-07"
   },
   {
     "name": "simplyemail",
     "version": "1.4.10.r7.6a42d37",
     "description": "Email recon made fast and easy, with a framework to build on CyberSyndicates.",
-    "url": "https://github.com/SimplySecurity/SimplyEmail"
+    "url": "https://github.com/SimplySecurity/SimplyEmail",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "sipi",
     "version": "13.58f0dcc",
     "description": "Simple IP Information Tools for Reputation Data Analysis.",
-    "url": "https://github.com/ST2Labs/SIPI"
+    "url": "https://github.com/ST2Labs/SIPI",
+    "groups": [
+      "recon",
+      "misc"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "smbcrunch",
     "version": "12.313400e",
     "description": "3 tools that work together to simplify reconnaissance of Windows File Shares.",
-    "url": "https://github.com/Raikia/SMBCrunch"
+    "url": "https://github.com/Raikia/SMBCrunch",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "smtp-user-enum",
     "version": "1.2",
     "description": "Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.",
-    "url": "https://pentestmonkey.net/tools/user-enumeration/smtp-user-enum"
+    "url": "https://pentestmonkey.net/tools/user-enumeration/smtp-user-enum",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2024-12-14"
   },
   {
     "name": "snscrape",
     "version": "0.4.3.20220106",
     "description": "A social networking service scraper in Python.",
-    "url": "https://github.com/JustAnotherArchivist/snscrape"
+    "url": "https://github.com/JustAnotherArchivist/snscrape",
+    "groups": [
+      "recon",
+      "social"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "socialscan",
     "version": "128.5ae42d0",
     "description": "Check email address and username availability on online platforms.",
-    "url": "https://github.com/iojw/socialscan"
+    "url": "https://github.com/iojw/socialscan",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "spfmap",
     "version": "8.a42d15a",
     "description": "A program to map out SPF and DKIM records for a large number of domains.",
-    "url": "https://github.com/BishopFox/spfmap"
+    "url": "https://github.com/BishopFox/spfmap",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2021-04-27"
   },
   {
     "name": "spiderfoot",
     "version": "4.0",
     "description": "The Open Source Footprinting Tool.",
-    "url": "https://github.com/smicallef/spiderfoot"
+    "url": "https://github.com/smicallef/spiderfoot",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "spoofcheck",
     "version": "16.8cce591",
     "description": "Simple script that checks a domain for email protections.",
-    "url": "https://github.com/bishopfox/spoofcheck"
+    "url": "https://github.com/bishopfox/spoofcheck",
+    "groups": [
+      "recon",
+      "social"
+    ],
+    "updated": "2017-06-04"
   },
   {
     "name": "spyse",
     "version": "47.cd11ba9",
     "description": "Python API wrapper and command-line client for the tools hosted on spyse.com.",
-    "url": "https://github.com/zeropwn/spyse.py"
+    "url": "https://github.com/zeropwn/spyse.py",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-17"
+  },
+  {
+    "name": "sr-71",
+    "version": "Version.r35.g6a17150",
+    "description": "Perform subdomain enumeration, endpoint recognition, and more.",
+    "url": "https://gitlab.com/Edu0x01/SR-71",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2026-03-15"
   },
   {
     "name": "ssl-hostname-resolver",
     "version": "1",
     "description": "CN (Common Name) grabber on X.509 Certificates over HTTPS.",
-    "url": "http://packetstormsecurity.com/files/120634/Common-Name-Grabber-Script.html"
+    "url": "http://packetstormsecurity.com/files/120634/Common-Name-Grabber-Script.html",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "stardox",
     "version": "41.95b0a97",
     "description": "Github stargazers information gathering tool.",
-    "url": "https://github.com/0xPrateek/Stardox"
+    "url": "https://github.com/0xPrateek/Stardox",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "subdomainer",
     "version": "1.2",
     "description": "A tool designed for obtaining subdomain names from public sources.",
-    "url": "http://www.edge-security.com/subdomainer.php"
+    "url": "http://www.edge-security.com/subdomainer.php",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "subfinder",
     "version": "v2.14.0.r104.g5e3e2c9b",
     "description": "Modular subdomain discovery tool that can discover massive amounts of valid subdomains for any target.",
-    "url": "https://github.com/projectdiscovery/subfinder"
+    "url": "https://github.com/projectdiscovery/subfinder",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-11-01"
   },
   {
     "name": "sublert",
     "version": "67.56d2a12",
     "description": "A security and reconnaissance tool which leverages certificate transparency to automatically monitor new subdomains deployed by specific organizations and issued TLS/SSL certificate.",
-    "url": "https://github.com/yassineaboukir/sublert"
+    "url": "https://github.com/yassineaboukir/sublert",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "sublist3r",
     "version": "138.729d649",
     "description": "A Fast subdomains enumeration tool for penetration testers.",
-    "url": "https://github.com/aboul3la/Sublist3r"
+    "url": "https://github.com/aboul3la/Sublist3r",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "subscraper",
     "version": "34.29aa5cc",
     "description": "Tool that performs subdomain enumeration through various techniques.",
-    "url": "https://github.com/m8sec/subscraper"
+    "url": "https://github.com/m8sec/subscraper",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "svn-extractor",
     "version": "45.6829804",
     "description": "A simple script to extract all web resources by means of .SVN folder exposed over network.",
-    "url": "https://github.com/anantshri/svn-extractor"
+    "url": "https://github.com/anantshri/svn-extractor",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "swamp",
     "version": "59.3c8be65",
     "description": "An OSINT tool for discovering associated sites through Google Analytics Tracking IDs.",
-    "url": "https://github.com/jakecreps/swamp"
+    "url": "https://github.com/jakecreps/swamp",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2020-01-08"
   },
   {
     "name": "syborg",
     "version": "36.5cd010b",
     "description": "Recursive DNS Subdomain Enumerator with dead-end avoidance system.",
-    "url": "https://github.com/MilindPurswani/Syborg"
+    "url": "https://github.com/MilindPurswani/Syborg",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "teamsuserenum",
     "version": "v1.0.r1.g0c8b6c2",
     "description": "User enumeration with Microsoft Teams API",
-    "url": "https://github.com/immunIT/TeamsUserEnum"
+    "url": "https://github.com/immunIT/TeamsUserEnum",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2022-02-25"
   },
   {
     "name": "thedorkbox",
     "version": "7.43852d3",
     "description": "Comprehensive collection of Google Dorks & OSINT techniques to find Confidential Data.",
-    "url": "https://github.com/cybersafeblr/thedorkbox"
+    "url": "https://github.com/cybersafeblr/thedorkbox",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2020-04-29"
   },
   {
     "name": "theharvester",
     "version": "4.11.1.r76.g760b386",
-    "description": "Python tool for gathering e-mail accounts and subdomain names from different public sources (search engines, pgp key servers).",
-    "url": "https://github.com/laramies/theHarvester"
+    "description": "E-mails, subdomains and names Harvester - OSINT",
+    "url": "https://github.com/laramies/theHarvester",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-08-02"
   },
   {
     "name": "tilt",
     "version": "90.2bc2ef2",
     "description": "An easy and simple tool implemented in Python for ip reconnaissance, with reverse ip lookup.",
-    "url": "https://github.com/AeonDave/tilt"
+    "url": "https://github.com/AeonDave/tilt",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "tinfoleak",
     "version": "3.6469eb3",
     "description": "Get detailed information about a Twitter user activity.",
-    "url": "https://github.com/krmaxwell/tinfoleak"
+    "url": "https://github.com/krmaxwell/tinfoleak",
+    "groups": [
+      "recon",
+      "social",
+      "webapp"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "tinfoleak2",
     "version": "41.c45c33e",
     "description": "The most complete open-source tool for Twitter intelligence analysis.",
-    "url": "https://www.vicenteaguileradiaz.com/tools/"
+    "url": "https://www.vicenteaguileradiaz.com/tools/",
+    "groups": [
+      "recon",
+      "social",
+      "webapp"
+    ],
+    "updated": "2026-01-14"
   },
   {
     "name": "treasure",
     "version": "2.b3249be",
     "description": "Hunt for sensitive information through githubs code search.",
-    "url": "https://github.com/GuerrillaWarfare/Treasure"
+    "url": "https://github.com/GuerrillaWarfare/Treasure",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2019-08-24"
   },
   {
     "name": "trusttrees",
     "version": "102.a9b7399",
     "description": "A Tool for DNS Delegation Trust Graphing.",
-    "url": "https://github.com/mandatoryprogrammer/TrustTrees"
+    "url": "https://github.com/mandatoryprogrammer/TrustTrees",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-14"
   },
   {
     "name": "twofi",
     "version": "2.0",
     "description": "Twitter Words of Interest.",
-    "url": "http://www.digininja.org/projects/twofi.php"
+    "url": "http://www.digininja.org/projects/twofi.php",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2025-04-29"
   },
   {
     "name": "ubiquiti-probing",
     "version": "5.c28f4c1",
     "description": "A Ubiquiti device discovery tool.",
-    "url": "https://github.com/headlesszeke/ubiquiti-probing"
+    "url": "https://github.com/headlesszeke/ubiquiti-probing",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2025-04-29"
   },
   {
     "name": "udork",
     "version": "102.1a0aab0",
     "description": "Bash script that uses advanced Google search techniques to obtain sensitive information in files or directories, find IoT devices, detect versions of web applications.",
-    "url": "https://github.com/m3n0sd0n4ld/uDork"
+    "url": "https://github.com/m3n0sd0n4ld/uDork",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "uhoh365",
     "version": "26.110277a",
     "description": "Script to enumerate Office 365 users without performing login attempts",
-    "url": "https://github.com/Raikia/UhOh365"
+    "url": "https://github.com/Raikia/UhOh365",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "uncover",
     "version": "v1.0.2.r2.g4b929e0",
     "description": "Discover exposed hosts on the internet using multiple search engines.",
-    "url": "https://github.com/projectdiscovery/uncover"
+    "url": "https://github.com/projectdiscovery/uncover",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2023-02-20"
   },
   {
     "name": "userrecon",
     "version": "10.3b56891",
     "description": "Find usernames across over 75 social networks.",
-    "url": "https://github.com/thelinuxchoice/userrecon"
+    "url": "https://github.com/thelinuxchoice/userrecon",
+    "groups": [
+      "recon",
+      "social",
+      "fingerprint"
+    ],
+    "updated": "2019-02-10"
   },
   {
     "name": "vbrute",
     "version": "1.11dda8b",
     "description": "Virtual hosts brute forcer.",
-    "url": "https://github.com/nccgroup/vbrute"
+    "url": "https://github.com/nccgroup/vbrute",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2019-11-16"
   },
   {
     "name": "vpnpivot",
     "version": "22.37bbde0",
     "description": "Explore the network using this tool.",
-    "url": "https://github.com/0x36/VPNPivot"
+    "url": "https://github.com/0x36/VPNPivot",
+    "groups": [
+      "recon",
+      "networking"
+    ],
+    "updated": "2017-05-09"
   },
   {
     "name": "waldo",
     "version": "29.ee4f960",
     "description": "A lightweight and multithreaded directory and subdomain bruteforcer implemented in Python.",
-    "url": "https://github.com/red-team-labs/waldo"
+    "url": "https://github.com/red-team-labs/waldo",
+    "groups": [
+      "recon",
+      "scanner"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "waybackurls",
     "version": "11.89da10c",
     "description": "Fetch all the URLs that the Wayback Machine knows about for a domain.",
-    "url": "https://github.com/tomnomnom/waybackurls"
+    "url": "https://github.com/tomnomnom/waybackurls",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2021-04-27"
   },
   {
     "name": "waymore",
     "version": "v8.9.r0.g4e02de5",
     "description": "Find way more from the Wayback Machine, Common Crawl, Alien Vault OTX, URLScan & VirusTotal.",
-    "url": "https://github.com/xnl-h4ck3r/waymore"
+    "url": "https://github.com/xnl-h4ck3r/waymore",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-06-14"
   },
   {
     "name": "websearch",
     "version": "4.cb7ef8e",
     "description": "Search vhost names given a host range. Powered by Bing..",
-    "url": "https://github.com/jselvi/WebSearch"
+    "url": "https://github.com/jselvi/WebSearch",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2023-02-20"
   },
   {
     "name": "weebdns",
     "version": "14.c01c04f",
     "description": "DNS Enumeration with Asynchronicity.",
-    "url": "https://github.com/WeebSec/weebdns"
+    "url": "https://github.com/WeebSec/weebdns",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-14"
   },
   {
     "name": "whatweb",
     "version": "v0.6.4.r0.gd279d93",
     "description": "Next generation web scanner that identifies what websites are running.",
-    "url": "https://www.morningstarsecurity.com/research/whatweb"
+    "url": "https://www.morningstarsecurity.com/research/whatweb",
+    "groups": [
+      "recon",
+      "webapp"
+    ],
+    "updated": "2026-04-05"
   },
   {
     "name": "whoxyrm",
     "version": "1.0.0.r5.g77318a7",
     "description": "A reverse whois tool based on Whoxy API.",
-    "url": "https://github.com/MilindPurswani/whoxyrm"
+    "url": "https://github.com/MilindPurswani/whoxyrm",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-07-05"
   },
   {
     "name": "windapsearch",
     "version": "28.7724ec4",
     "description": "Script to enumerate users, groups and computers from a Windows domain through LDAP queries.",
-    "url": "https://github.com/ropnop/windapsearch"
+    "url": "https://github.com/ropnop/windapsearch",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-14"
   },
   {
     "name": "windows-exploit-suggester",
     "version": "41.776bd91",
     "description": "This tool compares a targets patch levels against the Microsoft vulnerability database in order to detect potential missing patches on the target.",
-    "url": "https://github.com/strozfriedberg/Windows-Exploit-Suggester"
+    "url": "https://github.com/strozfriedberg/Windows-Exploit-Suggester",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "xray",
     "version": "109.7e8cc67",
     "description": "A tool for recon, mapping and OSINT gathering from public networks.",
-    "url": "https://github.com/evilsocket/xray"
+    "url": "https://github.com/evilsocket/xray",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2024-10-01"
   },
   {
     "name": "zeus-scanner",
     "version": "414.21b8756",
     "description": "Advanced dork searching utility.",
-    "url": "https://github.com/Ekultek/Zeus-Scanner"
+    "url": "https://github.com/Ekultek/Zeus-Scanner",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2026-01-14"
   },
   {
     "name": "zgrab",
     "version": "804.59a517f",
     "description": "Grab banners (optionally over TLS).",
-    "url": "https://github.com/zmap/zgrab"
+    "url": "https://github.com/zmap/zgrab",
+    "groups": [
+      "recon"
+    ],
+    "updated": "2021-07-14"
   }
 ]

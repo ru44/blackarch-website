@@ -2,61 +2,108 @@
   {
     "name": "edb",
     "version": "3337.eedd97a0",
-    "description": "A cross platform AArch32/x86/x86 debugger.",
-    "url": "https://github.com/eteran/edb-debugger"
+    "description": "A cross platform AArch32/x86/x86-64 debugger.",
+    "url": "https://github.com/eteran/edb-debugger",
+    "groups": [
+      "debugger",
+      "reversing"
+    ],
+    "updated": "2024-11-23"
   },
   {
     "name": "electric-fence",
     "version": "2.2.5",
     "description": "A malloc(3) debugger that uses virtual memory hardware to detect illegal memory accesses.",
-    "url": "https://packages.debian.org/sid/electric-fence"
+    "url": "https://packages.debian.org/sid/electric-fence",
+    "groups": [
+      "debugger"
+    ],
+    "updated": "2020-02-25"
   },
   {
     "name": "gdbgui",
     "version": "438.773b916",
     "description": "Browser-based gdb frontend using Flask and JavaScript to visually debug C, C++, Go, or Rust.",
-    "url": "https://github.com/cs01/gdbgui"
+    "url": "https://github.com/cs01/gdbgui",
+    "groups": [
+      "debugger",
+      "binary"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "heaptrace",
     "version": "2.2.8.2.r20.g06f43fc",
     "description": "Helps visualize heap operations for pwn and debugging.",
-    "url": "https://github.com/Arinerron/heaptrace"
+    "url": "https://github.com/Arinerron/heaptrace",
+    "groups": [
+      "debugger"
+    ],
+    "updated": "2024-02-03"
   },
   {
     "name": "ollydbg",
     "version": "201g",
     "description": "A 32-bit assembler-level analysing debugger.",
-    "url": "http://www.ollydbg.de"
+    "url": "http://www.ollydbg.de",
+    "groups": [
+      "debugger",
+      "windows"
+    ],
+    "updated": "2018-12-14"
   },
   {
     "name": "rr",
     "version": "6869.556551e4",
     "description": "A Record and Replay Framework.",
-    "url": "https://github.com/rr-debugger/rr"
+    "url": "https://github.com/rr-debugger/rr",
+    "groups": [
+      "debugger",
+      "misc"
+    ],
+    "updated": "2024-07-20"
   },
   {
     "name": "saleae-logic",
     "version": "2.3.47",
     "description": "Debug happy.",
-    "url": "https://www.saleae.com/downloads"
+    "url": "https://www.saleae.com/downloads",
+    "groups": [
+      "debugger"
+    ],
+    "updated": "2022-03-19"
   },
   {
     "name": "shellnoob",
     "version": "37.6586133",
     "description": "A toolkit that eases the writing and debugging of shellcode.",
-    "url": "https://github.com/reyammer/shellnoob"
+    "url": "https://github.com/reyammer/shellnoob",
+    "groups": [
+      "debugger",
+      "exploitation"
+    ],
+    "updated": "2025-07-05"
   },
   {
     "name": "vivisect",
     "version": "v1.3.2.r10.g66c93f0c",
     "description": "A Python based static analysis and reverse engineering framework.",
-    "url": "https://github.com/vivisect/vivisect"
+    "url": "https://github.com/vivisect/vivisect",
+    "groups": [
+      "debugger",
+      "disassembler",
+      "reversing"
+    ],
+    "updated": "2026-09-06"
   },
   {
     "name": "voltron",
     "version": "v0.1.8.r0.gbe9e54b",
     "description": "UI for GDB, LLDB and Vivisect's VDB.",
-    "url": "https://github.com/snare/voltron"
+    "url": "https://github.com/snare/voltron",
+    "groups": [
+      "debugger"
+    ],
+    "updated": "2026-01-17"
   }
 ]

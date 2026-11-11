@@ -63,8 +63,9 @@ const visibleCount = ref(CHUNK_SIZE);
 const scrollContainer = ref(null);
 const sentinel = ref(null);
 
-const label = (slug) => slug.replace(/^blackarch-/, "").replace(/-/g, " ");
-const groupCmd = (g) => `sudo pacman -S ${g}`;
+// Groups are stored without their "blackarch-" prefix: "code-audit" -> "code audit".
+const label = (group) => group.replace(/-/g, " ");
+const groupCmd = (group) => `sudo pacman -S blackarch-${group}`;
 const docs = ref(new Set());
 // Tools whose website no longer exists (see scripts/sync-tool-links.mjs).
 const deadLinks = ref(new Set());
@@ -134,52 +135,23 @@ useIntersectionObserver(
 );
 
 onMounted(async () => {
-  // Keys are sorted file paths; the category is the source file name.
-  const entries = await Promise.all(
-    Object.entries(modules).map(async ([path, load]) => {
-      const json = await load();
-      const list = Array.isArray(json.default) ? json.default : [json.default];
-      const cat = path
-        .split("/")
-        .pop()
-        .replace(/\.json$/, "");
-      return list.map((t) => ({ ...t, category: cat }));
-    }),
-  );
-  // Real package groups come from the BlackArch wiki (blackarch.wiki); tools it
-  // does not list fall back to the group matching their data file, if one exists.
-  const [
-    { default: groupMap },
-    { default: docList },
-    { default: updates },
-    { default: stars },
-    { default: deadList },
-  ] = await Promise.all([
-    import("../data/tool-groups.json"),
-    import("../data/tool-docs.json"),
-    import("../data/tool-updates.json"),
-    import("../data/tool-stars.json"),
-    import("../data/tool-dead-links.json"),
-  ]);
-  // tool-stars.json is ordered most starred first, so the position is the rank.
-  const ranks = new Map(Object.keys(stars).map((name, i) => [name, i + 1]));
+  // One file per category (see scripts/sync-tools.mjs), loaded in parallel.
+  const [categoryFiles, { default: docList }, { default: stars }, { default: deadList }] =
+    await Promise.all([
+      Promise.all(Object.values(modules).map((load) => load())),
+      import("../data/tool-docs.json"),
+      import("../data/tool-stars.json"),
+      import("../data/tool-dead-links.json"),
+    ]);
   docs.value = new Set(docList);
   deadLinks.value = new Set(deadList);
-  const known = new Set(Object.values(groupMap).flat());
-  const seen = new Map();
-  for (const t of entries.flat()) {
-    if (seen.has(t.name)) continue;
-    const fromWiki = (groupMap[t.name] || []).filter((g) => g !== "blackarch");
-    const fallback = `blackarch-${t.category}`;
-    seen.set(t.name, {
-      ...t,
-      groups: fromWiki.length ? fromWiki : known.has(fallback) ? [fallback] : [],
-      updated: updates[t.name],
-      stars: stars[t.name],
-      rank: ranks.get(t.name),
-    });
-  }
-  tools.value = [...seen.values()].sort((a, b) => a.name.localeCompare(b.name));
+  // tool-stars.json is ordered most starred first, so the position is the rank.
+  const ranks = new Map(Object.keys(stars).map((name, i) => [name, i + 1]));
+
+  tools.value = categoryFiles
+    .flatMap((file) => file.default)
+    .map((tool) => ({ ...tool, stars: stars[tool.name], rank: ranks.get(tool.name) }))
+    .sort((a, b) => a.name.localeCompare(b.name));
   isLoading.value = false;
 });
 

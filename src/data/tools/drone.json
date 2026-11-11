@@ -3,24 +3,43 @@
     "name": "crozono",
     "version": "5.6a51669",
     "description": "A modular framework designed to automate the penetration testing of wireless networks from drones and such unconventional devices.",
-    "url": "https://github.com/crozono/crozono-free"
+    "url": "https://github.com/crozono/crozono-free",
+    "groups": [
+      "drone",
+      "wireless"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "missionplanner",
     "version": "1.3.83",
     "description": "A GroundControl Station for Ardupilot.",
-    "url": "https://firmware.ardupilot.org/Tools/MissionPlanner/"
+    "url": "https://firmware.ardupilot.org/Tools/MissionPlanner/",
+    "groups": [
+      "drone"
+    ],
+    "updated": "2025-09-14"
   },
   {
     "name": "skyjack",
     "version": "16.24e3878",
     "description": "Takes over Parrot drones, deauthenticating their true owner and taking over control, turning them into zombie drones under your own control.",
-    "url": "https://github.com/samyk/skyjack"
+    "url": "https://github.com/samyk/skyjack",
+    "groups": [
+      "drone"
+    ],
+    "updated": "2020-05-06"
   },
   {
     "name": "snoopy-ng",
     "version": "128.eac73f5",
     "description": "A distributed, sensor, data collection, interception, analysis, and visualization framework.",
-    "url": "https://github.com/sensepost/snoopy-ng"
+    "url": "https://github.com/sensepost/snoopy-ng",
+    "groups": [
+      "drone",
+      "exploitation",
+      "sniffer"
+    ],
+    "updated": "2024-12-26"
   }
 ]

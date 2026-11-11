@@ -3,24 +3,43 @@
     "name": "can-utils",
     "version": "1304.834ceef",
     "description": "Linux-CAN / SocketCAN user space applications.",
-    "url": "https://github.com/linux-can/can-utils"
+    "url": "https://github.com/linux-can/can-utils",
+    "groups": [
+      "automobile"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "canalyzat0r",
     "version": "41.6bc251e",
     "description": "Security analysis toolkit for proprietary car protocols.",
-    "url": "https://github.com/schutzwerk/CANalyzat0r"
+    "url": "https://github.com/schutzwerk/CANalyzat0r",
+    "groups": [
+      "automobile"
+    ],
+    "updated": "2026-02-04"
   },
   {
     "name": "cantoolz",
     "version": "425.82d330b",
     "description": "Framework for black-box CAN network analysis.",
-    "url": "https://github.com/CANToolz/CANToolz"
+    "url": "https://github.com/CANToolz/CANToolz",
+    "groups": [
+      "automobile",
+      "recon",
+      "fuzzer",
+      "scanner"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "savvycan",
     "version": "continuous.r0.g7f8f605",
     "description": "QT-based CAN bus analysis tool.",
-    "url": "https://github.com/collin80/SavvyCAN"
+    "url": "https://github.com/collin80/SavvyCAN",
+    "groups": [
+      "automobile"
+    ],
+    "updated": "2026-10-25"
   }
 ]

@@ -3,1842 +3,3371 @@
     "name": "0trace",
     "version": "1.5",
     "description": "A hop enumeration tool.",
-    "url": "https://jon.oberheide.org/0trace/"
+    "url": "https://jon.oberheide.org/0trace/",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "a2sv",
     "version": "140.cb24c4e",
     "description": "Auto Scanning to SSL Vulnerability.",
-    "url": "https://github.com/hahwul/a2sv"
+    "url": "https://github.com/hahwul/a2sv",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-02-02"
   },
   {
     "name": "admsnmp",
     "version": "0.1",
     "description": "ADM SNMP audit scanner.",
-    "url": ""
+    "url": "",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2024-11-24"
   },
   {
     "name": "allthevhosts",
     "version": "1.0",
     "description": "A vhost discovery tool that scrapes various web applications.",
-    "url": "https://labs.portcullis.co.uk/tools/finding-all-the-vhosts/"
+    "url": "https://labs.portcullis.co.uk/tools/finding-all-the-vhosts/",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2024-12-25"
+  },
+  {
+    "name": "amap",
+    "version": "5.4",
+    "description": "Next-generation tool for assisting network penetration testing.",
+    "url": "http://freeworld.thc.org/releases.php",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2026-02-03"
   },
   {
     "name": "amass",
     "version": "v5.1.3.r0.ga284d25",
     "description": "In-depth subdomain enumeration written in Go.",
-    "url": "https://github.com/owasp-amass/amass"
+    "url": "https://github.com/owasp-amass/amass",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "anubis-netsec",
     "version": "1.4.0.r0.g2f77f98",
     "description": "Subdomain enumeration and information gathering tool.",
-    "url": "https://github.com/jonluca/anubis"
+    "url": "https://github.com/jonluca/anubis",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "apache-users",
     "version": "2.1",
     "description": "This perl script will enumerate the usernames on a unix system that use the apache module UserDir.",
-    "url": "https://labs.portcullis.co.uk/downloads/"
+    "url": "https://labs.portcullis.co.uk/downloads/",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "apachetomcatscanner",
     "version": "3.2",
     "description": "Apache Tomcat vulnerability scanner.",
-    "url": "https://github.com/p0dalirius/ApacheTomcatScanner"
+    "url": "https://github.com/p0dalirius/ApacheTomcatScanner",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "arjun",
     "version": "2.2.7.r5.gd1fb995",
     "description": "HTTP parameter discovery suite.",
-    "url": "https://github.com/s0md3v/Arjun"
+    "url": "https://github.com/s0md3v/Arjun",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "assassingo",
     "version": "173.2dd8650",
     "description": "Web pentest framework for information gathering and vulnerability scanning.",
-    "url": "https://github.com/AmyangXYZ/AssassinGo"
+    "url": "https://github.com/AmyangXYZ/AssassinGo",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2026-02-14"
   },
   {
     "name": "assetfinder",
     "version": "v0.1.1.r0.g4e95d87",
     "description": "Find domains and subdomains potentially related to a given domain.",
-    "url": "https://github.com/tomnomnom/assetfinder"
+    "url": "https://github.com/tomnomnom/assetfinder",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2026-02-14"
   },
   {
     "name": "athena-ssl-scanner",
     "version": "0.6.2",
     "description": "A SSL cipher scanner that checks all cipher codes. It can identify about 150 different ciphers.",
-    "url": "http://packetstormsecurity.com/files/93062/Athena-SSL-Cipher-Scanner.html"
+    "url": "http://packetstormsecurity.com/files/93062/Athena-SSL-Cipher-Scanner.html",
+    "groups": [
+      "scanner",
+      "crypto"
+    ],
+    "updated": "2018-11-15"
   },
   {
     "name": "atscan",
     "version": "2461.06521a9",
     "description": "Server, Site and Dork Scanner.",
-    "url": "https://github.com/AlisamTechnology/ATSCAN"
+    "url": "https://github.com/AlisamTechnology/ATSCAN",
+    "groups": [
+      "scanner",
+      "webapp",
+      "fuzzer",
+      "exploitation",
+      "automation"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "attk",
     "version": "2.0.1023",
     "description": "Trend Micro Anti-Threat Toolkit.",
-    "url": "https://spnsupport.trendmicro.com/"
+    "url": "https://spnsupport.trendmicro.com/",
+    "groups": [
+      "scanner",
+      "malware"
+    ],
+    "updated": "2020-09-04"
   },
   {
     "name": "aws-extender-cli",
     "version": "17.a351154",
     "description": "Script to test S3 buckets as well as Google Storage buckets and Azure Storage containers for common misconfiguration issues.",
-    "url": "https://github.com/VirtueSecurity/aws-extender-cli"
+    "url": "https://github.com/VirtueSecurity/aws-extender-cli",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "aws-iam-privesc",
     "version": "11.2983efd",
     "description": "AWS IAM policy scanner that helps determine where privilege escalation can be achieved.",
-    "url": "https://github.com/cyberqueenmeg/aws_iam_privesc"
+    "url": "https://github.com/cyberqueenmeg/aws_iam_privesc",
+    "groups": [
+      "scanner",
+      "recon",
+      "exploitation",
+      "automation"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "barmie",
     "version": "1.01",
     "description": "Java RMI enumeration and attack tool.",
-    "url": "https://github.com/NickstaDB/BaRMIe"
+    "url": "https://github.com/NickstaDB/BaRMIe",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2019-07-06"
   },
   {
     "name": "bashscan",
     "version": "94.80c066c",
     "description": "A port scanner built to utilize /dev/tcp for network and service discovery.",
-    "url": "https://github.com/astryzia/BashScan"
+    "url": "https://github.com/astryzia/BashScan",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2021-06-29"
   },
   {
     "name": "belati",
     "version": "72.49577a1",
     "description": "The Traditional Swiss Army Knife for OSINT.",
-    "url": "https://github.com/aancw/Belati"
+    "url": "https://github.com/aancw/Belati",
+    "groups": [
+      "scanner",
+      "recon",
+      "webapp"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "bingoo",
     "version": "3.698132f",
     "description": "A Linux bash based Bing and Google Dorking Tool.",
-    "url": "https://github.com/Hood3dRob1n/BinGoo"
+    "url": "https://github.com/Hood3dRob1n/BinGoo",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2017-01-17"
   },
   {
     "name": "birp",
     "version": "65.b2e108a",
     "description": "A tool that will assist in the security assessment of mainframe applications served over TN3270.",
-    "url": "https://github.com/sensepost/birp"
+    "url": "https://github.com/sensepost/birp",
+    "groups": [
+      "scanner",
+      "recon",
+      "fuzzer"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "blackbox-scanner",
     "version": "1.7a25220",
     "description": "Dork scanner & bruteforcing & hash cracker with blackbox framework.",
-    "url": "https://github.com/sepehrdaddev/blackbox"
+    "url": "https://github.com/sepehrdaddev/blackbox",
+    "groups": [
+      "scanner",
+      "recon",
+      "cracker"
+    ],
+    "updated": "2018-12-21"
   },
   {
     "name": "bleah",
     "version": "53.6a2fd3a",
     "description": "A BLE scanner for \"smart\" devices hacking.",
-    "url": "https://github.com/evilsocket/bleah"
+    "url": "https://github.com/evilsocket/bleah",
+    "groups": [
+      "scanner",
+      "wireless",
+      "bluetooth"
+    ],
+    "updated": "2019-01-15"
   },
   {
     "name": "blindy",
     "version": "12.59de8f2",
     "description": "Simple script to automate brutforcing blind sql injection vulnerabilities.",
-    "url": "https://github.com/agienka/blindy"
+    "url": "https://github.com/agienka/blindy",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "bluto",
     "version": "142.25cad7a",
     "description": "Recon, Subdomain Bruting, Zone Transfers.",
-    "url": "https://github.com/darryllane/Bluto-Old"
+    "url": "https://github.com/darryllane/Bluto-Old",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2020-05-16"
   },
   {
     "name": "braa",
     "version": "0.82",
-    "description": "A mass snmp scanner",
-    "url": "http://s-tech.elsat.net.pl/braa/"
+    "description": "A mass snmp scanner.",
+    "url": "http://s-tech.elsat.net.pl/braa/",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2025-11-30"
   },
   {
     "name": "cameradar",
     "version": "205.affbdd2",
     "description": "Hacks its way into RTSP videosurveillance cameras.",
-    "url": "https://github.com/Ullaakut/cameradar"
+    "url": "https://github.com/Ullaakut/cameradar",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2025-11-23"
   },
   {
     "name": "camscan",
     "version": "1.0057215",
     "description": "A tool which will analyze the CAM table of Cisco switches to look for anamolies.",
-    "url": "https://github.com/rsmusllp/camscan"
+    "url": "https://github.com/rsmusllp/camscan",
+    "groups": [
+      "scanner",
+      "networking",
+      "defensive"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "cangibrina",
     "version": "123.6de0165",
     "description": "Dashboard Finder.",
-    "url": "https://github.com/fnk0c/cangibrina"
+    "url": "https://github.com/fnk0c/cangibrina",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "cecster",
     "version": "5.15544cb",
     "description": "A tool to perform security testing against the HDMI CEC (Consumer Electronics Control) and HEC (HDMI Ethernet Channel) protocols.",
-    "url": "https://github.com/nccgroup/CECster"
+    "url": "https://github.com/nccgroup/CECster",
+    "groups": [
+      "scanner",
+      "fuzzer"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "cero",
     "version": "v1.3.0.r19.gb73125b",
     "description": "Scrape domain names from SSL certificates of arbitrary hosts.",
-    "url": "https://github.com/glebarez/cero"
+    "url": "https://github.com/glebarez/cero",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2023-07-10"
   },
   {
     "name": "changeme",
     "version": "272.26fa2c3",
     "description": "A default credential scanner.",
-    "url": "https://github.com/ztgrace/changeme"
+    "url": "https://github.com/ztgrace/changeme",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "check-weak-dh-ssh",
     "version": "0.1",
     "description": "Debian OpenSSL weak client Diffie-Hellman Exchange checker.",
-    "url": "http://packetstormsecurity.com/files/66683/check_weak_dh_ssh.pl.bz2.html"
+    "url": "http://packetstormsecurity.com/files/66683/check_weak_dh_ssh.pl.bz2.html",
+    "groups": [
+      "scanner",
+      "crypto"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "chiron",
     "version": "48.524abe1",
     "description": "An all-in-one IPv6 Penetration Testing Framework.",
-    "url": "http://www.secfu.net/tools-scripts/"
+    "url": "http://www.secfu.net/tools-scripts/",
+    "groups": [
+      "scanner",
+      "networking",
+      "exploitation",
+      "proxy"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "cipherscan",
     "version": "423.30bd239",
     "description": "A very simple way to find out which SSL ciphersuites are supported by a target.",
-    "url": "https://github.com/mozilla/cipherscan"
+    "url": "https://github.com/mozilla/cipherscan",
+    "groups": [
+      "scanner",
+      "crypto"
+    ],
+    "updated": "2025-06-14"
   },
   {
     "name": "ciscos",
     "version": "1.3",
     "description": "Scans class A, B, and C networks for cisco routers which have telnet open and have not changed the default password from cisco.",
-    "url": ""
+    "url": "",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2017-01-14"
   },
   {
     "name": "clair",
     "version": "2224.34177047",
     "description": "Vulnerability Static Analysis for Containers.",
-    "url": "https://github.com/quay/clair"
+    "url": "https://github.com/quay/clair",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "climber",
     "version": "30.5530a78",
     "description": "Check UNIX/Linux systems for privilege escalation.",
-    "url": "https://github.com/raffaele-forte/climber"
+    "url": "https://github.com/raffaele-forte/climber",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2024-12-25"
+  },
+  {
+    "name": "cloud-audit",
+    "version": "2.5.0.r0.g0207aa0",
+    "description": "Open-source, read-only AWS security scanner. 110 checks across 25 services, Terraform remediation on every finding.",
+    "url": "https://github.com/gebalamariusz/cloud-audit",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-09-15"
   },
   {
     "name": "cloudflare-enum",
     "version": "10.412387f",
     "description": "Cloudflare DNS Enumeration Tool for Pentesters.",
-    "url": "https://github.com/mandatoryprogrammer/cloudflare_enum"
+    "url": "https://github.com/mandatoryprogrammer/cloudflare_enum",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "cloudsploit",
     "version": "6744.cf9cd42d1",
     "description": "AWS security scanning checks.",
-    "url": "https://github.com/aquasecurity/cloudsploit"
+    "url": "https://github.com/aquasecurity/cloudsploit",
+    "groups": [
+      "scanner",
+      "automation"
+    ],
+    "updated": "2026-09-28"
   },
   {
     "name": "cmsmap",
     "version": "8.59dd0e2",
     "description": "A python open source Content Management System scanner that automates the process of detecting security flaws of the most popular CMSs.",
-    "url": "https://dionach.com/cmsmap-a-simple-cms-vulnerability-scanner/"
+    "url": "https://dionach.com/cmsmap-a-simple-cms-vulnerability-scanner/",
+    "groups": [
+      "scanner",
+      "automation",
+      "webapp",
+      "exploitation"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "configpush",
     "version": "0.8.5",
     "description": "This is a tool to span /8-sized networks quickly sending snmpset requests with default or otherwise specified community string to Cisco devices.",
-    "url": "http://packetstormsecurity.com/files/126621/Config-Push-snmpset-Utility.html"
+    "url": "http://packetstormsecurity.com/files/126621/Config-Push-snmpset-Utility.html",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2018-11-15"
   },
   {
     "name": "corstest",
     "version": "10.beffd0b",
     "description": "A simple CORS misconfigurations checker.",
-    "url": "https://github.com/RUB-NDS/CORStest"
+    "url": "https://github.com/RUB-NDS/CORStest",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "cpfinder",
     "version": "0.1",
     "description": "Simple script that looks for administrative web interfaces.",
-    "url": "http://packetstormsecurity.com/files/118851/Control-Panel-Finder-Script.html"
+    "url": "http://packetstormsecurity.com/files/118851/Control-Panel-Finder-Script.html",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "crackmapexec",
     "version": "v6.0.1.r198.gda472cb",
     "description": "A swiss army knife for pentesting Windows/Active Directory environments.",
-    "url": "https://github.com/byt3bl33d3r/CrackMapExec"
-  },
-  {
-    "name": "creepy",
-    "version": "137.9f60449",
-    "description": "A geolocation information gatherer. Offers geolocation information gathering through social networking platforms.",
-    "url": "https://github.com/ilektrojohn/creepy"
+    "url": "https://github.com/byt3bl33d3r/CrackMapExec",
+    "groups": [
+      "scanner",
+      "exploitation",
+      "windows"
+    ],
+    "updated": "2024-12-23"
   },
   {
     "name": "ct-exposer",
     "version": "24.71252ac",
     "description": "An OSINT tool that discovers sub-domains by searching Certificate Transparency logs.",
-    "url": "https://github.com/chris408/ct-exposer"
+    "url": "https://github.com/chris408/ct-exposer",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "cvechecker",
     "version": "4.0",
     "description": "The goal of cvechecker is to report about possible vulnerabilities on your system, by scanning the installed software and matching the results with the CVE database.",
-    "url": "https://github.com/sjvermeu/cvechecker"
+    "url": "https://github.com/sjvermeu/cvechecker",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2025-11-24"
   },
   {
     "name": "d-tect",
     "version": "13.9555c25",
     "description": "Pentesting the Modern Web.",
-    "url": "https://github.com/shawarkhanethicalhacker/D-TECT"
+    "url": "https://github.com/shawarkhanethicalhacker/D-TECT",
+    "groups": [
+      "scanner",
+      "recon",
+      "webapp"
+    ],
+    "updated": "2017-09-03"
   },
   {
     "name": "darkbing",
     "version": "0.1",
     "description": "A tool written in python that leverages bing for mining data on systems that may be susceptible to SQL injection.",
-    "url": "http://packetstormsecurity.com/files/111510/darkBing-SQL-Scanner-0.1.html"
+    "url": "http://packetstormsecurity.com/files/111510/darkBing-SQL-Scanner-0.1.html",
+    "groups": [
+      "scanner",
+      "fuzzer",
+      "webapp"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "davtest",
     "version": "3.a282c58",
     "description": "Tests WebDAV enabled servers by uploading test executable files, and then (optionally) uploading files which allow for command execution or other actions directly on the target.",
-    "url": "https://code.google.com/archive/p/davtest"
+    "url": "http://code.google.com/p/davtest/",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "dbusmap",
     "version": "16.6bb2831",
     "description": "Simple utility for enumerating D-Bus endpoints, an nmap for D-Bus.",
-    "url": "https://github.com/taviso/dbusmap"
+    "url": "https://github.com/taviso/dbusmap",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2020-09-16"
   },
   {
     "name": "dcrawl",
     "version": "7.3273c35",
     "description": "Simple, but smart, multi-threaded web crawler for randomly gathering huge lists of unique domain names.",
-    "url": "https://github.com/kgretzky/dcrawl"
+    "url": "https://github.com/kgretzky/dcrawl",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2021-04-26"
   },
   {
     "name": "deblaze",
     "version": "3.a24555d",
     "description": "Performs method enumeration and interrogation against flash remoting end points.",
-    "url": "https://github.com/SpiderLabs/deblaze"
+    "url": "https://github.com/SpiderLabs/deblaze",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "delldrac",
     "version": "0.1a",
     "description": "DellDRAC and Dell Chassis Discovery and Brute Forcer.",
-    "url": "https://www.trustedsec.com/september-2012/owning-dell-drac-awesome-hack/"
+    "url": "https://www.trustedsec.com/september-2012/owning-dell-drac-awesome-hack/",
+    "groups": [
+      "scanner",
+      "cracker"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "dhcpig",
     "version": "1.6.r8.gdfe9e45",
     "description": "Enhanced DHCPv4 and DHCPv6 exhaustion and fuzzing script written in python using scapy network library.",
-    "url": "https://github.com/kamorin/DHCPig"
+    "url": "https://github.com/kamorin/DHCPig",
+    "groups": [
+      "scanner",
+      "fuzzer",
+      "dos"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "dirb",
     "version": "2.22",
     "description": "A web content scanner, brute forceing for hidden files.",
-    "url": "https://dirb.sourceforge.net/"
+    "url": "https://dirb.sourceforge.net/",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2015-10-22"
   },
   {
     "name": "dirbuster",
     "version": "1.0_RC1",
     "description": "An application designed to brute force directories and files names on web/application servers",
-    "url": "http://www.owasp.org/index.php/Category:OWASP_DirBuster_Project"
+    "url": "http://www.owasp.org/index.php/Category:OWASP_DirBuster_Project",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2018-11-14"
   },
   {
     "name": "dirscanner",
     "version": "0.1",
     "description": "This is a python script that scans webservers looking for administrative directories, php shells, and more.",
-    "url": "http://packetstormsecurity.com/files/117773/Directory-Scanner-Tool.html"
+    "url": "http://packetstormsecurity.com/files/117773/Directory-Scanner-Tool.html",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "dirstalk",
     "version": "1.3.3",
     "description": "Modern alternative to dirbuster/dirb.",
-    "url": "https://github.com/stefanoj3/dirstalk"
+    "url": "https://github.com/stefanoj3/dirstalk",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2021-07-13"
   },
   {
     "name": "dmitry",
     "version": "1.3a",
     "description": "Deepmagic Information Gathering Tool.",
-    "url": "http://www.mor-pah.net/"
+    "url": "http://www.mor-pah.net/",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2024-02-01"
   },
   {
     "name": "dnmap",
     "version": "0.6",
     "description": "The distributed nmap framework.",
-    "url": "https://sourceforge.net/projects/dnmap/"
+    "url": "https://sourceforge.net/projects/dnmap/",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "dns2geoip",
     "version": "0.1",
     "description": "A simple python script that brute forces DNS and subsequently geolocates the found subdomains.",
-    "url": "http://packetstormsecurity.com/files/118036/DNS-2-GeoIP.html"
-  },
-  {
-    "name": "dnsa",
-    "version": "0.6",
-    "description": "A dns security swiss army knife.",
-    "url": "http://packetfactory.openwall.net/projects/dnsa/index.html"
+    "url": "http://packetstormsecurity.com/files/118036/DNS-2-GeoIP.html",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "dnsbf",
     "version": "0.3",
     "description": "Search for available domain names in an IP range.",
-    "url": "https://code.google.com/archive/p/dnsbf/"
+    "url": "https://code.google.com/archive/p/dnsbf/",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-09-14"
   },
   {
     "name": "dnscan",
     "version": "209.281721e",
     "description": "A python wordlist-based DNS subdomain scanner.",
-    "url": "https://github.com/rbsec/dnscan"
+    "url": "https://github.com/rbsec/dnscan",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "dnsgoblin",
     "version": "0.1",
     "description": "Nasty creature constantly searching for DNS servers. It uses standard dns querys and waits for the replies.",
-    "url": "https://nullsecurity.net/tools/scanner.html"
+    "url": "https://nullsecurity.net/tools/scanner.html",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-09-14"
   },
   {
     "name": "dnspredict",
     "version": "0.0.2",
     "description": "DNS prediction.",
-    "url": "http://johnny.ihackstuff.com/"
+    "url": "http://johnny.ihackstuff.com/",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "dnstwist",
     "version": "645.3413953",
     "description": "Domain name permutation engine for detecting typo squatting, phishing and corporate espionage.",
-    "url": "https://github.com/elceef/dnstwist"
+    "url": "https://github.com/elceef/dnstwist",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "dockerscan",
     "version": "latest.r117.g8e5d3b3",
     "description": "Docker security analysis & hacking tools.",
-    "url": "https://github.com/cr0hn/dockerscan"
+    "url": "https://github.com/cr0hn/dockerscan",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "dorkbot",
     "version": "437.2b61966",
     "description": "Command-line tool to scan Google search results for vulnerabilities.",
-    "url": "https://github.com/utiso/dorkbot"
+    "url": "https://github.com/utiso/dorkbot",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-09-28"
   },
   {
     "name": "dorkme",
     "version": "57.0a7017a",
     "description": "Tool designed with the purpose of making easier the searching of vulnerabilities with Google Dorks, such as SQL Injection vulnerabilities.",
-    "url": "https://github.com/blueudp/DorkMe"
+    "url": "https://github.com/blueudp/DorkMe",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2023-05-04"
   },
   {
     "name": "dpscan",
     "version": "0.1",
     "description": "Drupal Vulnerability Scanner.",
-    "url": "https://github.com/siathalysedI/Blue-Sky-Information-Security"
-  },
-  {
-    "name": "driftnet",
-    "version": "v1.3.0.r13.ge492335",
-    "description": "Listens to network traffic and picks out images from TCP streams it observes.",
-    "url": "http://www.ex-parrot.com/~chris/driftnet/"
+    "url": "https://github.com/siathalysedI/Blue-Sky-Information-Security",
+    "groups": [
+      "scanner",
+      "webapp",
+      "fuzzer"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "dripper",
     "version": "v1.r1.gc9bb0c9",
     "description": "A fast, asynchronous DNS scanner; it can be used for enumerating subdomains and enumerating boxes via reverse DNS.",
-    "url": "http://www.blackhatlibrary.net/Dripper"
+    "url": "http://www.blackhatlibrary.net/Dripper",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2025-12-16"
   },
   {
     "name": "dvcs-ripper",
     "version": "54.2c1bbc6",
     "description": "Rip web accessible (distributed) version control systems: SVN/GIT/BZR/CVS/HG.",
-    "url": "https://github.com/kost/dvcs-ripper"
+    "url": "https://github.com/kost/dvcs-ripper",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "eazy",
     "version": "0.1",
     "description": "This is a small python tool that scans websites to look for PHP shells, backups, admin panels, and more.",
-    "url": "http://packetstormsecurity.com/files/117572/EAZY-Web-Scanner.html"
+    "url": "http://packetstormsecurity.com/files/117572/EAZY-Web-Scanner.html",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "enum-shares",
     "version": "7.97cba5a",
     "description": "Tool that enumerates shared folders across the network and under a custom user account.",
-    "url": "https://github.com/dejanlevaja/enum_shares"
+    "url": "https://github.com/dejanlevaja/enum_shares",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "enumiax",
     "version": "1.0",
     "description": "An IAX enumerator.",
-    "url": "https://sourceforge.net/projects/enumiax/"
+    "url": "https://sourceforge.net/projects/enumiax/",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-09-14"
   },
   {
     "name": "eternal-scanner",
     "version": "101.3979b0f",
-    "description": "An internet scanner for exploit CVE-0144 (Eternal Blue).",
-    "url": "https://github.com/peterpt/eternal_scanner"
+    "description": "An internet scanner for exploit CVE-2017-0144 (Eternal Blue).",
+    "url": "https://github.com/peterpt/eternal_scanner",
+    "groups": [
+      "scanner",
+      "exploitation"
+    ],
+    "updated": "2024-08-04"
   },
   {
     "name": "faradaysec",
     "version": "v3.19.0.r2583.g77edf29",
     "description": "Collaborative Penetration Test and Vulnerability Management Platform.",
-    "url": "https://faradaysec.com/"
+    "url": "https://faradaysec.com/",
+    "groups": [
+      "scanner",
+      "exploitation",
+      "fuzzer",
+      "fingerprint",
+      "automation",
+      "misc"
+    ],
+    "updated": "2026-01-31"
   },
   {
     "name": "fernmelder",
     "version": "0.4s2.r2.g030212e",
     "description": "Asynchronous mass DNS scanner.",
-    "url": "https://github.com/stealth/fernmelder"
+    "url": "https://github.com/stealth/fernmelder",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2025-11-25"
   },
   {
     "name": "fgscanner",
     "version": "11.893372c",
     "description": "An advanced, opensource URL scanner.",
-    "url": "http://www.fantaghost.com/fgscanner"
+    "url": "http://www.fantaghost.com/fgscanner",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "fi6s",
     "version": "258.765fcf3",
     "description": "IPv6 network scanner designed to be fast.",
-    "url": "https://github.com/sfan5/fi6s"
+    "url": "https://github.com/sfan5/fi6s",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-08-02"
   },
   {
     "name": "find-dns",
     "version": "0.1",
     "description": "A tool that scans networks looking for DNS servers.",
-    "url": "https://packetstormsecurity.com/files/132449/Find-DNS-Scanner.html"
+    "url": "https://packetstormsecurity.com/files/132449/Find-DNS-Scanner.html",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "flashscanner",
     "version": "11.6815b02",
     "description": "Flash XSS Scanner.",
-    "url": "https://github.com/riusksk/FlashScanner"
+    "url": "https://github.com/riusksk/FlashScanner",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "flunym0us",
     "version": "2.0",
     "description": "A Vulnerability Scanner for Wordpress and Moodle.",
-    "url": "https://code.google.com/archive/p/flunym0us/"
+    "url": "https://code.google.com/archive/p/flunym0us/",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2026-09-14"
   },
   {
     "name": "forkingportscanner",
     "version": "1",
-    "description": "Simple and fast forking port scanner written in perl. Can only scan on host at a time, the forking is done on the specified port range. Or on the default range of 1. Has the ability to scan UDP or TCP, defaults to tcp.",
-    "url": "http://magikh0e.xyz/"
+    "description": "Simple and fast forking port scanner written in perl. Can only scan on host at a time, the forking is done on the specified port range. Or on the default range of 1-65535. Has the ability to scan UDP or TCP, defaults to tcp.",
+    "url": "http://magikh0e.xyz/",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2015-01-18"
   },
   {
     "name": "fortiscan",
     "version": "0.7.r7.gd54faa0",
     "description": "A high performance FortiGate SSL-VPN vulnerability scanning and exploitation tool.",
-    "url": "https://github.com/anasbousselham/fortiscan"
+    "url": "https://github.com/anasbousselham/fortiscan",
+    "groups": [
+      "scanner",
+      "exploitation"
+    ],
+    "updated": "2022-02-20"
   },
   {
     "name": "fs-nyarl",
     "version": "1.0",
     "description": "A network takeover & forensic analysis tool - useful to advanced PenTest tasks & for fun and profit.",
-    "url": "http://www.fulgursecurity.com/en/content/fs-nyarl"
+    "url": "http://www.fulgursecurity.com/en/content/fs-nyarl",
+    "groups": [
+      "scanner",
+      "networking",
+      "forensic",
+      "spoof",
+      "exploitation",
+      "sniffer"
+    ],
+    "updated": "2020-07-06"
   },
   {
     "name": "fscan",
     "version": "v2.2.2.r0.g2ede41d",
     "description": "A Security Auditing Tool.",
-    "url": "https://github.com/shadow1ng/fscan"
+    "url": "https://github.com/shadow1ng/fscan",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-10-03"
   },
   {
     "name": "fsnoop",
     "version": "3.4",
     "description": "A tool to monitor file operations on GNU/Linux systems by using the Inotify mechanism. Its primary purpose is to help detecting file race condition vulnerabilities and since version 3, to exploit them with loadable DSO modules (also called \"payload modules\" or \"paymods\").",
-    "url": "http://vladz.devzero.fr/fsnoop.php"
+    "url": "http://vladz.devzero.fr/fsnoop.php",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2016-11-30"
   },
   {
     "name": "ftp-spider",
     "version": "1.0",
     "description": "FTP investigation tool - Scans ftp server for the following: reveal entire directory tree structures, detect anonymous access, detect directories with write permissions, find user specified data within repository.",
-    "url": "http://packetstormsecurity.com/files/35120/ftp-spider.pl.html"
+    "url": "http://packetstormsecurity.com/files/35120/ftp-spider.pl.html",
+    "groups": [
+      "scanner",
+      "cracker"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "ftpscout",
     "version": "12.cf1dff1",
     "description": "Scans ftps for anonymous access.",
-    "url": "https://github.com/RubenRocha/ftpscout"
+    "url": "https://github.com/RubenRocha/ftpscout",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "gcpbucketbrute",
     "version": "17.6866bd2",
     "description": "A script to enumerate Google Storage buckets, determine what access you have to them, and determine if they can be privilege escalated.",
-    "url": "https://github.com/RhinoSecurityLabs/GCPBucketBrute"
+    "url": "https://github.com/RhinoSecurityLabs/GCPBucketBrute",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "gethsploit",
     "version": "3.144778b",
     "description": "Finding Ethereum nodes which are vulnerable to RPC-attacks.",
-    "url": "https://github.com/KarmaHostage/gethspoit"
+    "url": "https://github.com/KarmaHostage/gethspoit",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "gggooglescan",
     "version": "0.4",
     "description": "A Google scraper which performs automated searches and returns results of search queries in the form of URLs or hostnames.",
-    "url": "https://www.morningstarsecurity.com/research/gggooglescan"
+    "url": "https://www.morningstarsecurity.com/research/gggooglescan",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2024-09-05"
   },
   {
     "name": "ghost-phisher",
     "version": "2.0",
-    "description": "GUI suite for phishing and penetration attacks",
-    "url": "https://github.com/Obsidian-Covenant/ghost-phisher"
+    "description": "GUI suite for phishing and penetration attacks.",
+    "url": "https://github.com/Obsidian-Covenant/ghost-phisher",
+    "groups": [
+      "scanner",
+      "spoof"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "git-dump",
     "version": "7.4c9a2a9",
     "description": "Dump the contents of a remote git repository without directory listing enabled.",
-    "url": "https://github.com/bahamas10/node-git-dump"
+    "url": "https://github.com/bahamas10/node-git-dump",
+    "groups": [
+      "scanner",
+      "code-audit"
+    ],
+    "updated": "2020-08-04"
   },
   {
     "name": "git-dumper",
     "version": "1.0.9.r8.g2b47da1",
     "description": "A tool to dump a git repository from a website.",
-    "url": "https://github.com/arthaud/git-dumper"
+    "url": "https://github.com/arthaud/git-dumper",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2026-09-06"
   },
   {
     "name": "gitrob",
     "version": "7.7be4c53",
     "description": "Reconnaissance tool for GitHub organizations.",
-    "url": "http://michenriksen.com/blog/gitrob-putting-the-open-source-in-osint/"
+    "url": "http://michenriksen.com/blog/gitrob-putting-the-open-source-in-osint/",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2019-05-09"
   },
   {
     "name": "gloom",
     "version": "93.cd6e927",
     "description": "Linux Penetration Testing Framework.",
-    "url": "https://github.com/StreetSec/Gloom-Framework"
+    "url": "https://github.com/StreetSec/Gloom-Framework",
+    "groups": [
+      "scanner",
+      "exploitation",
+      "recon",
+      "fuzzer",
+      "social"
+    ],
+    "updated": "2021-02-14"
+  },
+  {
+    "name": "glpwnme",
+    "version": "168.7101cd7",
+    "description": "GLPI vulnerabilities checking tool.",
+    "url": "https://github.com/Orange-Cyberdefense/glpwnme",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "grabbb",
     "version": "0.0.7",
     "description": "Clean, functional, and fast banner scanner.",
-    "url": "https://packetstormsecurity.com/files/11372/grabbb-0.0.7.tar.gz.html"
+    "url": "https://packetstormsecurity.com/files/11372/grabbb-0.0.7.tar.gz.html",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2018-11-15"
   },
   {
     "name": "graphql-cop",
     "version": "1.16.r0.g2b7e086",
     "description": "GraphQL vulnerability scanner.",
-    "url": "https://github.com/dolevf/graphql-cop"
+    "url": "https://github.com/dolevf/graphql-cop",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "grepforrfi",
     "version": "0.1",
     "description": "Simple script for parsing web logs for RFIs and Webshells v1.2",
-    "url": "https://www.irongeek.com/downloads/grepforrfi.txt"
+    "url": "https://www.irongeek.com/downloads/grepforrfi.txt",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "grype",
     "version": "0.33.1",
     "description": "A vulnerability scanner for container images and filesystems.",
-    "url": "https://github.com/anchore/grype"
+    "url": "https://github.com/anchore/grype",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2022-03-05"
   },
   {
     "name": "gtp-scan",
     "version": "0.7",
     "description": "A small python script that scans for GTP (GPRS tunneling protocol) speaking hosts.",
-    "url": "https://c0decafe.de/"
+    "url": "https://c0decafe.de/",
+    "groups": [
+      "scanner",
+      "networking",
+      "mobile"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "h2buster",
     "version": "79.6c4dd1c",
     "description": "A threaded, recursive, web directory brute-force scanner over HTTP/2.",
-    "url": "https://github.com/00xc/h2buster"
+    "url": "https://github.com/00xc/h2buster",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "habu",
     "version": "0.1.6.r171.g9868861",
     "description": "Python Network Hacking Toolkit.",
-    "url": "https://github.com/fportantier/habu"
+    "url": "https://github.com/fportantier/habu",
+    "groups": [
+      "scanner",
+      "spoof",
+      "dos",
+      "cracker",
+      "dos"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "hakku",
     "version": "1.0.r0.g409a11f",
     "description": "Simple framework that has been made for penetration testing tools.",
-    "url": "https://github.com/4shadoww/hakkuframework"
+    "url": "https://github.com/4shadoww/hakkuframework",
+    "groups": [
+      "scanner",
+      "recon",
+      "webapp",
+      "exploitation",
+      "fingerprint"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "halberd",
     "version": "0.2.4",
     "description": "Halberd discovers HTTP load balancers. It is useful for web application security auditing and for load balancer configuration testing.",
-    "url": "http://halberd.superadditive.com/"
+    "url": "http://halberd.superadditive.com/",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "hbad",
     "version": "1.0",
     "description": "This tool allows you to test clients on the heartbleed bug.",
-    "url": "http://www.curesec.com/"
+    "url": "http://www.curesec.com/",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2014-05-04"
   },
   {
     "name": "hellraiser",
     "version": "279.bea43e2",
     "description": "Vulnerability Scanner.",
-    "url": "https://github.com/m0nad/HellRaiser"
+    "url": "https://github.com/m0nad/HellRaiser",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2025-04-29"
   },
   {
     "name": "hexhttp",
     "version": "v2.4.r1.g3d8b5c8",
     "description": "Perform tests on HTTP headers and analyze the results to identify vulnerabilities and interesting behaviors.",
-    "url": "https://github.com/c0dejump/HExHTTP"
+    "url": "https://github.com/c0dejump/HExHTTP",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "hikpwn",
     "version": "8.5a7d69c",
     "description": "A simple scanner for Hikvision devices with basic vulnerability scanning capabilities written in Python 3.8.",
-    "url": "https://github.com/4n4nk3/HikPwn"
+    "url": "https://github.com/4n4nk3/HikPwn",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "homepwn",
     "version": "31.0803981",
     "description": "Swiss Army Knife for Pentesting of IoT Devices.",
-    "url": "https://github.com/Telefonica/HomePWN"
+    "url": "https://github.com/Telefonica/HomePWN",
+    "groups": [
+      "scanner",
+      "recon",
+      "fuzzer",
+      "exploitation"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "hoppy",
     "version": "1.8.1",
     "description": "A python script which tests http methods for configuration issues leaking information or just to see if they are enabled.",
-    "url": "https://labs.portcullis.co.uk/downloads/"
+    "url": "https://labs.portcullis.co.uk/downloads/",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "host-extract",
     "version": "8.0134ad7",
     "description": "Ruby script tries to extract all IP/Host patterns in page response of a given URL and JavaScript/CSS files of that URL.",
-    "url": "https://code.google.com/archive/p/host-extract"
+    "url": "https://code.google.com/p/host-extract/",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2025-04-29"
   },
   {
     "name": "hsecscan",
     "version": "67.aa5845b",
     "description": "A security scanner for HTTP response headers.",
-    "url": "https://github.com/riramar/hsecscan"
+    "url": "https://github.com/riramar/hsecscan",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2025-02-01"
   },
   {
     "name": "http-enum",
     "version": "0.4",
     "description": "A tool to enumerate the enabled HTTP methods supported on a webserver.",
-    "url": "https://www.thexero.co.uk/tools/http-enum/"
+    "url": "https://www.thexero.co.uk/tools/http-enum/",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "httprobe",
     "version": "22.5555984",
     "description": "Take a list of domains and probe for working HTTP and HTTPS servers",
-    "url": "https://github.com/tomnomnom/httprobe"
+    "url": "https://github.com/tomnomnom/httprobe",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2021-04-26"
   },
   {
     "name": "httpsscanner",
     "version": "1.2",
     "description": "A tool to test the strength of a SSL web server.",
-    "url": "https://code.google.com/archive/p/libre-tools"
+    "url": "https://code.google.com/p/libre-tools/",
+    "groups": [
+      "scanner",
+      "crypto"
+    ],
+    "updated": "2025-12-15"
   },
   {
     "name": "iaxscan",
     "version": "0.02",
     "description": "A Python based scanner for detecting live IAX/2 hosts and then enumerating (by bruteforce) users on those hosts.",
-    "url": "https://code.google.com/archive/p/iaxscan"
+    "url": "http://code.google.com/p/iaxscan/",
+    "groups": [
+      "scanner",
+      "cracker"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "icmpquery",
     "version": "1.0",
     "description": "Send and receive ICMP queries for address mask and current time.",
-    "url": "https://www.angio.net/security/"
+    "url": "https://www.angio.net/security/",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2025-11-30"
   },
   {
     "name": "iis-shortname-scanner",
     "version": "5.4ad4937",
     "description": "An IIS shortname Scanner.",
-    "url": "https://github.com/lijiejie/IIS_shortname_Scanner"
+    "url": "https://github.com/lijiejie/IIS_shortname_Scanner",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "ike-scan",
     "version": "1.9.5",
     "description": "A tool that uses IKE protocol to discover, fingerprint and test IPSec VPN servers.",
-    "url": "http://www.nta-monitor.com/tools/ike-scan/"
+    "url": "http://www.nta-monitor.com/tools/ike-scan/",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2024-11-07"
   },
   {
     "name": "ilo4-toolbox",
     "version": "47.672a5d6",
     "description": "Toolbox for HPE iLO4 analysis.",
-    "url": "https://github.com/airbus-seclab/ilo4_toolbox"
+    "url": "https://github.com/airbus-seclab/ilo4_toolbox",
+    "groups": [
+      "scanner",
+      "automation",
+      "backdoor"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "infip",
     "version": "0.1",
     "description": "A python script that checks output from netstat against RBLs from Spamhaus.",
-    "url": "http://packetstormsecurity.com/files/104927/infIP-0.1-Blacklist-Checker.html"
+    "url": "http://packetstormsecurity.com/files/104927/infIP-0.1-Blacklist-Checker.html",
+    "groups": [
+      "scanner",
+      "misc"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "inurlbr",
     "version": "34.dbf9773",
     "description": "Advanced search in the search engines - Inurl scanner, dorker, exploiter.",
-    "url": "https://code.google.com/archive/p/inurlbr"
+    "url": "https://code.google.com/archive/p/inurlbr",
+    "groups": [
+      "scanner",
+      "webapp",
+      "automation"
+    ],
+    "updated": "2021-04-10"
   },
   {
     "name": "ipscan",
     "version": "3.9.3",
     "description": "A very fast IP address and port scanner.",
-    "url": "https://github.com/angryip/ipscan"
+    "url": "https://github.com/angryip/ipscan",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2025-11-13"
   },
   {
     "name": "iptv",
     "version": "138.ae6457b",
     "description": "Search and brute force illegal iptv server.",
-    "url": "https://github.com/Pirate-Crew/IPTV"
+    "url": "https://github.com/Pirate-Crew/IPTV",
+    "groups": [
+      "scanner",
+      "cracker"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "ipv6toolkit",
     "version": "861.9ee80b6",
     "description": "SI6 Networks' IPv6 Toolkit.",
-    "url": "https://www.si6networks.com/research/tools/ipv6toolkit/"
+    "url": "https://www.si6networks.com/research/tools/ipv6toolkit/",
+    "groups": [
+      "scanner",
+      "recon",
+      "networking"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "jaadas",
     "version": "0.1",
     "description": "Joint Advanced Defect assEsment for android applications.",
-    "url": "https://github.com/flankerhqd/JAADAS"
+    "url": "https://github.com/flankerhqd/JAADAS",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2017-02-19"
   },
   {
     "name": "knock",
     "version": "116.da43fdd",
     "description": "Subdomain scanner.",
-    "url": "https://github.com/guelfoweb/knockpy"
+    "url": "https://github.com/guelfoweb/knockpy",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2026-02-21"
   },
   {
     "name": "knxmap",
     "version": "252.6f40dd1",
     "description": "KNXnet/IP scanning and auditing tool for KNX home automation installations.",
-    "url": "https://github.com/takeshixx/knxmap"
+    "url": "https://github.com/takeshixx/knxmap",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "krbrelayx",
     "version": "72.dd22943",
-    "description": "Kerberos unconstrained delegation abuse toolkit.",
-    "url": "https://github.com/dirkjanm/krbrelayx"
+    "description": "Kerberos relaying and unconstrained delegation abuse toolkit.",
+    "url": "https://github.com/dirkjanm/krbrelayx",
+    "groups": [
+      "scanner",
+      "fuzzer",
+      "spoof",
+      "networking"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "kscan",
     "version": "v1.85.r55.gcf76af2",
     "description": "Asset mapping tool that can perform port scanning, TCP fingerprinting and banner capture for specified assets.",
-    "url": "https://github.com/lcvvvv/kscan"
+    "url": "https://github.com/lcvvvv/kscan",
+    "groups": [
+      "scanner",
+      "fingerprint",
+      "recon"
+    ],
+    "updated": "2024-10-07"
   },
   {
     "name": "kube-hunter",
     "version": "703.bc47f08",
     "description": "Hunt for security weaknesses in Kubernetes clusters.",
-    "url": "https://github.com/aquasecurity/kube-hunter"
+    "url": "https://github.com/aquasecurity/kube-hunter",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "kubesploit",
     "version": "86.2de2f12",
     "description": "Cross-platform post-exploitation HTTP/2 Command & Control server.",
-    "url": "https://github.com/cyberark/kubesploit"
+    "url": "https://github.com/cyberark/kubesploit",
+    "groups": [
+      "scanner",
+      "exploitation"
+    ],
+    "updated": "2022-12-02"
   },
   {
     "name": "kubestriker",
     "version": "v1.2.0.r2.ge1776ea",
     "description": "A Blazing fast Security Auditing tool for Kubernetes.",
-    "url": "https://github.com/vchinnipilli/kubestriker"
+    "url": "https://github.com/vchinnipilli/kubestriker",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "laf",
     "version": "12.7a456b3",
     "description": "Login Area Finder: scans host/s for login panels.",
-    "url": "https://github.com/takeshixx/laf"
-  },
-  {
-    "name": "ldapdomaindump",
-    "version": "0.9.4",
-    "description": "Active Directory information dumper via LDAP.",
-    "url": "https://pypi.org/project/ldapdomaindump/#files"
+    "url": "https://github.com/takeshixx/laf",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "leaklooker",
     "version": "5.0d2b9fc",
     "description": "Find open databases with Shodan.",
-    "url": "https://github.com/woj-ciech/LeakLooker"
+    "url": "https://github.com/woj-ciech/LeakLooker",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2019-02-26"
   },
   {
     "name": "letmefuckit-scanner",
     "version": "3.f3be22b",
     "description": "Scanner and Exploit Magento.",
-    "url": "https://github.com/viniciushenriqueti/LetMeFuckIt-Scanner"
+    "url": "https://github.com/viniciushenriqueti/LetMeFuckIt-Scanner",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "leviathan",
     "version": "35.a1a1d8c",
     "description": "A mass audit toolkit which has wide range service discovery, brute force, SQL injection detection and running custom exploit capabilities.",
-    "url": "https://github.com/utkusen/leviathan"
+    "url": "https://github.com/utkusen/leviathan",
+    "groups": [
+      "scanner",
+      "cracker",
+      "webapp",
+      "fuzzer",
+      "exploitation"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "lfi-scanner",
     "version": "4.0",
     "description": "This is a simple perl script that enumerates local file inclusion attempts when given a specific target.",
-    "url": "http://packetstormsecurity.com/files/102848/LFI-Scanner-4.0.html"
+    "url": "http://packetstormsecurity.com/files/102848/LFI-Scanner-4.0.html",
+    "groups": [
+      "scanner",
+      "fuzzer",
+      "webapp"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "lfisuite",
     "version": "85.470e01f",
     "description": "Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner.",
-    "url": "https://github.com/D35m0nd142/LFISuite"
+    "url": "https://github.com/D35m0nd142/LFISuite",
+    "groups": [
+      "scanner",
+      "webapp",
+      "exploitation"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "linenum",
     "version": "75.c47f9b2",
     "description": "Scripted Local Linux Enumeration & Privilege Escalation Checks",
-    "url": "https://github.com/rebootuser/LinEnum"
+    "url": "https://github.com/rebootuser/LinEnum",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2020-01-08"
   },
   {
     "name": "linux-smart-enumeration",
     "version": "300.b83a26f",
     "description": "Linux enumeration tool for pentesting and CTFs with verbosity levels.",
-    "url": "https://github.com/diego-treitos/linux-smart-enumeration"
+    "url": "https://github.com/diego-treitos/linux-smart-enumeration",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-05-09"
   },
   {
     "name": "littleblackbox",
     "version": "0.1.3",
     "description": "Penetration testing tool, search in a collection of thousands of private SSL keys extracted from various embedded devices.",
-    "url": "https://code.google.com/archive/p/littleblackbox"
+    "url": "http://code.google.com/p/littleblackbox/wiki/FAQ",
+    "groups": [
+      "scanner",
+      "fuzzer",
+      "crypto"
+    ],
+    "updated": "2014-06-08"
   },
   {
     "name": "locasploit",
     "version": "117.fa48151",
     "description": "Local enumeration and exploitation framework.",
-    "url": "https://github.com/lightfaith/locasploit"
+    "url": "https://github.com/lightfaith/locasploit",
+    "groups": [
+      "scanner",
+      "exploitation"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "logmepwn",
     "version": "24.f257a8f",
-    "description": "A fully automated, reliable, super-fast, mass scanning and validation toolkit for the Log4J RCE CVE-44228 vulnerability.",
-    "url": "https://github.com/0xInfection/LogMePwn"
+    "description": "A fully automated, reliable, super-fast, mass scanning and validation toolkit for the Log4J RCE CVE-2021-44228 vulnerability.",
+    "url": "https://github.com/0xInfection/LogMePwn",
+    "groups": [
+      "scanner",
+      "fuzzer"
+    ],
+    "updated": "2023-05-21"
   },
   {
     "name": "lotophagi",
     "version": "0.1",
     "description": "a relatively compact Perl script designed to scan remote hosts for default (or common) Lotus NSF and BOX databases.",
-    "url": "http://packetstormsecurity.com/files/55250/lotophagi.rar.html"
+    "url": "http://packetstormsecurity.com/files/55250/lotophagi.rar.html",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "lunar",
     "version": "1280.1d78b365",
     "description": "A UNIX security auditing tool based on several security frameworks.",
-    "url": "https://github.com/lateralblast/lunar"
+    "url": "https://github.com/lateralblast/lunar",
+    "groups": [
+      "scanner",
+      "defensive"
+    ],
+    "updated": "2026-09-28"
   },
   {
     "name": "maligno",
     "version": "2.5",
     "description": "An open source penetration testing tool written in python, that serves Metasploit payloads. It generates shellcode with msfvenom and transmits it over HTTP or HTTPS.",
-    "url": "https://www.encripto.no/en/downloads-2/tools/"
+    "url": "https://www.encripto.no/en/downloads-2/tools/",
+    "groups": [
+      "scanner",
+      "fuzzer",
+      "exploitation"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "manspider",
     "version": "144.ee228a4",
     "description": "Spider entire networks for juicy files sitting on SMB shares. Search filenames or file content - regex supported!",
-    "url": "https://github.com/blacklanternsecurity/MANSPIDER"
+    "url": "https://github.com/blacklanternsecurity/MANSPIDER",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "mantra",
     "version": "v3.1.r5.g6026816",
     "description": "Hunt down API key leaks in JS files and pages.",
-    "url": "https://github.com/brosck/mantra"
-  },
-  {
-    "name": "maryam",
-    "version": "v.2.5.3.r0.g2bb4ea2",
-    "description": "Full-featured Web Identification framework written in Python.",
-    "url": "https://github.com/saeeddhqan/Maryam"
+    "url": "https://github.com/brosck/mantra",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2026-03-14"
   },
   {
     "name": "mitm6",
     "version": "33.8e75884",
     "description": "Pwning IPv4 via IPv6.",
-    "url": "https://github.com/dirkjanm/mitm6"
+    "url": "https://github.com/dirkjanm/mitm6",
+    "groups": [
+      "scanner",
+      "fuzzer",
+      "spoof",
+      "networking"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "modscan",
     "version": "0.1",
     "description": "A new tool designed to map a SCADA MODBUS TCP based network.",
-    "url": "https://code.google.com/archive/p/modscan"
+    "url": "https://code.google.com/p/modscan/",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "mongoaudit",
     "version": "222.70b83e8",
     "description": "A powerful MongoDB auditing and pentesting tool .",
-    "url": "https://github.com/stampery/mongoaudit"
+    "url": "https://github.com/stampery/mongoaudit",
+    "groups": [
+      "scanner",
+      "fuzzer"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "mqtt-pwn",
     "version": "43.40368e5",
     "description": "A one-stop-shop for IoT Broker penetration-testing and security assessment operations.",
-    "url": "https://github.com/akamai-threat-research/mqtt-pwn"
+    "url": "https://github.com/akamai-threat-research/mqtt-pwn",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "msmailprobe",
     "version": "1.c01c8bf",
     "description": "Office 365 and Exchange Enumeration tool.",
-    "url": "https://github.com/busterb/msmailprobe"
+    "url": "https://github.com/busterb/msmailprobe",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2022-02-19"
   },
   {
     "name": "mssqlscan",
     "version": "0.8.4",
     "description": "A small multi-threaded tool that scans for Microsoft SQL Servers.",
-    "url": "http://www.cqure.net/wp/mssqlscan/"
+    "url": "http://www.cqure.net/wp/mssqlscan/",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "multiscanner",
     "version": "1559.86e0145",
     "description": "Modular file scanning/analysis framework.",
-    "url": "https://github.com/mitre/multiscanner"
+    "url": "https://github.com/mitre/multiscanner",
+    "groups": [
+      "scanner",
+      "automation"
+    ],
+    "updated": "2019-05-12"
   },
   {
     "name": "naabu",
     "version": "v2.6.1.r143.g6f69a8b",
     "description": "A fast port scanner written in go with focus on reliability and simplicity.",
-    "url": "https://github.com/projectdiscovery/naabu"
+    "url": "https://github.com/projectdiscovery/naabu",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "navgix",
     "version": "3.6f25c98",
     "description": "Multi-threaded golang tool that will check for nginx alias traversal vulnerabilities.",
-    "url": "https://github.com/hakaioffsec/navgix"
+    "url": "https://github.com/hakaioffsec/navgix",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2024-11-29"
   },
   {
     "name": "netbios-share-scanner",
     "version": "1.0",
     "description": "This tool could be used to check windows workstations and servers if they have accessible shared resources.",
-    "url": "https://www.secpoint.com/netbios-share-scanner.html"
+    "url": "https://www.secpoint.com/netbios-share-scanner.html",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "netexec",
     "version": "v1.5.1.r914.g4702580",
     "description": "A Windows / Active Directory environments pentest tool.",
-    "url": "https://www.netexec.wiki/"
+    "url": "https://www.netexec.wiki/",
+    "groups": [
+      "scanner",
+      "exploitation",
+      "networking",
+      "windows"
+    ],
+    "updated": "2026-09-28"
   },
   {
     "name": "netscan",
     "version": "1.0",
     "description": "Tcp/Udp/Tor port scanner with: synpacket, connect TCP/UDP and socks5 (tor connection).",
-    "url": "http://packetstormsecurity.com/files/125569/Netscan-Port-Scanner-1.0.html"
+    "url": "http://packetstormsecurity.com/files/125569/Netscan-Port-Scanner-1.0.html",
+    "groups": [
+      "scanner",
+      "networking"
+    ],
+    "updated": "2018-11-15"
   },
   {
     "name": "netscan2",
     "version": "60.3d02ba1",
     "description": "Active / passive network scanner.",
-    "url": "https://github.com/AllGloryToTheHypnotoad/netscan2"
+    "url": "https://github.com/AllGloryToTheHypnotoad/netscan2",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "netz",
     "version": "v0.1.0.r8.g3754e56",
     "description": "Discover internet-wide misconfigurations while drinking coffee.",
-    "url": "https://github.com/spectralops/netz"
+    "url": "https://github.com/spectralops/netz",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2021-07-17"
   },
   {
     "name": "nili",
     "version": "0.1.1.r4.g285220a",
     "description": "Tool for Network Scan, Man in the Middle, Protocol Reverse Engineering and Fuzzing.",
-    "url": "https://github.com/niloofarkheirkhah/nili"
+    "url": "https://github.com/niloofarkheirkhah/nili",
+    "groups": [
+      "scanner",
+      "reversing",
+      "fuzzer"
+    ],
+    "updated": "2026-01-17"
+  },
+  {
+    "name": "nimux",
+    "version": "1.0.6.r2.g12eea77",
+    "description": "Pure-Nim network enumeration and remote execution toolkit.",
+    "url": "https://github.com/blue0x1/nimux",
+    "groups": [
+      "scanner",
+      "networking",
+      "windows",
+      "exploitation"
+    ],
+    "updated": "2026-09-06"
   },
   {
     "name": "nmbscan",
     "version": "1.2.6",
     "description": "Tool to scan the shares of a SMB/NetBIOS network, using the NMB/SMB/NetBIOS protocols.",
-    "url": "http://nmbscan.gbarbier.org/"
+    "url": "http://nmbscan.gbarbier.org/",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2016-12-31"
+  },
+  {
+    "name": "nox-framework",
+    "version": "1.0.5",
+    "description": "OSINT & CTI Framework with 120+ sources, async performance, identity pivoting, and automated risk analysis.",
+    "url": "https://github.com/nox-project/nox-framework",
+    "groups": [
+      "scanner",
+      "recon",
+      "forensic"
+    ],
+    "updated": "2026-05-31"
   },
   {
     "name": "nray",
     "version": "99.f5eeb37",
     "description": "Distributed port scanner.",
-    "url": "https://github.com/nray-scanner/nray"
-  },
-  {
-    "name": "nsec3map",
-    "version": "v0.8.2.r0.gd145b13",
-    "description": "A tool to enumerate the resource records of a DNS zone using its DNSSEC NSEC or NSEC3 chain.",
-    "url": "https://github.com/anonion0/nsec3map"
+    "url": "https://github.com/nray-scanner/nray",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2025-07-05"
   },
   {
     "name": "ntlm-challenger",
     "version": "8.bd61ef6",
     "description": "Parse NTLM over HTTP challenge messages.",
-    "url": "https://github.com/nopfor/ntlm_challenger"
+    "url": "https://github.com/nopfor/ntlm_challenger",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "ntlm-scanner",
     "version": "6.4b29329",
     "description": "A simple python tool based on Impacket that tests servers for various known NTLM vulnerabilities.",
-    "url": "https://github.com/preempt/ntlm-scanner"
+    "url": "https://github.com/preempt/ntlm-scanner",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "ntlmrecon",
     "version": "81.64d7f9d",
     "description": "A tool to enumerate information from NTLM authentication enabled web endpoints.",
-    "url": "https://github.com/pwnfoo/NTLMRecon"
+    "url": "https://github.com/pwnfoo/NTLMRecon",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "nuclei",
     "version": "v3.11.1.r579.gdf57ae6",
     "description": "A fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.",
-    "url": "https://github.com/projectdiscovery/nuclei"
-  },
-  {
-    "name": "nuclei-templates",
-    "version": "v10.5.1.r408.ge6adf54",
-    "description": "Community curated list of template files for the nuclei engine.",
-    "url": "https://github.com/projectdiscovery/nuclei-templates"
+    "url": "https://github.com/projectdiscovery/nuclei",
+    "groups": [
+      "scanner",
+      "webapp",
+      "recon",
+      "fingerprint"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "o-saft",
     "version": "7174.dbf462bc",
     "description": "A tool to show informations about SSL certificate and tests the SSL connection according given list of ciphers and various SSL configurations.",
-    "url": "https://www.owasp.org/index.php/O-Saft"
+    "url": "https://www.owasp.org/index.php/O-Saft",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "ocs",
     "version": "0.2",
     "description": "Compact mass scanner for Cisco routers with default telnet/enable passwords.",
-    "url": "http://packetstormsecurity.com/files/119462/OCS-Cisco-Scanner-0.2.html"
+    "url": "http://packetstormsecurity.com/files/119462/OCS-Cisco-Scanner-0.2.html",
+    "groups": [
+      "scanner",
+      "cracker"
+    ],
+    "updated": "2018-11-15"
   },
   {
     "name": "onetwopunch",
     "version": "v1.0.0.r2.gd4ab4e8",
     "description": "Use unicornscan to quickly scan all open ports, and then pass the open ports to nmap for detailed scans.",
-    "url": "https://github.com/superkojiman/onetwopunch"
+    "url": "https://github.com/superkojiman/onetwopunch",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2018-09-06"
   },
   {
     "name": "onionscan",
     "version": "130.da42865",
     "description": "Scan Onion Services for Security Issues.",
-    "url": "https://github.com/s-rah/onionscan"
+    "url": "https://github.com/s-rah/onionscan",
+    "groups": [
+      "scanner",
+      "defensive"
+    ],
+    "updated": "2021-04-27"
   },
   {
     "name": "openvas",
     "version": "20250606",
     "description": "Meta package for installing all OpenVAS components.",
-    "url": "https://www.blackarch.org/"
+    "url": "https://www.blackarch.org/",
+    "groups": [
+      "scanner",
+      "recon",
+      "fuzzer",
+      "fingerprint",
+      "webapp",
+      "dos"
+    ],
+    "updated": "2025-06-06"
   },
   {
     "name": "pagodo",
     "version": "166.3228879",
     "description": "Google dork script to collect potentially vulnerable web pages and applications on the Internet.",
-    "url": "https://github.com/opsdisk/pagodo"
+    "url": "https://github.com/opsdisk/pagodo",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "paketto",
     "version": "3.0",
     "description": "Advanced TCP/IP Toolkit.",
-    "url": "http://www.doxpara.com/paketto/"
+    "url": "http://www.doxpara.com/paketto/",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2025-12-21"
   },
   {
     "name": "panhunt",
     "version": "63.ec87e88",
     "description": "Searches for credit card numbers (PANs) in directories.",
-    "url": "https://github.com/Dionach/PANhunt"
+    "url": "https://github.com/Dionach/PANhunt",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "paranoic",
     "version": "1.7",
     "description": "A simple vulnerability scanner written in Perl.",
-    "url": "http://packetstormsecurity.com/files/128065/Paranoic-Scan-1.7.html"
+    "url": "http://packetstormsecurity.com/files/128065/Paranoic-Scan-1.7.html",
+    "groups": [
+      "scanner",
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "passhunt",
     "version": "5.332f374",
     "description": "Search drives for documents containing passwords.",
-    "url": "https://github.com/Dionach/PassHunt"
+    "url": "https://github.com/Dionach/PassHunt",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "pbscan",
     "version": "10.566c3d7",
     "description": "Faster and more efficient stateless SYN scanner and banner grabber due to userland TCP/IP stack usage.",
-    "url": "https://github.com/gvb84/pbscan"
+    "url": "https://github.com/gvb84/pbscan",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2018-10-01"
   },
   {
     "name": "pcredz",
     "version": "108.a07051d",
     "description": "A tool that extracts credit card numbers and more from a pcap file or from a live interface.",
-    "url": "https://github.com/lgandx/PCredz"
+    "url": "https://github.com/lgandx/PCredz",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-03-07"
   },
   {
     "name": "peass",
     "version": "20261029.a596a9f3.r0.g712a4f4",
     "description": "Privilege Escalation Awesome Scripts SUITE (with colors).",
-    "url": "https://github.com/peass-ng/PEASS-ng"
+    "url": "https://github.com/peass-ng/PEASS-ng",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "pentestly",
     "version": "1798.93d1b39",
     "description": "Python and Powershell internal penetration testing framework.",
-    "url": "https://github.com/praetorian-inc/pentestly"
+    "url": "https://github.com/praetorian-inc/pentestly",
+    "groups": [
+      "scanner",
+      "recon",
+      "automation"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "plcscan",
     "version": "0.1",
     "description": "This is a tool written in Python that will scan for PLC devices over s7comm or modbus protocols.",
-    "url": "http://packetstormsecurity.com/files/119726/PLC-Device-Scanner.html"
+    "url": "http://packetstormsecurity.com/files/119726/PLC-Device-Scanner.html",
+    "groups": [
+      "scanner",
+      "networking"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "pnscan",
     "version": "1.14.1",
     "description": "A parallel network scanner that can be used to survey TCP network services.",
-    "url": "http://www.lysator.liu.se/~pen/pnscan/"
+    "url": "http://www.lysator.liu.se/~pen/pnscan/",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2021-06-23"
   },
   {
     "name": "poison",
     "version": "1.5.41",
     "description": "A fast, asynchronous syn and udp scanner.",
-    "url": "http://nologin.org/main.pl?action=codeList&"
+    "url": "http://nologin.org/main.pl?action=codeList&",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2015-09-07"
   },
   {
     "name": "ppscan",
     "version": "0.3",
     "description": "Yet another port scanner with HTTP and FTP tunneling support.",
-    "url": "https://packetstormsecurity.com/files/82897/PPScan-Portscanner-0.3.html"
+    "url": "https://packetstormsecurity.com/files/82897/PPScan-Portscanner-0.3.html",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2018-11-15"
   },
   {
     "name": "prads",
     "version": "1132.e631f4f",
     "description": "A \"Passive Real-time Asset Detection System\".",
-    "url": "http://gamelinux.github.io/prads/"
+    "url": "http://gamelinux.github.io/prads/",
+    "groups": [
+      "scanner",
+      "networking"
+    ],
+    "updated": "2021-12-13"
   },
   {
     "name": "praeda",
     "version": "49.b0b17d3",
     "description": "An automated data/information harvesting tool designed to gather critical information from various embedded devices.",
-    "url": "https://github.com/percx/Praeda"
+    "url": "https://github.com/percx/Praeda",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "proxycheck",
     "version": "0.1",
     "description": "This is a simple proxy tool that checks for the HTTP CONNECT method and grabs verbose output from a webserver.",
-    "url": "http://packetstormsecurity.com/files/61864/proxycheck.pl.txt.html"
+    "url": "http://packetstormsecurity.com/files/61864/proxycheck.pl.txt.html",
+    "groups": [
+      "scanner",
+      "proxy"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "proxyscan",
     "version": "0.3",
     "description": "A security penetration testing tool to scan for hosts and ports through a Web proxy server.",
-    "url": "http://packetstormsecurity.com/files/69778/proxyScan-0.3.tgz.html"
+    "url": "http://packetstormsecurity.com/files/69778/proxyScan-0.3.tgz.html",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "pwndora",
     "version": "1.ba7f6e6",
     "description": "Massive IPv4 scanner, find and analyze internet-connected devices in minutes, create your own IoT search engine at home.",
-    "url": "https://github.com/alechilczenko/kimi"
+    "url": "https://github.com/alechilczenko/kimi",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "pyssltest",
     "version": "9.d7703f0",
     "description": "A python multithreaded script to make use of Qualys ssllabs api to test SSL flaws.",
-    "url": "https://github.com/moheshmohan/pyssltest"
+    "url": "https://github.com/moheshmohan/pyssltest",
+    "groups": [
+      "scanner",
+      "crypto"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "pytbull",
     "version": "19.3d82a54",
     "description": "Next generation of pytbull, IDS/IPS testing framework.",
-    "url": "https://github.com/netrunn3r/pytbull-ng"
+    "url": "https://github.com/netrunn3r/pytbull-ng",
+    "groups": [
+      "scanner",
+      "fuzzer"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "pythem",
     "version": "454.e4fcb8a",
     "description": "Python2 penetration testing framework.",
-    "url": "https://github.com/m4n3dw0lf/PytheM"
+    "url": "https://github.com/m4n3dw0lf/PytheM",
+    "groups": [
+      "scanner",
+      "sniffer",
+      "recon",
+      "cracker",
+      "webapp"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "python2-ldapdomaindump",
     "version": "0.9.4",
     "description": "Active Directory information dumper via LDAP.",
-    "url": "https://pypi.org/project/ldapdomaindump/#files"
+    "url": "https://pypi.org/project/ldapdomaindump/#files",
+    "groups": [
+      "scanner",
+      "networking"
+    ],
+    "updated": "2025-09-22"
   },
   {
     "name": "ranger-scanner",
     "version": "149.3aae5dd",
     "description": "A tool to support security professionals to access and interact with remote Microsoft Windows based systems.",
-    "url": "https://github.com/funkandwagnalls/ranger"
+    "url": "https://github.com/funkandwagnalls/ranger",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "rawr",
     "version": "74.544dd75",
     "description": "Rapid Assessment of Web Resources. A web enumerator.",
-    "url": "https://bitbucket.org/al14s/rawr/wiki/Home"
+    "url": "https://bitbucket.org/al14s/rawr/wiki/Home",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "rbac-lookup",
     "version": "v0.10.3.r0.g46385c5",
     "description": "A CLI that allows you to easily find Kubernetes roles and cluster roles bound to any user.",
-    "url": "https://github.com/FairwindsOps/rbac-lookup"
+    "url": "https://github.com/FairwindsOps/rbac-lookup",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2025-08-02"
   },
   {
     "name": "rdp-cipher-checker",
     "version": "0.1",
     "description": "Enumerate the encryption protocols supported by the server and the cipher strengths supported using native RDP encryption.",
-    "url": "https://labs.f-secure.com/tools/rdp-cipher-checker/"
+    "url": "https://labs.f-secure.com/tools/rdp-cipher-checker/",
+    "groups": [
+      "scanner",
+      "crypto",
+      "windows"
+    ],
+    "updated": "2022-03-27"
   },
   {
     "name": "rdp-sec-check",
     "version": "11.d0cc143",
     "description": "Script to enumerate security settings of an RDP Service.",
-    "url": "https://github.com/CiscoCXSecurity/rdp-sec-check"
+    "url": "https://github.com/CiscoCXSecurity/rdp-sec-check",
+    "groups": [
+      "scanner",
+      "networking",
+      "windows"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "relay-scanner",
     "version": "1.7",
     "description": "An SMTP relay scanner.",
-    "url": "http://www.cirt.dk"
+    "url": "http://www.cirt.dk",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "remote-method-guesser",
     "version": "v5.1.0.r11.g3398ec6",
     "description": "Java RMI vulnerability scanner.",
-    "url": "https://github.com/qtc-de/remote-method-guesser"
+    "url": "https://github.com/qtc-de/remote-method-guesser",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2024-12-28"
   },
   {
     "name": "responder",
     "version": "v3.2.2.0.r8.g424fbe5",
     "description": "A LLMNR and NBT-NS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2 (multirelay version).",
-    "url": "https://github.com/lgandx/Responder"
+    "url": "https://github.com/lgandx/Responder",
+    "groups": [
+      "scanner",
+      "fuzzer",
+      "spoof",
+      "networking"
+    ],
+    "updated": "2026-06-13"
   },
   {
     "name": "retire",
     "version": "5.4.3.r20.g71713f8",
     "description": "Scanner detecting the use of JavaScript libraries with known vulnerabilities.",
-    "url": "https://retirejs.github.io/retire.js/"
+    "url": "https://retirejs.github.io/retire.js/",
+    "groups": [
+      "scanner",
+      "code-audit"
+    ],
+    "updated": "2026-07-05"
   },
   {
     "name": "routerhunter",
     "version": "21.4da257c",
     "description": "Tool used to find vulnerable routers and devices on the Internet and perform tests.",
-    "url": "https://github.com/jh00nbr/Routerhunter-2.0"
+    "url": "https://github.com/jh00nbr/Routerhunter-2.0",
+    "groups": [
+      "scanner",
+      "networking"
+    ],
+    "updated": "2017-02-15"
   },
   {
     "name": "rtlizer",
     "version": "2.1.r1.g5614163",
     "description": "Simple spectrum analyzer.",
-    "url": "https://github.com/csete/rtlizer"
+    "url": "https://github.com/csete/rtlizer",
+    "groups": [
+      "scanner",
+      "radio"
+    ],
+    "updated": "2026-09-14"
   },
   {
     "name": "rtlsdr-scanner",
     "version": "v1.3.2.r1.g3c032de",
     "description": "A cross platform Python frequency scanning GUI for the OsmoSDR rtl-sdr library.",
-    "url": "https://github.com/EarToEarOak/RTLSDR-Scanner"
+    "url": "https://github.com/EarToEarOak/RTLSDR-Scanner",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "s3scanner",
     "version": "v3.1.1.r12.g64a00e2",
     "description": "A tool to find open S3 buckets in AWS or other cloud providers.",
-    "url": "https://github.com/sa7mon/S3Scanner"
+    "url": "https://github.com/sa7mon/S3Scanner",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-07-19"
   },
   {
     "name": "sambascan",
     "version": "0.5.0",
     "description": "Allows you to search an entire network or a number of hosts for SMB shares. It will also list the contents of all public shares that it finds.",
-    "url": "https://sourceforge.net/projects/sambascan2/"
+    "url": "https://sourceforge.net/projects/sambascan2/",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "sandcastle",
     "version": "73.10af7c7",
     "description": "A Python script for AWS S3 bucket enumeration.",
-    "url": "https://github.com/0xSearches/sandcastle"
+    "url": "https://github.com/0xSearches/sandcastle",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "sandmap",
     "version": "581.5be99d4",
     "description": "Simple CLI with the ability to run pure Nmap engine, 31 modules with 459 scan profiles.",
-    "url": "https://github.com/trimstray/sandmap"
+    "url": "https://github.com/trimstray/sandmap",
+    "groups": [
+      "scanner",
+      "automation"
+    ],
+    "updated": "2024-11-24"
   },
   {
     "name": "sandy",
     "version": "6.531ab16",
     "description": "An open-source Samsung phone encryption assessment framework",
-    "url": "https://github.com/donctl/sandy"
+    "url": "https://github.com/donctl/sandy",
+    "groups": [
+      "scanner",
+      "crypto",
+      "mobile"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "sb0x",
     "version": "2.0.1rc3.r2.gd863070",
     "description": "A simple and Lightweight framework for Penetration testing.",
-    "url": "https://github.com/lostcitizen/sb0x-project"
+    "url": "https://github.com/lostcitizen/sb0x-project",
+    "groups": [
+      "scanner",
+      "fuzzer",
+      "cracker",
+      "backdoor",
+      "recon"
+    ],
+    "updated": "2026-09-13"
   },
   {
     "name": "scamper",
     "version": "20240920",
     "description": "A tool that actively probes the Internet in order to analyze topology and performance.",
-    "url": "http://www.caida.org/tools/measurement/scamper/"
+    "url": "http://www.caida.org/tools/measurement/scamper/",
+    "groups": [
+      "scanner",
+      "recon",
+      "networking"
+    ],
+    "updated": "2024-11-17"
   },
   {
     "name": "scanless",
     "version": "90.3da40e9",
     "description": "Utility for using websites that can perform port scans on your behalf.",
-    "url": "https://github.com/vesche/scanless"
+    "url": "https://github.com/vesche/scanless",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "scanssh",
     "version": "2.1",
     "description": "Fast SSH server and open proxy scanner.",
-    "url": "https://www.monkey.org/~provos/scanssh/"
+    "url": "https://www.monkey.org/~provos/scanssh/",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2025-12-16"
   },
   {
     "name": "scout2",
     "version": "1182.5d86d46",
     "description": "Security auditing tool for AWS environments.",
-    "url": "http://isecpartners.github.io/Scout2/"
+    "url": "http://isecpartners.github.io/Scout2/",
+    "groups": [
+      "scanner",
+      "fuzzer"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "scoutsuite",
     "version": "5.14.0.r0.g7909f2f",
     "description": "Multi-Cloud Security Auditing Tool.",
-    "url": "https://github.com/nccgroup/ScoutSuite"
+    "url": "https://github.com/nccgroup/ScoutSuite",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "scrape-dns",
     "version": "58.3df392f",
     "description": "Searches for interesting cached DNS entries.",
-    "url": "https://github.com/304GEEK/Scrape-DNS"
+    "url": "https://github.com/304GEEK/Scrape-DNS",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "sdnpwn",
     "version": "85.0080574",
     "description": "An SDN penetration testing toolkit.",
-    "url": "https://github.com/smythtech/sdnpwn"
+    "url": "https://github.com/smythtech/sdnpwn",
+    "groups": [
+      "scanner",
+      "networking"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "seat",
     "version": "0.3",
     "description": "Next generation information digging application geared toward the needs of security professionals. It uses information stored in search engine databases, cache repositories, and other public resources to scan web sites for potential vulnerabilities.",
-    "url": "http://thesprawl.org/projects/search-engine-assessment-tool/"
+    "url": "http://thesprawl.org/projects/search-engine-assessment-tool/",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "shareenum",
     "version": "48.db728dd",
     "description": "Tool to enumerate shares from Windows hosts.",
-    "url": "https://github.com/CroweCybersecurity/shareenum"
+    "url": "https://github.com/CroweCybersecurity/shareenum",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2021-12-12"
   },
   {
     "name": "sharesniffer",
     "version": "v0.1.b.8.r8.ga0c5ed6",
     "description": "Network share sniffer and auto-mounter for crawling remote file systems.",
-    "url": "https://github.com/shirosaidev/sharesniffer"
+    "url": "https://github.com/shirosaidev/sharesniffer",
+    "groups": [
+      "scanner",
+      "automation"
+    ],
+    "updated": "2026-01-17"
+  },
+  {
+    "name": "shortscan",
+    "version": "0.9.2.r0.g2ba744f",
+    "description": "An IIS short filename enumeration tool.",
+    "url": "https://github.com/bitquark/shortscan",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-05-29"
   },
   {
     "name": "simple-lan-scan",
     "version": "1.0",
     "description": "A simple python script that leverages scapy for discovering live hosts on a network.",
-    "url": "http://packetstormsecurity.com/files/97353/Simple-LAN-Scanner-1.0.html"
+    "url": "http://packetstormsecurity.com/files/97353/Simple-LAN-Scanner-1.0.html",
+    "groups": [
+      "scanner",
+      "recon",
+      "networking"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "simple-lan-scan3",
     "version": "1.0.1",
     "description": "A simple python3 script that leverages scapy for discovering live hosts on a network.",
-    "url": "https://codeberg.org/jahway603/Simple-LAN-Scanner3"
+    "url": "https://codeberg.org/jahway603/Simple-LAN-Scanner3",
+    "groups": [
+      "scanner",
+      "recon",
+      "networking"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "sipshock",
     "version": "7.6ab5591",
     "description": "A scanner for SIP proxies vulnerable to Shellshock.",
-    "url": "https://github.com/zaf/sipshock"
+    "url": "https://github.com/zaf/sipshock",
+    "groups": [
+      "scanner",
+      "voip"
+    ],
+    "updated": "2021-04-27"
   },
   {
     "name": "slurp-scanner",
     "version": "18.38f0cc7",
     "description": "Evaluate the security of S3 buckets.",
-    "url": "https://codeberg.org/invirtuate/slurp"
+    "url": "https://codeberg.org/invirtuate/slurp",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-11-08"
   },
   {
     "name": "smap-scanner",
     "version": "0.1.12.r5.gfcf43c1",
     "description": "Passive port scanner built with shodan free API.",
-    "url": "https://github.com/s0md3v/Smap"
+    "url": "https://github.com/s0md3v/Smap",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2025-06-07"
   },
   {
     "name": "smbexec",
     "version": "59.a54fc14",
     "description": "A rapid psexec style attack with samba tools.",
-    "url": "https://github.com/pentestgeek/smbexec"
+    "url": "https://github.com/pentestgeek/smbexec",
+    "groups": [
+      "scanner",
+      "recon",
+      "fuzzer",
+      "exploitation"
+    ],
+    "updated": "2025-04-29"
   },
   {
     "name": "smbmap",
     "version": "v1.10.8.r0.g31b8a8f",
     "description": "A handy SMB enumeration tool.",
-    "url": "https://github.com/ShawnDEvans/smbmap"
+    "url": "https://github.com/ShawnDEvans/smbmap",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "smbspider",
     "version": "10.7db9323",
     "description": "A lightweight python utility for searching SMB/CIFS/Samba file shares.",
-    "url": "https://github.com/T-S-A/smbspider"
+    "url": "https://github.com/T-S-A/smbspider",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "smbsr",
     "version": "50.7f86241",
     "description": "Lookup for interesting stuff in SMB shares.",
-    "url": "https://github.com/oldboy21/SMBSR"
+    "url": "https://github.com/oldboy21/SMBSR",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "smod",
     "version": "53.7eb8423",
     "description": "A modular framework with every kind of diagnostic and offensive feature you could need in order to pentest modbus protocol.",
-    "url": "https://github.com/enddo/smod"
+    "url": "https://github.com/enddo/smod",
+    "groups": [
+      "scanner",
+      "fuzzer",
+      "recon",
+      "dos"
+    ],
+    "updated": "2018-04-06"
   },
   {
     "name": "smtp-test",
     "version": "6.151f636",
     "description": "Automated testing of SMTP servers for penetration testing.",
-    "url": "https://github.com/isaudits/smtp-test"
+    "url": "https://github.com/isaudits/smtp-test",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2025-11-10"
   },
   {
     "name": "smtp-vrfy",
     "version": "1.0",
     "description": "An SMTP Protocol Hacker.",
-    "url": ""
+    "url": "",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "smtptx",
     "version": "1.0",
     "description": "A very simple tool used for sending simple email and do some basic email testing from a pentester perspective.",
-    "url": "https://www.0x90.se/"
+    "url": "https://www.0x90.se/",
+    "groups": [
+      "scanner",
+      "fuzzer"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "snmpenum",
     "version": "1.7",
     "description": "An snmp enumerator.",
-    "url": "http://www.filip.waeytens.easynet.be/"
+    "url": "http://www.filip.waeytens.easynet.be/",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "snmpscan",
     "version": "0.1",
     "description": "A free, multi-processes SNMP scanner.",
-    "url": "http://www.nothink.org/perl/snmpscan/index.php"
+    "url": "http://www.nothink.org/perl/snmpscan/index.php",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2024-09-05"
   },
   {
     "name": "snoopbrute",
     "version": "17.589fbe6",
     "description": "Multithreaded DNS recursive host brute-force tool.",
-    "url": "https://github.com/m57/snoopbrute"
+    "url": "https://github.com/m57/snoopbrute",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "sparta",
     "version": "21.b0a4514",
     "description": "Python GUI application which simplifies network infrastructure penetration testing by aiding the penetration tester in the scanning and enumeration phase.",
-    "url": "http://sparta.secforce.com/"
+    "url": "http://sparta.secforce.com/",
+    "groups": [
+      "scanner",
+      "cracker",
+      "fingerprint",
+      "networking"
+    ],
+    "updated": "2017-06-18"
   },
   {
     "name": "sqlivulscan",
     "version": "249.cc8e657",
     "description": "This will give you the SQLi Vulnerable Website Just by Adding the Dork.",
-    "url": "https://github.com/the-robot/sqliv"
+    "url": "https://github.com/the-robot/sqliv",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "ssdp-scanner",
     "version": "1.0",
     "description": "SSDP amplification scanner written in Python. Makes use of Scapy.",
-    "url": "http://packetstormsecurity.com/files/127994/SSDP-Amplification-Scanner.html"
+    "url": "http://packetstormsecurity.com/files/127994/SSDP-Amplification-Scanner.html",
+    "groups": [
+      "scanner",
+      "networking"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "ssh-user-enum",
     "version": "7.ae453c1",
     "description": "SSH User Enumeration Script in Python Using The Timing Attack.",
-    "url": "https://github.com/nccgroup/ssh_user_enum"
+    "url": "https://github.com/nccgroup/ssh_user_enum",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "sslcaudit",
     "version": "524.f218b9b",
     "description": "Utility to perform security audits of SSL/TLS clients.",
-    "url": "https://github.com/abbbe/sslcaudit"
+    "url": "https://github.com/abbbe/sslcaudit",
+    "groups": [
+      "scanner",
+      "crypto"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "ssllabs-scan",
     "version": "251.53cd76a",
     "description": "Command-line client for the SSL Labs APIs",
-    "url": "https://github.com/ssllabs/ssllabs-scan"
+    "url": "https://github.com/ssllabs/ssllabs-scan",
+    "groups": [
+      "scanner",
+      "crypto"
+    ],
+    "updated": "2023-10-29"
   },
   {
     "name": "sslmap",
     "version": "0.2.0",
     "description": "A lightweight TLS/SSL cipher suite scanner.",
-    "url": "http://thesprawl.org/projects/latest/"
+    "url": "http://thesprawl.org/projects/latest/",
+    "groups": [
+      "scanner",
+      "crypto"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "sslscan2",
     "version": "777.468b141",
     "description": "Tests SSL/TLS enabled services to discover supported cipher suites.",
-    "url": "https://github.com/rbsec/sslscan"
+    "url": "https://github.com/rbsec/sslscan",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-09-28"
   },
   {
     "name": "stacs",
     "version": "0.5.1.r0.g11f3503",
     "description": "Static Token And Credential Scanner.",
-    "url": "https://github.com/stacscan/stacs"
+    "url": "https://github.com/stacscan/stacs",
+    "groups": [
+      "scanner",
+      "misc"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "sticky-keys-hunter",
     "version": "15.c816fc9",
     "description": "Script to test an RDP host for sticky keys and utilman backdoor.",
-    "url": "https://github.com/ztgrace/sticky_keys_hunter"
+    "url": "https://github.com/ztgrace/sticky_keys_hunter",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2017-04-23"
   },
   {
     "name": "stig-viewer",
     "version": "2.8",
     "description": "XCCDF formatted SRGs and STIGs files viewer for SCAP validation tools.",
-    "url": "https://www.stig-viewer.com"
+    "url": "https://www.stig-viewer.com",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2019-02-08"
   },
   {
     "name": "strutscan",
     "version": "4.8712c12",
     "description": "Apache Struts2 vulnerability scanner written in Perl.",
-    "url": "https://github.com/riusksk/StrutScan"
+    "url": "https://github.com/riusksk/StrutScan",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2025-07-18"
+  },
+  {
+    "name": "subbrute",
+    "version": "77.r30.g07d2925",
+    "description": "A DNS meta-query spider that enumerates DNS records, and subdomains.",
+    "url": "https://github.com/TheRook/subbrute",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2026-04-06"
   },
   {
     "name": "subjack",
     "version": "182.49c51e5",
     "description": "Subdomain Takeover tool written in Go.",
-    "url": "https://github.com/haccer/subjack"
+    "url": "https://github.com/haccer/subjack",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2021-11-24"
   },
   {
     "name": "subover",
     "version": "71.3d258e2",
     "description": "A Powerful Subdomain Takeover Tool.",
-    "url": "https://github.com/Ice3man543/SubOver"
+    "url": "https://github.com/Ice3man543/SubOver",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2021-11-24"
   },
   {
-    "name": "swaks",
-    "version": "20240103.0",
-    "description": "Swiss Army Knife SMTP; Command line SMTP testing, including TLS and AUTH.",
-    "url": "https://jetmore.org/john/code/swaks/"
+    "name": "subzy",
+    "version": "v1.2.1.r0.gf2e2ec7",
+    "description": "Subdomain takeover vulnerability checker.",
+    "url": "https://github.com/PentestPad/subzy",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2025-08-07"
   },
   {
     "name": "swarm",
     "version": "41.1713c1e",
     "description": "A distributed penetration testing tool.",
-    "url": "https://github.com/a7vinx/swarm"
+    "url": "https://github.com/a7vinx/swarm",
+    "groups": [
+      "scanner",
+      "recon",
+      "cracker",
+      "exploitation",
+      "webapp"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "synscan",
     "version": "5.02",
-    "description": "fast asynchronous half-open TCP portscanner",
-    "url": "https://www.digit-labs.org/files/tools/synscan/"
+    "description": "Fast asynchronous half-open TCP portscanner.",
+    "url": "https://www.digit-labs.org/files/tools/synscan/",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-09-12"
   },
   {
     "name": "tachyon-scanner",
     "version": "3.5.6.r4.gba0fe61",
     "description": "Fast Multi-Threaded Web Discovery Tool.",
-    "url": "https://github.com/delvelabs/tachyon"
+    "url": "https://github.com/delvelabs/tachyon",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-08-02"
   },
   {
     "name": "tactical-exploitation",
     "version": "101.18209fe",
     "description": "Modern tactical exploitation toolkit.",
-    "url": "https://github.com/0xdea/tactical-exploitation"
+    "url": "https://github.com/0xdea/tactical-exploitation",
+    "groups": [
+      "scanner",
+      "exploitation",
+      "recon",
+      "sniffer"
+    ],
+    "updated": "2026-08-24"
   },
   {
     "name": "taipan",
     "version": "2.9.498.18",
     "description": "Web application security scanner.",
-    "url": "https://github.com/enkomio/Taipan"
+    "url": "https://github.com/enkomio/Taipan",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2022-03-19"
   },
   {
     "name": "takeover",
     "version": "98.a058647",
     "description": "Sub-Domain TakeOver Vulnerability Scanner.",
-    "url": "https://github.com/m4ll0k/takeover"
+    "url": "https://github.com/m4ll0k/takeover",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2023-05-05"
+  },
+  {
+    "name": "tcpcat",
+    "version": "v1.5.0.r42.g739fa9a",
+    "description": "High-performance network reconnaissance and vulnerability intelligence scanner with an eBPF/AF_XDP engine.",
+    "url": "https://github.com/NycolazSec/tcpcat",
+    "groups": [
+      "scanner",
+      "networking"
+    ],
+    "updated": "2026-11-01"
+  },
+  {
+    "name": "titus",
+    "version": "v1.2.11.r15.gbfc5a99",
+    "description": "High-performance secrets scanner based on NoseyParker.",
+    "url": "https://github.com/praetorian-inc/titus",
+    "groups": [
+      "scanner",
+      "code-audit"
+    ],
+    "updated": "2026-11-01"
   },
   {
     "name": "tlsx",
     "version": "v1.4.3.r3.gf77159c",
     "description": "TLS grabber focused on TLS based data collection.",
-    "url": "https://github.com/projectdiscovery/tlsx"
+    "url": "https://github.com/projectdiscovery/tlsx",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-11-01"
   },
   {
     "name": "topera",
     "version": "19.3e230fd",
     "description": "An IPv6 security analysis toolkit, with the particularity that their attacks can't be detected by Snort.",
-    "url": "https://github.com/toperaproject/topera"
+    "url": "https://github.com/toperaproject/topera",
+    "groups": [
+      "scanner",
+      "networking"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "traxss",
     "version": "81.48dee2e",
     "description": "Automated XSS Vulnerability Scanner.",
-    "url": "https://github.com/M4cs/traxss"
+    "url": "https://github.com/M4cs/traxss",
+    "groups": [
+      "scanner",
+      "automation"
+    ],
+    "updated": "2026-05-29"
   },
   {
     "name": "udp-hunter",
     "version": "4.b95cce5",
     "description": "Network assessment tool for various UDP Services covering both IPv4 and IPv6 protocols.",
-    "url": "https://github.com/NotSoSecure/udp-hunter"
+    "url": "https://github.com/NotSoSecure/udp-hunter",
+    "groups": [
+      "scanner",
+      "fuzzer",
+      "fingerprint"
+    ],
+    "updated": "2026-01-14"
   },
   {
     "name": "udsim",
     "version": "33.b379464",
     "description": "A graphical simulator that can emulate different modules in a vehicle and respond to UDS request.",
-    "url": "https://github.com/zombieCraig/UDSim"
+    "url": "https://github.com/zombieCraig/UDSim",
+    "groups": [
+      "scanner",
+      "fuzzer",
+      "automobile"
+    ],
+    "updated": "2022-12-24"
   },
   {
     "name": "umap",
     "version": "25.3ad8121",
     "description": "The USB host security assessment tool.",
-    "url": "https://github.com/nccgroup/umap"
+    "url": "https://github.com/nccgroup/umap",
+    "groups": [
+      "scanner",
+      "fuzzer"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "unicornscan",
     "version": "0.4.43",
-    "description": "A new information gathering and correlation engine.",
-    "url": "https://github.com/robertelee78/unicornscan"
+    "description": "Asynchronous, stateless TCP/UDP scanner for scalable, high-speed network reconnaissance. Includes Alicorn web UI for result visualization.",
+    "url": "https://github.com/robertelee78/unicornscan",
+    "groups": [
+      "scanner",
+      "recon"
+    ],
+    "updated": "2026-01-22"
   },
   {
     "name": "upnpscan",
     "version": "0.4",
     "description": "Scans the LAN or a given address range for UPnP capable devices.",
-    "url": "http://www.cqure.net/wp/upnpscan/"
+    "url": "http://www.cqure.net/wp/upnpscan/",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2015-09-06"
   },
   {
     "name": "uptux",
     "version": "33.85ccfd0",
     "description": "Linux privilege escalation checks (systemd, dbus, socket fun, etc).",
-    "url": "https://github.com/initstring/uptux"
+    "url": "https://github.com/initstring/uptux",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-01-14"
   },
   {
     "name": "uw-loveimap",
     "version": "0.1",
     "description": "Multi threaded imap bounce scanner.",
-    "url": "http://uberwall.org/bin/download/45/UWloveimap.tgz"
+    "url": "http://uberwall.org/bin/download/45/UWloveimap.tgz",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2015-09-06"
   },
   {
     "name": "uw-udpscan",
     "version": "0.1",
     "description": "Multi threaded udp scanner.",
-    "url": "http://uberwall.org/bin/download/44/UWudpscan.tar.gz"
+    "url": "http://uberwall.org/bin/download/44/UWudpscan.tar.gz",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2015-09-06"
   },
   {
     "name": "uw-zone",
     "version": "0.1",
     "description": "Multi threaded, randomized IP zoner.",
-    "url": "http://uberwall.org/bin/download/43/UWzone.tgz"
+    "url": "http://uberwall.org/bin/download/43/UWzone.tgz",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2015-09-06"
   },
   {
     "name": "v3n0m",
     "version": "536.16b629f",
     "description": "Offensive Security Tool for Vulnerability Scanning & Pentesting",
-    "url": "https://github.com/v3n0m-Scanner/V3n0M-Scanner"
-  },
-  {
-    "name": "vais",
-    "version": "17.5c35c3a",
-    "description": "SWF Vulnerability & Information Scanner.",
-    "url": "https://github.com/hahwul/vais"
+    "url": "https://github.com/v3n0m-Scanner/V3n0M-Scanner",
+    "groups": [
+      "scanner",
+      "webapp",
+      "recon"
+    ],
+    "updated": "2026-01-14"
   },
   {
     "name": "vault-scanner",
     "version": "299.0303cf4",
     "description": "Swiss army knife for hackers.",
-    "url": "https://github.com/abhisharma404/vault"
+    "url": "https://github.com/abhisharma404/vault",
+    "groups": [
+      "scanner",
+      "fingerprint",
+      "recon",
+      "networking"
+    ],
+    "updated": "2026-01-14"
   },
   {
     "name": "vcsmap",
     "version": "v2.0.2.r1.g3889964",
     "description": "A plugin-based tool to scan public version control systems for sensitive information.",
-    "url": "https://github.com/melvinsh/vcsmap"
+    "url": "https://github.com/melvinsh/vcsmap",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2025-10-02"
   },
   {
     "name": "vhostscan",
     "version": "1.21.r68.gacc7890",
     "description": "A virtual host scanner that can be used with pivot tools, detect catch-all scenarios, aliases and dynamic default pages.",
-    "url": "https://github.com/codingo/VHostScan"
+    "url": "https://github.com/codingo/VHostScan",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "videosnarf",
     "version": "0.63",
-    "description": "A new security assessment tool for pcap analysis",
-    "url": "https://ucsniff.sourceforge.net/videosnarf.html"
+    "description": "A new security assessment tool for pcap analysis.",
+    "url": "https://ucsniff.sourceforge.net/videosnarf.html",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2026-09-14"
   },
   {
     "name": "visql",
     "version": "49.3082e30",
     "description": "Scan SQL vulnerability on target site and sites of on server.",
-    "url": "https://github.com/blackvkng/viSQL"
+    "url": "https://github.com/blackvkng/viSQL",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2017-10-12"
   },
   {
     "name": "vscan",
     "version": "10.da4e47e",
     "description": "HTTPS / Vulnerability scanner.",
-    "url": "https://github.com/pasjtene/Vscan"
+    "url": "https://github.com/pasjtene/Vscan",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2018-09-12"
   },
   {
     "name": "vulmap",
     "version": "95.a167c47",
     "description": "Vulmap Online Local Vulnerability Scanners Project",
-    "url": "https://github.com/vulmon/Vulmap"
+    "url": "https://github.com/vulmon/Vulmap",
+    "groups": [
+      "scanner",
+      "fingerprint",
+      "recon"
+    ],
+    "updated": "2026-01-14"
   },
   {
     "name": "vuls",
     "version": "v0.35.1.r3.g0ba85f8",
     "description": "Vulnerability scanner for Linux/FreeBSD, agentless, written in Go.",
-    "url": "https://github.com/future-architect/vuls"
+    "url": "https://github.com/future-architect/vuls",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2025-11-12"
   },
   {
     "name": "wafw00f",
     "version": "902.1fb92e6",
     "description": "Identify and fingerprint Web Application Firewall (WAF) products protecting a website.",
-    "url": "https://github.com/EnableSecurity/wafw00f"
+    "url": "https://github.com/EnableSecurity/wafw00f",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2026-01-21"
   },
   {
     "name": "webenum",
     "version": "21.24b43b4",
     "description": "Tool to enumerate http responses using dynamically generated queries and more.",
-    "url": "https://github.com/sarthakpandit/webenum"
+    "url": "https://github.com/sarthakpandit/webenum",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "webhunter",
     "version": "12.918b606",
     "description": "Tool for scanning web applications and networks and easily completing the process of collecting knowledge.",
-    "url": "https://github.com/peedcorp/WebHunter"
+    "url": "https://github.com/peedcorp/WebHunter",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "webpwn3r",
     "version": "38.3d75e76",
     "description": "A python based Web Applications Security Scanner.",
-    "url": "https://github.com/zigoo0/webpwn3r"
+    "url": "https://github.com/zigoo0/webpwn3r",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "webrute",
     "version": "3.3",
     "description": "Web server directory brute forcer.",
-    "url": "https://github.com/BlackArch/webrute"
+    "url": "https://github.com/BlackArch/webrute",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "whitewidow",
     "version": "605.4f27bfe",
     "description": "SQL Vulnerability Scanner.",
-    "url": "https://github.com/WhitewidowScanner/whitewidow"
+    "url": "https://github.com/WhitewidowScanner/whitewidow",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2025-04-29"
   },
   {
     "name": "wolpertinger",
     "version": "2.58ef8e2",
     "description": "A distributed portscanner.",
-    "url": "https://github.com/Crapworks/wolpertinger"
+    "url": "https://github.com/Crapworks/wolpertinger",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2016-07-24"
   },
   {
     "name": "wordpresscan",
     "version": "76.f810c1c",
     "description": "WPScan rewritten in Python + some WPSeku ideas.",
-    "url": "https://github.com/swisskyrepo/Wordpresscan"
+    "url": "https://github.com/swisskyrepo/Wordpresscan",
+    "groups": [
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "xcname",
     "version": "11.9c475a1",
     "description": "A tool for enumerating expired domains in CNAME records.",
-    "url": "https://github.com/mandatoryprogrammer/xcname"
+    "url": "https://github.com/mandatoryprogrammer/xcname",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "xpire-crossdomain-scanner",
     "version": "1.0cb8d3b",
     "description": "Scans crossdomain.xml policies for expired domain names.",
-    "url": "https://github.com/mandatoryprogrammer/xpire-crossdomain-scanner"
+    "url": "https://github.com/mandatoryprogrammer/xpire-crossdomain-scanner",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "xsstracer",
     "version": "5.f2ed21a",
     "description": "Python script that checks remote web servers for Clickjacking, Cross-Frame Scripting, Cross-Site Tracing and Host Header Injection.",
-    "url": "https://github.com/1N3/XSSTracer"
+    "url": "https://github.com/1N3/XSSTracer",
+    "groups": [
+      "scanner"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "yasat",
     "version": "848",
     "description": "Yet Another Stupid Audit Tool.",
-    "url": "https://yasat.sourceforge.net/"
+    "url": "https://yasat.sourceforge.net/",
+    "groups": [
+      "scanner",
+      "recon",
+      "fingerprint"
+    ],
+    "updated": "2024-10-07"
+  },
+  {
+    "name": "zond",
+    "version": "0.19.0.r11.gc57ba92",
+    "description": "Network scanner that finds hosts, ports and services and matches them against distribution security data.",
+    "url": "https://github.com/zond-rs/zond",
+    "groups": [
+      "scanner",
+      "recon",
+      "networking"
+    ],
+    "updated": "2026-11-01"
   }
 ]

@@ -3,168 +3,279 @@
     "name": "42zip",
     "version": "42",
     "description": "Recursive Zip archive bomb.",
-    "url": "http://blog.fefe.de/?ts=b6cea88d"
+    "url": "http://blog.fefe.de/?ts=b6cea88d",
+    "groups": [
+      "dos"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "blacknurse",
     "version": "12.934b6a2",
     "description": "A low bandwidth ICMP attack that is capable of doing denial of service to well known firewalls.",
-    "url": "https://github.com/jedisct1/blacknurse"
+    "url": "https://github.com/jedisct1/blacknurse",
+    "groups": [
+      "dos"
+    ],
+    "updated": "2026-01-21"
   },
   {
     "name": "bonesi",
     "version": "12.733c9e9",
     "description": "The DDoS Botnet Simulator.",
-    "url": "https://github.com/Markus-Go/bonesi"
+    "url": "https://github.com/Markus-Go/bonesi",
+    "groups": [
+      "dos"
+    ],
+    "updated": "2016-07-21"
   },
   {
     "name": "davoset",
     "version": "1.3.7",
     "description": "A tool for using Abuse of Functionality and XML External Entities vulnerabilities on some websites to attack other websites.",
-    "url": "http://websecurity.com.ua/davoset/"
+    "url": "http://websecurity.com.ua/davoset/",
+    "groups": [
+      "dos"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "ddosify",
     "version": "v2.6.0.r32.g5cf7df3",
     "description": "High-performance load testing tool, written in Golang.",
-    "url": "https://github.com/getanteon/anteon"
+    "url": "https://github.com/getanteon/anteon",
+    "groups": [
+      "dos",
+      "misc"
+    ],
+    "updated": "2026-03-07"
   },
   {
     "name": "dnsdrdos",
     "version": "0.1",
     "description": "Proof of concept code for distributed DNS reflection DoS.",
-    "url": "https://nullsecurity.net/tools/dos.html"
+    "url": "https://nullsecurity.net/tools/dos.html",
+    "groups": [
+      "dos"
+    ],
+    "updated": "2015-02-01"
   },
   {
     "name": "goldeneye",
     "version": "28.792862f",
     "description": "A HTTP DoS test tool. Attack Vector exploited: HTTP Keep Alive + NoCache.",
-    "url": "https://github.com/jseidl/GoldenEye"
+    "url": "https://github.com/jseidl/GoldenEye",
+    "groups": [
+      "dos"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "hulk",
     "version": "27.ed2b11c",
     "description": "A webserver DoS tool (Http Unbearable Load King) ported to Go with some additional features.",
-    "url": "https://github.com/grafov/hulk"
-  },
-  {
-    "name": "hwk",
-    "version": "0.4",
-    "description": "Collection of packet crafting and wireless network flooding tools",
-    "url": "https://nullsecurity.net/"
+    "url": "https://github.com/grafov/hulk",
+    "groups": [
+      "dos"
+    ],
+    "updated": "2021-04-26"
   },
   {
     "name": "iaxflood",
     "version": "0.2",
     "description": "IAX flooder.",
-    "url": "https://www.hackingexposedvoip.com/"
+    "url": "https://www.hackingexposedvoip.com/",
+    "groups": [
+      "dos",
+      "voip"
+    ],
+    "updated": "2025-12-18"
   },
   {
     "name": "impulse",
     "version": "79.592a91b",
     "description": "Modern Denial-of-service ToolKit.",
-    "url": "https://github.com/LimerBoy/Impulse"
+    "url": "https://github.com/LimerBoy/Impulse",
+    "groups": [
+      "dos",
+      "spoof"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "inviteflood",
     "version": "2.0",
-    "description": "Flood a device with INVITE requests",
-    "url": "https://github.com/foreni-packages/inviteflood"
+    "description": "Flood a device with INVITE requests.",
+    "url": "https://github.com/foreni-packages/inviteflood",
+    "groups": [
+      "dos"
+    ],
+    "updated": "2025-09-30"
   },
   {
     "name": "mausezahn",
     "version": "0.40",
     "description": "A free fast traffic generator written in C which allows you to send nearly every possible and impossible packet.",
-    "url": "http://www.perihel.at/sec/mz/"
+    "url": "http://www.perihel.at/sec/mz/",
+    "groups": [
+      "dos",
+      "networking"
+    ],
+    "updated": "2015-01-29"
   },
   {
     "name": "network-app-stress-tester",
     "version": "19.df75391",
     "description": "Network Application Stress Testing Yammer.",
-    "url": "https://github.com/PherricOxide/Network-App-Stress-Tester"
+    "url": "https://github.com/PherricOxide/Network-App-Stress-Tester",
+    "groups": [
+      "dos",
+      "networking",
+      "fuzzer"
+    ],
+    "updated": "2024-10-18"
   },
   {
     "name": "nkiller2",
     "version": "2.0",
     "description": "A TCP exhaustion/stressing tool.",
-    "url": "http://sock-raw.org/projects.html"
+    "url": "http://sock-raw.org/projects.html",
+    "groups": [
+      "dos",
+      "networking"
+    ],
+    "updated": "2025-11-30"
   },
   {
     "name": "ntpdos",
     "version": "4.3fe389b",
-    "description": "PoC for distributed NTP reflection DoS (CVE-5211)",
-    "url": "https://github.com/sepehrdaddev/ntpdos"
+    "description": "PoC for distributed NTP reflection DoS (CVE-2013-5211)",
+    "url": "https://github.com/sepehrdaddev/ntpdos",
+    "groups": [
+      "dos"
+    ],
+    "updated": "2019-10-04"
   },
   {
     "name": "phpstress",
     "version": "5.f987a7e",
     "description": "A PHP denial of service / stress test for Web Servers running PHP-FPM or PHP-CGI.",
-    "url": "https://github.com/nightlionsec/phpstress"
+    "url": "https://github.com/nightlionsec/phpstress",
+    "groups": [
+      "dos"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "pwnloris",
     "version": "14.7ad1486",
     "description": "An improved slowloris DOS tool which keeps attacking until the server starts getting exhausted.",
-    "url": "https://github.com/h0ussni/pwnloris"
+    "url": "https://github.com/h0ussni/pwnloris",
+    "groups": [
+      "dos"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "shitflood",
     "version": "14.e74fc42",
     "description": "A Socks5 clone flooder for the Internet Relay Chat (IRC) protocol.",
-    "url": "https://github.com/acidvegas/shitflood"
+    "url": "https://github.com/acidvegas/shitflood",
+    "groups": [
+      "dos"
+    ],
+    "updated": "2016-03-26"
   },
   {
     "name": "slowloris",
     "version": "0.7",
     "description": "A tool which is written in perl to test http-server vulnerabilities for connection exhaustion denial of service (DoS) attacks so you can enhance the security of your webserver.",
-    "url": "http://ha.ckers.org/slowloris/"
+    "url": "http://ha.ckers.org/slowloris/",
+    "groups": [
+      "dos"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "slowloris-py",
     "version": "30.eb7f632",
     "description": "Low bandwidth DoS tool.",
-    "url": "https://github.com/gkbrk/slowloris"
+    "url": "https://github.com/gkbrk/slowloris",
+    "groups": [
+      "dos"
+    ],
+    "updated": "2019-05-05"
   },
   {
     "name": "synflood",
     "version": "0.1",
     "description": "A very simply script to illustrate DoS SYN Flooding attack.",
-    "url": "http://thesprawl.org/projects/syn-flooder/"
+    "url": "http://thesprawl.org/projects/syn-flooder/",
+    "groups": [
+      "dos"
+    ],
+    "updated": "2018-01-22"
   },
   {
     "name": "t50",
     "version": "5.8.7c",
     "description": "Experimental Multi-protocol Packet Injector Tool.",
-    "url": "https://gitlab.com/fredericopissarra/t50/-/releases"
+    "url": "https://gitlab.com/fredericopissarra/t50/-/releases",
+    "groups": [
+      "dos",
+      "networking"
+    ],
+    "updated": "2025-02-18"
   },
   {
     "name": "tcgetkey",
     "version": "0.1",
     "description": "A set of tools that deal with acquiring physical memory dumps via FireWire and then scan the memory dump to locate TrueCrypt keys and finally decrypt the encrypted TrueCrypt container using the keys.",
-    "url": "http://packetstormsecurity.com/files/119146/tcgetkey-0.1.html"
+    "url": "http://packetstormsecurity.com/files/119146/tcgetkey-0.1.html",
+    "groups": [
+      "dos"
+    ],
+    "updated": "2023-03-01"
   },
   {
     "name": "thc-ssl-dos",
     "version": "1.4",
     "description": "A tool to verify the performance of SSL. To be used in your authorized and legitimate area ONLY. You need to accept this to make use of it, no use for bad intentions, you have been warned!",
-    "url": "http://www.thc.org/thc-ssl-dos/"
+    "url": "http://www.thc.org/thc-ssl-dos/",
+    "groups": [
+      "dos"
+    ],
+    "updated": "2025-09-29"
   },
   {
     "name": "torshammer",
     "version": "1.0",
     "description": "A slow POST Denial of Service testing tool written in Python.",
-    "url": "https://sourceforge.net/projects/torshammer/"
+    "url": "https://sourceforge.net/projects/torshammer/",
+    "groups": [
+      "dos"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "ufonet",
     "version": "84.aea21b3",
     "description": "A tool designed to launch DDoS attacks against a target, using 'Open Redirect' vectors on third party web applications, like botnet.",
-    "url": "https://github.com/epsylon/ufonet"
+    "url": "https://github.com/epsylon/ufonet",
+    "groups": [
+      "dos",
+      "webapp"
+    ],
+    "updated": "2026-01-14"
   },
   {
     "name": "wreckuests",
     "version": "75.69b6c27",
     "description": "Yet another one hard-hitting tool to run DDoS attacks with HTTP-flood.",
-    "url": "https://github.com/abriginets/wreckuests"
+    "url": "https://github.com/abriginets/wreckuests",
+    "groups": [
+      "dos"
+    ],
+    "updated": "2026-01-14"
   }
 ]

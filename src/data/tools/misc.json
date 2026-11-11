@@ -1,866 +1,1484 @@
 [
   {
+    "name": "alterx",
+    "version": "v0.1.0.r17.g3329d23",
+    "description": "Fast and customizable subdomain wordlist generator using DSL.",
+    "url": "https://github.com/projectdiscovery/alterx",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-10-24"
+  },
+  {
     "name": "archivebox",
     "version": "903.59da482",
     "description": "The open source self-hosted web archive. Takes browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more.",
-    "url": "https://github.com/ArchiveBox/ArchiveBox"
-  },
-  {
-    "name": "arybo",
-    "version": "65.89d9a42",
-    "description": "Manipulation, canonicalization and identification of mixed boolean-arithmetic symbolic expressions.",
-    "url": "https://github.com/quarkslab/arybo"
+    "url": "https://github.com/ArchiveBox/ArchiveBox",
+    "groups": [
+      "misc",
+      "webapp"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "aspisec",
     "version": "0.3.0",
     "description": "Removes the traces left by offensive security tools.",
-    "url": "https://noraj.github.io/aspisec/"
+    "url": "https://noraj.github.io/aspisec/",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-08-09"
   },
   {
     "name": "aurebeshjs",
     "version": "77.75a8fc6",
     "description": "Translate JavaScript to Other Alphabets.",
-    "url": "https://github.com/aemkei/aurebesh.js"
+    "url": "https://github.com/aemkei/aurebesh.js",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2022-12-24"
   },
   {
     "name": "avml",
     "version": "v0.17.0.r3.g12c2a71",
     "description": "A portable volatile memory acquisition tool for Linux.",
-    "url": "https://github.com/microsoft/avml"
+    "url": "https://github.com/microsoft/avml",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-03-28"
+  },
+  {
+    "name": "azurehound",
+    "version": "3.1.3.r0.gb02d457",
+    "description": "Azure data exporter for BloodHound.",
+    "url": "https://github.com/SpecterOps/AzureHound",
+    "groups": [
+      "misc",
+      "networking"
+    ],
+    "updated": "2026-10-24"
   },
   {
     "name": "base64dump",
     "version": "0.0.14",
     "description": "Extract and decode base64 strings from files.",
-    "url": "https://blog.didierstevens.com/my-software/#base64dump"
+    "url": "https://blog.didierstevens.com/my-software/#base64dump",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "bettercap-ui",
     "version": "1.4.0",
     "description": "Official Bettercap's Web UI.",
-    "url": "https://github.com/bettercap/ui"
+    "url": "https://github.com/bettercap/ui",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-04-15"
+  },
+  {
+    "name": "bless",
+    "version": "v0.6.3.r3.g103fbd6",
+    "description": "High-quality, full-featured hex editor.",
+    "url": "https://github.com/afrantzis/bless",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2025-11-10"
   },
   {
     "name": "bloodhound-cli",
     "version": "v0.2.1.r2.gef78c50",
     "description": "Command-line interface for BloodHound v5.",
-    "url": "https://github.com/SpecterOps/bloodhound-cli"
+    "url": "https://github.com/SpecterOps/bloodhound-cli",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-06-13"
   },
   {
     "name": "bqm",
     "version": "v1.5.1.r5.ge287280",
     "description": "Download BloudHound query lists, deduplicate entries and merge them in one file.",
-    "url": "https://github.com/Acceis/bqm"
+    "url": "https://github.com/Acceis/bqm",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2025-04-29"
   },
   {
     "name": "catana",
     "version": "31.9ea1f0d",
     "description": "Filter your wordlist according to the specified password policy.",
-    "url": "https://github.com/D3vil0p3r/catana"
+    "url": "https://github.com/D3vil0p3r/catana",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2022-10-30"
   },
   {
     "name": "centry",
     "version": "72.6de2868",
     "description": "Cold boot & DMA protection",
-    "url": "https://github.com/0xPoly/Centry"
+    "url": "https://github.com/0xPoly/Centry",
+    "groups": [
+      "misc",
+      "defensive"
+    ],
+    "updated": "2018-08-06"
   },
   {
     "name": "checkiban",
     "version": "0.2",
     "description": "Checks the validity of an International Bank Account Number (IBAN).",
-    "url": "http://kernel.embedromix.ro/us/"
+    "url": "http://kernel.embedromix.ro/us/",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2018-11-12"
   },
   {
     "name": "cisco-router-config",
     "version": "1.1",
     "description": "Tools to copy and merge Cisco Routers Configuration.",
-    "url": ""
+    "url": "",
+    "groups": [
+      "misc",
+      "networking"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "cloakify",
     "version": "117.f45c3b3",
     "description": "Data Exfiltration In Plain Sight; Evade DLP/MLS Devices; Social Engineering of Analysts; Evade AV Detection.",
-    "url": "https://github.com/trycatchhcf/cloakify"
+    "url": "https://github.com/trycatchhcf/cloakify",
+    "groups": [
+      "misc",
+      "crypto"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "cracken",
     "version": "v1.0.1.r0.g7a325ff",
     "description": "A ast password wordlist generator, Smartlist creation and password hybrid-mask analysis tool written in pure safe Rust.",
-    "url": "https://github.com/shmuelamar/cracken"
+    "url": "https://github.com/shmuelamar/cracken",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2022-02-19"
   },
   {
     "name": "credmap",
     "version": "116.d862247",
     "description": "The Credential mapper - Tool that was created to bring awareness to the dangers of credential reuse.",
-    "url": "https://github.com/lightos/credmap"
+    "url": "https://github.com/lightos/credmap",
+    "groups": [
+      "misc",
+      "defensive"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "ctf-party",
     "version": "5.0.0.r58.g8dfd12a",
     "description": "A CLI tool & library to enhance and speed up script/exploit writing for CTF players.",
-    "url": "https://noraj.github.io/ctf-party/"
+    "url": "https://noraj.github.io/ctf-party/",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "cve-api",
     "version": "170.8e9c247",
     "description": "Unofficial api for cve.mitre.org.",
-    "url": "https://github.com/Beyarz/Cve-api"
+    "url": "https://github.com/Beyarz/Cve-api",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2025-04-29"
   },
   {
     "name": "dbd",
     "version": "61.8cf5350",
     "description": "A Netcat-clone, designed to be portable and offer strong encryption. It runs on Unix-like operating systems and on Microsoft Win32.",
-    "url": "https://github.com/gitdurandal/dbd"
+    "url": "https://github.com/gitdurandal/dbd",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2019-08-12"
   },
   {
     "name": "densityscout",
     "version": "45",
     "description": "Calculates density for files of any file-system-path to finally output an accordingly descending ordered list.",
-    "url": "https://www.cert.at/en/downloads/software/software-densityscout"
+    "url": "https://www.cert.at/en/downloads/software/software-densityscout",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2021-07-30"
   },
   {
     "name": "depix",
     "version": "38.f7d1850",
     "description": "A tool for recovering passwords from pixelized screenshots.",
-    "url": "https://github.com/spipm/Depixelization_poc"
+    "url": "https://github.com/spipm/Depixelization_poc",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2022-02-20"
   },
   {
     "name": "der-ascii",
     "version": "109.5d9afa7",
     "description": "A reversible DER and BER pretty-printer.",
-    "url": "https://github.com/google/der-ascii"
+    "url": "https://github.com/google/der-ascii",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "dhcdrop",
     "version": "0.5",
     "description": "Remove illegal dhcp servers with IP-pool underflow.",
-    "url": "http://www.netpatch.ru/dhcdrop.html"
+    "url": "http://www.netpatch.ru/dhcdrop.html",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2015-01-29"
   },
   {
     "name": "dnsgen",
     "version": "v1.0.4.r12.g7c98e7e",
     "description": "Generate combination of domain names from the provided input.",
-    "url": "https://github.com/AlephNullSK/dnsgen"
+    "url": "https://github.com/AlephNullSK/dnsgen",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "domlink",
     "version": "37.1cabd5d",
     "description": "A tool to link a domain with registered organisation names and emails, to other domains.",
-    "url": "https://github.com/vysecurity/DomLink"
+    "url": "https://github.com/vysecurity/DomLink",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2019-05-26"
+  },
+  {
+    "name": "dragonrepo",
+    "version": "1.0.2.r3.g580356b",
+    "description": "Automated penetration testing report generator with command tracking and evidence.",
+    "url": "https://github.com/12hrformat/dragonrepo",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "dsd",
     "version": "v1.6.0.r96.g59423fa",
-    "description": "Digital Speech Decoder",
-    "url": "https://github.com/szechyjs/dsd"
+    "description": "Digital Speech Decoder.",
+    "url": "https://github.com/szechyjs/dsd",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2025-12-04"
   },
   {
     "name": "dsd-fme",
     "version": "2024",
     "description": "Digital Speech Decoder - Florida Man Edition.",
-    "url": "https://github.com/lwvmobile/dsd-fme"
+    "url": "https://github.com/lwvmobile/dsd-fme",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2024-11-07"
   },
   {
     "name": "dumpsmbshare",
     "version": "23.1e5ceb1",
     "description": "A script to dump files and folders remotely from a Windows SMB share.",
-    "url": "https://github.com/p0dalirius/DumpSMBShare"
+    "url": "https://github.com/p0dalirius/DumpSMBShare",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "duplicut",
     "version": "2.2",
     "description": "Remove duplicates from massive wordlist, without sorting it (for dictionnary-based password cracking).",
-    "url": "https://github.com/nil0x42/duplicut"
+    "url": "https://github.com/nil0x42/duplicut",
+    "groups": [
+      "misc",
+      "cracker"
+    ],
+    "updated": "2020-12-06"
   },
   {
     "name": "elettra",
     "version": "1.0",
-    "description": "Encryption utility by Julia Identity",
-    "url": "https://www.winstonsmith.info/julia/elettra/"
+    "description": "A plausible deniable cryptography tool that supports a dynamic number of files and requires a password for each file.",
+    "url": "https://www.winstonsmith.info/julia/elettra/",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2025-12-14"
   },
   {
     "name": "elettra-gui",
     "version": "1.0",
     "description": "Gui for the elettra crypto application.",
-    "url": "https://www.winstonsmith.info/julia/elettra/"
+    "url": "https://www.winstonsmith.info/julia/elettra/",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2025-06-08"
   },
   {
     "name": "ent",
     "version": "1.0",
     "description": "Pseudorandom number sequence test.",
-    "url": "http://www.fourmilab.ch/random"
+    "url": "http://www.fourmilab.ch/random",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2017-07-10"
   },
   {
     "name": "evilgrade",
     "version": "2.0.9",
     "description": "Modular framework that takes advantage of poor upgrade implementations by injecting fake updates.",
-    "url": "https://github.com/infobyte/evilgrade"
+    "url": "https://github.com/infobyte/evilgrade",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "exrex",
     "version": "153.f180f21",
     "description": "Irregular methods on regular expressions.",
-    "url": "https://github.com/asciimoo/exrex"
+    "url": "https://github.com/asciimoo/exrex",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "extracthosts",
     "version": "17.8fdff9e",
     "description": "Extracts hosts (IP/Hostnames) from files.",
-    "url": "https://github.com/bwall/ExtractHosts"
+    "url": "https://github.com/bwall/ExtractHosts",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2021-03-27"
   },
   {
     "name": "eyeballer",
     "version": "143.5299227",
     "description": "Convolutional neural network for analyzing pentest screenshots.",
-    "url": "https://github.com/BishopFox/eyeballer"
+    "url": "https://github.com/BishopFox/eyeballer",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "fakemail",
     "version": "1.0",
     "description": "Fake mail server that captures e-mails as files for acceptance testing.",
-    "url": "https://sourceforge.net/projects/fakemail/"
+    "url": "https://sourceforge.net/projects/fakemail/",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "ffuf-scripts",
     "version": "1.2192bf7",
     "description": "Scripts and snippets for ffuf payloads.",
-    "url": "https://github.com/ffuf/ffuf-scripts"
+    "url": "https://github.com/ffuf/ffuf-scripts",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2021-04-05"
   },
   {
     "name": "find3",
     "version": "604.5964026",
     "description": "High-precision indoor positioning framework.",
-    "url": "https://github.com/schollz/find3"
+    "url": "https://github.com/schollz/find3",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2021-08-20"
   },
   {
     "name": "firefox-security-toolkit",
     "version": "17.d356ab8",
     "description": "A tool that transforms Firefox browsers into a penetration testing suite.",
-    "url": "https://github.com/mazen160/Firefox-Security-Toolkit"
+    "url": "https://github.com/mazen160/Firefox-Security-Toolkit",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2025-05-24"
   },
   {
     "name": "flare",
     "version": "0.6",
     "description": "Flare processes an SWF and extracts all scripts from it.",
-    "url": "http://www.nowrap.de/flare.html"
+    "url": "http://www.nowrap.de/flare.html",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2021-08-09"
   },
   {
     "name": "genlist",
     "version": "0.1",
     "description": "Generates lists of IP addresses.",
-    "url": ""
+    "url": "",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2017-01-14"
   },
   {
     "name": "geoipgen",
     "version": "0.4",
-    "description": "GeoIPgen is a country to IP addresses generator.",
-    "url": "https://code.google.com/archive/p/geoipgen/"
+    "description": "A country to IP addresses generator.",
+    "url": "https://code.google.com/archive/p/geoipgen/",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2025-12-14"
   },
   {
     "name": "gf",
     "version": "39.dcd4c36",
     "description": "A wrapper around grep, to help you grep for things.",
-    "url": "https://github.com/tomnomnom/gf"
+    "url": "https://github.com/tomnomnom/gf",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2022-04-23"
   },
   {
     "name": "gibberish-detector",
     "version": "v0.1.1.r2.gecac969",
     "description": "Train a model and detect gibberish strings with it.",
-    "url": "https://github.com/domanchi/gibberish-detector"
+    "url": "https://github.com/domanchi/gibberish-detector",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "githubcloner",
     "version": "36.20203e7",
     "description": "A script that clones Github repositories of users and organizations automatically.",
-    "url": "https://github.com/mazen160/GithubCloner"
+    "url": "https://github.com/mazen160/GithubCloner",
+    "groups": [
+      "misc",
+      "automation"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "gmsadumper",
     "version": "18.e03187c",
     "description": "A tool that Reads any gMSA password blobs the user can access and parses the values.",
-    "url": "https://github.com/micahvandeusen/gMSADumper"
+    "url": "https://github.com/micahvandeusen/gMSADumper",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "goshs",
     "version": "2.1.0",
-    "description": "A SimpleHTTPServer written in Go, enhanced with features and with a nice design.",
-    "url": "https://github.com/goshs-labs/goshs"
+    "description": "A single-binary file server for pentesters and sysadmins with HTTP/S, WebDAV, SFTP, SMB, LDAP, NTLM hash capture, DNS/SMTP callbacks and more.",
+    "url": "https://github.com/goshs-labs/goshs",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-05-30"
   },
   {
     "name": "graffiti",
     "version": "24.4af61b4",
     "description": "A tool to generate obfuscated one liners to aid in penetration testing.",
-    "url": "https://github.com/Ekultek/Graffiti"
+    "url": "https://github.com/Ekultek/Graffiti",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2019-05-25"
   },
   {
     "name": "gtfo",
     "version": "17.873d862",
     "description": "Search gtfobins and lolbas files from your terminal.",
-    "url": "https://github.com/mzfr/gtfo"
+    "url": "https://github.com/mzfr/gtfo",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-03-09"
   },
   {
     "name": "gtfoblookup",
     "version": "69.cc50e6e",
     "description": "Offline command line lookup utility for GTFOBins and LOLBAS.",
-    "url": "https://github.com/nccgroup/GTFOBLookup"
+    "url": "https://github.com/nccgroup/GTFOBLookup",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "h2spec",
     "version": "2.6.0",
     "description": "A conformance testing tool for HTTP/2 implementation.",
-    "url": "https://github.com/summerwind/h2spec"
+    "url": "https://github.com/summerwind/h2spec",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2021-01-31"
   },
   {
     "name": "halcyon-ide",
     "version": "2.0.2",
     "description": "First IDE for Nmap Script (NSE) Development.",
-    "url": "https://halcyon-ide.org/"
+    "url": "https://halcyon-ide.org/",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2021-01-31"
   },
   {
     "name": "http-put",
     "version": "1.0",
     "description": "Simple http put perl script.",
-    "url": ""
+    "url": "",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "httpscreenshot",
     "version": "70.f081c69",
     "description": "A tool for grabbing screenshots and HTML of large numbers of websites.",
-    "url": "https://github.com/breenmachine/httpscreenshot"
+    "url": "https://github.com/breenmachine/httpscreenshot",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-05-29"
   },
   {
     "name": "hurl-encoder",
     "version": "20.afca9c5",
     "description": "Hexadecimal & URL (en/de)coder.",
-    "url": "https://github.com/fnord0/hURL"
+    "url": "https://github.com/fnord0/hURL",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "hxd",
     "version": "2.5.0.0",
     "description": "Freeware Hex Editor and Disk Editor.",
-    "url": "https://mh-nexus.de/en/hxd/"
+    "url": "https://mh-nexus.de/en/hxd/",
+    "groups": [
+      "misc",
+      "windows"
+    ],
+    "updated": "2023-02-28"
   },
   {
     "name": "imagegrep",
     "version": "8.1f14af2",
     "description": "Grep word in pdf or image based on OCR.",
-    "url": "https://github.com/coderofsalvation/imagegrep-bash"
+    "url": "https://github.com/coderofsalvation/imagegrep-bash",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2020-06-07"
   },
   {
     "name": "imhex",
     "version": "nightly.r0.g34483cb",
     "description": "A Hex Editor for Reverse Engineers, Programmers and people that value their eye sight when working at 3 AM.",
-    "url": "https://github.com/WerWolv/ImHex"
+    "url": "https://github.com/WerWolv/ImHex",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "intelmq",
     "version": "3.5.0.r36.gbbe452a20",
     "description": "A tool for collecting and processing security feeds using a message queuing protocol.",
-    "url": "https://github.com/certtools/intelmq"
+    "url": "https://github.com/certtools/intelmq",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-05-02"
   },
   {
     "name": "intensio-obfuscator",
     "version": "280.f66a22b",
     "description": "Obfuscate a python code 2 and 3.",
-    "url": "https://github.com/Hnfull/Intensio-Obfuscator"
+    "url": "https://github.com/Hnfull/Intensio-Obfuscator",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "inundator",
     "version": "0.5",
     "description": "An ids evasion tool, used to anonymously inundate intrusion detection logs with false positives in order to obfuscate a real attack.",
-    "url": "https://inundator.sourceforge.net/"
+    "url": "https://inundator.sourceforge.net/",
+    "groups": [
+      "misc",
+      "spoof"
+    ],
+    "updated": "2019-11-16"
   },
   {
     "name": "ipcountry",
     "version": "2.3",
     "description": "Fetches IPv4 ranges of given country in host and cidr format.",
-    "url": "https://nullsecurity.net/tools/misc.html"
+    "url": "https://nullsecurity.net/tools/misc.html",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-07-05"
   },
   {
     "name": "ipobfuscator",
     "version": "27.f005262",
     "description": "A simple tool to convert the IP to a DWORD IP.",
-    "url": "https://github.com/OsandaMalith/IPObfuscator"
+    "url": "https://github.com/OsandaMalith/IPObfuscator",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2022-07-31"
   },
   {
     "name": "jsfuck",
     "version": "242.6f8fdf3",
     "description": "Write any JavaScript with 6 Characters: []()!+.",
-    "url": "https://github.com/aemkei/jsfuck"
+    "url": "https://github.com/aemkei/jsfuck",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2025-03-15"
   },
   {
     "name": "laudanum",
     "version": "1.0",
     "description": "A collection of injectable files, designed to be used in a pentest when SQL injection flaws are found and are in multiple languages for different environments.",
-    "url": "http://laudanum.inguardians.com/#"
+    "url": "http://laudanum.inguardians.com/#",
+    "groups": [
+      "misc",
+      "webapp"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "leo",
     "version": "40030.ada28bd871",
     "description": "Literate programmer's editor, outliner, and project manager.",
-    "url": "https://github.com/leo-editor/leo-editor"
+    "url": "https://github.com/leo-editor/leo-editor",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "magictree",
     "version": "1.3",
     "description": "A penetration tester productivity tool designed to allow easy and straightforward data consolidation, querying, external command execution and report generation",
-    "url": "https://www.gremwell.com/"
+    "url": "https://www.gremwell.com/",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "mapcidr",
     "version": "v1.1.97.r247.g7d653d1",
     "description": "Utility program to perform multiple operations for a given subnet/CIDR ranges.",
-    "url": "https://github.com/projectdiscovery/mapcidr"
+    "url": "https://github.com/projectdiscovery/mapcidr",
+    "groups": [
+      "misc",
+      "networking"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "metaforge",
     "version": "115.7b32693",
     "description": "Auto Scanning to SSL Vulnerability.",
-    "url": "https://github.com/chriswmorris/Metaforge"
+    "url": "https://github.com/chriswmorris/Metaforge",
+    "groups": [
+      "misc",
+      "social"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "mibble",
     "version": "2.10.1",
     "description": "An open-source SNMP MIB parser (or SMI parser) written in Java. It can be used to read SNMP MIB files as well as simple ASN.1 files.",
-    "url": "https://www.mibble.org/"
+    "url": "https://www.mibble.org/",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2017-06-04"
   },
   {
     "name": "minimodem",
     "version": "353.bb2f34c",
     "description": "A command-line program which decodes (or generates) audio modem tones at any specified baud rate, using various framing protocols.",
-    "url": "https://github.com/kamalmostafa/minimodem"
+    "url": "https://github.com/kamalmostafa/minimodem",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2022-08-28"
   },
   {
     "name": "mkyara",
     "version": "3.8147f91",
     "description": "Tool to generate YARA rules based on binary code.",
-    "url": "https://github.com/fox-it/mkYARA"
+    "url": "https://github.com/fox-it/mkYARA",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "mrtparse",
     "version": "522.13cde30",
     "description": "A module to read and analyze the MRT format data.",
-    "url": "https://github.com/t2mune/mrtparse"
+    "url": "https://github.com/t2mune/mrtparse",
+    "groups": [
+      "misc",
+      "networking"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "msfdb",
     "version": "16.09c603b",
     "description": "Manage the metasploit framework database.",
-    "url": "https://github.com/BlackArch/msfdb"
+    "url": "https://github.com/BlackArch/msfdb",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2020-11-08"
   },
   {
     "name": "narthex",
     "version": "v1.2.r7.g8b78746",
     "description": "Modular personalized dictionary generator.",
-    "url": "https://github.com/MichaelDim02/Narthex"
+    "url": "https://github.com/MichaelDim02/Narthex",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2022-03-14"
   },
   {
     "name": "nmap-parse-output",
     "version": "26.a8e31b3",
     "description": "Converts/manipulates/extracts data from a nmap scan output.",
-    "url": "https://github.com/hahwul/nmap-parse-output"
+    "url": "https://github.com/hahwul/nmap-parse-output",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2023-07-10"
   },
   {
     "name": "nsearch",
     "version": "353.bd8205b",
     "description": "Minimal script to help find script into the nse database.",
-    "url": "https://github.com/jtibaquira/nsearch"
+    "url": "https://github.com/jtibaquira/nsearch",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2020-12-04"
   },
   {
     "name": "one-lin3r",
     "version": "66.711a040",
     "description": "Gives you one-liners that aids in penetration testing and more.",
-    "url": "https://github.com/D4Vinci/One-Lin3r"
+    "url": "https://github.com/D4Vinci/One-Lin3r",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "openrisk",
     "version": "v0.0.1.r22.gb536ea0",
-    "description": "Generates a risk score based on the results of a Nuclei scan using OpenAI's GPT model.",
-    "url": "https://github.com/projectdiscovery/openrisk"
+    "description": "Generates a risk score based on the results of a Nuclei scan using OpenAI's GPT-3 model.",
+    "url": "https://github.com/projectdiscovery/openrisk",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2023-05-21"
   },
   {
     "name": "osert",
     "version": "100.4eef9b9",
     "description": "Markdown Templates for Offensive Security exam reports.",
-    "url": "https://github.com/noraj/OSCP-Exam-Report-Template-Markdown"
+    "url": "https://github.com/noraj/OSCP-Exam-Report-Template-Markdown",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-08-24"
   },
   {
     "name": "pass-station",
     "version": "v3.0.0.r35.g3b196ae",
     "description": "CLI & library to search for default credentials among thousands of Products / Vendors.",
-    "url": "https://noraj.github.io/pass-station/"
+    "url": "https://noraj.github.io/pass-station/",
+    "groups": [
+      "misc",
+      "recon"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "passdetective",
     "version": "1.0.6.r4.g458f12e",
     "description": "Scans shell command history to detect mistakenly written passwords, API keys, and secrets.",
-    "url": "https://github.com/aydinnyunus/PassDetective"
+    "url": "https://github.com/aydinnyunus/PassDetective",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-01-21"
   },
   {
     "name": "payloadsallthethings",
     "version": "4.2.r117.g08ea40e",
     "description": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF.",
-    "url": "https://github.com/swisskyrepo/PayloadsAllTheThings"
+    "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "pdfwalker",
     "version": "7.64c17f0",
     "description": "Frontend to explore the internals of a PDF document with Origami",
-    "url": "https://github.com/gdelugre/pdfwalker"
+    "url": "https://github.com/gdelugre/pdfwalker",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2025-04-29"
   },
   {
     "name": "pencode",
     "version": "39.07e33ef",
     "description": "Complex payload encoder.",
-    "url": "https://github.com/ffuf/pencode"
+    "url": "https://github.com/ffuf/pencode",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2024-01-20"
   },
   {
     "name": "plumber.py",
     "version": "18.3f1be68",
     "description": "A python implementation of a grep friendly ftrace wrapper.",
-    "url": "https://github.com/cybereason/linux_plumber"
+    "url": "https://github.com/cybereason/linux_plumber",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2021-12-14"
   },
   {
     "name": "plutil",
     "version": "1.6",
-    "description": "Converts .plist files between binary and UTF (editable) text formats.",
-    "url": "http://scw.us/iPhone/plutil/"
+    "description": "Converts .plist files between binary and UTF-8 (editable) text formats.",
+    "url": "http://scw.us/iPhone/plutil/",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-09-19"
   },
   {
     "name": "princeprocessor",
     "version": "132.bffda8c",
     "description": "Standalone password candidate generator using the PRINCE algorithm.",
-    "url": "https://github.com/hashcat/princeprocessor"
+    "url": "https://github.com/hashcat/princeprocessor",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2018-07-08"
   },
   {
     "name": "pspy",
     "version": "159.2312eed",
     "description": "Monitor linux processes without root permissions.",
-    "url": "https://github.com/DominicBreuker/pspy"
+    "url": "https://github.com/DominicBreuker/pspy",
+    "groups": [
+      "misc",
+      "recon"
+    ],
+    "updated": "2021-04-27"
   },
   {
     "name": "pulledpork",
     "version": "397.5ccf5c5",
     "description": "Snort rule management.",
-    "url": "https://github.com/shirkdog/pulledpork"
+    "url": "https://github.com/shirkdog/pulledpork",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "pwdlogy",
     "version": "14.8b92bcf",
     "description": "A target specific wordlist generating tool for social engineers and security researchers.",
-    "url": "https://github.com/tch1001/pwdlogy"
+    "url": "https://github.com/tch1001/pwdlogy",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "pwfuzz-rs",
     "version": "v0.2.0.r1.gac56f42",
     "description": "Rust-based password mutator for brute force attacks.",
-    "url": "https://github.com/mttaggart/pwfuzz-rs"
+    "url": "https://github.com/mttaggart/pwfuzz-rs",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2025-03-29"
   },
   {
     "name": "pwnedpasswords",
     "version": "3.0.0.r7.ge33d4bb",
     "description": "Generate and verify pwnedpasswords check digits.",
-    "url": "https://github.com/lionheart/pwnedpasswords"
+    "url": "https://github.com/lionheart/pwnedpasswords",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "pydictor",
     "version": "100.4a77f0a",
     "description": "A useful hacker dictionary builder for a brute-force attack.",
-    "url": "https://github.com/LandGrey/pydictor"
+    "url": "https://github.com/LandGrey/pydictor",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "pyinstaller",
     "version": "6.22.3",
     "description": "Bundles a Python application and all its dependencies into a single package.",
-    "url": "https://pyinstaller.org"
+    "url": "https://pyinstaller.org",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-09-13"
   },
   {
     "name": "pyinstaller-hooks-contrib",
     "version": "2026.9",
     "description": "PyInstaller community hooks.",
-    "url": "https://github.com/pyinstaller/pyinstaller-hooks-contrib"
+    "url": "https://github.com/pyinstaller/pyinstaller-hooks-contrib",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-11-02"
   },
   {
     "name": "python-google-streetview",
     "version": "1.2.9",
     "description": "A command line tool and module for Google Street View Image API.",
-    "url": "https://pypi.org/project/google-streetview/#files"
+    "url": "https://pypi.org/project/google-streetview/#files",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "python2-darts.util.lru",
     "version": "7.5ef01b1",
     "description": "Simple dictionary with LRU behaviour.",
-    "url": "https://pypi.python.org/pypi/darts.util.lru"
+    "url": "https://pypi.python.org/pypi/darts.util.lru",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2020-02-11"
   },
   {
     "name": "python2-exrex",
     "version": "153.f180f21",
     "description": "Irregular methods on regular expressions.",
-    "url": "https://github.com/asciimoo/exrex"
+    "url": "https://github.com/asciimoo/exrex",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "python2-google-streetview",
     "version": "1.2.9",
     "description": "A command line tool and module for Google Street View Image API.",
-    "url": "https://pypi.org/project/google-streetview/#files"
+    "url": "https://pypi.org/project/google-streetview/#files",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "python2-utidylib",
     "version": "0.6",
     "description": "Python bindings for Tidy HTML parser/cleaner.",
-    "url": "http://utidylib.berlios.de"
+    "url": "http://utidylib.berlios.de",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2024-12-15"
   },
   {
     "name": "qrgen",
     "version": "37.82a015b",
     "description": "Simple script for generating Malformed QRCodes.",
-    "url": "https://github.com/h0nus/QRGen"
+    "url": "https://github.com/h0nus/QRGen",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2021-12-13"
   },
   {
     "name": "qsreplace",
     "version": "3.0b053d2",
     "description": "Accept URLs on stdin, replace all query string values with a user-supplied value, only output each combination of query string parameters once per host and path.",
-    "url": "https://github.com/tomnomnom/qsreplace"
+    "url": "https://github.com/tomnomnom/qsreplace",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2021-05-14"
   },
   {
     "name": "rawsec-cli",
     "version": "1.2.0.r7.gf7a08c6",
     "description": "Rawsec Inventory search CLI to find security tools and resources.",
-    "url": "https://github.com/tyki6/rawsec_cli"
+    "url": "https://github.com/tyki6/rawsec_cli",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "rbkb",
     "version": "v0.7.3.r3.g4645025",
     "description": "A miscellaneous collection of command-line tools related to pen-testing and reversing.",
-    "url": "https://github.com/emonti/rbkb"
+    "url": "https://github.com/emonti/rbkb",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2025-06-28"
   },
   {
     "name": "redeye",
     "version": "0.9.4",
     "description": "Visual analytic tool supporting Red & Blue Team operations.",
-    "url": "https://github.com/cisagov/RedEye"
+    "url": "https://github.com/cisagov/RedEye",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2024-10-29"
   },
   {
     "name": "redpoint",
     "version": "123.23ef36b",
     "description": "Digital Bond's ICS Enumeration Tools.",
-    "url": "https://github.com/digitalbond/Redpoint3"
+    "url": "https://github.com/digitalbond/Redpoint3",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "reptor",
     "version": "0.7",
     "description": "CLI tool to automate pentest reporting with SysReptor.",
-    "url": "https://github.com/Syslifters/reptor"
+    "url": "https://github.com/Syslifters/reptor",
+    "groups": [
+      "misc",
+      "automation"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "rogue-mysql-server",
     "version": "2.78ebbfc",
     "description": "A rogue MySQL server written in Python.",
-    "url": "https://github.com/Gifts/Rogue-MySql-Server"
+    "url": "https://github.com/Gifts/Rogue-MySql-Server",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "rtfm",
     "version": "95.a807a80",
     "description": "A database of common, interesting or useful commands, in one handy referable form.",
-    "url": "https://github.com/leostat/rtfm"
+    "url": "https://github.com/leostat/rtfm",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "rulesfinder",
     "version": "42.cf8255b",
     "description": "Machine-learn password mangling rules.",
-    "url": "https://github.com/synacktiv/rulesfinder"
+    "url": "https://github.com/synacktiv/rulesfinder",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2023-08-19"
   },
   {
     "name": "sasm",
     "version": "3.16.0",
     "description": "A simple crossplatform IDE for NASM, MASM, GAS and FASM assembly languages.",
-    "url": "https://github.com/Dman95/SASM"
+    "url": "https://github.com/Dman95/SASM",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-09-13"
   },
   {
     "name": "schnappi-dhcp",
     "version": "0.1",
     "description": "Can fuck network with no DHCP.",
-    "url": "http://www.emanuelegentili.eu/"
+    "url": "http://www.emanuelegentili.eu/",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "sh00t",
     "version": "214.8c7321f",
     "description": "A Testing Environment for Manual Security Testers.",
-    "url": "https://github.com/pavanw3b/sh00t"
+    "url": "https://github.com/pavanw3b/sh00t",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "shadowfinder",
     "version": "0.7.1.r0.g215485a",
     "description": "Find possible locations of shadows around the world.",
-    "url": "https://github.com/bellingcat/ShadowFinder"
+    "url": "https://github.com/bellingcat/ShadowFinder",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-09-06"
   },
   {
     "name": "shelling",
     "version": "227.0a6c135",
     "description": "An offensive approach to the anatomy of improperly written OS command injection sanitisers.",
-    "url": "https://github.com/ewilded/shelling"
+    "url": "https://github.com/ewilded/shelling",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2021-06-23"
   },
   {
     "name": "sleuthql",
     "version": "9.29fc878",
     "description": "Python3 Burp History parsing tool to discover potential SQL injection points. To be used in tandem with SQLmap.",
-    "url": "https://github.com/RhinoSecurityLabs/SleuthQL"
+    "url": "https://github.com/RhinoSecurityLabs/SleuthQL",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-01-13"
   },
   {
-    "name": "sslcat",
-    "version": "1.0",
-    "description": "SSLCat is a simple Unix utility that reads and writes data across an SSL enable network connection.",
-    "url": "http://www.bindshell.net/tools/sslcat"
+    "name": "slipit",
+    "version": "1.0.1",
+    "description": "Utility for creating archives with path traversal elements for ZipSlip attacks.",
+    "url": "https://github.com/usdAG/slipit",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-08-10"
   },
   {
     "name": "stompy",
     "version": "0.0.4",
     "description": "An advanced utility to test the quality of WWW session identifiers and other tokens that are meant to be unpredictable.",
-    "url": "https://lcamtuf.coredump.cx/"
+    "url": "https://lcamtuf.coredump.cx/",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-09-12"
   },
   {
     "name": "suricata-verify",
     "version": "suricata.8.0.8.r0.g5ee5412",
     "description": "Suricata Verification Tests - Testing Suricata Output.",
-    "url": "https://github.com/OISF/suricata-verify"
+    "url": "https://github.com/OISF/suricata-verify",
+    "groups": [
+      "misc",
+      "ids"
+    ],
+    "updated": "2026-11-01"
   },
   {
     "name": "tcpxtract",
     "version": "1.0.1",
     "description": "A tool for extracting files from network traffic.",
-    "url": "https://tcpxtract.sourceforge.net/"
+    "url": "https://tcpxtract.sourceforge.net/",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2024-02-01"
   },
   {
     "name": "tempomail",
     "version": "26.5600ec3",
     "description": "Tool to create a temporary email address in 1 Second and receive emails.",
-    "url": "https://github.com/kavishgr/tempomail"
+    "url": "https://github.com/kavishgr/tempomail",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2023-07-10"
   },
   {
     "name": "tnscmd",
     "version": "1.3",
     "description": "A lame tool to prod the oracle tnslsnr process (1521/tcp).",
-    "url": "http://www.jammed.com/~jwa/hacks/security/tnscmd/"
+    "url": "http://www.jammed.com/~jwa/hacks/security/tnscmd/",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "token-reverser",
     "version": "10.cbb4528",
     "description": "Word list generator to crack security tokens.",
-    "url": "https://github.com/dariusztytko/token-reverser"
+    "url": "https://github.com/dariusztytko/token-reverser",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-01-14"
   },
   {
     "name": "tpcat",
     "version": "latest",
     "description": "Tool based upon pcapdiff by the EFF.",
-    "url": "https://sourceforge.net/projects/tpcat/"
+    "url": "https://sourceforge.net/projects/tpcat/",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "uatester",
     "version": "1.06",
-    "description": "User Agent String Tester",
-    "url": "https://code.google.com/archive/p/ua-tester/"
+    "description": "User Agent String Tester.",
+    "url": "https://code.google.com/archive/p/ua-tester/",
+    "groups": [
+      "misc",
+      "webapp"
+    ],
+    "updated": "2026-09-12"
   },
   {
     "name": "uberfile",
     "version": "14.4414c2a",
     "description": "CLI tool for the generation of downloader oneliners for UNIX-like or Windows systems.",
-    "url": "https://github.com/ShutdownRepo/uberfile"
+    "url": "https://github.com/ShutdownRepo/uberfile",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "unfurl",
     "version": "16.99ad735",
     "description": "Pull out bits of URLs provided on stdin.",
-    "url": "https://github.com/tomnomnom/unfurl"
+    "url": "https://github.com/tomnomnom/unfurl",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2021-04-27"
   },
   {
     "name": "unisec",
     "version": "0.0.10",
     "description": "Unicode Security Toolkit.",
-    "url": "https://noraj.github.io/unisec/"
+    "url": "https://noraj.github.io/unisec/",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-07-04"
   },
   {
     "name": "urlview",
     "version": "1e",
     "description": "A curses URL parser for text files.",
-    "url": "http://packages.qa.debian.org/u/urlview.html"
+    "url": "http://packages.qa.debian.org/u/urlview.html",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-04-23"
   },
   {
     "name": "usernamer",
     "version": "20.12983f8",
     "description": "Pentest Tool to generate usernames/logins based on supplied names.",
-    "url": "https://github.com/jseidl/usernamer"
+    "url": "https://github.com/jseidl/usernamer",
+    "groups": [
+      "misc",
+      "automation"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "verinice",
     "version": "1.19.1.r1.gf82b192a6",
     "description": "Tool for managing information security.",
-    "url": "https://github.com/SerNet/verinice"
+    "url": "https://github.com/SerNet/verinice",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2019-12-21"
   },
   {
     "name": "vfeed",
     "version": "81.fad17ae",
     "description": "Open Source Cross Linked and Aggregated Local Vulnerability Database main repository.",
-    "url": "http://www.toolswatch.org/vfeed"
+    "url": "http://www.toolswatch.org/vfeed",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "visualize-logs",
     "version": "118.d2e370e",
     "description": "A Python library and command line tools to provide interactive log visualization.",
-    "url": "https://github.com/keithjjones/visualize_logs"
+    "url": "https://github.com/keithjjones/visualize_logs",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-01-14"
   },
   {
     "name": "web2ldap",
     "version": "1.8.1",
     "description": "Full-featured LDAP client running as web application.",
-    "url": "https://web2ldap.de/"
+    "url": "https://web2ldap.de/",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-01-16"
   },
   {
     "name": "whapa",
     "version": "394.c17ca34",
     "description": "WhatsApp Parser Tool.",
-    "url": "https://github.com/B16f00t/whapa"
+    "url": "https://github.com/B16f00t/whapa",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-08-02"
   },
   {
     "name": "whatportis",
     "version": "54.59a1718",
     "description": "A command to search port names and numbers.",
-    "url": "https://github.com/ncrocfer/whatportis"
+    "url": "https://github.com/ncrocfer/whatportis",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-01-14"
   },
   {
     "name": "winexe",
     "version": "1.00",
     "description": "Remotely execute commands on Windows NT/2000/XP/2003 systems.",
-    "url": "https://sourceforge.net/projects/winexe/"
-  },
-  {
-    "name": "winregfs",
-    "version": "161.209a5d6",
-    "description": "Windows Registry FUSE filesystem.",
-    "url": "https://github.com/jbruchon/winregfs"
+    "url": "https://sourceforge.net/projects/winexe/",
+    "groups": [
+      "misc",
+      "windows"
+    ],
+    "updated": "2015-09-06"
   },
   {
     "name": "wol-e",
     "version": "2.0",
     "description": "A suite of tools for the Wake on LAN feature of network attached computers.",
-    "url": "https://code.google.com/archive/p/wol-e/"
+    "url": "https://code.google.com/archive/p/wol-e/",
+    "groups": [
+      "misc",
+      "networking"
+    ],
+    "updated": "2026-09-12"
   },
   {
     "name": "wordlistctl",
     "version": "0.9.4",
     "description": "Fetch, install and search wordlist archives from websites.",
-    "url": "https://github.com/BlackArch/wordlistctl"
+    "url": "https://github.com/BlackArch/wordlistctl",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-01-14"
   },
   {
     "name": "wordlister",
     "version": "56.7457c21",
     "description": "A simple wordlist generator and mangler written in python.",
-    "url": "https://github.com/4n4nk3/Wordlister"
+    "url": "https://github.com/4n4nk3/Wordlister",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-01-14"
   },
   {
     "name": "yay",
     "version": "13.1.0",
     "description": "Yet another yogurt. Pacman wrapper and AUR helper written in go.",
-    "url": "https://github.com/Jguer/yay"
+    "url": "https://github.com/Jguer/yay",
+    "groups": [
+      "misc"
+    ],
+    "updated": "2026-11-01"
   }
 ]

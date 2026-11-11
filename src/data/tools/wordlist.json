@@ -1,20 +1,35 @@
 [
   {
-    "name": "assetnote-wordlists",
-    "version": "158.bd3c5c2",
-    "description": "Assetnote generated wordlists.",
-    "url": "https://github.com/assetnote/wordlists"
-  },
-  {
     "name": "country-ip-blocks",
     "version": "6365.1ad7ecd",
     "description": "CIDR country-level IP data, straight from the Regional Internet Registries, updated hourly.",
-    "url": "https://github.com/herrbischoff/country-ip-blocks"
+    "url": "https://github.com/herrbischoff/country-ip-blocks",
+    "groups": [
+      "wordlist",
+      "misc"
+    ],
+    "updated": "2026-03-28"
   },
   {
-    "name": "seclists",
-    "version": "4461.c9c7b3cb",
-    "description": "A collection of multiple types of lists used during security assessments.",
-    "url": "https://github.com/danielmiessler/SecLists"
+    "name": "ldapwordlistharvester",
+    "version": "1.2.r20.g78cd116",
+    "description": "Tool to generate wordlist from information present in LDAP, in order to crack passwords of domain accounts.",
+    "url": "https://github.com/p0dalirius/pyLDAPWordlistHarvester",
+    "groups": [
+      "wordlist",
+      "wordlist"
+    ],
+    "updated": "2026-03-28"
+  },
+  {
+    "name": "wdict",
+    "version": "v0.1.20.r0.g05d896c",
+    "description": "Create dictionaries by scraping webpages or crawling local files.",
+    "url": "https://github.com/pyqlsa/wdict",
+    "groups": [
+      "wordlist",
+      "automation"
+    ],
+    "updated": "2025-11-30"
   }
 ]

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "blackarch-mirrorlist",
+    "version": "20260403",
+    "description": "BlackArch Linux mirror list file.",
+    "url": "https://www.blackarch.org/blackarch-mirrorlist",
+    "groups": [],
+    "updated": "2026-04-03"
+  },
+  {
+    "name": "blackarch-officials",
+    "version": "20260910",
+    "description": "Meta package for installing official security tools from the Arch Linux repository.",
+    "url": "https://www.blackarch.org/",
+    "groups": [],
+    "updated": "2026-09-09"
+  },
+  {
+    "name": "didier-stevens-suite",
+    "version": "448.7d625d0",
+    "description": "Didier Stevens Suite.",
+    "url": "https://github.com/DidierStevens/DidierStevensSuite",
+    "groups": [],
+    "updated": "2026-10-25"
+  },
+  {
+    "name": "nuclei-templates",
+    "version": "v10.5.1.r408.ge6adf54",
+    "description": "Community curated list of template files for the nuclei engine.",
+    "url": "https://github.com/projectdiscovery/nuclei-templates",
+    "groups": [],
+    "updated": "2026-10-31"
+  },
+  {
+    "name": "python-search-engine-parser",
+    "version": "0.6.8",
+    "description": "Scrapes search engine pages for query titles, descriptions and links.",
+    "url": "https://pypi.org/project/search-engine-parser/#files",
+    "groups": [],
+    "updated": "2026-01-13"
+  }
+]

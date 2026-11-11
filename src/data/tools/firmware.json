@@ -3,24 +3,41 @@
     "name": "firmwalker",
     "version": "101.23ff299",
     "description": "Script for searching the extracted firmware file system for goodies.",
-    "url": "https://github.com/craigz28/firmwalker"
+    "url": "https://github.com/craigz28/firmwalker",
+    "groups": [
+      "firmware"
+    ],
+    "updated": "2020-10-26"
   },
   {
     "name": "firmware-mod-kit",
     "version": "0.99.r119.gc72f45d",
     "description": "Modify firmware images without recompiling.",
-    "url": "https://github.com/rampageX/firmware-mod-kit"
+    "url": "https://github.com/rampageX/firmware-mod-kit",
+    "groups": [
+      "firmware"
+    ],
+    "updated": "2026-03-04"
   },
   {
     "name": "meanalyzer",
     "version": "1.273.0",
     "description": "Intel Engine Firmware Analysis Tool.",
-    "url": "https://github.com/platomav/MEAnalyzer"
+    "url": "https://github.com/platomav/MEAnalyzer",
+    "groups": [
+      "firmware"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "uefi-firmware-parser",
     "version": "215.c4b8c64",
     "description": "Parse BIOS/Intel ME/UEFI firmware related structures: Volumes, FileSystems, Files, etc.",
-    "url": "https://github.com/theopolis/uefi-firmware-parser"
+    "url": "https://github.com/theopolis/uefi-firmware-parser",
+    "groups": [
+      "firmware",
+      "reversing"
+    ],
+    "updated": "2026-10-25"
   }
 ]

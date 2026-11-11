@@ -3,654 +3,1171 @@
     "name": "apt2",
     "version": "v1.0.20180315.r12.g8075cdc",
     "description": "Automated penetration toolkit.",
-    "url": "https://github.com/MooseDojo/apt2"
+    "url": "https://github.com/MooseDojo/apt2",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2026-02-03"
   },
   {
     "name": "automato",
     "version": "33.0561b59",
     "description": "Should help with automating some of the user-focused enumeration tasks during an internal penetration test.",
-    "url": "https://github.com/skahwah/automato"
+    "url": "https://github.com/skahwah/automato",
+    "groups": [
+      "automation",
+      "recon"
+    ],
+    "updated": "2025-04-28"
   },
   {
     "name": "autonessus",
     "version": "24.7933022",
     "description": "This script communicates with the Nessus API in an attempt to help with automating scans.",
-    "url": "https://github.com/deepseasred/AutoNessus"
+    "url": "https://github.com/deepseasred/AutoNessus",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "autonse",
     "version": "25.7c87f4c",
     "description": "Massive NSE (Nmap Scripting Engine) AutoSploit and AutoScanner.",
-    "url": "https://github.com/m4ll0k/AutoNSE"
+    "url": "https://github.com/m4ll0k/AutoNSE",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2021-01-16"
   },
   {
     "name": "autopwn",
     "version": "190.fc80cef",
     "description": "Specify targets and run sets of tools against them.",
-    "url": "https://github.com/nccgroup/autopwn"
+    "url": "https://github.com/nccgroup/autopwn",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "autorecon",
     "version": "297.e7e98f6",
     "description": "A multi-threaded network reconnaissance tool which performs automated enumeration of services.",
-    "url": "https://github.com/AutoRecon/AutoRecon"
+    "url": "https://github.com/AutoRecon/AutoRecon",
+    "groups": [
+      "automation",
+      "recon",
+      "scanner"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "awsbucketdump",
     "version": "82.4684670",
     "description": "A tool to quickly enumerate AWS S3 buckets to look for loot.",
-    "url": "https://github.com/jordanpotti/AWSBucketDump"
+    "url": "https://github.com/jordanpotti/AWSBucketDump",
+    "groups": [
+      "automation",
+      "scanner"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "bashfuscator",
     "version": "338.7487348",
     "description": "Fully configurable and extendable Bash obfuscation framework.",
-    "url": "https://github.com/Bashfuscator/Bashfuscator"
+    "url": "https://github.com/Bashfuscator/Bashfuscator",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "blueranger",
     "version": "1.1",
     "description": "A simple Bash script which uses Link Quality to locate Bluetooth device radios.",
-    "url": "https://www.hackfromacave.com/projects/blueranger.html"
+    "url": "https://www.hackfromacave.com/projects/blueranger.html",
+    "groups": [
+      "automation",
+      "bluetooth"
+    ],
+    "updated": "2025-12-03"
   },
   {
     "name": "bopscrk",
     "version": "v2.4.7.r2.g7eede16",
     "description": "Tool to generate smart wordlists, eg. based on lyrics.",
-    "url": "https://github.com/R3nt0n/bopscrk"
+    "url": "https://github.com/R3nt0n/bopscrk",
+    "groups": [
+      "automation",
+      "cracker"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "brutespray",
     "version": "908.d4e361b",
     "description": "Brute-Forcing from Nmap output - Automatically attempts default creds on found services.",
-    "url": "https://github.com/x90skysn3k/brutespray"
+    "url": "https://github.com/x90skysn3k/brutespray",
+    "groups": [
+      "automation",
+      "cracker"
+    ],
+    "updated": "2026-09-06"
   },
   {
     "name": "brutex",
     "version": "114.eacd084",
     "description": "Automatically brute force all services running on a target.",
-    "url": "https://github.com/1N3/BruteX"
+    "url": "https://github.com/1N3/BruteX",
+    "groups": [
+      "automation",
+      "cracker"
+    ],
+    "updated": "2023-05-21"
   },
   {
     "name": "byepass",
     "version": "213.8cbfd9b",
     "description": "Automates password cracking tasks using optimized dictionaries and mangling rules.",
-    "url": "https://github.com/webpwnized/byepass"
+    "url": "https://github.com/webpwnized/byepass",
+    "groups": [
+      "automation",
+      "cracker"
+    ],
+    "updated": "2024-04-28"
   },
   {
     "name": "cewl",
     "version": "6.2.1.r33.gca01aea",
     "description": "A custom word list generator.",
-    "url": "http://www.digininja.org/projects/cewl.php"
+    "url": "http://www.digininja.org/projects/cewl.php",
+    "groups": [
+      "automation",
+      "cracker"
+    ],
+    "updated": "2026-06-29"
   },
   {
     "name": "cheat-sh",
     "version": "6",
     "description": "The only cheat sheet you need.",
-    "url": "https://cheat.sh"
+    "url": "https://cheat.sh",
+    "groups": [
+      "automation",
+      "misc"
+    ],
+    "updated": "2019-08-06"
   },
   {
     "name": "cisco-snmp-enumeration",
     "version": "10.ad06f57",
     "description": "Automated Cisco SNMP Enumeration, Brute Force, Configuration Download and Password Cracking.",
-    "url": "https://github.com/nccgroup/cisco-snmp-enumeration"
+    "url": "https://github.com/nccgroup/cisco-snmp-enumeration",
+    "groups": [
+      "automation",
+      "networking",
+      "exploitation",
+      "cracker"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "clusterd",
     "version": "143.d190b2c",
     "description": "Automates the fingerprinting, reconnaissance, and exploitation phases of an application server attack.",
-    "url": "https://github.com/hatRiot/clusterd"
+    "url": "https://github.com/hatRiot/clusterd",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "codeql",
     "version": "2.22.4",
     "description": "The CLI tool for GitHub CodeQL",
-    "url": "https://github.com/codeql"
+    "url": "https://github.com/codeql",
+    "groups": [
+      "automation",
+      "code-audit"
+    ],
+    "updated": "2025-08-30"
   },
   {
     "name": "commonspeak",
     "version": "36.f0aad23",
     "description": "Leverages publicly available datasets from Google BigQuery to generate wordlists.",
-    "url": "https://github.com/assetnote/commonspeak2"
+    "url": "https://github.com/assetnote/commonspeak2",
+    "groups": [
+      "automation",
+      "recon"
+    ],
+    "updated": "2019-07-04"
   },
   {
     "name": "cook",
     "version": "v2.3.0.r0.gf72413d",
     "description": "Easily create word's permutation and combination to generate complex wordlists and passwords.",
-    "url": "https://github.com/glitchedgitz/cook"
+    "url": "https://github.com/glitchedgitz/cook",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2026-03-07"
   },
   {
     "name": "crunch",
     "version": "3.6",
     "description": "A wordlist generator for all combinations/permutations of a given character set.",
-    "url": "https://sourceforge.net/projects/crunch-wordlist/"
+    "url": "https://sourceforge.net/projects/crunch-wordlist/",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2021-05-01"
   },
   {
     "name": "deathstar",
     "version": "60.d7bcbfd",
     "description": "Automate getting Domain Admin using Empire.",
-    "url": "https://github.com/byt3bl33d3r/DeathStar"
+    "url": "https://github.com/byt3bl33d3r/DeathStar",
+    "groups": [
+      "automation",
+      "exploitation"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "dorkscout",
     "version": "1.0.r13.gdd87daf",
     "description": "Golang tool to automate google dork scan against the entire internet or specific targets.",
-    "url": "https://github.com/R4yGM/dorkscout"
+    "url": "https://github.com/R4yGM/dorkscout",
+    "groups": [
+      "automation",
+      "recon"
+    ],
+    "updated": "2022-02-20"
   },
   {
     "name": "dracnmap",
     "version": "69.09d3945",
     "description": "Tool to exploit the network and gathering information with nmap help.",
-    "url": "https://github.com/screetsec/Dracnmap"
+    "url": "https://github.com/screetsec/Dracnmap",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2017-10-12"
   },
   {
     "name": "dumb0",
     "version": "19.1493e74",
     "description": "A simple tool to dump users in popular forums and CMS.",
-    "url": "https://github.com/0verl0ad/Dumb0"
+    "url": "https://github.com/0verl0ad/Dumb0",
+    "groups": [
+      "automation",
+      "webapp"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "easy-creds",
     "version": "45.bf9f00c",
     "description": "A bash script that leverages ettercap and other tools to obtain credentials.",
-    "url": "https://github.com/brav0hax/easy-creds"
+    "url": "https://github.com/brav0hax/easy-creds",
+    "groups": [
+      "automation",
+      "networking"
+    ],
+    "updated": "2019-01-28"
   },
   {
     "name": "easyda",
     "version": "7.0867f9b",
     "description": "Easy Windows Domain Access Script.",
-    "url": "https://github.com/nccgroup/easyda"
+    "url": "https://github.com/nccgroup/easyda",
+    "groups": [
+      "automation",
+      "scanner",
+      "recon"
+    ],
+    "updated": "2018-11-14"
   },
   {
     "name": "emp3r0r",
     "version": "v5.6.0.r6.g342eecdf",
     "description": "Linux post-exploitation framework made by linux user.",
-    "url": "https://github.com/jm33-m0/emp3r0r"
+    "url": "https://github.com/jm33-m0/emp3r0r",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "empire",
     "version": "v6.7.1.r0.gca5b774",
     "description": "A PowerShell and Python post-exploitation agent.",
-    "url": "https://github.com/BC-SECURITY/Empire"
+    "url": "https://github.com/BC-SECURITY/Empire",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2026-08-02"
   },
   {
     "name": "findsploit",
     "version": "87.3e61d8d",
     "description": "Find exploits in local and online databases instantly.",
-    "url": "https://github.com/1N3/findsploit"
+    "url": "https://github.com/1N3/findsploit",
+    "groups": [
+      "automation",
+      "exploitation"
+    ],
+    "updated": "2021-10-03"
   },
   {
     "name": "fstealer",
     "version": "0.1",
     "description": "Automates file system mirroring through remote file disclosure vulnerabilities on Linux machines.",
-    "url": "http://packetstormsecurity.com/files/106450/FStealer-Filesystem-Mirroring-Tool.html"
+    "url": "http://packetstormsecurity.com/files/106450/FStealer-Filesystem-Mirroring-Tool.html",
+    "groups": [
+      "automation",
+      "misc"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "glue",
     "version": "380.8703380",
     "description": "A framework for running a series of tools.",
-    "url": "https://github.com/OWASP/glue"
+    "url": "https://github.com/OWASP/glue",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2025-04-29"
   },
   {
     "name": "go-exploitdb",
     "version": "v0.7.2.r1.geeb116a",
     "description": "Tool for searching Exploits from Exploit Databases, etc.",
-    "url": "https://github.com/vulsio/go-exploitdb"
+    "url": "https://github.com/vulsio/go-exploitdb",
+    "groups": [
+      "automation",
+      "exploitation"
+    ],
+    "updated": "2026-05-31"
   },
   {
     "name": "google-explorer",
     "version": "140.0b21b57",
     "description": "Google mass exploit robot - Make a google search, and parse the results for a especific exploit you define.",
-    "url": "https://github.com/dmonst3r/google_explorer"
+    "url": "https://github.com/dmonst3r/google_explorer",
+    "groups": [
+      "automation",
+      "exploitation"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "gooscan",
     "version": "1.0.9",
     "description": "A tool that automates queries against Google search appliances, but with a twist.",
-    "url": "http://johnny.ihackstuff.com/downloads/task,doc_details&Itemid=/gid,28/"
+    "url": "http://johnny.ihackstuff.com/downloads/task,doc_details&Itemid=/gid,28/",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2025-11-30"
   },
   {
     "name": "hackersh",
     "version": "0.2.0",
     "description": "A shell for with Pythonect-like syntax, including wrappers for commonly used security tools.",
-    "url": "http://www.hackersh.org/"
+    "url": "http://www.hackersh.org/",
+    "groups": [
+      "automation",
+      "misc"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "harpoon",
     "version": "388.4bb8250",
     "description": "CLI tool for open source and threat intelligence.",
-    "url": "https://github.com/Te-k/harpoon"
+    "url": "https://github.com/Te-k/harpoon",
+    "groups": [
+      "automation",
+      "recon"
+    ],
+    "updated": "2026-05-31"
   },
   {
     "name": "hate-crack",
     "version": "224.821ff60",
     "description": "A tool for automating cracking methodologies through Hashcat.",
-    "url": "https://github.com/trustedsec/hate_crack"
+    "url": "https://github.com/trustedsec/hate_crack",
+    "groups": [
+      "automation",
+      "cracker"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "havoc-c2",
     "version": "856.fb67b76",
     "description": "Modern and malleable post-exploitation command and control framework.",
-    "url": "https://havocframework.com/"
+    "url": "https://havocframework.com/",
+    "groups": [
+      "automation",
+      "backdoor",
+      "exploitation",
+      "networking"
+    ],
+    "updated": "2024-11-07"
   },
   {
     "name": "intersect",
     "version": "2.5",
     "description": "Post-exploitation framework.",
-    "url": "https://github.com/ohdae/Intersect-2.5"
+    "url": "https://github.com/ohdae/Intersect-2.5",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "invoke-cradlecrafter",
     "version": "19.3ff8bac",
     "description": "PowerShell Remote Download Cradle Generator & Obfuscator.",
-    "url": "https://github.com/danielbohannon/Invoke-CradleCrafter"
+    "url": "https://github.com/danielbohannon/Invoke-CradleCrafter",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2020-04-24"
   },
   {
     "name": "invoke-dosfuscation",
     "version": "7.6260f5b",
     "description": "Cmd.exe Command Obfuscation Generator & Detection Test Harness.",
-    "url": "https://github.com/danielbohannon/Invoke-DOSfuscation"
+    "url": "https://github.com/danielbohannon/Invoke-DOSfuscation",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2020-04-24"
   },
   {
     "name": "invoke-obfuscation",
     "version": "45.f20e7f8",
     "description": "PowerShell Obfuscator.",
-    "url": "https://github.com/danielbohannon/Invoke-Obfuscation"
+    "url": "https://github.com/danielbohannon/Invoke-Obfuscation",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2020-04-24"
   },
   {
     "name": "koadic",
     "version": "3.457f9a3",
     "description": "A Windows post-exploitation rootkit similar to other penetration testing tools such as Meterpreter and Powershell Empire.",
-    "url": "https://github.com/offsecginger/koadic"
+    "url": "https://github.com/offsecginger/koadic",
+    "groups": [
+      "automation",
+      "exploitation"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "ldapscripts",
     "version": "2.0.8",
     "description": "Simple shell scripts to handle POSIX entries in an LDAP directory.",
-    "url": "https://sourceforge.net/projects/ldapscripts/"
+    "url": "https://sourceforge.net/projects/ldapscripts/",
+    "groups": [
+      "automation",
+      "misc"
+    ],
+    "updated": "2024-01-31"
   },
   {
     "name": "linikatz",
     "version": "54.b06ec5f",
     "description": "Tool to attack AD on UNIX.",
-    "url": "https://github.com/CiscoCXSecurity/linikatz"
+    "url": "https://github.com/CiscoCXSecurity/linikatz",
+    "groups": [
+      "automation",
+      "scanner"
+    ],
+    "updated": "2026-05-31"
   },
   {
     "name": "linset",
     "version": "9.8746b1f",
     "description": "Evil Twin Attack Bash script - An automated WPA/WPA2 hacker.",
-    "url": "https://github.com/vk496/linset"
+    "url": "https://github.com/vk496/linset",
+    "groups": [
+      "automation",
+      "wireless",
+      "cracker"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "lyricpass",
     "version": "45.fd31d07",
     "description": "Tool to generate wordlists based on lyrics.",
-    "url": "https://github.com/initstring/lyricpass"
+    "url": "https://github.com/initstring/lyricpass",
+    "groups": [
+      "automation",
+      "cracker"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "maskprocessor",
     "version": "0.73",
     "description": "A High-Performance word generator with a per-position configurable charset.",
-    "url": "https://hashcat.net/wiki/doku.php?id=maskprocessor"
+    "url": "https://hashcat.net/wiki/doku.php?id=maskprocessor",
+    "groups": [
+      "automation",
+      "misc"
+    ],
+    "updated": "2026-09-14"
   },
   {
     "name": "masscan-automation",
     "version": "26.a170abc",
     "description": "Masscan integrated with Shodan API.",
-    "url": "https://github.com/trevordavenport/MasscanAutomation"
+    "url": "https://github.com/trevordavenport/MasscanAutomation",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "massexpconsole",
     "version": "v2.3.5.r1.g530c880",
     "description": "A collection of tools and exploits with a cli ui for mass exploitation.",
-    "url": "https://github.com/jm33-m0/mec"
+    "url": "https://github.com/jm33-m0/mec",
+    "groups": [
+      "automation",
+      "exploitation"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "mentalist",
     "version": "v2.0.0.r1.g8223d8e",
     "description": "Graphical tool for custom wordlist generation.",
-    "url": "https://github.com/sc0tfree/mentalist"
+    "url": "https://github.com/sc0tfree/mentalist",
+    "groups": [
+      "automation",
+      "cracker"
+    ],
+    "updated": "2026-01-15"
   },
   {
     "name": "merlin-server",
     "version": "1.3.0",
     "description": "Merlin is a cross-platform post-exploitation HTTP/2 Command & Control server and agent written in golang.",
-    "url": "https://github.com/Ne0nd0g/merlin"
+    "url": "https://github.com/Ne0nd0g/merlin",
+    "groups": [
+      "automation",
+      "exploitation"
+    ],
+    "updated": "2022-03-12"
   },
   {
     "name": "metasploit-autopwn",
     "version": "12.09320cc",
     "description": "db_autopwn plugin of metasploit.",
-    "url": "https://github.com/hahwul/metasploit-autopwn"
+    "url": "https://github.com/hahwul/metasploit-autopwn",
+    "groups": [
+      "automation",
+      "exploitation"
+    ],
+    "updated": "2019-12-24"
   },
   {
     "name": "mitmap-old",
     "version": "0.1",
     "description": "Shell Script for launching a Fake AP with karma functionality and launches ettercap for packet capture and traffic manipulation.",
-    "url": "http://www.darkoperator.com/tools-and-scripts/"
-  },
-  {
-    "name": "morpheus",
-    "version": "165.5d81c9e",
-    "description": "Automated Ettercap TCP/IP Hijacking Tool.",
-    "url": "https://github.com/r00txp10it/morpheus"
+    "url": "http://www.darkoperator.com/tools-and-scripts/",
+    "groups": [
+      "automation",
+      "exploitation",
+      "sniffer"
+    ],
+    "updated": "2017-02-04"
   },
   {
     "name": "msf-mpc",
     "version": "35.8007ef2",
     "description": "Msfvenom payload creator.",
-    "url": "https://github.com/g0tmi1k/msfpc"
+    "url": "https://github.com/g0tmi1k/msfpc",
+    "groups": [
+      "automation",
+      "backdoor",
+      "malware"
+    ],
+    "updated": "2021-01-16"
   },
   {
     "name": "msfenum",
     "version": "36.6c6b77e",
     "description": "A Metasploit auto auxiliary script.",
-    "url": "https://github.com/wez3/msfenum"
+    "url": "https://github.com/wez3/msfenum",
+    "groups": [
+      "automation",
+      "exploitation"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "mutator",
     "version": "v0.2.2.r2.g164132d",
     "description": "This project aims to be a wordlist mutator with hormones, which means that some mutations will be applied to the result of the ones that have been already done, resulting in something like: corporation -> C0rp0r4t10n_2012",
-    "url": "https://bitbucket.org/alone/mutator/"
+    "url": "https://bitbucket.org/alone/mutator/",
+    "groups": [
+      "automation",
+      "misc"
+    ],
+    "updated": "2025-12-17"
   },
   {
     "name": "nettacker",
     "version": "0.4.1.r17.g14ef2b4",
     "description": "Automated Penetration Testing Framework.",
-    "url": "https://github.com/OWASP/Nettacker"
+    "url": "https://github.com/OWASP/Nettacker",
+    "groups": [
+      "automation",
+      "scanner",
+      "recon"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "nfspy",
     "version": "1.0",
     "description": "A Python library for automating the falsification of NFS credentials when mounting an NFS share.",
-    "url": "https://github.com/bonsaiviking/NfSpy"
+    "url": "https://github.com/bonsaiviking/NfSpy",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "nfsshell",
     "version": "19980519",
     "description": "Userland NFS command tool.",
-    "url": "https://www.paramecium.org/~leendert/"
+    "url": "https://www.paramecium.org/~leendert/",
+    "groups": [
+      "automation",
+      "networking"
+    ],
+    "updated": "2019-06-18"
   },
   {
     "name": "nosqlattack",
     "version": "98.a5b0329",
     "description": "Python tool to automate exploit MongoDB server IP on Internet anddisclose the database data by MongoDB default configuration weaknesses and injection attacks.",
-    "url": "https://github.com/youngyangyang04/NoSQLAttack"
+    "url": "https://github.com/youngyangyang04/NoSQLAttack",
+    "groups": [
+      "automation",
+      "scanner"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "nullscan",
     "version": "1.0.1",
     "description": "A modular framework designed to chain and automate security tests.",
-    "url": "https://nullsecurity.net/tools/automation.html"
+    "url": "https://nullsecurity.net/tools/automation.html",
+    "groups": [
+      "automation",
+      "scanner",
+      "recon",
+      "fingerprint",
+      "networking",
+      "fuzzer",
+      "exploitation"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "octopwnweb",
     "version": "14.e0f83ee",
     "description": "Internal pentest framework running in your browser via WebAssembly, powerd by Pyodide",
-    "url": "https://github.com/skelsec/octopwnweb"
-  },
-  {
-    "name": "openscap",
-    "version": "1.4.1.r34.g4d1f11a15",
-    "description": "Open Source Security Compliance Solution.",
-    "url": "https://www.open-scap.org/"
+    "url": "https://github.com/skelsec/octopwnweb",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2023-05-04"
   },
   {
     "name": "panoptic",
     "version": "262.e138360",
     "description": "A tool that automates the process of search and retrieval of content for common log and config files through LFI vulnerability.",
-    "url": "https://github.com/lightos/Panoptic"
+    "url": "https://github.com/lightos/Panoptic",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "pastejacker",
     "version": "12.ed9f153",
     "description": "Hacking systems with the automation of PasteJacking attacks.",
-    "url": "https://github.com/D4Vinci/PasteJacker"
+    "url": "https://github.com/D4Vinci/PasteJacker",
+    "groups": [
+      "automation",
+      "exploitation"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "pasv-agrsv",
     "version": "57.6bb54f7",
     "description": "Passive recon / OSINT automation script.",
-    "url": "https://github.com/isaudits/pasv-agrsv"
+    "url": "https://github.com/isaudits/pasv-agrsv",
+    "groups": [
+      "automation",
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "penbox",
     "version": "81.3b77c69",
     "description": "A Penetration Testing Framework - The Tool With All The Tools.",
-    "url": "https://github.com/x3omdax/PenBox"
+    "url": "https://github.com/x3omdax/PenBox",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "pentestgpt",
     "version": "v0.14.0.r21.ge8b1bb7",
     "description": "A penetration testing tool empowered by ChatGPT. It is designed to automate the penetration testing process.",
-    "url": "https://github.com/GreyDGL/PentestGPT"
+    "url": "https://github.com/GreyDGL/PentestGPT",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2026-07-19"
   },
   {
     "name": "pentmenu",
     "version": "220.0cd7b58",
     "description": "A bash script for recon and DOS attacks.",
-    "url": "https://github.com/GinjaChris/pentmenu"
+    "url": "https://github.com/GinjaChris/pentmenu",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2025-05-24"
   },
   {
     "name": "pin",
     "version": "3.28.r98749",
     "description": "A dynamic binary instrumentation tool.",
-    "url": "https://software.intel.com/en-us/articles/pin-a-binary-instrumentation-tool-downloads"
+    "url": "https://software.intel.com/en-us/articles/pin-a-binary-instrumentation-tool-downloads",
+    "groups": [
+      "automation",
+      "binary",
+      "reversing"
+    ],
+    "updated": "2023-07-12"
   },
   {
     "name": "portia",
     "version": "39.2e6e608",
     "description": "Automate a number of techniques commonly performed on internal network penetration tests after a low privileged account has been compromised.",
-    "url": "https://github.com/SpiderLabs/portia"
+    "url": "https://github.com/SpiderLabs/portia",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "pupy",
     "version": "2988.4b78dc58",
     "description": "Opensource, cross-platform (Windows, Linux, OSX, Android) remote administration and post-exploitation tool mainly written in python.",
-    "url": "https://github.com/n1nj4sec/pupy"
+    "url": "https://github.com/n1nj4sec/pupy",
+    "groups": [
+      "automation",
+      "exploitation"
+    ],
+    "updated": "2019-03-31"
   },
   {
     "name": "pureblood",
     "version": "37.2c5ce07",
     "description": "A Penetration Testing Framework created for Hackers / Pentester / Bug Hunter.",
-    "url": "https://github.com/cr4shcod3/pureblood"
+    "url": "https://github.com/cr4shcod3/pureblood",
+    "groups": [
+      "automation",
+      "webapp",
+      "scanner",
+      "fuzzer"
+    ],
+    "updated": "2019-03-22"
   },
   {
     "name": "pyfuscation",
     "version": "17.6d8d53f",
     "description": "Obfuscate powershell scripts by replacing Function names, Variables and Parameters.",
-    "url": "https://github.com/CBHue/PyFuscation"
+    "url": "https://github.com/CBHue/PyFuscation",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "recomposer",
     "version": "2.90f85ed",
     "description": "Randomly changes Win32/64 PE Files for 'safer' uploading to malware and sandbox sites.",
-    "url": "https://github.com/secretsquirrel/recomposer"
+    "url": "https://github.com/secretsquirrel/recomposer",
+    "groups": [
+      "automation",
+      "binary"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "rhodiola",
     "version": "4.8bc08a0",
     "description": "Personalized wordlist generator with NLP, by analyzing tweets (A.K.A crunch2049).",
-    "url": "https://github.com/utkusen/rhodiola"
+    "url": "https://github.com/utkusen/rhodiola",
+    "groups": [
+      "automation",
+      "cracker"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "rsmangler",
     "version": "1.4",
     "description": "rsmangler takes a wordlist and mangle it",
-    "url": "http://www.randomstorm.com/rsmangler-security-tool.php"
+    "url": "http://www.randomstorm.com/rsmangler-security-tool.php",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2015-11-10"
   },
   {
     "name": "sakis3g",
     "version": "0.2.0e",
     "description": "An all-in-one script for connecting with 3G.",
-    "url": "http://www.sakis3g.org/"
+    "url": "http://www.sakis3g.org/",
+    "groups": [
+      "automation",
+      "misc"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "scap-security-guide",
     "version": "0.1.80",
     "description": "Security compliance content in SCAP, Bash, Ansible, and other formats.",
-    "url": "https://www.open-scap.org/security-policies/scap-security-guide/"
+    "url": "https://www.open-scap.org/security-policies/scap-security-guide/",
+    "groups": [
+      "automation",
+      "defensive",
+      "scanner"
+    ],
+    "updated": "2026-04-29"
   },
   {
     "name": "scap-workbench",
     "version": "1.2.1",
     "description": "SCAP Scanner And Tailoring Graphical User Interface.",
-    "url": "https://www.open-scap.org/tools/scap-workbench/"
+    "url": "https://www.open-scap.org/tools/scap-workbench/",
+    "groups": [
+      "automation",
+      "defensive",
+      "scanner"
+    ],
+    "updated": "2020-05-04"
   },
   {
     "name": "search1337",
     "version": "11.bf03ec9",
     "description": "1337Day Online Exploit Scanner.",
-    "url": "https://github.com/b3mb4m/Search1337"
+    "url": "https://github.com/b3mb4m/Search1337",
+    "groups": [
+      "automation",
+      "exploitation"
+    ],
+    "updated": "2022-08-31"
   },
   {
     "name": "shellerator",
     "version": "72.6af7f36",
     "description": "Simple command-line tool aimed to help pentesters quickly generate one-liner reverse/bind shells in multiple languages.",
-    "url": "https://github.com/ShutdownRepo/shellerator"
+    "url": "https://github.com/ShutdownRepo/shellerator",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2026-06-29"
   },
   {
     "name": "shellpop",
     "version": "148.a145349",
     "description": "Generate easy and sophisticated reverse or bind shell commands.",
-    "url": "https://github.com/0x00-0x00/ShellPop"
+    "url": "https://github.com/0x00-0x00/ShellPop",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "shellz",
     "version": "161.0ed068f",
     "description": "A script for generating common revshells fast and easy.",
-    "url": "https://github.com/4ndr34z/shells"
+    "url": "https://github.com/4ndr34z/shells",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "simple-ducky",
     "version": "20.f15079e",
     "description": "A payload generator.",
-    "url": "https://code.google.com/archive/p/simple-ducky-payload-generator"
+    "url": "https://code.google.com/p/simple-ducky-payload-generator",
+    "groups": [
+      "automation",
+      "exploitation"
+    ],
+    "updated": "2019-08-15"
   },
   {
     "name": "sipvicious",
     "version": "481.485d16c",
     "description": "Tools for auditing SIP devices.",
-    "url": "http://blog.sipvicious.org/"
+    "url": "http://blog.sipvicious.org/",
+    "groups": [
+      "automation",
+      "exploitation"
+    ],
+    "updated": "2026-07-19"
   },
   {
     "name": "sn00p",
     "version": "0.8",
     "description": "A modular tool written in bourne shell and designed to chain and automate security tools and tests.",
-    "url": "https://nullsecurity.net/tools/automation.html"
+    "url": "https://nullsecurity.net/tools/automation.html",
+    "groups": [
+      "automation",
+      "scanner",
+      "recon",
+      "fingerprint",
+      "networking",
+      "fuzzer",
+      "exploitation"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "sn1per",
     "version": "723.24368bd",
     "description": "Automated Pentest Recon Scanner.",
-    "url": "https://github.com/1N3/Sn1per"
+    "url": "https://github.com/1N3/Sn1per",
+    "groups": [
+      "automation",
+      "cracker",
+      "recon",
+      "scanner"
+    ],
+    "updated": "2026-11-01"
   },
   {
     "name": "sploitctl",
     "version": "3.0.4",
     "description": "Fetch, install and search exploit archives from exploit sites like exploit-db and packetstorm.",
-    "url": "https://github.com/BlackArch/sploitctl"
+    "url": "https://github.com/BlackArch/sploitctl",
+    "groups": [
+      "automation",
+      "exploitation"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "spookflare",
     "version": "24.19491b5",
     "description": "Loader, dropper generator with multiple features for bypassing client-side and network-side countermeasures.",
-    "url": "https://github.com/hlldz/SpookFlare"
+    "url": "https://github.com/hlldz/SpookFlare",
+    "groups": [
+      "automation",
+      "exploitation"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "statsprocessor",
     "version": "0.11",
     "description": "A high-performance word-generator based on per-position Markov-attack.",
-    "url": "https://hashcat.net/wiki/doku.php?id=statsprocessor"
+    "url": "https://hashcat.net/wiki/doku.php?id=statsprocessor",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2026-09-12"
   },
   {
     "name": "thefatrat",
     "version": "813.b0586d0",
     "description": "TheFatRat a massive exploiting tool: easy tool to generate backdoor and easy tool to post exploitation attack.",
-    "url": "https://github.com/Screetsec/TheFatRat"
+    "url": "https://github.com/Screetsec/TheFatRat",
+    "groups": [
+      "automation",
+      "exploitation"
+    ],
+    "updated": "2022-02-20"
   },
   {
     "name": "tiger",
     "version": "3.2.3",
     "description": "A security scanner, that checks computer for known problems. Can also use tripwire, aide and chkrootkit.",
-    "url": "http://www.nongnu.org/tiger/"
+    "url": "http://www.nongnu.org/tiger/",
+    "groups": [
+      "automation",
+      "scanner"
+    ],
+    "updated": "2022-06-01"
   },
   {
     "name": "tlssled",
     "version": "1.3",
     "description": "A Linux shell script whose purpose is to evaluate the security of a target SSL/TLS (HTTPS) web server implementation.",
-    "url": "http://blog.taddong.com/2011/05/tlssled-v10.html"
+    "url": "http://blog.taddong.com/2011/05/tlssled-v10.html",
+    "groups": [
+      "automation",
+      "scanner"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "torctl",
     "version": "0.5.7",
     "description": "Script to redirect all traffic through tor network including dns queries for anonymizing entire system.",
-    "url": "https://github.com/BlackArch/torctl"
+    "url": "https://github.com/BlackArch/torctl",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2021-03-30"
   },
   {
     "name": "ttpassgen",
     "version": "133.a06d99d",
     "description": "Highly flexible and scriptable password dictionary generator based on Python.",
-    "url": "https://github.com/tp7309/TTPassGen"
+    "url": "https://github.com/tp7309/TTPassGen",
+    "groups": [
+      "automation",
+      "cracker"
+    ],
+    "updated": "2026-01-14"
   },
   {
     "name": "unix-privesc-check",
     "version": "1.4",
     "description": "Tries to find misconfigurations that could allow local unprivilged users to escalate privileges to other users or to access local apps (e.g. databases).",
-    "url": "https://pentestmonkey.net/tools/audit/unix-privesc-check"
+    "url": "https://pentestmonkey.net/tools/audit/unix-privesc-check",
+    "groups": [
+      "automation",
+      "scanner"
+    ],
+    "updated": "2023-10-15"
   },
   {
     "name": "username-anarchy",
     "version": "72.e063191",
     "description": "Tools for generating usernames when penetration testing.",
-    "url": "https://www.morningstarsecurity.com/research/username-anarchy"
+    "url": "https://www.morningstarsecurity.com/research/username-anarchy",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2025-04-29"
   },
   {
     "name": "valhalla-api",
     "version": "87.c010a48",
     "description": "Valhalla API Client.",
-    "url": "https://github.com/NextronSystems/valhallaAPI"
+    "url": "https://github.com/NextronSystems/valhallaAPI",
+    "groups": [
+      "automation",
+      "misc"
+    ],
+    "updated": "2026-01-14"
   },
   {
     "name": "veil",
     "version": "297.d8acd4c",
     "description": "A tool designed to generate metasploit payloads that bypass common anti-virus solutions.",
-    "url": "https://github.com/Veil-Framework/Veil"
+    "url": "https://github.com/Veil-Framework/Veil",
+    "groups": [
+      "automation",
+      "exploitation"
+    ],
+    "updated": "2026-01-14"
   },
   {
     "name": "vlan-hopping",
     "version": "21.a37ba4e",
     "description": "Easy 802.1Q VLAN Hopping",
-    "url": "https://github.com/nccgroup/vlan-hopping---frogger"
+    "url": "https://github.com/nccgroup/vlan-hopping---frogger",
+    "groups": [
+      "automation",
+      "networking",
+      "recon"
+    ],
+    "updated": "2019-01-03"
   },
   {
     "name": "voiphopper",
     "version": "2.04",
     "description": "A security validation tool that tests to see if a PC can mimic the behavior of an IP Phone. It rapidly automates a VLAN Hop into the Voice VLAN.",
-    "url": "https://voiphopper.sourceforge.net/"
+    "url": "https://voiphopper.sourceforge.net/",
+    "groups": [
+      "automation",
+      "voip"
+    ],
+    "updated": "2015-09-06"
   },
   {
     "name": "wifi-autopwner",
     "version": "36.faa4d01",
     "description": "Script to automate searching and auditing Wi-Fi networks with weak security.",
-    "url": "https://github.com/Mi-Al/WiFi-autopwner"
+    "url": "https://github.com/Mi-Al/WiFi-autopwner",
+    "groups": [
+      "automation",
+      "wireless"
+    ],
+    "updated": "2020-01-08"
   },
   {
     "name": "wikigen",
     "version": "8.348aa99",
     "description": "A script to generate wordlists out of wikipedia pages.",
-    "url": "https://github.com/zombiesam/wikigen"
+    "url": "https://github.com/zombiesam/wikigen",
+    "groups": [
+      "automation",
+      "misc"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "wmd",
     "version": "30.32e249a",
     "description": "Python framework for IT security tools.",
-    "url": "https://github.com/ThomasTJdev/WMD"
+    "url": "https://github.com/ThomasTJdev/WMD",
+    "groups": [
+      "automation"
+    ],
+    "updated": "2026-01-14"
   },
   {
     "name": "wnmap",
     "version": "0.1",
     "description": "A shell script written with the purpose to automate and chain scans via nmap.",
-    "url": "https://nullsecurity.net/tools/automation.html"
+    "url": "https://nullsecurity.net/tools/automation.html",
+    "groups": [
+      "automation",
+      "scanner"
+    ],
+    "updated": "2022-03-19"
   }
 ]

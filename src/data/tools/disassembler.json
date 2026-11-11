@@ -3,102 +3,185 @@
     "name": "abcd",
     "version": "4.2738809",
     "description": "ActionScript ByteCode Disassembler.",
-    "url": "https://github.com/MITRECND/abcd"
+    "url": "https://github.com/MITRECND/abcd",
+    "groups": [
+      "disassembler"
+    ],
+    "updated": "2026-02-02"
   },
   {
     "name": "binnavi",
     "version": "6.1.0",
     "description": "A binary analysis IDE that allows to inspect, navigate, edit and annotate control flow graphs and call graphs of disassembled code.",
-    "url": "https://github.com/google/binnavi"
+    "url": "https://github.com/google/binnavi",
+    "groups": [
+      "disassembler",
+      "reversing",
+      "binary"
+    ],
+    "updated": "2018-09-12"
   },
   {
     "name": "chiasm-shell",
     "version": "33.e20ed9f",
     "description": "Python-based interactive assembler/disassembler CLI, powered byKeystone/Capstone.",
-    "url": "https://github.com/0xbc/chiasm-shell"
+    "url": "https://github.com/0xbc/chiasm-shell",
+    "groups": [
+      "disassembler"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "exe2hex",
     "version": "1.5.1.r6.ge563b35",
     "description": "Inline file transfer using in-built Windows tools (DEBUG.exe or PowerShell).",
-    "url": "https://github.com/g0tmi1k/exe2hex"
+    "url": "https://github.com/g0tmi1k/exe2hex",
+    "groups": [
+      "disassembler"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "libdisasm",
     "version": "0.23",
     "description": "A disassembler library.",
-    "url": "https://bastard.sourceforge.net/libdisasm.html"
+    "url": "https://bastard.sourceforge.net/libdisasm.html",
+    "groups": [
+      "disassembler"
+    ],
+    "updated": "2025-11-30"
   },
   {
     "name": "lief",
     "version": "0.17.3",
     "description": "Library to instrument executable formats.",
-    "url": "https://github.com/lief-project/lief"
+    "url": "https://github.com/lief-project/lief",
+    "groups": [
+      "disassembler",
+      "reversing"
+    ],
+    "updated": "2026-05-17"
   },
   {
     "name": "marc4dasm",
     "version": "6.f11860f",
     "description": "A disassembler for the Atmel MARC4 (a 4 bit Harvard micro).",
-    "url": "https://github.com/AdamLaurie/marc4dasm"
+    "url": "https://github.com/AdamLaurie/marc4dasm",
+    "groups": [
+      "disassembler",
+      "hardware",
+      "reversing"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "plasma-disasm",
     "version": "922.ec7df9b",
     "description": "An interactive disassembler for x86/ARM/MIPS. It can generates indented pseudo-code with colored syntax.",
-    "url": "https://github.com/plasma-disassembler/plasma"
+    "url": "https://github.com/plasma-disassembler/plasma",
+    "groups": [
+      "disassembler",
+      "binary",
+      "debugger"
+    ],
+    "updated": "2026-01-15"
   },
   {
     "name": "python-lief",
     "version": "0.17.3",
     "description": "Library to instrument executable formats.",
-    "url": "https://github.com/lief-project/lief"
+    "url": "https://github.com/lief-project/lief",
+    "groups": [
+      "disassembler",
+      "reversing"
+    ],
+    "updated": "2026-05-17"
   },
   {
     "name": "python-pcodedmp",
     "version": "1.2.6",
     "description": "A VBA p-code disassembler.",
-    "url": "https://pypi.org/project/pcodedmp/#files"
+    "url": "https://pypi.org/project/pcodedmp/#files",
+    "groups": [
+      "disassembler"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "python2-capstone",
     "version": "4.0.1",
     "description": "A disassembly framework with the target of becoming the ultimate disasm engine for binary analysis and reversing in the security community.",
-    "url": "https://github.com/capstone-engine/capstone"
+    "url": "https://github.com/capstone-engine/capstone",
+    "groups": [
+      "disassembler",
+      "reversing"
+    ],
+    "updated": "2020-01-18"
   },
   {
     "name": "python2-pcodedmp",
     "version": "1.2.6",
     "description": "A VBA p-code disassembler.",
-    "url": "https://pypi.org/project/pcodedmp/#files"
+    "url": "https://pypi.org/project/pcodedmp/#files",
+    "groups": [
+      "disassembler"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "radare2-unicorn",
     "version": "922.7a6e373",
     "description": "Unicorn Emulator Plugin for radare2.",
-    "url": "https://github.com/radareorg/radare2-extras/tree/master/unicorn"
+    "url": "https://github.com/radareorg/radare2-extras/tree/master/unicorn",
+    "groups": [
+      "disassembler",
+      "binary",
+      "reversing"
+    ],
+    "updated": "2026-03-01"
   },
   {
     "name": "redasm",
     "version": "1667.5ab6be9",
     "description": "Interactive, multiarchitecture disassembler written in C++ using Qt5 as UI Framework.",
-    "url": "https://github.com/REDasmOrg/REDasm"
+    "url": "https://github.com/REDasmOrg/REDasm",
+    "groups": [
+      "disassembler",
+      "reversing"
+    ],
+    "updated": "2021-01-24"
   },
   {
     "name": "scratchabit",
     "version": "571.e52ba4b",
     "description": "Easily retargetable and hackable interactive disassembler with IDAPython-compatible plugin API.",
-    "url": "https://github.com/pfalcon/ScratchABit"
+    "url": "https://github.com/pfalcon/ScratchABit",
+    "groups": [
+      "disassembler"
+    ],
+    "updated": "2023-05-04"
   },
   {
     "name": "unstrip",
     "version": "13.05e00c2",
     "description": "ELF Unstrip Tool.",
-    "url": "https://github.com/pzread/unstrip"
+    "url": "https://github.com/pzread/unstrip",
+    "groups": [
+      "disassembler",
+      "binary"
+    ],
+    "updated": "2026-01-14"
   },
   {
     "name": "viper",
     "version": "2099.fdd7855",
     "description": "A Binary analysis framework.",
-    "url": "https://github.com/viper-framework/viper"
+    "url": "https://github.com/viper-framework/viper",
+    "groups": [
+      "disassembler",
+      "binary",
+      "malware"
+    ],
+    "updated": "2026-08-14"
   }
 ]

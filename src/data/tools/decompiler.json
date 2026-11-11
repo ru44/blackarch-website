@@ -3,108 +3,204 @@
     "name": "avaloniailspy",
     "version": "v7.2.rc.r11.g21d4939",
     "description": ".NET Decompiler (port of ILSpy)",
-    "url": "https://github.com/icsharpcode/AvaloniaILSpy"
+    "url": "https://github.com/icsharpcode/AvaloniaILSpy",
+    "groups": [
+      "decompiler"
+    ],
+    "updated": "2025-07-26"
   },
   {
     "name": "beebug",
     "version": "25.cddb375",
     "description": "A tool for checking exploitability.",
-    "url": "https://github.com/invictus1306/beebug"
+    "url": "https://github.com/invictus1306/beebug",
+    "groups": [
+      "decompiler",
+      "disassembler",
+      "reversing"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "cafebabe",
     "version": "0.1.2",
     "description": "Java bytecode editor & decompiler.",
-    "url": "https://grax.info/"
+    "url": "https://grax.info/",
+    "groups": [
+      "decompiler",
+      "reversing"
+    ],
+    "updated": "2020-07-24"
   },
   {
     "name": "fernflower",
     "version": "802.c03cae7a",
     "description": "An analytical decompiler for Java.",
-    "url": "https://github.com/JetBrains/fernflower"
+    "url": "https://github.com/JetBrains/fernflower",
+    "groups": [
+      "decompiler"
+    ],
+    "updated": "2025-08-23"
+  },
+  {
+    "name": "ffdec",
+    "version": "26.2.1",
+    "description": "Open Source Flash SWF decompiler and editor.",
+    "url": "https://github.com/jindrapetrik/jpexs-decompiler",
+    "groups": [
+      "decompiler",
+      "misc"
+    ],
+    "updated": "2026-09-13"
+  },
+  {
+    "name": "flasm",
+    "version": "1.62",
+    "description": "Disassembler tool for SWF bytecode.",
+    "url": "http://www.nowrap.de/flasm.html",
+    "groups": [
+      "decompiler",
+      "reversing"
+    ],
+    "updated": "2025-12-14"
   },
   {
     "name": "gadgetinspector",
     "version": "6.ac7832d",
     "description": "A byte code analyzer for finding deserialization gadget chains in Java applications.",
-    "url": "https://github.com/JackOfMostTrades/gadgetinspector"
+    "url": "https://github.com/JackOfMostTrades/gadgetinspector",
+    "groups": [
+      "decompiler",
+      "binary"
+    ],
+    "updated": "2020-03-25"
   },
   {
     "name": "jbe",
     "version": "0.1.1",
     "description": "Java bytecode editor suitable for viewing and modifying java class files.",
-    "url": "https://set.ee/jbe/"
+    "url": "https://set.ee/jbe/",
+    "groups": [
+      "decompiler",
+      "reversing"
+    ],
+    "updated": "2024-10-03"
   },
   {
     "name": "jd-cli",
     "version": "1.2.0",
     "description": "Command line Java Decompiler.",
-    "url": "https://github.com/intoolswetrust/jd-cli"
+    "url": "https://github.com/intoolswetrust/jd-cli",
+    "groups": [
+      "decompiler",
+      "reversing"
+    ],
+    "updated": "2021-06-21"
   },
   {
     "name": "jd-gui",
     "version": "1.6.6",
     "description": "A standalone graphical utility that displays Java source codes of .class files.",
-    "url": "https://github.com/java-decompiler/jd-gui"
+    "url": "https://github.com/java-decompiler/jd-gui",
+    "groups": [
+      "decompiler",
+      "reversing"
+    ],
+    "updated": "2024-10-07"
   },
   {
     "name": "jpexs-decompiler",
     "version": "15.1.0",
     "description": "JPEXS Free Flash Decompiler.",
-    "url": "https://github.com/jindrapetrik/jpexs-decompiler"
+    "url": "https://github.com/jindrapetrik/jpexs-decompiler",
+    "groups": [
+      "decompiler"
+    ],
+    "updated": "2022-03-07"
   },
   {
     "name": "luyten",
     "version": "0.5.4",
     "description": "An Open Source Java Decompiler Gui for Procyon.",
-    "url": "https://github.com/deathmarine/Luyten"
+    "url": "https://github.com/deathmarine/Luyten",
+    "groups": [
+      "decompiler",
+      "misc"
+    ],
+    "updated": "2019-02-10"
   },
   {
     "name": "pcode2code",
     "version": "6.65ae983",
     "description": "VBA p-code decompiler.",
-    "url": "https://github.com/Big5-sec/pcode2code"
+    "url": "https://github.com/Big5-sec/pcode2code",
+    "groups": [
+      "decompiler"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "procyon",
     "version": "0.6",
     "description": "A suite of Java metaprogramming tools focused on code generation and analysis.",
-    "url": "https://github.com/mstrobel/procyon"
+    "url": "https://github.com/mstrobel/procyon",
+    "groups": [
+      "decompiler",
+      "code-audit"
+    ],
+    "updated": "2021-06-23"
   },
   {
     "name": "python-uncompyle6",
     "version": "3.9.3",
     "description": "A Python cross-version decompiler.",
-    "url": "https://pypi.org/project/uncompyle6/#files"
+    "url": "https://pypi.org/project/uncompyle6/#files",
+    "groups": [
+      "decompiler"
+    ],
+    "updated": "2026-01-16"
   },
   {
     "name": "recaf",
     "version": "4.0.0.alpha.r594.gd5888cd",
     "description": "Modern Java bytecode editor.",
-    "url": "https://github.com/Col-E/Recaf"
-  },
-  {
-    "name": "recstudio",
-    "version": "4.1",
-    "description": "Cross platform interactive decompiler.",
-    "url": "http://www.backerstreet.com/rec/rec.htm"
+    "url": "https://github.com/Col-E/Recaf",
+    "groups": [
+      "decompiler",
+      "reversing"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "rej",
     "version": "0.7",
     "description": "An API and a graphical tool for inspection and manipulation of classfiles for the Java platform.",
-    "url": "https://sourceforge.net/projects/rejava/"
+    "url": "https://sourceforge.net/projects/rejava/",
+    "groups": [
+      "decompiler",
+      "reversing"
+    ],
+    "updated": "2024-10-03"
   },
   {
     "name": "retdec",
     "version": "2161.04df6def",
     "description": "Retargetable machine-code decompiler based on LLVM.",
-    "url": "https://retdec.com/"
+    "url": "https://retdec.com/",
+    "groups": [
+      "decompiler",
+      "reversing"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "shuji",
     "version": "0.8.0.r141.ge7bce98",
     "description": "Reverse engineering JavaScript and CSS sources from sourcemaps.",
-    "url": "https://github.com/paazmaya/shuji"
+    "url": "https://github.com/paazmaya/shuji",
+    "groups": [
+      "decompiler"
+    ],
+    "updated": "2026-10-31"
   }
 ]

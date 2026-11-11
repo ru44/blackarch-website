@@ -4,9 +4,7 @@ src/.vitepress/dist
 src/.vitepress/cache
 # Generated or vendored data
 src/data/tools
-src/data/tool-groups.json
 src/data/tool-docs.json
 *.md
 .claude
-src/data/tool-updates.json
 src/data/tool-stars.json

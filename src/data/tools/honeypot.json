@@ -3,96 +3,166 @@
     "name": "beeswarm",
     "version": "1183.db51ea0",
     "description": "Honeypot deployment made easy.",
-    "url": "https://github.com/honeynet/beeswarm"
+    "url": "https://github.com/honeynet/beeswarm",
+    "groups": [
+      "honeypot"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "conpot",
     "version": "0.6.0",
     "description": "ICS honeypot with the goal to collect intelligence about the motives and methods of adversaries targeting industrial control systems.",
-    "url": "https://pypi.org/project/Conpot/"
+    "url": "https://pypi.org/project/Conpot/",
+    "groups": [
+      "honeypot"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "fakeap",
     "version": "0.3.2",
     "description": "Black Alchemy's Fake AP generates thousands of counterfeit 802.11b access points. Hide in plain sight amongst Fake AP's cacophony of beacon frames.",
-    "url": "http://www.blackalchemy.to/project/fakeap/"
+    "url": "http://www.blackalchemy.to/project/fakeap/",
+    "groups": [
+      "honeypot"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "fiked",
     "version": "0.0.5",
-    "description": "Fake IDE daemon",
-    "url": "https://www.roe.ch/FakeIKEd"
+    "description": "Fake IDE daemon.",
+    "url": "https://www.roe.ch/FakeIKEd",
+    "groups": [
+      "honeypot"
+    ],
+    "updated": "2025-09-30"
   },
   {
     "name": "heartbleed-honeypot",
     "version": "0.1",
     "description": "Script that listens on TCP port 443 and responds with completely bogus SSL heartbeat responses, unless it detects the start of a byte pattern similar to that used in Jared Stafford's",
-    "url": "http://packetstormsecurity.com/files/126068/hb_honeypot.pl.txt"
+    "url": "http://packetstormsecurity.com/files/126068/hb_honeypot.pl.txt",
+    "groups": [
+      "honeypot"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "honeyd",
     "version": "337.a0f3d64",
     "description": "A small daemon that creates virtual hosts on a network.",
-    "url": "https://github.com/DataSoft/Honeyd"
+    "url": "https://github.com/DataSoft/Honeyd",
+    "groups": [
+      "honeypot"
+    ],
+    "updated": "2019-11-16"
   },
   {
     "name": "honeypy",
     "version": "600.6ca3d6e",
     "description": "A low interaction Honeypot.",
-    "url": "https://github.com/foospidy/HoneyPy"
+    "url": "https://github.com/foospidy/HoneyPy",
+    "groups": [
+      "honeypot",
+      "defensive"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "honssh",
     "version": "1.1.2.r2.g821ce87",
     "description": "A high-interaction Honey Pot solution designed to log all SSH communications between a client and server.",
-    "url": ""
+    "url": "",
+    "groups": [
+      "honeypot"
+    ],
+    "updated": "2026-01-30"
   },
   {
     "name": "hpfeeds",
     "version": "414.34bf4d4",
     "description": "Honeynet Project generic authenticated datafeed protocol.",
-    "url": "https://github.com/hpfeeds/hpfeeds"
+    "url": "https://github.com/hpfeeds/hpfeeds",
+    "groups": [
+      "honeypot",
+      "networking"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "kippo",
     "version": "287.b9eb06a",
     "description": "A medium interaction SSH honeypot designed to log brute force attacks and most importantly, the entire shell interaction by the attacker.",
-    "url": "https://github.com/desaster/kippo"
+    "url": "https://github.com/desaster/kippo",
+    "groups": [
+      "honeypot"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "pshitt",
     "version": "23.dae7931",
     "description": "A lightweight fake SSH server designed to collect authentication data sent by intruders.",
-    "url": "https://github.com/regit/pshitt"
+    "url": "https://github.com/regit/pshitt",
+    "groups": [
+      "honeypot"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "python2-hpfeeds",
     "version": "414.34bf4d4",
     "description": "Honeynet Project generic authenticated datafeed protocol.",
-    "url": "https://github.com/hpfeeds/hpfeeds"
+    "url": "https://github.com/hpfeeds/hpfeeds",
+    "groups": [
+      "honeypot",
+      "networking"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "snare",
     "version": "188.b17fdfe",
     "description": "Super Next generation Advanced Reactive honeypot.",
-    "url": "https://github.com/mushorg/snare"
+    "url": "https://github.com/mushorg/snare",
+    "groups": [
+      "honeypot",
+      "webapp"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "ssh-honeypot",
     "version": "113.4bda71c",
     "description": "Fake sshd that logs ip addresses, usernames, and passwords.",
-    "url": "https://github.com/droberson/ssh-honeypot"
+    "url": "https://github.com/droberson/ssh-honeypot",
+    "groups": [
+      "honeypot"
+    ],
+    "updated": "2024-11-01"
   },
   {
     "name": "wifi-honey",
     "version": "1.0",
     "description": "A management tool for wifi honeypots.",
-    "url": "http://www.digininja.org/projects/wifi_honey.php"
+    "url": "http://www.digininja.org/projects/wifi_honey.php",
+    "groups": [
+      "honeypot",
+      "wireless"
+    ],
+    "updated": "2018-11-12"
   },
   {
     "name": "wordpot",
     "version": "44.e96889b",
     "description": "A Wordpress Honeypot.",
-    "url": "https://github.com/gbrindisi/wordpot"
+    "url": "https://github.com/gbrindisi/wordpot",
+    "groups": [
+      "honeypot",
+      "defensive"
+    ],
+    "updated": "2024-12-26"
   }
 ]

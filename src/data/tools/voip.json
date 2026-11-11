@@ -2,133 +2,232 @@
   {
     "name": "ace",
     "version": "1.11",
-    "description": "Automated Corporate Enumerator. A simple yet powerful VoIP Corporate Directory enumeration tool that mimics the behavior of an IP Phone in order to download the name and extension entries that a given phone can display on its screen interface",
-    "url": "https://ucsniff.sourceforge.net/ace.html"
+    "description": "A simple yet powerful VoIP Corporate Directory enumeration tool that mimics the behavior of an IP Phone in order to download the name and extension entries that a given phone can display on its screen interface.",
+    "url": "https://ucsniff.sourceforge.net/ace.html",
+    "groups": [
+      "voip"
+    ],
+    "updated": "2025-12-02"
   },
   {
     "name": "bluebox-ng",
     "version": "1.1.0",
     "description": "A GPL VoIP/UC vulnerability scanner.",
-    "url": "https://github.com/jesusprubio/bluebox"
+    "url": "https://github.com/jesusprubio/bluebox",
+    "groups": [
+      "voip",
+      "scanner",
+      "fuzzer"
+    ],
+    "updated": "2026-02-03"
   },
   {
     "name": "erase-registrations",
     "version": "1.0",
     "description": "An IAX flooder.",
-    "url": "http://www.hackingexposedvoip.com/"
+    "url": "http://www.hackingexposedvoip.com/",
+    "groups": [
+      "voip"
+    ],
+    "updated": "2018-11-12"
   },
   {
     "name": "ilty",
     "version": "1.0",
     "description": "An interception phone system for VoIP network.",
-    "url": "https://www.chdir.org/~nico/ilty/"
+    "url": "https://www.chdir.org/~nico/ilty/",
+    "groups": [
+      "voip"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "isip",
     "version": "2.fad1f10",
     "description": "Interactive sip toolkit for packet manipulations, sniffing, man in the middle attacks, fuzzing, simulating of dos attacks.",
-    "url": "https://github.com/halit/isip"
+    "url": "https://github.com/halit/isip",
+    "groups": [
+      "voip",
+      "networking",
+      "fuzzer",
+      "dos"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "isme",
     "version": "0.12",
     "description": "Scans a VOIP environment, adapts to enterprise VOIP, and exploits the possibilities of being connected directly to an IP Phone VLAN.",
-    "url": "https://packetstormsecurity.com/files/123534/IP-Phone-Scanning-Made-Easy-0.12.html"
+    "url": "https://packetstormsecurity.com/files/123534/IP-Phone-Scanning-Made-Easy-0.12.html",
+    "groups": [
+      "voip",
+      "recon",
+      "scanner"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "mrsip",
     "version": "110.bdd98ad",
     "description": "SIP-Based Audit and Attack Tool.",
-    "url": "https://github.com/meliht/mr.sip"
+    "url": "https://github.com/meliht/mr.sip",
+    "groups": [
+      "voip"
+    ],
+    "updated": "2020-12-13"
   },
   {
     "name": "pcapsipdump",
     "version": "0.2",
     "description": "A tool for dumping SIP sessions (+RTP traffic, if available) to disk in a fashion similar to 'tcpdump -w' (format is exactly the same), but one file per sip session (even if there is thousands of concurrent SIP sessions).",
-    "url": "https://pcapsipdump.sourceforge.net/"
+    "url": "https://pcapsipdump.sourceforge.net/",
+    "groups": [
+      "voip"
+    ],
+    "updated": "2020-07-23"
   },
   {
     "name": "protos-sip",
     "version": "2",
     "description": "SIP test suite.",
-    "url": "https://www.ee.oulu.fi/research/ouspg/PROTOS_Test-Suite_c07-sip"
+    "url": "https://www.ee.oulu.fi/research/ouspg/PROTOS_Test-Suite_c07-sip",
+    "groups": [
+      "voip"
+    ],
+    "updated": "2014-05-29"
   },
   {
     "name": "redirectpoison",
     "version": "1.1",
     "description": "A tool to poison a targeted issuer of SIP INVITE requests with 301 (i.e. Moved Permanently) redirection responses.",
-    "url": "http://www.hackingexposedvoip.com/"
+    "url": "http://www.hackingexposedvoip.com/",
+    "groups": [
+      "voip"
+    ],
+    "updated": "2020-02-01"
   },
   {
     "name": "rtp-flood",
     "version": "1.0",
     "description": "RTP flooder",
-    "url": "http://www.hackingexposedvoip.com/"
+    "url": "http://www.hackingexposedvoip.com/",
+    "groups": [
+      "voip"
+    ],
+    "updated": "2015-09-07"
   },
   {
     "name": "siparmyknife",
     "version": "11232011",
     "description": "A small command line tool for developers and administrators of Session Initiation Protocol (SIP) applications.",
-    "url": "http://packetstormsecurity.com/files/107301/sipArmyKnife_11232011.pl.txt"
+    "url": "http://packetstormsecurity.com/files/107301/sipArmyKnife_11232011.pl.txt",
+    "groups": [
+      "voip"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "sipbrute",
     "version": "11.5be2fdd",
     "description": "A utility to perform dictionary attacks against the VoIP SIP Register hash.",
-    "url": "https://github.com/packetassailant/sipbrute"
+    "url": "https://github.com/packetassailant/sipbrute",
+    "groups": [
+      "voip",
+      "cracker"
+    ],
+    "updated": "2021-04-27"
   },
   {
     "name": "sipp",
     "version": "1574.5c4e8dc",
     "description": "A free Open Source test tool / traffic generator for the SIP protocol.",
-    "url": "https://sipp.sourceforge.net/"
+    "url": "https://sipp.sourceforge.net/",
+    "groups": [
+      "voip"
+    ],
+    "updated": "2025-12-27"
   },
   {
     "name": "sippts",
     "version": "v4.2.1.r0.g44568c8",
     "description": "Set of tools to audit SIP based VoIP Systems.",
-    "url": "https://github.com/Pepelux/sippts"
+    "url": "https://github.com/Pepelux/sippts",
+    "groups": [
+      "voip"
+    ],
+    "updated": "2026-09-28"
   },
   {
     "name": "sipsak",
     "version": "0.9.8.1",
     "description": "A small command line tool for developers and administrators of Session Initiation Protocol (SIP) applications.",
-    "url": "https://github.com/nils-ohlmeier/sipsak/releases"
+    "url": "https://github.com/nils-ohlmeier/sipsak/releases",
+    "groups": [
+      "voip"
+    ],
+    "updated": "2021-06-23"
   },
   {
     "name": "storm-ring",
     "version": "0.1",
     "description": "This simple tool is useful to test a PABX with \"allow guest\" parameter set to \"yes\" (in this scenario an anonymous caller could place a call).",
-    "url": "http://packetstormsecurity.com/files/115852/Storm-Ringing-PABX-Test-Tool.html"
+    "url": "http://packetstormsecurity.com/files/115852/Storm-Ringing-PABX-Test-Tool.html",
+    "groups": [
+      "voip",
+      "scanner"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "teardown",
     "version": "1.0",
     "description": "Command line tool to send a BYE request to tear down a call.",
-    "url": "http://www.hackingexposedvoip.com/"
+    "url": "http://www.hackingexposedvoip.com/",
+    "groups": [
+      "voip"
+    ],
+    "updated": "2015-09-06"
   },
   {
     "name": "vnak",
     "version": "1.cf0fda7",
     "description": "Aim is to be the one tool a user needs to attack multiple VoIP protocols.",
-    "url": "https://www.isecpartners.com/vnak.html"
+    "url": "https://www.isecpartners.com/vnak.html",
+    "groups": [
+      "voip"
+    ],
+    "updated": "2026-01-14"
   },
   {
     "name": "voiper",
     "version": "0.07",
     "description": "A VoIP security testing toolkit incorporating several VoIP fuzzers and auxiliary tools to assist the auditor.",
-    "url": "https://voiper.sourceforge.net/"
+    "url": "https://voiper.sourceforge.net/",
+    "groups": [
+      "voip"
+    ],
+    "updated": "2026-01-14"
   },
   {
     "name": "voipong",
     "version": "2.0",
     "description": "A utility which detects all Voice Over IP calls on a pipeline, and for those which are G711 encoded, dumps actual conversation to separate wave files.",
-    "url": "http://www.enderunix.org/voipong/"
+    "url": "http://www.enderunix.org/voipong/",
+    "groups": [
+      "voip"
+    ],
+    "updated": "2020-07-23"
   },
   {
     "name": "vsaudit",
     "version": "21.2cbc47b",
     "description": "VOIP Security Audit Framework.",
-    "url": "https://github.com/sonnyattck/vsaudit"
+    "url": "https://github.com/sonnyattck/vsaudit",
+    "groups": [
+      "voip",
+      "scanner",
+      "fuzzer"
+    ],
+    "updated": "2025-04-29"
   }
 ]

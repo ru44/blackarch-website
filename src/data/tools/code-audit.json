@@ -3,180 +3,311 @@
     "name": "bof-detector",
     "version": "19.e08367d",
     "description": "A simple detector of BOF vulnerabilities by source-code-level check.",
-    "url": "https://github.com/st9140927/BOF_Detector"
+    "url": "https://github.com/st9140927/BOF_Detector",
+    "groups": [
+      "code-audit"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "brakeman",
     "version": "v8.1.0.r2.g4bfdad0c3",
     "description": "A static analysis security vulnerability scanner for Ruby on Rails applications.",
-    "url": "https://brakemanscanner.org/"
+    "url": "https://brakemanscanner.org/",
+    "groups": [
+      "code-audit",
+      "exploitation",
+      "scanner",
+      "webapp"
+    ],
+    "updated": "2026-10-24"
   },
   {
     "name": "cflow",
     "version": "1.8",
     "description": "A C program flow analyzer.",
-    "url": "http://www.gnu.org/software/cflow/"
+    "url": "http://www.gnu.org/software/cflow/",
+    "groups": [
+      "code-audit"
+    ],
+    "updated": "2026-05-04"
   },
   {
     "name": "checkov",
     "version": "3.4.0.r1.g3bdc054cfb",
     "description": "Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages.",
-    "url": "https://github.com/bridgecrewio/checkov"
+    "url": "https://github.com/bridgecrewio/checkov",
+    "groups": [
+      "code-audit"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "cpptest",
     "version": "2.0.0",
     "description": "A portable and powerful, yet simple, unit testing framework for handling automated tests in C++.",
-    "url": "https://github.com/cpptest/cpptest/releases"
+    "url": "https://github.com/cpptest/cpptest/releases",
+    "groups": [
+      "code-audit"
+    ],
+    "updated": "2019-05-09"
   },
   {
     "name": "dependency-check",
     "version": "10.0.2",
     "description": "A tool that attempts to detect publicly disclosed vulnerabilities contained within a project's dependencies.",
-    "url": "https://github.com/jeremylong/DependencyCheck/releases/"
+    "url": "https://github.com/jeremylong/DependencyCheck/releases/",
+    "groups": [
+      "code-audit",
+      "defensive",
+      "scanner"
+    ],
+    "updated": "2024-07-25"
   },
   {
     "name": "detect-secrets",
     "version": "v1.5.0.r50.g5e141933",
     "description": "An enterprise friendly way of detecting and preventing secrets in code.",
-    "url": "https://github.com/Yelp/detect-secrets"
+    "url": "https://github.com/Yelp/detect-secrets",
+    "groups": [
+      "code-audit"
+    ],
+    "updated": "2026-08-02"
   },
   {
     "name": "devaudit",
     "version": "803.ca0a68e",
     "description": "An open-source, cross-platform, multi-purpose security auditing tool targeted at developers and teams.",
-    "url": "https://github.com/sonatype-nexus-community/DevAudit"
+    "url": "https://github.com/sonatype-nexus-community/DevAudit",
+    "groups": [
+      "code-audit"
+    ],
+    "updated": "2021-02-14"
   },
   {
     "name": "githound",
     "version": "v3.2.r0.g15701b7",
     "description": "Find secret information in git repositories.",
-    "url": "https://github.com/tillson/git-hound"
+    "url": "https://github.com/tillson/git-hound",
+    "groups": [
+      "code-audit",
+      "recon"
+    ],
+    "updated": "2025-11-23"
   },
   {
     "name": "graudit",
     "version": "738.3317cc2",
     "description": "Grep rough source code auditing tool.",
-    "url": "https://github.com/wireghoul/graudit"
+    "url": "https://github.com/wireghoul/graudit",
+    "groups": [
+      "code-audit"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "horusec",
     "version": "v2.9.0.beta.2.r1.g873d4104",
     "description": "Static code analysis to identify security flaws for many languages.",
-    "url": "https://github.com/ZupIT/horusec"
+    "url": "https://github.com/ZupIT/horusec",
+    "groups": [
+      "code-audit"
+    ],
+    "updated": "2023-08-19"
   },
   {
     "name": "local-php-security-checker",
     "version": "v2.1.3.r1.g1d1fdac",
     "description": "A command line tool that checks your PHP application packages with known security vulnerabilities.",
-    "url": "https://github.com/fabpot/local-php-security-checker"
+    "url": "https://github.com/fabpot/local-php-security-checker",
+    "groups": [
+      "code-audit"
+    ],
+    "updated": "2024-08-04"
   },
   {
     "name": "mosca",
     "version": "130.a7e725d",
     "description": "Static analysis tool to find bugs like a grep unix command.",
-    "url": "https://github.com/CoolerVoid/Mosca"
+    "url": "https://github.com/CoolerVoid/Mosca",
+    "groups": [
+      "code-audit"
+    ],
+    "updated": "2023-01-15"
   },
   {
     "name": "njsscan",
     "version": "0.3.1",
     "description": "A static application testing (SAST) tool that can find insecure code patterns in your node.js applications.",
-    "url": "https://pypi.org/project/njsscan/#files"
+    "url": "https://pypi.org/project/njsscan/#files",
+    "groups": [
+      "code-audit"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "phpstan",
     "version": "15665.da31e27d3",
     "description": "PHP Static Analysis Tool - discover bugs in your code without running it.",
-    "url": "https://github.com/phpstan/phpstan"
+    "url": "https://github.com/phpstan/phpstan",
+    "groups": [
+      "code-audit"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "pscan",
     "version": "1.3",
     "description": "A limited problem scanner for C source files",
-    "url": "https://deployingradius.com/pscan/"
+    "url": "https://deployingradius.com/pscan/",
+    "groups": [
+      "code-audit"
+    ],
+    "updated": "2018-11-12"
   },
   {
     "name": "rats",
     "version": "6.4ba54ce",
     "description": "A rough auditing tool for security in source code files.",
-    "url": "https://github.com/andrew-d/rough-auditing-tool-for-security"
+    "url": "https://github.com/andrew-d/rough-auditing-tool-for-security",
+    "groups": [
+      "code-audit"
+    ],
+    "updated": "2020-02-25"
   },
   {
     "name": "semgrep",
     "version": "1.183.0",
     "description": "Lightweight static analysis for many languages.",
-    "url": "https://pypi.org/project/semgrep/"
+    "url": "https://pypi.org/project/semgrep/",
+    "groups": [
+      "code-audit"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "slither",
     "version": "4851.f9710ded1",
     "description": "Solidity static analysis framework written in Python 3.",
-    "url": "https://github.com/crytic/slither"
+    "url": "https://github.com/crytic/slither",
+    "groups": [
+      "code-audit",
+      "exploitation"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "snyk",
     "version": "1.1283.0",
     "description": "CLI and build-time tool to find and fix known vulnerabilities in open-source dependencies.",
-    "url": "https://github.com/snyk/cli"
+    "url": "https://github.com/snyk/cli",
+    "groups": [
+      "code-audit",
+      "scanner"
+    ],
+    "updated": "2024-03-14"
   },
   {
     "name": "sonar-scanner",
     "version": "6.2.1.4610",
     "description": "Generic CLI tool to launch project analysis on SonarQube servers.",
-    "url": "https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/"
+    "url": "https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/",
+    "groups": [
+      "code-audit"
+    ],
+    "updated": "2024-11-27"
   },
   {
     "name": "spotbugs",
     "version": "17817.eaabea0287",
     "description": "A tool for static analysis to look for bugs in Java code.",
-    "url": "https://github.com/spotbugs/spotbugs"
+    "url": "https://github.com/spotbugs/spotbugs",
+    "groups": [
+      "code-audit"
+    ],
+    "updated": "2025-07-26"
   },
   {
     "name": "stoq",
     "version": "769.8bfc78b",
     "description": "An open source framework for enterprise level automated analysis.",
-    "url": "https://github.com/PUNCH-Cyber/stoq"
+    "url": "https://github.com/PUNCH-Cyber/stoq",
+    "groups": [
+      "code-audit"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "tell-me-your-secrets",
     "version": "v2.4.2.r3.g5434b9d",
     "description": "Find secrets on any machine from over 120 Different Signatures.",
-    "url": "https://github.com/valayDave/tell-me-your-secrets"
+    "url": "https://github.com/valayDave/tell-me-your-secrets",
+    "groups": [
+      "code-audit",
+      "forensic"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "trufflehog",
     "version": "v3.99.7.r9.g421026a65",
     "description": "Searches through git repositories for high entropy strings, digging deep into commit history.",
-    "url": "https://github.com/trufflesecurity/trufflehog"
+    "url": "https://github.com/trufflesecurity/trufflehog",
+    "groups": [
+      "code-audit",
+      "recon"
+    ],
+    "updated": "2026-11-01"
   },
   {
     "name": "whispers",
     "version": "2.4.0.r0.g24ee0f0",
     "description": "Identify hardcoded secrets in static structured text.",
-    "url": "https://github.com/adeptex/whispers"
+    "url": "https://github.com/adeptex/whispers",
+    "groups": [
+      "code-audit"
+    ],
+    "updated": "2026-01-14"
   },
   {
     "name": "wpbullet",
     "version": "34.6185112",
     "description": "A static code analysis for WordPress (and PHP).",
-    "url": "https://github.com/webarx-security/wpbullet"
+    "url": "https://github.com/webarx-security/wpbullet",
+    "groups": [
+      "code-audit",
+      "webapp"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "wscript",
     "version": "201.0410be2",
     "description": "Emulator/tracer of the Windows Script Host functionality.",
-    "url": "https://github.com/mrpapercut/wscript"
+    "url": "https://github.com/mrpapercut/wscript",
+    "groups": [
+      "code-audit"
+    ],
+    "updated": "2019-07-25"
   },
   {
     "name": "yasca",
     "version": "2.1",
     "description": "Multi-Language Static Analysis Toolset.",
-    "url": "http://www.scovetta.com/yasca.html"
+    "url": "http://www.scovetta.com/yasca.html",
+    "groups": [
+      "code-audit"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "zarn",
     "version": "0.0.9.r146.gcf91492",
     "description": "A lightweight static security analysis tool for modern Perl Apps.",
-    "url": "https://github.com/htrgouvea/zarn"
+    "url": "https://github.com/htrgouvea/zarn",
+    "groups": [
+      "code-audit"
+    ],
+    "updated": "2026-11-01"
   }
 ]

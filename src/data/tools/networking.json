@@ -3,864 +3,1558 @@
     "name": "adassault",
     "version": "0.0.4.r29.g7a85b8e",
     "description": "An Active Directory environments pentest tool complementary to existing ones like NetExec.",
-    "url": "https://noraj.github.io/ADAssault/"
+    "url": "https://noraj.github.io/ADAssault/",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "aiengine",
     "version": "2.0.1",
     "description": "A packet inspection engine with capabilities of learning without any human intervention.",
-    "url": "https://bitbucket.org/camp0/aiengine/downloads/"
+    "url": "https://bitbucket.org/camp0/aiengine/downloads/",
+    "groups": [
+      "networking",
+      "defensive"
+    ],
+    "updated": "2022-02-26"
   },
   {
     "name": "apacket",
     "version": "374.16e7036",
     "description": "Sniffer syn and backscatter packets.",
-    "url": "https://github.com/Acey9/apacket"
+    "url": "https://github.com/Acey9/apacket",
+    "groups": [
+      "networking",
+      "sniffer"
+    ],
+    "updated": "2019-04-21"
   },
   {
     "name": "argus",
     "version": "3.0.8.2",
     "description": "Network monitoring tool with flow control.",
-    "url": "http://qosient.com/argus/"
+    "url": "http://qosient.com/argus/",
+    "groups": [
+      "networking",
+      "defensive",
+      "sniffer"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "argus-clients",
     "version": "3.0.8.3",
     "description": "Network monitoring client for Argus.",
-    "url": "http://qosient.com/argus/"
+    "url": "http://qosient.com/argus/",
+    "groups": [
+      "networking",
+      "defensive",
+      "sniffer"
+    ],
+    "updated": "2026-05-04"
   },
   {
     "name": "arpalert",
     "version": "2.0.12",
     "description": "Monitor ARP changes in ethernet networks.",
-    "url": "https://www.arpalert.org/"
+    "url": "https://www.arpalert.org/",
+    "groups": [
+      "networking",
+      "defensive"
+    ],
+    "updated": "2015-03-21"
   },
   {
     "name": "arping-th",
     "version": "2.25",
     "description": "ARP Ping from Thomas Habets (aka Debian arping).",
-    "url": "https://github.com/ThomasHabets/arping"
+    "url": "https://github.com/ThomasHabets/arping",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2024-09-04"
   },
   {
     "name": "arptools",
     "version": "13.41cdb23",
     "description": "A simple tool about ARP broadcast, ARP attack, and data transmission.",
-    "url": "https://github.com/Lab-Zjt/ARPTools"
+    "url": "https://github.com/Lab-Zjt/ARPTools",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2018-04-29"
   },
   {
     "name": "arpwner",
     "version": "26.f300fdf",
     "description": "GUI-based python tool for arp poisoning and dns poisoning attacks.",
-    "url": "https://github.com/ntrippar/ARPwner"
+    "url": "https://github.com/ntrippar/ARPwner",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2026-02-13"
   },
   {
     "name": "asnmap",
     "version": "v1.2.0.r0.gab84a74",
     "description": "Map organization network ranges using ASN information.",
-    "url": "https://github.com/projectdiscovery/asnmap"
+    "url": "https://github.com/projectdiscovery/asnmap",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2026-10-31"
   },
   {
     "name": "autovpn",
     "version": "18.28b1a87",
     "description": "Easily connect to a VPN in a country of your choice.",
-    "url": "https://github.com/adtac/autovpn"
+    "url": "https://github.com/adtac/autovpn",
+    "groups": [
+      "networking",
+      "automation"
+    ],
+    "updated": "2021-06-13"
   },
   {
     "name": "buttinsky",
     "version": "138.1a2a1b2",
     "description": "Provide an open source framework for automated botnet monitoring.",
-    "url": "https://github.com/mushorg/buttinsky"
+    "url": "https://github.com/mushorg/buttinsky",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "bypass-firewall-dns-history",
     "version": "33.c55b7ce",
     "description": "Firewall bypass script based on DNS history records.",
-    "url": "https://github.com/vincentcox/bypass-firewalls-by-DNS-history"
+    "url": "https://github.com/vincentcox/bypass-firewalls-by-DNS-history",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2020-10-26"
   },
   {
     "name": "chameleon",
     "version": "29.4414287",
     "description": "A tool for evading Proxy categorisation.",
-    "url": "https://github.com/mdsecactivebreach/Chameleon"
+    "url": "https://github.com/mdsecactivebreach/Chameleon",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "chaosreader",
     "version": "0.94",
     "description": "A freeware tool to trace tcp, udp etc. sessions and fetch application data from snoop or tcpdump logs.",
-    "url": "https://chaosreader.sourceforge.net/"
+    "url": "https://chaosreader.sourceforge.net/",
+    "groups": [
+      "networking",
+      "sniffer"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "chopshop",
     "version": "444.8bdd393",
     "description": "Protocol Analysis/Decoder Framework.",
-    "url": "https://github.com/MITRECND/chopshop"
+    "url": "https://github.com/MITRECND/chopshop",
+    "groups": [
+      "networking",
+      "reversing"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "cidr2range",
     "version": "1.0",
     "description": "Script for listing the IP addresses contained in a CIDR netblock.",
-    "url": "http://www.cpan.org/authors/id/R/RA/RAYNERLUC/"
+    "url": "http://www.cpan.org/authors/id/R/RA/RAYNERLUC/",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "creak",
     "version": "41.a6c011f",
     "description": "Poison, reset, spoof, redirect MITM script.",
-    "url": "https://github.com/codepr/creak"
+    "url": "https://github.com/codepr/creak",
+    "groups": [
+      "networking",
+      "exploitation",
+      "sniffer"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "cyberscan",
     "version": "87.24c69b9",
     "description": "A Network Pentesting Tool.",
-    "url": "https://github.com/medbenali/CyberScan"
+    "url": "https://github.com/medbenali/CyberScan",
+    "groups": [
+      "networking",
+      "scanner"
+    ],
+    "updated": "2026-05-02"
   },
   {
     "name": "dcdetector",
     "version": "0.0.1.r52.g2e69244",
     "description": "Spot all domain controllers in a Microsoft Active Directory environment. Find computer name, FQDN, and IP address(es) of all DCs.",
-    "url": "https://github.com/noraj/DCDetector"
+    "url": "https://github.com/noraj/DCDetector",
+    "groups": [
+      "networking",
+      "recon",
+      "windows"
+    ],
+    "updated": "2025-04-29"
   },
   {
     "name": "depdep",
     "version": "2.0",
     "description": "A merciless sentinel which will seek sensitive files containing critical info leaking through your network.",
-    "url": "https://github.com/galkan/depdep"
+    "url": "https://github.com/galkan/depdep",
+    "groups": [
+      "networking",
+      "malware"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "det",
     "version": "31.417cbce",
     "description": "(extensible) Data Exfiltration Toolkit.",
-    "url": "https://github.com/sensepost/det"
+    "url": "https://github.com/sensepost/det",
+    "groups": [
+      "networking",
+      "misc"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "dhcpoptinj",
     "version": "123.58a12c6",
     "description": "DHCP option injector.",
-    "url": "https://github.com/misje/dhcpoptinj"
+    "url": "https://github.com/misje/dhcpoptinj",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2019-08-07"
   },
   {
     "name": "dinouml",
     "version": "0.9.5",
     "description": "A network simulation tool, based on UML (User Mode Linux) that can simulate big Linux networks on a single PC",
-    "url": "http://kernel.embedromix.ro/us/"
+    "url": "http://kernel.embedromix.ro/us/",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2018-11-12"
   },
   {
     "name": "dnsdiag",
     "version": "v2.10.0.r2.g7bc7ac7",
     "description": "DNS Diagnostics and Performance Measurement Tools.",
-    "url": "https://dnsdiag.org/"
+    "url": "https://dnsdiag.org/",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "dnsfilexfer",
     "version": "24.126edcd",
     "description": "File transfer via DNS.",
-    "url": "https://github.com/leonjza/dnsfilexfer"
+    "url": "https://github.com/leonjza/dnsfilexfer",
+    "groups": [
+      "networking",
+      "misc"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "dnsobserver",
     "version": "5.f331482",
     "description": "A handy DNS service written in Go to aid in the detection of several types of blind vulnerabilities.",
-    "url": "https://github.com/allyomalley/dnsobserver"
+    "url": "https://github.com/allyomalley/dnsobserver",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2022-02-25"
   },
   {
     "name": "dnsteal",
     "version": "28.1b09d21",
     "description": "DNS Exfiltration tool for stealthily sending files over DNS requests..",
-    "url": "https://github.com/m57/dnsteal"
+    "url": "https://github.com/m57/dnsteal",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "dnsvalidator",
     "version": "90.46f0f32",
     "description": "Maintains a list of IPv4 DNS servers by verifying them against baseline servers, and ensuring accurate responses.",
-    "url": "https://github.com/vortexau/dnsvalidator"
+    "url": "https://github.com/vortexau/dnsvalidator",
+    "groups": [
+      "networking",
+      "misc"
+    ],
+    "updated": "2026-09-28"
   },
   {
     "name": "dripcap",
     "version": "0.6.15",
     "description": "Caffeinated Packet Analyzer.",
-    "url": "https://github.com/dripcap/dripcap"
+    "url": "https://github.com/dripcap/dripcap",
+    "groups": [
+      "networking",
+      "sniffer"
+    ],
+    "updated": "2017-02-25"
   },
   {
     "name": "dtp-spoof",
     "version": "5.3ae05fc",
     "description": "Python script/security tool to test Dynamic Trunking Protocol configuration on a switch.",
-    "url": "https://github.com/fleetcaptain/dtp-spoof"
+    "url": "https://github.com/fleetcaptain/dtp-spoof",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "dublin-traceroute",
     "version": "0.4.2.r176.gd8a9e5b",
     "description": "NAT-aware multipath tracerouting tool.",
-    "url": "https://github.com/insomniacslk/dublin-traceroute"
+    "url": "https://github.com/insomniacslk/dublin-traceroute",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "dump1090",
     "version": "386.bff92c4",
     "description": "A simple Mode S decoder for RTLSDR devices.",
-    "url": "https://github.com/MalcolmRobb/dump1090"
+    "url": "https://github.com/MalcolmRobb/dump1090",
+    "groups": [
+      "networking",
+      "misc"
+    ],
+    "updated": "2016-09-03"
   },
   {
     "name": "evillimiter",
     "version": "36.46d2033",
     "description": "Tool that limits bandwidth of devices on the same network without access.",
-    "url": "https://github.com/bitbrute/evillimiter"
+    "url": "https://github.com/bitbrute/evillimiter",
+    "groups": [
+      "networking",
+      "misc"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "exabgp",
     "version": "nightly.r0.gd6adb5d",
     "description": "The BGP swiss army knife of networking.",
-    "url": "https://github.com/Exa-Networks/exabgp"
+    "url": "https://github.com/Exa-Networks/exabgp",
+    "groups": [
+      "networking",
+      "defensive"
+    ],
+    "updated": "2026-11-01"
   },
   {
     "name": "filibuster",
     "version": "167.c54ac80",
     "description": "A Egress filter mapping application with additional functionality.",
-    "url": "https://github.com/subinacls/Filibuster"
+    "url": "https://github.com/subinacls/Filibuster",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2018-09-01"
   },
   {
     "name": "firecat",
     "version": "6.b5205c8",
     "description": "A penetration testing tool that allows you to punch reverse TCP tunnels out of a compromised network.",
-    "url": "https://github.com/BishopFox/firecat"
+    "url": "https://github.com/BishopFox/firecat",
+    "groups": [
+      "networking",
+      "tunnel"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "flowinspect",
     "version": "97.34759ed",
     "description": "A network traffic inspection tool.",
-    "url": "https://github.com/7h3rAm/flowinspect"
+    "url": "https://github.com/7h3rAm/flowinspect",
+    "groups": [
+      "networking",
+      "sniffer"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "girsh",
     "version": "v0.41.r0.gfc5b44e",
     "description": "Automatically spawn a reverse shell fully interactive for Linux or Windows victim.",
-    "url": "https://github.com/nodauf/Girsh"
+    "url": "https://github.com/nodauf/Girsh",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2023-05-21"
   },
   {
     "name": "gspoof",
     "version": "3.2",
     "description": "A simple GTK/command line TCP/IP packet generator.",
-    "url": "http://gspoof.sourceforge.net/"
+    "url": "http://gspoof.sourceforge.net/",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2019-06-16"
   },
   {
     "name": "gwcheck",
     "version": "0.1",
     "description": "A simple program that checks if a host in an ethernet network is a gateway to Internet.",
-    "url": "http://packetstormsecurity.com/files/62047/gwcheck.c.html"
+    "url": "http://packetstormsecurity.com/files/62047/gwcheck.c.html",
+    "groups": [
+      "networking",
+      "scanner"
+    ],
+    "updated": "2018-11-15"
   },
   {
     "name": "haka",
     "version": "0.2.2",
     "description": "A collection of tool that allows capturing TCP/IP packets and filtering them based on Lua policy files.",
-    "url": "https://github.com/haka-security/haka"
+    "url": "https://github.com/haka-security/haka",
+    "groups": [
+      "networking",
+      "sniffer"
+    ],
+    "updated": "2015-03-17"
   },
   {
     "name": "hharp",
     "version": "1beta",
     "description": "This tool can perform man-in-the-middle and switch flooding attacks. It has 4 major functions, 3 of which attempt to man-in-the-middle one or more computers on a network with a passive method or flood type method.",
-    "url": "http://packetstormsecurity.com/files/81368/Hackers-Hideaway-ARP-Attack-Tool.html"
+    "url": "http://packetstormsecurity.com/files/81368/Hackers-Hideaway-ARP-Attack-Tool.html",
+    "groups": [
+      "networking",
+      "spoof"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "http-traceroute",
     "version": "0.5",
     "description": "This is a python script that uses the Max-Forwards header in HTTP and SIP to perform a traceroute-like scanning functionality.",
-    "url": "http://packetstormsecurity.com/files/107167/Traceroute-Like-HTTP-Scanner.html"
+    "url": "http://packetstormsecurity.com/files/107167/Traceroute-Like-HTTP-Scanner.html",
+    "groups": [
+      "networking",
+      "recon"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "hyde",
     "version": "11.ec09462",
     "description": "Just another tool in C to do DDoS (with spoofing).",
-    "url": "https://github.com/CoolerVoid/Hyde"
+    "url": "https://github.com/CoolerVoid/Hyde",
+    "groups": [
+      "networking",
+      "dos"
+    ],
+    "updated": "2017-01-12"
   },
   {
     "name": "hyenae",
     "version": "0.36_1",
     "description": "Flexible platform independent packet generator.",
-    "url": "https://sourceforge.net/projects/hyenae/"
+    "url": "https://sourceforge.net/projects/hyenae/",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2019-11-16"
   },
   {
     "name": "hyperfox",
     "version": "121.1a8c26f",
     "description": "A security tool for proxying and recording HTTP and HTTPs traffic.",
-    "url": "https://github.com/malfunkt/hyperfox"
+    "url": "https://github.com/malfunkt/hyperfox",
+    "groups": [
+      "networking",
+      "proxy",
+      "webapp"
+    ],
+    "updated": "2021-04-26"
   },
   {
     "name": "infection-monkey",
     "version": "v2.2.0.r3599.ga55fc8d",
     "description": "Automated security testing tool for networks.",
-    "url": "https://github.com/guardicore/monkey"
+    "url": "https://github.com/guardicore/monkey",
+    "groups": [
+      "networking",
+      "automation"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "interlace",
     "version": "356.b9eb99f",
     "description": "Easily turn single threaded command line applications into a fast, multi-threaded application with CIDR and glob support.",
-    "url": "https://github.com/codingo/Interlace/releases"
+    "url": "https://github.com/codingo/Interlace/releases",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "ipaudit",
     "version": "1.1",
     "description": "Monitors network activity on a network.",
-    "url": "https://ipaudit.sourceforge.net/"
+    "url": "https://ipaudit.sourceforge.net/",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2019-08-24"
   },
   {
     "name": "ipdecap",
     "version": "96.45d2a7d",
     "description": "Can decapsulate traffic encapsulated within GRE, IPIP, 6in4, ESP (ipsec) protocols, and can also remove IEEE 802.1Q (virtual lan) header.",
-    "url": "http://www.loicp.eu/ipdecap#dependances"
+    "url": "http://www.loicp.eu/ipdecap#dependances",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2023-02-28"
   },
   {
     "name": "ipv4bypass",
     "version": "26.844d2d8",
     "description": "Using IPv6 to Bypass Security.",
-    "url": "https://github.com/milo2012/ipv4Bypass"
+    "url": "https://github.com/milo2012/ipv4Bypass",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2025-09-07"
   },
   {
     "name": "jnetmap",
     "version": "0.5.5",
     "description": "A network monitor of sorts.",
-    "url": "https://sourceforge.net/projects/jnetmap/files/"
+    "url": "https://sourceforge.net/projects/jnetmap/files/",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2022-03-07"
   },
   {
     "name": "kickthemout",
     "version": "212.861aea2",
     "description": "Kick devices off your network by performing an ARP Spoof attack.",
-    "url": "https://github.com/k4m4/kickthemout"
+    "url": "https://github.com/k4m4/kickthemout",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "krbjack",
     "version": "1.2.0",
     "description": "DNS dynamic update abuse in ADIDNS and MitM attack using Kerberos AP-REQ hijacking.",
-    "url": "https://github.com/almandin/krbjack"
+    "url": "https://github.com/almandin/krbjack",
+    "groups": [
+      "networking",
+      "exploitation"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "latd",
     "version": "1.31",
     "description": "A LAT terminal daemon for Linux and BSD.",
-    "url": "https://sourceforge.net/projects/linux-decnet/files/latd/1.31/"
+    "url": "https://sourceforge.net/projects/linux-decnet/files/latd/1.31/",
+    "groups": [
+      "networking",
+      "misc"
+    ],
+    "updated": "2025-11-30"
+  },
+  {
+    "name": "ldapconsole",
+    "version": "2.1.0.r12.g1b0886a",
+    "description": "Script allows you to perform custom LDAP requests to a Windows domain.",
+    "url": "https://github.com/p0dalirius/ldapconsole",
+    "groups": [
+      "networking",
+      "windows"
+    ],
+    "updated": "2026-05-02"
   },
   {
     "name": "libparistraceroute",
     "version": "380.455f5ef",
     "description": "A library written in C dedicated to active network measurements with examples, such as paris-ping and paris-traceroute.",
-    "url": "https://github.com/libparistraceroute/libparistraceroute"
+    "url": "https://github.com/libparistraceroute/libparistraceroute",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2025-02-23"
   },
   {
     "name": "libtins",
     "version": "1308.3111a90",
     "description": "High-level, multiplatform C++ network packet sniffing and crafting library.",
-    "url": "https://github.com/mfontanini/libtins"
+    "url": "https://github.com/mfontanini/libtins",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2026-08-24"
+  },
+  {
+    "name": "ligolo-mp",
+    "version": "v2.2.1.r2.g7da8994",
+    "description": "Multiplayer pivoting solution.",
+    "url": "https://github.com/ttpreport/ligolo-mp",
+    "groups": [
+      "networking",
+      "tunnel"
+    ],
+    "updated": "2026-05-02"
   },
   {
     "name": "loic",
     "version": "2.9.9.99",
     "description": "An open source network stress tool for Windows.",
-    "url": "https://github.com/NewEraCracker/LOIC"
+    "url": "https://github.com/NewEraCracker/LOIC",
+    "groups": [
+      "networking",
+      "windows"
+    ],
+    "updated": "2017-10-20"
   },
   {
     "name": "maclookup",
     "version": "0.4",
     "description": "Lookup MAC addresses in the IEEE MA-L/OUI public listing.",
-    "url": "https://github.com/paraxor/maclookup"
+    "url": "https://github.com/paraxor/maclookup",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "maketh",
     "version": "0.2.0",
     "description": "A packet generator that supports forging ARP, IP, TCP, UDP, ICMP and the ethernet header as well.",
-    "url": "https://packetstormsecurity.com/files/83892/Maketh-Packet-Generator-0.2.0.html"
+    "url": "https://packetstormsecurity.com/files/83892/Maketh-Packet-Generator-0.2.0.html",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2018-11-15"
   },
   {
     "name": "malcom",
     "version": "708.02e55b9",
     "description": "Analyze a system's network communication using graphical representations of network traffic.",
-    "url": "https://github.com/tomchop/malcom"
+    "url": "https://github.com/tomchop/malcom",
+    "groups": [
+      "networking",
+      "defensive",
+      "malware"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "massdns",
     "version": "316.6bfa471",
     "description": "A high-performance DNS stub resolver in C.",
-    "url": "https://github.com/blechschmidt/massdns"
+    "url": "https://github.com/blechschmidt/massdns",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2026-05-02"
   },
   {
     "name": "middler",
     "version": "1.0",
     "description": "A Man in the Middle tool to demonstrate protocol middling attacks.",
-    "url": "https://code.google.com/archive/p/middler/"
+    "url": "https://code.google.com/archive/p/middler/",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2025-12-19"
   },
   {
     "name": "mitm",
     "version": "8.bd2b351",
     "description": "A simple yet effective python3 script to perform DNS spoofing via ARP poisoning.",
-    "url": "https://github.com/0x0be/mitm"
+    "url": "https://github.com/0x0be/mitm",
+    "groups": [
+      "networking",
+      "proxy",
+      "spoof"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "moloch",
     "version": "0.11.3",
     "description": "An open source large scale IPv4 full PCAP capturing, indexing and database system.",
-    "url": "https://github.com/arkime/arkime"
+    "url": "https://github.com/arkime/arkime",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2016-03-23"
   },
   {
     "name": "mptcp",
     "version": "1.9.0",
     "description": "A tool for manipulation of raw packets that allows a large number of options.",
-    "url": "http://packetstormsecurity.com/files/119132/Mptcp-Packet-Manipulator-1.9.0.html"
+    "url": "http://packetstormsecurity.com/files/119132/Mptcp-Packet-Manipulator-1.9.0.html",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2018-11-15"
   },
   {
     "name": "mptcp-abuse",
     "version": "6.b0eeb27",
     "description": "A collection of tools and resources to explore MPTCP on your network. Initially released at Black Hat USA 2014.",
-    "url": "https://github.com/CiscoCXSecurity/mptcp-abuse"
+    "url": "https://github.com/CiscoCXSecurity/mptcp-abuse",
+    "groups": [
+      "networking",
+      "recon",
+      "scanner"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "mylg",
     "version": "659.faba867",
     "description": "Network Diagnostic Tool.",
-    "url": "https://github.com/mehrdadrad/mylg"
+    "url": "https://github.com/mehrdadrad/mylg",
+    "groups": [
+      "networking",
+      "recon",
+      "sniffer"
+    ],
+    "updated": "2021-04-27"
   },
   {
     "name": "nacker",
     "version": "23.b67bb39",
     "description": "A tool to circumvent 802.1x Network Access Control on a wired LAN.",
-    "url": "https://github.com/carmaa/nacker"
+    "url": "https://github.com/carmaa/nacker",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "nbtool",
     "version": "2.bf90c76",
     "description": "Some tools for NetBIOS and DNS investigation, attacks, and communication.",
-    "url": "http://wiki.skullsecurity.org/Nbtool"
+    "url": "http://wiki.skullsecurity.org/Nbtool",
+    "groups": [
+      "networking",
+      "recon",
+      "scanner"
+    ],
+    "updated": "2025-11-30"
   },
   {
     "name": "ncpfs",
     "version": "2.2.6",
     "description": "Allows you to mount volumes of NetWare servers under Linux.",
-    "url": "http://www.novell.com/"
+    "url": "http://www.novell.com/",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2015-01-31"
   },
   {
     "name": "nemesis",
     "version": "331.5aee868",
     "description": "A command-line network packet crafting and injection utility.",
-    "url": "https://github.com/libnet/nemesis"
+    "url": "https://github.com/libnet/nemesis",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2024-07-20"
   },
   {
     "name": "netactview",
     "version": "0.6.4",
     "description": "A graphical network connections viewer similar in functionality to netstat.",
-    "url": "https://netactview.sourceforge.net/index.html"
+    "url": "https://netactview.sourceforge.net/index.html",
+    "groups": [
+      "networking",
+      "misc"
+    ],
+    "updated": "2019-05-06"
   },
   {
     "name": "netcon",
     "version": "0.1",
     "description": "A network connection establishment and management script.",
-    "url": "https://github.com/BlackArch/netcon"
+    "url": "https://github.com/BlackArch/netcon",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2025-12-04"
   },
   {
     "name": "netmap",
     "version": "0.1.3",
     "description": "Can be used to make a graphical representation of the surrounding network.",
-    "url": "https://netmap.sourceforge.net/"
+    "url": "https://netmap.sourceforge.net/",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2020-07-23"
   },
   {
     "name": "netreconn",
     "version": "1.78",
     "description": "A collection of network scan/recon tools that are relatively small compared to their larger cousins.",
-    "url": "http://packetstormsecurity.com/files/86076/NetReconn-Scanning-Tool-Collection-1.76.html"
+    "url": "http://packetstormsecurity.com/files/86076/NetReconn-Scanning-Tool-Collection-1.76.html",
+    "groups": [
+      "networking",
+      "recon",
+      "scanner"
+    ],
+    "updated": "2019-12-25"
   },
   {
     "name": "netsed",
     "version": "1.3",
     "description": "Small and handful utility design to alter the contents of packets forwarded thru network in real time.",
-    "url": "http://silicone.homelinux.org/projects/netsed/"
+    "url": "http://silicone.homelinux.org/projects/netsed/",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2019-01-26"
   },
   {
     "name": "networkmap",
     "version": "58.f5faf17",
     "description": "Post-exploitation network mapper.",
-    "url": "https://github.com/lorenzog/NetworkMap"
+    "url": "https://github.com/lorenzog/NetworkMap",
+    "groups": [
+      "networking",
+      "misc"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "nextnet",
     "version": "3.c8dc7a6",
     "description": "Pivot point discovery tool.",
-    "url": "https://github.com/hdm/nextnet"
+    "url": "https://github.com/hdm/nextnet",
+    "groups": [
+      "networking",
+      "scanner"
+    ],
+    "updated": "2021-04-27"
   },
   {
     "name": "nfdump",
     "version": "1.6.23",
     "description": "A set of tools to collect and process netflow data.",
-    "url": "https://github.com/phaag/nfdump"
+    "url": "https://github.com/phaag/nfdump",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2021-06-22"
   },
   {
     "name": "nield",
     "version": "38.0c0848d",
     "description": "A tool to receive notifications from kernel through netlink socket, and generate logs related to interfaces, neighbor cache(ARP,NDP), IP address(IPv4,IPv6), routing, FIB rules, traffic control.",
-    "url": "http://nield.sourceforge.net/"
+    "url": "http://nield.sourceforge.net/",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2019-01-28"
   },
   {
     "name": "nipper",
     "version": "0.11.7",
     "description": "Network Infrastructure Parser",
-    "url": "https://www.titania-security.com/"
+    "url": "https://www.titania-security.com/",
+    "groups": [
+      "networking",
+      "recon"
+    ],
+    "updated": "2018-11-15"
   },
   {
     "name": "nsdtool",
     "version": "0.1",
     "description": "A netgear switch discovery tool. It contains some extra features like bruteoforce and setting a new password.",
-    "url": "http://www.curesec.com/en/publications/tools.html"
+    "url": "http://www.curesec.com/en/publications/tools.html",
+    "groups": [
+      "networking",
+      "scanner"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "nsoq",
     "version": "1.9.5",
     "description": "A Network Security Tool for packet manipulation that allows a large number of options.",
-    "url": "http://www.nsoq.org/"
+    "url": "http://www.nsoq.org/",
+    "groups": [
+      "networking",
+      "scanner",
+      "fuzzer"
+    ],
+    "updated": "2015-02-08"
   },
   {
     "name": "packet-o-matic",
     "version": "351",
     "description": "A real time packet processor. Reads the packet from an input module, match the packet using rules and connection tracking information and then send it to a target module.",
-    "url": "http://www.packet-o-matic.org/"
+    "url": "http://www.packet-o-matic.org/",
+    "groups": [
+      "networking",
+      "tunnel"
+    ],
+    "updated": "2014-02-01"
   },
   {
     "name": "packetq",
     "version": "311.9ebf537",
     "description": "A tool that provides a basic SQL-frontend to PCAP-files.",
-    "url": "https://github.com/DNS-OARC/PacketQ"
+    "url": "https://github.com/DNS-OARC/PacketQ",
+    "groups": [
+      "networking",
+      "misc"
+    ],
+    "updated": "2026-02-08"
   },
   {
     "name": "packetsender",
     "version": "1326.9714b2e",
     "description": "An open source utility to allow sending and receiving TCP and UDP packets.",
-    "url": "https://github.com/dannagle/PacketSender"
+    "url": "https://github.com/dannagle/PacketSender",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2026-08-24"
   },
   {
     "name": "packit",
     "version": "2.0",
-    "description": "A network auditing tool. Its value is derived from its ability to customize, inject, monitor, and manipulate IP traffic.",
-    "url": "http://packetfactory.openwall.net/projects/packit/"
+    "description": "A network auditing tool with the ability to customize, inject, monitor, and manipulate IP traffic.",
+    "url": "http://packetfactory.openwall.net/projects/packit/",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2025-12-20"
   },
   {
     "name": "pcapfex",
     "version": "60.c51055a",
     "description": "Packet CAPture Forensic Evidence eXtractor.",
-    "url": "https://github.com/vikwin/pcapfex"
+    "url": "https://github.com/vikwin/pcapfex",
+    "groups": [
+      "networking",
+      "forensic"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "pcapfix",
     "version": "1.1.7",
     "description": "Tries to repair your broken pcap and pcapng files.",
-    "url": "http://f00l.de/pcapfix/"
+    "url": "http://f00l.de/pcapfix/",
+    "groups": [
+      "networking",
+      "misc"
+    ],
+    "updated": "2021-07-14"
   },
   {
     "name": "phantap",
     "version": "65.e8d10ea",
     "description": "An 'invisible' network tap aimed at red teams.",
-    "url": "https://github.com/nccgroup/phantap"
+    "url": "https://github.com/nccgroup/phantap",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2025-10-12"
   },
   {
     "name": "pivotsuite",
     "version": "20.5640666",
     "description": "A portable, platform independent and powerful network pivoting toolkit.",
-    "url": "https://github.com/RedTeamOperations/PivotSuite"
+    "url": "https://github.com/RedTeamOperations/PivotSuite",
+    "groups": [
+      "networking",
+      "backdoor"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "pkt2flow",
     "version": "69.868a2e8",
     "description": "A simple utility to classify packets into flows.",
-    "url": "https://github.com/caesar0301/pkt2flow"
+    "url": "https://github.com/caesar0301/pkt2flow",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2019-03-24"
   },
   {
     "name": "pmacct",
     "version": "v1.7.6.r1545.g5824ef3",
     "description": "Small set of multi-purpose passive network monitoring tools [NetFlow IPFIX sFlow libpcap BGP BMP IGP Streaming Telemetry].",
-    "url": "https://github.com/pmacct/pmacct"
+    "url": "https://github.com/pmacct/pmacct",
+    "groups": [
+      "networking",
+      "sniffer",
+      "defensive"
+    ],
+    "updated": "2025-04-06"
   },
   {
     "name": "prometheus-firewall",
     "version": "176.a316d66",
     "description": "A Firewall analyzer written in ruby",
-    "url": "https://github.com/averagesecurityguy/prometheus"
+    "url": "https://github.com/averagesecurityguy/prometheus",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2025-04-29"
   },
   {
     "name": "pwnat",
     "version": "14.d3c2b05",
     "description": "A tool that allows any number of clients behind NATs to communicate with a server behind a separate NAT with *no* port forwarding and *no* DMZ setup on any routers in order to directly communicate with each other.",
-    "url": "http://samy.pl/pwnat/"
+    "url": "http://samy.pl/pwnat/",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2022-04-13"
   },
   {
     "name": "pyersinia",
     "version": "49.73f4056",
     "description": "Network attack tool like yersinia but written in Python.",
-    "url": "https://github.com/nottinghamprisateam/pyersinia"
+    "url": "https://github.com/nottinghamprisateam/pyersinia",
+    "groups": [
+      "networking",
+      "fuzzer",
+      "dos",
+      "voip",
+      "scanner",
+      "exploitation"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "pyexfil",
     "version": "81.2ef1b8c",
     "description": "A couple of beta stage tools for data exfiltration.",
-    "url": "https://github.com/ytisf/PyExfil"
+    "url": "https://github.com/ytisf/PyExfil",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2020-08-29"
   },
   {
     "name": "pyminifakedns",
     "version": "0.1",
     "description": "Minimal DNS server written in Python; it always replies with a 127.0.0.1 A-record.",
-    "url": "http://code.activestate.com/recipes/491264/"
+    "url": "http://code.activestate.com/recipes/491264/",
+    "groups": [
+      "networking",
+      "spoof"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "python-cymruwhois",
     "version": "1.6",
     "description": "Python client for the whois.cymru.com service",
-    "url": "https://pypi.org/project/cymruwhois/#files"
+    "url": "https://pypi.org/project/cymruwhois/#files",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "python2-cymruwhois",
     "version": "1.6",
     "description": "Python client for the whois.cymru.com service",
-    "url": "https://pypi.org/project/cymruwhois/#files"
+    "url": "https://pypi.org/project/cymruwhois/#files",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "rinetd",
     "version": "0.62",
     "description": "Internet redirection server.",
-    "url": "http://www.boutell.com/rinetd/"
+    "url": "http://www.boutell.com/rinetd/",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2024-02-01"
   },
   {
     "name": "rtpbreak",
     "version": "1.3a",
-    "description": "Detects, reconstructs and analyzes any RTP session",
-    "url": "https://packetstorm.news/files/id/66494/"
+    "description": "Detects, reconstructs and analyzes any RTP session.",
+    "url": "https://packetstorm.news/files/id/66494/",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2025-09-30"
   },
   {
     "name": "rustcat",
     "version": "v3.0.0.r4.g245c791",
     "description": "A modern port listener and reverse shell.",
-    "url": "https://github.com/robiot/rustcat"
+    "url": "https://github.com/robiot/rustcat",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2022-10-30"
   },
   {
     "name": "samplicator",
     "version": "175.ceeb1d2",
     "description": "Send copies of (UDP) datagrams to multiple receivers, with optional sampling and spoofing.",
-    "url": "https://github.com/sleinen/samplicator"
+    "url": "https://github.com/sleinen/samplicator",
+    "groups": [
+      "networking",
+      "spoof"
+    ],
+    "updated": "2021-10-17"
   },
   {
     "name": "sdn-toolkit",
     "version": "1.21",
     "description": "Discover, Identify, and Manipulate SDN-Based Networks",
-    "url": "http://downloads.sourceforge.net/project/sdn-toolkit"
+    "url": "http://downloads.sourceforge.net/project/sdn-toolkit",
+    "groups": [
+      "networking",
+      "scanner",
+      "recon"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "sessionlist",
     "version": "6.3efc3b2",
     "description": "Sniffer that intents to sniff HTTP packets and attempts to reconstruct interesting authentication data from websites that do not employ proper secure cookie auth.",
-    "url": "https://0xrage.com/"
+    "url": "https://0xrage.com/",
+    "groups": [
+      "networking",
+      "sniffer"
+    ],
+    "updated": "2019-08-15"
   },
   {
     "name": "seth",
     "version": "106.6e869cd",
     "description": "Perform a MitM attack and extract clear text credentials from RDP connections.",
-    "url": "https://github.com/SySS-Research/Seth"
+    "url": "https://github.com/SySS-Research/Seth",
+    "groups": [
+      "networking",
+      "sniffer"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "silk",
     "version": "3.24.2",
     "description": "A collection of traffic analysis tools developed by the CERT NetSA to facilitate security analysis of large networks.",
-    "url": "https://tools.netsa.cert.org/silk/download.html"
+    "url": "https://tools.netsa.cert.org/silk/download.html",
+    "groups": [
+      "networking",
+      "scanner"
+    ],
+    "updated": "2026-06-14"
   },
   {
     "name": "skydive",
     "version": "0.28.0",
     "description": "An open source real-time network topology and protocols analyzer.",
-    "url": "https://github.com/skydive-project/skydive"
+    "url": "https://github.com/skydive-project/skydive",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2021-08-19"
   },
   {
     "name": "smbclient-ng",
     "version": "3.1.0.r4.g755200b",
     "description": "Interact with SMB shares.",
-    "url": "https://github.com/p0dalirius/smbclient-ng"
+    "url": "https://github.com/p0dalirius/smbclient-ng",
+    "groups": [
+      "networking",
+      "windows"
+    ],
+    "updated": "2026-10-04"
   },
   {
     "name": "sniffer",
     "version": "4.688854e",
     "description": "Packet Trace Parser for TCP, SMTP Emails, and HTTP Cookies.",
-    "url": "https://github.com/julioreynaga/sniffer"
+    "url": "https://github.com/julioreynaga/sniffer",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2017-08-19"
   },
   {
     "name": "sniffles",
     "version": "469.118e93f",
     "description": "A Packet Capture Generator for IDS and Regular Expression Evaluation.",
-    "url": "https://github.com/petabi/sniffles"
+    "url": "https://github.com/petabi/sniffles",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2026-01-15"
   },
   {
     "name": "snmpattack",
     "version": "1.8",
     "description": "SNMP scanner and attacking tool.",
-    "url": "https://c0decafe.de/"
+    "url": "https://c0decafe.de/",
+    "groups": [
+      "networking",
+      "scanner"
+    ],
+    "updated": "2025-07-18"
   },
   {
     "name": "snmpcheck",
     "version": "1.9",
     "description": "A free open source utility to get information via SNMP protocols.",
-    "url": "http://www.nothink.org/perl/snmpcheck/"
+    "url": "http://www.nothink.org/perl/snmpcheck/",
+    "groups": [
+      "networking",
+      "recon"
+    ],
+    "updated": "2025-04-29"
   },
   {
     "name": "sockstat",
     "version": "0.4.1",
     "description": "A tool to let you view information about open connections. It is similar to the tool of the same name that is included in FreeBSD, trying to faithfully reproduce as much functionality as is possible.",
-    "url": "https://packages.debian.org/unstable/main/sockstat"
+    "url": "https://packages.debian.org/unstable/main/sockstat",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2019-12-24"
   },
   {
     "name": "sprayhound",
     "version": "0.0.3",
     "description": "Password spraying tool and Bloodhound integration.",
-    "url": "https://github.com/Hackndo/sprayhound"
+    "url": "https://github.com/Hackndo/sprayhound",
+    "groups": [
+      "networking",
+      "scanner"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "sps",
     "version": "4.3",
     "description": "A Linux packet crafting tool. Supports IPv4, IPv6 including extension headers, and tunneling IPv6 over IPv4.",
-    "url": "https://sites.google.com/site/simplepacketsender/"
+    "url": "https://sites.google.com/site/simplepacketsender/",
+    "groups": [
+      "networking",
+      "dos",
+      "fuzzer"
+    ],
+    "updated": "2026-09-12"
   },
   {
     "name": "stunner",
     "version": "v0.5.8.r191.g3842eab",
     "description": "Test and exploit STUN, TURN and TURN over TCP servers.",
-    "url": "https://github.com/firefart/stunner"
+    "url": "https://github.com/firefart/stunner",
+    "groups": [
+      "networking",
+      "webapp"
+    ],
+    "updated": "2026-11-01"
   },
   {
     "name": "tcpcopy",
     "version": "1285.929511d",
     "description": "A TCP stream replay tool to support real testing of Internet server applications.",
-    "url": "https://github.com/session-replay-tools/tcpcopy"
+    "url": "https://github.com/session-replay-tools/tcpcopy",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2025-06-28"
   },
   {
     "name": "tcpdstat",
     "version": "4.be5bd28",
     "description": "Get protocol statistics from tcpdump pcap files.",
-    "url": "https://github.com/netik/tcpdstat"
+    "url": "https://github.com/netik/tcpdstat",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2018-04-21"
   },
   {
     "name": "tcpextract",
     "version": "1.1",
     "description": "Extracts files from captured TCP sessions. Support live streams and pcap files.",
-    "url": "https://pypi.python.org/pypi/tcpextract/"
+    "url": "https://pypi.python.org/pypi/tcpextract/",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2016-12-31"
   },
   {
     "name": "tcptrace",
     "version": "6.6.7",
     "description": "A TCP dump file analysis tool.",
-    "url": "http://tcptrace.org/"
+    "url": "http://tcptrace.org/",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2024-12-06"
   },
   {
     "name": "tcptraceroute",
     "version": "1.5beta7",
     "description": "A traceroute implementation using TCP packets.",
-    "url": "http://michael.toren.net/code/tcptraceroute/"
+    "url": "http://michael.toren.net/code/tcptraceroute/",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2019-09-08"
   },
   {
     "name": "tcpwatch",
     "version": "1.3.1",
     "description": "A utility written in Python that lets you monitor forwarded TCP connections or HTTP proxy connections.",
-    "url": "http://hathawaymix.org/Software/TCPWatch"
+    "url": "http://hathawaymix.org/Software/TCPWatch",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "tgcd",
     "version": "1.1.1",
     "description": "TCP/IP Gender Changer Daemon utility.",
-    "url": "https://sourceforge.net/projects/tgcd/files/"
+    "url": "https://sourceforge.net/projects/tgcd/files/",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2024-10-18"
   },
   {
     "name": "torpy",
     "version": "60.ebf000c",
     "description": "Pure python Tor client implementation.",
-    "url": "https://github.com/torpyorg/torpy"
+    "url": "https://github.com/torpyorg/torpy",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2026-01-14"
   },
   {
     "name": "tunna",
     "version": "41.cba006d",
     "description": "a set of tools which will wrap and tunnel any TCP communication over HTTP. It can be used to bypass network restrictions in fully firewalled environments.",
-    "url": "https://github.com/SECFORCE/Tunna"
+    "url": "https://github.com/SECFORCE/Tunna",
+    "groups": [
+      "networking",
+      "tunnel",
+      "proxy",
+      "windows"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "turner",
     "version": "32.fad9423",
     "description": "Tunnels HTTP over a permissive/open TURN server; supports HTTP and SOCKS5 proxy.",
-    "url": "https://github.com/staaldraad/turner"
+    "url": "https://github.com/staaldraad/turner",
+    "groups": [
+      "networking",
+      "proxy",
+      "tunnel"
+    ],
+    "updated": "2024-01-07"
   },
   {
     "name": "udpastcp",
     "version": "29.683b5e3",
     "description": "This program hides UDP traffic as TCP traffic in order to bypass certain firewalls.",
-    "url": "https://github.com/Hello71/udpastcp"
+    "url": "https://github.com/Hello71/udpastcp",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2019-05-12"
   },
   {
     "name": "udptunnel",
     "version": "19",
     "description": "Tunnels TCP over UDP packets.",
-    "url": "https://code.google.com/archive/p/udptunnel/"
+    "url": "https://code.google.com/archive/p/udptunnel/",
+    "groups": [
+      "networking",
+      "tunnel"
+    ],
+    "updated": "2026-09-12"
   },
   {
     "name": "umit",
     "version": "1.0",
     "description": "A powerful nmap frontend.",
-    "url": "http://umitproject.org/"
+    "url": "http://umitproject.org/",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "uw-offish",
     "version": "0.1",
     "description": "Clear-text protocol simulator.",
-    "url": "http://uberwall.org/bin/download/42/UW_offish-0.1.tar.gz"
+    "url": "http://uberwall.org/bin/download/42/UW_offish-0.1.tar.gz",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2015-09-06"
   },
   {
     "name": "websockify",
     "version": "998.1e284ea",
     "description": "WebSocket to TCP proxy/bridge.",
-    "url": "https://github.com/novnc/websockify"
+    "url": "https://github.com/novnc/websockify",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2026-10-25"
   },
   {
     "name": "wondershaper",
     "version": "48.98792b5",
     "description": "Limit the bandwidth of one or more network adapters.",
-    "url": "https://github.com/magnific0/wondershaper"
+    "url": "https://github.com/magnific0/wondershaper",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2021-10-17"
   },
   {
     "name": "xerosploit",
     "version": "38.e2c3c7b",
     "description": "Efficient and advanced man in the middle framework.",
-    "url": "https://github.com/LionSec/xerosploit"
+    "url": "https://github.com/LionSec/xerosploit",
+    "groups": [
+      "networking",
+      "exploitation",
+      "sniffer"
+    ],
+    "updated": "2025-04-29"
   },
   {
     "name": "xxeserv",
     "version": "14.2c7f444",
     "description": "A mini webserver with FTP support for XXE payloads.",
-    "url": "https://github.com/staaldraad/xxeserv"
+    "url": "https://github.com/staaldraad/xxeserv",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2024-10-01"
   },
   {
     "name": "yaf",
     "version": "2.12.2",
     "description": "Yet Another Flowmeter.",
-    "url": "https://tools.netsa.cert.org/yaf/download.html"
+    "url": "https://tools.netsa.cert.org/yaf/download.html",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2021-12-25"
   },
   {
     "name": "yersinia",
     "version": "0.8.2",
     "description": "A network tool designed to take advantage of some weakness in different network protocols.",
-    "url": "https://github.com/tomac/yersinia"
+    "url": "https://github.com/tomac/yersinia",
+    "groups": [
+      "networking",
+      "scanner"
+    ],
+    "updated": "2024-12-21"
   },
   {
     "name": "zackattack",
     "version": "5.1f96c14",
     "description": "A new tool set to do NTLM Authentication relaying unlike any other tool currently out there.",
-    "url": "https://github.com/urbanesec/ZackAttack"
+    "url": "https://github.com/urbanesec/ZackAttack",
+    "groups": [
+      "networking",
+      "scanner",
+      "cracker"
+    ],
+    "updated": "2025-04-29"
   },
   {
     "name": "zdns",
     "version": "v2.1.1.r8.g81eff11",
     "description": "Fast CLI DNS Lookup Tool.",
-    "url": "https://github.com/zmap/zdns"
+    "url": "https://github.com/zmap/zdns",
+    "groups": [
+      "networking"
+    ],
+    "updated": "2026-08-02"
   },
   {
     "name": "zeek",
     "version": "v9.1.0.dev.r465.g1638b40",
     "description": "A powerful network analysis framework that is much different from the typical IDS you may know.",
-    "url": "https://github.com/zeek/zeek"
+    "url": "https://github.com/zeek/zeek",
+    "groups": [
+      "networking",
+      "defensive",
+      "sniffer"
+    ],
+    "updated": "2026-11-01"
   },
   {
     "name": "zeek-aux",
     "version": "794.f1f4bc5",
     "description": "Handy auxiliary programs related to the use of the Zeek Network Security Monitor.",
-    "url": "https://github.com/zeek/zeek-aux"
+    "url": "https://github.com/zeek/zeek-aux",
+    "groups": [
+      "networking",
+      "defensive",
+      "sniffer"
+    ],
+    "updated": "2026-09-28"
   }
 ]

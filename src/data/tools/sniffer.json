@@ -3,240 +3,409 @@
     "name": "above",
     "version": "v2.8.1.r0.g313f550",
     "description": "Network Protocols Sniffer.",
-    "url": "https://github.com/caster0x00/Above"
+    "url": "https://github.com/caster0x00/Above",
+    "groups": [
+      "sniffer",
+      "scanner",
+      "voip",
+      "fingerprint",
+      "networking",
+      "recon"
+    ],
+    "updated": "2026-01-15"
   },
   {
     "name": "bittwist",
     "version": "2.0",
     "description": "A simple yet powerful libpcap-based Ethernet packet generator. It is designed to complement tcpdump, which by itself has done a great job at capturing network traffic.",
-    "url": "http://bittwist.sourceforge.net/"
+    "url": "http://bittwist.sourceforge.net/",
+    "groups": [
+      "sniffer",
+      "networking"
+    ],
+    "updated": "2014-08-27"
   },
   {
     "name": "capfuzz",
     "version": "34.97ac312",
     "description": "Capture, fuzz and intercept web traffic.",
-    "url": "https://github.com/MobSF/CapFuzz"
+    "url": "https://github.com/MobSF/CapFuzz",
+    "groups": [
+      "sniffer",
+      "fuzzer"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "cdpsnarf",
     "version": "0.1.6",
     "description": "Cisco discovery protocol sniffer.",
-    "url": "https://github.com/Zapotek/cdpsnarf"
+    "url": "https://github.com/Zapotek/cdpsnarf",
+    "groups": [
+      "sniffer"
+    ],
+    "updated": "2025-11-30"
   },
   {
     "name": "cottontail",
     "version": "93.b7f5222",
     "description": "Capture all RabbitMQ messages being sent through a broker.",
-    "url": "https://github.com/QKaiser/cottontail"
+    "url": "https://github.com/QKaiser/cottontail",
+    "groups": [
+      "sniffer"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "creds",
     "version": "17.1ec8297",
     "description": "Harvest FTP/POP/IMAP/HTTP/IRC credentials along with interesting data from each of the protocols.",
-    "url": "https://github.com/DanMcInerney/creds.py"
+    "url": "https://github.com/DanMcInerney/creds.py",
+    "groups": [
+      "sniffer"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "dnswatch",
     "version": "dnswatch.1.r18.g7ee12c9",
     "description": "DNS Traffic Sniffer and Analyzer.",
-    "url": "https://github.com/HalilDeniz/DNSWatch"
+    "url": "https://github.com/HalilDeniz/DNSWatch",
+    "groups": [
+      "sniffer"
+    ],
+    "updated": "2026-01-17"
   },
   {
     "name": "eigrp-tools",
     "version": "0.1",
     "description": "This is a custom EIGRP packet generator and sniffer developed to test the security and overall operation quality of this brilliant Cisco routing protocol.",
-    "url": "http://www.hackingciscoexposed.com/?link=tools"
+    "url": "http://www.hackingciscoexposed.com/?link=tools",
+    "groups": [
+      "sniffer",
+      "networking",
+      "recon",
+      "scanner"
+    ],
+    "updated": "2016-07-24"
   },
   {
     "name": "espionage",
     "version": "48.2d57edd",
     "description": "A Network Packet and Traffic Interceptor For Linux. Sniff All Data Sent Through a Network.",
-    "url": "https://github.com/josh0xA/Espionage"
+    "url": "https://github.com/josh0xA/Espionage",
+    "groups": [
+      "sniffer",
+      "networking"
+    ],
+    "updated": "2026-01-12"
   },
   {
     "name": "firstorder",
     "version": "8.107eb6a",
     "description": "A traffic analyzer to evade Empire communication from Anomaly-Based IDS.",
-    "url": "https://github.com/utkusen/firstorder"
+    "url": "https://github.com/utkusen/firstorder",
+    "groups": [
+      "sniffer",
+      "automation",
+      "exploitation"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "hexinject",
     "version": "1.6",
     "description": "A very versatile packet injector and sniffer that provides a command-line framework for raw network access.",
-    "url": "https://hexinject.sourceforge.net/"
+    "url": "https://hexinject.sourceforge.net/",
+    "groups": [
+      "sniffer"
+    ],
+    "updated": "2017-06-03"
   },
   {
     "name": "httpry",
     "version": "0.1.8",
     "description": "A specialized packet sniffer designed for displaying and logging HTTP traffic.",
-    "url": "https://dumpsterventures.com/jason/httpry/"
+    "url": "https://dumpsterventures.com/jason/httpry/",
+    "groups": [
+      "sniffer"
+    ],
+    "updated": "2024-01-31"
   },
   {
     "name": "httpsniff",
     "version": "0.4",
     "description": "Tool to sniff HTTP responses from TCP/IP based networks and save contained files locally for later review.",
-    "url": "https://www.sump.org/projects/httpsniff/"
+    "url": "https://www.sump.org/projects/httpsniff/",
+    "groups": [
+      "sniffer"
+    ],
+    "updated": "2026-09-14"
   },
   {
     "name": "hubbit-sniffer",
     "version": "74.460ecf8",
     "description": "Simple application that listens for WIFI-frames and records the mac-address of the sender and posts them to a REST-api.",
-    "url": "https://github.com/cthit/hubbIT-sniffer"
+    "url": "https://github.com/cthit/hubbIT-sniffer",
+    "groups": [
+      "sniffer",
+      "wireless"
+    ],
+    "updated": "2018-08-06"
   },
   {
     "name": "hungry-interceptor",
     "version": "391.1aea7f3",
     "description": "Intercepts data, does something with it, stores it.",
-    "url": "https://github.com/nbuechler/hungry-interceptor"
+    "url": "https://github.com/nbuechler/hungry-interceptor",
+    "groups": [
+      "sniffer"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "issniff",
     "version": "294.79c6c2a",
     "description": "Internet Session Sniffer.",
-    "url": "https://github.com/juphoff/issniff"
+    "url": "https://github.com/juphoff/issniff",
+    "groups": [
+      "sniffer"
+    ],
+    "updated": "2017-02-18"
   },
   {
     "name": "junkie",
     "version": "1365.70a83d6",
     "description": "A modular packet sniffer and analyzer.",
-    "url": "https://github.com/securactive/junkie"
+    "url": "https://github.com/securactive/junkie",
+    "groups": [
+      "sniffer",
+      "networking"
+    ],
+    "updated": "2015-07-28"
   },
   {
     "name": "katsnoop",
     "version": "0.1",
     "description": "Utility that sniffs HTTP Basic Authentication information and prints the base64 decoded form.",
-    "url": "http://packetstormsecurity.com/files/52514/katsnoop.tbz2.html"
+    "url": "http://packetstormsecurity.com/files/52514/katsnoop.tbz2.html",
+    "groups": [
+      "sniffer"
+    ],
+    "updated": "2018-11-15"
   },
   {
     "name": "mfsniffer",
     "version": "0.1",
     "description": "A python script for capturing unencrypted TSO login credentials.",
-    "url": "http://packetstormsecurity.com/files/120802/MF-Sniffer-TN3270-Password-Grabber.html"
+    "url": "http://packetstormsecurity.com/files/120802/MF-Sniffer-TN3270-Password-Grabber.html",
+    "groups": [
+      "sniffer"
+    ],
+    "updated": "2018-11-15"
   },
   {
     "name": "mitmer",
     "version": "22.b01c7fe",
     "description": "A man-in-the-middle and phishing attack tool that steals the victim's credentials of some web services like Facebook.",
-    "url": "https://github.com/husam212/MITMer"
+    "url": "https://github.com/husam212/MITMer",
+    "groups": [
+      "sniffer",
+      "networking"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "mots",
     "version": "5.34017ca",
     "description": "Man on the Side Attack - experimental packet injection and detection.",
-    "url": "https://github.com/kevinkoo001/MotS"
+    "url": "https://github.com/kevinkoo001/MotS",
+    "groups": [
+      "sniffer",
+      "networking",
+      "spoof",
+      "defensive"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "net-creds",
     "version": "87.07a25e1",
     "description": "Sniffs sensitive data from interface or pcap.",
-    "url": "https://github.com/DanMcInerney/net-creds"
+    "url": "https://github.com/DanMcInerney/net-creds",
+    "groups": [
+      "sniffer"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "nsntrace",
     "version": "86.1d5adce",
     "description": "Perform network trace of a single process by using network namespaces.",
-    "url": "https://github.com/nsntrace/nsntrace"
+    "url": "https://github.com/nsntrace/nsntrace",
+    "groups": [
+      "sniffer"
+    ],
+    "updated": "2026-10-03"
   },
   {
     "name": "ofp-sniffer",
     "version": "1.0.0.r89.g0d907da",
     "description": "An OpenFlow sniffer to help network troubleshooting in production networks.",
-    "url": "https://github.com/amlight/ofp_sniffer"
+    "url": "https://github.com/amlight/ofp_sniffer",
+    "groups": [
+      "sniffer"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "ostinato",
     "version": "0.9",
     "description": "An open-source, cross-platform packet/traffic generator and analyzer with a friendly GUI. It aims to be \"Wireshark in Reverse\" and thus become complementary to Wireshark.",
-    "url": "https://github.com/pstavirs/ostinato"
+    "url": "https://github.com/pstavirs/ostinato",
+    "groups": [
+      "sniffer",
+      "networking"
+    ],
+    "updated": "2020-07-06"
   },
   {
     "name": "passivedns",
     "version": "297.be48a8e",
     "description": "A network sniffer that logs all DNS server replies for use in a passive DNS setup.",
-    "url": "https://github.com/gamelinux/passivedns"
+    "url": "https://github.com/gamelinux/passivedns",
+    "groups": [
+      "sniffer"
+    ],
+    "updated": "2024-06-01"
   },
   {
     "name": "pcapteller",
     "version": "1.1",
     "description": "A tool designed for traffic manipulation and replay.",
-    "url": "https://www.encripto.no/downloads/tools/"
+    "url": "https://www.encripto.no/downloads/tools/",
+    "groups": [
+      "sniffer",
+      "networking"
+    ],
+    "updated": "2024-12-25"
   },
   {
     "name": "pth-toolkit",
     "version": "7.3641cdc",
     "description": "Modified version of the passing-the-hash tool collection made to work straight out of the box.",
-    "url": "https://github.com/byt3bl33d3r/pth-toolkit"
+    "url": "https://github.com/byt3bl33d3r/pth-toolkit",
+    "groups": [
+      "sniffer",
+      "networking"
+    ],
+    "updated": "2018-11-14"
   },
   {
     "name": "pyrdp",
     "version": "2107.b610809",
     "description": "Python 3 RDP MITM and library.",
-    "url": "https://github.com/GoSecure/pyrdp"
+    "url": "https://github.com/GoSecure/pyrdp",
+    "groups": [
+      "sniffer",
+      "networking"
+    ],
+    "updated": "2026-06-01"
   },
   {
     "name": "pytacle",
     "version": "alpha2",
     "description": "Automates the task of sniffing GSM frames",
-    "url": "http://packetstormsecurity.com/files/124299/pytacle-alpha2.tar.gz"
+    "url": "http://packetstormsecurity.com/files/124299/pytacle-alpha2.tar.gz",
+    "groups": [
+      "sniffer"
+    ],
+    "updated": "2022-03-27"
   },
   {
     "name": "rvi-capture",
     "version": "14.a2e129b",
     "description": "Capture packets sent or received by iOS devices.",
-    "url": "https://github.com/gh2o/rvi_capture"
+    "url": "https://github.com/gh2o/rvi_capture",
+    "groups": [
+      "sniffer",
+      "mobile"
+    ],
+    "updated": "2026-01-13"
   },
   {
     "name": "sipffer",
     "version": "29.efc3ff1",
     "description": "SIP protocol command line sniffer.",
-    "url": "https://github.com/xenomuta/SIPffer"
+    "url": "https://github.com/xenomuta/SIPffer",
+    "groups": [
+      "sniffer",
+      "voip"
+    ],
+    "updated": "2017-08-18"
   },
   {
     "name": "snapception",
     "version": "8.c156f9e",
     "description": "Intercept and decrypt all snapchats received over your network.",
-    "url": "https://github.com/thebradbain/snapception"
-  },
-  {
-    "name": "ssl-phuck3r",
-    "version": "2.0",
-    "description": "All in one script for Man-In-The-Middle attacks.",
-    "url": "https://github.com/zombiesam/ssl_phuck3r"
+    "url": "https://github.com/thebradbain/snapception",
+    "groups": [
+      "sniffer",
+      "crypto"
+    ],
+    "updated": "2025-04-29"
   },
   {
     "name": "ssldump",
     "version": "1.7",
     "description": "An SSLv3/TLS network protocol analyzer.",
-    "url": "http://www.rtfm.com/ssldump/"
+    "url": "http://www.rtfm.com/ssldump/",
+    "groups": [
+      "sniffer"
+    ],
+    "updated": "2023-04-19"
   },
   {
     "name": "sslsniff",
     "version": "0.8",
-    "description": "A tool to MITM all SSL connections on a LAN and dynamically generate certs for the domains that are being accessed on the fly",
-    "url": "https://github.com/moxie0/sslsniff"
+    "description": "A tool to MITM all SSL connections on a LAN and dynamically generate certs for the domains that are being accessed on the fly.",
+    "url": "https://github.com/moxie0/sslsniff",
+    "groups": [
+      "sniffer"
+    ],
+    "updated": "2025-10-01"
   },
   {
     "name": "stenographer",
     "version": "486.355604b",
     "description": "A packet capture solution which aims to quickly spool all packets to disk, then provide simple, fast access to subsets of those packets.",
-    "url": "https://github.com/google/stenographer"
-  },
-  {
-    "name": "tcpick",
-    "version": "0.2.1",
-    "description": "TCP stream sniffer and connection tracker",
-    "url": "http://tcpick.sourceforge.net/"
+    "url": "https://github.com/google/stenographer",
+    "groups": [
+      "sniffer",
+      "networking",
+      "forensic"
+    ],
+    "updated": "2021-04-27"
   },
   {
     "name": "wifi-monitor",
     "version": "30.0657e48",
     "description": "Prints the IPs on your local network that're sending the most packets.",
-    "url": "https://github.com/DanMcInerney/wifi-monitor"
+    "url": "https://github.com/DanMcInerney/wifi-monitor",
+    "groups": [
+      "sniffer"
+    ],
+    "updated": "2024-12-26"
   },
   {
     "name": "xcavator",
     "version": "5.bd9e2d8",
     "description": "Man-In-The-Middle and phishing attack tool that steals the victim's credentials of some web services like Facebook.",
-    "url": "https://github.com/nccgroup/xcavator"
+    "url": "https://github.com/nccgroup/xcavator",
+    "groups": [
+      "sniffer",
+      "spoof"
+    ],
+    "updated": "2024-12-26"
   }
 ]

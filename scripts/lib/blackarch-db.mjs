@@ -17,7 +17,7 @@ function field(desc, name) {
  * Returns every package in the `blackarch` group, i.e. the tools; the
  * repository also carries libraries and helpers that are not listed.
  *
- * @returns {Promise<Map<string, {version: string, url: string, groups: string[], buildDate: string}>>}
+ * @returns {Promise<Map<string, {version: string, description: string, url: string, groups: string[], buildDate: string}>>}
  */
 export async function readTools() {
   const dir = mkdtempSync(join(tmpdir(), "ba-db-"));
@@ -34,6 +34,7 @@ export async function readTools() {
       if (!groups.includes("blackarch")) continue;
       tools.set(field(desc, "NAME")[0], {
         version: field(desc, "VERSION")[0],
+        description: field(desc, "DESC").join(" "),
         url: field(desc, "URL")[0] ?? "",
         groups,
         buildDate: new Date(Number(field(desc, "BUILDDATE")[0]) * 1000).toISOString().slice(0, 10),
