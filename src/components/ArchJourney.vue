@@ -1,41 +1,59 @@
 <script setup>
 import { ref } from "vue";
+import { useT } from "../i18n/index.js";
+
+const T = useT("journey", {
+  title: "How a tool reaches you",
+  mine: "Your side of the journey",
+  copy: "copy",
+  copied: "copied",
+  stations: [
+    { t: "Upstream", who: "Tool author", out: "source / release" },
+    { t: "Package", who: "Maintainer", out: "PKGBUILD" },
+    { t: "Build & sign", who: "Developer", out: ".pkg.tar.zst + .sig" },
+    { t: "Release", who: "Build server", out: "blackarch.db" },
+    { t: "Mirrors", who: "Mirror operators", out: "rsync copy" },
+    { t: "You", who: "pacman", out: "installed tool" },
+  ],
+  steps: ["1. Add the repo", "2. Sync", "3. Install a tool"],
+});
+
 const copied = ref("");
 async function copy(c) {
   try { await navigator.clipboard.writeText(c); copied.value = c; setTimeout(() => (copied.value = ""), 1400); } catch {}
 }
-const stations = [
-  { t: "Upstream", who: "Tool author", out: "source / release", i: "M8 6l-5 6 5 6M16 6l5 6-5 6" },
-  { t: "Package", who: "Maintainer", out: "PKGBUILD", i: "M4 8l8-4 8 4v8l-8 4-8-4zM4 8l8 4 8-4M12 12v8" },
-  { t: "Build & sign", who: "Developer", out: ".pkg.tar.zst + .sig", i: "M14 7l3 3-8 8H6v-3zM13 8l3 3" },
-  { t: "Release", who: "Build server", out: "blackarch.db", i: "M4 6c0-1.7 3.6-3 8-3s8 1.3 8 3-3.6 3-8 3-8-1.3-8-3zM4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6" },
-  { t: "Mirrors", who: "Mirror operators", out: "rsync copy", i: "M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18" },
-  { t: "You", who: "pacman", out: "installed tool", i: "M4 5h16v11H4zM8 20h8M12 16v4" },
+const icons = [
+  "M8 6l-5 6 5 6M16 6l5 6-5 6",
+  "M4 8l8-4 8 4v8l-8 4-8-4zM4 8l8 4 8-4M12 12v8",
+  "M14 7l3 3-8 8H6v-3zM13 8l3 3",
+  "M4 6c0-1.7 3.6-3 8-3s8 1.3 8 3-3.6 3-8 3-8-1.3-8-3zM4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6",
+  "M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18",
+  "M4 5h16v11H4zM8 20h8M12 16v4",
 ];
-const steps = [
-  { l: "1. Add the repo", c: "curl -O https://blackarch.org/strap.sh && sudo ./strap.sh" },
-  { l: "2. Sync", c: "sudo pacman -Syu" },
-  { l: "3. Install a tool", c: "sudo pacman -S nmap" },
+const cmds = [
+  "curl -O https://blackarch.org/strap.sh && sudo ./strap.sh",
+  "sudo pacman -Syu",
+  "sudo pacman -S nmap",
 ];
 </script>
 
 <template>
   <div class="journey">
-    <p class="label">How a tool reaches you</p>
+    <p class="label">{{ T.title }}</p>
     <ol class="track">
-      <li v-for="(s, i) in stations" :key="s.t" :style="{ '--d': i * 0.5 + 's' }">
-        <span class="node"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path :d="s.i" /></svg></span>
+      <li v-for="(s, i) in T.stations" :key="i" :style="{ '--d': i * 0.5 + 's' }">
+        <span class="node"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path :d="icons[i]" /></svg></span>
         <strong>{{ s.t }}</strong>
         <em>{{ s.who }}</em>
         <code>{{ s.out }}</code>
       </li>
     </ol>
 
-    <p class="label">Your side of the journey</p>
+    <p class="label">{{ T.mine }}</p>
     <ol class="mine">
-      <li v-for="s in steps" :key="s.l">
-        <span>{{ s.l }}</span>
-        <div><code>{{ s.c }}</code><button type="button" @click="copy(s.c)">{{ copied === s.c ? "copied" : "copy" }}</button></div>
+      <li v-for="(l, i) in T.steps" :key="i">
+        <span>{{ l }}</span>
+        <div><code>{{ cmds[i] }}</code><button type="button" @click="copy(cmds[i])">{{ copied === cmds[i] ? T.copied : T.copy }}</button></div>
       </li>
     </ol>
   </div>

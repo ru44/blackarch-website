@@ -1,50 +1,71 @@
 <script setup>
 import { ref, computed } from "vue";
+import { useT } from "../i18n/index.js";
 
-const tabs = [
-  { id: "layers", label: "Layers", hint: "How BlackArch sits on Arch" },
-  { id: "pipeline", label: "Build pipeline", hint: "PKGBUILD to your pacman" },
-  { id: "updates", label: "Update flow", hint: "How changes get in" },
-  { id: "iso", label: "ISO layers", hint: "How images are assembled" },
-];
-const active = ref("layers");
-
-// Every step: title, short body, optional command/path. Facts come from the
-// public BlackArch repos (blackarch, blackarch-iso) and strap.sh.
-const data = {
+// Visible text lives in the "arch" namespace (translatable); commands and paths
+// below stay untranslated. Facts come from the public BlackArch repos
+// (blackarch, blackarch-iso) and strap.sh.
+const T = useT("arch", {
+  aria: "BlackArch architecture explorer",
+  stepsAria: "Steps; use arrow keys",
+  copy: "copy",
+  copied: "copied",
+  copyAria: (c) => `Copy ${c}`,
+  tabs: [
+    { label: "Layers", hint: "How BlackArch sits on Arch" },
+    { label: "Build pipeline", hint: "PKGBUILD to your pacman" },
+    { label: "Update flow", hint: "How changes get in" },
+    { label: "ISO layers", hint: "How images are assembled" },
+  ],
   layers: [
-    { t: "Tools", b: "~2800+ packages, each a PKGBUILD under packages/<name> in the BlackArch repo.", c: "pacman -S nmap" },
-    { t: "Category groups", b: "Packages are grouped as blackarch-<category>, plus the all-in-one blackarch group.", c: "pacman -S blackarch-webapp" },
-    { t: "BlackArch repository", b: "An unofficial user repository, trusted via the blackarch-keyring package.", c: "blackarch.org/blackarch/blackarch/os/<arch>" },
-    { t: "Arch Linux", b: "core, extra and multilib repos, pacman, systemd and the rolling-release base. BlackArch adds to it, it does not fork it.", c: "pacman -Syu" },
+    { t: "Tools", b: "~2800+ packages, each a PKGBUILD under packages/<name> in the BlackArch repo." },
+    { t: "Category groups", b: "Packages are grouped as blackarch-<category>, plus the all-in-one blackarch group." },
+    { t: "BlackArch repository", b: "An unofficial user repository, trusted via the blackarch-keyring package." },
+    { t: "Arch Linux", b: "core, extra and multilib repos, pacman, systemd and the rolling-release base. BlackArch adds to it, it does not fork it." },
   ],
   pipeline: [
-    { t: "Upstream source", b: "A tool's release or git repo is the starting point.", c: "github.com/<author>/<tool>" },
-    { t: "PKGBUILD", b: "A maintainer writes a PKGBUILD in packages/<name> of the blackarch repo, from the blackarch-pkgbuilds templates.", c: "packages/<name>/PKGBUILD" },
-    { t: "Clean chroot build", b: "babuild wraps Arch's archbuild / makechrootpkg so build dependencies are checked in isolation.", c: "scripts/babuild" },
-    { t: "Sign", b: "Built packages get detached GPG signatures (.sig).", c: "scripts/basign" },
-    { t: "Release & repo-add", b: "barelease pushes packages to the build server, takes a lock, and updates the repo database.", c: "scripts/barelease" },
-    { t: "Mirrors", b: "Mirrors poll a lastupdate timestamp over HTTP and only rsync when it changes.", c: "scripts/syncrepo" },
-    { t: "Your machine", b: "pacman syncs blackarch.db and verifies signatures against the keyring.", c: "pacman -Syu" },
+    { t: "Upstream source", b: "A tool's release or git repo is the starting point." },
+    { t: "PKGBUILD", b: "A maintainer writes a PKGBUILD in packages/<name> of the blackarch repo, from the blackarch-pkgbuilds templates." },
+    { t: "Clean chroot build", b: "babuild wraps Arch's archbuild / makechrootpkg so build dependencies are checked in isolation." },
+    { t: "Sign", b: "Built packages get detached GPG signatures (.sig)." },
+    { t: "Release & repo-add", b: "barelease pushes packages to the build server, takes a lock, and updates the repo database." },
+    { t: "Mirrors", b: "Mirrors poll a lastupdate timestamp over HTTP and only rsync when it changes." },
+    { t: "Your machine", b: "pacman syncs blackarch.db and verifies signatures against the keyring." },
   ],
   updates: [
-    { t: "Open a PR", b: "Contributors fork the blackarch repo and open a PR. Title format: <pkgname>: <change>.", c: "pkgname: bump to 1.2.3" },
-    { t: "Test three ways", b: "Build in a clean chroot, run it in a clean chroot, then install on a full BlackArch system to catch file conflicts.", c: "HOWTO-DEV.md" },
-    { t: "Queue for release", b: "Every modified package name is added to lists/to-release.", c: "lists/to-release" },
-    { t: "Developer builds & signs", b: "A BlackArch developer with build-server access builds, signs and releases it.", c: "babuild → basign → barelease" },
-    { t: "Helper scripts", b: "The repo ships scripts for finding outdated packages and bumping versions (outdated, pkgver, pkgrel, up-officials).", c: "scripts/outdated" },
-    { t: "Users update", b: "Rolling release: the next pacman -Syu pulls the new package.", c: "pacman -Syu" },
+    { t: "Open a PR", b: "Contributors fork the blackarch repo and open a PR. Title format: <pkgname>: <change>." },
+    { t: "Test three ways", b: "Build in a clean chroot, run it in a clean chroot, then install on a full BlackArch system to catch file conflicts." },
+    { t: "Queue for release", b: "Every modified package name is added to lists/to-release." },
+    { t: "Developer builds & signs", b: "A BlackArch developer with build-server access builds, signs and releases it." },
+    { t: "Helper scripts", b: "The repo ships scripts for finding outdated packages and bumping versions (outdated, pkgver, pkgrel, up-officials)." },
+    { t: "Users update", b: "Rolling release: the next pacman -Syu pulls the new package." },
   ],
   iso: [
-    { t: "base", b: "Shared by every variant: keyring setup, mirror selection, boot theme, shell config, core packages.", c: "layers/base" },
-    { t: "graphical", b: "Desktop layer used by Full and Slim (Slim defaults to XFCE4 + LightDM).", c: "layers/graphical" },
-    { t: "variant", b: "full, slim or netinstall adds its own package list. Later layers override files; package lists are concatenated.", c: "layers/<variant>" },
-    { t: "merge-profile", b: "Layers are merged into one archiso profile; .in templates get placeholders filled from variant.conf.", c: "tools/merge-profile.sh" },
-    { t: "mkarchiso", b: "archiso builds the final image. Full = base+graphical+full, Slim = base+graphical+slim, NetInstall = base+netinstall.", c: "tools/build-iso.sh --class slim" },
+    { t: "base", b: "Shared by every variant: keyring setup, mirror selection, boot theme, shell config, core packages." },
+    { t: "graphical", b: "Desktop layer used by Full and Slim (Slim defaults to XFCE4 + LightDM)." },
+    { t: "variant", b: "full, slim or netinstall adds its own package list. Later layers override files; package lists are concatenated." },
+    { t: "merge-profile", b: "Layers are merged into one archiso profile; .in templates get placeholders filled from variant.conf." },
+    { t: "mkarchiso", b: "archiso builds the final image. Full = base+graphical+full, Slim = base+graphical+slim, NetInstall = base+netinstall." },
   ],
-};
+});
 
-const steps = computed(() => data[active.value]);
+const tabIds = ["layers", "pipeline", "updates", "iso"];
+const tabs = computed(() => tabIds.map((id, i) => ({ id, ...T.tabs[i] })));
+const active = ref("layers");
+
+const commands = {
+  layers: ["pacman -S nmap", "pacman -S blackarch-webapp", "blackarch.org/blackarch/blackarch/os/<arch>", "pacman -Syu"],
+  pipeline: ["github.com/<author>/<tool>", "packages/<name>/PKGBUILD", "scripts/babuild", "scripts/basign", "scripts/barelease", "scripts/syncrepo", "pacman -Syu"],
+  updates: ["pkgname: bump to 1.2.3", "HOWTO-DEV.md", "lists/to-release", "babuild → basign → barelease", "scripts/outdated", "pacman -Syu"],
+  iso: ["layers/base", "layers/graphical", "layers/<variant>", "tools/merge-profile.sh", "tools/build-iso.sh --class slim"],
+};
+const data = computed(() =>
+  Object.fromEntries(
+    tabIds.map((id) => [id, commands[id].map((c, i) => ({ ...(T[id][i] || { t: "", b: "" }), c }))])
+  )
+);
+
+const steps = computed(() => data.value[active.value]);
 const selected = ref(0);
 function pick(tab) {
   active.value = tab;
@@ -69,7 +90,7 @@ function onKey(e) {
 </script>
 
 <template>
-  <section class="arch" aria-label="BlackArch architecture explorer">
+  <section class="arch" :aria-label="T.aria">
     <div class="tabs" role="tablist">
       <button
         v-for="t in tabs"
@@ -85,7 +106,7 @@ function onKey(e) {
     </div>
 
     <div class="stage">
-      <ol class="flow" :class="{ stack: active === 'layers' }" @keydown="onKey" role="listbox" tabindex="0" aria-label="Steps; use arrow keys">
+      <ol class="flow" :class="{ stack: active === 'layers' }" @keydown="onKey" role="listbox" tabindex="0" :aria-label="T.stepsAria">
         <li
           v-for="(s, i) in steps"
           :key="active + i"
@@ -106,7 +127,7 @@ function onKey(e) {
         <p>{{ current.b }}</p>
         <div class="cmd">
           <code>{{ current.c }}</code>
-          <button type="button" @click="copy" :aria-label="'Copy ' + current.c">{{ copied ? "copied" : "copy" }}</button>
+          <button type="button" @click="copy" :aria-label="T.copyAria(current.c)">{{ copied ? T.copied : T.copy }}</button>
         </div>
       </article>
     </div>

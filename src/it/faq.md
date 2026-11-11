@@ -2,14 +2,15 @@
 title: FAQ
 pageClass: wide
 outline: false
+translated: true
 ---
 
-<div class="ba-banner">
+<script setup>
+import FaqList from '@/components/FaqList.vue'
+</script>
 
-::: info
-Questa pagina non è ancora tradotta: viene mostrata la versione inglese. [Aiuta a tradurre](https://github.com/ru44/blackarch-website).
-:::
+# Domande frequenti
 
-</div>
+Risposte rapide su come scegliere, installare e aggiornare BlackArch. Cerca, filtra per argomento oppure apri una domanda per vedere i comandi.
 
-<!--@include: ../faq.md-->
+<FaqList />

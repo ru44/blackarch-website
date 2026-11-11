@@ -1,7 +1,7 @@
 <script setup>
 import { useT } from "../i18n/index.js";
 import { ref, computed, onMounted } from "vue";
-import { withBase } from "vitepress";
+import { withBase, useData } from "vitepress";
 
 const UI = useT("faq", {
   placeholder: "Search the FAQ…",
@@ -16,11 +16,16 @@ const UI = useT("faq", {
   permalink: "Link to this question",
 });
 
+// Per-locale content: { cats: { "<English category key>": "label" }, items: { "<id>": { q, a } } }.
+// Anything a locale does not define falls back to the English content below.
+const L = useT("faqItems", { cats: {}, items: {} });
+const { localeIndex } = useData();
+
 const matrix = '<a href="https://matrix.to/#/#BlackArch:matrix.org">Matrix channel</a>';
 
 // Answer blocks: p (html string), ul (array of html strings), code (string).
 // Internal links are written as href="/path" and resolved with the site base.
-const items = [
+const EN = [
   {
     id: "right-distro",
     cat: "Getting started",
@@ -107,7 +112,16 @@ const items = [
   },
 ];
 
-const categories = [...new Set(items.map((i) => i.cat))];
+// Resolved items: translated content when the locale has it, English otherwise.
+const items = computed(() =>
+  EN.map((e) => {
+    const o = L.items[e.id];
+    return { id: e.id, cat: e.cat, q: o?.q ?? e.q, a: o?.a ?? e.a, tr: !!o };
+  })
+);
+const categories = [...new Set(EN.map((i) => i.cat))];
+const catLabel = (c) => L.cats[c] ?? c;
+const catTr = (c) => !!L.cats[c];
 const query = ref("");
 const cat = ref("");
 const open = ref(new Set());
@@ -118,19 +132,21 @@ const text = (i) =>
     .join(" ")
     .replace(/<[^>]+>/g, " ")
     .toLowerCase();
-const index = items.map((i) => ({ id: i.id, t: text(i) }));
+const index = computed(() => new Map(items.value.map((i) => [i.id, text(i)])));
 
 const visible = computed(() => {
   const words = query.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
-  return items.filter(
+  return items.value.filter(
     (i) =>
       (!cat.value || i.cat === cat.value) &&
-      words.every((w) => index.find((x) => x.id === i.id).t.includes(w))
+      words.every((w) => index.value.get(i.id).includes(w))
   );
 });
-const countFor = (c) => items.filter((i) => i.cat === c).length;
+const countFor = (c) => items.value.filter((i) => i.cat === c).length;
 
-const html = (s) => s.replace(/href="(\/[^"]*)"/g, (_, p) => `href="${withBase(p)}"`);
+// Internal links stay inside the current language ("/it/downloads" for Italian).
+const prefix = () => (localeIndex.value && localeIndex.value !== "root" ? "/" + localeIndex.value : "");
+const html = (s) => s.replace(/href="(\/[^"]*)"/g, (_, p) => `href="${withBase(prefix() + p)}"`);
 
 function toggle(id, e) {
   const next = new Set(open.value);
@@ -139,7 +155,7 @@ function toggle(id, e) {
 }
 function openFromHash() {
   const id = decodeURIComponent(location.hash.slice(1));
-  if (items.some((i) => i.id === id)) {
+  if (EN.some((i) => i.id === id)) {
     open.value = new Set([...open.value, id]);
     requestAnimationFrame(() => document.getElementById(id)?.scrollIntoView({ block: "start" }));
   }
@@ -167,7 +183,7 @@ async function copy(code) {
 
     <div class="chips" role="group">
       <button type="button" :class="{ on: !cat }" :aria-pressed="!cat" @click="cat = ''">{{ UI.all }} <small>{{ items.length }}</small></button>
-      <button v-for="c in categories" :key="c" type="button" dir="ltr" :class="{ on: cat === c }" :aria-pressed="cat === c" @click="cat = cat === c ? '' : c">{{ c }} <small>{{ countFor(c) }}</small></button>
+      <button v-for="c in categories" :key="c" type="button" :dir="catTr(c) ? null : 'ltr'" :class="{ on: cat === c }" :aria-pressed="cat === c" @click="cat = cat === c ? '' : c">{{ catLabel(c) }} <small>{{ countFor(c) }}</small></button>
     </div>
 
     <p class="count" role="status">{{ UI.count(visible.length, items.length) }}</p>
@@ -175,11 +191,11 @@ async function copy(code) {
     <div v-if="visible.length" class="list">
       <details v-for="i in visible" :id="i.id" :key="i.id" :open="open.has(i.id)" @toggle="toggle(i.id, $event)">
         <summary>
-          <span class="cat" dir="ltr">{{ i.cat }}</span>
-          <span class="q" dir="ltr" lang="en">{{ i.q }}</span>
+          <span class="cat" :dir="catTr(i.cat) ? null : 'ltr'">{{ catLabel(i.cat) }}</span>
+          <span class="q" :dir="i.tr ? null : 'ltr'" :lang="i.tr ? null : 'en'">{{ i.q }}</span>
           <a class="perma" :href="'#' + i.id" :aria-label="UI.permalink" @click.stop>#</a>
         </summary>
-        <div class="answer" dir="ltr" lang="en">
+        <div class="answer" :dir="i.tr ? null : 'ltr'" :lang="i.tr ? null : 'en'">
           <template v-for="(b, n) in i.a" :key="n">
             <p v-if="b.p" v-html="html(b.p)" />
             <ul v-else-if="b.ul"><li v-for="(li, k) in b.ul" :key="k" v-html="html(li)" /></ul>
