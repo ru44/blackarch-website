@@ -128,6 +128,8 @@ export default {
     website: "الموقع",
     visit: "زيارة الموقع",
     noSite: "لا يوجد موقع",
+    deadLink: "رابط معطّل",
+    searchFor: (name) => `ابحث عن ${name}`,
     install: "التثبيت",
     copy: "نسخ",
     copied: "تم النسخ",

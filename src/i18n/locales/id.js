@@ -142,6 +142,8 @@ export default {
     website: "Situs web",
     visit: "Kunjungi situs",
     noSite: "Tidak ada situs web",
+    deadLink: "Tautan mati",
+    searchFor: (name) => `Cari ${name}`,
     install: "Instal",
     copy: "salin",
     copied: "tersalin",

@@ -142,6 +142,8 @@ export default {
     website: "Web sitesi",
     visit: "Siteyi ziyaret et",
     noSite: "Web sitesi belirtilmemiş",
+    deadLink: "Bağlantı çalışmıyor",
+    searchFor: (name) => `${name} için ara`,
     install: "Kurulum",
     copy: "kopyala",
     copied: "kopyalandı",

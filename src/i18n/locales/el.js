@@ -155,6 +155,8 @@ export default {
     website: "Ιστότοπος",
     visit: "Επίσκεψη ιστότοπου",
     noSite: "Δεν υπάρχει ιστότοπος",
+    deadLink: "Ανενεργός σύνδεσμος",
+    searchFor: (name) => `Αναζήτηση για ${name}`,
     install: "Εγκατάσταση",
     copy: "αντιγραφή",
     copied: "αντιγράφηκε",

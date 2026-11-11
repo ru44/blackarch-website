@@ -157,6 +157,8 @@ export default {
     website: "Sito",
     visit: "Visita il sito",
     noSite: "Nessun sito indicato",
+    deadLink: "Link non più attivo",
+    searchFor: (name) => `Cerca ${name}`,
     install: "Installa",
     copy: "copia",
     copied: "copiato",

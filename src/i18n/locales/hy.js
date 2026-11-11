@@ -152,6 +152,8 @@ export default {
     website: "Կայք",
     visit: "Այցելել կայք",
     noSite: "Կայք նշված չէ",
+    deadLink: "Չաշխատող հղում",
+    searchFor: (name) => `Որոնել ${name}`,
     install: "Տեղադրում",
     copy: "պատճենել",
     copied: "պատճենվեց",

@@ -23,6 +23,8 @@ const UI = useT("tools", {
   website: "Website",
   visit: "Visit website",
   noSite: "No website listed",
+  deadLink: "Dead link",
+  searchFor: (name) => `Search for ${name}`,
   install: "Install",
   copy: "copy",
   copied: "copied",
@@ -64,6 +66,11 @@ const sentinel = ref(null);
 const label = (slug) => slug.replace(/^blackarch-/, "").replace(/-/g, " ");
 const groupCmd = (g) => `sudo pacman -S ${g}`;
 const docs = ref(new Set());
+// Tools whose website no longer exists (see scripts/sync-tool-links.mjs).
+const deadLinks = ref(new Set());
+// A page cannot open the visitor's default search engine, so the link goes to Google.
+const searchUrl = (tool) =>
+  `https://www.google.com/search?q=${encodeURIComponent(`${tool.name} ${tool.description ?? ""}`.slice(0, 120))}`;
 const installCmd = (name) => `sudo pacman -S ${name}`;
 
 const categories = computed(() => {
@@ -141,16 +148,23 @@ onMounted(async () => {
   );
   // Real package groups come from the BlackArch wiki (blackarch.wiki); tools it
   // does not list fall back to the group matching their data file, if one exists.
-  const [{ default: groupMap }, { default: docList }, { default: updates }, { default: stars }] =
-    await Promise.all([
-      import("../data/tool-groups.json"),
-      import("../data/tool-docs.json"),
-      import("../data/tool-updates.json"),
-      import("../data/tool-stars.json"),
-    ]);
+  const [
+    { default: groupMap },
+    { default: docList },
+    { default: updates },
+    { default: stars },
+    { default: deadList },
+  ] = await Promise.all([
+    import("../data/tool-groups.json"),
+    import("../data/tool-docs.json"),
+    import("../data/tool-updates.json"),
+    import("../data/tool-stars.json"),
+    import("../data/tool-dead-links.json"),
+  ]);
   // tool-stars.json is ordered most starred first, so the position is the rank.
   const ranks = new Map(Object.keys(stars).map((name, i) => [name, i + 1]));
   docs.value = new Set(docList);
+  deadLinks.value = new Set(deadList);
   const known = new Set(Object.values(groupMap).flat());
   const seen = new Map();
   for (const t of entries.flat()) {
@@ -372,10 +386,18 @@ function copy(name, event) {
               <div>
                 <dt>{{ UI.website }}</dt>
                 <dd>
-                  <a v-if="tool.url" :href="tool.url" target="_blank" rel="noopener noreferrer">{{
-                    UI.visit
-                  }}</a
-                  ><span v-else class="no-url">{{ UI.noSite }}</span>
+                  <template v-if="tool.url && !deadLinks.has(tool.name)">
+                    <a :href="tool.url" target="_blank" rel="noopener noreferrer">{{ UI.visit }}</a>
+                  </template>
+                  <template v-else>
+                    <span v-if="tool.url" class="dead-tag" :title="tool.url">{{
+                      UI.deadLink
+                    }}</span>
+                    <span v-else class="no-url">{{ UI.noSite }}</span>
+                    <a :href="searchUrl(tool)" target="_blank" rel="noopener noreferrer">{{
+                      UI.searchFor(tool.name)
+                    }}</a>
+                  </template>
                 </dd>
               </div>
             </dl>
@@ -725,7 +747,19 @@ dd {
 dd a {
   text-transform: none;
 }
+.dead-tag {
+  margin-inline-end: 8px;
+  padding: 1px 8px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 99px;
+  font: 11px var(--vp-font-family-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--vp-c-text-3);
+}
+
 .no-url {
+  margin-inline-end: 8px;
   color: var(--vp-c-text-3);
   text-transform: none;
 }

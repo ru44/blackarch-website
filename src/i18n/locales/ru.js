@@ -152,6 +152,8 @@ export default {
     website: "Сайт",
     visit: "Открыть сайт",
     noSite: "Сайт не указан",
+    deadLink: "Ссылка не работает",
+    searchFor: (name) => `Искать ${name}`,
     install: "Установка",
     copy: "копировать",
     copied: "скопировано",

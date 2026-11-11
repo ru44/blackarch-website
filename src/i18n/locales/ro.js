@@ -149,6 +149,8 @@ export default {
     website: "Site web",
     visit: "Vizitează site-ul",
     noSite: "Fără site web",
+    deadLink: "Link nefuncțional",
+    searchFor: (name) => `Caută ${name}`,
     install: "Instalare",
     copy: "copiază",
     copied: "copiat",

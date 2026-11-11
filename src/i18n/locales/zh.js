@@ -116,6 +116,8 @@ export default {
     website: "网站",
     visit: "访问网站",
     noSite: "未提供网站",
+    deadLink: "链接已失效",
+    searchFor: (name) => `搜索 ${name}`,
     install: "安装",
     copy: "复制",
     copied: "已复制",
