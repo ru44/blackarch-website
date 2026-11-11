@@ -8,7 +8,6 @@ on:
 
 permissions:
   contents: read
-  statuses: write
   pages: write
   id-token: write
 
@@ -21,13 +20,15 @@ jobs:
     if: ${{ github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'push' }}
     runs-on: ubuntu-latest
     steps:
+      # Build exactly the commit that main-ci verified. fetch-depth 0 keeps the
+      # git history that VitePress needs for "last updated" dates.
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          ref: ${{ github.event.workflow_run.head_sha }}
           fetch-depth: 0
+
       - uses: pnpm/action-setup@v4
-        with:
-          version: 10
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -39,7 +40,9 @@ jobs:
         uses: actions/configure-pages@v4
 
       - name: Install dependencies
-        run: pnpm install --no-frozen-lockfile
+        run: pnpm install --frozen-lockfile
+        env:
+          HUSKY: 0
 
       - name: Build with VitePress
         run: pnpm build
@@ -49,7 +52,6 @@ jobs:
         with:
           path: src/.vitepress/dist
 
-  # Deployment job
   deploy:
     environment:
       name: github-pages
