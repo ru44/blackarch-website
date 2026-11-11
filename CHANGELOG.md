@@ -7,6 +7,13 @@ All notable changes to this project are documented here. The format follows
 
 ### Added
 
+- Daily and manual deploys: `main-ci` runs every day and on demand, and syncs the tools list from
+  the BlackArch package database before each deploy.
+- `pnpm sync:tools` rebuilds the whole tools list from the package database, replacing the separate
+  version, build-date and group scripts.
+- `SITE_URL` sets the address the site is built for, so it can be built for another domain.
+- FAQ structured data (`FAQPage`) for the English and Italian FAQ.
+
 - New terminal-style theme (dark by default): wide pages that use the full screen, a collapsible
   sidebar, and design tokens in `theme/styles/`.
 - Animated hero logo: the sword slides in, the neon arch ignites and breathes, and light sweeps
@@ -44,6 +51,10 @@ All notable changes to this project are documented here. The format follows
 - README with setup, project layout, conventions, translation workflow and data maintenance.
 
 ### Changed
+
+- The site colour is now blue instead of red, to match the BlackArch logo and desktop themes. All
+  components take it from the `--ba-accent` tokens.
+- The tools list follows the package database: 94 tools added, 75 removed.
 
 - Downloads page lists only the Slim and NetInstall ISOs as cards with version, size, copyable
   SHA1 and torrent links. Full ISO and OVA are no longer listed.
