@@ -88,7 +88,9 @@ export default defineConfig({
   title: SITE_TITLE,
   description: SITE_DESCRIPTION,
   head: [
-    ["link", { rel: "icon", type: "image/x-icon", href: `${BASE}favicon.ico` }],
+    ["link", { rel: "icon", href: `${BASE}favicon.ico`, sizes: "any" }],
+    ["link", { rel: "icon", type: "image/png", sizes: "192x192", href: `${BASE}icon-192.png` }],
+    ["link", { rel: "apple-touch-icon", href: `${BASE}apple-touch-icon.png` }],
     ["meta", { name: "theme-color", content: "#0a0a0b" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:site_name", content: SITE_TITLE }],

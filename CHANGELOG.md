@@ -54,6 +54,7 @@ All notable changes to this project are documented here. The format follows
 
 - The site colour is now blue instead of red, to match the BlackArch logo and desktop themes. All
   components take it from the `--ba-accent` tokens.
+- New blue favicon in several sizes, with a touch icon for phones.
 - The tools list follows the package database: 94 tools added, 75 removed.
 
 - Downloads page lists only the Slim and NetInstall ISOs as cards with version, size, copyable
