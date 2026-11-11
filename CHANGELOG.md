@@ -52,6 +52,9 @@ All notable changes to this project are documented here. The format follows
 
 ### Fixed
 
+- Security updates for dependencies flagged by Dependabot: Vue and VitePress updated, and patched
+  versions of Vite, Rollup, Preact and mdast-util-to-hast pinned through pnpm overrides.
+
 - Tool links: 587 updated (current upstream URLs from the BlackArch package database, Google Code
   projects resolved through the Google Code archive, permanent redirects followed). Tools whose
   website is gone show a "Dead link" tag and a search link instead.
