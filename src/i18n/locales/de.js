@@ -58,6 +58,7 @@ export default {
       { d: "Der gesamte Code, Build-Skripte und die Quellen der Website. Issues und Pull Requests jeder Größe sind willkommen." },
       { d: "Neue Tools, Mirrors und wichtige Änderungen am Projekt. Einfach erwähnen, wenn ein Fehler auftaucht oder eine Idee besteht." },
       { d: "Videos zu Installation, Einrichtung und Nutzung der wichtigsten Tools." },
+      { d: "Den News-Feed im eigenen Reader verfolgen." },
       { d: "Direkter Kontakt zum Kernteam der Entwicklung." },
     ],
     newsTitle: "Neuigkeiten und Updates",

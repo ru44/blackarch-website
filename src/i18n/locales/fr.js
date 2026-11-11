@@ -58,6 +58,7 @@ export default {
       { d: "Tout le code, les scripts de compilation et les sources du site. Les issues et pull requests de toute taille sont les bienvenues." },
       { d: "Nouveaux outils, miroirs et changements importants du projet. Mentionnez-nous si vous trouvez un bug ou avez une idée." },
       { d: "Vidéos sur l'installation, la configuration et l'utilisation des principaux outils." },
+      { d: "Suivez le flux d'actualités dans votre lecteur." },
       { d: "Contactez directement l'équipe de développement principale." },
     ],
     newsTitle: "Actualités et mises à jour",

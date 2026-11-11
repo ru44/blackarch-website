@@ -58,6 +58,7 @@ export default {
       { d: "Todo el código, los scripts de compilación y los fuentes del sitio. Se agradecen issues y pull requests de cualquier tamaño." },
       { d: "Nuevas herramientas, mirrors y cambios importantes del proyecto. Menciónanos si encuentras un error o tienes una idea." },
       { d: "Vídeos sobre instalación, configuración y uso de las herramientas principales." },
+      { d: "Sigue el feed de noticias en tu lector." },
       { d: "Contacta directamente con el equipo de desarrollo principal." },
     ],
     newsTitle: "Noticias y novedades",

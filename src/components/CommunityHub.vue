@@ -5,6 +5,7 @@ const channels = [
   { n: "GitHub", d: "All code, build scripts and site source. Issues and pull requests of any size are welcome.", l: "https://github.com/BlackArch", a: "github.com/BlackArch", i: "M9 19c-4 1-4-2-6-2m12 4v-3a3 3 0 0 0-1-2c3 0 6-1 6-6a5 5 0 0 0-1-3 5 5 0 0 0 0-3s-1 0-3 1a10 10 0 0 0-6 0c-2-1-3-1-3-1a5 5 0 0 0 0 3 5 5 0 0 0-1 3c0 5 3 6 6 6a3 3 0 0 0-1 2v3" },
   { n: "X", d: "New tools, new mirrors and major project changes. Mention us for bugs and suggestions.", l: "https://x.com/BlackArchLinux", a: "@BlackArchLinux", i: "M4 4l16 16M20 4L4 20" },
   { n: "YouTube", d: "Self-made videos on installation, configuration and major tool usage.", l: "https://www.youtube.com/channel/UChw5hByy70ey2F7QeLEGICQ", a: "BlackArch channel", i: "M3 8a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v8a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3zM10 9l5 3-5 3z" },
+  { n: "RSS", d: "Follow the news feed in your reader.", l: "https://blackarch.org/rss.xml", a: "blackarch.org/rss.xml", i: "M5 5a14 14 0 0 1 14 14M5 11a8 8 0 0 1 8 8M6 19h.01" },
   { n: "Email", d: "Contact the core development team directly.", l: "mailto:team@blackarch.org", a: "team@blackarch.org", i: "M3 6h18v12H3zM3 7l9 7 9-7" },
 ];
 const updateLinks = [
@@ -18,6 +19,7 @@ const T = useT("community", {
     { d: "All code, build scripts and site source. Issues and pull requests of any size are welcome." },
     { d: "New tools, new mirrors and major project changes. Mention us for bugs and suggestions." },
     { d: "Self-made videos on installation, configuration and major tool usage." },
+    { d: "Follow the news feed in your reader." },
     { d: "Contact the core development team directly." },
   ],
   newsTitle: "News & updates",

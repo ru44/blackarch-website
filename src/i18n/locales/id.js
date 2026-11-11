@@ -58,6 +58,7 @@ export default {
       { d: "Seluruh kode, skrip build, dan sumber situs web. Issue dan pull request dalam ukuran apa pun diterima." },
       { d: "Alat baru, mirror, dan perubahan penting proyek. Sebut kami jika menemukan bug atau punya ide." },
       { d: "Video tentang instalasi, konfigurasi, dan penggunaan alat-alat utama." },
+      { d: "Ikuti umpan berita di pembaca Anda." },
       { d: "Hubungi langsung tim pengembang inti." },
     ],
     newsTitle: "Berita dan pembaruan",

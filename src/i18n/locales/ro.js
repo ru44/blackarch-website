@@ -58,6 +58,7 @@ export default {
       { d: "Tot codul, scripturile de build și sursele site-ului. Issue-uri și pull request-uri de orice dimensiune sunt binevenite." },
       { d: "Unelte noi, mirror-uri și schimbări importante ale proiectului. Menționați-ne dacă găsiți o eroare sau aveți o idee." },
       { d: "Videoclipuri despre instalare, configurare și utilizarea uneltelor principale." },
+      { d: "Urmărește fluxul de noutăți în cititorul tău." },
       { d: "Contactați direct echipa principală de dezvoltare." },
     ],
     newsTitle: "Noutăți și actualizări",

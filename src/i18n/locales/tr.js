@@ -58,6 +58,7 @@ export default {
       { d: "Tüm kod, derleme betikleri ve site kaynağı. Her boyutta issue ve pull request memnuniyetle karşılanır." },
       { d: "Yeni araçlar, yansılar ve önemli proje değişiklikleri. Bir hata bulursanız veya fikriniz varsa bizi etiketleyin." },
       { d: "Kurulum, yapılandırma ve temel araçların kullanımı üzerine videolar." },
+      { d: "Haber akışını okuyucunuzda takip edin." },
       { d: "Ana geliştirme ekibiyle doğrudan iletişime geçin." },
     ],
     newsTitle: "Haberler ve güncellemeler",
