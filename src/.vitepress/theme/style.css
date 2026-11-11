@@ -369,3 +369,27 @@ html[dir="rtl"] .costs li { border-left: 0; border-right: 2px solid var(--ba-red
   html.sidebar-collapsed .sb-expand { display: inline-flex !important; }
 }
 html[dir="rtl"] .sb-expand { left: auto; right: 0; border-left: 1px solid var(--vp-c-divider); border-right: 0; border-radius: 10px 0 0 10px; }
+
+/* Sidebar top: the cover strip must match the slimmer sidebar padding */
+@media (min-width: 960px) {
+  .VPSidebar .curtain { margin-left: -20px !important; margin-right: -12px !important; }
+}
+
+/* RTL: untranslated English prose stays left-to-right; translated components stay RTL */
+html[dir="rtl"] .vp-doc > div > :is(p, h1, h2, h3, h4, ul, ol, blockquote, table, .custom-block, div[class*="language-"]),
+html[dir="rtl"] .vp-doc > div > .custom-block {
+  direction: ltr;
+  text-align: left;
+}
+html[dir="rtl"] .vp-doc .ba-banner .custom-block { direction: rtl; text-align: right; }
+html[dir="rtl"] .vp-doc > div > h1,
+html[dir="rtl"] .vp-doc > div > h2 { unicode-bidi: isolate; }
+/* search button: give the shortcut badge room on both directions */
+.VPNavBarSearch .DocSearch-Button-Placeholder { padding-inline: 10px 12px; }
+.VPNavBarSearch .DocSearch-Button-Keys { gap: 2px; }
+
+/* RTL: the nav divider's sidebar offset belongs on the right edge */
+@media (min-width: 960px) {
+  html[dir="rtl"] .VPNavBar.has-sidebar .divider { padding-left: 0 !important; padding-right: var(--vp-sidebar-width) !important; }
+  html[dir="rtl"] .VPNavBar.has-sidebar .title { border-bottom: 1px solid var(--vp-c-divider); }
+}

@@ -1,8 +1,13 @@
 <script setup>
-import { ref, onMounted } from "vue";
+import { ref, computed, onMounted } from "vue";
 import { useSidebar } from "vitepress/theme";
+import { useData } from "vitepress";
+import meta from "../../i18n/meta.json";
 
 const { hasSidebar } = useSidebar();
+const { lang } = useData();
+const byLang = Object.fromEntries(Object.values(meta).map((d) => [d.lang, d.sidebar]));
+const L = computed(() => byLang[lang.value] || { hide: "Hide sidebar", show: "Show sidebar" });
 
 // variant "collapse": row at the top of the sidebar. variant "expand": tab on the
 // screen edge, only visible while the sidebar is collapsed. The state is shared at
@@ -32,20 +37,20 @@ onMounted(() => {
     v-if="variant === 'collapse'"
     type="button"
     class="sb-collapse"
-    aria-label="Hide sidebar"
+    :aria-label="L.hide"
     @click="set(true)"
   >
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
       <rect x="3" y="4" width="18" height="16" rx="2" /><path d="M9 4v16M16 10l-2 2 2 2" />
     </svg>
-    <span>Hide sidebar</span>
+    <span>{{ L.hide }}</span>
   </button>
   <button
     v-else-if="hasSidebar"
     type="button"
     class="sb-expand"
-    aria-label="Show sidebar"
-    title="Show sidebar"
+    :aria-label="L.show"
+    :title="L.show"
     @click="set(false)"
   >
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -60,7 +65,7 @@ onMounted(() => {
   align-items: center;
   gap: 8px;
   width: 100%;
-  margin: 0 0 12px;
+  margin: 16px 0 12px;
   padding: 8px 10px;
   border: 1px solid var(--vp-c-divider);
   border-radius: 8px;
