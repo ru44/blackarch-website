@@ -3,301 +3,258 @@
     "name": "arpon",
     "version": "2.7",
     "description": "A portable handler daemon that make ARP protocol secure in order to avoid the Man In The Middle (MITM) attack through ARP Spoofing, ARP Cache Poisoning or ARP Poison Routing (APR) attacks.",
-    "url": "http://arpon.sourceforge.net/"
-  }
-,
+    "url": "https://arpon.sourceforge.net/"
+  },
   {
     "name": "arpstraw",
     "version": "27.ab40e13",
     "description": "Arp spoof detection tool.",
     "url": "https://github.com/he2ss/arpstraw"
-  }
-,
+  },
   {
     "name": "artillery",
     "version": "357.805a5d8",
     "description": "A combination of a honeypot, file-system monitoring, system hardening, and overall health of a server to create a comprehensive way to secure a system.",
-    "url": "https://www.trustedsec.com/downloads/artillery/"
-  }
-,
+    "url": "https://www.trustedsec.com/"
+  },
   {
     "name": "artlas",
     "version": "154.e5fdd8d",
     "description": "Apache Real Time Logs Analyzer System.",
     "url": "https://github.com/mthbernardes/ARTLAS"
-  }
-,
+  },
   {
     "name": "capa",
     "version": "7.4.0",
     "description": "The FLARE team's open-source tool to identify capabilities in executable files.",
     "url": "https://github.com/mandiant/capa"
-  }
-,
+  },
   {
     "name": "chainsaw",
     "version": "v2.7.3.r6.g5d908fd",
     "description": "A powerful ‘first-response’ capability to quickly identify threats within Windows event logs.",
-    "url": "https://github.com/countercept/chainsaw"
-  }
-,
+    "url": "https://github.com/WithSecureOpenSource/chainsaw"
+  },
   {
     "name": "chkrootkit",
     "version": "0.58b",
     "description": "Checks for rootkits on a system.",
-    "url": "http://www.chkrootkit.org/"
-  }
-,
+    "url": "https://www.chkrootkit.org/"
+  },
   {
     "name": "detect-sniffer",
     "version": "159.a359262",
     "description": "Tool that detects sniffers in the network.",
     "url": "https://github.com/galkan/tools/tree/master/detect_sniffer"
-  }
-,
+  },
   {
     "name": "fastnetmon",
     "version": "v1.1.4.r62.g780aff3",
     "description": "High performance DoS/DDoS load analyzer built on top of multiple packet capture engines.",
     "url": "https://github.com/pavel-odintsov/fastnetmon"
-  }
-,
+  },
   {
     "name": "fssb",
     "version": "73.51d2ac2",
     "description": "A low-level filesystem sandbox for Linux using syscall intercepts.",
     "url": "https://github.com/adtac/fssb"
-  }
-,
+  },
   {
     "name": "honeycreds",
     "version": "26.eaeb401",
     "description": "Network credential injection to detect responder and other network poisoners.",
     "url": "https://github.com/Ben0xA/HoneyCreds"
-  }
-,
+  },
   {
     "name": "ifchk",
     "version": "1.1.2",
     "description": "A network interface promiscuous mode detection tool.",
     "url": "http://www.noorg.org/ifchk/"
-  }
-,
+  },
   {
     "name": "inetsim",
     "version": "1.3.2",
     "description": "A software suite for simulating common internet services in a lab environment, e.g. for analyzing the network behaviour of unknown malware samples.",
-    "url": "http://www.inetsim.org/"
-  }
-,
+    "url": "https://www.inetsim.org/"
+  },
   {
     "name": "jeopardize",
     "version": "5.34f1d07",
     "description": "A low(zero) cost threat intelligence & response tool against phishing domains.",
     "url": "https://github.com/utkusen/jeopardize"
-  }
-,
+  },
   {
     "name": "lorg",
     "version": "98.aa4f1a3",
     "description": "Apache Logfile Security Analyzer.",
     "url": "https://github.com/jensvoid/lorg"
-  }
-,
+  },
   {
     "name": "malice",
     "version": "0.3.28",
     "description": "VirusTotal Wanna Be - Now with 100% more Hipster.",
     "url": "https://github.com/maliceio/malice"
-  }
-,
+  },
   {
     "name": "malmon",
     "version": "0.3",
     "description": "Hosting exploit/backdoor detection daemon.",
-    "url": "http://sourceforge.net/projects/malmon/"
-  }
-,
+    "url": "https://sourceforge.net/projects/malmon/"
+  },
   {
     "name": "maltrail",
     "version": "118974.f58d8c2d37",
     "description": "Malicious traffic detection system.",
     "url": "https://github.com/stamparm/maltrail"
-  }
-,
+  },
   {
     "name": "mat",
     "version": "0.6.1",
     "description": "Metadata Anonymisation Toolkit composed of a GUI application, a CLI application and a library.",
     "url": "https://mat.boum.org/"
-  }
-,
+  },
   {
     "name": "munin-hashchecker",
     "version": "242.95ac249",
     "description": "Online hash checker for Virustotal and other services",
     "url": "https://github.com/Neo23x0/munin"
-  }
-,
+  },
   {
     "name": "nipe",
     "version": "302.9e628df",
     "description": "A script to make Tor Network your default gateway.",
-    "url": "https://github.com/GouveaHeitor/nipe"
-  }
-,
+    "url": "https://github.com/htrgouvea/nipe"
+  },
   {
     "name": "orjail",
     "version": "200.ae38ba2",
     "description": "A more secure way to force programs to exclusively use tor network.",
     "url": "https://github.com/orjail/orjail"
-  }
-,
+  },
   {
     "name": "osfooler-ng",
     "version": "2.c0b20d6",
     "description": "Prevents remote active/passive OS fingerprinting by tools like nmap or p0f.",
     "url": "https://github.com/segofensiva/OSfooler-ng"
-  }
-,
+  },
   {
     "name": "persistencesniper",
     "version": "v1.17.1.r0.g13006aa",
     "description": "Hunt persistences implanted in Windows machines.",
     "url": "https://github.com/last-byte/PersistenceSniper"
-  }
-,
+  },
   {
     "name": "portspoof",
     "version": "152.89d5ecc",
     "description": "This program's primary goal is to enhance OS security through a set of new techniques.",
     "url": "https://drk1wi.github.io/portspoof/"
-  }
-,
+  },
   {
     "name": "prowler",
     "version": "5904.67bc16b46",
     "description": "Tool for AWS security assessment, auditing and hardening.",
-    "url": "https://github.com/alfresco/prowler"
-  }
-,
+    "url": "https://github.com/prowler-cloud/prowler"
+  },
   {
     "name": "quicksand-lite",
     "version": "33.c3edf92",
     "description": "Command line tool for scanning streams within office documents plus xor db attack.",
-    "url": "https://github.com/tylabs/quicksand_lite"
-  }
-,
+    "url": "https://github.com/tylabs/qs_old"
+  },
   {
     "name": "sentrypeer",
     "version": "v3.0.0.r14.g02173c8",
     "description": "Protect SIP Servers from bad actors.",
     "url": "https://github.com/SentryPeer/SentryPeer"
-  }
-,
+  },
   {
     "name": "sigma",
     "version": "0.20",
     "description": "Generic Signature Format for SIEM Systems",
     "url": "https://github.com/SigmaHQ/sigma/releases"
-  }
-,
+  },
   {
     "name": "sniffjoke",
     "version": "772.434bfb1",
     "description": "Injects packets in the transmission flow that are able to seriously disturb passive analysis like sniffing, interception and low level information theft.",
-    "url": "http://www.delirandom.net/sniffjoke/"
-  }
-,
+    "url": "https://delirandom.net/404"
+  },
   {
     "name": "snort",
     "version": "2.9.20",
     "description": "A lightweight network intrusion detection system.",
-    "url": "http://www.snort.org/"
-  }
-,
+    "url": "https://www.snort.org/"
+  },
   {
     "name": "sooty",
     "version": "335.6236fd1",
     "description": "The SOC Analysts all-in-one CLI tool to automate and speed up workflow.",
     "url": "https://github.com/TheresAFewConors/Sooty"
-  }
-,
+  },
   {
     "name": "suricata",
     "version": "6.0.20",
     "description": "An Open Source Next Generation Intrusion Detection and Prevention Engine.",
     "url": "https://suricata.io/download/"
-  }
-,
+  },
   {
     "name": "tabi",
     "version": "13.068a406",
     "description": "BGP Hijack Detection.",
     "url": "https://github.com/ANSSI-FR/tabi"
-  }
-,
+  },
   {
     "name": "tfsec",
     "version": "v0.63.1.r403.g1ade1215f",
     "description": "Security scanner for your Terraform code.",
     "url": "https://github.com/aquasecurity/tfsec"
-  }
-,
+  },
   {
     "name": "threatspec",
     "version": "0.5.0",
     "description": "Project to integrate threat modelling into development process.",
     "url": "https://github.com/threatspec/threatspec"
-  }
-,
+  },
   {
     "name": "tor-autocircuit",
     "version": "0.2",
     "description": "Tor Autocircuit was developed to give users a finer control over Tor circuit creation. The tool exposes the functionality of TorCtl library which allows its users to control circuit length, speed, geolocation, and other parameters.",
     "url": "http://www.thesprawl.org/projects/tor-autocircuit/"
-  }
-,
+  },
   {
     "name": "tor-browser",
     "version": "14.0.9",
     "description": "Tor Browser Bundle: anonymous browsing using Firefox and Tor.",
-    "url": "https://www.torproject.org/projects/torbrowser.html"
-  }
-,
+    "url": "https://download.torproject.org/tor-browser-for-desktop/"
+  },
   {
     "name": "tor-router",
     "version": "22.5b79c1c",
     "description": "A tool that allow you to make TOR your default gateway and send all internet connections under TOR (as transparent proxy) for increase privacy/anonymity without extra unnecessary code.",
     "url": "https://github.com/Edu4rdSHL/tor-router"
-  }
-,
+  },
   {
     "name": "tyton",
     "version": "80.56494f3",
     "description": "Kernel-Mode Rootkit Hunter.",
     "url": "https://github.com/nbulischeck/tyton"
-  }
-,
+  },
   {
     "name": "usb-canary",
     "version": "31.bb23552",
     "description": "A Linux or OSX tool that uses psutil to monitor devices while your computer is locked. In the case it detects someone plugging in or unplugging devices it can be configured to send you an SMS or alert you via Slack or Pushover.",
     "url": "https://github.com/errbufferoverfl/usb-canary"
-  }
-,
+  },
   {
     "name": "yeti",
     "version": "3416.0cc1f3cd",
     "description": "A platform meant to organize observables, indicators of compromise, TTPs, and knowledge on threats in a single, unified repository.",
     "url": "https://github.com/yeti-platform/yeti"
-  }
-,
+  },
   {
     "name": "zeus",
     "version": "111.97db152",
     "description": "AWS Auditing & Hardening Tool.",
     "url": "https://github.com/DenizParlak/Zeus"
   }
-
 ]

@@ -4,580 +4,497 @@
     "version": "0.6",
     "description": "A command-line fuzzer for the Apache JServ Protocol (ajp13).",
     "url": "https://github.com/doyensec/ajpfuzzer"
-  }
-,
+  },
   {
     "name": "backfuzz",
     "version": "1.b0648de",
     "description": "A network protocol fuzzing toolkit.",
     "url": "https://github.com/localh0t/backfuzz"
-  }
-,
+  },
   {
     "name": "bfuzz",
     "version": "60.fdaefc0",
     "description": "Input based fuzzer tool for browsers.",
     "url": "https://github.com/RootUp/BFuzz"
-  }
-,
+  },
   {
     "name": "boofuzz",
     "version": "v0.4.2.r27.g10a1501",
     "description": "",
     "url": "https://github.com/jtpereyda/boofuzz"
-  }
-,
+  },
   {
     "name": "browser-fuzzer",
     "version": "3",
     "description": "Browser Fuzzer 3",
     "url": "http://www.krakowlabs.com/dev.html"
-  }
-,
+  },
   {
     "name": "bunny",
     "version": "0.93",
     "description": "A closed loop, high-performance, general purpose protocol-blind fuzzer for C programs.",
-    "url": "https://code.google.com/p/bunny-the-fuzzer/"
-  }
-,
+    "url": "https://code.google.com/archive/p/bunny-the-fuzzer"
+  },
   {
     "name": "choronzon",
     "version": "4.d702c31",
     "description": "An evolutionary knowledge-based fuzzer.",
     "url": "https://github.com/CENSUS/choronzon"
-  }
-,
+  },
   {
     "name": "cirt-fuzzer",
     "version": "1.0",
     "description": "A simple TCP/UDP protocol fuzzer.",
     "url": "http://www.cirt.dk/"
-  }
-,
+  },
   {
     "name": "conscan",
     "version": "1.2",
     "description": "A blackbox vulnerability scanner for the Concre5 CMS.",
-    "url": "http://nullsecurity.net/tools/scanner.html"
-  }
-,
+    "url": "https://nullsecurity.net/tools/scanner.html"
+  },
   {
     "name": "cookie-cadger",
     "version": "1.08",
     "description": "An auditing tool for Wi-Fi or wired Ethernet connections.",
     "url": "https://cookiecadger.com/"
-  }
-,
+  },
   {
     "name": "crlf-injector",
     "version": "9.bd6db06",
     "description": "A python script for testing CRLF injecting issues.",
     "url": "https://github.com/rudSarkar/crlf-injector"
-  }
-,
+  },
   {
     "name": "dharma",
     "version": "98.6b1e511",
     "description": "Generation-based, context-free grammar fuzzer.",
     "url": "https://github.com/MozillaSecurity/dharma"
-  }
-,
+  },
   {
     "name": "dizzy",
     "version": "2.0",
     "description": "A Python based fuzzing framework with many features.",
-    "url": "http://www.c0decafe.de/"
-  }
-,
+    "url": "https://c0decafe.de/"
+  },
   {
     "name": "domato",
     "version": "133.fadff39",
     "description": "DOM fuzzer.",
     "url": "https://github.com/googleprojectzero/domato"
-  }
-,
+  },
   {
     "name": "doona",
     "version": "145.7a4796c",
     "description": "A fork of the Bruteforce Exploit Detector Tool (BED).",
     "url": "https://github.com/wireghoul/doona"
-  }
-,
+  },
   {
     "name": "easyfuzzer",
     "version": "3.6",
     "description": "A flexible fuzzer, not only for web, has a CSV output for efficient output analysis (platform independent).",
-    "url": "http://www.mh-sec.de/downloads.html.en"
-  }
-,
+    "url": "https://www.mh-sec.de/downloads.html.en"
+  },
   {
     "name": "firewalk",
     "version": "5.0",
     "description": "An active reconnaissance network security tool.",
     "url": "http://packetfactory.openwall.net/projects/firewalk/"
-  }
-,
+  },
   {
     "name": "flyr",
     "version": "76.4926ecc",
     "description": "Block-based software vulnerability fuzzing framework.",
     "url": "https://github.com/zznop/flyr"
-  }
-,
+  },
   {
     "name": "frisbeelite",
     "version": "1.2",
     "description": "A GUI-based USB device fuzzer.",
     "url": "https://github.com/nccgroup/FrisbeeLite"
-  }
-,
+  },
   {
     "name": "ftester",
     "version": "1.0",
     "description": "A tool designed for testing firewall filtering policies and Intrusion Detection System (IDS) capabilities.",
-    "url": "http://www.inversepath.com/ftester.html"
-  }
-,
+    "url": "https://inversepath.com/ftester.html"
+  },
   {
     "name": "ftp-fuzz",
     "version": "1337",
     "description": "The master of all master fuzzing scripts specifically targeted towards FTP server software.",
-    "url": "http://nullsecurity.net/tools/fuzzer.html"
-  }
-,
+    "url": "https://nullsecurity.net/tools/fuzzer.html"
+  },
   {
     "name": "fuddly",
     "version": "569.fd2c4d0",
     "description": "Fuzzing and Data Manipulation Framework (for GNU/Linux).",
     "url": "https://github.com/k0retux/fuddly"
-  }
-,
+  },
   {
     "name": "fusil",
     "version": "1.5",
     "description": "A Python library used to write fuzzing programs.",
     "url": "http://bitbucket.org/haypo/fusil/wiki/Home"
-  }
-,
+  },
   {
     "name": "fuzzball2",
     "version": "0.7",
     "description": "A little fuzzer for TCP and IP options. It sends a bunch of more or less bogus packets to the host of your choice.",
     "url": "http://nologin.org/"
-  }
-,
+  },
   {
     "name": "fuzzdb",
     "version": "475.5656ab2",
     "description": "Attack and Discovery Pattern Dictionary for Application Fault Injection Testing.",
     "url": "https://github.com/fuzzdb-project/fuzzdb"
-  }
-,
+  },
   {
     "name": "fuzzdiff",
     "version": "1.0",
     "description": "A simple tool designed to help out with crash analysis during fuzz testing. It selectively 'un-fuzzes' portions of a fuzzed file that is known to cause a crash, re-launches the targeted application, and sees if it still crashes.",
-    "url": "http://vsecurity.com/resources/tool"
-  }
-,
+    "url": "http://vsecurity.com/resources/tool/"
+  },
   {
     "name": "fuzzowski",
     "version": "41.e39f665",
     "description": "A Network Protocol Fuzzer made by NCCGroup based on Sulley and BooFuzz.",
     "url": "https://github.com/nccgroup/fuzzowski"
-  }
-,
+  },
   {
     "name": "goofuzz",
     "version": "1.2.5.r2.g6ba4cc5",
     "description": "A Bash script that uses advanced Google search techniques to obtain sensitive information in files or directories without making requests to the web server.",
     "url": "https://github.com/m3n0sd0n4ld/GooFuzz"
-  }
-,
+  },
   {
     "name": "grammarinator",
     "version": "397.68b0350",
     "description": "A random test generator / fuzzer that creates test cases according to an input ANTLR v4 grammar.",
     "url": "https://github.com/renatahodovan/grammarinator"
-  }
-,
+  },
   {
     "name": "grr",
     "version": "17.791ed5a",
     "description": "High-throughput fuzzer and emulator of DECREE binaries.",
-    "url": "https://github.com/trailofbits/grr"
-  }
-,
+    "url": "https://github.com/lifting-bits/grr"
+  },
   {
     "name": "hexorbase",
     "version": "6",
     "description": "A database application designed for administering and auditing multiple database servers simultaneously from a centralized location. It is capable of performing SQL queries and bruteforce attacks against common database servers (MySQL, SQLite, Microsoft SQL Server, Oracle, PostgreSQL).",
-    "url": "https://code.google.com/p/hexorbase/"
-  }
-,
+    "url": "https://github.com/savio-code/hexorbase"
+  },
   {
     "name": "hodor",
     "version": "1.01be107",
     "description": "A general-use fuzzer that can be configured to use known-good input and delimiters in order to fuzz specific locations.",
     "url": "https://github.com/nccgroup/hodor"
-  }
-,
+  },
   {
     "name": "honggfuzz",
     "version": "4130.4cfa62f4",
     "description": "A general-purpose fuzzer with simple, command-line interface.",
-    "url": "https://code.google.com/p/honggfuzz/"
-  }
-,
+    "url": "https://github.com/google/honggfuzz"
+  },
   {
     "name": "http-fuzz",
     "version": "0.1",
     "description": "A simple http fuzzer.",
     "url": "none"
-  }
-,
+  },
   {
     "name": "ifuzz",
     "version": "1.0",
     "description": "A binary file fuzzer with several options.",
     "url": "http://www.fuzzing.org/"
-  }
-,
+  },
   {
     "name": "ikeprober",
     "version": "1.12",
     "description": "Tool crafting IKE initiator packets and allowing many options to be manually set. Useful to find overflows, error conditions and identifiyng vendors",
-    "url": "http://ikecrack.sourceforge.net/"
-  }
-,
+    "url": "https://ikecrack.sourceforge.net/"
+  },
   {
     "name": "jbrofuzz",
     "version": "2.5",
     "description": "Web application protocol fuzzer that emerged from the needs of penetration testing.",
-    "url": "http://sourceforge.net/projects/jbrofuzz/"
-  }
-,
+    "url": "https://sourceforge.net/projects/jbrofuzz/"
+  },
   {
     "name": "kitty-framework",
     "version": "352.cb07609",
     "description": "Fuzzing framework written in python.",
     "url": "https://github.com/cisco-sas/kitty"
-  }
-,
+  },
   {
     "name": "malybuzz",
     "version": "1.0",
     "description": "A Python tool focused in discovering programming faults in network software.",
     "url": "http://eternal-todo.com/tools/malybuzz-network-fuzzer"
-  }
-,
+  },
   {
     "name": "manul",
     "version": "197.f525df9",
     "description": "A coverage-guided parallel fuzzer for open-source and blackbox binaries on Windows, Linux and MacOS.",
     "url": "https://github.com/mxmssh/manul"
-  }
-,
+  },
   {
     "name": "melkor",
     "version": "1.0",
     "description": "An ELF fuzzer that mutates the existing data in an ELF sample given to create orcs (malformed ELFs), however, it does not change values randomly (dumb fuzzing), instead, it fuzzes certain metadata with semi-valid values through the use of fuzzing rules (knowledge base).",
-    "url": "http://packetstormsecurity.com/files/127924/Melkor-ELF-Fuzzer.0.html"
-  }
-,
+    "url": "http://packetstormsecurity.com/files/127924/Melkor-ELF-Fuzzer-1.0.html"
+  },
   {
     "name": "notspikefile",
     "version": "0.1",
     "description": "A Linux based file format fuzzing tool",
     "url": "http://packetstormsecurity.com/files/39627/notSPIKEfile.tgz.html"
-  }
-,
+  },
   {
     "name": "oat",
     "version": "1.3.1",
     "description": "A toolkit that could be used to audit security within Oracle database servers.",
     "url": "http://www.cqure.net/wp/test/"
-  }
-,
+  },
   {
     "name": "ohrwurm",
     "version": "1.7a1182a",
     "description": "A small and simple RTP fuzzer.",
-    "url": "http://mazzoo.de/"
-  }
-,
+    "url": "https://mazzoo.de/"
+  },
   {
     "name": "oscanner",
     "version": "1.0.6",
     "description": "An Oracle assessment framework developed in Java.",
     "url": "http://www.cqure.net/wp/oscanner/"
-  }
-,
+  },
   {
     "name": "peach",
     "version": "3.0.202",
     "description": "A SmartFuzzer that is capable of performing both generation and mutation based fuzzing.",
     "url": "http://peachfuzzer.com/"
-  }
-,
+  },
   {
     "name": "peach-fuzz",
     "version": "55.404e8ee",
     "description": "Simple vulnerability scanning framework.",
-    "url": "https://github.com/Caleb1994/peach"
-  }
-,
+    "url": "https://github.com/calebstewart/peach"
+  },
   {
     "name": "pentbox",
     "version": "1.8",
     "description": "A security suite that packs security and stability testing oriented tools for networks and systems.",
     "url": "http://www.pentbox.net"
-  }
-,
+  },
   {
     "name": "portmanteau",
     "version": "1.0",
     "description": "An experimental unix driver IOCTL security tool that is useful for fuzzing and discovering device driver attack surface.",
     "url": "https://packetstormsecurity.com/files/134230/Portmanteau-Unix-Driver-IOCTL-Security-Tool.html"
-  }
-,
+  },
   {
     "name": "powerfuzzer",
     "version": "1_beta",
     "description": "Powerfuzzer is a highly automated web fuzzer based on many other Open Source fuzzers available (incl. cfuzzer, fuzzled, fuzzer.pl, jbrofuzz, webscarab, wapiti, Socket Fuzzer). It can detect XSS, Injections (SQL, LDAP, commands, code, XPATH) and others.",
-    "url": "http://www.powerfuzzer.com"
-  }
-,
+    "url": "https://www.powerfuzzer.com/"
+  },
   {
     "name": "profuzz",
     "version": "9.aa6dded",
     "description": "Simple PROFINET fuzzer based on Scapy.",
     "url": "https://github.com/HSASec/ProFuzz"
-  }
-,
+  },
   {
     "name": "pulsar",
     "version": "55.3c61178",
     "description": "Protocol Learning and Stateful Fuzzing.",
     "url": "https://github.com/hgascon/pulsar"
-  }
-,
+  },
   {
     "name": "pyjfuzz",
     "version": "157.f777067",
     "description": "Python JSON Fuzzer.",
     "url": "https://github.com/mseclab/PyJFuzz"
-  }
-,
+  },
   {
     "name": "ratproxy",
     "version": "1.58",
     "description": "A passive web application security assessment tool",
-    "url": "http://code.google.com/p/ratproxy/"
-  }
-,
+    "url": "https://code.google.com/archive/p/ratproxy"
+  },
   {
     "name": "s3-fuzzer",
     "version": "4.0a2a6f0",
     "description": "A concurrent, command-line AWS S3 Fuzzer.",
-    "url": "https://github.com/petermbenjamin/s3-fuzzer"
-  }
-,
+    "url": "https://github.com/pbnj/s3-fuzzer"
+  },
   {
     "name": "samesame",
     "version": "68.a9bcd7b",
     "description": "Command line tool to generate crafty homograph strings.",
     "url": "https://github.com/TheTarquin/samesame"
-  }
-,
+  },
   {
     "name": "sandsifter",
     "version": "2.8375e61",
     "description": "The x86 processor fuzzer.",
     "url": "https://github.com/xoreaxeaxeax/sandsifter"
-  }
-,
+  },
   {
     "name": "sfuzz",
     "version": "200.e1b62bd",
     "description": "A simple fuzzer.",
     "url": "http://aconole.brad-x.com/programs/sfuzz.html"
-  }
-,
+  },
   {
     "name": "sharpfuzz",
     "version": "v2.2.0.r2.g679e726",
     "description": "AFL-based fuzz testing for .NET.",
     "url": "https://github.com/Metalnem/sharpfuzz"
-  }
-,
+  },
   {
     "name": "sloth-fuzzer",
     "version": "39.9f7f59a",
     "description": "A smart file fuzzer.",
     "url": "https://github.com/mfontanini/sloth-fuzzer"
-  }
-,
+  },
   {
     "name": "smtp-fuzz",
     "version": "1.0",
     "description": "Simple smtp fuzzer.",
     "url": "none"
-  }
-,
+  },
   {
     "name": "snmp-fuzzer",
     "version": "0.1.1",
     "description": "SNMP fuzzer uses Protos test cases with an entirely new engine written in Perl.",
     "url": "http://www.arhont.com/en/category/resources/tools-utilities/"
-  }
-,
+  },
   {
     "name": "socketfuzz",
     "version": "26.089add2",
     "description": "Simple socket fuzzer.",
-    "url": "https://github.com/landw1re/socketfuzz"
-  }
-,
+    "url": "https://github.com/steve-landy/socketfuzz"
+  },
   {
     "name": "spiderpig-pdffuzzer",
     "version": "0.1",
     "description": "A javascript pdf fuzzer.",
-    "url": "https://code.google.com/p/spiderpig-pdffuzzer/"
-  }
-,
+    "url": "https://code.google.com/archive/p/spiderpig-pdffuzzer"
+  },
   {
     "name": "spike-fuzzer",
     "version": "2.9",
     "description": "IMMUNITYsec's fuzzer creation kit in C.",
-    "url": "http://www.immunitysec.com/resources-freesoftware.shtml"
-  }
-,
+    "url": "https://www.immunitysec.com/fuzzing/"
+  },
   {
     "name": "sploitego",
     "version": "153.d9568dc",
     "description": "Maltego Penetration Testing Transforms.",
     "url": "https://github.com/allfro/sploitego"
-  }
-,
+  },
   {
     "name": "sqlbrute",
     "version": "1.0",
     "description": "Brute forces data out of databases using blind SQL injection.",
     "url": "http://www.justinclarke.com/archives/2006/03/sqlbrute.html"
-  }
-,
+  },
   {
     "name": "sshfuzz",
     "version": "1.0",
     "description": "A SSH Fuzzing utility written in Perl that uses Net::SSH2.",
     "url": "https://packetstormsecurity.com/fuzzer/sshfuzz.txt"
-  }
-,
+  },
   {
     "name": "sulley",
     "version": "1.0.bff0dd1",
     "description": "A pure-python fully automated and unattended fuzzing framework.",
     "url": "https://github.com/OpenRCE/sulley/"
-  }
-,
+  },
   {
     "name": "taof",
     "version": "0.3.2",
     "description": "A GUI cross-platform Python generic network protocol fuzzer.",
     "url": "http://taof.sf.net/"
-  }
-,
+  },
   {
     "name": "tcpcontrol-fuzzer",
     "version": "0.1",
     "description": "2^6 TCP control bit fuzzer (no ECN or CWR).",
     "url": "https://www.ee.oulu.fi/research/ouspg/tcpcontrol-fuzzer"
-  }
-,
+  },
   {
     "name": "termineter",
     "version": "210.a802f94",
     "description": "Smart meter testing framework.",
-    "url": "https://code.google.com/p/termineter/"
-  }
-,
+    "url": "https://code.google.com/archive/p/termineter"
+  },
   {
     "name": "tftp-fuzz",
     "version": "1337",
     "description": "Master TFTP fuzzing script as part of the ftools series of fuzzers.",
-    "url": "http://nullsecurity.net/tools/fuzzer.html"
-  }
-,
+    "url": "https://nullsecurity.net/tools/fuzzer.html"
+  },
   {
     "name": "thefuzz",
     "version": "160.b4c2c80",
     "description": "CLI fuzzing tool.",
     "url": "https://github.com/droberson/thefuzz"
-  }
-,
+  },
   {
     "name": "trinity",
     "version": "5192.e7187245",
     "description": "A Linux System call fuzzer.",
     "url": "http://codemonkey.org.uk/projects/trinity/"
-  }
-,
+  },
   {
     "name": "unifuzzer",
     "version": "5.3385a3b",
     "description": "A fuzzing tool for closed-source binaries based on Unicorn and LibFuzzer.",
-    "url": "https://github.com/rk700/uniFuzzer"
-  }
-,
+    "url": "https://github.com/PAGalaxyLab/uniFuzzer"
+  },
   {
     "name": "uniofuzz",
     "version": "1337",
     "description": "The universal fuzzing tool for browsers, web services, files, programs and network services/ports",
-    "url": "http://nullsecurity.net/tools/fuzzer.html"
-  }
-,
+    "url": "https://nullsecurity.net/tools/fuzzer.html"
+  },
   {
     "name": "uniscan",
     "version": "6.3",
     "description": "A simple Remote File Include, Local File Include and Remote Command Execution vulnerability scanner.",
-    "url": "http://sourceforge.net/projects/uniscan/"
-  }
-,
+    "url": "https://sourceforge.net/projects/uniscan/"
+  },
   {
     "name": "w3af",
     "version": "1.6.49",
     "description": "Web Application Attack and Audit Framework.",
     "url": "https://github.com/andresriancho/w3af/releases"
-  }
-,
+  },
   {
     "name": "webscarab",
     "version": "20120422.001828",
     "description": "Framework for analysing applications that communicate using the HTTP and HTTPS protocols",
     "url": "http://www.owasp.org/index.php/Category:OWASP_WebScarab_Project"
-  }
-,
+  },
   {
     "name": "webshag",
     "version": "1.10",
     "description": "A multi-threaded, multi-platform web server audit tool.",
     "url": "http://www.scrt.ch/en/attack/downloads/webshag"
-  }
-,
+  },
   {
     "name": "wfuzz",
     "version": "1155.1b695ee",
     "description": "Utility to bruteforce web applications to find their not linked resources.",
     "url": "https://github.com/xmendez/wfuzz"
-  }
-,
+  },
   {
     "name": "wsfuzzer",
     "version": "1.9.5",
     "description": "A Python tool written to automate SOAP pentesting of web services.",
     "url": "https://www.owasp.org/index.php/Category:OWASP_WSFuzzer_Project"
   }
-
 ]

@@ -4,223 +4,191 @@
     "version": "2.7.0",
     "description": "A tool for reverse engineering Android apk files.",
     "url": "https://github.com/iBotPeaches/Apktool/releases"
-  }
-,
+  },
   {
     "name": "apkstudio",
     "version": "100.9e114ca",
     "description": "An IDE for decompiling/editing & then recompiling of android application binaries.",
-    "url": "http://www.vaibhavpandey.com/apkstudio/"
-  }
-,
+    "url": "https://vaibhavpandey.com/apkstudio/"
+  },
   {
     "name": "binaryninja",
     "version": "4.2.6455",
     "description": "A new kind of reversing platform (demo version).",
-    "url": "http://binary.ninja/demo.html"
-  }
-,
+    "url": "https://binary.ninja/free/"
+  },
   {
     "name": "ctypes-sh",
     "version": "158.b79e401",
     "description": "Allows you to call routines in shared libraries from within bash.",
     "url": "https://github.com/taviso/ctypes.sh"
-  }
-,
+  },
   {
     "name": "elidecode",
     "version": "48.38fa5ba",
     "description": "A tool to decode obfuscated shellcodes using the unicorn-engine for the emulation and the capstone-engine to print the asm code.",
-    "url": "https://github.com/DeveloppSoft/EliDecode"
-  }
-,
+    "url": "https://github.com/ETeissonniere/EliDecode"
+  },
   {
     "name": "flasm",
     "version": "1.62",
     "description": "Disassembler tool for SWF bytecode",
     "url": "http://www.nowrap.de/flasm.html"
-  }
-,
+  },
   {
     "name": "frida-extract",
     "version": "13.abb3f14",
     "description": "Frida.re based RunPE (and MapViewOfSection) extraction tool.",
     "url": "https://github.com/OALabs/frida-extract"
-  }
-,
+  },
   {
     "name": "gostringsr2",
     "version": "1.1.2",
     "description": "Extract strings from a Go binary using radare2.",
-    "url": "https://github.com/CarveSystems/gostringsr2"
-  }
-,
+    "url": "https://github.com/ivision-research/gostringsr2"
+  },
   {
     "name": "hopper",
     "version": "5.18.0",
     "description": "Reverse engineering tool that lets you disassemble, decompile and debug your applications.",
     "url": "https://www.hopperapp.com/download.html?"
-  }
-,
+  },
   {
     "name": "ida-free",
     "version": "8.4.240527",
     "description": "Freeware version of the world's smartest and most feature-full disassembler.",
-    "url": "https://hex-rays.com/ida-free/"
-  }
-,
+    "url": "https://hex-rays.com/ida-free"
+  },
   {
     "name": "innounp",
     "version": "0.50",
     "description": "Inno Setup Unpacker.",
     "url": "https://sourceforge.net/projects/innounp/files/innounp/"
-  }
-,
+  },
   {
     "name": "javasnoop",
     "version": "1.1",
     "description": "A tool that lets you intercept methods, alter data and otherwise hack Java applications running on your computer",
-    "url": "https://code.google.com/p/javasnoop/"
-  }
-,
+    "url": "https://code.google.com/archive/p/javasnoop"
+  },
   {
     "name": "jeb-android",
     "version": "3.7.0.201909272058",
     "description": "Android decompiler.",
     "url": "https://www.pnfsoftware.com/jeb/android"
-  }
-,
+  },
   {
     "name": "jeb-arm",
     "version": "5.20.0.202411121942",
     "description": "Arm decompiler.",
     "url": "https://www.pnfsoftware.com/jeb/arm"
-  }
-,
+  },
   {
     "name": "jeb-intel",
     "version": "3.7.0.201909272058",
     "description": "Intel decompiler.",
     "url": "https://www.pnfsoftware.com/jeb/intel"
-  }
-,
+  },
   {
     "name": "jeb-mips",
     "version": "5.20.0.202411121942",
     "description": "Mips decompiler.",
     "url": "https://www.pnfsoftware.com/jeb/mips"
-  }
-,
+  },
   {
     "name": "jeb-webasm",
     "version": "3.7.0.201909272058",
     "description": "WebAssembly decompiler.",
     "url": "https://www.pnfsoftware.com/jeb/#wasm"
-  }
-,
+  },
   {
     "name": "jwscan",
     "version": "7.874b3a5",
     "description": "Scanner for Jar to EXE wrapper like Launch4j, Exe4j, JSmooth, Jar2Exe.",
-    "url": "https://github.com/katjahahn/JWScan"
-  }
-,
+    "url": "https://github.com/struppigel/JWScan"
+  },
   {
     "name": "libc-database",
     "version": "45.69815cd",
     "description": "Database of libc offsets to simplify exploitation.",
     "url": "https://github.com/niklasb/libc-database"
-  }
-,
+  },
   {
     "name": "malwasm",
     "version": "0.2",
     "description": "Offline debugger for malware's reverse engineering.",
-    "url": "https://code.google.com/p/malwasm/"
-  }
-,
+    "url": "https://github.com/MalwareLu/malwasm"
+  },
   {
     "name": "mikrotik-npk",
     "version": "11.d54e97c",
     "description": "Python tools for manipulating Mikrotik NPK format.",
     "url": "https://github.com/kost/mikrotik-npk"
-  }
-,
+  },
   {
     "name": "netzob",
     "version": "1.0.2",
     "description": "An open source tool for reverse engineering, traffic generation and fuzzing of communication protocols.",
     "url": "https://github.com/netzob/netzob/"
-  }
-,
+  },
   {
     "name": "pintool",
     "version": "24.d538a79",
     "description": "This tool can be useful for solving some reversing challenges in CTFs events.",
     "url": "https://github.com/wagiro/pintool"
-  }
-,
+  },
   {
     "name": "pintool2",
     "version": "5.1c1af91",
     "description": "Improved version of pintool.",
     "url": "https://github.com/sebastiendamaye/pintool2"
-  }
-,
+  },
   {
     "name": "pyinstxtractor",
     "version": "2025.02.r0.gbb936f9",
     "description": "PyInstaller Extractor.",
     "url": "https://github.com/extremecoders-re/pyinstxtractor"
-  }
-,
+  },
   {
     "name": "python-frida",
     "version": "15.2.2",
     "description": "Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.",
     "url": "https://pypi.org/project/frida/#files"
-  }
-,
+  },
   {
     "name": "python2-frida",
     "version": "15.2.2",
     "description": "Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.",
     "url": "https://pypi.org/project/frida/#files"
-  }
-,
+  },
   {
     "name": "radare2-keystone",
     "version": "902.6c9df38",
     "description": "Keystone assembler plugins for radare2.",
-    "url": "https://github.com/radare/radare2-extras/tree/master/unicorn"
-  }
-,
+    "url": "https://github.com/radareorg/radare2-extras/tree/master/unicorn"
+  },
   {
     "name": "swfintruder",
     "version": "0.9.1",
     "description": "First tool for testing security in Flash movies. A runtime analyzer for SWF external movies. It helps to find flaws in Flash.",
-    "url": "http://code.google.com/p/swfintruder/"
-  }
-,
+    "url": "https://code.google.com/archive/p/swfintruder/"
+  },
   {
     "name": "swftools",
     "version": "0.9.2",
     "description": "A collection of SWF manipulation and creation utilities.",
     "url": "http://www.swftools.org/download.html"
-  }
-,
+  },
   {
     "name": "syms2elf",
     "version": "12.329c2ce",
     "description": "A plugin for Hex-Ray's IDA Pro and radare2 to export the symbols recognized to the ELF symbol table.",
     "url": "https://github.com/danigargu/syms2elf"
-  }
-,
+  },
   {
     "name": "udis86",
     "version": "1.7.2",
     "description": "A minimalistic disassembler library.",
     "url": "http://udis86.sourceforge.net/"
   }
-
 ]

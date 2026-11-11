@@ -4,125 +4,107 @@
     "version": "v7.2.rc.r10.gbc00df4",
     "description": ".NET Decompiler (port of ILSpy)",
     "url": "https://github.com/icsharpcode/AvaloniaILSpy"
-  }
-,
+  },
   {
     "name": "beebug",
     "version": "25.cddb375",
     "description": "A tool for checking exploitability.",
     "url": "https://github.com/invictus1306/beebug"
-  }
-,
+  },
   {
     "name": "cafebabe",
     "version": "0.1.2",
     "description": "Java bytecode editor & decompiler.",
     "url": "https://grax.info/"
-  }
-,
+  },
   {
     "name": "fernflower",
     "version": "795.c240b173",
     "description": "An analytical decompiler for Java.",
-    "url": "https://github.com/fesh0r/fernflower"
-  }
-,
+    "url": "https://github.com/JetBrains/fernflower"
+  },
   {
     "name": "gadgetinspector",
     "version": "6.ac7832d",
     "description": "A byte code analyzer for finding deserialization gadget chains in Java applications.",
     "url": "https://github.com/JackOfMostTrades/gadgetinspector"
-  }
-,
+  },
   {
     "name": "jbe",
     "version": "0.1.1",
     "description": "Java bytecode editor suitable for viewing and modifying java class files.",
     "url": "https://set.ee/jbe/"
-  }
-,
+  },
   {
     "name": "jd-cli",
     "version": "1.2.0",
     "description": "Command line Java Decompiler.",
-    "url": "https://github.com/kwart/jd-cli"
-  }
-,
+    "url": "https://github.com/intoolswetrust/jd-cli"
+  },
   {
     "name": "jd-gui",
     "version": "1.6.6",
     "description": "A standalone graphical utility that displays Java source codes of .class files.",
     "url": "https://github.com/java-decompiler/jd-gui"
-  }
-,
+  },
   {
     "name": "jpexs-decompiler",
     "version": "15.1.0",
     "description": "JPEXS Free Flash Decompiler.",
     "url": "https://github.com/jindrapetrik/jpexs-decompiler"
-  }
-,
+  },
   {
     "name": "luyten",
     "version": "0.5.4",
     "description": "An Open Source Java Decompiler Gui for Procyon.",
     "url": "https://github.com/deathmarine/Luyten"
-  }
-,
+  },
   {
     "name": "pcode2code",
     "version": "6.65ae983",
     "description": "VBA p-code decompiler.",
     "url": "https://github.com/Big5-sec/pcode2code"
-  }
-,
+  },
   {
     "name": "procyon",
     "version": "0.6",
     "description": "A suite of Java metaprogramming tools focused on code generation and analysis.",
     "url": "https://github.com/mstrobel/procyon"
-  }
-,
+  },
   {
     "name": "python-uncompyle6",
     "version": "3.9.2",
     "description": "A Python cross-version decompiler.",
     "url": "https://pypi.org/project/uncompyle6/#files"
-  }
-,
+  },
   {
     "name": "recaf",
     "version": "2.21.14.2283.e5669cd90",
     "description": "Modern Java bytecode editor.",
     "url": "https://github.com/Col-E/Recaf"
-  }
-,
+  },
   {
     "name": "recstudio",
     "version": "4.1",
     "description": "Cross platform interactive decompiler.",
     "url": "http://www.backerstreet.com/rec/rec.htm"
-  }
-,
+  },
   {
     "name": "rej",
     "version": "0.7",
     "description": "An API and a graphical tool for inspection and manipulation of classfiles for the Java platform.",
     "url": "https://sourceforge.net/projects/rejava/"
-  }
-,
+  },
   {
     "name": "retdec",
     "version": "2161.04df6def",
     "description": "Retargetable machine-code decompiler based on LLVM.",
     "url": "https://retdec.com/"
-  }
-,
+  },
   {
     "name": "shuji",
     "version": "v0.8.0.r66.g28d6090",
     "description": "Reverse engineering JavaScript and CSS sources from sourcemaps.",
     "url": "https://github.com/paazmaya/shuji"
   }
-
 ]

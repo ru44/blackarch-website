@@ -4,20 +4,17 @@
     "version": "158.bd3c5c2",
     "description": "Assetnote generated wordlists.",
     "url": "https://github.com/assetnote/wordlists"
-  }
-,
+  },
   {
     "name": "country-ip-blocks",
     "version": "5199.dc80821",
     "description": "CIDR country-level IP data, straight from the Regional Internet Registries, updated hourly.",
     "url": "https://github.com/herrbischoff/country-ip-blocks"
-  }
-,
+  },
   {
     "name": "seclists",
     "version": "4461.c9c7b3cb",
     "description": "A collection of multiple types of lists used during security assessments.",
     "url": "https://github.com/danielmiessler/SecLists/"
   }
-
 ]

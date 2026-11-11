@@ -4,125 +4,107 @@
     "version": "239.ab8f06a",
     "description": "A fast TCP tunnel over HTTP.",
     "url": "https://github.com/jpillora/chisel"
-  }
-,
+  },
   {
     "name": "chownat",
     "version": "0.08b",
     "description": "Allows two peers behind two separate NATs with no port forwarding and no DMZ setup on their routers to directly communicate with each other",
     "url": "http://samy.pl/chownat/"
-  }
-,
+  },
   {
     "name": "ctunnel",
     "version": "0.7",
     "description": "Tunnel and/or proxy TCP or UDP connections via a cryptographic tunnel.",
     "url": "http://nardcore.org/ctunnel"
-  }
-,
+  },
   {
     "name": "dns2tcp",
     "version": "0.5.2",
     "description": "A tool for relaying TCP connections over DNS.",
-    "url": "http://www.hsc.fr/ressources/outils/dns2tcp/index.html.en"
-  }
-,
+    "url": "https://www.hsc.fr/securite-internet/"
+  },
   {
     "name": "fraud-bridge",
     "version": "10.775c563",
     "description": "ICMP and DNS tunneling via IPv4 and IPv6.",
     "url": "https://github.com/stealth/fraud-bridge"
-  }
-,
+  },
   {
     "name": "icmptx",
     "version": "0.2.r12.g2235866",
     "description": "IP over ICMP tunnel.",
     "url": "http://thomer.com/icmptx/"
-  }
-,
+  },
   {
     "name": "ip-https-tools",
     "version": "7.170691f",
     "description": "Tools for the IP over HTTPS (IP-HTTPS) Tunneling Protocol.",
     "url": "https://github.com/takeshixx/ip-https-tools"
-  }
-,
+  },
   {
     "name": "ligolo-ng",
     "version": "v0.7.5.r1.g9c75364",
     "description": "An advanced, yet simple, tunneling tool that uses a TUN interface.",
     "url": "https://github.com/nicocha30/ligolo-ng/releases"
-  }
-,
+  },
   {
     "name": "matahari",
     "version": "0.1.30",
     "description": "A reverse HTTP shell to execute commands on remote machines behind firewalls.",
-    "url": "http://matahari.sourceforge.net/"
-  }
-,
+    "url": "https://matahari.sourceforge.net/"
+  },
   {
     "name": "morxtunel",
     "version": "1.0",
     "description": "Network Tunneling using TUN/TAP interfaces over TCP tool.",
     "url": "http://www.morxploit.com/tools/"
-  }
-,
+  },
   {
     "name": "multitun",
     "version": "1.319a134",
     "description": "Tunnel arbitrary traffic through an innocuous WebSocket.",
     "url": "https://github.com/covertcodes/multitun"
-  }
-,
+  },
   {
     "name": "neo-regeorg",
     "version": "v5.2.1.r0.g05081d1",
     "description": "Improved version of reGeorg, HTTP tunneling pivot tool",
     "url": "https://github.com/L-codes/Neo-reGeorg"
-  }
-,
+  },
   {
     "name": "ngrok",
     "version": "3.2.2",
     "description": "A tunneling, reverse proxy for developing and understanding networked, HTTP services.",
     "url": "https://ngrok.com/"
-  }
-,
+  },
   {
     "name": "oniongrok",
     "version": "v1.1.11.r0.gcbae9e7",
     "description": "Onion addresses for anything.",
-    "url": "https://github.com/cmars/oniongrok"
-  }
-,
+    "url": "https://github.com/cmars/onionpipe"
+  },
   {
     "name": "regeorg",
     "version": "30.1ca54c2",
     "description": "The successor to reDuh, pwn a bastion webserver and create SOCKS proxies through the DMZ. Pivot and pwn.",
     "url": "https://github.com/sensepost/reGeorg"
-  }
-,
+  },
   {
     "name": "stegosip",
     "version": "11.5cda6d6",
     "description": "TCP tunnel over RTP/SIP.",
     "url": "https://github.com/epinna/Stegosip"
-  }
-,
+  },
   {
     "name": "vstt",
     "version": "0.5.3",
     "description": "VSTT is a multi-protocol tunneling tool. It accepts input by TCP stream sockets and FIFOs, and can send data via TCP, POP3, and ICMP tunneling.",
-    "url": "http://www.wendzel.de/dr.org/files/Projects/vstt/"
-  }
-,
+    "url": "https://www.wendzel.de/dr.org/files/Projects/vstt/"
+  },
   {
     "name": "xfltreat",
     "version": "270.17d4ec8",
     "description": "Tunnelling framework.",
     "url": "https://github.com/earthquake/xfltreat/"
   }
-
 ]

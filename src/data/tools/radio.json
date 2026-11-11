@@ -4,195 +4,167 @@
     "version": "1.6.8.r36.g39f06a4",
     "description": "Host code for AirspyHF+ SDR.",
     "url": "https://airspy.com"
-  }
-,
+  },
   {
     "name": "csdr",
     "version": "0.18.2.r68.g1f15b8c",
     "description": "A simple DSP library and command-line tool for Software Defined Radio.",
     "url": "https://github.com/jketterl/csdr"
-  }
-,
+  },
   {
     "name": "cubicsdr",
     "version": "0.2.7",
     "description": "Cross-Platform Software-Defined Radio Application.",
     "url": "https://github.com/cjcliffe/CubicSDR"
-  }
-,
+  },
   {
     "name": "gpredict",
     "version": "1647.91a4a3f",
     "description": "A real-time satellite tracking and orbit prediction application.",
     "url": "http://gpredict.oz9aec.net/"
-  }
-,
+  },
   {
     "name": "gps-sdr-sim",
     "version": "224.28ca29a",
     "description": "Software-Defined GPS Signal Simulator.",
     "url": "https://github.com/osqzss/gps-sdr-sim"
-  }
-,
+  },
   {
     "name": "gqrx-scanner",
     "version": "1.0.5",
     "description": "A frequency scanner for Gqrx Software Defined Radio receiver.",
     "url": "https://github.com/neural75/gqrx-scanner"
-  }
-,
+  },
   {
     "name": "gr-air-modes",
     "version": "396.0b6c383",
     "description": "Gnuradio tools for receiving Mode S transponder signals, including ADS-B.",
     "url": "https://github.com/bistromath/gr-air-modes"
-  }
-,
+  },
   {
     "name": "gr-dect2",
     "version": "39.0d973fe",
     "description": "Real-time DECT voice channel decoding by Gnuradio.",
     "url": "https://github.com/pavelyazev/gr-dect2"
-  }
-,
+  },
   {
     "name": "gr-gsm",
     "version": "1194.a77cf59",
     "description": "Gnuradio blocks and tools for receiving GSM transmissions.",
     "url": "https://github.com/ptrkrysik/gr-gsm"
-  }
-,
+  },
   {
     "name": "gr-paint",
     "version": "50.3806b20",
     "description": "An OFDM Spectrum Painter for GNU Radio.",
     "url": "https://github.com/drmpeg/gr-paint"
-  }
-,
+  },
   {
     "name": "gsmevil2",
     "version": "12.eb96b4f",
     "description": "Python web-based tool which use for capturing imsi numbers and sms.",
     "url": "https://github.com/ninjhacks/gsmevil2"
-  }
-,
+  },
   {
     "name": "hacktv",
     "version": "509.137d335",
     "description": "Analogue TV transmitter for the HackRF.",
     "url": ""
-  }
-,
+  },
   {
     "name": "libosmocore",
     "version": "1.10.0.r47.g38eb428",
     "description": "Collection of common code used in various sub-projects inside the Osmocom family of projects.",
     "url": "https://osmocom.org/projects/libosmocore/wiki/Libosmocore"
-  }
-,
+  },
   {
     "name": "lte-cell-scanner",
     "version": "26.e7f71cb",
     "description": "An OpenCL accelerated TDD/FDD LTE Scanner.",
     "url": "https://github.com/JiaoXianjun/LTE-Cell-Scanner"
-  }
-,
+  },
   {
     "name": "openwebrx",
     "version": "1.2.2.r389.g640c5b0",
     "description": "Open source, multi-user SDR receiver software with a web interface.",
     "url": "https://github.com/jketterl/openwebrx"
-  }
-,
+  },
   {
     "name": "proxmark",
     "version": "2413.61163344",
     "description": "A powerful general purpose RFID tool, the size of a deck of cards, designed to snoop, listen and emulate everything from Low Frequency (125kHz) to High Frequency (13.56MHz) tags.",
     "url": "https://github.com/Proxmark/proxmark3"
-  }
-,
+  },
   {
     "name": "qradiolink",
     "version": "0.9.0.1.r25.gf1006a2",
     "description": "Multimode SDR transceiver for GNU radio, ADALM-Pluto, LimeSDR, USRP.",
     "url": "https://github.com/qradiolink/qradiolink"
-  }
-,
+  },
   {
     "name": "rfcat",
     "version": "v2.0.1.r5.g07f99bb",
     "description": "Swiss-army knife of ISM band radio.",
     "url": "https://code.google.com/archive/p/rfcat/"
-  }
-,
+  },
   {
     "name": "rtl",
     "version": "25.02+11.r3637.20250402.f99c372e",
     "description": "A generic software defined radio data receiver, mainly for the 433.92 MHz, 868 MHz (SRD), 315 MHz, 345 MHz, and 915 MHz ISM bands.",
     "url": "https://github.com/merbanan/rtl_433"
-  }
-,
+  },
   {
     "name": "rtl-wmbus",
     "version": "d2be82c.r25.g34684e6",
     "description": "Software defined receiver for wireless M-Bus with RTL-SDR.",
     "url": "https://github.com/xaelsouth/rtl-wmbus"
-  }
-,
+  },
   {
     "name": "rtlamr",
     "version": "197.03369d1",
     "description": "An rtl-sdr receiver for smart meters operating in the 900MHz ISM band.",
     "url": "https://github.com/bemasher/rtlamr/"
-  }
-,
+  },
   {
     "name": "sdrpp",
     "version": "nightly.r279.gaa2b4b1",
     "description": "The bloat-free SDR receiver.",
     "url": "https://www.sdrpp.org"
-  }
-,
+  },
   {
     "name": "sdrsharp",
     "version": "1.0.0.1457",
     "description": "The most popular SDR program.",
     "url": "https://airspy.com"
-  }
-,
+  },
   {
     "name": "sdrtrunk",
     "version": "0.6.0",
     "description": "A cross-platform java application for decoding, monitoring, recording and streaming trunked mobile and related radio protocols using SDR.",
     "url": "https://github.com/DSheirer/sdrtrunk"
-  }
-,
+  },
   {
     "name": "simtrace2",
     "version": "1079.e6e7739",
     "description": "Host utilities to communicate with SIMtrace2 USB Devices.",
     "url": "https://osmocom.org/projects/simtrace2/wiki"
-  }
-,
+  },
   {
     "name": "spektrum",
     "version": "2.1.0",
     "description": "rtl-sdr spectrum analyzer.",
     "url": "https://github.com/pavels/spektrum"
-  }
-,
+  },
   {
     "name": "wmbusmeters",
     "version": "1.17.1",
     "description": "Read the wired or wireless mbus protocol to acquire utility meter readings.",
     "url": "https://github.com/wmbusmeters/wmbusmeters"
-  }
-,
+  },
   {
     "name": "yate-bts",
     "version": "6.1.0",
     "description": "An open source GSM Base Station software.",
     "url": "https://yatebts.com/"
   }
-
 ]

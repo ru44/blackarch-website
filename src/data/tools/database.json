@@ -3,35 +3,30 @@
     "name": "blindsql",
     "version": "1.0",
     "description": "Set of bash scripts for blind SQL injection attacks.",
-    "url": "http://www.enye-sec.org/programas.html"
-  }
-,
+    "url": "https://www.enye-sec.org/temas/programas/"
+  },
   {
     "name": "getsids",
     "version": "0.0.1",
     "description": "Getsids tries to enumerate Oracle Sids by sending the services command to the Oracle TNS listener. Like doing ‘lsnrctl service’.",
     "url": "http://www.cqure.net/wp/getsids/"
-  }
-,
+  },
   {
     "name": "metacoretex",
     "version": "0.8.0",
     "description": "MetaCoretex is an entirely JAVA vulnerability scanning framework for databases.",
     "url": "http://metacoretex.sourceforge.net/"
-  }
-,
+  },
   {
     "name": "mysql2sqlite",
     "version": "14.e5b2c31",
     "description": "Converts a mysqldump file into a Sqlite 3 compatible file.",
     "url": "https://gist.github.com/esperlu/943776"
-  }
-,
+  },
   {
     "name": "pgdbf",
     "version": "113.4e84775",
     "description": "Convert XBase / FoxPro databases to PostgreSQL",
     "url": "https://github.com/kstrauser/pgdbf"
   }
-
 ]

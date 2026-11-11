@@ -4,447 +4,383 @@
     "version": "256.f6eb2dc",
     "description": "Reflective PE packer.",
     "url": "https://github.com/EgeBalci/Amber"
-  }
-,
+  },
   {
     "name": "amoco",
     "version": "v2.9.11.r4.g3e36c52",
     "description": "Yet another tool for analysing binaries.",
     "url": "https://github.com/bdcht/amoco"
-  }
-,
+  },
   {
     "name": "androguard",
     "version": "3.3.5",
     "description": "Reverse engineering, Malware and goodware analysis of Android applications and more.",
     "url": "https://github.com/androguard/androguard"
-  }
-,
+  },
   {
     "name": "angr",
     "version": "9.1.11752",
     "description": "The next-generation binary analysis platform from UC Santa Barbaras Seclab.",
     "url": "https://pypi.org/project/angr/#files"
-  }
-,
+  },
   {
     "name": "angr-management",
     "version": "9.1.11752",
     "description": "This is the GUI for angr.",
-    "url": "https://pypi.org/project/angr-management/#files"
-  }
-,
+    "url": "https://github.com/angr/angr-management"
+  },
   {
     "name": "angr-py2",
     "version": "7.8.9.26",
     "description": "The next-generation binary analysis platform from UC Santa Barbaras Seclab.",
     "url": "https://pypi.org/project/angr/#files"
-  }
-,
+  },
   {
     "name": "avet",
     "version": "559.d561ee3",
     "description": "AntiVirus Evasion Tool.",
     "url": "https://github.com/govolution/avet"
-  }
-,
+  },
   {
     "name": "barf",
     "version": "923.9547ef8",
     "description": "A multiplatform open source Binary Analysis and Reverse engineering Framework.",
     "url": "https://github.com/programa-stic/barf-project"
-  }
-,
+  },
   {
     "name": "bgrep",
     "version": "27.38b746f",
     "description": "Binary grep.",
     "url": "https://github.com/tmbinc/bgrep"
-  }
-,
+  },
   {
     "name": "binaryninja-python",
     "version": "13.83f59f7",
     "description": "Binary Ninja prototype written in Python.",
-    "url": "https://github.com/Vector35/binaryninja-python"
-  }
-,
+    "url": "https://github.com/Vector35/deprecated-binaryninja-python"
+  },
   {
     "name": "bindead",
     "version": "4504.67019b97b",
     "description": "A static analysis tool for binaries",
     "url": "https://bitbucket.org/mihaila/bindead"
-  }
-,
+  },
   {
     "name": "bindiff",
     "version": "6.0.0",
     "description": "A comparison tool for binary files, that assists vulnerability researchers and engineers to quickly find differences and similarities in disassembled code.",
-    "url": "http://www.zynamics.com/bindiff.html"
-  }
-,
+    "url": "https://www.zynamics.com/bindiff.html"
+  },
   {
     "name": "binflow",
     "version": "5.7fb02a9",
     "description": "POSIX function tracing. Much better and faster than ftrace.",
     "url": "https://github.com/elfmaster/binflow"
-  }
-,
+  },
   {
     "name": "binwally",
     "version": "4.0aabd8b",
     "description": "Binary and Directory tree comparison tool using the Fuzzy Hashing concept (ssdeep).",
     "url": "https://github.com/bmaia/binwally"
-  }
-,
+  },
   {
     "name": "bsdiff",
     "version": "4.3",
     "description": "Tools for building and applying patches to binary files.",
     "url": "https://www.daemonology.net/bsdiff/"
-  }
-,
+  },
   {
     "name": "bvi",
     "version": "1.4.2",
     "description": "A display-oriented editor for binary files operate like \"vi\" editor.",
-    "url": "http://bvi.sourceforge.net/"
-  }
-,
+    "url": "https://bvi.sourceforge.net/"
+  },
   {
     "name": "bytecode-viewer",
     "version": "2.12",
     "description": "A Java 8/Android APK Reverse Engineering Suite.",
     "url": "https://github.com/Konloch/bytecode-viewer"
-  }
-,
+  },
   {
     "name": "cminer",
     "version": "25.d766f7e",
     "description": "A tool for enumerating the code caves in PE files.",
     "url": "https://github.com/EgeBalci/Cminer/"
-  }
-,
+  },
   {
     "name": "cpp2il",
     "version": "2022.0.7.r17.g20ccab2",
     "description": "A tool to reverse unity's IL2PP toolchain",
     "url": "https://github.com/SamboyCoding/Cpp2IL"
-  }
-,
+  },
   {
     "name": "detect-it-easy",
     "version": "3.10",
     "description": "A program for determining types of files.",
     "url": "https://github.com/horsicq/DIE-engine/releases"
-  }
-,
+  },
   {
     "name": "dissector",
     "version": "1",
     "description": "This code dissects the internal data structures in ELF files. It supports x86 and x86_64 archs and runs under Linux.",
     "url": "http://packetstormsecurity.com/files/125972/Coloured-ELF-File-Dissector.html"
-  }
-,
+  },
   {
     "name": "dutas",
     "version": "10.37fa3ab",
     "description": "Analysis PE file or Shellcode.",
     "url": "https://github.com/dungtv543/Dutas"
-  }
-,
+  },
   {
     "name": "dwarf",
     "version": "1084.fd859ae",
     "description": "Full featured multi arch/os debugger built on top of PyQt5 and frida.",
     "url": "https://github.com/iGio90/Dwarf"
-  }
-,
+  },
   {
     "name": "dynamorio",
     "version": "9.0.19046",
     "description": "A dynamic binary instrumentation framework.",
     "url": "https://github.com/DynamoRIO/dynamorio"
-  }
-,
+  },
   {
     "name": "ecfs",
     "version": "305.1758063",
     "description": "Extended core file snapshot format.",
     "url": "https://github.com/elfmaster/ecfs"
-  }
-,
+  },
   {
     "name": "elfparser",
     "version": "7.39d21ca",
     "description": "Cross Platform ELF analysis.",
     "url": "https://github.com/jacob-baines/elfparser"
-  }
-,
+  },
   {
     "name": "eresi",
     "version": "1291.4769c175",
     "description": "The ERESI Reverse Engineering Software Interface.",
     "url": "https://github.com/thorkill/eresi"
-  }
-,
+  },
   {
     "name": "exescan",
     "version": "1.ad993e3",
     "description": "A tool to detect anomalies in PE (Portable Executable) files.",
     "url": "https://github.com/cysinfo/Exescan"
-  }
-,
+  },
   {
     "name": "expimp-lookup",
     "version": "4.79a96c7",
     "description": "Looks for all export and import names that contain a specified string in all Portable Executable in a directory tree.",
     "url": "https://github.com/tr3w/ExpImp-Lookup"
-  }
-,
+  },
   {
     "name": "expose",
     "version": "1110.30264af",
     "description": "A Dynamic Symbolic Execution (DSE) engine for JavaScript",
     "url": "https://github.com/ExpoSEJS/ExpoSE"
-  }
-,
+  },
   {
     "name": "haystack",
     "version": "1823.c178b5a",
     "description": "A Python framework for finding C structures from process memory - heap analysis - Memory structures forensics.",
     "url": "https://github.com/trolldbois/python-haystack"
-  }
-,
+  },
   {
     "name": "hercules-payload",
     "version": "222.2607a3a",
     "description": "A special payload generator that can bypass all antivirus software.",
     "url": "https://github.com/EgeBalci/HERCULES"
-  }
-,
+  },
   {
     "name": "hex2bin",
     "version": "2.5",
     "description": "Converts Motorola and Intel hex files to binary.",
-    "url": "http://hex2bin.sourceforge.net/"
-  }
-,
+    "url": "https://hex2bin.sourceforge.net/"
+  },
   {
     "name": "imagejs",
     "version": "56.a442f94",
     "description": "Small tool to package javascript into a valid image file.",
     "url": "https://github.com/jklmnn/imagejs"
-  }
-,
+  },
   {
     "name": "jpegdump",
     "version": "0.0.7",
     "description": "Tool to analyzse JPEG images Reads binary files and parses the JPEG markers inside them.",
     "url": "https://blog.didierstevens.com/my-software/#jpegdump"
-  }
-,
+  },
   {
     "name": "klee",
     "version": "2.1",
     "description": "A symbolic virtual machine built on top of the LLVM compiler infrastructure.",
     "url": "https://github.com/klee/klee"
-  }
-,
+  },
   {
     "name": "leena",
     "version": "2.5119f56",
     "description": "Symbolic execution engine for JavaScript",
     "url": "https://github.com/mmicu/leena"
-  }
-,
+  },
   {
     "name": "loadlibrary",
     "version": "104.c40033b",
     "description": "Porting Windows Dynamic Link Libraries to Linux.",
     "url": "https://github.com/taviso/loadlibrary"
-  }
-,
+  },
   {
     "name": "manticore",
     "version": "0.3.7.r73.g88610053",
     "description": "Symbolic execution tool.",
     "url": "https://github.com/trailofbits/manticore"
-  }
-,
+  },
   {
     "name": "metame",
     "version": "14.8d583a0",
     "description": "A simple metamorphic code engine for arbitrary executables.",
     "url": "https://github.com/a0rtega/metame"
-  }
-,
+  },
   {
     "name": "objdump2shellcode",
     "version": "28.c2d6120",
     "description": "A tool I have found incredibly useful whenever creating custom shellcode.",
-    "url": "https://github.com/wetw0rk/objdump2shellcode"
-  }
-,
+    "url": "https://github.com/wetw0rk/sickle-pdk"
+  },
   {
     "name": "oledump",
     "version": "0.0.77",
     "description": "Analyze OLE files (Compound File Binary Format). These files contain streams of data. This tool allows you to analyze these streams.",
-    "url": "http://blog.didierstevens.com/programs/oledump-py/"
-  }
-,
+    "url": "https://blog.didierstevens.com/programs/oledump-py/"
+  },
   {
     "name": "packerid",
     "version": "16.bc54e6d",
     "description": "Script which uses a PEiD database to identify which packer (if any) is being used by a binary.",
     "url": "https://github.com/sooshie/packerid"
-  }
-,
+  },
   {
     "name": "patchkit",
     "version": "37.95dc699",
     "description": "Powerful binary patching from Python.",
     "url": "https://github.com/lunixbochs/patchkit"
-  }
-,
+  },
   {
     "name": "pixd",
     "version": "9.f49add4",
     "description": "Colourful visualization tool for binary files.",
     "url": "https://github.com/FireyFly/pixd"
-  }
-,
+  },
   {
     "name": "powerstager",
     "version": "14.0149dc9",
     "description": "A payload stager using PowerShell.",
     "url": "https://github.com/z0noxz/powerstager"
-  }
-,
+  },
   {
     "name": "procdump",
     "version": "63.5f23548",
     "description": "Generate coredumps based off performance triggers.",
-    "url": "https://github.com/Microsoft/ProcDump-for-Linux"
-  }
-,
+    "url": "https://github.com/microsoft/ProcDump-Linux"
+  },
   {
     "name": "proctal",
     "version": "482.67bf7e8",
     "description": "Provides a command line interface and a C library to manipulate the address space of a running program on Linux.",
     "url": "https://github.com/daniel-araujo/proctal"
-  }
-,
+  },
   {
     "name": "python-oletools",
     "version": "0.60.2",
     "description": "Tools to analyze Microsoft OLE2 files.",
     "url": "https://pypi.org/project/oletools/"
-  }
-,
+  },
   {
     "name": "python-peid",
     "version": "2.2.1",
     "description": "Python implementation of the Packed Executable iDentifier (PEiD).",
     "url": ""
-  }
-,
+  },
   {
     "name": "python2-oletools",
     "version": "0.60.2",
     "description": "Tools to analyze Microsoft OLE2 files.",
     "url": "https://pypi.org/project/oletools/"
-  }
-,
+  },
   {
     "name": "qbdi",
     "version": "v0.11.0.r54.g34bf7e4",
     "description": "A Dynamic Binary Instrumentation framework based on LLVM.",
     "url": "https://github.com/QBDI/QBDI"
-  }
-,
+  },
   {
     "name": "quickscope",
     "version": "527.196389b",
     "description": "Statically analyze windows, linux, osx, executables and also APK files.",
     "url": "https://github.com/CYB3RMX/Qu1cksc0pe"
-  }
-,
+  },
   {
     "name": "rbasefind",
     "version": "41.a661118",
     "description": "A firmware base address search tool.",
     "url": "https://github.com/sgayou/rbasefind"
-  }
-,
+  },
   {
     "name": "redress",
     "version": "v1.2.2.r0.gfe38d96",
     "description": "A tool for analyzing stripped Go binaries.",
     "url": "https://github.com/goretk/redress"
-  }
-,
+  },
   {
     "name": "saruman",
     "version": "2.4be8db5",
     "description": "ELF anti-forensics exec, for injecting full dynamic executables into process image (With thread injection).",
     "url": "https://github.com/elfmaster/saruman"
-  }
-,
+  },
   {
     "name": "sgn",
     "version": "36.f54fa65",
     "description": "Shikata ga nai encoder ported into go with several improvements.",
     "url": "https://github.com/EgeBalci/sgn"
-  }
-,
+  },
   {
     "name": "soot",
     "version": "3.4.0",
     "description": "A Java Bytecode Analysis and Transformation Framework.",
     "url": "http://www.sable.mcgill.ca/soot"
-  }
-,
+  },
   {
     "name": "stringsifter",
     "version": "39.33c0cd5",
     "description": "Machine learning tool that automatically ranks strings based on their relevance for malware analysis.",
-    "url": "https://github.com/fireeye/stringsifter"
-  }
-,
+    "url": "https://github.com/mandiant/stringsifter"
+  },
   {
     "name": "triton",
     "version": "4291.e312eafc",
     "description": "A Dynamic Binary Analysis (DBA) framework.",
     "url": "https://github.com/JonathanSalwan/Triton"
-  }
-,
+  },
   {
     "name": "veles",
     "version": "637.e65de5a",
     "description": "New open source tool for binary data analysis.",
     "url": "https://codisec.com/veles/"
-  }
-,
+  },
   {
     "name": "wcc",
     "version": "99.08f67cd",
     "description": "The Witchcraft Compiler Collection.",
     "url": "https://github.com/endrazine/wcc"
-  }
-,
+  },
   {
     "name": "wxhexeditor",
     "version": "733.f439d8f",
     "description": "A free hex editor / disk editor for Linux, Windows and MacOSX.",
     "url": "http://wxhexeditor.sourceforge.net/"
-  }
-,
+  },
   {
     "name": "zelos",
     "version": "272.506554d",
     "description": "A comprehensive binary emulation and instrumentation platform.",
     "url": "https://github.com/zeropointdynamics/zelos"
   }
-
 ]

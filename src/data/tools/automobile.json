@@ -4,27 +4,23 @@
     "version": "1235.7fb81e6",
     "description": "Linux-CAN / SocketCAN user space applications.",
     "url": "https://github.com/linux-can/can-utils"
-  }
-,
+  },
   {
     "name": "canalyzat0r",
     "version": "41.6bc251e",
     "description": "Security analysis toolkit for proprietary car protocols.",
     "url": "https://github.com/schutzwerk/CANalyzat0r"
-  }
-,
+  },
   {
     "name": "cantoolz",
     "version": "425.82d330b",
     "description": "Framework for black-box CAN network analysis.",
     "url": "https://github.com/CANToolz/CANToolz"
-  }
-,
+  },
   {
     "name": "savvycan",
     "version": "continuous.r0.g2266285",
     "description": "QT-based CAN bus analysis tool.",
     "url": "https://github.com/collin80/SavvyCAN"
   }
-
 ]

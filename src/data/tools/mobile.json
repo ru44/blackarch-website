@@ -4,300 +4,257 @@
     "version": "1.7fd3a2c",
     "description": "An efficient Android vulnerability scanner that helps developers or hackers find potential security vulnerabilities in Android applications.",
     "url": "https://github.com/AndroBugs/AndroBugs_Framework"
-  }
-,
+  },
   {
     "name": "androick",
     "version": "8.522cfb4",
     "description": "A python tool to help in forensics analysis on android.",
     "url": "https://github.com/Flo354/Androick"
-  }
-,
+  },
   {
     "name": "android-ndk",
     "version": "r27",
     "description": "Android C/C++ developer kit",
     "url": "https://developer.android.com/ndk/downloads"
-  }
-,
+  },
   {
     "name": "android-sdk",
     "version": "26.1.1",
     "description": "Google Android SDK",
-    "url": "https://developer.android.com/studio/releases/sdk-tools.html"
-  }
-,
+    "url": "https://developer.android.com/tools/releases/sdk-tools"
+  },
   {
     "name": "android-udev-rules",
     "version": "543.6a34a62",
     "description": "Android udev rules.",
     "url": "https://github.com/bbqlinux/android-udev-rules"
-  }
-,
+  },
   {
     "name": "androidpincrack",
     "version": "2.ddaf307",
     "description": "Bruteforce the Android Passcode given the hash and salt.",
-    "url": "https://github.com/PentesterES/AndroidPINCrack"
-  }
-,
+    "url": "https://github.com/jselvi/AndroidPINCrack"
+  },
   {
     "name": "androidsniffer",
     "version": "0.1",
     "description": "A perl script that lets you search for 3rd party passwords, dump the call log, dump contacts, dump wireless configuration, and more.",
-    "url": "http://packetstormsecurity.com/files/97464/Andr01d-Magic-Dumper.1.html"
-  }
-,
+    "url": "http://packetstormsecurity.com/files/97464/Andr01d-Magic-Dumper-0.1.html"
+  },
   {
     "name": "androwarn",
     "version": "135.626c02d",
     "description": "Yet another static code analyzer for malicious Android applications.",
     "url": "https://github.com/maaaaz/androwarn"
-  }
-,
+  },
   {
     "name": "apkid",
     "version": "2.1.5",
     "description": "Android Application Identifier for Packers, Protectors, Obfuscators and Oddities.",
     "url": "https://github.com/rednaga/APKiD"
-  }
-,
+  },
   {
     "name": "apkleaks",
     "version": "v2.6.3.r1.g335ce85",
     "description": "Scanning APK file for URIs, endpoints & secrets.",
     "url": "https://github.com/dwisiswant0/apkleaks"
-  }
-,
+  },
   {
     "name": "apkstat",
     "version": "18.81cdad3",
     "description": "Automated Information Retrieval From APKs For Initial Analysis.",
     "url": "https://github.com/hexabin/APKStat"
-  }
-,
+  },
   {
     "name": "apkurlgrep",
     "version": "8.a188a98",
     "description": "Extract endpoints from APK files.",
     "url": "https://github.com/ndelphit/apkurlgrep"
-  }
-,
+  },
   {
     "name": "appmon",
     "version": "177.f753c4d",
     "description": "A runtime security testing & profiling framework for native apps on macOS, iOS & android and it is built using Frida.",
     "url": "https://github.com/dpnishant/appmon"
-  }
-,
+  },
   {
     "name": "arcane",
     "version": "2.750cb9f",
     "description": "Backdoor iOS packages and create the necessary resources for APT repositories.",
     "url": "https://github.com/tokyoneon/Arcane"
-  }
-,
+  },
   {
     "name": "backdoor-apk",
     "version": "141.2710126",
     "description": "Shell script that simplifies the process of adding a backdoor to any Android APK file",
     "url": "https://github.com/dana-at-cp/backdoor-apk"
-  }
-,
+  },
   {
     "name": "backhack",
     "version": "39.561ec86",
     "description": "Tool to perform Android app analysis by backing up and extracting apps, allowing you to analyze and modify file system contents for apps.",
     "url": "https://github.com/l0gan/backHack"
-  }
-,
+  },
   {
     "name": "bagbak",
     "version": "313.79ca483",
     "description": "Yet another frida based App decryptor.",
     "url": "https://github.com/ChiChou/bagbak"
-  }
-,
+  },
   {
     "name": "bandicoot",
     "version": "0.6.0",
     "description": "A toolbox to analyze mobile phone metadata.",
     "url": "https://pypi.org/project/bandicoot/#files"
-  }
-,
+  },
   {
     "name": "cnamulator",
     "version": "5.4667c68",
     "description": "A phone CNAM lookup utility using the OpenCNAM API.",
     "url": "https://github.com/packetassailant/cnamulator"
-  }
-,
+  },
   {
     "name": "dexpatcher",
     "version": "1.7.0",
     "description": "Modify Android DEX/APK files at source-level using Java.",
     "url": "https://github.com/DexPatcher/dexpatcher-tool"
-  }
-,
+  },
   {
     "name": "drozer",
     "version": "2.4.4",
     "description": "A security testing framework for Android - Precompiled binary from official repository.",
-    "url": "https://github.com/mwrlabs/drozer"
-  }
-,
+    "url": "https://github.com/ReversecLabs/drozer"
+  },
   {
     "name": "findmyiphone",
     "version": "19.aef3ac8",
     "description": "Locates all devices associated with an iCloud account",
     "url": "https://github.com/manwhoami/findmyiphone"
-  }
-,
+  },
   {
     "name": "frida-ios-dump",
     "version": "53.56e99b2",
     "description": "Pull decrypted ipa from jailbreak device.",
     "url": "https://github.com/AloneMonkey/frida-ios-dump"
-  }
-,
+  },
   {
     "name": "idb",
     "version": "2.10.3",
     "description": "A tool to simplify some common tasks for iOS pentesting and research.",
     "url": "https://rubygems.org/gems/idb"
-  }
-,
+  },
   {
     "name": "kalibrate-rtl",
     "version": "69.340003e",
     "description": "Fork of http://thre.at/kalibrate/ for use with rtl-sdr devices.",
     "url": "https://github.com/steve-m/kalibrate-rtl"
-  }
-,
+  },
   {
     "name": "lazydroid",
     "version": "25.0f559ec",
     "description": "Tool written as a bash script to facilitate some aspects of an Android Assessment",
     "url": "https://github.com/nccgroup/LazyDroid"
-  }
-,
+  },
   {
     "name": "mara-framework",
     "version": "176.ac4ac88",
     "description": "A Mobile Application Reverse engineering and Analysis Framework.",
     "url": "https://github.com/xtiankisutsa/MARA_Framework"
-  }
-,
+  },
   {
     "name": "mobsf",
     "version": "v4.3.2.r0.g4b8bab5",
     "description": "An intelligent, all-in-one open source mobile application (Android/iOS) automated pen-testing framework capable of performing static, dynamic analysis and web API testing.",
     "url": "https://github.com/MobSF/Mobile-Security-Framework-MobSF"
-  }
-,
+  },
   {
     "name": "needle",
     "version": "579.891b660",
     "description": "The iOS Security Testing Framework.",
-    "url": "https://github.com/mwrlabs/needle"
-  }
-,
+    "url": "https://github.com/ReversecLabs/needle"
+  },
   {
     "name": "objection",
     "version": "1.11.0",
     "description": "Instrumented Mobile Pentest Framework.",
     "url": "https://pypi.org/project/objection/#files"
-  }
-,
+  },
   {
     "name": "phonesploit",
     "version": "51.0193f9e",
     "description": "Adb exploiting tools.",
     "url": "https://github.com/metachar/PhoneSploit"
-  }
-,
+  },
   {
     "name": "pyaxmlparser",
     "version": "v0.3.31.r0.g09d78e1",
     "description": "A simple parser to parse Android XML file.",
     "url": "https://github.com/appknox/pyaxmlparser"
-  }
-,
+  },
   {
     "name": "python-frida-tools",
     "version": "11.0.0",
     "description": "Frida CLI tools.",
     "url": "https://pypi.org/project/frida-tools/#files"
-  }
-,
+  },
   {
     "name": "python2-frida-tools",
     "version": "11.0.0",
     "description": "Frida CLI tools.",
     "url": "https://pypi.org/project/frida-tools/#files"
-  }
-,
+  },
   {
     "name": "qark",
     "version": "301.ba1b265",
     "description": "Tool to look for several security related Android application vulnerabilities.",
     "url": "https://github.com/linkedin/qark"
-  }
-,
+  },
   {
     "name": "quark-engine",
     "version": "21.6.2",
     "description": "An Obfuscation-Neglect Android Malware Scoring System.",
-    "url": "https://github.com/quark-engine/quark-engine"
-  }
-,
+    "url": "https://github.com/ev-flow/quark-engine"
+  },
   {
     "name": "sign",
     "version": "10.2dc4018",
     "description": "Automatically signs an apk with the Android test certificate.",
-    "url": "https://github.com/appium/sign"
-  }
-,
+    "url": "https://github.com/appium-boneyard/sign"
+  },
   {
     "name": "simplify",
     "version": "1.3.0",
     "description": "Generic Android Deobfuscator.",
     "url": "https://github.com/CalebFenton/simplify"
-  }
-,
+  },
   {
     "name": "smali-cfgs",
     "version": "6.4450418",
     "description": "Smali Control Flow Graph's.",
     "url": "https://github.com/ch0psticks/Smali-CFGs"
-  }
-,
+  },
   {
     "name": "smalisca",
     "version": "58.1aa7a16",
     "description": "Static Code Analysis for Smali files.",
     "url": "https://github.com/dorneanu/smalisca"
-  }
-,
+  },
   {
     "name": "smartphone-pentest-framework",
     "version": "104.fc45347",
     "description": "Repository for the Smartphone Pentest Framework (SPF).",
     "url": "https://github.com/georgiaw/Smartphone-Pentest-Framework"
-  }
-,
+  },
   {
     "name": "stacoan",
     "version": "0.90",
     "description": "Crossplatform tool which aids developers, bugbounty hunters and ethical hackers performing static code analysis on mobile applications.",
     "url": "https://github.com/vincentcox/StaCoAn"
-  }
-,
+  },
   {
     "name": "truegaze",
     "version": "117.c3f26bc",
     "description": "Static analysis tool for Android/iOS apps focusing on security issues outside the source code.",
     "url": "https://github.com/nightwatchcybersecurity/truegaze"
   }
-
 ]

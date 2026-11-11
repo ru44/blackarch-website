@@ -4,20 +4,17 @@
     "version": "97.98aac72",
     "description": "A GNU/Linux keylogger that worked.",
     "url": "https://github.com/kernc/logkeys"
-  }
-,
+  },
   {
     "name": "python-keylogger",
     "version": "2.7.3",
     "description": "Simple keystroke logger.",
     "url": "https://github.com/GiacomoLaw/Keylogger"
-  }
-,
+  },
   {
     "name": "xspy",
     "version": "1.0c",
     "description": "A utility for monitoring keypresses on remote X servers",
-    "url": "http://www.freshports.org/security/xspy/"
+    "url": "https://www.freshports.org/security/xspy/"
   }
-
 ]

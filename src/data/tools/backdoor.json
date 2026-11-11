@@ -3,336 +3,288 @@
     "name": "aesshell",
     "version": "0.7",
     "description": "A backconnect shell for Windows and Unix written in python and uses AES in CBC mode in conjunction with HMAC-SHA256 for secure transport.",
-    "url": "https://packetstormsecurity.com/files/132438/AESshell.7.html"
-  }
-,
+    "url": "https://packetstormsecurity.com/files/132438/AESshell-0.7.html"
+  },
   {
     "name": "azazel",
     "version": "15.a41fbb5",
     "description": "A userland rootkit based off of the original LD_PRELOAD technique from Jynx rootkit.",
     "url": "https://github.com/chokepoint/azazel"
-  }
-,
+  },
   {
     "name": "backcookie",
     "version": "51.6dabc38",
     "description": "Small backdoor using cookie.",
-    "url": "https://github.com/mrjopino/backcookie"
-  }
-,
+    "url": "https://github.com/jofpin/backcookie"
+  },
   {
     "name": "backdoor-factory",
     "version": "210.0c53045",
     "description": "Patch win32/64 binaries with shellcode.",
     "url": "https://github.com/secretsquirrel/the-backdoor-factory"
-  }
-,
+  },
   {
     "name": "backdoorme",
     "version": "308.f9755ca",
     "description": "A powerful utility capable of backdooring Unix machines with a slew of backdoors.",
     "url": "https://github.com/Kkevsterrr/backdoorme"
-  }
-,
+  },
   {
     "name": "backdoorppt",
     "version": "88.d0e7f91",
     "description": "Transform your payload.exe into one fake word doc (.ppt).",
-    "url": "https://github.com/r00txp10it/backdoorppt"
-  }
-,
+    "url": "https://github.com/r00t-3xp10it/backdoorppt"
+  },
   {
     "name": "cymothoa",
     "version": "1",
     "description": "A stealth backdooring tool, that inject backdoor's shellcode into an existing process.",
-    "url": "http://cymothoa.sourceforge.net/"
-  }
-,
+    "url": "https://cymothoa.sourceforge.net/"
+  },
   {
     "name": "debinject",
     "version": "43.d884309",
     "description": "Inject malicious code into *.debs.",
     "url": "https://github.com/UndeadSec/Debinject"
-  }
-,
+  },
   {
     "name": "donut",
     "version": "529.47758d7",
     "description": "Generates x86, x64 or AMD64+x86 P.I. shellcode loading .NET Assemblies from memory.",
     "url": "https://github.com/TheWover/donut"
-  }
-,
+  },
   {
     "name": "dr0p1t-framework",
     "version": "44.db9bc2d",
     "description": "A framework that creates a dropper that bypass most AVs, some sandboxes and have some tricks.",
     "url": "https://github.com/D4Vinci/Dr0p1t-Framework"
-  }
-,
+  },
   {
     "name": "dragon-backdoor",
     "version": "7.c7416b7",
     "description": "A sniffing, non binding, reverse down/exec, portknocking service Based on cd00r.c.",
-    "url": "https://github.com/Shellntel/backdoors"
-  }
-,
+    "url": "https://github.com/shellntel-acct/backdoors"
+  },
   {
     "name": "eggshell",
     "version": "157.eaeeea7",
     "description": "iOS/macOS/Linux Remote Administration Tool.",
-    "url": "https://github.com/neoneggplant/EggShell"
-  }
-,
+    "url": "https://github.com/lucasjacks0n/EggShell"
+  },
   {
     "name": "enyelkm",
     "version": "1.2",
     "description": "Rootkit for Linux x86 kernels v2.6.",
-    "url": "http://www.enye-sec.org/programas.html"
-  }
-,
+    "url": "https://www.enye-sec.org/temas/programas/"
+  },
   {
     "name": "evilpdf",
     "version": "5.43696a8",
     "description": "Embedding executable files in PDF Documents.",
     "url": "https://github.com/thelinuxchoice/evilpdf"
-  }
-,
+  },
   {
     "name": "exe2image",
     "version": "1.1",
     "description": "A simple utility to convert EXE files to JPEG images and vice versa.",
     "url": "https://github.com/OsandaMalith/Exe2Image"
-  }
-,
+  },
   {
     "name": "gobd",
     "version": "82.3bbd17c",
     "description": "A Golang covert backdoor.",
     "url": "https://github.com/razc411/GoBD"
-  }
-,
+  },
   {
     "name": "harness",
     "version": "19.ed2a6aa",
     "description": "Interactive remote PowerShell Payload.",
     "url": "https://github.com/Rich5/Harness"
-  }
-,
+  },
   {
     "name": "hotpatch",
     "version": "90.fd2baf1",
     "description": "Hot patches executables on Linux using .so file injection.",
     "url": "http://www.selectiveintellect.com/hotpatch.html"
-  }
-,
+  },
   {
     "name": "icmpsh",
     "version": "12.82caf34",
     "description": "Simple reverse ICMP shell.",
-    "url": "https://github.com/inquisb/icmpsh"
-  }
-,
+    "url": "https://github.com/bdamele/icmpsh"
+  },
   {
     "name": "jynx2",
     "version": "2.0",
     "description": "An expansion of the original Jynx LD_PRELOAD rootkit",
-    "url": "http://www.blackhatlibrary.net/Jynx2"
-  }
-,
+    "url": "https://github.com/chokepoint/Jynx2"
+  },
   {
     "name": "k55",
     "version": "86.b3c4aa9",
     "description": "Linux x86_64 Process Injection Utility.",
     "url": "https://github.com/josh0xA/K55"
-  }
-,
+  },
   {
     "name": "kimi",
     "version": "28.e7cafda",
     "description": "Script to generate malicious debian packages (debain trojans).",
     "url": "https://github.com/ChaitanyaHaritash/kimi"
-  }
-,
+  },
   {
     "name": "kwetza",
     "version": "26.0e50272",
     "description": "Python script to inject existing Android applications with a Meterpreter payload.",
     "url": "https://github.com/sensepost/kwetza"
-  }
-,
+  },
   {
     "name": "ld-shatner",
     "version": "4.5c215c4",
     "description": "ld-linux code injector.",
     "url": "https://github.com/sduverger/ld-shatner"
-  }
-,
+  },
   {
     "name": "linux-inject",
     "version": "100.268d4e4",
     "description": "Tool for injecting a shared object into a Linux process.",
     "url": "https://github.com/gaffe23/linux-inject"
-  }
-,
+  },
   {
     "name": "meterssh",
     "version": "18.9a5ed19",
     "description": "A way to take shellcode, inject it into memory then tunnel whatever port you want to over SSH to mask any type of communications as a normal SSH connection.",
     "url": "https://github.com/trustedsec/meterssh"
-  }
-,
+  },
   {
     "name": "microsploit",
     "version": "9.441e132",
     "description": "Fast and easy create backdoor office exploitation using module metasploit packet, Microsoft Office, Open Office, Macro attack, Buffer Overflow.",
     "url": "https://github.com/Screetsec/Microsploit"
-  }
-,
+  },
   {
     "name": "ms-sys",
     "version": "2.8.0",
     "description": "A tool to write Win9x- master boot records (mbr) under linux - RTM!",
-    "url": "http://ms-sys.sourceforge.net/"
-  }
-,
+    "url": "https://ms-sys.sourceforge.net/"
+  },
   {
     "name": "nxcrypt",
     "version": "32.6ae06b5",
     "description": "Python backdoor framework.",
     "url": "https://github.com/Hadi999/NXcrypt"
-  }
-,
+  },
   {
     "name": "phishery",
     "version": "14.5743953",
     "description": "An SSL Enabled Basic Auth Credential Harvester with a Word Document Template URL Injector.",
     "url": "https://github.com/ryhanson/phishery"
-  }
-,
+  },
   {
     "name": "pwncat",
     "version": "0.1.2",
     "description": "Bind and reverse shell handler with FW/IDS/IPS evasion, self-inject and port-scanning.",
     "url": "https://github.com/cytopia/pwncat"
-  }
-,
+  },
   {
     "name": "pyrasite",
     "version": "2.0",
     "description": "Code injection and introspection of running Python processes.",
     "url": "https://pypi.org/project/pyrasite/#files"
-  }
-,
+  },
   {
     "name": "revsh",
     "version": "215.174e309",
     "description": "A reverse shell with terminal support, data tunneling, and advanced pivoting capabilities.",
     "url": "https://github.com/emptymonkey/revsh/"
-  }
-,
+  },
   {
     "name": "rrs",
     "version": "1.70",
     "description": "A reverse (connecting) remote shell. Instead of listening for incoming connections it will connect out to a listener (rrs in listen mode). With tty support and more.",
     "url": "http://www.cycom.se/dl/rrs"
-  }
-,
+  },
   {
     "name": "rubilyn",
     "version": "0.0.1",
     "description": "64bit Mac OS-X kernel rootkit that uses no hardcoded address to hook the BSD subsystem in all OS-X Lion & below. It uses a combination of syscall hooking and DKOM to hide activity on a host.",
-    "url": "http://nullsecurity.net/tools/backdoor.html"
-  }
-,
+    "url": "https://nullsecurity.net/tools/backdoor.html"
+  },
   {
     "name": "shellinabox",
     "version": "428.98e6eeb",
     "description": "Implements a web server that can export arbitrary command line tools to a web based terminal emulator.",
     "url": "https://github.com/shellinabox/shellinabox"
-  }
-,
+  },
   {
     "name": "shootback",
     "version": "83.cab462c",
     "description": "A reverse TCP tunnel let you access target behind NAT or firewall.",
     "url": "https://github.com/aploium/shootback"
-  }
-,
+  },
   {
     "name": "silenttrinity",
     "version": "293.08b1c61",
     "description": "An asynchronous, collaborative post-exploitation agent powered by Python and .NET's DLR.",
     "url": "https://github.com/byt3bl33d3r/SILENTTRINITY"
-  }
-,
+  },
   {
     "name": "syringe",
     "version": "12.79a703e",
     "description": "A General Purpose DLL & Code Injection Utility.",
-    "url": "https://github.com/securestate/syringe"
-  }
-,
+    "url": "https://github.com/rsmusllp/syringe"
+  },
   {
     "name": "trixd00r",
     "version": "0.0.1",
     "description": "An advanced and invisible userland backdoor based on TCP/IP for UNIX systems.",
-    "url": "http://nullsecurity.net/tools/backdoor.html"
-  }
-,
+    "url": "https://nullsecurity.net/tools/backdoor.html"
+  },
   {
     "name": "tsh",
     "version": "0.6",
     "description": "An open-source UNIX backdoor that compiles on all variants, has full pty support, and uses strong crypto for communication.",
     "url": "http://packetstormsecurity.com/search/?q=tsh"
-  }
-,
+  },
   {
     "name": "tsh-sctp",
     "version": "2.850a2da",
     "description": "An open-source UNIX backdoor.",
     "url": "https://github.com/infodox/tsh-sctp"
-  }
-,
+  },
   {
     "name": "u3-pwn",
     "version": "2.0",
     "description": "A tool designed to automate injecting executables to Sandisk smart usb devices with default U3 software install.",
-    "url": "http://www.nullsecurity.net/tools/backdoor.html"
-  }
-,
+    "url": "https://nullsecurity.net/tools/backdoor.html"
+  },
   {
     "name": "unicorn-powershell",
     "version": "212.5421d46",
     "description": "A simple tool for using a PowerShell downgrade attack and inject shellcode straight into memory.",
     "url": "https://github.com/trustedsec/unicorn"
-  }
-,
+  },
   {
     "name": "villain",
     "version": "V2.2.1.r2.gb3a3946",
     "description": "C2 framework that can handle multiple TCP socket & HoaxShell-based reverse shells, enhance their functionality with additional features and share them among connected sibling servers.",
     "url": "https://github.com/t3l3machus/Villain"
-  }
-,
+  },
   {
     "name": "vlany",
     "version": "255.9ef014a",
     "description": "Linux LD_PRELOAD rootkit (x86 and x86_64 architectures).",
     "url": "https://github.com/mempodippy/vlany"
-  }
-,
+  },
   {
     "name": "webacoo",
     "version": "0.2.3",
     "description": "Web Backdoor Cookie Script-Kit.",
     "url": "https://bechtsoudis.com/webacoo/"
-  }
-,
+  },
   {
     "name": "webspa",
     "version": "0.8",
     "description": "A web knocking tool, sending a single HTTP/S to run O/S commands.",
-    "url": "http://sourceforge.net/projects/webspa/"
+    "url": "https://sourceforge.net/projects/webspa/"
   }
-
 ]

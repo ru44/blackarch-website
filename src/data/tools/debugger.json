@@ -4,69 +4,59 @@
     "version": "3337.eedd97a0",
     "description": "A cross platform AArch32/x86/x86 debugger.",
     "url": "https://github.com/eteran/edb-debugger/"
-  }
-,
+  },
   {
     "name": "electric-fence",
     "version": "2.2.5",
     "description": "A malloc(3) debugger that uses virtual memory hardware to detect illegal memory accesses.",
     "url": "https://packages.debian.org/sid/electric-fence"
-  }
-,
+  },
   {
     "name": "gdbgui",
     "version": "437.be95217",
     "description": "Browser-based gdb frontend using Flask and JavaScript to visually debug C, C++, Go, or Rust.",
     "url": "https://github.com/cs01/gdbgui"
-  }
-,
+  },
   {
     "name": "heaptrace",
     "version": "2.2.8.2.r20.g06f43fc",
     "description": "Helps visualize heap operations for pwn and debugging.",
     "url": "https://github.com/Arinerron/heaptrace"
-  }
-,
+  },
   {
     "name": "ollydbg",
     "version": "201g",
     "description": "A 32-bit assembler-level analysing debugger.",
     "url": "http://www.ollydbg.de"
-  }
-,
+  },
   {
     "name": "rr",
     "version": "6869.556551e4",
     "description": "A Record and Replay Framework.",
-    "url": "https://github.com/mozilla/rr"
-  }
-,
+    "url": "https://github.com/rr-debugger/rr"
+  },
   {
     "name": "saleae-logic",
     "version": "2.3.47",
     "description": "Debug happy.",
     "url": "https://www.saleae.com/downloads"
-  }
-,
+  },
   {
     "name": "shellnoob",
     "version": "35.72cf498",
     "description": "A toolkit that eases the writing and debugging of shellcode.",
     "url": "https://github.com/reyammer/shellnoob"
-  }
-,
+  },
   {
     "name": "vivisect",
     "version": "v1.2.1.r4.gd04e5193",
     "description": "A Python based static analysis and reverse engineering framework.",
     "url": "https://github.com/vivisect/vivisect"
-  }
-,
+  },
   {
     "name": "voltron",
     "version": "629.be9e54b",
     "description": "UI for GDB, LLDB and Vivisect's VDB.",
     "url": "https://github.com/snare/voltron"
   }
-
 ]

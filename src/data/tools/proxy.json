@@ -4,223 +4,191 @@
     "version": "0.9.4",
     "description": "Tiny free proxy server.",
     "url": "https://github.com/3proxy/3proxy"
-  }
-,
+  },
   {
     "name": "bdfproxy",
     "version": "107.276c367",
     "description": "Patch Binaries via MITM: BackdoorFactory + mitmProxy",
     "url": "https://github.com/secretsquirrel/BDFProxy"
-  }
-,
+  },
   {
     "name": "binproxy",
     "version": "8.d02fce9",
     "description": "A proxy for arbitrary TCP connections.",
     "url": "https://github.com/nccgroup/BinProxy/"
-  }
-,
+  },
   {
     "name": "cntlm",
     "version": "4.b35d55c",
     "description": "An NTLM, NTLM2SR, and NTLMv2 authenticating HTTP proxy.",
     "url": "https://github.com/bseb/cntlm"
-  }
-,
+  },
   {
     "name": "datajackproxy",
     "version": "42.f75f3a3",
     "description": "A proxy which allows you to intercept TLS traffic in native x86 applications across platform.",
     "url": "https://github.com/nccgroup/DatajackProxy"
-  }
-,
+  },
   {
     "name": "dns-reverse-proxy",
     "version": "41.bca130d",
     "description": "A reverse DNS proxy written in Go.",
     "url": "https://github.com/StalkR/dns-reverse-proxy"
-  }
-,
+  },
   {
     "name": "dnschef",
     "version": "17.a395411",
     "description": "A highly configurable DNS proxy for pentesters.",
     "url": "http://thesprawl.org/projects/dnschef/"
-  }
-,
+  },
   {
     "name": "elite-proxy-finder",
     "version": "51.1ced3be",
     "description": "Finds public elite anonymity proxies and concurrently tests them.",
     "url": "https://github.com/DanMcInerney/elite-proxy-finder"
-  }
-,
+  },
   {
     "name": "fakedns",
     "version": "118.39609da",
     "description": "A regular-expression based python MITM DNS server with correct DNS request passthrough and \"Not Found\" responses.",
     "url": "https://github.com/Crypt0s/FakeDns"
-  }
-,
+  },
   {
     "name": "fireprox",
     "version": "51.a6e1300",
     "description": "AWS API Gateway management tool for creating on the fly HTTP pass-through proxies for unique IP rotation.",
     "url": "https://github.com/ustayready/fireprox"
-  }
-,
+  },
   {
     "name": "jondo",
     "version": "00.20.001",
     "description": "Redirects internet traffic trough a mix of proxy servers to hide the origin of the requests.",
     "url": "https://anonymous-proxy-servers.net/"
-  }
-,
+  },
   {
     "name": "mallory",
     "version": "134.47094fb",
     "description": "HTTP/HTTPS proxy over SSH.",
     "url": "https://github.com/justmao945/mallory"
-  }
-,
+  },
   {
     "name": "mitm-relay",
     "version": "40.1b74741",
     "description": "Hackish way to intercept and modify non-HTTP protocols through Burp & others.",
     "url": "https://github.com/jrmdev/mitm_relay"
-  }
-,
+  },
   {
     "name": "modlishka",
     "version": "v.1.1.0.r60.g3ebc29e",
     "description": "A powerful and flexible HTTP reverse proxy.",
     "url": "https://github.com/drk1wi/Modlishka"
-  }
-,
+  },
   {
     "name": "mubeng",
     "version": "254.a77f2d5",
     "description": "An incredibly fast proxy checker & IP rotator with ease.",
-    "url": "https://github.com/kitabisa/mubeng"
-  }
-,
+    "url": "https://github.com/mubeng/mubeng"
+  },
   {
     "name": "obfs4proxy",
     "version": "0.0.13",
     "description": "A pluggable transport proxy written in Go.",
     "url": "https://gitlab.com/yawning/obfs4"
-  }
-,
+  },
   {
     "name": "pr0cks",
     "version": "20.bcfcf2d",
     "description": "python script setting up a transparent proxy to forward all TCP and DNS traffic through a SOCKS / SOCKS5 or HTTP(CONNECT) proxy using iptables -j REDIRECT target.",
     "url": "https://github.com/n1nj4sec/pr0cks"
-  }
-,
+  },
   {
     "name": "proxify",
     "version": "712.b9c62cc",
     "description": "Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipulation, and replay on the go.",
     "url": "https://github.com/projectdiscovery/proxify"
-  }
-,
+  },
   {
     "name": "proxybroker2",
     "version": "413.65b998d",
     "description": "Proxy [Finder ",
-    "url": " Checker "
-  }
-,
+    "url": "https://github.com/bluet/proxybroker2"
+  },
   {
     "name": "proxyp",
     "version": "2013",
     "description": "Small multithreaded Perl script written to enumerate latency, port numbers, server names, & geolocations of proxy IP addresses.",
-    "url": "http://sourceforge.net/projects/proxyp/"
-  }
-,
+    "url": "https://sourceforge.net/projects/proxyp/"
+  },
   {
     "name": "redsocks",
     "version": "211.19b822e",
     "description": "Transparent redirector of any TCP connection to proxy.",
     "url": "https://github.com/darkk/redsocks"
-  }
-,
+  },
   {
     "name": "rpivot",
     "version": "5.4963487",
     "description": "Socks4 reverse proxy for penetration testing.",
-    "url": "https://github.com/artkond/rpivot"
-  }
-,
+    "url": "https://github.com/klsecservices/rpivot"
+  },
   {
     "name": "sergio-proxy",
     "version": "20.8a91bb4",
     "description": "A multi-threaded transparent HTTP proxy for manipulating web traffic.",
     "url": "https://github.com/supernothing/sergio-proxy"
-  }
-,
+  },
   {
     "name": "soapui",
     "version": "5.8.0",
     "description": "The Swiss-Army Knife for SOAP Testing.",
     "url": "https://www.soapui.org/downloads/soapui/source-forge.html"
-  }
-,
+  },
   {
     "name": "sslstrip",
     "version": "0.9",
     "description": "Python tool to hijack HTTPS connections during a MITM attack.",
     "url": "https://github.com/moxie0/sslstrip"
-  }
-,
+  },
   {
     "name": "ssrf-proxy",
     "version": "293.e79da7a",
     "description": "Facilitates tunneling HTTP communications through servers vulnerable to Server-Side Request Forgery.",
     "url": "https://github.com/bcoles/ssrf_proxy"
-  }
-,
+  },
   {
     "name": "starttls-mitm",
     "version": "7.b257756",
     "description": "A mitm proxy that will transparently proxy and dump both plaintext and TLS traffic.",
     "url": "https://github.com/ipopov/starttls-mitm"
-  }
-,
+  },
   {
     "name": "stowaway",
     "version": "v2.2.r42.gc22010f",
     "description": "A Multi-hop proxy tool for security researchers and pentesters.",
     "url": "https://github.com/ph4ntonn/Stowaway"
-  }
-,
+  },
   {
     "name": "striptls",
     "version": "55.5ec712c",
     "description": "Proxy PoC implementation of STARTTLS stripping attacks.",
     "url": "https://github.com/tintinweb/striptls"
-  }
-,
+  },
   {
     "name": "tftp-proxy",
     "version": "0.1",
     "description": "This tool accepts connection on tftp and reloads requested content from an upstream tftp server.",
-    "url": "http://www.c0decafe.de/"
-  }
-,
+    "url": "https://c0decafe.de/"
+  },
   {
     "name": "trevorproxy",
     "version": "1.0.6",
     "description": "A SOCKS proxy written in Python that randomizes your source IP address.",
     "url": "https://github.com/blacklanternsecurity/TREVORproxy"
-  }
-,
+  },
   {
     "name": "webfixy",
     "version": "25.5d477b0",
     "description": "On-the-fly decryption proxy for MikroTik RouterOS WebFig sessions.",
     "url": "https://github.com/takeshixx/webfixy"
   }
-
 ]

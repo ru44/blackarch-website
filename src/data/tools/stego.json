@@ -3,91 +3,78 @@
     "name": "matroschka",
     "version": "58.2f026a4",
     "description": "Python steganography tool to hide images or text in images.",
-    "url": "https://github.com/fgrimme/Matroschka"
-  }
-,
+    "url": "https://github.com/fbngrm/Matroschka"
+  },
   {
     "name": "openpuff",
     "version": "4.01",
     "description": "Yet not another steganography SW.",
-    "url": "https://embeddedsw.net/OpenPuff_Steganography_Home.html"
-  }
-,
+    "url": "https://www.embeddedsw.net/OpenPuff_Steganography_Home.html"
+  },
   {
     "name": "pngcheck",
     "version": "3.0.3",
     "description": "Verifies the integrity of PNG, JNG and MNG files by checking the CRCs and decompressing the image data.",
     "url": "http://www.libpng.org/pub/png/apps/pngcheck.html"
-  }
-,
+  },
   {
     "name": "silenteye",
     "version": "21.a53a7ff",
     "description": "A cross-platform application design for an easy use of steganography.",
     "url": "https://github.com/achorein/silenteye/"
-  }
-,
+  },
   {
     "name": "stegcracker",
     "version": "2.1.0",
     "description": "Steganography brute-force utility to uncover hidden data inside files.",
     "url": "https://github.com/Paradoxis/StegCracker/tags"
-  }
-,
+  },
   {
     "name": "stegdetect",
     "version": "20.28a4f07",
     "description": "An automated tool for detecting steganographic content in images.",
     "url": "https://github.com/redNixon/stegdetect"
-  }
-,
+  },
   {
     "name": "steghide",
     "version": "0.5.1",
     "description": "Embeds a message in a file by replacing some of the least significant bits.",
-    "url": "http://steghide.sourceforge.net/"
-  }
-,
+    "url": "https://steghide.sourceforge.net/"
+  },
   {
     "name": "stegolego",
     "version": "8.85354f6",
     "description": "Simple program for using stegonography to hide data within BMP images.",
     "url": "https://github.com/razc411/StegoLeggo"
-  }
-,
+  },
   {
     "name": "stegoveritas",
     "version": "1.10",
     "description": "Automatic image steganography analysis tool.",
     "url": "https://github.com/bannsec/stegoVeritas/"
-  }
-,
+  },
   {
     "name": "stegseek",
     "version": "v0.6.r10.g5896978",
     "description": "Lightning fast steghide cracker.",
     "url": "https://github.com/RickdeJager/stegseek"
-  }
-,
+  },
   {
     "name": "stegsolve",
     "version": "1.3",
     "description": "Steganography Solver.",
     "url": "https://github.com/zardus/ctf-tools/blob/master/stegsolve/install"
-  }
-,
+  },
   {
     "name": "stepic",
     "version": "0.4",
     "description": "A python image steganography tool.",
     "url": "http://domnit.org/stepic/doc/"
-  }
-,
+  },
   {
     "name": "zsteg",
     "version": "v0.2.13.r5.g8fc7798",
     "description": "Detect stegano-hidden data in PNG and BMP.",
-    "url": "https://github.com/zedxff/zsteg"
+    "url": "https://github.com/zed-0xff/zsteg"
   }
-
 ]

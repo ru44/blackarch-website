@@ -3,1134 +3,972 @@
     "name": "acccheck",
     "version": "0.2.1",
     "description": "A password dictionary attack tool that targets windows authentication via the SMB protocol.",
-    "url": "http://labs.portcullis.co.uk/tools/acccheck/"
-  }
-,
+    "url": "https://labs.portcullis.co.uk/tools/acccheck/"
+  },
   {
     "name": "adfspray",
     "version": "6.3d7745d",
     "description": "Python3 tool to perform password spraying against Microsoft Online service using various methods.",
     "url": "https://github.com/xFreed0m/ADFSpray"
-  }
-,
+  },
   {
     "name": "aesfix",
     "version": "1.0.1",
     "description": "A tool to find AES key in RAM.",
     "url": "http://citp.princeton.edu/memory/code/"
-  }
-,
+  },
   {
     "name": "aeskeyfind",
     "version": "1.0",
     "description": "A tool to find AES key in RAM.",
     "url": "http://citp.princeton.edu/memory/code/"
-  }
-,
+  },
   {
     "name": "against",
     "version": "0.2",
     "description": "A very fast ssh attacking script which includes a multithreaded port scanning module (tcp connect) for discovering possible targets and a multithreaded brute-forcing module which attacks parallel all discovered hosts or given ip addresses from a list.",
-    "url": "http://nullsecurity.net/tools/cracker.html"
-  }
-,
+    "url": "https://nullsecurity.net/tools/cracker.html"
+  },
   {
     "name": "ares",
     "version": "v0.10.0.r110.ga63614a",
     "description": "Automated decoding of encrypted text without knowing the key or ciphers used.",
     "url": "https://github.com/bee-san/Ares"
-  }
-,
+  },
   {
     "name": "asleap",
     "version": "2.2",
     "description": "Actively recover LEAP/PPTP passwords.",
-    "url": "http://www.willhackforsushi.com/Asleap.html"
-  }
-,
+    "url": "https://github.com/OscarAkaElvis/asleap"
+  },
   {
     "name": "beleth",
     "version": "36.0963699",
     "description": "A Multi-threaded Dictionary based SSH cracker.",
     "url": "https://github.com/chokepoint/Beleth"
-  }
-,
+  },
   {
     "name": "bgp-md5crack",
     "version": "0.1",
     "description": "RFC2385 password cracker",
-    "url": "http://www.c0decafe.de/"
-  }
-,
+    "url": "https://c0decafe.de/"
+  },
   {
     "name": "bios_memimage",
     "version": "1.2",
     "description": "A tool to dump RAM contents to disk (aka cold boot attack).",
     "url": "http://citp.princeton.edu/memory/code/"
-  }
-,
+  },
   {
     "name": "bkcrack",
     "version": "v1.7.1.r11.g52c95ab",
     "description": "Crack legacy zip encryption with Biham and Kocher known plaintext attack.",
     "url": "https://github.com/kimci86/bkcrack"
-  }
-,
+  },
   {
     "name": "bkhive",
     "version": "1.1.1",
     "description": "Program for dumping the syskey bootkey from a Windows NT/2K/XP system hive.",
-    "url": "http://sourceforge.net/projects/ophcrack"
-  }
-,
+    "url": "https://sourceforge.net/projects/ophcrack/"
+  },
   {
     "name": "blackhash",
     "version": "0.2",
     "description": "Creates a filter from system hashes.",
     "url": "http://16s.us/blackhash/"
-  }
-,
+  },
   {
     "name": "bob-the-butcher",
     "version": "0.7.1",
     "description": "A distributed password cracker package.",
-    "url": "http://btb.banquise.net/"
-  }
-,
+    "url": "https://btb.banquise.net/"
+  },
   {
     "name": "brute-force",
     "version": "52.78d1d8e",
     "description": "Brute-Force attack tool for Gmail Hotmail Twitter Facebook Netflix.",
     "url": "https://github.com/Matrix07ksa/Brute_Force"
-  }
-,
+  },
   {
     "name": "bruteforce-luks",
     "version": "54.788d637",
     "description": "Try to find the password of a LUKS encrypted volume.",
     "url": "https://github.com/glv2/bruteforce-luks"
-  }
-,
+  },
   {
     "name": "bruteforce-salted-openssl",
     "version": "64.30b272e",
     "description": "Try to find the password of a file that was encrypted with the 'openssl' command.",
     "url": "https://github.com/glv2/bruteforce-salted-openssl"
-  }
-,
+  },
   {
     "name": "bruteforce-wallet",
     "version": "43.648d7d7",
     "description": "Try to find the password of an encrypted Peercoin (or Bitcoin,Litecoin, etc...) wallet file.",
     "url": "https://github.com/glv2/bruteforce-wallet"
-  }
-,
+  },
   {
     "name": "brutessh",
     "version": "0.6",
     "description": "A simple sshd password bruteforcer using a wordlist, it's very fast for internal networks. It's multithreads.",
     "url": "http://www.edge-security.com/edge-soft.php"
-  }
-,
+  },
   {
     "name": "chapcrack",
     "version": "17.ae2827f",
     "description": "A tool for parsing and decrypting MS-CHAPv2 network handshakes.",
     "url": "https://github.com/moxie0/chapcrack"
-  }
-,
+  },
   {
     "name": "cintruder",
     "version": "14.f8a3f12",
     "description": "An automatic pentesting tool to bypass captchas.",
     "url": "https://github.com/epsylon/cintruder"
-  }
-,
+  },
   {
     "name": "cisco-auditing-tool",
     "version": "1",
     "description": "Perl script which scans cisco routers for common vulnerabilities. Checks for default passwords, easily guessable community names, and the IOS history bug. Includes support for plugins and scanning multiple hosts.",
     "url": "http://www.scrypt.net"
-  }
-,
+  },
   {
     "name": "cisco-ocs",
     "version": "0.2",
     "description": "Cisco Router Default Password Scanner.",
-    "url": "http://www.question-defense.com/2013/01/11/ocs-version-2-release-ocs-cisco-router-default-password-scanner"
-  }
-,
+    "url": "http://www.question-defense.com/2013/01/11/ocs-version-0-2-release-ocs-cisco-router-default-password-scanner"
+  },
   {
     "name": "cisco-scanner",
     "version": "0.2",
     "description": "Multithreaded Cisco HTTP vulnerability scanner. Tested on Linux, OpenBSD and Solaris.",
     "url": "http://wayreth.eu.org/old_page/"
-  }
-,
+  },
   {
     "name": "cisco5crack",
     "version": "2.c4b228c",
     "description": "Crypt and decrypt the cisco enable 5 passwords.",
     "url": "https://github.com/madrisan/cisco5crack"
-  }
-,
+  },
   {
     "name": "cisco7crack",
     "version": "2.f1c21dd",
     "description": "Crypt and decrypt the cisco enable 7 passwords.",
     "url": "https://github.com/madrisan/cisco7crack"
-  }
-,
+  },
   {
     "name": "cmospwd",
     "version": "5.1",
     "description": "Decrypts password stored in CMOS used to access BIOS setup.",
-    "url": "http://www.cgsecurity.org/wiki/CmosPwd"
-  }
-,
+    "url": "https://www.cgsecurity.org/wiki/CmosPwd"
+  },
   {
     "name": "compp",
     "version": "1.0.5",
     "description": "Company Passwords Profiler helps making a bruteforce wordlist for a targeted company.",
     "url": "https://github.com/sec-it/ComPP"
-  }
-,
+  },
   {
     "name": "crackhor",
     "version": "2.ae7d83f",
     "description": "A Password cracking utility.",
-    "url": "https://github.com/CoalfireLabs/crackHOR"
-  }
-,
+    "url": "https://github.com/Coalfire-Research/Doozer"
+  },
   {
     "name": "crackle",
     "version": "111.d83b4b6",
     "description": "Crack and decrypt BLE encryption.",
     "url": "https://github.com/mikeryan/crackle/"
-  }
-,
+  },
   {
     "name": "crackpkcs12",
     "version": "0.2.10.11.c7dedb1",
     "description": "A multithreaded program to crack PKCS#12 files (p12 and pfx extensions).",
     "url": "https://github.com/crackpkcs12/crackpkcs12"
-  }
-,
+  },
   {
     "name": "crackq",
     "version": "48.89b7318",
     "description": "Hashcrack.org GPU-accelerated password cracker.",
-    "url": "https://github.com/vnik5287/Crackq"
-  }
-,
+    "url": "https://github.com/hashcrackq/Crackq"
+  },
   {
     "name": "crackserver",
     "version": "33.e5763ab",
     "description": "An XMLRPC server for password cracking.",
     "url": "https://github.com/averagesecurityguy/crack"
-  }
-,
+  },
   {
     "name": "creddump",
     "version": "3.ed95e1a",
     "description": "A python tool to extract various credentials and secrets from Windows registry hives.",
     "url": "https://github.com/moyix/creddump"
-  }
-,
+  },
   {
     "name": "credmaster",
     "version": "206.0a79f34",
     "description": "Refactored & improved CredKing password spraying tool, uses FireProx APIs to rotate IP addresses, stay anonymous, and beat throttling.",
     "url": "https://github.com/knavesec/CredMaster"
-  }
-,
+  },
   {
     "name": "crowbar",
     "version": "v4.2.r1.g4b563dc",
     "description": "Brute forcing tool that can be used during penetration tests.",
     "url": "https://github.com/galkan/crowbar"
-  }
-,
+  },
   {
     "name": "cryptohazemultiforcer",
     "version": "1.31a",
     "description": "High performance multihash brute forcer with CUDA support.",
     "url": "http://www.cryptohaze.com/multiforcer.php"
-  }
-,
+  },
   {
     "name": "cudahashcat",
     "version": "2.01",
     "description": "Worlds fastest WPA cracker with dictionary mutation engine.",
-    "url": "http://hashcat.net/oclhashcat/"
-  }
-,
+    "url": "https://hashcat.net/hashcat/"
+  },
   {
     "name": "cupp",
     "version": "77.56547fd",
     "description": "Common User Password Profiler",
     "url": "http://www.remote-exploit.org/?page_id=418"
-  }
-,
+  },
   {
     "name": "dbpwaudit",
     "version": "0.8",
     "description": "A Java tool that allows you to perform online audits of password quality for several database engines.",
     "url": "http://www.cqure.net/wp/dbpwaudit/"
-  }
-,
+  },
   {
     "name": "depant",
     "version": "0.3a",
     "description": "Check network for services with default passwords.",
     "url": "http://midnightresearch.com/projects/depant/"
-  }
-,
+  },
   {
     "name": "device-pharmer",
     "version": "40.b06a460",
     "description": "Opens 1K+ IPs or Shodan search results and attempts to login.",
     "url": "https://github.com/DanMcInerney/device-pharmer"
-  }
-,
+  },
   {
     "name": "doozer",
     "version": "9.5cfc8f8",
     "description": "A Password cracking utility.",
-    "url": "https://github.com/CoalfireLabs/crackHOR"
-  }
-,
+    "url": "https://github.com/Coalfire-Research/Doozer"
+  },
   {
     "name": "dpeparser",
     "version": "beta002",
     "description": "Default password enumeration project",
     "url": "http://www.toolswatch.org/dpe/"
-  }
-,
+  },
   {
     "name": "eapmd5pass",
     "version": "3.3d5551f",
     "description": "An implementation of an offline dictionary attack against the EAP-MD5 protocol.",
-    "url": "http://www.willhackforsushi.com/?page_id=67"
-  }
-,
+    "url": "https://www.willhackforsushi.com/resources/eapmd5pass/"
+  },
   {
     "name": "enabler",
     "version": "1",
     "description": "Attempts to find the enable password on a cisco system via brute force.",
     "url": "http://packetstormsecurity.org/cisco/enabler.c"
-  }
-,
+  },
   {
     "name": "evilize",
     "version": "0.2",
     "description": "Tool to create MD5 colliding binaries.",
-    "url": "http://www.mathstat.dal.ca/~selinger/md5collision/"
-  }
-,
+    "url": "https://www.mathstat.dal.ca/~selinger/md5collision/"
+  },
   {
     "name": "evilmaid",
     "version": "1.01",
     "description": "TrueCrypt loader backdoor to sniff volume password",
-    "url": "http://theinvisiblethings.blogspot.com"
-  }
-,
+    "url": "https://theinvisiblethings.blogspot.com"
+  },
   {
     "name": "f-scrack",
     "version": "19.9a00357",
     "description": "A single file bruteforcer supports multi-protocol.",
     "url": "https://github.com/ysrc/F-Scrack"
-  }
-,
+  },
   {
     "name": "facebrute",
     "version": "7.ece355b",
     "description": "This script tries to guess passwords for a given facebook account using a list of passwords (dictionary).",
     "url": "https://github.com/emerinohdz/FaceBrute"
-  }
-,
+  },
   {
     "name": "fang",
     "version": "22.4f94552",
     "description": "A multi service threaded MD5 cracker.",
     "url": "https://github.com/evilsocket/fang"
-  }
-,
+  },
   {
     "name": "flask-unsign",
     "version": "v1.2.1.r0.g6e6e91d",
     "description": "Command line tool to fetch, decode, brute-force and craft session cookies of a Flask application by guessing secret keys.",
     "url": "https://github.com/Paradoxis/Flask-Unsign"
-  }
-,
+  },
   {
     "name": "ftp-scanner",
     "version": "0.2.5",
     "description": "Multithreaded ftp scanner/brute forcer. Tested on Linux, OpenBSD and Solaris.",
     "url": "http://wayreth.eu.org/old_page/"
-  }
-,
+  },
   {
     "name": "gomapenum",
     "version": "v1.1.0.r110.g8b344df",
     "description": "User enumeration and password bruteforce on Azure, ADFS, OWA, O365, Teams and gather emails on Linkedin.",
     "url": "https://github.com/nodauf/GoMapEnum"
-  }
-,
+  },
   {
     "name": "gpocrack",
     "version": "3.cf63c86",
     "description": "Active Directory Group Policy Preferences cpassword cracker/decrypter.",
     "url": "https://github.com/MartinIngesen/gpocrack"
-  }
-,
+  },
   {
     "name": "hasher",
     "version": "48.40173c5",
     "description": "A tool that allows you to quickly hash plaintext strings, or compare hashed values with a plaintext locally.",
-    "url": "https://github.com/ChrisTruncer/Hasher"
-  }
-,
+    "url": "https://github.com/RedSiege/Hasher"
+  },
   {
     "name": "hashtag",
     "version": "0.41",
     "description": "A python script written to parse and identify password hashes.",
     "url": "https://github.com/SmeegeSec/HashTag"
-  }
-,
+  },
   {
     "name": "hostbox-ssh",
     "version": "0.1.1",
     "description": "A ssh password/account scanner.",
-    "url": "http://stridsmanit.wordpress.com/2012/12/02/brute-forcing-passwords-with-hostbox-ssh-1-1/"
-  }
-,
+    "url": "https://stridsmanit.wordpress.com/2012/12/02/brute-forcing-passwords-with-hostbox-ssh-0-1-1/"
+  },
   {
     "name": "htpwdscan",
     "version": "23.e995d6f",
     "description": "A python HTTP weak pass scanner.",
     "url": "https://github.com/lijiejie/htpwdScan"
-  }
-,
+  },
   {
     "name": "ibrute",
     "version": "12.3a6a11e",
     "description": "An AppleID password bruteforce tool. It uses Find My Iphone service API, where bruteforce protection was not implemented.",
     "url": "https://github.com/hackappcom/ibrute/"
-  }
-,
+  },
   {
     "name": "icloudbrutter",
     "version": "15.1f64f19",
     "description": "Tool for AppleID Bruteforce.",
     "url": "https://github.com/m4ll0k/iCloudBrutter"
-  }
-,
+  },
   {
     "name": "iheartxor",
     "version": "0.01",
     "description": "A tool for bruteforcing encoded strings within a boundary defined by a regular expression. It will bruteforce the key value range of 0x1 through 0x255.",
     "url": "http://hooked-on-mnemonics.blogspot.com.es/p/iheartxor.html"
-  }
-,
+  },
   {
     "name": "iisbruteforcer",
     "version": "15",
     "description": "HTTP authentication cracker. It's a tool that launchs an online dictionary attack to test for weak or simple passwords against protected areas on an IIS Web server.",
-    "url": "http://www.open-labs.org/"
-  }
-,
+    "url": "https://open-labs.org/"
+  },
   {
     "name": "ikecrack",
     "version": "1.00",
     "description": "An IKE/IPSec crack tool designed to perform Pre-Shared-Key analysis of RFC compliant aggressive mode authentication",
-    "url": "http://sourceforge.net/projects/ikecrack/"
-  }
-,
+    "url": "https://sourceforge.net/projects/ikecrack/"
+  },
   {
     "name": "ikeforce",
     "version": "30.575af15",
     "description": "A command line IPSEC VPN brute forcing tool for Linux that allows group name/ID enumeration and XAUTH brute forcing capabilities.",
     "url": "https://github.com/SpiderLabs/ikeforce"
-  }
-,
+  },
   {
     "name": "inguma",
     "version": "0.1.1",
     "description": "A free penetration testing and vulnerability discovery toolkit entirely written in python. Framework includes modules to discover hosts, gather information about, fuzz targets, brute force usernames and passwords, exploits, and a disassembler.",
-    "url": "http://inguma.sourceforge.net"
-  }
-,
+    "url": "https://inguma.sourceforge.net/"
+  },
   {
     "name": "instashell",
     "version": "44.8f867bd",
     "description": "Multi-threaded Instagram Brute Forcer without password limit.",
     "url": "https://github.com/maxrooted/instashell"
-  }
-,
+  },
   {
     "name": "ipmipwn",
     "version": "6.74a08a8",
     "description": "IPMI cipher 0 attack tool.",
     "url": "https://github.com/AnarchyAngel/IPMIPWN"
-  }
-,
+  },
   {
     "name": "jbrute",
     "version": "0.99",
     "description": "Open Source Security tool to audit hashed passwords.",
-    "url": "http://sourceforge.net/projects/jbrute/"
-  }
-,
+    "url": "https://sourceforge.net/projects/jbrute/"
+  },
   {
     "name": "jeangrey",
     "version": "43.9bf3cf4",
     "description": "A tool to perform differential fault analysis attacks (DFA).",
     "url": "https://github.com/SideChannelMarvels/JeanGrey"
-  }
-,
+  },
   {
     "name": "johnny",
     "version": "20120424",
     "description": "GUI for John the Ripper.",
     "url": "http://openwall.info/wiki/john/johnny"
-  }
-,
+  },
   {
     "name": "jwt-cracker",
     "version": "23.8130879",
     "description": "JWT brute force cracker written in C.",
     "url": "https://github.com/brendan-rius/c-jwt-cracker"
-  }
-,
+  },
   {
     "name": "jwt-tool",
     "version": "73.e4f380f",
     "description": "Toolkit for validating, forging and cracking JWTs (JSON Web Tokens).",
     "url": "https://github.com/ticarpi/jwt_tool"
-  }
-,
+  },
   {
     "name": "jwtcat",
     "version": "77.f80f3d9",
     "description": "Script performs offline brute-force attacks against JSON Web Token (JWT)",
     "url": "https://github.com/aress31/jwtcat"
-  }
-,
+  },
   {
     "name": "keimpx",
     "version": "300.37190f4",
     "description": "Tool to verify the usefulness of credentials across a network over SMB.",
-    "url": "http://code.google.com/p/keimpx/"
-  }
-,
+    "url": "https://code.google.com/archive/p/keimpx"
+  },
   {
     "name": "kerbrute",
     "version": "90.9cfb81e",
     "description": "A tool to perform Kerberos pre-auth bruteforcing.",
     "url": "https://github.com/ropnop/kerbrute"
-  }
-,
+  },
   {
     "name": "khc",
     "version": "0.2",
     "description": "A small tool designed to recover hashed known_hosts fiels back to their plain-text equivalents.",
-    "url": "http://packetstormsecurity.com/files/87003/Known-Host-Cracker.2.html"
-  }
-,
+    "url": "http://packetstormsecurity.com/files/87003/Known-Host-Cracker-0.2.html"
+  },
   {
     "name": "ldap-brute",
     "version": "21.acc06e3",
     "description": "A semi fast tool to bruteforce values of LDAP injections over HTTP.",
-    "url": "https://github.com/droope/ldap-brute"
-  }
-,
+    "url": "https://github.com/SamJoan/ldap-brute"
+  },
   {
     "name": "levye",
     "version": "84.5406303",
     "description": "A brute force tool which is support sshkey, vnckey, rdp, openvpn.",
     "url": "https://github.com/galkan/levye"
-  }
-,
+  },
   {
     "name": "lodowep",
     "version": "1.2.1",
     "description": "Lodowep is a tool for analyzing password strength of accounts on a Lotus Domino webserver system.",
     "url": "http://www.cqure.net/wp/lodowep/"
-  }
-,
+  },
   {
     "name": "mdcrack",
     "version": "1.2",
     "description": "MD4/MD5/NTLM1 hash cracker",
     "url": "http://c3rb3r.openwall.net/mdcrack/"
-  }
-,
+  },
   {
     "name": "mkbrutus",
     "version": "27.ddd5f8e",
     "description": "Password bruteforcer for MikroTik devices or boxes running RouterOS.",
     "url": "http://mkbrutusproject.github.io/MKBRUTUS/"
-  }
-,
+  },
   {
     "name": "morxbook",
     "version": "1.0",
     "description": "A password cracking tool written in perl to perform a dictionary-based attack on a specific Facebook user through HTTPS.",
     "url": "http://www.morxploit.com/"
-  }
-,
+  },
   {
     "name": "morxbrute",
     "version": "1.01",
     "description": "A customizable HTTP dictionary-based password cracking tool written in Perl.",
     "url": "http://www.morxploit.com/morxbrute/"
-  }
-,
+  },
   {
     "name": "morxbtcrack",
     "version": "1.0",
     "description": "Single Bitcoin private key cracking tool released.",
     "url": "http://www.morxploit.com/tools/"
-  }
-,
+  },
   {
     "name": "morxcoinpwn",
     "version": "1.0",
     "description": "Mass Bitcoin private keys brute forcing/Take over tool released.",
     "url": "http://www.morxploit.com/tools/"
-  }
-,
+  },
   {
     "name": "morxcrack",
     "version": "1.2",
     "description": "A cracking tool written in Perl to perform a dictionary-based attack on various hashing algorithm and CMS salted-passwords.",
     "url": "http://www.morxploit.com/morxcrack/"
-  }
-,
+  },
   {
     "name": "mybff",
     "version": "99.ba4de8d",
     "description": "A Brute Force Framework.",
-    "url": "https://github.com/MooseDojo/myBFF"
-  }
-,
+    "url": "https://github.com/rapid7/myBFF"
+  },
   {
     "name": "o365enum",
     "version": "19.522a54c",
     "description": "Username enumeration and password enuming tool aimed at Microsoft O365.",
     "url": "https://github.com/gremwell/o365enum"
-  }
-,
+  },
   {
     "name": "o365spray",
     "version": "160.28d8d1b",
     "description": "Username enumeration and password spraying tool aimed at Microsoft O365.",
     "url": "https://github.com/0xZDH/o365spray"
-  }
-,
+  },
   {
     "name": "obevilion",
     "version": "409.29fbe9d",
     "description": "Another archive cracker created in python, cracking [zip/7z/rar].",
-    "url": "https://github.com/BL4CKvGHOST/Ob3vil1on"
-  }
-,
+    "url": "https://github.com/iossefy/Ob3vil1on"
+  },
   {
     "name": "oclhashcat",
     "version": "2.01",
     "description": "Worlds fastest WPA cracker with dictionary mutation engine.",
-    "url": "http://hashcat.net/oclhashcat/"
-  }
-,
+    "url": "https://hashcat.net/hashcat/"
+  },
   {
     "name": "omen",
     "version": "19.10aa99e",
     "description": "Ordered Markov ENumerator - Password Guesser.",
     "url": "https://github.com/RUB-SysSec/OMEN"
-  }
-,
+  },
   {
     "name": "onesixtyone",
     "version": "0.7",
     "description": "An SNMP scanner that sends multiple SNMP requests to multiple IP addresses",
     "url": "http://labs.portcullis.co.uk/application/onesixtyone/"
-  }
-,
+  },
   {
     "name": "ophcrack",
     "version": "3.8.0",
     "description": "Windows password cracker based on rainbow tables.",
     "url": "http://ophcrack.sourceforge.net"
-  }
-,
+  },
   {
     "name": "outlook-webapp-brute",
     "version": "1.61d7177",
     "description": "Microsoft Outlook WebAPP Brute.",
     "url": "https://github.com/lijiejie/OutLook_WebAPP_Brute"
-  }
-,
+  },
   {
     "name": "owabf",
     "version": "1.3",
     "description": "Outlook Web Access bruteforcer tool.",
     "url": "http://netsec.rs/70/tools.html"
-  }
-,
+  },
   {
     "name": "pack",
     "version": "0.0.4",
     "description": "Password Analysis and Cracking Kit",
     "url": "http://thesprawl.org/projects/pack/"
-  }
-,
+  },
   {
     "name": "passcracking",
     "version": "20131214",
     "description": "A little python script for sending hashes to passcracking.com and milw0rm",
     "url": "http://github.com/jensp/passcracking"
-  }
-,
+  },
   {
     "name": "passe-partout",
     "version": "0.1",
     "description": "Tool to extract RSA and DSA private keys from any process linked with OpenSSL. The target memory is scanned to lookup specific OpenSSL patterns.",
-    "url": "http://www.hsc.fr/ressources/outils/passe-partout/index.html.en"
-  }
-,
+    "url": "https://www.hsc.fr/securite-internet/"
+  },
   {
     "name": "passgan",
     "version": "38.5927158",
     "description": "A Deep Learning Approach for Password Guessing.",
     "url": "https://github.com/D3vil0p3r/PassGAN"
-  }
-,
+  },
   {
     "name": "patator",
     "version": "235.5be299a",
     "description": "A multi-purpose bruteforcer.",
     "url": "https://github.com/lanjelot/patator"
-  }
-,
+  },
   {
     "name": "pdgmail",
     "version": "1.0",
     "description": "A password dictionary attack tool that targets windows authentication via the SMB protocol.",
-    "url": "http://www.jeffbryner.com/code/pdgmail"
-  }
-,
+    "url": "https://www.jeffbryner.com/code/pdgmail"
+  },
   {
     "name": "pemcrack",
     "version": "12.66e02b8",
     "description": "Cracks SSL PEM files that hold encrypted private keys. Brute forces or dictionary cracks.",
     "url": "https://github.com/robertdavidgraham/pemcrack"
-  }
-,
+  },
   {
     "name": "pemcracker",
     "version": "9.a741c93",
     "description": "Tool to crack encrypted PEM files.",
     "url": "https://github.com/bwall/pemcracker.git"
-  }
-,
+  },
   {
     "name": "phoss",
     "version": "0.1.13",
     "description": "Sniffer designed to find HTTP, FTP, LDAP, Telnet, IMAP4, VNC and POP3 logins.",
     "url": "http://194.150.168.69/phoss"
-  }
-,
+  },
   {
     "name": "php-mt-seed",
     "version": "4.0",
     "description": "PHP mt_rand() seed cracker.",
     "url": "http://www.openwall.com/php_mt_seed/"
-  }
-,
+  },
   {
     "name": "php-rfi-payload-decoder",
     "version": "30.bd42caa",
     "description": "Decode and analyze RFI payloads developed in PHP.",
     "url": "https://github.com/bwall/PHP-RFI-Payload-Decoder"
-  }
-,
+  },
   {
     "name": "phrasendrescher",
     "version": "1.2.2c",
     "description": "A modular and multi processing pass phrase cracking tool.",
-    "url": "http://www.leidecker.info/projects/phrasendrescher/"
-  }
-,
+    "url": "https://www.leidecker.info/projects/phrasendrescher/"
+  },
   {
     "name": "pipal",
     "version": "3.4.0.r9.g392f0aa",
     "description": "A password analyser.",
     "url": "https://github.com/digininja/pipal"
-  }
-,
+  },
   {
     "name": "pipeline",
     "version": "19.f4935c9",
     "description": "Designed to aid in targeted brute force password cracking attacks.",
-    "url": "https://github.com/hirnschallsebastian/Pipeline2"
-  }
-,
+    "url": "https://github.com/shirnschall/Pipeline"
+  },
   {
     "name": "pkcrack",
     "version": "1.2.2",
     "description": "A PkZip encryption cracker.",
     "url": "https://www.unix-ag.uni-kl.de/~conrad/krypto/pkcrack/download1.html"
-  }
-,
+  },
   {
     "name": "pwcrack",
     "version": "368.b6fba8a",
     "description": "Password hash automatic cracking framework.",
     "url": "https://github.com/L-codes/pwcrack-framework"
-  }
-,
+  },
   {
     "name": "pybozocrack",
     "version": "87.ceb0cd9",
     "description": "A silly & effective MD5 cracker in Python.",
     "url": "https://github.com/ikkebr/PyBozoCrack"
-  }
-,
+  },
   {
     "name": "pyrit",
     "version": "0.5.0",
     "description": "The famous WPA precomputed cracker.",
     "url": "https://github.com/JPaulMora/Pyrit"
-  }
-,
+  },
   {
     "name": "rainbowcrack",
     "version": "1.8",
     "description": "Password cracker based on the faster time-memory trade-off. With MySQL and Cisco PIX Algorithm patches.",
     "url": "http://project-rainbowcrack.com/"
-  }
-,
+  },
   {
     "name": "rcracki-mt",
     "version": "0.7.0",
     "description": "A tool to perform rainbow table attacks on password hashes. It is intended for indexed/perfected rainbow tables, mainly generated by the distributed project www.freerainbowtables.com",
-    "url": "http://rcracki.sourceforge.net/"
-  }
-,
+    "url": "https://rcracki.sourceforge.net/"
+  },
   {
     "name": "rdesktop-brute",
     "version": "1.5.0",
     "description": "It connects to windows terminal servers - Bruteforce patch included.",
     "url": "http://www.rdesktop.org/"
-  }
-,
+  },
   {
     "name": "rdpassspray",
     "version": "33.c1ba58e",
     "description": "Python3 tool to perform password spraying using RDP.",
     "url": "https://github.com/xFreed0m/RDPassSpray"
-  }
-,
+  },
   {
     "name": "rfcrack",
     "version": "128.db73830",
     "description": "A Software Defined Radio Attack Tool.",
     "url": "https://github.com/cclabsInc/RFCrack"
-  }
-,
+  },
   {
     "name": "ridenum",
     "version": "75.9e3b89b",
     "description": "A null session RID cycle attack for brute forcing domain controllers.",
     "url": "https://github.com/trustedsec/ridenum"
-  }
-,
+  },
   {
     "name": "rlogin-scanner",
     "version": "0.2",
     "description": "Multithreaded rlogin scanner. Tested on Linux, OpenBSD and Solaris.",
     "url": "http://wayreth.eu.org/old_page/"
-  }
-,
+  },
   {
     "name": "rootbrute",
     "version": "0.1",
     "description": "Local root account bruteforcer.",
     "url": "http://www.packetstormsecurity.org/"
-  }
-,
+  },
   {
     "name": "rpdscan",
     "version": "2.a71b0f3",
     "description": "Remmina Password Decoder and scanner.",
     "url": "https://github.com/freakyclown/RPDscan"
-  }
-,
+  },
   {
     "name": "rsakeyfind",
     "version": "1.0",
     "description": "A tool to find RSA key in RAM.",
     "url": "http://citp.princeton.edu/memory/code/"
-  }
-,
+  },
   {
     "name": "samdump2",
     "version": "3.0.0",
     "description": "Dump password hashes from a Windows NT/2k/XP installation",
-    "url": "http://sourceforge.net/projects/ophcrack/files/samdump2/"
-  }
-,
+    "url": "https://sourceforge.net/projects/ophcrack/files/samdump2/"
+  },
   {
     "name": "samydeluxe",
     "version": "2.2ed1bac",
     "description": "Automatic samdump creation script.",
-    "url": "http://github.com/jensp/samydeluxe"
-  }
-,
+    "url": "https://github.com/jensp/samydeluxe"
+  },
   {
     "name": "shreder",
     "version": "115.a108575",
     "description": "A powerful multi-threaded SSH protocol password bruteforce tool.",
     "url": "https://github.com/EntySec/Shreder"
-  }
-,
+  },
   {
     "name": "sidguesser",
     "version": "1.0.5",
     "description": "Guesses sids/instances against an Oracle database according to a predefined dictionary file.",
     "url": "http://www.cqure.net/wp/tools/database/sidguesser/"
-  }
-,
+  },
   {
     "name": "sipcrack",
     "version": "0.2",
     "description": "A SIP protocol login cracker.",
     "url": "http://www.remote-exploit.org/codes_sipcrack.html"
-  }
-,
+  },
   {
     "name": "skul",
     "version": "27.7bd83f1",
     "description": "A PoC to bruteforce the Cryptsetup implementation of Linux Unified Key Setup (LUKS).",
     "url": "https://github.com/cryptcoffee/skul"
-  }
-,
+  },
   {
     "name": "smbbf",
     "version": "0.9.1",
     "description": "SMB password bruteforcer.",
-    "url": "http://packetstormsecurity.com/files/25381/smbbf.9.1.tar.gz.html"
-  }
-,
+    "url": "http://packetstormsecurity.com/files/25381/smbbf-0.9.1.tar.gz.html"
+  },
   {
     "name": "snmp-brute",
     "version": "19.830bb0a",
     "description": "SNMP brute force, enumeration, CISCO config downloader and password cracking script.",
     "url": "https://github.com/SECFORCE/SNMP-Brute"
-  }
-,
+  },
   {
     "name": "speedpwn",
     "version": "8.3dd2793",
     "description": "An active WPA/2 Bruteforcer, original created to prove weak standard key generation in different ISP labeled routers without a client is connected.",
     "url": "https://gitorious.org/speedpwn/"
-  }
-,
+  },
   {
     "name": "spray365",
     "version": "42.58fd193",
     "description": "Makes spraying Microsoft accounts (Office 365 / Azure AD) easy through its customizable two-step password spraying approach.",
     "url": "https://github.com/MarkoH17/Spray365"
-  }
-,
+  },
   {
     "name": "spraycharles",
     "version": "227.a93a388",
     "description": "Low and slow password spraying tool, designed to spray on an interval over a long period of time.",
     "url": "https://github.com/Tw1sm/spraycharles"
-  }
-,
+  },
   {
     "name": "sqlpat",
     "version": "1.0.1",
     "description": "This tool should be used to audit the strength of Microsoft SQL Server passwords offline.",
     "url": "http://www.cqure.net/wp/sqlpat/"
-  }
-,
+  },
   {
     "name": "ssh-privkey-crack",
     "version": "0.4",
     "description": "A SSH private key cracker.",
-    "url": "https://code.google.com/p/lusas/"
-  }
-,
+    "url": "https://code.google.com/archive/p/lusas"
+  },
   {
     "name": "sshatter",
     "version": "1.2",
     "description": "Password bruteforcer for SSH.",
     "url": "http://www.nth-dimension.org.uk/downloads.php?id=34"
-  }
-,
+  },
   {
     "name": "sshprank",
     "version": "1.4.2",
     "description": "A fast SSH mass-scanner, login cracker and banner grabber tool using the python-masscan and shodan module.",
     "url": "https://nullsecurity.net/tools/cracker.html"
-  }
-,
+  },
   {
     "name": "sshscan",
     "version": "1.0",
     "description": "A horizontal SSH scanner that scans large swaths of IPv4 space for a single SSH user and pass.",
-    "url": "https://github.com/getdual/scripts-n-tools/blob/master/sshscan.py"
-  }
-,
+    "url": "https://github.com/phxbandit/scripts-and-tools/blob/master/sshscan.py"
+  },
   {
     "name": "sshtrix",
     "version": "0.0.3",
     "description": "A very fast multithreaded SSH login cracker.",
-    "url": "http://nullsecurity.net/tools/cracker.html"
-  }
-,
+    "url": "https://nullsecurity.net/tools/cracker.html"
+  },
   {
     "name": "sslnuke",
     "version": "5.c5faeaa",
     "description": "Transparent proxy that decrypts SSL traffic and prints out IRC messages.",
     "url": "https://github.com/jtripper/sslnuke"
-  }
-,
+  },
   {
     "name": "sucrack",
     "version": "1.2.3",
     "description": "A multi-threaded Linux/UNIX tool for brute-force cracking local user accounts via su.",
     "url": "http://labs.portcullis.co.uk/application/sucrack"
-  }
-,
+  },
   {
     "name": "talon",
     "version": "v3.1.r1.g8acc175",
     "description": "A password guessing tool that targets the Kerberos and LDAP services within the Windows Active Directory environment.",
     "url": "https://github.com/optiv/Talon"
-  }
-,
+  },
   {
     "name": "tftp-bruteforce",
     "version": "0.1",
     "description": "A fast TFTP filename bruteforcer written in perl.",
     "url": "http://www.hackingexposedcisco.com/"
-  }
-,
+  },
   {
     "name": "thc-keyfinder",
     "version": "1.0",
     "description": "Finds crypto keys, encrypted data and compressed data in files by analyzing the entropy of parts of the file.",
     "url": "https://www.thc.org/releases.php"
-  }
-,
+  },
   {
     "name": "thc-pptp-bruter",
     "version": "0.1.4",
     "description": "A brute force program that works against pptp vpn endpoints (tcp port 1723).",
-    "url": "http://www.thc.org"
-  }
-,
+    "url": "https://www.thc.org/"
+  },
   {
     "name": "thc-smartbrute",
     "version": "1.0",
     "description": "This tool finds undocumented and secret commands implemented in a smartcard.",
     "url": "https://www.thc.org/thc-smartbrute/"
-  }
-,
+  },
   {
     "name": "timeverter",
     "version": "83.24b715e",
     "description": "Bruteforce time-based tokens and to convert several time domains.",
     "url": "https://github.com/D3vil0p3r/timeverter"
-  }
-,
+  },
   {
     "name": "trevorspray",
     "version": "2.3.0",
     "description": "A modular password sprayer with threading, clever proxying, loot modules, and more!",
     "url": "https://github.com/blacklanternsecurity/TREVORspray"
-  }
-,
+  },
   {
     "name": "truecrack",
     "version": "35",
     "description": "Password cracking for truecrypt(c) volumes.",
-    "url": "http://code.google.com/p/truecrack/"
-  }
-,
+    "url": "https://github.com/lvaccaro/truecrack"
+  },
   {
     "name": "tweetshell",
     "version": "21.47a415c",
     "description": "Multi-thread Twitter BruteForcer in Shell Script.",
     "url": "https://github.com/thelinuxchoice/tweetshell"
-  }
-,
+  },
   {
     "name": "ufo-wardriving",
     "version": "4",
     "description": "Allows you to test the security of wireless networks by detecting their passwords based on the router model.",
     "url": "http://www.ufo-wardriving.com/"
-  }
-,
+  },
   {
     "name": "vnc-bypauth",
     "version": "0.0.1",
     "description": "Multi-threaded bypass authentication scanner for VNC smaller than v4.1.1 servers.",
     "url": "http://pentester.fr/resources/tools/techno/VNC/VNC_bypauth/"
-  }
-,
+  },
   {
     "name": "vncrack",
     "version": "1.21",
     "description": "What it looks like: crack VNC.",
     "url": "http://194.150.168.69/vncrack/"
-  }
-,
+  },
   {
     "name": "wmat",
     "version": "0.1",
     "description": "Automatic tool for testing webmail accounts.",
     "url": "http://netsec.rs/70/tools.html"
-  }
-,
+  },
   {
     "name": "wordbrutepress",
     "version": "30.5165648",
     "description": "Python script that performs brute forcing against WordPress installs using a wordlist.",
-    "url": "http://www.homelab.it/index.php/2014/11/03/wordpress-brute-force-multithreading/"
-  }
-,
+    "url": "https://www.homelab.it/index.php/2014/11/03/wordpress-brute-force-multithreading/"
+  },
   {
     "name": "wpbf",
     "version": "7.11b6ac1",
     "description": "Multithreaded WordPress brute forcer.",
     "url": "https://github.com/dejanlevaja/wpbf"
-  }
-,
+  },
   {
     "name": "wpbrute-rpc",
     "version": "3.e7d8145",
     "description": "Tool for amplified bruteforce attacks on wordpress based website via xmlrcp API.",
     "url": "https://github.com/zendoctor/wpbrute-rpc"
-  }
-,
+  },
   {
     "name": "wyd",
     "version": "0.2",
     "description": "Gets keywords from personal files. IT security/forensic tool.",
     "url": "http://www.remote-exploit.org/?page_id=418"
-  }
-,
+  },
   {
     "name": "zulu",
     "version": "0.1",
     "description": "A light weight 802.11 wireless frame generation tool to enable fast and easy debugging and probing of 802.11 networks.",
-    "url": "http://sourceforge.net/projects/zulu-wireless/"
+    "url": "https://sourceforge.net/projects/zulu-wireless/"
   }
-
 ]

@@ -3,7 +3,6 @@
     "name": "threat-dragon",
     "version": "2.2.0",
     "description": "Electron Threat Modelling and diagramming tool.",
-    "url": "https://owasp.org/www-project-threat-dragon/"
+    "url": "https://owasp.org/projects/threat-dragon"
   }
-
 ]

@@ -4,13 +4,11 @@
     "version": "1.1",
     "description": "A linux log cleaner.",
     "url": "http://www.highhacksociety.com/"
-  }
-,
+  },
   {
     "name": "secure-delete",
     "version": "1.b63d814",
     "description": "Secure file, disk, swap, memory erasure utilities.",
-    "url": "http://www.thc.org/"
+    "url": "https://www.thc.org/"
   }
-
 ]

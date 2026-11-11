@@ -4,209 +4,179 @@
     "version": "19.e08367d",
     "description": "A simple detector of BOF vulnerabilities by source-code-level check.",
     "url": "https://github.com/st9140927/BOF_Detector"
-  }
-,
+  },
   {
     "name": "brakeman",
     "version": "v7.0.2.r0.g835dc2825",
     "description": "A static analysis security vulnerability scanner for Ruby on Rails applications.",
     "url": "https://brakemanscanner.org/"
-  }
-,
+  },
   {
     "name": "cflow",
     "version": "1.7",
     "description": "A C program flow analyzer.",
     "url": "http://www.gnu.org/software/cflow/"
-  }
-,
+  },
   {
     "name": "checkov",
     "version": "3.2.397.r1.g08fd7e7c8",
     "description": "Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages.",
     "url": "https://github.com/bridgecrewio/checkov"
-  }
-,
+  },
   {
     "name": "cpptest",
     "version": "2.0.0",
     "description": "A portable and powerful, yet simple, unit testing framework for handling automated tests in C++.",
     "url": "https://github.com/cpptest/cpptest/releases"
-  }
-,
+  },
   {
     "name": "dependency-check",
     "version": "10.0.2",
     "description": "A tool that attempts to detect publicly disclosed vulnerabilities contained within a project's dependencies.",
     "url": "https://github.com/jeremylong/DependencyCheck/releases/"
-  }
-,
+  },
   {
     "name": "detect-secrets",
     "version": "v1.5.0.r49.g50119d6",
     "description": "An enterprise friendly way of detecting and preventing secrets in code.",
     "url": "https://github.com/Yelp/detect-secrets"
-  }
-,
+  },
   {
     "name": "devaudit",
     "version": "803.ca0a68e",
     "description": "An open-source, cross-platform, multi-purpose security auditing tool targeted at developers and teams.",
     "url": "https://github.com/sonatype-nexus-community/DevAudit"
-  }
-,
+  },
   {
     "name": "githound",
     "version": "v1.7.1.r15.g1d20536",
     "description": "Find secret information in git repositories.",
     "url": "https://github.com/tillson/git-hound"
-  }
-,
+  },
   {
     "name": "graudit",
     "version": "643.f7962eb",
     "description": "Grep rough source code auditing tool.",
     "url": "https://github.com/wireghoul/graudit"
-  }
-,
+  },
   {
     "name": "horusec",
     "version": "v2.9.0.beta.2.r1.g873d4104",
     "description": "Static code analysis to identify security flaws for many languages.",
     "url": "https://github.com/ZupIT/horusec"
-  }
-,
+  },
   {
     "name": "local-php-security-checker",
     "version": "v2.1.3.r1.g1d1fdac",
     "description": "A command line tool that checks your PHP application packages with known security vulnerabilities.",
     "url": "https://github.com/fabpot/local-php-security-checker"
-  }
-,
+  },
   {
     "name": "mosca",
     "version": "130.a7e725d",
     "description": "Static analysis tool to find bugs like a grep unix command.",
     "url": "https://github.com/CoolerVoid/Mosca"
-  }
-,
+  },
   {
     "name": "njsscan",
     "version": "0.3.1",
     "description": "A static application testing (SAST) tool that can find insecure code patterns in your node.js applications.",
     "url": "https://pypi.org/project/njsscan/#files"
-  }
-,
+  },
   {
     "name": "phpstan",
     "version": "12314.adc504d1f",
     "description": "PHP Static Analysis Tool - discover bugs in your code without running it.",
     "url": "https://github.com/phpstan/phpstan"
-  }
-,
+  },
   {
     "name": "pscan",
     "version": "1.3",
     "description": "A limited problem scanner for C source files",
-    "url": "http://deployingradius.com/pscan/"
-  }
-,
+    "url": "https://deployingradius.com/pscan/"
+  },
   {
     "name": "rats",
     "version": "6.4ba54ce",
     "description": "A rough auditing tool for security in source code files.",
     "url": "https://github.com/andrew-d/rough-auditing-tool-for-security"
-  }
-,
+  },
   {
     "name": "semgrep",
     "version": "1.110.0",
     "description": "Lightweight static analysis for many languages.",
     "url": "https://pypi.org/project/semgrep/"
-  }
-,
+  },
   {
     "name": "slither",
     "version": "4773.7f54c8b94",
     "description": "Solidity static analysis framework written in Python 3.",
     "url": "https://github.com/crytic/slither"
-  }
-,
+  },
   {
     "name": "snyk",
     "version": "1.1283.0",
     "description": "CLI and build-time tool to find and fix known vulnerabilities in open-source dependencies.",
     "url": "https://github.com/snyk/cli"
-  }
-,
+  },
   {
     "name": "sonar-scanner",
     "version": "6.2.1.4610",
     "description": "Generic CLI tool to launch project analysis on SonarQube servers.",
     "url": "https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/"
-  }
-,
+  },
   {
     "name": "spotbugs",
     "version": "17697.d20b3b39f",
     "description": "A tool for static analysis to look for bugs in Java code.",
     "url": "https://github.com/spotbugs/spotbugs"
-  }
-,
+  },
   {
     "name": "stoq",
     "version": "769.8bfc78b",
     "description": "An open source framework for enterprise level automated analysis.",
     "url": "https://github.com/PUNCH-Cyber/stoq"
-  }
-,
+  },
   {
     "name": "tell-me-your-secrets",
     "version": "v2.4.2.r3.g5434b9d",
     "description": "Find secrets on any machine from over 120 Different Signatures.",
     "url": "https://github.com/valayDave/tell-me-your-secrets"
-  }
-,
+  },
   {
     "name": "trufflehog",
     "version": "v3.88.23.r2.g824eca7f8",
     "description": "Searches through git repositories for high entropy strings, digging deep into commit history.",
-    "url": "https://github.com/dxa4481/truffleHog"
-  }
-,
+    "url": "https://github.com/trufflesecurity/trufflehog"
+  },
   {
     "name": "whispers",
     "version": "2.4.0.r0.g24ee0f0",
     "description": "Identify hardcoded secrets in static structured text.",
     "url": "https://github.com/adeptex/whispers/"
-  }
-,
+  },
   {
     "name": "wpbullet",
     "version": "34.6185112",
     "description": "A static code analysis for WordPress (and PHP).",
     "url": "https://github.com/webarx-security/wpbullet"
-  }
-,
+  },
   {
     "name": "wscript",
     "version": "201.0410be2",
     "description": "Emulator/tracer of the Windows Script Host functionality.",
     "url": "https://github.com/mrpapercut/wscript"
-  }
-,
+  },
   {
     "name": "yasca",
     "version": "2.1",
     "description": "Multi-Language Static Analysis Toolset.",
     "url": "http://www.scovetta.com/yasca.html"
-  }
-,
+  },
   {
     "name": "zarn",
     "version": "0.0.9.r76.ge8c757a",
     "description": "A lightweight static security analysis tool for modern Perl Apps.",
     "url": "https://github.com/htrgouvea/zarn"
   }
-
 ]

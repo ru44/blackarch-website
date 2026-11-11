@@ -3,553 +3,474 @@
     "name": "aespipe",
     "version": "2.4f",
     "description": "Reads data from stdin and outputs encrypted or decrypted results to stdout.",
-    "url": "http://loop-aes.sourceforge.net/aespipe/"
-  }
-,
+    "url": "https://loop-aes.sourceforge.net/aespipe/"
+  },
   {
     "name": "auto-xor-decryptor",
     "version": "7.2eb176d",
     "description": "Automatic XOR decryptor tool.",
     "url": "https://github.com/MRGEffitas/scripts"
-  }
-,
+  },
   {
     "name": "bletchley",
     "version": "0.0.1",
     "description": "A collection of practical application cryptanalysis tools.",
-    "url": "https://code.google.com/p/bletchley/"
-  }
-,
+    "url": "https://code.blindspotsecurity.com/trac/bletchley"
+  },
   {
     "name": "c7decrypt",
     "version": "0.3.3",
     "description": "Cisco password type encryptor and decryptor.",
     "url": "https://github.com/claudijd/c7decrypt"
-  }
-,
+  },
   {
     "name": "ciphertest",
     "version": "22.e33eb4a",
     "description": "A better SSL cipher checker using gnutls.",
     "url": "https://github.com/OpenSecurityResearch/ciphertest"
-  }
-,
+  },
   {
     "name": "ciphr",
     "version": "127.5da7137",
     "description": "A CLI tool for encoding, decoding, encryption, decryption, and hashing streams of data.",
     "url": "https://github.com/frohoff/ciphr"
-  }
-,
+  },
   {
     "name": "codetective",
     "version": "45.52b91f1",
     "description": "A tool to determine the crypto/encoding algorithm used according to traces of its representation.",
     "url": "https://www.digitalloft.org/init/plugin_wiki/page/codetective"
-  }
-,
+  },
   {
     "name": "cribdrag",
     "version": "5.2d27dbf",
     "description": "An interactive crib dragging tool for cryptanalysis on ciphertext generated with reused or predictable stream cipher keys.",
     "url": "https://github.com/SpiderLabs/cribdrag"
-  }
-,
+  },
   {
     "name": "crypthook",
     "version": "18.690dcae",
     "description": "TCP/UDP symmetric encryption tunnel wrapper.",
     "url": "https://github.com/chokepoint/CryptHook"
-  }
-,
+  },
   {
     "name": "cryptonark",
     "version": "0.5.7",
     "description": "SSL security checker.",
     "url": "http://blog.techstacks.com/cryptonark.html"
-  }
-,
+  },
   {
     "name": "dagon",
     "version": "244.f065d7b",
     "description": "Advanced Hash Manipulation.",
     "url": "https://github.com/Ekultek/Dagon"
-  }
-,
+  },
   {
     "name": "daredevil",
     "version": "42.81cb57f",
     "description": "A tool to perform (higher-order) correlation power analysis attacks (CPA).",
     "url": "https://github.com/SideChannelMarvels/Daredevil"
-  }
-,
+  },
   {
     "name": "decodify",
     "version": "50.76a0801",
     "description": "Tool that can detect and decode encoded strings, recursively.",
-    "url": "https://github.com/UltimateHackers/Decodify"
-  }
-,
+    "url": "https://github.com/s0md3v/Decodify"
+  },
   {
     "name": "deen",
     "version": "601.fd9aebe",
     "description": "Generic data encoding/decoding application built with PyQt5.",
     "url": "https://github.com/takeshixx/deen"
-  }
-,
+  },
   {
     "name": "demiguise",
     "version": "11.58d5681",
     "description": "HTA encryption tool for RedTeams.",
     "url": "https://github.com/nccgroup/demiguise"
-  }
-,
+  },
   {
     "name": "dislocker",
     "version": "v0.7.3.r42.g3e7aea1",
     "description": "Read BitLocker encrypted volumes under Linux.",
     "url": "https://github.com/Aorimn/dislocker"
-  }
-,
+  },
   {
     "name": "factordb-pycli",
     "version": "1.3.0",
     "description": "CLI for factordb and Python API Client.",
-    "url": "https://github.com/ryosan/factordb-pycli"
-  }
-,
+    "url": "https://github.com/ryosan-470/factordb-python"
+  },
   {
     "name": "featherduster",
     "version": "191.9229158",
     "description": "An automated, modular cryptanalysis tool.",
     "url": "https://github.com/nccgroup/featherduster"
-  }
-,
+  },
   {
     "name": "findmyhash",
     "version": "1.1.2",
     "description": "Crack different types of hashes using free online services.",
     "url": "https://code.google.com/archive/p/findmyhash/"
-  }
-,
+  },
   {
     "name": "foresight",
     "version": "57.6f48984",
     "description": "A tool for predicting the output of random number generators.",
     "url": "https://github.com/ALSchwalm/foresight"
-  }
-,
+  },
   {
     "name": "gcrypt",
     "version": "32.d3f9f06",
     "description": "Simple, secure and performance file encryption tool written in C",
     "url": "https://gitlab.com/GasparVardanyan/gcrypt"
-  }
-,
+  },
   {
     "name": "gnutls2",
     "version": "2.12.23",
     "description": "A library which provides a secure layer over a reliable transport layer (Version 2)",
     "url": "http://gnutls.org/"
-  }
-,
+  },
   {
     "name": "gpp-decrypt",
     "version": "14.c71c7a6",
     "description": "Parse the Group Policy Preferences XML file which extracts the username and decrypts the cpassword attribute.",
     "url": "https://github.com/t0thkr1s/gpp-decrypt"
-  }
-,
+  },
   {
     "name": "haiti",
     "version": "v3.0.0.r1.g3b89e38",
     "description": "Hash type identifier (CLI & lib).",
     "url": "https://noraj.github.io/haiti/"
-  }
-,
+  },
   {
     "name": "hash-buster",
     "version": "50.befb02a",
     "description": "A python script which scraps online hash crackers to find cleartext of a hash.",
-    "url": "https://github.com/UltimateHackers/Hash-Buster/"
-  }
-,
+    "url": "https://github.com/s0md3v/Hash-Buster"
+  },
   {
     "name": "hash-extender",
     "version": "161.f00b1a0",
     "description": "A hash length extension attack tool.",
     "url": "https://github.com/iagox86/hash_extender"
-  }
-,
+  },
   {
     "name": "hash-identifier",
     "version": "6.0e08a97",
     "description": "Software to identify the different types of hashes used to encrypt data and especially passwords.",
     "url": "https://github.com/blackploit/hash-identifier"
-  }
-,
+  },
   {
     "name": "hashcheck",
     "version": "2.72b0c6e",
     "description": "Search for leaked passwords while maintaining a high level of privacy using the k-anonymity method.",
     "url": "https://github.com/Telefonica/HashCheck"
-  }
-,
+  },
   {
     "name": "hashdb",
     "version": "1089.1da1b9f",
     "description": "A block hash toolkit.",
     "url": "https://github.com/NPS-DEEP/hashdb/"
-  }
-,
+  },
   {
     "name": "hashdeep",
     "version": "4.4",
     "description": "Cross-platform tools to message digests for any number of files.",
     "url": "https://github.com/jessek/hashdeep"
-  }
-,
+  },
   {
     "name": "hashfind",
     "version": "8.e9a9a14",
     "description": "A tool to search files for matching password hash types and other interesting data.",
-    "url": "https://github.com/rurapenthe/hashfind"
-  }
-,
+    "url": "https://github.com/bitcrackcyber/hashfind"
+  },
   {
     "name": "hashid",
     "version": "397.7e8473a",
     "description": "Software to identify the different types of hashes used to encrypt data.",
     "url": "https://github.com/psypanda/hashID"
-  }
-,
+  },
   {
     "name": "hashpump",
     "version": "49.314268e",
     "description": "A tool to exploit the hash length extension attack in various hashing algorithms.",
     "url": "https://github.com/bwall/HashPump"
-  }
-,
+  },
   {
     "name": "hashrat",
     "version": "1.15",
     "description": "Hashing tool supporting MD5, SHA1, SHA256, SHA512, Whirlpool, JH and their HMAC.",
     "url": "https://github.com/ColumPaget/Hashrat"
-  }
-,
+  },
   {
     "name": "hdcp-genkey",
     "version": "18.e8d342d",
     "description": "Generate HDCP source and sink keys from the leaked master key.",
     "url": "https://github.com/rjw57/hdcp-genkey"
-  }
-,
+  },
   {
     "name": "hlextend",
     "version": "17.be21920",
     "description": "Pure Python hash length extension module.",
     "url": "https://github.com/stephenbradshaw/hlextend"
-  }
-,
+  },
   {
     "name": "ja3",
     "version": "117.cb29184",
     "description": "Standard for creating SSL client fingerprints in an easy to produce and shareable way.",
     "url": "https://github.com/salesforce/ja3"
-  }
-,
+  },
   {
     "name": "jwt-key-recovery",
     "version": "11.094df95",
     "description": "Recovers the public key used to sign JWT tokens.",
     "url": "https://github.com/FlorianPicca/JWT-Key-Recovery"
-  }
-,
+  },
   {
     "name": "kh2hc",
     "version": "0.0.1.r60.gc9377e2",
     "description": "Convert OpenSSH known_hosts file hashed with HashKnownHosts to hashes crackable by Hashcat.",
     "url": "https://github.com/noraj/kh2hc"
-  }
-,
+  },
   {
     "name": "kraken",
     "version": "32.368a837",
     "description": "A project to encrypt A5/1 GSM signaling using a Time/Memory Tradeoff Attack.",
     "url": "http://opensource.srlabs.de/projects/a51-decrypt"
-  }
-,
+  },
   {
     "name": "libbde",
     "version": "338.3628220",
     "description": "A library to access the BitLocker Drive Encryption (BDE) format.",
     "url": "https://github.com/libyal/libbde"
-  }
-,
+  },
   {
     "name": "luksipc",
     "version": "0.01",
     "description": "A tool to convert unencrypted block devices to encrypted LUKS devices in-place.",
-    "url": "http://www.johannes-bauer.com/linux/luksipc"
-  }
-,
+    "url": "https://www.johannes-bauer.com/linux/luksipc/"
+  },
   {
     "name": "morxkeyfmt",
     "version": "1.0",
     "description": "Read a private key from stdin and output formatted data values.",
     "url": "http://www.morxploit.com/tools/"
-  }
-,
+  },
   {
     "name": "nomorexor",
     "version": "2.84489f9",
     "description": "Tool to help guess a files 256 byte XOR key by using frequency analysis.",
     "url": "https://github.com/hiddenillusion/NoMoreXOR"
-  }
-,
+  },
   {
     "name": "ntlmv1-multi",
     "version": "88.6ceeef2",
     "description": "NTLMv1 Multitool.",
     "url": "https://github.com/evilmog/ntlmv1-multi"
-  }
-,
+  },
   {
     "name": "omnihash",
     "version": "70.870e9ae",
     "description": "Hash files, strings, input streams and network resources in various common algorithms simultaneously.",
     "url": "https://github.com/Miserlou/omnihash"
-  }
-,
+  },
   {
     "name": "openstego",
     "version": "0.8.6",
     "description": "A tool implemented in Java for generic steganography, with support for password-based encryption of the data.",
     "url": "https://github.com/syvaidya/openstego/releases"
-  }
-,
+  },
   {
     "name": "outguess",
     "version": "0.4",
     "description": "A universal steganographic tool.",
     "url": "https://github.com/resurrecting-open-source-projects/outguess"
-  }
-,
+  },
   {
     "name": "pacumen",
     "version": "1.92a0884",
     "description": "Packet Acumen - Analyse encrypted network traffic and more (side-channel attacks).",
     "url": "https://github.com/bniemczyk/pacumen"
-  }
-,
+  },
   {
     "name": "padbuster",
     "version": "11.50e4a3e",
     "description": "Automated script for performing Padding Oracle attacks.",
     "url": "http://www.gdssecurity.com/l/t.php"
-  }
-,
+  },
   {
     "name": "padoracle",
     "version": "v0.1.1.r26.g2aa6c99",
     "description": "Padding Oracle Attack with Node.js.",
     "url": "https://github.com/imyelo/padoracle"
-  }
-,
+  },
   {
     "name": "padre",
     "version": "v2.2.0.r10.g18618f5",
     "description": "Padding Oracle attack tool.",
     "url": "https://github.com/glebarez/padre"
-  }
-,
+  },
   {
     "name": "pax-oracle",
     "version": "v0.2.2.r1.g38ac0d8",
     "description": "CLI tool for PKCS7 padding oracle attacks.",
     "url": "https://github.com/liamg/pax"
-  }
-,
+  },
   {
     "name": "pip3line",
     "version": "92.5e27195",
     "description": "The Swiss army knife of byte manipulation.",
     "url": "https://github.com/nccgroup/pip3line"
-  }
-,
+  },
   {
     "name": "poracle",
     "version": "68.dcc00b0",
     "description": "A tool for demonstrating padding oracle attacks.",
     "url": "https://github.com/iagox86/poracle"
-  }
-,
+  },
   {
     "name": "posttester",
     "version": "0.1",
     "description": "A jar file that will send POST requests to servers in order to test for the hash collision vulnerability discussed at the Chaos Communication Congress in Berlin.",
     "url": "http://packetstormsecurity.com/files/109010/MagicHash-Collision-Testing-Tool.html"
-  }
-,
+  },
   {
     "name": "pwd-hash",
     "version": "2.0",
     "description": "A password hashing tool that use the crypt function to generate the hash of a string given on standard input.",
     "url": "http://vladz.devzero.fr/pwd-hash.php"
-  }
-,
+  },
   {
     "name": "pwdlyser",
     "version": "136.483b9bc",
     "description": "Python-based CLI Password Analyser (Reporting Tool).",
     "url": "https://github.com/ins1gn1a/pwdlyser"
-  }
-,
+  },
   {
     "name": "rsactftool",
     "version": "1154.dc739f2",
     "description": "RSA tool for ctf - retrieve private key from weak public key and/or uncipher data.",
-    "url": "https://github.com/Ganapati/RsaCtfTool"
-  }
-,
+    "url": "https://github.com/RsaCtfTool/RsaCtfTool"
+  },
   {
     "name": "rsatool",
     "version": "33.c7ef31d",
     "description": "Tool that can be used to calculate RSA and RSA-CRT parameters.",
     "url": "https://github.com/ius/rsatool"
-  }
-,
+  },
   {
     "name": "rshack",
     "version": "64.cf197e3",
     "description": "Python tool which allows to carry out some attacks on RSA, and offer a few tools to manipulate RSA keys.",
     "url": "https://github.com/zweisamkeit/RSHack"
-  }
-,
+  },
   {
     "name": "rupture",
     "version": "1383.131c61a",
     "description": "A framework for BREACH and other compression-based crypto attacks.",
     "url": "https://github.com/decrypto-org/rupture"
-  }
-,
+  },
   {
     "name": "rustpad",
     "version": "v1.8.1.r1.g11ce343",
     "description": "Multi-threaded Padding Oracle attacks against any service.",
     "url": "https://github.com/Kibouo/rustpad"
-  }
-,
+  },
   {
     "name": "sbd",
     "version": "1.36",
     "description": "Netcat-clone, portable, offers strong encryption - features AES-CBC + HMAC-SHA1 encryption, program execution (-e), choosing source port, continuous reconnection with delay + more",
     "url": "http://www2.packetstormsecurity.org/cgi-bin/search/search.cgi?searchvalue=sbd"
-  }
-,
+  },
   {
     "name": "sha1collisiondetection",
     "version": "105.b4a7b0b",
     "description": "Library and command line tool to detect SHA collision in a file",
     "url": "https://github.com/cr-marcstevens/sha1collisiondetection"
-  }
-,
+  },
   {
     "name": "snow",
     "version": "20130616",
     "description": "Steganography program for concealing messages in text files.",
-    "url": "http://darkside.com.au/snow/index.html"
-  }
-,
+    "url": "https://darkside.com.au/snow/index.html"
+  },
   {
     "name": "sslyze",
     "version": "6.1.0",
     "description": "Python tool for analyzing the configuration of SSL servers and for identifying misconfigurations.",
     "url": "https://github.com/nabla-c0d3/sslyze"
-  }
-,
+  },
   {
     "name": "tls-attacker",
     "version": "6731.9dfb02e7b",
     "description": "A Java-based framework for analyzing TLS libraries.",
-    "url": "https://github.com/RUB-NDS/TLS-Attacker"
-  }
-,
+    "url": "https://github.com/tls-attacker/TLS-Attacker"
+  },
   {
     "name": "tls-map",
     "version": "v3.1.0.r14.g12e3f4d",
     "description": "CLI & library for TLS cipher suites manipulation.",
     "url": "https://noraj.github.io/tls-map/"
-  }
-,
+  },
   {
     "name": "tlsenum",
     "version": "78.787c88b",
     "description": "A command line tool to enumerate TLS cipher-suites supported by a server.",
     "url": "https://github.com/Ayrx/tlsenum"
-  }
-,
+  },
   {
     "name": "tlsfuzzer",
     "version": "1892.35eae9f",
     "description": "SSL and TLS protocol test suite and fuzzer.",
-    "url": "https://github.com/tomato42/tlsfuzzer"
-  }
-,
+    "url": "https://github.com/tlsfuzzer/tlsfuzzer"
+  },
   {
     "name": "tlshelpers",
     "version": "25.f1263ce",
     "description": "A collection of shell scripts that help handling X.509 certificate and TLS issues.",
     "url": "https://github.com/hannob/tlshelpers"
-  }
-,
+  },
   {
     "name": "tlspretense",
     "version": "v0.6.2.r22.g0a5faf4",
     "description": "SSL/TLS client testing framework.",
     "url": "https://github.com/iSECPartners/tlspretense"
-  }
-,
+  },
   {
     "name": "untwister",
     "version": "119.a42b8f8",
     "description": "Seed recovery tool for PRNGs.",
     "url": "https://github.com/altf4/untwister"
-  }
-,
+  },
   {
     "name": "x-rsa",
     "version": "166.291d4c7",
     "description": "Contains a many of attack types in RSA such as Hasted, Common Modulus, Chinese Remainder Theorem.",
     "url": "https://github.com/X-Vector/X-RSA"
-  }
-,
+  },
   {
     "name": "xorbruteforcer",
     "version": "0.1",
     "description": "Script that implements a XOR bruteforcing of a given file, although a specific key can be used too.",
     "url": "http://eternal-todo.com/category/bruteforce"
-  }
-,
+  },
   {
     "name": "xorsearch",
     "version": "1.11.4",
     "description": "Program to search for a given string in an XOR, ROL or ROT encoded binary file.",
-    "url": "http://blog.didierstevens.com/programs/xorsearch/"
-  }
-,
+    "url": "https://blog.didierstevens.com/programs/xorsearch/"
+  },
   {
     "name": "zipexec",
     "version": "19.f8d661f",
     "description": "A unique technique to execute binaries from a password protected zip.",
     "url": "https://github.com/Tylous/ZipExec"
-  }
-,
+  },
   {
     "name": "zulucrypt",
     "version": "7.0.0",
     "description": "Front end to cryptsetup and tcplay and it allows easy management of encrypted block devices.",
-    "url": "https://mhogomchungu.github.io/$_pkgname"
+    "url": "https://github.com/mhogomchungu/zuluCrypt"
   }
-
 ]

@@ -4,125 +4,107 @@
     "version": "0.1",
     "description": "ADM DNS spoofing tools - Uses a variety of active and passive methods to spoof DNS packets. Very powerful.",
     "url": "http://packetstormsecurity.com/files/10080/ADMid-pkg.tgz.html"
-  }
-,
+  },
   {
     "name": "aranea",
     "version": "6.469b9ee",
     "description": "A fast and clean dns spoofing tool.",
     "url": "https://github.com/TigerSecurity"
-  }
-,
+  },
   {
     "name": "cisco-snmp-slap",
     "version": "5.daf0589",
     "description": "IP address spoofing tool in order to bypass an ACL protecting an SNMP service on Cisco IOS devices.",
     "url": "https://github.com/nccgroup/cisco-snmp-slap"
-  }
-,
+  },
   {
     "name": "dns-spoof",
     "version": "13.81ba29f",
     "description": "Yet another DNS spoof utility.",
     "url": "https://github.com/maurotfilho/dns-spoof"
-  }
-,
+  },
   {
     "name": "evil-ssdp",
     "version": "96.0d41a11",
     "description": "Spoof SSDP replies to phish for NetNTLM challenge/response on a network.",
     "url": "https://gitlab.com/initstring/evil-ssdp"
-  }
-,
+  },
   {
     "name": "fakenetbios",
     "version": "7.b83701e",
     "description": "A family of tools designed to simulate Windows hosts (NetBIOS) on a LAN.",
     "url": "https://github.com/mubix/FakeNetBIOS"
-  }
-,
+  },
   {
     "name": "lans",
     "version": "148.9f8ef2d",
     "description": "A Multithreaded asynchronous packet parsing/injecting arp spoofer.",
     "url": "https://github.com/DanMcInerney/LANs.py"
-  }
-,
+  },
   {
     "name": "lsrtunnel",
     "version": "0.2",
     "description": "Spoofs connections using source routed packets.",
     "url": "http://www.synacklabs.net/projects/lsrtunnel/"
-  }
-,
+  },
   {
     "name": "mailsend-go",
     "version": "118.902fe39",
     "description": "A multi-platform command line tool to send mail via SMTP protocol.",
     "url": "https://github.com/muquit/mailsend-go"
-  }
-,
+  },
   {
     "name": "motsa-dns-spoofing",
     "version": "2.6ac6980",
     "description": "ManOnTheSideAttack-DNS Spoofing.",
     "url": "https://github.com/waytoalpit/ManOnTheSideAttack-DNS-Spoofing"
-  }
-,
+  },
   {
     "name": "multimac",
     "version": "1.0.3",
     "description": "Multiple MACs on an adapter",
-    "url": "http://sourceforge.net/projects/multimac/"
-  }
-,
+    "url": "https://sourceforge.net/projects/multimac/"
+  },
   {
     "name": "nbnspoof",
     "version": "1.0",
     "description": "NetBIOS Name Service Spoofer.",
     "url": "http://www.mcgrewsecurity.com/tools/nbnspoof/"
-  }
-,
+  },
   {
     "name": "netcommander",
     "version": "1.3",
     "description": "An easy-to-use arp spoofing tool.",
     "url": "https://github.com/evilsocket/netcommander"
-  }
-,
+  },
   {
     "name": "rbndr",
     "version": "9.a189ffd",
     "description": "Simple DNS Rebinding Service.",
     "url": "https://github.com/taviso/rbndr"
-  }
-,
+  },
   {
     "name": "smikims-arpspoof",
     "version": "25.244d9ee",
     "description": "Performs an ARP spoofing attack using the Linux kernel's raw sockets.",
     "url": "https://github.com/smikims/arpspoof"
-  }
-,
+  },
   {
     "name": "spoofy",
     "version": "v1.0.2.r7.g0a72500",
     "description": "Check if a list of domains can be spoofed based on SPF and DMARC records.",
     "url": "https://github.com/MattKeeley/Spoofy"
-  }
-,
+  },
   {
     "name": "sylkie",
     "version": "0.0.4.r3.g1cf170f",
     "description": "IPv6 address spoofing with the Neighbor Discovery Protocol.",
     "url": "https://github.com/dlrobertson/sylkie"
-  }
-,
+  },
   {
     "name": "synner",
     "version": "1.1",
     "description": "A custom eth->ip->tcp packet generator (spoofer) for testing firewalls and dos attacks.",
     "url": "http://packetstormsecurity.com/files/69802/synner.c.html"
   }
-
 ]
