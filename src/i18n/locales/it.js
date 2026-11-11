@@ -2,19 +2,19 @@ export default {
   home: {
     copy: "copia", copied: "copiato", copyLabel: "Copia il comando", quick: "Comando di installazione rapida",
     stats: [
-      { n: "2800+", l: "strumenti pacchettizzati" },
-      { n: "x86_64", l: "+ ARM tramite Arch ARM" },
-      { n: "Rolling", l: "rilasci via pacman" },
+      { n: "2800+", l: "strumenti nel repository" },
+      { n: "x86_64", l: "e ARM con Arch Linux ARM" },
+      { n: "Rolling", l: "aggiornamenti continui con pacman" },
       { n: "2013", l: "primo rilascio" },
     ],
     features: [
-      { t: "Arch al centro", d: "Rolling release, pacman, compatibile con AUR. Nessun fork, nessuna versione congelata." },
-      { t: "Ogni strumento, un comando", d: "Oltre 2800 strumenti, ognuno a un pacman -S di distanza. Sfoglia l'elenco degli strumenti." },
-      { t: "Installa per categoria", d: "Installa l'intero gruppo blackarch o una parte, come blackarch-webapp." },
-      { t: "Funziona sul tuo Arch", d: "Aggiungi il repository a un'installazione esistente con strap.sh. Nessuna reinstallazione." },
+      { t: "Basato su Arch", d: "Rilascio continuo, pacman e compatibilità con l'AUR. Nessun fork, nessuna versione congelata." },
+      { t: "Ogni strumento con un solo comando", d: "Oltre 2800 strumenti, ognuno a portata di pacman -S. Consulta l'elenco completo." },
+      { t: "Installazione per categoria", d: "Installa l'intero gruppo blackarch oppure solo una categoria, come blackarch-webapp." },
+      { t: "Funziona sul tuo Arch", d: "Aggiungi il repository a un'installazione esistente con strap.sh, senza reinstallare nulla." },
     ],
   },
-  shots: { title: "Guardalo in azione", full: "ISO Full", slim: "ISO Slim", aria: "Screenshot di BlackArch" },
+  shots: { title: "BlackArch in azione", full: "ISO Full", slim: "ISO Slim", aria: "Screenshot di BlackArch" },
   iso: {
     version: "Versione", size: "Dimensione", download: "Scarica", torrent: "Torrent", copy: "copia", copied: "copiato",
     tags: ["Consigliata", "Minimale", "Offline", "Macchina virtuale"],
@@ -46,7 +46,7 @@ export default {
       { t: "Sviluppo futuro", d: "Finanzia nuovi strumenti e le prossime release." },
     ],
     ways: [
-      { t: "Metti una stella", d: "Una stella su GitHub fa la differenza.", a: "Apri GitHub" },
+      { t: "Assegna una stella", d: "Una stella al repository su GitHub fa una grande differenza.", a: "Apri GitHub" },
       { t: "Aiuta gli utenti", d: "Rispondi alle domande nel canale Matrix.", a: "Entra su Matrix" },
       { t: "Traduci", d: "Traduci la guida dai sorgenti LaTeX.", a: "Ottieni i sorgenti" },
       { t: "Sponsor aziendale", d: "Le organizzazioni possono diventare sponsor ufficiali.", a: "Scrivi al team" },
