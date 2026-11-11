@@ -89,6 +89,15 @@
     "avatar": "team/s7x.jpg"
   },
   {
+    "name": "Antonio Voza",
+    "nickname": "D3vil0p3r",
+    "email": "d3vil0p3r@blackarch.org",
+    "gpg_key": "0xA3F78B994C2171D5",
+    "role": "Developer",
+    "github": "D3vil0p3r",
+    "avatar": "team/d3vil0p3r.jpg"
+  },
+  {
     "name": "Erik",
     "nickname": "deep_m4gic",
     "email": "deep_m4gic@blackarch.org",
