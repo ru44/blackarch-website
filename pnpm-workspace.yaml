@@ -3,3 +3,12 @@ allowBuilds:
 onlyBuiltDependencies:
   - esbuild
   - vue-demi
+
+# Security fixes for packages that VitePress pulls in. Remove an entry once
+# VitePress itself depends on a patched version.
+overrides:
+  # VitePress 1.x asks for Vite 5, which no longer receives security fixes.
+  vite: ^6.4.4
+  rollup: ^4.59.0
+  preact: ^10.26.10
+  mdast-util-to-hast: ^13.2.1
