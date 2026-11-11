@@ -1,10 +1,11 @@
 ---
+pageClass: wide
 outline: false
 title: Tools
 ---
 
 <script setup>
-import ToolsList from './components/ToolsList.vue'
+import ToolsList from '@/components/ToolsList.vue'
 </script>
 
 # Hacking Tools List
