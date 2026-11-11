@@ -1,7 +1,8 @@
 name: refresh-data
 
-# Every week, refreshes the data the site is built from (mirrors, tool
-# versions, build dates, stars, links) and opens a pull request with the result.
+# Every week, refreshes the data kept in the repository (tools list, mirrors,
+# wiki pages, stars, links) and opens a pull request with the result. The live
+# site does not wait for this: main-ci syncs the tools list on every deploy.
 on:
   schedule:
     - cron: "0 3 * * 1" # Mondays, 03:00 UTC
@@ -41,10 +42,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }} # read-only use: star counts
         run: |
+          pnpm sync:tools
           pnpm sync:mirrors
           pnpm sync:wiki
-          pnpm sync:versions
-          pnpm sync:updates
           pnpm sync:stars
           pnpm sync:links
           pnpm format
