@@ -1,4 +1,5 @@
 ---
+description: Download the BlackArch Linux Slim and NetInstall ISO images, verify their checksums, find a mirror, or add the BlackArch repository to an existing Arch Linux install.
 pageClass: wide
 outline: false
 title: Downloads

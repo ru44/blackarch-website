@@ -1,4 +1,5 @@
 ---
+description: Support BlackArch Linux with a donation through PayPal or Bitcoin, or help in other ways.
 pageClass: wide
 outline: deep
 title: Donate

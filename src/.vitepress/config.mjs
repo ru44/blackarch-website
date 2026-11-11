@@ -3,6 +3,10 @@ import { defineConfig } from "vitepress";
 import { matrixIcon } from "./icons.mjs";
 
 const REPO_URL = "https://github.com/ru44/blackarch-website";
+const SITE_URL = "https://ru44.github.io/blackarch-website/";
+const SITE_TITLE = "BlackArch Linux";
+const SITE_DESCRIPTION =
+  "BlackArch Linux is a penetration testing distribution for penetration testers and security researchers.";
 const EDIT_PATTERN = `${REPO_URL}/edit/main/src/content/:path`;
 
 // Language names, nav labels and UI strings for every translated locale.
@@ -67,13 +71,44 @@ export default defineConfig({
   // root, every other language under its own prefix (/it/, /ar/, ...).
   srcDir: "content",
   rewrites: { "en/:page*": ":page*" },
-  title: "BlackArch Linux",
-  description:
-    "BlackArch Linux is a penetration testing distribution for penetration testers and security researchers.",
-  head: [["link", { rel: "icon", type: "image/x-icon", href: "/blackarch-website/favicon.ico" }]],
+  title: SITE_TITLE,
+  description: SITE_DESCRIPTION,
+  head: [
+    ["link", { rel: "icon", type: "image/x-icon", href: "/blackarch-website/favicon.ico" }],
+    ["meta", { property: "og:type", content: "website" }],
+    ["meta", { property: "og:site_name", content: SITE_TITLE }],
+    ["meta", { property: "og:image", content: `${SITE_URL}og.jpg` }],
+    ["meta", { name: "twitter:card", content: "summary_large_image" }],
+    ["meta", { name: "twitter:image", content: `${SITE_URL}og.jpg` }],
+  ],
   appearance: "dark",
+  // /tools instead of /tools.html (GitHub Pages serves both).
+  cleanUrls: true,
   lastUpdated: true,
   markdown: { image: { lazyLoading: true } },
+
+  sitemap: {
+    hostname: SITE_URL,
+    // /news only redirects to the community page.
+    transformItems: (items) => items.filter((item) => !/(^|\/)news(\.html)?$/.test(item.url)),
+  },
+
+  // Link previews: each page gets its own address, title and description.
+  transformPageData(pageData) {
+    const path = pageData.relativePath.replace(/(^|\/)index\.md$/, "$1").replace(/\.md$/, "");
+    const url = SITE_URL + path;
+    const pageTitle =
+      pageData.title && pageData.title !== SITE_TITLE
+        ? `${pageData.title} | ${SITE_TITLE}`
+        : SITE_TITLE;
+    pageData.frontmatter.head ??= [];
+    pageData.frontmatter.head.push(
+      ["link", { rel: "canonical", href: url }],
+      ["meta", { property: "og:url", content: url }],
+      ["meta", { property: "og:title", content: pageTitle }],
+      ["meta", { property: "og:description", content: pageData.description || SITE_DESCRIPTION }],
+    );
+  },
 
   vite: {
     // `@/components/...` resolves from any page, including per-language ones.

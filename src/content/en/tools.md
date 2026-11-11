@@ -1,4 +1,5 @@
 ---
+description: Browse and search the 2800+ penetration testing tools in the BlackArch Linux repository by name, category, popularity or last update.
 pageClass: wide
 outline: false
 title: Tools

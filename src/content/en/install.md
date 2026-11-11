@@ -1,4 +1,5 @@
 ---
+description: Step-by-step tutorial for installing BlackArch Linux from the ISO with blackarch-installer, with screenshots.
 outline: deep
 title: Installation
 ---
