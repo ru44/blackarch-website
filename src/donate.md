@@ -1,4 +1,5 @@
 ---
+pageClass: wide
 outline: deep
 title: Donate
 ---
@@ -18,12 +19,10 @@ We also welcome any organization/company interested in becoming an official spon
 You can contact us by Matrix or by email.
 
 <script setup>
-import DonorsList from './components/DonorsList.vue'
-import DonateButton from './components/DonateButton.vue'
+import DonorsList from '@/components/DonorsList.vue'
+import DonatePanel from '@/components/DonatePanel.vue'
 </script>
 
-<DonateButton />
+<DonatePanel />
 
 <DonorsList />
-
-The donor list above starts from January 2017.
