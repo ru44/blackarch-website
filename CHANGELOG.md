@@ -21,7 +21,11 @@ All notable changes to this project are documented here. The format follows
 - Tools page: category filters based on the real package groups from the BlackArch wiki,
   expandable rows, a copy button for the install command, and a Docs link for tools that have a
   wiki page.
+- Tools page sorting: A–Z, Most popular (GitHub stars of the upstream repository) and Recently
+  updated (build date from the official package database); tools without that value sort last. Several categories can be selected at
+  once, and the category chips wrap instead of scrolling sideways.
 - Guide page: the PDF guides as language cards.
+- Downloads page documents the official Docker images (BlackArch/blackarch-site#192).
 - Language switcher with 14 languages: Arabic (right-to-left), Armenian, Brazilian Portuguese,
   Chinese, French, German, Greek, Indonesian, Italian, Portuguese, Romanian, Russian, Spanish and
   Turkish. The interface and search are translated; Italian has full page translations.
@@ -47,6 +51,14 @@ All notable changes to this project are documented here. The format follows
   properties so right-to-left languages need no overrides.
 
 ### Fixed
+
+- FAQ no longer recommends installing every tool at once; the update command is `pacman -Syu`
+  (BlackArch/blackarch-site#191).
+- ISO cards and the `strap.sh` check now give SHA-256 (and SHA3-256 for the ISOs) next to the
+  official SHA1 (BlackArch/blackarch-site#187). The values were computed from files whose SHA1
+  matches the one published on blackarch.org.
+- ISO release dates use the ISO 8601 format, for example `2023-05-01`
+  (BlackArch/blackarch-site#143).
 
 - `strap.sh` checksum on the downloads page now matches the file published on blackarch.org.
 - Removed an unrelated OPNsense mirror that appears in the official list.

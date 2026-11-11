@@ -31,6 +31,8 @@ pnpm dev        # dev server with hot reload
 | `pnpm gen:locales`  | Regenerate the per-language page stubs (see [Translating](#translating)) |
 | `pnpm sync:mirrors` | Refresh the mirror list from blackarch.org                               |
 | `pnpm sync:wiki`    | Refresh tool package groups from the BlackArch wiki repository           |
+| `pnpm sync:updates` | Refresh tool build dates from the BlackArch package database             |
+| `pnpm sync:stars`   | Refresh the GitHub stars used for the "Most popular" ordering            |
 
 The site is deployed to GitHub Pages by `.github/workflows`: `main-ci` builds every push and pull
 request, and `deploy-ci` publishes after a successful build on `main`.
@@ -104,16 +106,18 @@ by the generator. `src/content/it/` is a complete example.
 
 ## Keeping data up to date
 
-| Data                | File                                                         | How to update                                                                                                                           |
-| ------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Mirrors             | `src/data/mirrors.json`                                      | `pnpm sync:mirrors` (copies the official list on blackarch.org)                                                                         |
-| Tool package groups | `src/data/tool-groups.json`, `tool-docs.json`                | `pnpm sync:wiki` (reads [anunna/blackarch-wiki](https://github.com/anunna/blackarch-wiki))                                              |
-| ISO images          | `src/data/images.json`                                       | Edit by hand when a new image is released: version, size, file name and SHA1 from <https://blackarch.org/downloads.html>                |
-| `strap.sh` checksum | `src/content/en/downloads.md`, `src/content/it/downloads.md` | Update the `sha1sum -c` line; the current value is on the official downloads page                                                       |
-| Tool list           | `src/data/tools/*.json`                                      | One file per category. `scripts/convert_files_to_json.sh` converts the pipe-separated package lists (`name\|version\|description\|url`) |
-| Team                | `src/data/developers.json`                                   | Add `github` and `avatar` (a file in `src/content/public/team/`) when known                                                             |
-| Supporters          | `src/data/donors.json`                                       | Add new donations at the top                                                                                                            |
-| Screenshots         | `src/data/screenshots.json`                                  | Files are loaded from blackarch.org/images/screenshots                                                                                  |
+| Data                | File                                                         | How to update                                                                                                                                                                                                                                        |
+| ------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Mirrors             | `src/data/mirrors.json`                                      | `pnpm sync:mirrors` (copies the official list on blackarch.org)                                                                                                                                                                                      |
+| Tool package groups | `src/data/tool-groups.json`, `tool-docs.json`                | `pnpm sync:wiki` (reads [anunna/blackarch-wiki](https://github.com/anunna/blackarch-wiki))                                                                                                                                                           |
+| ISO images          | `src/data/images.json`                                       | Edit by hand when a new image is released: release date, size, file name and checksums. Take SHA1 from <https://blackarch.org/downloads.html>, check the downloaded file against it, then compute the others (`sha256sum`, `openssl dgst -sha3-256`) |
+| `strap.sh` checksum | `src/content/en/downloads.md`, `src/content/it/downloads.md` | Update the `sha256sum -c` line. Check the script against the SHA1 on the official downloads page first, then run `sha256sum strap.sh`                                                                                                                |
+| Tool update dates   | `src/data/tool-updates.json`                                 | `pnpm sync:updates` (build dates from the official package database)                                                                                                                                                                                 |
+| Tool popularity     | `src/data/tool-stars.json`                                   | `pnpm sync:stars` (GitHub stars; needs `GITHUB_TOKEN` or the `gh` CLI)                                                                                                                                                                               |
+| Tool list           | `src/data/tools/*.json`                                      | One file per category. `scripts/convert_files_to_json.sh` converts the pipe-separated package lists (`name\|version\|description\|url`)                                                                                                              |
+| Team                | `src/data/developers.json`                                   | Add `github` and `avatar` (a file in `src/content/public/team/`) when known                                                                                                                                                                          |
+| Supporters          | `src/data/donors.json`                                       | Add new donations at the top                                                                                                                                                                                                                         |
+| Screenshots         | `src/data/screenshots.json`                                  | Files are loaded from blackarch.org/images/screenshots                                                                                                                                                                                               |
 
 After changing data, run `pnpm build` and check the affected page.
 
