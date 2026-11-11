@@ -10,8 +10,8 @@ backend, and every page is generated at build time.
   </a>
 </p>
 
-| Tools | Architecture | Downloads |
-| :---: | :---: | :---: |
+|                                                               Tools                                                               |                                                     Architecture                                                     |                                                       Downloads                                                        |
+| :-------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: |
 | [![Tools page: search, sorting and category filters](docs/screenshots/tools.jpg)](https://ru44.github.io/blackarch-website/tools) | [![Architecture explorer](docs/screenshots/architecture.jpg)](https://ru44.github.io/blackarch-website/architecture) | [![Download cards with checksums](docs/screenshots/downloads.jpg)](https://ru44.github.io/blackarch-website/downloads) |
 
 - Live site: <https://ru44.github.io/blackarch-website/>
@@ -45,8 +45,8 @@ pnpm dev        # dev server with hot reload
 | `pnpm sync:stars`   | Refresh the GitHub stars used for the "Most popular" ordering                   |
 | `pnpm sync:links`   | Update tool links, follow moved sites and list dead links (takes a few minutes) |
 
-The site is deployed to GitHub Pages by `.github/workflows`: `main-ci` builds every push and pull
-request, and `deploy-ci` publishes after a successful build on `main`.
+The site is deployed to GitHub Pages by `.github/workflows/main.yml`: every push and pull request
+is checked and built, and a push to `main` then publishes that same build.
 
 ## Project layout
 
