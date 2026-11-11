@@ -4,7 +4,13 @@ import { matrixIcon } from "./icons.mjs";
 import { createSeo } from "./seo.mjs";
 
 const REPO_URL = "https://github.com/ru44/blackarch-website";
-const SITE_URL = "https://ru44.github.io/blackarch-website/";
+// Where the site is published. Set SITE_URL to build for another address, for
+// example SITE_URL=https://blackarch.org/ pnpm build
+const SITE_URL = (process.env.SITE_URL ?? "https://ru44.github.io/blackarch-website/").replace(
+  /\/?$/,
+  "/",
+);
+const BASE = new URL(SITE_URL).pathname;
 const SITE_TITLE = "BlackArch Linux";
 const SITE_DESCRIPTION =
   "BlackArch Linux is a penetration testing distribution for penetration testers and security researchers.";
@@ -73,7 +79,7 @@ const seo = createSeo({
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/blackarch-website/",
+  base: BASE,
 
   // Pages live in src/content/<language>/. English is served from the site
   // root, every other language under its own prefix (/it/, /ar/, ...).
@@ -82,7 +88,7 @@ export default defineConfig({
   title: SITE_TITLE,
   description: SITE_DESCRIPTION,
   head: [
-    ["link", { rel: "icon", type: "image/x-icon", href: "/blackarch-website/favicon.ico" }],
+    ["link", { rel: "icon", type: "image/x-icon", href: `${BASE}favicon.ico` }],
     ["meta", { name: "theme-color", content: "#0a0a0b" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:site_name", content: SITE_TITLE }],
