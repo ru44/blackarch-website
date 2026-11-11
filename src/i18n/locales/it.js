@@ -163,6 +163,15 @@ export default {
     copyAria: (n) => `Copia il comando di installazione di ${n}`,
     expandAria: (n) => `Mostra i dettagli di ${n}`,
     filterLabel: "Filtra per categoria",
+    sortLabel: "Ordina gli strumenti",
+    sortName: "A–Z",
+    sortTop: "Più popolari",
+    sortUpdated: "Aggiornati di recente",
+    topNote: "Classifica basata sulle stelle GitHub del repository upstream di ogni strumento.",
+    updated: "Aggiornato",
+    stars: "Stelle",
+    moreCategories: (n) => `altre ${n}`,
+    fewerCategories: "Mostra meno",
   },
   faqItems: {
     cats: {

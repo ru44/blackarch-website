@@ -29,15 +29,31 @@ const UI = useT("tools", {
   copyAria: (n) => `Copy install command for ${n}`,
   expandAria: (n) => `Show details for ${n}`,
   filterLabel: "Filter by category",
+  sortLabel: "Sort tools",
+  sortName: "A–Z",
+  sortTop: "Most popular",
+  sortUpdated: "Recently updated",
+  topNote: "Ranked by the GitHub stars of each tool's upstream repository.",
+  updated: "Updated",
+  stars: "Stars",
+  moreCategories: (n) => `${n} more`,
+  fewerCategories: "Show fewer",
 });
 
 const modules = import.meta.glob("../data/tools/*.json");
 const CHUNK_SIZE = 60;
+// Categories shown before the "more" button; selected ones are always shown.
+const VISIBLE_CATEGORIES = 12;
 
 const tools = ref([]);
 const searchInput = ref("");
 const query = ref("");
-const category = ref("");
+// Selected categories. A tool matches when it is in any of them.
+const selected = ref(new Set());
+const showAllCategories = ref(false);
+// "name" (A–Z), "top" (most GitHub stars first) or "updated" (newest build first).
+// In both orderings, tools without that value sort to the bottom.
+const sort = ref("name");
 const isLoading = ref(true);
 const expanded = ref(null);
 const { copy: writeClipboard, isCopied } = useClipboard();
@@ -56,19 +72,47 @@ const categories = computed(() => {
   return [...counts.entries()].sort((a, b) => b[1] - a[1]);
 });
 
+const visibleCategories = computed(() =>
+  showAllCategories.value
+    ? categories.value
+    : categories.value.filter(([group], i) => i < VISIBLE_CATEGORIES || selected.value.has(group)),
+);
+const hiddenCategoryCount = computed(
+  () => categories.value.length - visibleCategories.value.length,
+);
+
 const filteredTools = computed(() => {
   const q = query.value.trim().toLowerCase();
-  return tools.value.filter(
+  const matches = tools.value.filter(
     (t) =>
-      (!category.value || t.groups.includes(category.value)) &&
+      (!selected.value.size || t.groups.some((group) => selected.value.has(group))) &&
       (!q || t.name.toLowerCase().includes(q) || t.description?.toLowerCase().includes(q)),
   );
+  if (sort.value === "top") {
+    return [...matches].sort((a, b) => (a.rank ?? Infinity) - (b.rank ?? Infinity));
+  }
+  if (sort.value === "updated") {
+    // ISO dates sort as text, so a missing date ("") ends up last.
+    return [...matches].sort((a, b) => (b.updated ?? "").localeCompare(a.updated ?? ""));
+  }
+  return matches;
 });
+
+const formatStars = (count) => (count >= 1000 ? `${(count / 1000).toFixed(1)}k` : String(count));
+// Second column: version by default, or the value the list is sorted by.
+const columnLabel = computed(
+  () => ({ top: UI.stars, updated: UI.updated })[sort.value] ?? UI.version,
+);
+function columnValue(tool) {
+  if (sort.value === "top") return tool.rank ? `#${tool.rank} · ${formatStars(tool.stars)}` : "—";
+  if (sort.value === "updated") return tool.updated ?? "—";
+  return tool.version;
+}
 const visibleTools = computed(() => filteredTools.value.slice(0, visibleCount.value));
 const hasMore = computed(() => visibleCount.value < filteredTools.value.length);
 
 watchDebounced(searchInput, (v) => (query.value = v), { debounce: 250 });
-watch([query, category], () => {
+watch([query, selected, sort], () => {
   visibleCount.value = CHUNK_SIZE;
   expanded.value = null;
   scrollContainer.value?.scrollTo({ top: 0 });
@@ -97,10 +141,15 @@ onMounted(async () => {
   );
   // Real package groups come from the BlackArch wiki (blackarch.wiki); tools it
   // does not list fall back to the group matching their data file, if one exists.
-  const [{ default: groupMap }, { default: docList }] = await Promise.all([
-    import("../data/tool-groups.json"),
-    import("../data/tool-docs.json"),
-  ]);
+  const [{ default: groupMap }, { default: docList }, { default: updates }, { default: stars }] =
+    await Promise.all([
+      import("../data/tool-groups.json"),
+      import("../data/tool-docs.json"),
+      import("../data/tool-updates.json"),
+      import("../data/tool-stars.json"),
+    ]);
+  // tool-stars.json is ordered most starred first, so the position is the rank.
+  const ranks = new Map(Object.keys(stars).map((name, i) => [name, i + 1]));
   docs.value = new Set(docList);
   const known = new Set(Object.values(groupMap).flat());
   const seen = new Map();
@@ -111,6 +160,9 @@ onMounted(async () => {
     seen.set(t.name, {
       ...t,
       groups: fromWiki.length ? fromWiki : known.has(fallback) ? [fallback] : [],
+      updated: updates[t.name],
+      stars: stars[t.name],
+      rank: ranks.get(t.name),
     });
   }
   tools.value = [...seen.values()].sort((a, b) => a.name.localeCompare(b.name));
@@ -120,10 +172,16 @@ onMounted(async () => {
 function toggle(name) {
   expanded.value = expanded.value === name ? null : name;
 }
+function toggleCategory(group) {
+  const next = new Set(selected.value);
+  if (next.has(group)) next.delete(group);
+  else next.add(group);
+  selected.value = next;
+}
 function clearAll() {
   searchInput.value = "";
   query.value = "";
-  category.value = "";
+  selected.value = new Set();
 }
 function copy(name, event) {
   event?.stopPropagation();
@@ -167,36 +225,63 @@ function copy(name, event) {
       </button>
     </div>
 
+    <div class="sort" role="group" :aria-label="UI.sortLabel">
+      <button
+        v-for="[value, text] in [
+          ['name', UI.sortName],
+          ['top', UI.sortTop],
+          ['updated', UI.sortUpdated],
+        ]"
+        :key="value"
+        type="button"
+        :class="{ on: sort === value }"
+        :aria-pressed="sort === value"
+        @click="sort = value"
+      >
+        {{ text }}
+      </button>
+    </div>
+
     <div class="chips" role="group" :aria-label="UI.filterLabel">
       <button
         type="button"
-        :class="{ on: !category }"
-        :aria-pressed="!category"
-        @click="category = ''"
+        :class="{ on: !selected.size }"
+        :aria-pressed="!selected.size"
+        @click="selected = new Set()"
       >
         {{ UI.all }} <small>{{ tools.length }}</small>
       </button>
       <button
-        v-for="[c, n] in categories"
-        :key="c"
+        v-for="[group, count] in visibleCategories"
+        :key="group"
         type="button"
-        :class="{ on: category === c }"
-        :aria-pressed="category === c"
-        @click="category = category === c ? '' : c"
+        :class="{ on: selected.has(group) }"
+        :aria-pressed="selected.has(group)"
+        @click="toggleCategory(group)"
       >
-        {{ label(c) }} <small>{{ n }}</small>
+        {{ label(group) }} <small>{{ count }}</small>
+      </button>
+      <button
+        v-if="hiddenCategoryCount || showAllCategories"
+        type="button"
+        class="more"
+        :aria-expanded="showAllCategories"
+        @click="showAllCategories = !showAllCategories"
+      >
+        {{ showAllCategories ? UI.fewerCategories : UI.moreCategories(hiddenCategoryCount) }}
       </button>
     </div>
 
     <p class="result-count" role="status">
       {{ UI.showing }} <strong>{{ filteredTools.length }}</strong> {{ UI.of }} {{ tools.length }}
       {{ UI.tools }}
+      <span v-if="sort === 'top'" class="note">{{ UI.topNote }}</span>
     </p>
 
     <div v-if="filteredTools.length" ref="scrollContainer" class="table-scroll" tabindex="0">
       <div class="head" aria-hidden="true">
         <span>{{ UI.name }}</span
-        ><span>{{ UI.version }}</span
+        ><span>{{ columnLabel }}</span
         ><span>{{ UI.description }}</span
         ><span />
       </div>
@@ -218,7 +303,7 @@ function copy(name, event) {
             >
               <span class="chev" aria-hidden="true" />
               <span class="tool-name">{{ tool.name }}</span>
-              <span class="tool-version">{{ tool.version }}</span>
+              <span class="tool-version">{{ columnValue(tool) }}</span>
               <span class="desc" dir="ltr" lang="en">{{ tool.description }}</span>
             </button>
             <button
@@ -263,6 +348,16 @@ function copy(name, event) {
                 <dt>{{ UI.version }}</dt>
                 <dd>{{ tool.version }}</dd>
               </div>
+              <div v-if="tool.updated">
+                <dt>{{ UI.updated }}</dt>
+                <dd>
+                  <time :datetime="tool.updated">{{ tool.updated }}</time>
+                </dd>
+              </div>
+              <div v-if="tool.stars">
+                <dt>{{ UI.stars }}</dt>
+                <dd>{{ tool.stars.toLocaleString("en") }}</dd>
+              </div>
               <div v-if="docs.has(tool.name)">
                 <dt>Wiki</dt>
                 <dd>
@@ -290,9 +385,9 @@ function copy(name, event) {
                 v-for="g in tool.groups"
                 :key="g"
                 type="button"
-                :class="{ on: category === g }"
+                :class="{ on: selected.has(g) }"
                 :title="groupCmd(g)"
-                @click="category = g"
+                @click="toggleCategory(g)"
               >
                 {{ label(g) }}
               </button>
@@ -370,13 +465,49 @@ function copy(name, event) {
   color: var(--vp-c-brand-1);
 }
 
+.sort {
+  display: inline-flex;
+  margin-bottom: 10px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: var(--ba-radius-sm);
+  overflow: hidden;
+}
+
+.sort button {
+  padding: 6px 14px;
+  border: 0;
+  background: none;
+  color: var(--vp-c-text-2);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sort button + button {
+  border-inline-start: 1px solid var(--vp-c-divider);
+}
+
+.sort button.on {
+  background: var(--ba-red);
+  color: #fff;
+}
+
 .chips {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
-  overflow-x: auto;
-  padding-bottom: 6px;
-  scrollbar-width: thin;
 }
+
+.chips button.more {
+  border-style: dashed;
+  color: var(--vp-c-brand-1);
+}
+
+.result-count .note {
+  margin-inline-start: 8px;
+  color: var(--vp-c-text-3);
+}
+
 .chips button {
   flex: none;
   padding: 4px 11px;

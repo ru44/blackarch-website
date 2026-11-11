@@ -18,6 +18,8 @@
     "gen:locales": "node scripts/gen-locales.mjs",
     "sync:mirrors": "node scripts/sync-mirrors.mjs",
     "sync:wiki": "node scripts/sync-wiki-groups.mjs",
+    "sync:updates": "node scripts/sync-tool-updates.mjs",
+    "sync:stars": "node scripts/sync-tool-stars.mjs",
     "prepare": "husky"
   },
   "dependencies": {
