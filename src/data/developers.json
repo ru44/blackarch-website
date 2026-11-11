@@ -4,70 +4,89 @@
     "nickname": "noptrix",
     "email": "noptrix@blackarch.org",
     "gpg_key": "0xD235838E6231C179",
-    "role": "Noob"
+    "role": "Noob",
+    "github": "noptrix",
+    "avatar": "team/noptrix.jpg"
   },
   {
     "name": "Alia Morozova",
     "nickname": "anunna",
     "email": "anunna@blackarch.org",
     "gpg_key": "0xE6A67BD79DB34F2F",
-    "role": "Developer"
+    "role": "Developer",
+    "github": "anunna",
+    "avatar": "team/anunna.jpg"
   },
   {
     "name": "Pedro Freitas",
     "nickname": "psf",
     "email": "psf@blackarch.org",
     "gpg_key": "0xD19B5EDE9A23FDF3",
-    "role": "Developer"
+    "role": "Developer",
+    "github": "PedroSFreitas"
   },
   {
     "name": "Pierre B.",
     "nickname": "Pi3rrot",
     "email": "pi3rrot@blackarch.org",
     "gpg_key": "0x1B6EC0AB4ADEDC63",
-    "role": "Developer, Torrent Master"
+    "role": "Developer, Torrent Master",
+    "github": "pi3rrot",
+    "avatar": "team/pi3rrot.jpg"
   },
   {
     "name": "Sachin S. Kamath",
     "nickname": "pwnfoo",
     "email": "pwnfoo@blackarch.org",
     "gpg_key": "0xF16278F70171823A",
-    "role": "Developer"
+    "role": "Developer",
+    "github": "pwnfoo",
+    "avatar": "team/pwnfoo.jpg"
   },
   {
     "name": "Christopher Downs",
     "nickname": "dualfade",
     "email": "dualfade@blackarch.org",
     "gpg_key": "0x76E2456FB8E1C494",
-    "role": "Developer"
+    "role": "Developer",
+    "github": "dualfade",
+    "avatar": "team/dualfade.jpg"
   },
   {
     "name": "Stefan Venz",
     "nickname": "ikstream",
     "email": "ikstream@blackarch.org",
     "gpg_key": "0x206477038CAA1975",
-    "role": "Developer"
+    "role": "Developer",
+    "github": "ikstream",
+    "avatar": "team/ikstream.jpg"
   },
   {
     "name": "Leon L.",
     "nickname": "Tazmain",
     "email": "tazmain@blackarch.org",
     "gpg_key": "0x4CB1EBA0BA75AF84",
-    "role": "Developer"
+    "role": "Developer",
+    "github": "Tazmain",
+    "avatar": "team/tazmain.jpg"
   },
   {
     "name": "Alexandre Zanni",
     "nickname": "noraj",
     "email": "noraj@blackarch.org",
     "gpg_key": "0x2505B21F5BFB05CA",
-    "role": "Developer"
+    "role": "Developer",
+    "github": "noraj",
+    "avatar": "team/noraj.jpg"
   },
   {
     "name": "Semtex",
     "nickname": "s7x",
     "email": "s7x@blackarch.org",
     "gpg_key": "0x204FE13F461E386F",
-    "role": "Developer"
+    "role": "Developer",
+    "github": "s7x",
+    "avatar": "team/s7x.jpg"
   },
   {
     "name": "Erik",
@@ -81,6 +100,8 @@
     "nickname": "EisWiesel",
     "email": "eiswiesel@blackarch.org",
     "gpg_key": "BADCODEBADCODE",
-    "role": "WebDesigner"
+    "role": "WebDesigner",
+    "github": "EisWiesel",
+    "avatar": "team/eiswiesel.jpg"
   }
 ]
