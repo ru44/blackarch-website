@@ -158,13 +158,13 @@
   },
   {
     "name": "bbot",
-    "version": "v3.0.2.r0.ga6fb827",
+    "version": "v3.1.0.r0.gbeca7d2",
     "description": "Multipurpose scanner built to automate your Recon, Bug Bounties, and ASM.",
     "url": "https://github.com/blacklanternsecurity/bbot",
     "groups": [
       "recon"
     ],
-    "updated": "2026-09-06"
+    "updated": "2026-11-15"
   },
   {
     "name": "bfac",
@@ -274,13 +274,13 @@
   },
   {
     "name": "chaos-client",
-    "version": "286.b0522e0",
+    "version": "292.d0ce71e",
     "description": "Go client to communicate with Chaos dataset API.",
     "url": "https://github.com/projectdiscovery/chaos-client",
     "groups": [
       "recon"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-11-15"
   },
   {
     "name": "chronoleak",
@@ -335,13 +335,13 @@
   },
   {
     "name": "cloudlist",
-    "version": "1017.b4c3216",
+    "version": "1025.0bfbd84",
     "description": "A tool for listing Assets from multiple Cloud Providers.",
     "url": "https://github.com/projectdiscovery/cloudlist",
     "groups": [
       "recon"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "cloudmare",
@@ -523,13 +523,13 @@
   },
   {
     "name": "dnsx",
-    "version": "v1.2.1.r493.gc72b42d",
+    "version": "v1.2.1.r497.gf223973",
     "description": "Fast and multi-purpose DNS toolkit allow to run multiple DNS queries of your choice with a list of user-supplied resolvers.",
     "url": "https://github.com/projectdiscovery/dnsx",
     "groups": [
       "recon"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "domain-analyzer",
@@ -575,14 +575,14 @@
   },
   {
     "name": "dradis-ce",
-    "version": "v5.0.0.r892.g26c057b",
+    "version": "v5.0.0.r912.g5cabae6",
     "description": "An open source framework to enable effective information sharing.",
     "url": "https://dradis.com/ce/",
     "groups": [
       "recon",
       "misc"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "elevate",
@@ -1070,13 +1070,13 @@
   },
   {
     "name": "hoper",
-    "version": "v0.1.1.r0.g8d5dbd9",
+    "version": "v1.0.1.r0.g65fcc35",
     "description": "Trace URL's jumps across the rel links to obtain the last URL.",
     "url": "https://github.com/gabamnml/hoper",
     "groups": [
       "recon"
     ],
-    "updated": "2025-10-02"
+    "updated": "2026-11-15"
   },
   {
     "name": "hosthunter",
@@ -2078,14 +2078,14 @@
   },
   {
     "name": "rusthound-ce",
-    "version": "v2.5.30.r0.gbaa7285",
+    "version": "v2.5.51.r1.gb075eb8",
     "description": "Active Directory data collector for BloodHound community edition (v5).",
     "url": "https://github.com/g0h4n/RustHound-CE",
     "groups": [
       "recon",
       "windows"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "s3enum",
@@ -2100,14 +2100,14 @@
   },
   {
     "name": "scavenger",
-    "version": "118.8f5d432",
+    "version": "131.3b95bb2",
     "description": "Crawler (Bot) searching for credential leaks on different paste sites.",
     "url": "https://github.com/rndinfosecguy/Scavenger",
     "groups": [
       "recon",
       "social"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "screamer",
@@ -2340,13 +2340,13 @@
   },
   {
     "name": "subfinder",
-    "version": "v2.14.0.r104.g5e3e2c9b",
+    "version": "v2.14.0.r114.ge708670d",
     "description": "Modular subdomain discovery tool that can discover massive amounts of valid subdomains for any target.",
     "url": "https://github.com/projectdiscovery/subfinder",
     "groups": [
       "recon"
     ],
-    "updated": "2026-11-01"
+    "updated": "2026-11-15"
   },
   {
     "name": "sublert",

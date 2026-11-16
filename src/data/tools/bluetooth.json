@@ -231,14 +231,14 @@
   },
   {
     "name": "sparrow-wifi",
-    "version": "v2.0.r31.gb4f4592",
+    "version": "v2.0.r45.g3789fd2",
     "description": "Next-Gen GUI-based WiFi and Bluetooth Analyzer.",
     "url": "https://github.com/ghostop14/sparrow-wifi",
     "groups": [
       "bluetooth",
       "wireless"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-11-15"
   },
   {
     "name": "spooftooph",
@@ -262,12 +262,12 @@
   },
   {
     "name": "ubertooth",
-    "version": "2020.12.R1.r35.gc9dfdbd",
+    "version": "2020.12.R1.r36.gd6d7cc6",
     "description": "A 2.4 GHz wireless development board suitable for Bluetooth experimentation. Open source hardware and software. Tools only.",
     "url": "https://github.com/greatscottgadgets/ubertooth",
     "groups": [
       "bluetooth"
     ],
-    "updated": "2026-03-29"
+    "updated": "2026-11-15"
   }
 ]

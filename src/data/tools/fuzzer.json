@@ -67,7 +67,7 @@
     "name": "bunny",
     "version": "0.93",
     "description": "A closed loop, high-performance, general purpose protocol-blind fuzzer for C programs.",
-    "url": "https://code.google.com/p/bunny-the-fuzzer/",
+    "url": "https://code.google.com/archive/p/bunny-the-fuzzer",
     "groups": [
       "fuzzer"
     ],
@@ -233,13 +233,13 @@
   },
   {
     "name": "fuddly",
-    "version": "0.30.dev.r420.g84b0846",
+    "version": "0.30.dev.r432.gfc476b6",
     "description": "Fuzzing and Data Manipulation Framework (for GNU/Linux).",
     "url": "https://github.com/k0retux/fuddly",
     "groups": [
       "fuzzer"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "fusil",
@@ -306,14 +306,14 @@
   },
   {
     "name": "grammarinator",
-    "version": "523.46322fd",
+    "version": "561.c2031c2",
     "description": "A random test generator / fuzzer that creates test cases according to an input ANTLR v4 grammar.",
     "url": "https://github.com/renatahodovan/grammarinator",
     "groups": [
       "fuzzer",
       "misc"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "grr",
@@ -329,7 +329,7 @@
     "name": "hexorbase",
     "version": "7",
     "description": "A database application designed for administering and auditing multiple database servers simultaneously from a centralized location. It is capable of performing SQL queries and bruteforce attacks against common database servers (MySQL, SQLite, Microsoft SQL Server, Oracle, PostgreSQL).",
-    "url": "https://code.google.com/p/hexorbase/",
+    "url": "https://github.com/savio-code/hexorbase",
     "groups": [
       "fuzzer",
       "scanner"
@@ -350,7 +350,7 @@
     "name": "honggfuzz",
     "version": "4182.940b958d",
     "description": "A general-purpose fuzzer with simple, command-line interface.",
-    "url": "https://code.google.com/p/honggfuzz/",
+    "url": "https://github.com/google/honggfuzz",
     "groups": [
       "fuzzer",
       "hardware"
@@ -555,7 +555,7 @@
     "name": "ratproxy",
     "version": "1.58",
     "description": "A passive web application security assessment tool",
-    "url": "http://code.google.com/p/ratproxy/",
+    "url": "https://code.google.com/archive/p/ratproxy",
     "groups": [
       "fuzzer",
       "proxy",
@@ -661,7 +661,7 @@
     "name": "spiderpig-pdffuzzer",
     "version": "0.1",
     "description": "A javascript pdf fuzzer.",
-    "url": "https://code.google.com/p/spiderpig-pdffuzzer/",
+    "url": "https://code.google.com/archive/p/spiderpig-pdffuzzer",
     "groups": [
       "fuzzer"
     ],
@@ -744,7 +744,7 @@
     "name": "termineter",
     "version": "210.a802f94",
     "description": "Smart meter testing framework.",
-    "url": "https://code.google.com/p/termineter/",
+    "url": "https://code.google.com/archive/p/termineter",
     "groups": [
       "fuzzer"
     ],

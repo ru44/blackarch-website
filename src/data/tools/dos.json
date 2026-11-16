@@ -41,14 +41,14 @@
   },
   {
     "name": "ddosify",
-    "version": "v2.6.0.r32.g5cf7df3",
+    "version": "2.4.0.r0.g34bbca1",
     "description": "High-performance load testing tool, written in Golang.",
     "url": "https://github.com/getanteon/anteon",
     "groups": [
       "dos",
       "misc"
     ],
-    "updated": "2026-03-07"
+    "updated": "2026-11-15"
   },
   {
     "name": "dnsdrdos",

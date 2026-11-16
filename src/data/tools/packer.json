@@ -14,13 +14,13 @@
   },
   {
     "name": "vbsmin",
-    "version": "v1.2.0.r34.gf907829",
+    "version": "v1.2.0.r36.gc0025ae",
     "description": "VBScript minifier.",
     "url": "https://noraj.github.io/vbsmin/",
     "groups": [
       "packer",
       "automation"
     ],
-    "updated": "2026-11-01"
+    "updated": "2026-11-15"
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "name": "chipsec",
-    "version": "2.0.9.r11.g2545706",
+    "version": "2.0.10.r3.g09e6214",
     "description": "Platform Security Assessment Framework.",
     "url": "https://github.com/chipsec/chipsec",
     "groups": [
@@ -11,13 +11,13 @@
       "scanner",
       "fuzzer"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-11-15"
   },
   {
     "name": "dex2jar",
     "version": "2.1",
     "description": "A tool for converting Android's .dex format to Java's .class format",
-    "url": "http://code.google.com/p/dex2jar",
+    "url": "https://github.com/pxb1988/dex2jar",
     "groups": [
       "hardware",
       "reversing"

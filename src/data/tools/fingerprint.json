@@ -3,7 +3,7 @@
     "name": "asp-audit",
     "version": "2BETA",
     "description": "An ASP fingerprinting tool and vulnerability scanner.",
-    "url": "http://seclists.org/basics/2006/Sep/128",
+    "url": "https://seclists.org/basics/2006/Sep/128",
     "groups": [
       "fingerprint",
       "scanner",
@@ -178,7 +178,7 @@
   },
   {
     "name": "nerva",
-    "version": "v1.84.0.r0.gea00df8",
+    "version": "v1.84.3.r0.g663a9f0",
     "description": "Fast service fingerprinting CLI for 170+ protocols (TCP/UDP/SCTP).",
     "url": "https://github.com/praetorian-inc/nerva",
     "groups": [
@@ -186,7 +186,7 @@
       "scanner",
       "recon"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "nimbostratus",

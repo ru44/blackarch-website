@@ -34,13 +34,13 @@
   },
   {
     "name": "checkov",
-    "version": "3.4.0.r1.g3bdc054cfb",
+    "version": "3.4.5.r1.ge55b089e02",
     "description": "Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages.",
     "url": "https://github.com/bridgecrewio/checkov",
     "groups": [
       "code-audit"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "cpptest",
@@ -250,14 +250,14 @@
   },
   {
     "name": "trufflehog",
-    "version": "v3.99.7.r9.g421026a65",
+    "version": "v3.99.9.r4.g72cae0fbb",
     "description": "Searches through git repositories for high entropy strings, digging deep into commit history.",
     "url": "https://github.com/trufflesecurity/trufflehog",
     "groups": [
       "code-audit",
       "recon"
     ],
-    "updated": "2026-11-01"
+    "updated": "2026-11-15"
   },
   {
     "name": "whispers",
@@ -302,12 +302,12 @@
   },
   {
     "name": "zarn",
-    "version": "0.0.9.r146.gcf91492",
+    "version": "0.0.9.r147.g900c0df",
     "description": "A lightweight static security analysis tool for modern Perl Apps.",
     "url": "https://github.com/htrgouvea/zarn",
     "groups": [
       "code-audit"
     ],
-    "updated": "2026-11-01"
+    "updated": "2026-11-15"
   }
 ]

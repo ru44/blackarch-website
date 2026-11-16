@@ -141,14 +141,14 @@
   },
   {
     "name": "fluxion",
-    "version": "v6.32.r8.gf064d24",
+    "version": "v6.39.r0.g616df97",
     "description": "A security auditing and social-engineering research tool.",
     "url": "https://github.com/FluxionNetwork/fluxion",
     "groups": [
       "social",
       "wireless"
     ],
-    "updated": "2026-09-28"
+    "updated": "2026-11-15"
   },
   {
     "name": "genisys",
@@ -282,7 +282,7 @@
     "name": "mailcat",
     "version": "0.1.1",
     "description": "The only cat who can find existing email addresses by nickname.",
-    "url": "https://github.com/sharsil/mailcat/",
+    "url": "https://github.com/sharsil/mailcat",
     "groups": [
       "social",
       "recon"
@@ -648,13 +648,13 @@
   },
   {
     "name": "whatsmyname",
-    "version": "2934.0021b59",
+    "version": "2936.abcb19d",
     "description": "Tool to perform user and username enumeration on various websites.",
     "url": "https://github.com/WebBreacher/WhatsMyName",
     "groups": [
       "social",
       "recon"
     ],
-    "updated": "2026-11-01"
+    "updated": "2026-11-15"
   }
 ]

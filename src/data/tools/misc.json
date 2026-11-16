@@ -1,13 +1,13 @@
 [
   {
     "name": "alterx",
-    "version": "v0.1.0.r17.g3329d23",
+    "version": "v0.1.0.r24.g00baabf",
     "description": "Fast and customizable subdomain wordlist generator using DSL.",
     "url": "https://github.com/projectdiscovery/alterx",
     "groups": [
       "misc"
     ],
-    "updated": "2026-10-24"
+    "updated": "2026-11-15"
   },
   {
     "name": "archivebox",
@@ -187,13 +187,13 @@
   },
   {
     "name": "ctf-party",
-    "version": "5.0.0.r58.g8dfd12a",
+    "version": "5.0.0.r60.g80a6c50",
     "description": "A CLI tool & library to enhance and speed up script/exploit writing for CTF players.",
     "url": "https://noraj.github.io/ctf-party/",
     "groups": [
       "misc"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "cve-api",
@@ -702,13 +702,13 @@
   },
   {
     "name": "leo",
-    "version": "40030.ada28bd871",
+    "version": "40431.5be0137c63",
     "description": "Literate programmer's editor, outliner, and project manager.",
     "url": "https://github.com/leo-editor/leo-editor",
     "groups": [
       "misc"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "magictree",
@@ -722,14 +722,14 @@
   },
   {
     "name": "mapcidr",
-    "version": "v1.1.97.r247.g7d653d1",
+    "version": "v1.1.97.r262.g65b15a1",
     "description": "Utility program to perform multiple operations for a given subnet/CIDR ranges.",
     "url": "https://github.com/projectdiscovery/mapcidr",
     "groups": [
       "misc",
       "networking"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-11-15"
   },
   {
     "name": "metaforge",
@@ -815,13 +815,13 @@
   },
   {
     "name": "nsearch",
-    "version": "353.bd8205b",
+    "version": "437.ae92b48",
     "description": "Minimal script to help find script into the nse database.",
     "url": "https://github.com/jtibaquira/nsearch",
     "groups": [
       "misc"
     ],
-    "updated": "2020-12-04"
+    "updated": "2026-11-15"
   },
   {
     "name": "one-lin3r",
@@ -855,14 +855,14 @@
   },
   {
     "name": "pass-station",
-    "version": "v3.0.0.r35.g3b196ae",
+    "version": "v3.0.0.r38.gabc3273",
     "description": "CLI & library to search for default credentials among thousands of Products / Vendors.",
     "url": "https://noraj.github.io/pass-station/",
     "groups": [
       "misc",
       "recon"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "passdetective",
@@ -1248,14 +1248,14 @@
   },
   {
     "name": "suricata-verify",
-    "version": "suricata.8.0.8.r0.g5ee5412",
+    "version": "suricata.8.0.8.r146.gfe11172",
     "description": "Suricata Verification Tests - Testing Suricata Output.",
     "url": "https://github.com/OISF/suricata-verify",
     "groups": [
       "misc",
       "ids"
     ],
-    "updated": "2026-11-01"
+    "updated": "2026-11-15"
   },
   {
     "name": "tcpxtract",

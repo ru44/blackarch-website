@@ -408,13 +408,13 @@
   },
   {
     "name": "clair",
-    "version": "2224.34177047",
+    "version": "2235.e66370dc",
     "description": "Vulnerability Static Analysis for Containers.",
     "url": "https://github.com/quay/clair",
     "groups": [
       "scanner"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "climber",
@@ -563,7 +563,7 @@
     "name": "davtest",
     "version": "3.a282c58",
     "description": "Tests WebDAV enabled servers by uploading test executable files, and then (optionally) uploading files which allow for command execution or other actions directly on the target.",
-    "url": "http://code.google.com/p/davtest/",
+    "url": "https://code.google.com/archive/p/davtest",
     "groups": [
       "scanner"
     ],
@@ -751,13 +751,13 @@
   },
   {
     "name": "dockerscan",
-    "version": "latest.r117.g8e5d3b3",
+    "version": "latest.r131.g4e3ffca",
     "description": "Docker security analysis & hacking tools.",
     "url": "https://github.com/cr0hn/dockerscan",
     "groups": [
       "scanner"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "dorkbot",
@@ -1278,7 +1278,7 @@
     "name": "host-extract",
     "version": "8.0134ad7",
     "description": "Ruby script tries to extract all IP/Host patterns in page response of a given URL and JavaScript/CSS files of that URL.",
-    "url": "https://code.google.com/p/host-extract/",
+    "url": "https://code.google.com/archive/p/host-extract",
     "groups": [
       "scanner",
       "webapp"
@@ -1319,7 +1319,7 @@
     "name": "httpsscanner",
     "version": "1.2",
     "description": "A tool to test the strength of a SSL web server.",
-    "url": "https://code.google.com/p/libre-tools/",
+    "url": "https://code.google.com/archive/p/libre-tools",
     "groups": [
       "scanner",
       "crypto"
@@ -1330,7 +1330,7 @@
     "name": "iaxscan",
     "version": "0.02",
     "description": "A Python based scanner for detecting live IAX/2 hosts and then enumerating (by bruteforce) users on those hosts.",
-    "url": "http://code.google.com/p/iaxscan/",
+    "url": "https://code.google.com/archive/p/iaxscan",
     "groups": [
       "scanner",
       "cracker"
@@ -1617,7 +1617,7 @@
     "name": "littleblackbox",
     "version": "0.1.3",
     "description": "Penetration testing tool, search in a collection of thousands of private SSL keys extracted from various embedded devices.",
-    "url": "http://code.google.com/p/littleblackbox/wiki/FAQ",
+    "url": "https://code.google.com/archive/p/littleblackbox",
     "groups": [
       "scanner",
       "fuzzer",
@@ -1682,14 +1682,14 @@
   },
   {
     "name": "manspider",
-    "version": "144.ee228a4",
+    "version": "146.5e40b58",
     "description": "Spider entire networks for juicy files sitting on SMB shares. Search filenames or file content - regex supported!",
     "url": "https://github.com/blacklanternsecurity/MANSPIDER",
     "groups": [
       "scanner",
       "recon"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "mantra",
@@ -1719,7 +1719,7 @@
     "name": "modscan",
     "version": "0.1",
     "description": "A new tool designed to map a SCADA MODBUS TCP based network.",
-    "url": "https://code.google.com/p/modscan/",
+    "url": "https://code.google.com/archive/p/modscan",
     "groups": [
       "scanner",
       "recon"
@@ -1782,13 +1782,13 @@
   },
   {
     "name": "naabu",
-    "version": "v2.6.1.r143.g6f69a8b",
+    "version": "v2.6.1.r161.g9678e5b",
     "description": "A fast port scanner written in go with focus on reliability and simplicity.",
     "url": "https://github.com/projectdiscovery/naabu",
     "groups": [
       "scanner"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "navgix",
@@ -1945,7 +1945,7 @@
   },
   {
     "name": "nuclei",
-    "version": "v3.11.1.r579.gdf57ae6",
+    "version": "v3.11.1.r731.gfe3421e",
     "description": "A fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.",
     "url": "https://github.com/projectdiscovery/nuclei",
     "groups": [
@@ -1954,7 +1954,7 @@
       "recon",
       "fingerprint"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "o-saft",
@@ -2016,14 +2016,14 @@
   },
   {
     "name": "pagodo",
-    "version": "166.3228879",
+    "version": "168.26fbf13",
     "description": "Google dork script to collect potentially vulnerable web pages and applications on the Internet.",
     "url": "https://github.com/opsdisk/pagodo",
     "groups": [
       "scanner",
       "recon"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-11-15"
   },
   {
     "name": "paketto",
@@ -2089,13 +2089,13 @@
   },
   {
     "name": "peass",
-    "version": "20261029.a596a9f3.r0.g712a4f4",
+    "version": "20261114.6cd5cfdc.r0.gc23d6e7",
     "description": "Privilege Escalation Awesome Scripts SUITE (with colors).",
     "url": "https://github.com/peass-ng/PEASS-ng",
     "groups": [
       "scanner"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "pentestly",
@@ -2274,14 +2274,14 @@
   },
   {
     "name": "rbac-lookup",
-    "version": "v0.10.3.r0.g46385c5",
+    "version": "v0.10.3.r1.ga0246d0",
     "description": "A CLI that allows you to easily find Kubernetes roles and cluster roles bound to any user.",
     "url": "https://github.com/FairwindsOps/rbac-lookup",
     "groups": [
       "scanner",
       "recon"
     ],
-    "updated": "2025-08-02"
+    "updated": "2026-11-15"
   },
   {
     "name": "rdp-cipher-checker",
@@ -2454,7 +2454,7 @@
     "name": "scamper",
     "version": "20240920",
     "description": "A tool that actively probes the Internet in order to analyze topology and performance.",
-    "url": "http://www.caida.org/tools/measurement/scamper/",
+    "url": "https://www.caida.org/catalog/software/scamper/",
     "groups": [
       "scanner",
       "recon",
@@ -2822,13 +2822,13 @@
   },
   {
     "name": "sslscan2",
-    "version": "777.468b141",
+    "version": "792.ff6763d",
     "description": "Tests SSL/TLS enabled services to discover supported cipher suites.",
     "url": "https://github.com/rbsec/sslscan",
     "groups": [
       "scanner"
     ],
-    "updated": "2026-09-28"
+    "updated": "2026-11-15"
   },
   {
     "name": "stacs",
@@ -2994,24 +2994,24 @@
   },
   {
     "name": "titus",
-    "version": "v1.2.11.r15.gbfc5a99",
+    "version": "v1.3.0.r7.gb3964d4",
     "description": "High-performance secrets scanner based on NoseyParker.",
     "url": "https://github.com/praetorian-inc/titus",
     "groups": [
       "scanner",
       "code-audit"
     ],
-    "updated": "2026-11-01"
+    "updated": "2026-11-15"
   },
   {
     "name": "tlsx",
-    "version": "v1.4.3.r3.gf77159c",
+    "version": "v1.4.5.r2.g1e8eb10",
     "description": "TLS grabber focused on TLS based data collection.",
     "url": "https://github.com/projectdiscovery/tlsx",
     "groups": [
       "scanner"
     ],
-    "updated": "2026-11-01"
+    "updated": "2026-11-15"
   },
   {
     "name": "topera",

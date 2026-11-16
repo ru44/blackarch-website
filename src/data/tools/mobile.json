@@ -280,7 +280,7 @@
   },
   {
     "name": "frida-ios-dump",
-    "version": "62.8395374",
+    "version": "64.42c933a",
     "description": "Pull decrypted ipa from jailbreak device.",
     "url": "https://github.com/AloneMonkey/frida-ios-dump",
     "groups": [
@@ -288,7 +288,7 @@
       "reversing",
       "binary"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-11-15"
   },
   {
     "name": "ghost",
@@ -348,13 +348,13 @@
   },
   {
     "name": "mobsf",
-    "version": "v4.6.4.r15.gb310497",
+    "version": "v4.6.6.r0.gfe1fa16",
     "description": "An intelligent, all-in-one open source mobile application (Android/iOS) automated pen-testing framework capable of performing static, dynamic analysis and web API testing.",
     "url": "https://github.com/MobSF/Mobile-Security-Framework-MobSF",
     "groups": [
       "mobile"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "needle",

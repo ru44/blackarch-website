@@ -1,14 +1,14 @@
 [
   {
     "name": "adversarial-robustness-toolbox",
-    "version": "1.20.1.r258.ge8cfffd",
+    "version": "1.20.1.r292.g4de5d22",
     "description": "Python Library for Machine Learning Security.",
     "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox",
     "groups": [
       "ai",
       "defensive"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "aimap",
@@ -47,14 +47,14 @@
   },
   {
     "name": "deepzero",
-    "version": "deepzero.v0.4.0.r4.g1bf1818",
+    "version": "deepzero.v0.5.0.r2.gb26865b",
     "description": "Find zero-days while you sleep. An automated vulnerability research framework.",
     "url": "https://github.com/416rehman/DeepZero",
     "groups": [
       "ai",
       "automation"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "evil-opencode",
@@ -68,24 +68,24 @@
   },
   {
     "name": "garak",
-    "version": "0.17.1.r31.g4b7761c",
+    "version": "0.17.1.r94.g8927792",
     "description": "The LLM vulnerability scanner.",
     "url": "https://github.com/NVIDIA/garak",
     "groups": [
       "ai",
       "scanner"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "giskard",
-    "version": "3.0.1.r32.g9a30fc3",
+    "version": "3.0.1.r48.g32fb9cf",
     "description": "Evaluation, testing and vulnerability scanning framework for AI agents.",
     "url": "https://github.com/Giskard-AI/giskard-oss",
     "groups": [
       "ai"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "medusa-ai",
