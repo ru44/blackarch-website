@@ -1,15 +1,17 @@
 ---
-title: Kılavuz
-pageClass: wide
+description: "BlackArch Linux kılavuzu 13 dilde PDF olarak ve adım adım kurulum rehberi."
 outline: false
+pageClass: wide
+title: Kılavuz
+translated: true
 ---
 
-<div class="ba-banner">
+<script setup>
+import GuideLangs from '@/components/GuideLangs.vue'
+</script>
 
-::: info
-Bu sayfa henüz çevrilmedi, İngilizce sürüm gösteriliyor. [Çeviriye yardım edin](https://github.com/ru44/blackarch-website).
-:::
+# BlackArch belgeleri
 
-</div>
+Bu, BlackArch Linux'un resmî kılavuzudur. Kılavuz oldukça yeni; yazım hatalarını ve eksikleri lütfen hoş görün. Yakında BlackArch Linux hakkında aklınıza gelebilecek her bilgiyi içerecek. Kılavuzu bölüm bölüm PDF olarak sunuyoruz.
 
-<!--@include: ../en/guide.md-->
+<GuideLangs />

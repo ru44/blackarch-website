@@ -1,15 +1,17 @@
 ---
-title: SSS
+description: "BlackArch Linux'u seçme, kurma, güncelleme ve sorun gidermeyle ilgili sık sorulan soruların yanıtları."
 pageClass: wide
 outline: false
+title: SSS
+translated: true
 ---
 
-<div class="ba-banner">
+<script setup>
+import FaqList from '@/components/FaqList.vue'
+</script>
 
-::: info
-Bu sayfa henüz çevrilmedi, İngilizce sürüm gösteriliyor. [Çeviriye yardım edin](https://github.com/ru44/blackarch-website).
-:::
+# Sık sorulan sorular
 
-</div>
+BlackArch'ı seçme, kurma ve güncelleme hakkında kısa yanıtlar. Arama yapın, konuya göre süzün ya da komutları görmek için bir soruyu açın.
 
-<!--@include: ../en/faq.md-->
+<FaqList />

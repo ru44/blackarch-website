@@ -1,15 +1,22 @@
 ---
-title: Topluluk ve haberler
+description: "BlackArch Linux topluluğunu ve ekibini nerede bulursunuz: Matrix, GitHub, X, YouTube, RSS ve e-posta."
 pageClass: wide
 outline: false
+title: Topluluk ve haberler
+translated: true
 ---
 
-<div class="ba-banner">
+<script setup>
+import CommunityHub from '@/components/CommunityHub.vue'
+import DevelopersList from '@/components/DevelopersList.vue'
+</script>
 
-::: info
-Bu sayfa henüz çevrilmedi, İngilizce sürüm gösteriliyor. [Çeviriye yardım edin](https://github.com/ru44/blackarch-website).
-:::
+# Topluluk ve haberler
 
-</div>
+BlackArch'ı zaten kullandığınız yerlerde bulabilirsiniz. Ekibin yalnızca kendisine ulaşmasını istediğiniz her konu için <a href="mailto:team@blackarch.org">team@blackarch.org</a> adresine yazın.
 
-<!--@include: ../en/community.md-->
+<CommunityHub />
+
+## Ekip
+
+<DevelopersList />
