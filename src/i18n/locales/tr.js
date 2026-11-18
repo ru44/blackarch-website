@@ -6,8 +6,8 @@ export default {
     quick: "Hızlı kurulum komutu",
     stats: [
       { n: "2800+", l: "araç paketi" },
-      { n: "x86_64", l: "+ Arch ARM ile ARM" },
-      { n: "Rolling", l: "pacman ile sürümler" },
+      { n: "x86_64", l: "+ Arch ARM üzerinden ARM" },
+      { n: "Rolling", l: "release, pacman ile" },
       { n: "2013", l: "ilk sürüm" },
     ],
     features: [
@@ -51,7 +51,7 @@ export default {
     noMatch: "Eşleşen yansı yok",
     clear: "Aramayı temizle",
     copy: "kopyala",
-    ok: "tamam",
+    ok: "kopyalandı",
   },
   donate: {
     title: "BlackArch'ın özgür kalmasına yardım edin",
@@ -60,7 +60,8 @@ export default {
     method: "Ödeme yöntemi",
     paypalTab: "PayPal",
     btcTab: "Bitcoin",
-    paypalText: "PayPal'ın güvenli sayfasında istediğiniz tutarı seçin. Kart veya PayPal bakiyesi.",
+    paypalText:
+      "PayPal'ın güvenli sayfasında istediğiniz tutarı seçin. Kartla veya PayPal bakiyenizle ödeyebilirsiniz.",
     paypalCta: "PayPal ile bağış yap",
     wallet: "Cüzdanda aç",
     copy: "kopyala",
@@ -107,7 +108,10 @@ export default {
         t: "Issue takipçisi",
         d: "Hata bildirimleri ve araç istekleri burada kaydedilir ve işlenir.",
       },
-      { t: "Pull request'ler", d: "Şu anda paketlenen, güncellenen ve yayımlanan şeyler." },
+      {
+        t: "Pull request'ler",
+        d: "Şu anda nelerin paketlendiğini, güncellendiğini ve yayımlandığını görün.",
+      },
       { t: "Duyurular", d: "Haberler Matrix, YouTube ve X'te yayımlanır. RSS beslemesi de var." },
     ],
   },
@@ -155,7 +159,7 @@ export default {
     sortTop: "En popüler",
     sortUpdated: "Son güncellenenler",
     topNote: "Her aracın kaynak deposunun GitHub yıldız sayısına göre sıralanır.",
-    updated: "Güncellendi",
+    updated: "Güncellenme",
     stars: "Yıldız",
     moreCategories: (n) => `${n} tane daha`,
     fewerCategories: "Daha az göster",
