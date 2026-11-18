@@ -20,6 +20,7 @@
   --ba-radius-sm: 8px;
   --ba-shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 8px 24px -12px rgba(0, 0, 0, 0.18);
   --ba-grid: rgba(0, 0, 0, 0.045);
+  --ba-scrollbar-thumb: rgba(0, 0, 0, 0.22);
 
   --vp-font-family-mono: ui-monospace, "JetBrains Mono", "Fira Code", SFMono-Regular, Menlo,
     Consolas, monospace;
@@ -35,6 +36,7 @@
 
   --ba-shadow: 0 1px 0 rgba(255, 255, 255, 0.03) inset, 0 12px 32px -16px rgba(0, 0, 0, 0.8);
   --ba-grid: rgba(255, 255, 255, 0.035);
+  --ba-scrollbar-thumb: rgba(255, 255, 255, 0.16);
 }
 
 /* VitePress colour scales: https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css */

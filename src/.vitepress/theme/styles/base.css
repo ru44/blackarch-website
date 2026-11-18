@@ -7,6 +7,42 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Scrollbars: a slim rounded thumb on the page background */
+@supports selector(::-webkit-scrollbar) {
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track,
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border: 2px solid transparent;
+    border-radius: 999px;
+    background-color: var(--ba-scrollbar-thumb);
+    background-clip: content-box;
+  }
+
+  ::-webkit-scrollbar-thumb:hover,
+  ::-webkit-scrollbar-thumb:active {
+    background-color: var(--ba-accent);
+  }
+
+  html::-webkit-scrollbar-track {
+    background: var(--vp-c-bg);
+  }
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  html {
+    scrollbar-color: var(--ba-scrollbar-thumb) var(--vp-c-bg);
+    scrollbar-width: thin;
+  }
+}
+
 ::selection {
   background: var(--ba-accent);
   color: #fff;
@@ -31,8 +67,20 @@ html {
   backdrop-filter: blur(12px);
 }
 
-.VPNav .VPNavBar {
-  border-bottom: 1px solid var(--vp-c-divider);
+/* One divider under the whole bar, on every page. VitePress draws its own in
+   three pieces (under the title, under the links and a gutter line), which do
+   not line up next to the sidebar. */
+.VPNavBar .divider {
+  padding-inline: 0 !important;
+  background-color: transparent !important;
+}
+
+.VPNavBar .divider-line {
+  background-color: var(--vp-c-divider) !important;
+}
+
+.VPNavBarTitle .title {
+  border-bottom-color: transparent !important;
 }
 
 .VPNavBarTitle .title {
