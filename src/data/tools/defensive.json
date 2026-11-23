@@ -99,14 +99,14 @@
   },
   {
     "name": "fastnetmon",
-    "version": "v1.2.9.r70.g1f285649",
+    "version": "v1.2.9.r74.g751a5965",
     "description": "High performance DoS/DDoS load analyzer built on top of multiple packet capture engines.",
     "url": "https://github.com/pavel-odintsov/fastnetmon",
     "groups": [
       "defensive",
       "sniffer"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-22"
   },
   {
     "name": "fssb",
@@ -195,7 +195,7 @@
   },
   {
     "name": "maltrail",
-    "version": "3.5.r112.g6e4023d",
+    "version": "3.6.r31.gc5075c9",
     "description": "Malicious traffic detection system.",
     "url": "https://github.com/stamparm/maltrail",
     "groups": [
@@ -203,7 +203,7 @@
       "networking",
       "sniffer"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-22"
   },
   {
     "name": "mat",
@@ -218,14 +218,14 @@
   },
   {
     "name": "munin-hashchecker",
-    "version": "260.cf6cbe9",
+    "version": "273.cfe6a0e",
     "description": "Online hash checker for Virustotal and other services",
     "url": "https://github.com/Neo23x0/munin",
     "groups": [
       "defensive",
       "forensic"
     ],
-    "updated": "2026-09-28"
+    "updated": "2026-11-22"
   },
   {
     "name": "nipe",
@@ -294,14 +294,14 @@
   },
   {
     "name": "prowler",
-    "version": "9353.67aa941012",
+    "version": "9517.02d631d3a5",
     "description": "Tool for AWS security assessment, auditing and hardening.",
     "url": "https://github.com/prowler-cloud/prowler",
     "groups": [
       "defensive",
       "scanner"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-22"
   },
   {
     "name": "quicksand-lite",
@@ -426,13 +426,13 @@
   },
   {
     "name": "tor-browser",
-    "version": "16.0",
+    "version": "16.0.1",
     "description": "Tor Browser Bundle: anonymous browsing using Firefox and Tor.",
     "url": "https://download.torproject.org/tor-browser-for-desktop/",
     "groups": [
       "defensive"
     ],
-    "updated": "2026-11-01"
+    "updated": "2026-11-15"
   },
   {
     "name": "tor-router",
@@ -466,14 +466,14 @@
   },
   {
     "name": "yeti",
-    "version": "3571.40fe769b",
+    "version": "3588.77174582",
     "description": "A platform meant to organize observables, indicators of compromise, TTPs, and knowledge on threats in a single, unified repository.",
     "url": "https://github.com/yeti-platform/yeti",
     "groups": [
       "defensive",
       "recon"
     ],
-    "updated": "2026-11-01"
+    "updated": "2026-11-22"
   },
   {
     "name": "zeus",

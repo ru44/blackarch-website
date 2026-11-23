@@ -1,13 +1,13 @@
 [
   {
     "name": "adassault",
-    "version": "0.0.4.r29.g7a85b8e",
+    "version": "0.0.4.r31.gdd001ba",
     "description": "An Active Directory environments pentest tool complementary to existing ones like NetExec.",
     "url": "https://noraj.github.io/ADAssault/",
     "groups": [
       "networking"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "aiengine",
@@ -98,13 +98,13 @@
   },
   {
     "name": "asnmap",
-    "version": "v1.2.0.r0.gab84a74",
+    "version": "v1.2.0.r1.g6ee0efc",
     "description": "Map organization network ranges using ASN information.",
     "url": "https://github.com/projectdiscovery/asnmap",
     "groups": [
       "networking"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-22"
   },
   {
     "name": "autovpn",
@@ -258,13 +258,13 @@
   },
   {
     "name": "dnsdiag",
-    "version": "v2.10.0.r2.g7bc7ac7",
+    "version": "v2.10.1.r8.gaad7903",
     "description": "DNS Diagnostics and Performance Measurement Tools.",
     "url": "https://dnsdiag.org/",
     "groups": [
       "networking"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-11-22"
   },
   {
     "name": "dnsfilexfer",
@@ -363,14 +363,14 @@
   },
   {
     "name": "exabgp",
-    "version": "nightly.r0.gd6adb5d",
+    "version": "nightly.r4.gdeb054e",
     "description": "The BGP swiss army knife of networking.",
     "url": "https://github.com/Exa-Networks/exabgp",
     "groups": [
       "networking",
       "defensive"
     ],
-    "updated": "2026-11-01"
+    "updated": "2026-11-22"
   },
   {
     "name": "filibuster",
@@ -503,14 +503,14 @@
   },
   {
     "name": "infection-monkey",
-    "version": "v2.2.0.r3599.ga55fc8d",
+    "version": "v2.2.0.r3600.gbea2f41",
     "description": "Automated security testing tool for networks.",
     "url": "https://github.com/guardicore/monkey",
     "groups": [
       "networking",
       "automation"
     ],
-    "updated": "2026-01-12"
+    "updated": "2026-11-15"
   },
   {
     "name": "interlace",
@@ -1293,14 +1293,14 @@
   },
   {
     "name": "stunner",
-    "version": "v0.5.8.r191.g3842eab",
+    "version": "v0.5.8.r196.gd2eb255",
     "description": "Test and exploit STUN, TURN and TURN over TCP servers.",
     "url": "https://github.com/firefart/stunner",
     "groups": [
       "networking",
       "webapp"
     ],
-    "updated": "2026-11-01"
+    "updated": "2026-11-22"
   },
   {
     "name": "tcpcopy",
@@ -1547,7 +1547,7 @@
   },
   {
     "name": "zeek-aux",
-    "version": "794.f1f4bc5",
+    "version": "798.ec4d022",
     "description": "Handy auxiliary programs related to the use of the Zeek Network Security Monitor.",
     "url": "https://github.com/zeek/zeek-aux",
     "groups": [
@@ -1555,6 +1555,6 @@
       "defensive",
       "sniffer"
     ],
-    "updated": "2026-09-28"
+    "updated": "2026-11-15"
   }
 ]

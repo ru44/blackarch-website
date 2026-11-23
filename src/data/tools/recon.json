@@ -158,13 +158,13 @@
   },
   {
     "name": "bbot",
-    "version": "v3.0.2.r0.ga6fb827",
+    "version": "v3.1.0.r4.g806554d",
     "description": "Multipurpose scanner built to automate your Recon, Bug Bounties, and ASM.",
     "url": "https://github.com/blacklanternsecurity/bbot",
     "groups": [
       "recon"
     ],
-    "updated": "2026-09-06"
+    "updated": "2026-11-22"
   },
   {
     "name": "bfac",
@@ -264,23 +264,23 @@
   },
   {
     "name": "certgraph",
-    "version": "200.7c8dd0d",
+    "version": "202.13c3381",
     "description": "Crawl the graph of certificate Alternate Names.",
     "url": "https://github.com/lanrat/certgraph",
     "groups": [
       "recon"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-11-22"
   },
   {
     "name": "chaos-client",
-    "version": "286.b0522e0",
+    "version": "294.4fb03a5",
     "description": "Go client to communicate with Chaos dataset API.",
     "url": "https://github.com/projectdiscovery/chaos-client",
     "groups": [
       "recon"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-11-22"
   },
   {
     "name": "chronoleak",
@@ -335,13 +335,13 @@
   },
   {
     "name": "cloudlist",
-    "version": "1017.b4c3216",
+    "version": "1029.97ba7c3",
     "description": "A tool for listing Assets from multiple Cloud Providers.",
     "url": "https://github.com/projectdiscovery/cloudlist",
     "groups": [
       "recon"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-22"
   },
   {
     "name": "cloudmare",
@@ -523,13 +523,13 @@
   },
   {
     "name": "dnsx",
-    "version": "v1.2.1.r493.gc72b42d",
+    "version": "v1.2.1.r500.gf98967b",
     "description": "Fast and multi-purpose DNS toolkit allow to run multiple DNS queries of your choice with a list of user-supplied resolvers.",
     "url": "https://github.com/projectdiscovery/dnsx",
     "groups": [
       "recon"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-22"
   },
   {
     "name": "domain-analyzer",
@@ -575,14 +575,14 @@
   },
   {
     "name": "dradis-ce",
-    "version": "v5.0.0.r892.g26c057b",
+    "version": "v5.4.0.r262.g7bb5ddf",
     "description": "An open source framework to enable effective information sharing.",
     "url": "https://dradis.com/ce/",
     "groups": [
       "recon",
       "misc"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-22"
   },
   {
     "name": "elevate",
@@ -1070,13 +1070,13 @@
   },
   {
     "name": "hoper",
-    "version": "v0.1.1.r0.g8d5dbd9",
+    "version": "v1.0.1.r0.g65fcc35",
     "description": "Trace URL's jumps across the rel links to obtain the last URL.",
     "url": "https://github.com/gabamnml/hoper",
     "groups": [
       "recon"
     ],
-    "updated": "2025-10-02"
+    "updated": "2026-11-15"
   },
   {
     "name": "hosthunter",
@@ -1396,13 +1396,13 @@
   },
   {
     "name": "linux-exploit-suggester.sh",
-    "version": "189.bde0967",
+    "version": "190.ac83741",
     "description": "Linux privilege escalation auditing tool.",
     "url": "https://github.com/The-Z-Labs/linux-exploit-suggester",
     "groups": [
       "recon"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-11-22"
   },
   {
     "name": "littlebrother",
@@ -1762,14 +1762,14 @@
   },
   {
     "name": "pius-pi",
-    "version": "1.3.18.r0.gff1dbcb",
+    "version": "1.3.21.r0.g3a85f37",
     "description": "Organizational asset discovery tool with 20+ plugins covering certificate transparency, passive DNS, and all 5 Regional Internet Registries.",
     "url": "https://github.com/praetorian-inc/pius",
     "groups": [
       "recon",
       "scanner"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-11-22"
   },
   {
     "name": "pmapper",
@@ -2058,13 +2058,13 @@
   },
   {
     "name": "rita",
-    "version": "v5.1.2.r5.g1317d70",
+    "version": "v5.1.3.r0.gbf1a126",
     "description": "Real Intelligence Threat Analytics.",
     "url": "https://github.com/activecm/rita",
     "groups": [
       "recon"
     ],
-    "updated": "2026-06-29"
+    "updated": "2026-11-22"
   },
   {
     "name": "rusthound",
@@ -2078,14 +2078,14 @@
   },
   {
     "name": "rusthound-ce",
-    "version": "v2.5.30.r0.gbaa7285",
+    "version": "v2.5.52.r0.g886f66a",
     "description": "Active Directory data collector for BloodHound community edition (v5).",
     "url": "https://github.com/g0h4n/RustHound-CE",
     "groups": [
       "recon",
       "windows"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-22"
   },
   {
     "name": "s3enum",
@@ -2100,14 +2100,14 @@
   },
   {
     "name": "scavenger",
-    "version": "118.8f5d432",
+    "version": "156.63d81a9",
     "description": "Crawler (Bot) searching for credential leaks on different paste sites.",
     "url": "https://github.com/rndinfosecguy/Scavenger",
     "groups": [
       "recon",
       "social"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-22"
   },
   {
     "name": "screamer",
@@ -2340,13 +2340,13 @@
   },
   {
     "name": "subfinder",
-    "version": "v2.14.0.r104.g5e3e2c9b",
+    "version": "v2.14.0.r128.g7f07803a",
     "description": "Modular subdomain discovery tool that can discover massive amounts of valid subdomains for any target.",
     "url": "https://github.com/projectdiscovery/subfinder",
     "groups": [
       "recon"
     ],
-    "updated": "2026-11-01"
+    "updated": "2026-11-22"
   },
   {
     "name": "sublert",

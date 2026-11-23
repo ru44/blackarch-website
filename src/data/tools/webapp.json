@@ -113,13 +113,13 @@
   },
   {
     "name": "badsecrets",
-    "version": "1.3.0.r4.g66e88a0",
+    "version": "1.3.0.r5.g78176c2",
     "description": "A library for detecting known secrets across many web frameworks.",
     "url": "https://github.com/blacklanternsecurity/badsecrets",
     "groups": [
       "webapp"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "bbqsql",
@@ -193,7 +193,7 @@
     "name": "bsqlbf",
     "version": "2.7",
     "description": "Blind SQL Injection Brute Forcer.",
-    "url": "http://code.google.com/p/bsqlbf-v2/",
+    "url": "https://code.google.com/archive/p/bsqlbf-v2",
     "groups": [
       "webapp"
     ],
@@ -201,18 +201,18 @@
   },
   {
     "name": "bsqlinjector",
-    "version": "14.98c8ce8",
+    "version": "17.a580ba0",
     "description": "Blind SQL injection exploitation tool written in ruby.",
     "url": "https://github.com/enjoiz/BSQLinjector",
     "groups": [
       "webapp",
       "exploitation"
     ],
-    "updated": "2025-04-29"
+    "updated": "2026-11-22"
   },
   {
     "name": "burpsuite",
-    "version": "2026.10.1",
+    "version": "2026.11.2",
     "description": "An integrated platform for attacking web applications (community edition) + SHELLING plugin.",
     "url": "https://portswigger.net/burp/releases",
     "groups": [
@@ -221,7 +221,7 @@
       "scanner",
       "fuzzer"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-22"
   },
   {
     "name": "c5scan",
@@ -239,7 +239,7 @@
     "name": "caido-cli",
     "version": "0.57.1",
     "description": "Intercepting proxy to replay, inject, scan and fuzz HTTP requests.",
-    "url": "https://caido.io/",
+    "url": "https://www.caido.io/",
     "groups": [
       "webapp",
       "proxy",
@@ -252,7 +252,7 @@
     "name": "caido-desktop",
     "version": "0.57.1",
     "description": "Intercepting proxy to replay, inject, scan and fuzz HTTP requests.",
-    "url": "https://caido.io/",
+    "url": "https://www.caido.io/",
     "groups": [
       "webapp",
       "proxy",
@@ -350,7 +350,7 @@
   },
   {
     "name": "cmseek",
-    "version": "387.03a6e7f",
+    "version": "389.78f6782",
     "description": "CMS (Content Management Systems) Detection and Exploitation suite.",
     "url": "https://github.com/Tuhinshubhra/CMSeeK",
     "groups": [
@@ -358,7 +358,7 @@
       "fingerprint",
       "exploitation"
     ],
-    "updated": "2026-07-19"
+    "updated": "2026-11-22"
   },
   {
     "name": "cmsfuzz",
@@ -522,7 +522,7 @@
   },
   {
     "name": "dalfox",
-    "version": "v3.2.4.r76.g4d0c075",
+    "version": "v3.3.0.r131.g3b5c39d",
     "description": "Powerful open-source XSS scanner and utility focused on automation.",
     "url": "https://github.com/hahwul/dalfox",
     "groups": [
@@ -530,7 +530,7 @@
       "fuzzer",
       "scanner"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-22"
   },
   {
     "name": "darkdump",
@@ -633,14 +633,14 @@
   },
   {
     "name": "dirsearch",
-    "version": "3033.b45e01bb",
+    "version": "3038.461705af",
     "description": "HTTP(S) directory/file brute forcer.",
     "url": "https://github.com/maurosoria/dirsearch",
     "groups": [
       "webapp",
       "scanner"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-11-15"
   },
   {
     "name": "docem",
@@ -879,7 +879,7 @@
   },
   {
     "name": "feroxbuster",
-    "version": "v2.13.1.r27.gdba16dd",
+    "version": "v2.14.0.r0.gf89b6c6",
     "description": "A fast, simple, recursive content discovery tool written in Rust.",
     "url": "https://github.com/epi052/feroxbuster",
     "groups": [
@@ -887,7 +887,7 @@
       "scanner",
       "fuzzer"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "ffuf",
@@ -1283,14 +1283,14 @@
   },
   {
     "name": "httpx",
-    "version": "v1.11.0.r59.gbab476e",
+    "version": "v1.11.0.r140.g200e6ff",
     "description": "A fast and multi-purpose HTTP toolkit allow to run multiple probers using retryablehttp library.",
     "url": "https://github.com/projectdiscovery/httpx",
     "groups": [
       "webapp",
       "scanner"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-22"
   },
   {
     "name": "identywaf",
@@ -1317,13 +1317,13 @@
   },
   {
     "name": "interactsh-client",
-    "version": "v1.4.1.r7.gb31a05d",
+    "version": "v1.4.1.r21.gdae508c",
     "description": "Open-Source Solution for Out of band Data Extraction.",
     "url": "https://github.com/projectdiscovery/interactsh",
     "groups": [
       "webapp"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-22"
   },
   {
     "name": "ipsourcebypass",
@@ -1550,14 +1550,14 @@
   },
   {
     "name": "jwt-hack",
-    "version": "v2.6.0.r153.g084ed01",
+    "version": "v2.6.0.r183.gc5b6824",
     "description": "A tool for hacking / security testing to JWT.",
     "url": "https://github.com/hahwul/jwt-hack",
     "groups": [
       "webapp",
       "cracker"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-22"
   },
   {
     "name": "kadimus",
@@ -1573,14 +1573,14 @@
   },
   {
     "name": "katana-pd",
-    "version": "v1.8.0.r100.ge1a9ba74",
+    "version": "v1.8.0.r211.g732936b3",
     "description": "Crawling and spidering framework.",
     "url": "https://github.com/projectdiscovery/katana",
     "groups": [
       "webapp",
       "scanner"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-22"
   },
   {
     "name": "kiterunner",
@@ -2273,14 +2273,14 @@
   },
   {
     "name": "rabid",
-    "version": "v0.3.0.r35.gb242107",
+    "version": "v0.3.0.r37.gc09dada",
     "description": "A CLI tool and library allowing to simply decode all kind of BigIP cookies.",
     "url": "https://noraj.github.io/rabid/",
     "groups": [
       "webapp",
       "misc"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "rapidscan",
@@ -2486,14 +2486,14 @@
   },
   {
     "name": "shuffledns",
-    "version": "851.bc31821",
+    "version": "853.09a33b4",
     "description": "A wrapper around massdns written in GO.",
     "url": "https://github.com/projectdiscovery/shuffledns",
     "groups": [
       "webapp",
       "scanner"
     ],
-    "updated": "2026-01-21"
+    "updated": "2026-11-22"
   },
   {
     "name": "sitadel",
@@ -2533,7 +2533,7 @@
     "name": "skipfish",
     "version": "2.10b",
     "description": "A fully automated, active web application security reconnaissance tool.",
-    "url": "http://code.google.com/p/skipfish/",
+    "url": "https://code.google.com/archive/p/skipfish",
     "groups": [
       "webapp",
       "scanner",
@@ -2859,14 +2859,14 @@
   },
   {
     "name": "urx",
-    "version": "0.11.0.r132.g3caebea",
+    "version": "0.11.0.r196.g9eddc9d",
     "description": "Extracts URLs from OSINT Archives for Security Insights.",
     "url": "https://github.com/hahwul/urx",
     "groups": [
       "webapp",
       "recon"
     ],
-    "updated": "2026-11-01"
+    "updated": "2026-11-22"
   },
   {
     "name": "vane",
@@ -2985,7 +2985,7 @@
   },
   {
     "name": "wapiti",
-    "version": "3.3.2.r10.g1e81698",
+    "version": "3.3.4.r6.g6df6867",
     "description": "A vulnerability scanner for web applications.",
     "url": "https://github.com/wapiti-scanner/wapiti",
     "groups": [
@@ -2993,7 +2993,7 @@
       "scanner",
       "fuzzer"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-11-22"
   },
   {
     "name": "wascan",

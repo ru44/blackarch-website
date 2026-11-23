@@ -1,13 +1,13 @@
 [
   {
     "name": "alterx",
-    "version": "v0.1.0.r17.g3329d23",
+    "version": "v0.1.0.r28.g9cf9fe0",
     "description": "Fast and customizable subdomain wordlist generator using DSL.",
     "url": "https://github.com/projectdiscovery/alterx",
     "groups": [
       "misc"
     ],
-    "updated": "2026-10-24"
+    "updated": "2026-11-22"
   },
   {
     "name": "archivebox",
@@ -187,13 +187,13 @@
   },
   {
     "name": "ctf-party",
-    "version": "5.0.0.r58.g8dfd12a",
+    "version": "5.0.0.r60.g80a6c50",
     "description": "A CLI tool & library to enhance and speed up script/exploit writing for CTF players.",
     "url": "https://noraj.github.io/ctf-party/",
     "groups": [
       "misc"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "cve-api",
@@ -368,13 +368,13 @@
   },
   {
     "name": "exrex",
-    "version": "153.f180f21",
+    "version": "155.918a63c",
     "description": "Irregular methods on regular expressions.",
     "url": "https://github.com/asciimoo/exrex",
     "groups": [
       "misc"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-22"
   },
   {
     "name": "extracthosts",
@@ -620,13 +620,13 @@
   },
   {
     "name": "imhex",
-    "version": "nightly.r0.g34483cb",
+    "version": "nightly.r0.ga761d24",
     "description": "A Hex Editor for Reverse Engineers, Programmers and people that value their eye sight when working at 3 AM.",
     "url": "https://github.com/WerWolv/ImHex",
     "groups": [
       "misc"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-11-22"
   },
   {
     "name": "intelmq",
@@ -702,13 +702,13 @@
   },
   {
     "name": "leo",
-    "version": "40030.ada28bd871",
+    "version": "40593.a72cd0ef10",
     "description": "Literate programmer's editor, outliner, and project manager.",
     "url": "https://github.com/leo-editor/leo-editor",
     "groups": [
       "misc"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-22"
   },
   {
     "name": "magictree",
@@ -722,14 +722,14 @@
   },
   {
     "name": "mapcidr",
-    "version": "v1.1.97.r247.g7d653d1",
+    "version": "v1.1.97.r270.g797ec47",
     "description": "Utility program to perform multiple operations for a given subnet/CIDR ranges.",
     "url": "https://github.com/projectdiscovery/mapcidr",
     "groups": [
       "misc",
       "networking"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-11-22"
   },
   {
     "name": "metaforge",
@@ -815,13 +815,13 @@
   },
   {
     "name": "nsearch",
-    "version": "353.bd8205b",
+    "version": "437.ae92b48",
     "description": "Minimal script to help find script into the nse database.",
     "url": "https://github.com/jtibaquira/nsearch",
     "groups": [
       "misc"
     ],
-    "updated": "2020-12-04"
+    "updated": "2026-11-15"
   },
   {
     "name": "one-lin3r",
@@ -855,24 +855,24 @@
   },
   {
     "name": "pass-station",
-    "version": "v3.0.0.r35.g3b196ae",
+    "version": "v3.0.0.r38.gabc3273",
     "description": "CLI & library to search for default credentials among thousands of Products / Vendors.",
     "url": "https://noraj.github.io/pass-station/",
     "groups": [
       "misc",
       "recon"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "passdetective",
-    "version": "1.0.6.r4.g458f12e",
+    "version": "1.1.0.r1.g11bf1db",
     "description": "Scans shell command history to detect mistakenly written passwords, API keys, and secrets.",
     "url": "https://github.com/aydinnyunus/PassDetective",
     "groups": [
       "misc"
     ],
-    "updated": "2026-01-21"
+    "updated": "2026-11-22"
   },
   {
     "name": "payloadsallthethings",
@@ -1037,13 +1037,13 @@
   },
   {
     "name": "python2-exrex",
-    "version": "153.f180f21",
+    "version": "155.918a63c",
     "description": "Irregular methods on regular expressions.",
     "url": "https://github.com/asciimoo/exrex",
     "groups": [
       "misc"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-22"
   },
   {
     "name": "python2-google-streetview",
@@ -1248,14 +1248,14 @@
   },
   {
     "name": "suricata-verify",
-    "version": "suricata.8.0.8.r0.g5ee5412",
+    "version": "suricata.8.0.8.r149.gf47ccae",
     "description": "Suricata Verification Tests - Testing Suricata Output.",
     "url": "https://github.com/OISF/suricata-verify",
     "groups": [
       "misc",
       "ids"
     ],
-    "updated": "2026-11-01"
+    "updated": "2026-11-22"
   },
   {
     "name": "tcpxtract",

@@ -99,14 +99,14 @@
   },
   {
     "name": "mailsend-go",
-    "version": "156.07ba45e",
+    "version": "157.54f7e77",
     "description": "A multi-platform command line tool to send mail via SMTP protocol.",
     "url": "https://github.com/muquit/mailsend-go",
     "groups": [
       "spoof",
       "misc"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-15"
   },
   {
     "name": "motsa-dns-spoofing",

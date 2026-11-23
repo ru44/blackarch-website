@@ -406,13 +406,13 @@
   },
   {
     "name": "loadlibrary",
-    "version": "104.c40033b",
+    "version": "111.dd69ddb",
     "description": "Porting Windows Dynamic Link Libraries to Linux.",
     "url": "https://github.com/taviso/loadlibrary",
     "groups": [
       "binary"
     ],
-    "updated": "2022-01-30"
+    "updated": "2026-11-22"
   },
   {
     "name": "manticore",

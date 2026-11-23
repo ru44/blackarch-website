@@ -423,7 +423,7 @@
     "name": "fuzztalk",
     "version": "1.0.0.0",
     "description": "An XML driven fuzz testing framework that emphasizes easy extensibility and reusability.",
-    "url": "https://code.google.com/p/fuzztalk",
+    "url": "https://code.google.com/archive/p/fuzztalk",
     "groups": [
       "windows",
       "fuzzer"
@@ -532,7 +532,7 @@
     "name": "hexodus",
     "version": "72.69a96f6",
     "description": "Python framework project designed to enumerate and help in Active Directory attacks through Windows protocols like SMB, LDAP, WinRM and other.",
-    "url": "https://github.com/0xdsm/hexodus",
+    "url": "https://github.com/dsssssssm/hexodus",
     "groups": [
       "windows",
       "exploitation",
@@ -929,7 +929,7 @@
     "name": "nishang",
     "version": "0.7.6",
     "description": "Using PowerShell for Penetration Testing.",
-    "url": "https://code.google.com/p/nishang/",
+    "url": "https://code.google.com/archive/p/nishang",
     "groups": [
       "windows",
       "misc"
@@ -960,7 +960,7 @@
   },
   {
     "name": "osslsigncode",
-    "version": "750.868d6e9",
+    "version": "821.8cdb811",
     "description": "A small tool that implements part of the functionality of the Microsoft tool signtool.exe.",
     "url": "https://github.com/mtrojnar/osslsigncode",
     "groups": [
@@ -968,7 +968,7 @@
       "binary",
       "automation"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-11-22"
   },
   {
     "name": "pafish",
@@ -1284,7 +1284,7 @@
   },
   {
     "name": "roadlib",
-    "version": "511.f7b0c47",
+    "version": "514.7927083",
     "description": "Azure AD and O365 exploration framework.",
     "url": "https://github.com/dirkjanm/ROADtools",
     "groups": [
@@ -1292,11 +1292,11 @@
       "scanner",
       "recon"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-11-22"
   },
   {
     "name": "roadoidc",
-    "version": "511.f7b0c47",
+    "version": "514.7927083",
     "description": "Azure AD and O365 exploration framework.",
     "url": "https://github.com/dirkjanm/ROADtools",
     "groups": [
@@ -1304,11 +1304,11 @@
       "scanner",
       "recon"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-11-22"
   },
   {
     "name": "roadrecon",
-    "version": "511.f7b0c47",
+    "version": "514.7927083",
     "description": "Azure AD and O365 exploration framework.",
     "url": "https://github.com/dirkjanm/ROADtools",
     "groups": [
@@ -1316,11 +1316,11 @@
       "scanner",
       "recon"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-11-22"
   },
   {
     "name": "roadtx",
-    "version": "511.f7b0c47",
+    "version": "514.7927083",
     "description": "Azure AD and O365 exploration framework.",
     "url": "https://github.com/dirkjanm/ROADtools",
     "groups": [
@@ -1328,7 +1328,7 @@
       "scanner",
       "recon"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-11-22"
   },
   {
     "name": "rpak",

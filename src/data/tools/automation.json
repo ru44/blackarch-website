@@ -52,7 +52,7 @@
   },
   {
     "name": "autorecon",
-    "version": "297.e7e98f6",
+    "version": "299.bf40763",
     "description": "A multi-threaded network reconnaissance tool which performs automated enumeration of services.",
     "url": "https://github.com/AutoRecon/AutoRecon",
     "groups": [
@@ -60,7 +60,7 @@
       "recon",
       "scanner"
     ],
-    "updated": "2026-01-12"
+    "updated": "2026-11-15"
   },
   {
     "name": "awsbucketdump",
@@ -107,14 +107,14 @@
   },
   {
     "name": "brutespray",
-    "version": "908.d4e361b",
+    "version": "951.9572ae9",
     "description": "Brute-Forcing from Nmap output - Automatically attempts default creds on found services.",
     "url": "https://github.com/x90skysn3k/brutespray",
     "groups": [
       "automation",
       "cracker"
     ],
-    "updated": "2026-09-06"
+    "updated": "2026-11-22"
   },
   {
     "name": "brutex",
@@ -238,14 +238,14 @@
   },
   {
     "name": "dorkscout",
-    "version": "1.0.r13.gdd87daf",
+    "version": "1.0.r13.g02c0934",
     "description": "Golang tool to automate google dork scan against the entire internet or specific targets.",
     "url": "https://github.com/R4yGM/dorkscout",
     "groups": [
       "automation",
       "recon"
     ],
-    "updated": "2022-02-20"
+    "updated": "2026-11-23"
   },
   {
     "name": "dracnmap",
@@ -293,13 +293,13 @@
   },
   {
     "name": "emp3r0r",
-    "version": "v5.6.0.r6.g342eecdf",
+    "version": "v5.12.0.r0.g1d7ca1fa",
     "description": "Linux post-exploitation framework made by linux user.",
     "url": "https://github.com/jm33-m0/emp3r0r",
     "groups": [
       "automation"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-22"
   },
   {
     "name": "empire",
@@ -630,7 +630,7 @@
   },
   {
     "name": "nettacker",
-    "version": "0.4.1.r17.g14ef2b4",
+    "version": "0.4.1.r35.g797d30a",
     "description": "Automated Penetration Testing Framework.",
     "url": "https://github.com/OWASP/Nettacker",
     "groups": [
@@ -638,7 +638,7 @@
       "scanner",
       "recon"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-11-22"
   },
   {
     "name": "nfspy",
@@ -700,13 +700,13 @@
   },
   {
     "name": "panoptic",
-    "version": "262.e138360",
+    "version": "267.b6ec231",
     "description": "A tool that automates the process of search and retrieval of content for common log and config files through LFI vulnerability.",
     "url": "https://github.com/lightos/Panoptic",
     "groups": [
       "automation"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-11-15"
   },
   {
     "name": "pastejacker",
@@ -928,7 +928,7 @@
     "name": "simple-ducky",
     "version": "20.f15079e",
     "description": "A payload generator.",
-    "url": "https://code.google.com/p/simple-ducky-payload-generator",
+    "url": "https://code.google.com/archive/p/simple-ducky-payload-generator",
     "groups": [
       "automation",
       "exploitation"

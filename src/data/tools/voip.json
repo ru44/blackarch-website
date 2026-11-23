@@ -149,13 +149,13 @@
   },
   {
     "name": "sippts",
-    "version": "v4.2.1.r0.g44568c8",
+    "version": "v4.2.2.r0.gab75989",
     "description": "Set of tools to audit SIP based VoIP Systems.",
     "url": "https://github.com/Pepelux/sippts",
     "groups": [
       "voip"
     ],
-    "updated": "2026-09-28"
+    "updated": "2026-11-15"
   },
   {
     "name": "sipsak",

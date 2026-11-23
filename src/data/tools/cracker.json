@@ -761,7 +761,7 @@
     "name": "keimpx",
     "version": "300.37190f4",
     "description": "Tool to verify the usefulness of credentials across a network over SMB.",
-    "url": "http://code.google.com/p/keimpx/",
+    "url": "https://code.google.com/archive/p/keimpx",
     "groups": [
       "cracker"
     ],
@@ -1402,7 +1402,7 @@
     "name": "ssh-privkey-crack",
     "version": "0.4",
     "description": "A SSH private key cracker.",
-    "url": "https://code.google.com/p/lusas/",
+    "url": "https://code.google.com/archive/p/lusas",
     "groups": [
       "cracker"
     ],

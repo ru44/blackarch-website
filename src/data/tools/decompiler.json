@@ -162,14 +162,14 @@
   },
   {
     "name": "recaf",
-    "version": "4.0.0.alpha.r594.gd5888cd",
+    "version": "4.0.0.alpha.r655.g42368be",
     "description": "Modern Java bytecode editor.",
     "url": "https://github.com/Col-E/Recaf",
     "groups": [
       "decompiler",
       "reversing"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-11-15"
   },
   {
     "name": "rej",
@@ -195,12 +195,12 @@
   },
   {
     "name": "shuji",
-    "version": "0.8.0.r141.ge7bce98",
+    "version": "0.8.0.r148.g74566e9",
     "description": "Reverse engineering JavaScript and CSS sources from sourcemaps.",
     "url": "https://github.com/paazmaya/shuji",
     "groups": [
       "decompiler"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-22"
   }
 ]

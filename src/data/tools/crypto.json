@@ -238,13 +238,13 @@
   },
   {
     "name": "haiti",
-    "version": "4.0.0.r49.g2b06f11",
+    "version": "4.0.0.r77.gefc286b",
     "description": "Hash type identifier (CLI & lib).",
     "url": "https://noraj.github.io/haiti/",
     "groups": [
       "crypto"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-22"
   },
   {
     "name": "hash-buster",
@@ -429,13 +429,13 @@
   },
   {
     "name": "libbde",
-    "version": "20260916.r2.gdd48d47",
+    "version": "20260916.r3.g4343f14",
     "description": "A library to access the BitLocker Drive Encryption (BDE) format.",
     "url": "https://github.com/libyal/libbde",
     "groups": [
       "crypto"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-11-15"
   },
   {
     "name": "luksipc",
@@ -616,14 +616,14 @@
   },
   {
     "name": "rsactftool",
-    "version": "695.4ffadb0",
+    "version": "698.86a9f77",
     "description": "RSA tool for ctf - retrieve private key from weak public key and/or uncipher data.",
     "url": "https://github.com/RsaCtfTool/RsaCtfTool",
     "groups": [
       "crypto",
       "cracker"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-11-22"
   },
   {
     "name": "rsatool",
@@ -722,14 +722,14 @@
   },
   {
     "name": "tls-map",
-    "version": "v3.4.0.r3.gd5c7465",
+    "version": "v3.4.0.r7.g726321a",
     "description": "CLI & library for TLS cipher suites manipulation.",
     "url": "https://noraj.github.io/tls-map/",
     "groups": [
       "crypto",
       "misc"
     ],
-    "updated": "2026-11-01"
+    "updated": "2026-11-15"
   },
   {
     "name": "tlsenum",
@@ -744,14 +744,14 @@
   },
   {
     "name": "tlsfuzzer",
-    "version": "1961.5eebc44",
+    "version": "1966.51aad6e",
     "description": "SSL and TLS protocol test suite and fuzzer.",
     "url": "https://github.com/tlsfuzzer/tlsfuzzer",
     "groups": [
       "crypto",
       "fuzzer"
     ],
-    "updated": "2026-07-19"
+    "updated": "2026-11-22"
   },
   {
     "name": "tlshelpers",

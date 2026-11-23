@@ -23,14 +23,14 @@
   },
   {
     "name": "binaryninja",
-    "version": "6.0.10601",
+    "version": "6.0.10905",
     "description": "A new kind of reversing platform (demo version).",
     "url": "https://binary.ninja/free/",
     "groups": [
       "reversing",
       "binary"
     ],
-    "updated": "2026-09-13"
+    "updated": "2026-11-22"
   },
   {
     "name": "ctypes-sh",
@@ -65,14 +65,14 @@
   },
   {
     "name": "ghidriff",
-    "version": "v1.0.0.r6.g4f5d895",
+    "version": "v1.0.0.r37.g05350fc",
     "description": "Python Command-Line Ghidra Binary Diffing Engine.",
     "url": "https://github.com/clearbluejar/ghidriff",
     "groups": [
       "reversing",
       "automation"
     ],
-    "updated": "2026-05-31"
+    "updated": "2026-11-22"
   },
   {
     "name": "gostringsr2",
@@ -124,7 +124,7 @@
     "name": "javasnoop",
     "version": "1.1",
     "description": "A tool that lets you intercept methods, alter data and otherwise hack Java applications running on your computer.",
-    "url": "https://code.google.com/p/javasnoop/",
+    "url": "https://code.google.com/archive/p/javasnoop",
     "groups": [
       "reversing"
     ],
@@ -285,7 +285,7 @@
   },
   {
     "name": "radare2-keystone",
-    "version": "960.68e9f6d",
+    "version": "1006.480195c",
     "description": "Keystone assembler plugins for radare2.",
     "url": "https://github.com/radareorg/radare2-extras/tree/master/unicorn",
     "groups": [
@@ -293,7 +293,7 @@
       "binary",
       "disassembler"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-22"
   },
   {
     "name": "seccomp-tools",

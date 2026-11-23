@@ -439,14 +439,14 @@
   },
   {
     "name": "sliver",
-    "version": "v1.7.9.r0.g6cf3ad7",
+    "version": "v1.7.9.r4.gaa787bf",
     "description": "Opensource C2 framework.",
     "url": "https://github.com/BishopFox/sliver",
     "groups": [
       "backdoor",
       "automation"
     ],
-    "updated": "2026-11-01"
+    "updated": "2026-11-22"
   },
   {
     "name": "syringe",

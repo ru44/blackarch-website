@@ -1,13 +1,13 @@
 [
   {
     "name": "3proxy",
-    "version": "0.9.6",
+    "version": "1.0.3",
     "description": "Tiny free proxy server.",
     "url": "https://github.com/3proxy/3proxy",
     "groups": [
       "proxy"
     ],
-    "updated": "2026-06-29"
+    "updated": "2026-11-15"
   },
   {
     "name": "bdfproxy",
@@ -184,24 +184,24 @@
   },
   {
     "name": "proxify",
-    "version": "905.01804da",
+    "version": "907.06d7d0b",
     "description": "Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipulation, and replay on the go.",
     "url": "https://github.com/projectdiscovery/proxify",
     "groups": [
       "proxy"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-22"
   },
   {
     "name": "proxybroker2",
-    "version": "663.bbf753d",
+    "version": "665.7ec3157",
     "description": "Proxy [Finder | Checker | Server]. HTTP(S) & SOCKS.",
     "url": "https://github.com/bluet/proxybroker2",
     "groups": [
       "proxy",
       "scanner"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-11-22"
   },
   {
     "name": "proxyp",

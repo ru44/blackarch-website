@@ -11,14 +11,14 @@
   },
   {
     "name": "airgeddon",
-    "version": "v12.02.r0.g700ad7d",
+    "version": "v12.10.r0.g40c6beb",
     "description": "Multi-use bash script for Linux systems to audit wireless networks.",
     "url": "https://github.com/v1s1t0r1sh3r3/airgeddon",
     "groups": [
       "wireless",
       "automation"
     ],
-    "updated": "2026-09-26"
+    "updated": "2026-11-15"
   },
   {
     "name": "airopy",
@@ -184,7 +184,7 @@
     "name": "fern-wifi-cracker",
     "version": "303.58ed54e",
     "description": "WEP, WPA wifi cracker for wireless penetration testing.",
-    "url": "http://code.google.com/p/fern-wifi-cracker/",
+    "url": "https://github.com/savio-code/fern-wifi-cracker",
     "groups": [
       "wireless",
       "cracker"
@@ -373,7 +373,7 @@
     "name": "mfcuk",
     "version": "0.3.8",
     "description": "MIFARE Classic Universal toolKit.",
-    "url": "http://code.google.com/p/mfcuk/",
+    "url": "https://github.com/nfc-tools/mfcuk",
     "groups": [
       "wireless"
     ],
